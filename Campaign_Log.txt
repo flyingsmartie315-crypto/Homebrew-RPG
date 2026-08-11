@@ -1,0 +1,54 @@
+# Campaign_Log.txt
+# Living World State & GM Memory Log
+
+PURPOSE
+This file records all significant in-game events, consequences, and state changes that override or modify the base lore files. 
+It functions as the campaign’s persistent memory and “save game”. 
+The AI Game Master should load and consult this file at the start of every session and whenever continuity, consequences, or current world state are relevant.
+
+USAGE RULES
+- Update this file after every major scene, session, or meaningful consequence.
+- Record only what has actually happened or been established in play.
+- Distinguish clearly between Permanent Changes, Temporary Conditions, and Open Threads.
+- When base lore and this log conflict, this log takes precedence for the current campaign.
+- Keep entries concise, factual, and dated where possible.
+- The player or GM may request a full update or specific section refresh at any time.
+
+=== CAMPAIGN METADATA ===
+Campaign Name: 
+Starting Date (in-world): 
+Current In-World Date / Season: 
+Current Location: 
+Last Updated: 
+
+=== ACTIVE PARTY / COMPANY STATUS ===
+- Members (name, status, notable injuries or conditions):
+- Resources & Wealth:
+- Current Goal / Contract:
+- Reputation Summary (local / regional):
+
+=== PERMANENT WORLD CHANGES ===
+(These override base lore going forward)
+- 
+
+=== TEMPORARY CONDITIONS & ONGOING EFFECTS ===
+(Time-limited or reversible states)
+- 
+
+=== FACTION & REPUTATION TRACKER ===
+(Use simple descriptors: Allied / Friendly / Neutral / Wary / Hostile / Hunted)
+- 
+
+=== KEY NPC STATUS ===
+(Alive / Dead / Missing / Captured / Changed allegiance, plus brief notes)
+- 
+
+=== MAJOR EVENTS LOG ===
+(Reverse chronological – newest first. Include date/season if known and brief consequence)
+- 
+
+=== OPEN PLOTS, HOOKS & UNRESOLVED THREADS ===
+- 
+
+=== NOTES FOR GM ===
+(Reminders, pending consequences, player flags, tone notes, etc.)
