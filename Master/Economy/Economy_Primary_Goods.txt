@@ -1,32 +1,135 @@
-Trade Items (Produced Primary Goods) -Not Exhaustive-
-Universal foundation commodities villages; values standard merchant stack/cart load(~100–200 units). Prices gc/sc/bc. Fluctuate region/supply(±50%).
-Olives — Pressed oil cooking lamps trade staple. 1 stack → 25 bc. Wt:140kg Vol:1.1m³.
-Grain — Staple bread/flour base. 1 stack → 10 bc. Wt:160kg Vol:1m³.
-Butter — Dairy preserved food. 1 stack → 60 bc. Wt:100kg Vol:0.8m³.
-Fish — River/sea smoked/dried trade. 1 stack → 35 bc. Wt:120kg Vol:1m³.
-Grapes — Fermented wine fresh trade. 1 stack → 40 bc. Wt:130kg Vol:1.2m³.
-Meat — Game/livestock smoked/salted transport. 1 stack → 70 bc. Wt:110kg Vol:0.9m³.
-Cheese — Dairy long-keeping food. 1 stack → 65 bc. Wt:105kg Vol:0.8m³.
-Date Fruit — Desert staple dried trade. 1 stack → 55 bc. Wt:115kg Vol:1m³.
-Clay — Pottery bricks tiles raw. 1 stack → 15 bc. Wt:180kg Vol:0.7m³.
-Flax — Linen fiber textile base. 1 stack → 40 bc. Wt:120kg Vol:1.5m³.
-Wool — Sheep fleeces cloth/weaving. 1 stack → 20 bc. Wt:100kg Vol:2m³.
-Iron Ore — Smelting tools/weapons base. 1 stack → 60 bc. Wt:250kg Vol:1m³.
-Salt — Preservation/seasoning. 1 stack → 80 bc. Wt:200kg Vol:0.5m³.
-Charcoal — Forge/cooking fuel. 1 stack → 45 bc. Wt:90kg Vol:2m³.
-Hides — Animal skins leather/tanning. 1 stack → 50 bc. Wt:110kg Vol:1.8m³..
-Silver Ore — Precious smelting base. 1 stack → 1 sc 10 bc. Wt:220kg Vol:0.8m³.
-Raw Silk — Silkworms luxury textile base. 1 stack → 2 sc. Wt:80kg Vol:1.5m³.
-Spice — Desert imports flavor/preservation. 1 stack → 3 sc. Wt:90kg Vol:1m³.
-Fur — Trapped pelts clothing/trade. 1 stack → 1 sc. Wt:95kg Vol:2m³.
-Walrus Tusk — Northern ivory carving/trade. 1 stack → 2 sc. Wt:85kg Vol:0.6m³.
-Honey — Sweetener/preservation beehives. 1 stack → 70 bc. Wt:120kg Vol:0.9m³.
-Beeswax — Candle/sealing hives. 1 stack → 80 bc. Wt:110kg Vol:0.8m³.
-Tallow — Animal fat candles soap cooking. 1 stack → 50 bc. Wt:130kg Vol:1m³.
-Gold Ore — Precious smelting base. 1 stack → 5 sc. Wt:240kg Vol:0.7m³..
-Dyes — Plant/mineral cloth/textile colors. 1 stack → 1 sc 5 bc. Wt:90kg Vol:1.2m³.
-Eggs — Poultry fresh food/trade. 1 stack(200–300 crates) → 25 bc. Wt:90kg Vol:1m³.
-Timber — Raw logs/planks building/ships. 1 stack → 40 bc. Wt:350kg Vol:3m³.
-Hardwood — Dense furniture/weapons wood. 1 stack → 1 sc. Wt:300kg Vol:2.5m³.
-Quarried Stone — Cut blocks construction. 1 stack → 50 bc. Wt:500kg Vol:1.5m³.
-These primary goods form Virath’s economic foundation. All trade derives from these basics.
+# Economy_Primary_Goods.txt
+# Trade Items – Produced Primary Goods (Not Exhaustive)
+
+HEADER NOTE
+All prices are expressed in the universal currency system (1 gc = 20 sc = 240 bc).
+Prices shown are base border / market values and are subject to ±50% (or greater) fluctuation based on region, supply, demand, season, and local conditions.
+# Economy_Primary_Goods.txt
+# Primary Goods – Base Unit: 1 kg (or single natural item)
+
+HEADER NOTE
+All prices use the universal currency (1 gc = 20 sc = 240 bc).
+Prices shown are base market values and are subject to ±50% (or greater) fluctuation by region, season, supply, and demand.
+Base unit is 1 kg wherever practical. Larger lots are provided for convenience.
+
+These goods form the economic foundation of Virath.
+
+---
+
+Grain
+Base: 3 bc per kg
+Common lots: Sack (40 kg) → 1 sc 20 bc | Cart load (800 kg) → 10 sc
+Wt/Vol reference: 1 kg ≈ 1.3 L
+
+Olives
+Base: 4 bc per kg
+Common lots: Sack (30 kg) → 1 sc | Cart load (600 kg) → 10 sc
+Used for oil and eating.
+
+Butter
+Base: 12 bc per kg
+Common lots: Small cask (20 kg) → 1 sc | Larger cask (50 kg) → 2 sc 10 bc
+
+Fish (smoked/dried)
+Base: 8 bc per kg
+Common lots: Sack (25 kg) → 2 sc | Cart load (400 kg) → 13 sc 10 bc
+
+Grapes
+Base: 6 bc per kg
+Common lots: Crate (20 kg) → 1 sc | Cart load (500 kg) → 12 sc 10 bc
+
+Meat (smoked/salted)
+Base: 15 bc per kg
+Common lots: Sack (20 kg) → 1 sc 5 bc | Cart load (350 kg) → 21 sc 15 bc
+
+Cheese
+Base: 14 bc per kg
+Common lots: Wheel/sack (15 kg) → 2 sc 10 bc | Larger lot (40 kg) → 2 sc 10 bc
+
+Date Fruit (dried)
+Base: 9 bc per kg
+Common lots: Sack (25 kg) → 2 sc 5 bc
+
+Clay
+Base: 2 bc per kg
+Common lots: Cart load (1,000 kg) → 8 sc 10 bc
+
+Flax
+Base: 7 bc per kg
+Common lots: Bundle/sack (20 kg) → 1 sc 10 bc
+
+Wool
+Base: 5 bc per kg
+Common lots: Fleece sack (25 kg) → 1 sc 5 bc | Cart load (400 kg) → 8 sc 10 bc
+
+Iron Ore
+Base: 8 bc per kg
+Common lots: Sack (50 kg) → 1 sc 15 bc | Cart load (800 kg) → 26 sc 15 bc
+
+Salt
+Base: 18 bc per kg
+Common lots: Sack (20 kg) → 1 sc 10 bc | Cart load (400 kg) → 30 sc
+
+Charcoal
+Base: 6 bc per kg
+Common lots: Sack (15 kg) → 90 bc | Cart load (300 kg) → 7 sc 10 bc
+
+Hides (raw)
+Base: 10 bc per kg
+Common lots: Bundle (15 kg) → 1 sc 10 bc
+
+Silver Ore
+Base: 1 sc 5 bc per kg
+Common lots: Small sack (10 kg) → 12 sc 10 bc
+
+Raw Silk
+Base: 2 sc per kg
+Common lots: Bundle (5 kg) → 10 sc
+
+Spice
+Base: 3 sc per kg
+Common lots: Small chest (5 kg) → 15 sc
+
+Fur
+Base: 1 sc 10 bc per kg
+Common lots: Bundle (10 kg) → 15 sc
+
+Walrus Tusk
+Base: 2 sc 10 bc per kg
+Common lots: Single large tusk (8–12 kg) → 20–30 sc
+
+Honey
+Base: 14 bc per kg
+Common lots: Jar/cask (15 kg) → 2 sc 10 bc
+
+Beeswax
+Base: 16 bc per kg
+Common lots: Block (10 kg) → 1 sc 15 bc
+
+Tallow
+Base: 9 bc per kg
+Common lots: Cask (25 kg) → 2 sc 5 bc
+
+Gold Ore
+Base: 6 sc per kg
+Common lots: Small sack (5 kg) → 30 sc
+
+Dyes
+Base: 1 sc 10 bc per kg
+Common lots: Pot (5 kg) → 7 sc 10 bc
+
+Eggs
+Base: 1 bc each (≈ 20–25 eggs per kg)
+Common lots: Basket (100 eggs) → 1 sc
+
+Timber (mixed)
+Base: 4 bc per kg
+Common lots: Cart load (1,200 kg) → 20 sc
+
+Hardwood
+Base: 12 bc per kg
+Common lots: Cart load (900 kg) → 45 sc
+
+Quarried Stone
+Base: 3 bc per kg
+Common lots: Cart load (1,500 kg) → 18 sc 15 bc

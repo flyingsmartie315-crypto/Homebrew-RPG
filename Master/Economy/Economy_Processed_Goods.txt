@@ -1,19 +1,91 @@
-Processed Goods (Derived from Primary Village Commodities)
-Refined/manufactured towns/forges/mills/workshops. Values per standard stack/cart load(~100–200 units/equiv processed volume). Prices gc/sc/bc. Fluctuate region quality supply(±50%).
-Beer — Fermented grain(barley/malt); common drink preservation. 1 stack(barrels ~100L) → 1 sc. Wt:180kg Vol:1.2m³. Grain.
-Crude Iron — Smelted ore; basic ingots tools/weapons. 1 stack(ingots ~100kg metal) → 2 sc. Wt:120kg Vol:0.5m³. Iron Ore.
-Wrought Iron — Forged crude; stronger workable armor/tools. 1 stack(ingots ~100kg) → 3 sc. Wt:110kg Vol:0.5m³. Crude Iron.
-Wine — Fermented grapes; luxury drink trade staple. 1 stack(barrels ~100L) → 1 sc. Wt:180kg Vol:1.1m³. Grapes.
-Steel — Refined wrought; balanced blades/armor. 1 stack(ingots ~100kg) → 5 sc. Wt:110kg Vol:0.5m³. Wrought Iron.
-Fine Steel — High-purity; superior weapons/armor base. 1 stack(ingots ~100kg) → 8 sc. Wt:110kg Vol:0.5m³. Steel.
-Whale Oil — Rendered fat; lamps soap leather treatment. 1 stack(barrels ~100L) → 2 sc. Wt:170kg Vol:1m³. Walrus Tusk(coastal whale hunts).
-Leather — Tanned hides; armor boots saddles. 1 stack(sheets ~100 hides) → 1 sc. Wt:120kg Vol:1.5m³. Hides.
-Planks — Sawn timber; construction ships furniture. 1 stack(boards ~100m² coverage) → 80 bc. Wt:300kg Vol:2.5m³. Timber.
-Crucible Steel — Legendary high-tier alloy; finest blades/armor. 1 stack(ingots ~50kg) → 50 gc. Wt:60kg Vol:0.3m³. Fine Steel+rare Thamaskene refinement.
-Pottery — Fired clay vessels/tiles; containers roofing. 1 stack(vessels/tiles) → 30 bc. Wt:120kg Vol:1.2m³. Clay.
-Oil — Pressed olives; cooking lamps trade staple. 1 stack(jars ~100L) → 80 bc. Wt:150kg Vol:0.9m³. Olives.
-Tools — Forged iron implements(hoes axes hammers). 1 stack(20–30 tools) → 1 sc. Wt:100kg Vol:1m³. Iron Ore→Crude Iron→Wrought Iron.
-Linen — Woven flax cloth; clothing sails bandages. 1 stack(bolts ~100m²) → 1 sc. Wt:90kg Vol:2m³. Flax.
-Velvet — Luxurious woven fabric; noble clothing/trade. 1 stack(bolts ~50m²) → 5 sc. Wt:80kg Vol:2m³. Wool+dyes+advanced weaving.
-Felt — Compressed wool; hats padding insulation. 1 stack(sheets ~100m²) → 50 bc. Wt:100kg Vol:2m³. Wool.
-These processed goods represent next tier. Supply raw primary inputs; towns mills forges transform higher-value(typically 2–5× raw price). Barter rural common; coin urban elite trade. All advanced goods(armor weapons luxury) derive from these basics.
+# Economy_Processed_Goods.txt
+# Processed Goods – Base Unit: 1 kg (or single natural item)
+
+HEADER NOTE
+All prices use the universal currency (1 gc = 20 sc = 240 bc).
+Prices shown are base market values and are subject to ±50% (or greater) fluctuation by region, quality, supply, and demand.
+Base unit is 1 kg wherever practical. Larger lots are provided for convenience.
+
+Processed goods normally sell for 2.5–6× the value of their primary inputs after labour and wastage, except for high-skill or luxury items.
+
+---
+
+Beer
+Base: 18 bc per litre (≈ 18 bc per kg)
+Common lots: Small barrel (50 L) → 3 sc 15 bc | Large barrel (100 L) → 7 sc 10 bc
+Source: Grain
+
+Wine
+Base: 35 bc per litre
+Common lots: Small barrel (50 L) → 7 sc 5 bc | Large barrel (100 L) → 14 sc 10 bc
+Source: Grapes
+
+Oil (olive)
+Base: 25 bc per litre
+Common lots: Jar (10 L) → 1 sc 5 bc | Small barrel (50 L) → 5 sc 5 bc
+Source: Olives
+
+Crude Iron
+Base: 35 bc per kg
+Common lots: Ingot lot (50 kg) → 7 sc 5 bc | Cart lot (300 kg) → 43 sc 15 bc
+Source: Iron Ore
+
+Wrought Iron
+Base: 55 bc per kg
+Common lots: Ingot lot (50 kg) → 11 sc 10 bc
+Source: Crude Iron
+
+Steel
+Base: 1 sc 5 bc per kg
+Common lots: Ingot lot (50 kg) → 31 sc 5 bc
+Source: Wrought Iron
+
+Fine Steel
+Base: 2 sc per kg
+Common lots: Ingot lot (30 kg) → 60 sc
+Source: Steel
+
+Crucible Steel
+Base: 12 gc per kg
+Common lots: Small ingot (5 kg) → 60 gc
+Source: Fine Steel + rare refinement
+Notes: Valuble material. Restricted.
+
+Leather
+Base: 45 bc per kg
+Common lots: Bundle (20 kg) → 3 sc 15 bc | Larger lot (50 kg) → 9 sc 10 bc
+Source: Hides
+
+Planks
+Base: 15 bc per kg
+Common lots: Stack (200 kg) → 12 sc 10 bc | Cart load (800 kg) → 50 sc
+Source: Timber
+
+Pottery
+Base: 12 bc per kg
+Common lots: Crate (40 kg) → 2 sc
+
+Tools (common iron)
+Base: 1 sc – 2 sc each (depending on size and quality)
+Common lots: Set of 10 mixed tools → 12–18 sc
+Source: Wrought Iron
+
+Linen
+Base: 1 sc 5 bc per kg (or per ≈ 4–5 m² of cloth)
+Common lots: Bolt (10 kg / ≈ 45 m²) → 12 sc 10 bc
+Source: Flax
+
+Velvet
+Base: 6 sc per kg
+Common lots: Bolt (5 kg) → 30 sc
+Source: Fine wool + dyes + skilled weaving
+
+Felt
+Base: 25 bc per kg
+Common lots: Roll (15 kg) → 1 sc 15 bc
+Source: Wool
+
+Whale Oil
+Base: 40 bc per litre
+Common lots: Small barrel (50 L) → 8 sc 10 bc
+Source: Coastal whale hunts

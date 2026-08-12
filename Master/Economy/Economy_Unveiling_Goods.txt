@@ -1,34 +1,126 @@
-Unveiling Commodity/Bounty Economy
-Since the Unveiling, hunters, vermin-slayers, and coastal raiders harvest monstrous beasts for alchemists, armorers, and physicians. Guilds in border towns buy raw carcasses cheap, process them, and sell refined materials at premium to wealthy buyers.
+# Economy_Unveiling_Goods.txt
+# Unveiling Commodity & Bounty Economy
 
-Alchemy & Materials Value
-Prices in Virath gc/sc/bc per typical harvestable unit from one adult specimen (fresh quality, border-region market). Values reflect rarity, utility, demand, and Unveiling-era scarcity.
+HEADER NOTE
+All prices use the universal currency (1 gc = 20 sc = 240 bc).
+Prices shown are base border-market values for fresh, typical-quality material from one adult specimen.
+High-end prices reflect special buyers (alchemists, master armourers, physicians, ritualists, etc.).
+Prices can fluctuate significantly (±50% or more) based on rarity, condition, location, and risk.
 
-Commodity Table
-Commodity,Source / Part,Typical Unit,Price (border market),High-End Price (special buyers),Primary Uses,Notes & Risks
-Spider Silk,Giant spiders (silk glands),"1 full cocoon / skein (≈ 1.2 kg, 50 ft length)",2 gc 10 sc,—,"Unbreakable rope, lightweight armour padding, surgical thread","Stronger than steel, lighter than linen. High demand for rope, armour and surgery."
-Chitin Plates,Giant beetles / stag beetles,"1 large intact plate (≈ 3 kg, hand-sized)",1 gc 15 sc,—,"Hardening agents, experimental scale mail",Hard as boiled leather. Processed powder sells higher.
-Venom Sacs,"Giant spiders, wasps/hornets","1 intact sac (≈ 0.4 kg, fist-sized)",3 gc,—,"Potent poisons, sleeping draughts, pain-numbing salves",Paralytic or fever-inducing. Extremely sought by assassins and physicians.
-Mandibles & Stingers,"Giant beetles, wasps/hornets",1 matched pair (≈ 0.8 kg total),12 sc,—,"Surgical tools, alchemical foci",Razor-sharp and durable. Prized by surgeons and enchanters.
-Ant Acid Glands,Giant ants,"1 full gland (≈ 0.6 kg, fist-sized)",18 sc,—,"Etching steel, corrosive oils",Potent steel-etching agent. High value to smiths and saboteurs.
-Gryphon Talon / Ivory,Gryphons,"1 intact talon (≈ 0.7 kg, forearm-length)",2 gc 15 sc,—,"Daggers, arrowheads, ritual amulets",High demand from armourers and ritualists. Illegal without Knights Griffon writ. Requires padded transport box.
-Direwolf Fangs,Direwolves,1 matched pair (≈ 1.2 kg total),45 sc,2 gc (alpha direwolf),"Dagger blades, arrowheads, warding amulets",Razor-sharp and frost-resistant. +10 vs. cold HSI. Must be kept frozen during transport.
-Rock Troll Hide,Rock Trolls,"1 large intact patch (≈ 15 kg, torso-sized)",2 gc 5 sc,6 gc (mountain troll),"+4/3/5 AC armour plating, sharpening stones",Naturally armoured against blunt force. Very heavy. Requires reinforced wagon.
-RiverSwamp Troll Hide,RiverSwamp Trolls,"1 large intact patch (≈ 12 kg, torso-sized)",1 gc 15 sc,4 gc (elder swamp troll),+3/4/4 AC swamp-resistant armour,"Slimy, water-repellent. Must be kept damp or it cracks."
-False Moon Shard,False Moon fragments,1 fist-sized crystal (≈ 0.8 kg),50–120 sc,300+ sc (large/pure),"Alchemical catalysts, minor enchantments",Jagged purple-black. Must be stored in lead-lined containers.
-Veil-Touched Hide,Unveiling-touched beasts,"1 full hide (adult beast, ≈ 8 kg)",80–200 sc,400+ sc (rare beast),"+1 AC armour lining, ritual cloaks","Mottled, faintly luminescent. Requires salt-curing for long-distance transport."
-Sea Serpent Scale,Sea serpents (armoured hide),"1 large intact scale (≈ 2 kg, small shield-sized)",3 gc 10 sc,—,"Rust-impervious armour, vision/strength powders",High demand from alchemists and smiths. Requires salt-water barrel for transport.
-Sea Serpent Tooth,Sea serpents (jagged fangs),"1 large tooth (≈ 1.5 kg, spearhead-sized)",1 gc 5 sc,—,"Spearheads, warding amulets","Dense, non-corroding ivory. Must be kept in brine."
-Leviathan Scale,Leviathans (outer plates),"1 large intact scale (≈ 4 kg, shield-sized)",8 gc,20+ gc,"Siege armour plating, ship hull reinforcement",Extremely heavy and durable. Requires reinforced wagon or ship hold.
-Leviathan Tooth,Leviathans (jagged fangs),"1 large tooth (≈ 6 kg, spearhead-sized)",3 gc 15 sc,10 gc,"Spearheads, ritual staves, siege weapons",Massive and nearly unbreakable. Needs multiple porters or cart.
-Sea Serpent / Leviathan Ivory,Sea serpents & Leviathans (processed teeth/bone),1 large carved piece (≈ 1.2–4 kg),2 gc 10 sc – 5 gc,—,"Weapon shafts, warding amulets, ritual items","Dense, polished, non-corroding ivory. Sea serpent version lighter and more flexible; Leviathan version much denser and heavier. Requires padded crate."
-  
-Metallurgy of the Unveiling (Valyrian Steel)
-When the False Moon swells low and heavy, comets blaze across the sky. From these falls come raw lumps of veil-fallen steel ore—cold, unearthly fragments called veil drop.
-Raw veil drop (standard 200 g lump): 20 gc (worth its weight in gold).
-Refined Valyrian steel (1 kg ingot): requires 1.6 kg raw veil drop.
-Finished 2 kg ingot: 800–1200 gc in Pravend and Charas markets.
-Only Thamaskene crucible forges can work it. Fortune seekers risk their lives during False Moon nights to claim it.
-Trade & Black Market Dynamics
+Since the Unveiling, hunters, vermin-slayers, and coastal raiders harvest monstrous beasts. Guilds in border towns buy raw materials cheaply, process them, and sell refined products at a premium.
+
+---
+
+Spider Silk
+Source: Giant spiders (silk glands)
+Unit: 1 full cocoon / skein (≈ 1.2 kg, 50 ft)
+Border Price: 2 gc
+Uses: Unbreakable rope, lightweight armour padding, surgical thread
+Notes: Stronger than steel, lighter than linen. High demand.
+
+Chitin Plates
+Source: Giant beetles / stag beetles
+Unit: 1 large intact plate (≈ 3 kg)
+Border Price: 20 sc
+Uses: Hardening agents, experimental scale mail
+
+Venom Sacs
+Source: Giant spiders, wasps, hornets
+Unit: 1 intact sac (≈ 0.4 kg)
+Border Price: 1 gc 10 sc
+Uses: Potent poisons, sleeping draughts, pain-numbing salves
+Notes: Extremely sought by assassins and physicians.
+
+Mandibles & Stingers
+Source: Giant beetles, wasps, hornets
+Unit: 1 matched pair (≈ 0.8 kg)
+Border Price: 12 sc
+Uses: Surgical tools, alchemical foci
+
+Ant Acid Glands
+Source: Giant ants
+Unit: 1 full gland (≈ 0.6 kg)
+Border Price: 18 sc
+Uses: Etching steel, corrosive oils
+
+Gryphon Talon / Ivory
+Source: Gryphons
+Unit: 1 intact talon (≈ 0.7 kg)
+Border Price: 2 gc 15 sc
+Uses: Daggers, arrowheads, ritual amulets
+Notes: Often illegal without proper writ. Requires padded transport.
+
+Direwolf Fangs
+Source: Direwolves
+Unit: 1 matched pair (≈ 1.2 kg)
+Border Price: 32 sc (1 gc 10 sc for alpha)
+Uses: Dagger blades, arrowheads, warding amulets
+Notes: Must be kept frozen during transport.
+
+Rock Troll Hide
+Source: Rock Trolls
+Unit: 1 large intact patch (≈ 15 kg)
+Border Price: 2 gc 5 sc (6 gc for mountain troll)
+Uses: Heavy armour plating (+4/3/5 AC), sharpening stones
+Notes: Very heavy.
+
+River/Swamp Troll Hide
+Source: River or Swamp Trolls
+Unit: 1 large intact patch (≈ 12 kg)
+Border Price: 1 gc 15 sc (4 gc for elder)
+Uses: Swamp-resistant armour (+3/4/4 AC)
+Notes: Waterproof
+
+False Moon Shard
+Source: False Moon fragments
+Unit: 1 fist-sized crystal (≈ 0.8 kg)
+Border Price: 50–120 sc (300+ sc for large/pure)
+Uses: Alchemical catalysts, minor enchantments
+Notes: Must be stored in lead-lined containers.
+
+Sea Serpent Scale
+Source: Sea serpents
+Unit: 1 large intact scale (≈ 2 kg)
+Border Price: 2 gc 10 sc
+Uses: Rust-impervious armour, alchemical powders
+
+Sea Serpent Tooth
+Source: Sea serpents
+Unit: 1 large tooth (≈ 1.5 kg)
+Border Price: 1 gc 5 sc
+Uses: Spearheads, warding amulets
+Notes: Keep in brine.
+
+Leviathan Scale
+Source: Leviathans
+Unit: 1 large intact scale (≈ 4 kg)
+Border Price: 8 gc (20+ gc high-end)
+Uses: Shields, ship hull reinforcement
+
+Leviathan Tooth
+Source: Leviathans
+Unit: 1 large tooth (≈ 6 kg)
+Border Price: 3 gc 15 sc (10 gc high-end)
+Uses: Spearheads, ritual staves, siege weapons
+
+Sea Serpent / Leviathan Ivory
+Source: Processed teeth and bone
+Unit: 1 large carved piece (1.2–4 kg)
+Border Price: 2 gc 10 sc – 5 gc
+Uses: Weapon shafts, amulets, ritual items
+
+---
+
+Metallurgy of the Unveiling (Veil-Drop / “Valyrian” Steel)
+
+When the False Moon swells low and heavy, comets sometimes blaze across the sky. From these falls come cold, unearthly lumps of metal known as veil-drop.
+
+- Raw veil-drop (standard 200 g lump): 20 gc
+- Refined Valyrian-style steel (1 kg ingot): requires approximately 1.6 kg raw veil-drop
+- Finished high-quality 2 kg ingot: 800–1200 gc in major markets
+
+Only specialised crucible forges can work this metal. Fortune-seekers risk their lives on False Moon nights to claim it.
+
+Trade & Black Market
 Primary hubs: border towns, coastal wrecks, ruined crypts, steppe caravans.
-Risks: many items are heretical or treasonous. False Moon nights increase potency and danger.
+Many of these materials are considered heretical or restricted. False Moon nights increase both potency and danger.

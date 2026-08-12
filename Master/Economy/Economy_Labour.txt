@@ -1,8 +1,245 @@
-Wages (Base bc, supply-dependent)
-Common labor: 2–6 bc (farmhand 2, laborer 3, herdsman 2, servant 2).
-Skilled trades: 20–80 bc (leatherworker 20, miller 28, stonemason 76, armorer 72).
-Specialists: 50–100+ bc (mercenary 50, physician 60, bodyguard 80, executioner 100).
-Scaling
-Proficiency: Apprentice 0.25×, Journeyman base, Experienced 1.25×, Local Renown 2×, Region/Kingdom 5×, World 10×.
-Client: Commoner base, Bourgeoisie 2×, Nobility 5×.
-Example: World-renowned Imperial glassblower (72 bc base) ×10 ×5 = 3600 bc = 15 gc daily.
+# Economy_Labour.txt
+# Daily Wages of Virath
+
+IMPORTANT NOTE ON WAGES
+The daily wage figures listed below do not necessarily mean the worker receives that amount in actual coin at the end of each day.
+They represent the total economic value derived from the labour.
+
+For rural commoners (especially farmhands, herdsmen, and village labourers) the majority of this value is typically received in kind — food, produce, board, grazing rights, a share of the harvest, or other household provisions — rather than as brass coins in hand.
+Cash payment, when it occurs at all, is often only a small portion of the total value.
+
+Urban workers are more likely to receive a higher proportion of their wage in actual coin, as they must purchase most of their food and necessities.
+
+All wages are base rates and are supply-dependent.
+
+NOTE ON LISTS
+The job lists below are illustrative, not exhaustive. Real societies contain far more occupations than can be listed here. Use the definitions and wage bands to place any unlisted role.
+
+---
+
+COMMON LABOUR
+Defined as physical work that requires no formal apprenticeship, only basic tools or none at all, and can be performed by most healthy adults after minimal instruction.
+It is the foundation of rural and urban economies and is typically paid at the lowest rates.
+
+Additional Note:
+Workers in this class frequently move between different jobs. A rural farmhand or village labourer will often perform many different Rural Common Labour tasks over the course of a year according to the season (sowing, reaping, ditching, woodcutting, etc.).
+Urban Common Labour roles tend to be more settled, with individuals remaining in the same type of work for longer periods.
+
+RURAL COMMON LABOUR
+Base daily value: 2–4 bc
+
+Regular (2–3 bc):
+- Farmhand / field hand
+- Herdsman / shepherd / goatherd
+- Village labourer
+- Servant / house servant
+- Thresher
+- Reaper
+- Gleaner
+- Fisher (basic coastal or river)
+- Forager / gatherer
+- Reed cutter
+- Mud-brick maker
+- Dung collector
+- Water carrier (rural)
+- Poultry keeper
+- Swineherd
+- Orchard worker
+- Vineyard labourer
+- Haymaker
+- Flax puller
+- Olive picker
+
+Heavier Rural Labour (3–4 bc):
+- Ditcher / digger
+- Woodcutter
+- Charcoal burner
+- Quarry hand
+- Log roller / timber hauler
+- Well digger
+- Earth mover
+- Peat cutter
+- Stone clearer
+- Irrigation ditch maintainer
+- Fence builder (basic)
+- Land clearer
+
+URBAN COMMON LABOUR
+Base daily value: 4–7 bc
+
+Regular (4–5 bc):
+- General labourer
+- Porter / bearer
+- Water-carrier
+- Servant / domestic
+- Street sweeper
+- Market porter
+- Link-boy / torch bearer
+- Laundry worker
+- Scullion
+- Kitchen hand
+- Gravedigger (basic)
+- Night-soil collector
+- Messenger (local)
+- Lamp lighter
+- Rubbish collector
+- Stable hand
+- Dog boy / animal keeper (basic)
+- Market cleaner
+
+Heavier Urban Labour (5–7 bc):
+- Dock worker / stevedore
+- Construction labourer
+- Hauler / cart pusher
+- Stone hauler
+- Scaffold worker
+- Fulling assistant
+- Slaughterhouse labourer
+- Brick carrier
+- Mortar mixer
+- Timber yard worker
+- Coal / charcoal hauler
+- Warehouse labourer
+
+SKILLED TRADES
+Defined as any trade or profession that requires years of apprenticeship, specialised tools, and carries meaningful risk or responsibility.
+
+Basic Skilled Trades (22–40 bc):
+- Leatherworker / tanner
+- Miller
+- Carpenter
+- Baker
+- Butcher
+- Tailor / seamster
+- Cobbler / shoemaker
+- Cooper
+- Potter
+- Weaver
+- Rope maker
+- Basket weaver
+- Chandler (candle maker)
+- Soap maker
+- Barber (basic)
+- Dyer
+- Net maker
+- Wheelwright (basic)
+- Bricklayer
+- Tile maker
+- Felt maker
+- Saddle maker (basic)
+- Harness maker
+- Mat maker
+- Broom maker
+- Lantern maker
+- Paper maker (basic)
+- Ink maker
+- Button maker
+- Comb maker
+
+Higher Skilled Trades (55–80 bc):
+- Stonemason
+- Experienced smith / blacksmith
+- Armorer
+- Shipwright
+- Master carpenter
+- Joiner / cabinet maker
+- Glassblower
+- Farrier
+- Locksmith
+- Swordsmith (non-legendary)
+- Bell founder
+- Instrument maker
+- Scribe / copyist
+- Apothecary (basic)
+- Cartwright
+- Boat builder
+- Pewterer
+- Coppersmith
+- Brass worker
+- Gilder (basic)
+- Bookbinder
+- Embroiderer (skilled)
+- Silk weaver
+- Carpet weaver
+- Musical instrument maker
+- Clockwork / mechanism maker (rare)
+- Lens grinder (very rare)
+- Master dyer
+
+SKILLED HAZARDOUS LABOUR (35–65 bc)
+Defined as work that demands real practical skill, environmental knowledge, and regular acceptance of physical danger, but is not a traditional workshop craft.
+These roles often involve being entrusted with valuable equipment, vessels, animals, or commodities that the worker does not personally own. Responsibility for the safe handling and return of such property is a core part of the job.
+
+Examples:
+- Rough-water / deep-sea fisherman
+- Caravan guard
+- Sailor / seaman (coastal or ocean)
+- Forest warden / ranger
+- Professional deep miner
+- Long-distance teamster / caravan driver
+- River pilot (difficult waters)
+- Professional watchman (rough districts)
+- Whaler / dangerous sea hunter
+- Border patrol (non-military)
+- Experienced steeplejack / high climber
+- Salvage diver (where applicable)
+- Camel / caravan master (responsible for animals and cargo)
+- Lighthouse keeper (isolated and hazardous postings)
+- Ice cutter / winter river worker
+- Professional fire-fighter (city or shipboard)
+- Elephant / heavy animal handler (where applicable)
+- Powder magazine / explosives handler (rare)
+- High-scaffolding or roof worker on major buildings
+- Marsh / swamp guide (dangerous terrain)
+- Tomb or ruin guard (remote and hazardous sites)
+
+SPECIALISTS
+Defined as individuals whose work requires rare expertise, significant personal risk, specialised knowledge, or a combination of high skill and danger that places them clearly above ordinary skilled trades.
+They are fewer in number, often mobile or retained by wealthier clients, and command a clear premium over standard skilled craftsmen.
+Many specialists are paid by contract, month, or retainership rather than a strict daily rate.
+
+Individual ranges:
+
+- Mercenary footman: 70–100 bc
+- Physician / barber-surgeon: 80–120 bc
+- Experienced bodyguard or man-at-arms: 90–130 bc
+- Master armorer / legendary smith: 130–180 bc
+- Court physician: 140–200 bc
+- Military engineer / siege specialist: 120–170 bc
+- Professional duellist / sword master: 110–160 bc
+- Master shipwright (large ocean vessels): 130–190 bc
+- Practical alchemist: 100–150 bc
+- High-ranking scribe / chancery clerk: 90–140 bc
+- Professional interrogator: 110–160 bc
+- Master gunner (where gunpowder is known): 120–170 bc
+- Elite long-distance courier: 80–130 bc
+- Master falconer: 90–140 bc
+- Court musician / master performer: 100–160 bc
+- Master architect: 140–200 bc
+- Hydraulic engineer (irrigation / waterworks): 120–180 bc
+- Master cartographer: 100–150 bc
+- Professional translator / interpreter: 90–140 bc
+- Master jeweller / gem cutter: 130–190 bc
+- Ritual specialist / high temple functionary: 110–170 bc
+- Elite huntsman / master tracker: 90–140 bc
+- Executioner: 120–160 bc
+- Rare master-level unique experts: 150–220+ bc
+
+---
+
+SCALING MULTIPLIERS
+
+Proficiency:
+- Apprentice: 0.25×
+- Journeyman: base
+- Experienced: 1.25×
+- Local Renown: 2×
+- Region / Kingdom reputation: 5×
+- World-renowned: 10×
+
+Client Status:
+- Commoner: base
+- Bourgeoisie: 2×
+- Nobility: 5×
+
+Note: Extreme multipliers (especially World-renowned × Nobility) apply only to exceptional high-prestige commissions, not ordinary daily wages.
