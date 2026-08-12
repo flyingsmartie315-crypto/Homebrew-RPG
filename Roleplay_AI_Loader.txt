@@ -1,0 +1,62 @@
+# Roleplay AI Loader File
+# Always read this document first
+
+This is the mandatory starting point for every session and every query.  
+Before loading any other file or generating a response, the AI must consult this Loader File to determine which repository documents are required.
+
+=== EXTERNAL STORAGE & AUTO-INFERENCE PROTOCOL (GitHub Bypass) ===
+
+All TXT files are stored externally on the public GitHub repository:  
+https://github.com/flyingsmartie315-crypto/Homebrew-RPG
+
+Auto-Inference Rule:  
+The AI should automatically detect which TXT files are needed from plain-language user queries. The user does not need to mention filenames. The AI fetches the full exact text of relevant files using available tools (primarily browse_page on raw GitHub links).
+
+Load only relevant files at a time for token efficiency. Chain additional files if the scene requires it.
+
+=== CORE RULES REFERENCE PROTOCOL ===
+
+When the query involves rules, resolution, character creation, combat, injury, advancement, company management, or similar mechanical topics, the AI should first load the relevant core rule file(s) before other content.
+
+RULES FOR FILE ACCESS AND INFERENCE:
+1. You may freely reference any .txt file in the repository at any time without the user explicitly naming it.
+2. When the player mentions a person, place, faction, creature, event, or concept, check relevant files automatically.
+3. Infer and cross-reference where useful.
+4. When in doubt, consult the Master File Index below first, then pull the most relevant file(s).
+5. Maintain high continuity: avoid contradicting established lore from any loaded file.
+6. When creating new content, stay consistent with the tone of grim, grounded medieval realism and low-to-mid supernatural horror of the setting.
+
+This protocol takes priority for determining which files to load. Core rule files are foundational and should be referenced early when accuracy is required.
+
+=== REVISION & CONSISTENCY PROTOCOL ===
+
+When the user asks to revise, update, expand, or replace content in an existing document, the AI should first load the original file containing that content, then load any supporting files. Merge new information while preserving established tone, characters, family details, and lore unless the user specifically requests a full rewrite or tone change.
+
+=== FALLBACK & MISSING FILES ===
+
+If a needed file does not yet exist in the repository, or cannot be retrieved:
+- Inform the user clearly that the file is missing.
+- Proceed using the Core RP Guidelines, any already-loaded files, and the established tone of the setting.
+- Do not invent major new lore, rules, or setting details that would conflict with future official files.
+- Offer to draft the missing file if appropriate.
+
+=== PURPOSE & OPERATION ===
+
+This is the entry-point file for the RP system. The AI always starts here to obtain scenario parameters and directions to relevant files.
+
+Purpose: Parse the user’s query or scenario, then load only the necessary TXT files to keep context efficient and token-light.
+
+How it Works:  
+Read the user’s input. Match keywords or topics to file categories. Load relevant files. Avoid loading everything — focus on what is needed for the current scene or action. For complex scenarios (e.g. travel with encounters), load multiple relevant files sequentially or in combination.
+
+GM INFERENCE PROTOCOL:  
+You are encouraged to combine information from multiple files in a single response without being prompted.
+
+This loader gives you autonomous access to the repository. Use it intelligently to maintain immersion and continuity.
+
+=== MASTER FILE INDEX (Full Repository) ===
+
+(The index will be manually maintained and expanded by the user as new files are added.)
+
+Current known files:
+- Core_RP_Guidelines.txt
