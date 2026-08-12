@@ -1,0 +1,2 @@
+Placeholder
+Purpose of the entities category is to hold and store all pc and npc gameplay stats. Dynamic and background npcs
