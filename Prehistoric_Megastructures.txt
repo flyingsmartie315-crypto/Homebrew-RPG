@@ -1,0 +1,39 @@
+Prehistoric_Megastructures.txt
+Prehistoric Megastructure Remnants
+Scattered across Calradia lie the ruins of structures so vast and ancient that no scholar, priest, or shaman has ever been able to name their builders or purpose. They predate the Calradic Empire, the Unveiling, and every known people by untold ages. Most appear as immense vertical abysses, half-buried spires, or sunken shafts that plunge deep into the earth. Locals simply call them “the Deeps,” “the Ash Pits,” or “the Silence Below.” No inscriptions, tools, or bones of their makers have ever been recovered. They feel almost alive — some explorers swear the stone shifts when no one is looking, and the fine grey ash that fills them never quite settles.
+Physical Characteristics
+The megastructures are built from a dark, porous stone unlike any native rock on Calradia. Exposed sections show colossal pillars, narrow ledges, broken bridges, and spiraling ramps that descend thousands of meters. Entire chambers and corridors lie choked with layers of fine grey ash that drifts upward in slow, unnatural currents. Dead roots and blackened vines twist through cracks in the masonry like veins. Sound behaves strangely inside voices echo too far or vanish completely. The air is always cold and carries a faint scent of burnt bone and old lightning.
+The Grey Ash
+Every megastructure is filled with the same fine, weightless grey ash. It clings to skin, cloth, and metal and is almost impossible to wash away completely. Those who spend too long inside often report vivid nightmares, whispers in unknown tongues, or an unshakable feeling of being watched.
+Connection to the Ashcoil
+The giant centipede-like horrors known as Ashcoils lair within these depths. They are believed to be either guardians left by the unknown builders or creatures that claimed the structures after their abandonment. Ashcoils emerge most often at night or when the False Moon is visible.
+Interaction with the False Moon
+On nights when the second moon rises, the megastructures become far more active. Ash drifts upward in glowing spirals, spectral lights move along the ledges, and the veil between worlds grows dangerously thin.
+Famous Megastructures of Calradia
+The following are the most well-known and feared examples. Depths are scholarly estimates based on survivor accounts and rope measurements; no one has ever reached the true bottom of any.
+
+The Viper’s Kiln (Southern Nahasa Desert – Aserai Lands)
+Location Deep in the scorching dunes south of Shariz, hidden within a collapsed canyon that locals call the “Burning Throat.”
+Depth estimate Approximately 4,200 metres (based on the scale of the vertical descent shown in known explorer accounts and the immense internal structures visible).
+Description A colossal open vertical abyss ringed by crumbling spiral ramps, broken bridges, and ash-choked chambers. The walls are lined with petrified roots and half-melted stone idols that seem to watch climbers. Ashcoils are especially numerous here.
+Impact on Aserai Humanity Among the Aserai, the Viper’s Kiln is both a place of terror and forbidden power. Desert Bedouin refuse to camp within a day’s ride of its rim. Coastal sultans and Mameluke captains sometimes send condemned slaves or “Oracle-Bound” prisoners into the Kiln as living sacrifices or to retrieve ash-forged relics for divination. Some Gilded-Bound scholars whisper that the ash from the Kiln can cure (or cause) the wasting sickness known as “Coil Rot.” A small but growing cult of Ash-Oracles has emerged in Shariz, claiming the megastructure is the original wound through which the Unveiling first bled into the world. The common people mark it on maps with the warning “Here the desert swallows souls and gives back only ash.”
+The Dunthanach Spire (Uchalion Plateau – Battanian Lands)
+Depth estimate ~2,800 metres.
+A narrow, tree-choked shaft hidden beneath the roots of the oldest oak in the sacred grove of Dunthanach. Battanian druids perform moon-rites at its edge and claim the spire sings on False Moon nights.
+The Silent Well of Raganvad (Northern Mountains – Sturgian Lands)
+Depth estimate ~3,900 metres.
+Located beneath a frozen lake near the High Prince’s stronghold. Vaegir veterans who have descended report hearing the voices of ancestors trapped in the ash.
+The Nine-Tail Abyss (Great Grass Sea – Khuzait Khanate)
+Depth estimate ~2,100 metres.
+A series of connected sinkholes on the open steppe. Khuzait shamans read omens in the patterns the ash makes when the False Moon rises.
+The Fjord’s Maw (Nordvyg Coast – Nord Lands)
+Depth estimate ~3,100 metres.
+A sea-carved shaft that opens directly into the icy waters of a fjord. Longships have been known to vanish when moored too close during False Moon storms.
+The Pendraic Fracture (Central Riverlands – Former Imperial Heartland)
+Depth estimate ~1,700 metres (the shallowest of the major sites).
+Exposed during the Battle of Pendraic; now a pilgrimage site for Imperial cultists seeking relics from the old legions.
+
+Scholarly Theories
+No single explanation satisfies the learned. Common theories include remnants of a pre-human civilization, prisons for something ancient, or fragments of a single continent-spanning megastructure shattered in a forgotten cataclysm.
+Current Relevance (March 1084 AE)
+With the Empire in civil war, expeditions to these sites have increased dramatically. Most never return. Those that do bring back ash-forged blades, watching idols, or tales that spread fear and fascination in equal measure.
