@@ -1,5 +1,5 @@
 Economy & Currency of Virath
-Virath’s economy is built on trade. Merchants travel between cities, exchanging goods across the kingdoms. Every kingdom is ruled by a clan: the leader of the ruling clan is the sovereign, and all clan members are nobility, regardless of origin.
+Virath’s economy is built on trade. Merchants travel between cities, exchanging goods across the kingdoms.
 Universal Rules
 Barter dominates rural and self-contained communities: cattle, crops, salt, fur, weapons, and textiles are swapped directly; debts are recorded using tally sticks.
 Coinage exists in three tiers with a universal conversion rate: 1 gc (gold coin) = 20 sc (silver coin) = 240 bc (brass coin)

@@ -1,0 +1,108 @@
+# Economy_Livestock.txt
+# Livestock, Beasts of Burden, War Mounts & Exotic Creatures
+
+HEADER NOTE
+All prices use the universal currency (1 gc = 20 sc = 240 bc).
+Prices shown are base market values for healthy adult animals and are subject to significant regional and seasonal fluctuation (±50% or more).
+Livestock requires ongoing space, feed, water, and care. Neglect rapidly reduces value or kills the animal.
+
+Animals are listed with:
+- Purchase price (healthy adult)
+- Typical upkeep (daily or monthly feed cost equivalent)
+- Space / housing needs
+- Primary uses
+
+---
+
+COMMON LIVESTOCK
+
+Chicken
+Price: 8–15 bc
+Upkeep: Negligible (scraps + foraging)
+Space: Minimal
+Uses: Eggs, meat, feathers
+
+Duck / Goose
+Price: 15–30 bc
+Upkeep: Low
+Space: Access to water preferred
+Uses: Eggs, meat, feathers, down
+
+Sheep
+Price: 1 sc – 1 sc 10 bc
+Upkeep: 1–2 bc per day (grazing + winter feed)
+Space: Pasture
+Uses: Wool, meat, milk, hides
+
+Goat
+Price: 1 sc – 1 sc 15 bc
+Upkeep: 1–2 bc per day
+Space: Pasture or rough ground
+Uses: Milk, meat, hides, brush clearing
+
+Pig
+Price: 1 sc 10 bc – 2 sc
+Upkeep: 2–3 bc per day (omnivorous, can use scraps)
+Space: Sty or woodland pannage
+Uses: Meat, fat, hides
+
+Cattle (Cow / Ox)
+Price: 4–8 sc (oxen toward the higher end)
+Upkeep: 3–5 bc per day
+Space: Significant pasture
+Uses: Milk, meat, hides, labour (ploughing, hauling)
+
+Donkey
+Price: 3–6 sc
+Upkeep: 2–3 bc per day
+Space: Modest
+Uses: Pack transport, light draught
+
+Mule
+Price: 5–9 sc
+Upkeep: 2–4 bc per day
+Space: Modest
+Uses: Superior pack and draught animal
+
+Horse (Common / Work)
+Price: 6–12 sc
+Upkeep: 4–6 bc per day
+Space: Stable + pasture
+Uses: Riding, light cavalry, draught
+
+---
+
+WAR & QUALITY MOUNTS
+
+Riding Horse (trained)
+Price: 12–25 sc
+Upkeep: 5–7 bc per day
+Notes: Basic trained riding animal
+
+Destrier / War Horse
+Price: 1–3 gc
+Upkeep: 8–12 bc per day
+Notes: Heavy war mount. Requires experienced handler. High status.
+
+Courser / Light War Horse
+Price: 18–40 sc
+Upkeep: 6–9 bc per day
+Notes: Faster than a destrier, still combat-capable.
+
+Camel (where climatically appropriate)
+Price: 15–35 sc
+Upkeep: 3–5 bc per day (efficient in arid regions)
+Uses: Long-distance pack and riding in deserts
+
+---
+
+
+UPKEEP & LOGISTICS NOTES
+
+- Grazing land dramatically reduces feed costs for sheep, goats, cattle and horses.
+- Urban animals are significantly more expensive to keep due to the need to purchase all feed.
+- War mounts and exotic beasts often require dedicated staff (grooms, handlers).
+- Transporting livestock long distances incurs high losses and costs (see future Transport file).
+- Slaughter value is usually 40–70% of live purchase price depending on condition and local demand.
+
+This file covers the main categories of living animals used by societies on Virath. Specialised breeding stock, young animals, and pregnant females will vary in price from the adult baselines above.

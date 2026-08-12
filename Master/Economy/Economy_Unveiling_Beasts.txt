@@ -1,0 +1,114 @@
+# Economy_Unveiling_Beasts.txt
+# Rare, Intelligent & Supernatural Beasts of the Unveiling
+
+HEADER NOTE
+These creatures sit outside the normal livestock economy.
+Most cannot be openly bought or sold. Acquisition is usually a matter of extreme risk, special authority, spiritual worthiness, or narrative events rather than simple market transaction.
+Prices, where given, are theoretical or black-market estimates only.
+Upkeep and housing requirements are often extreme or highly specialised.
+
+---
+
+Gryphon (Earthbound)
+Price: 30–100+ gc (if available at all on the open market)
+Upkeep: Very high to extreme
+- Daily food: 8–14 bc equivalent in high-quality fresh meat (roughly the equivalent of a large sheep or significant portion of a cow every 1–2 days)
+- Requires dedicated handlers, secure high-altitude or heavily fortified housing, and regular access to hunting territory or large quantities of livestock
+- Total realistic monthly cost (including staff, housing, and feed): often 3–6 gc or more
+Space: Large secure enclosure + substantial surrounding territory. Ordinary stables are useless.
+
+Notes:
+These are the unwinged, earthbound gryphons of Virath’s mountains (see Bestiary). Standing roughly 2.6 m tall, they combine an eagle’s head and foreparts with a powerful lion-like body. Vestigial shoulder feathers allow explosive leaps but not true flight.
+
+Gryphons are highly intelligent, proud, and extremely dangerous. They form deep bonds only with riders who prove themselves through severe trials. Once bonded, their loyalty is legendary — they will fight to the death for a worthy master.
+
+Acquisition is exceptionally difficult and hazardous:
+- Eggs must be taken from high mountain nests, usually defended by adult gryphons.
+- Hand-rearing and training require years and specialised knowledge (almost exclusively practiced by Gryphon Knights and their households).
+- Adult wild gryphons are almost never successfully tamed.
+
+Open-market sales are extremely rare and usually only occur through noble or knightly households under special circumstances. Most gryphons are never truly “owned” in the common sense; they are bonded partners. Possession without proper authority is often treated as a serious crime or act of provocation.
+
+---
+
+Royal Gryphon
+Price: Effectively beyond price
+Practical valuation: Multiple king’s ransoms to tens of thousands of gold coins in purely theoretical terms
+Upkeep: Extreme / institutional
+- Daily food: 20–40+ bc equivalent. A hungry Royal Gryphon can consume an entire adult cow (or equivalent) in a single feeding.
+- Requires multiple specialised handlers, vast secure territory or a dedicated high mountain holding, constant supply of large livestock, and significant infrastructure
+- Realistically only sustainable by a wealthy noble household, knightly order, or crown. Monthly costs routinely run into tens of gold coins when staff, land, and feed are fully accounted for.
+Space: Enormous range. Cannot be kept in conventional fortifications for long without major dedicated facilities.
+
+Notes:
+Royal Gryphons are the ultra-rare winged variant of the gryphon. Standing approximately 3.6 metres tall, they possess fully functional wings capable of sustained, long-distance flight. They are always male and extraordinarily long-lived, often spanning several centuries.
+
+They hatch from ordinary gryphon eggs at a rate of roughly one in a thousand. Only a handful have ever been recorded on Virath — rarer even than Pegasus. Their roar can shake valleys and their talons can tear plate armour apart.
+
+Despite their power, Royal Gryphons are not inherently aggressive. They prefer solitary hunting and territorial patrols, becoming lethal only when provoked or when their chosen rider is threatened. Like their earthbound kin, they display a mischievous tendency to knock objects from heights, though their size allows them to dislodge boulders or even wagons.
+
+Bonding is possible only with individuals of exceptional courage, respect, and worthiness. The trials required are extreme. Once bonded, the Royal Gryphon is a companion of absolute loyalty, capable of aerial reconnaissance and decisive battlefield intervention.
+
+Acquisition through ordinary means is essentially impossible. Most cultures treat any attempt to capture or commercially trade a Royal Gryphon as both futile and sacrilegious. They exist in the realm of legend and royal (or knightly) destiny rather than the market.
+
+---
+
+Pegasus
+Price: Effectively priceless
+Practical valuation: 1,000+ king’s ransoms (hundreds to thousands of gold coins, if a transaction could even be conceived)
+Upkeep: Minimal in material terms, but requires absolute isolation from iron, blood, and human corruption. Ordinary stabling is impossible.
+Space: Only the highest, purest alpine meadows far from human settlement.
+
+Notes:
+Pegasus are among the rarest and most sacred beings known on Virath. Fewer than thirty have ever been recorded since the Unveiling. They are winged horses with a single spiralling horn, silver-white coats, and profound intelligence.
+
+They cannot be bought, sold, or truly owned in any conventional sense. A Pegasus chooses its rider according to strict moral purity and will simply refuse anyone it finds unworthy. Attempting to capture or force one is both futile and, in most cultures, considered a grave spiritual crime.
+
+When a bond does form, it is absolute and lifelong. The rider gains the ability of flight and subtle protective blessings. Such an event is the stuff of legend rather than commerce.
+
+Any reported “sale” or transfer of a Pegasus is almost certainly fraudulent, mythical, or the prelude to disaster. For economic purposes they sit outside the normal market entirely — closer to a living miracle than a mount.
+
+River/Swamp Troll
+Price: 8–25 gc (for a successfully captured and partially broken specimen; wild ones are not sold)
+Upkeep: High and specialised
+- Daily food: 6–12 bc equivalent (large quantities of fish, meat, and vegetable matter)
+- Requires secure, wet, semi-aquatic housing with deep water access and strong containment
+- Needs constant supervision by experienced handlers
+- Realistic monthly cost (feed + specialised keepers + containment): 2–5 gc
+Space: Large enclosed wetland, fortified pond system, or heavily modified wateryard. Ordinary pens are useless and lethal.
+
+Notes:
+River and Swamp Trolls are the smaller, more cunning lowland variants (standing 6–7 feet and weighing 240–500 kg). They are amphibious, build extensive mud-and-branch dams, and are a persistent threat to rivers, canals, and farmland.
+
+Capable of simple tool use, trap-making, social coordination in pairs or small family groups, and basic problem-solving, but far below human sapience. They are not dumb beasts.
+
+Taming is possible but extremely difficult, dangerous, and expensive. Success requires:
+- Capture of a young specimen (adults are rarely breakable)
+- Years of cautious, high-risk conditioning
+- Specialised handlers who understand their territorial and regenerative nature
+- Constant reinforcement; a troll that reverts is extremely hazardous
+
+A successfully tamed River/Swamp Troll can be used for heavy labour in wet environments, controlled dam-building or demolition, and as a formidable (if unpredictable) guardian. Even “tamed” individuals remain cunning, strong, and potentially lethal if mistreated or startled.
+
+Most societies regard the keeping of trolls as a high-status, high-risk endeavour suitable only for wealthy lords, certain military engineers, or specialised beast-masters. Escaped or poorly controlled trolls are treated as serious public dangers.
+
+Direwolf
+Price: 
+- Young pup: 2–6 gc (highly variable by region and bloodline)
+- Trained adult: 8–20 gc (rarely available)
+Upkeep: High
+- Daily food: 5–9 bc equivalent in fresh meat
+- Requires significant space, regular exercise, and an experienced handler
+- Monthly cost (feed + care): typically 1–3 gc
+Space: Large secure enclosure or free-ranging under close control. Poorly suited to dense urban environments.
+
+Notes:
+Direwolves are giant wolves native primarily to the North. They are not Unveiling abominations or supernatural creatures — simply much larger, stronger, and more intelligent versions of ordinary wolves that still operate under natural law.
+
+Adults are formidable pack hunters with keen intelligence, strong social instincts, and considerable power. Their howls carry for miles and they coordinate with notable cunning.
+
+Northern cultures have a long and deep affinity with direwolves. Pups taken young and raised through shared hunts and consistent trust can form lifelong, fiercely protective bonds with humans. A bonded direwolf will defend its human against almost any threat, including many Unveiling horrors.
+
+They become progressively rarer the further south one travels or the farther one moves from deep forests and true wilderness. In the far North they are uncommon but known; in central and southern regions they are exotic rarities.
+
+Taming an adult wild direwolf is extremely difficult and dangerous. Almost all successful bonds begin with pups. Even bonded animals remain powerful predators and require competent handling. Mistreatment or abandonment frequently ends in tragedy.
