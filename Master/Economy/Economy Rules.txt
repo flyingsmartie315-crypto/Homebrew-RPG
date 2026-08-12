@@ -1,0 +1,20 @@
+Economy & Currency of Virath
+Virath’s economy is built on trade. Merchants travel between cities, exchanging goods across the kingdoms. Every kingdom is ruled by a clan: the leader of the ruling clan is the sovereign, and all clan members are nobility, regardless of origin.
+Universal Rules
+Barter dominates rural and self-contained communities: cattle, crops, salt, fur, weapons, and textiles are swapped directly; debts are recorded using tally sticks.
+Coinage exists in three tiers with a universal conversion rate: 1 gc (gold coin) = 20 sc (silver coin) = 240 bc (brass coin)
+gc (gold): reserved for high-value transactions, international trade, diplomacy, and elite wealth.
+sc (silver): used by the bourgeoisie for daily commerce.
+bc (brass/copper/zinc): used by commoners.
+Class usage: Commoners rarely possess sc or gc (invites suspicion of theft). Middle classes primarily use sc and bc; very well-off may rarely use gc. Nobility primarily use gc and sc; they disdain bc as “unclean.”
+Debasement: Rulers lower precious metal content during shortages or wars; savvy traders exploit this through weight and purity checks.
+Intrinsic value: Coins are valued by weight and purity of metal, independent of location.
+Coin choice factors: current location, occupier culture, culture of commoners, quantity of foreign trade, population density (rural areas rely more on barter).
+Culture-Specific Coins
+(To be expanded)
+RP Usage
+Always use the lore-appropriate coin names based on current location or ruling/occupier culture.
+Ambiguous (border town): default to dominant local culture or speaker’s origin.
+Rural: heavy barter (cattle/crops/salt/fur/weapons/textiles) common. Urban: sc/gc dominant. Nobility gc display risks theft/envy.
+Debased coins: distrust/weight checks.
+Regional prices: Based on supply/demand and access to resources.
