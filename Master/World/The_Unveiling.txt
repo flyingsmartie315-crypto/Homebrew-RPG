@@ -1,0 +1,78 @@
+# The_Unveiling.txt
+# The central historical fracture of Virath
+
+OVERVIEW
+The Unveiling is the single greatest fracture in the known history of Virath. Every culture remembers it, though they give it different names: the False Dawn, the Moon’s Betrayal, the Veil’s Tear, the Night of Two Moons, and many others. All accounts agree on the essential facts.
+
+It occurred thousands of years ago on a cloudless, windless night. An unnatural silence fell across the world. Then a second moon rose — pale, still, and utterly wrong — and hung in the sky beside Lorn for several hours. When it finally faded, something fundamental had changed. The world was no longer wholly itself.
+
+THE EVENT
+Surviving traditions describe the night in near-identical terms despite vast distances:
+- A sky without cloud or wind.
+- An oppressive, icy silence that seemed to muffle even the heartbeat.
+- A profound sense of being observed by something vast and indifferent.
+- The sudden appearance of a second celestial body, visible from every region of Virath, that did not move with the heavens.
+
+No immediate catastrophe followed. Cities did not fall, plagues did not sweep the continents, and armies did not vanish overnight. The damage was quieter and more lasting. The fabric of the world had been altered.
+
+THE FALSE MOON
+The intruder is known in the common tongue as the False Moon. It appears irregularly and without reliable pattern, always alongside Lorn when both are visible. Sometimes it is a thin crescent; at other times it looms large and heavy, as if pressing closer to the earth. Its light is not illumination but a draining pallor that leeches colour and warmth from the land.
+
+On certain nights, especially those of disaster or personal crisis, some claim to see a twisted, mocking face on its surface. Such reports are dismissed by the learned and feared by almost everyone else.
+
+EFFECTS OF THE FALSE MOON
+When the False Moon is present, the following phenomena become more common and more dangerous:
+
+- Dark Magic gathers more readily in still places, ruins, and old blood.
+- The veil between the ordinary world and whatever lies beyond grows thin.
+- Prophetic or tormenting dreams afflict sleepers.
+- Mutant births and sudden madnesses increase.
+- Animals grow restless or refuse familiar paths.
+- Subtle wrongnesses multiply: unnatural silences, shadows that move incorrectly, rhythmic knocking inside solid walls, and the persistent sense of being watched.
+
+Most cultures treat nights of the False Moon as times of lockdown. Livestock are brought indoors, doors are barred, and wards of iron, salt, or blessed herbs are hung. Even the largest cities fall quiet from dusk until dawn.
+
+ONGOING LEGACY
+Since the Unveiling, Virath has never been free of occasional intrusions: moments when the world feels briefly alien. These events remain rare enough that ordinary life continues. Kings still war, merchants still trade, and farmers still sow. The supernatural is real, feared, and kept at the edges of daily existence rather than allowed to dominate it.
+
+The Unveiling did not end the world. It only made the world less certain, and far more dangerous at the margins.
+
+
+============================================================
+GM META: NATURE OF THE UNVEILING (Not known to any inhabitant of Virath)
+============================================================
+
+The Unveiling was the partial failure of the barrier that separates the material world from another dimension.
+
+This other dimension is most commonly referred to, across the few fragmented or translated sources that still exist, as the Immaterium. 
+
+The Immaterium is a reactive realm that manifests the conscious and unconscious thoughts, emotions, fears, desires, and collective psychic output of all living things. Its strength and complexity scale with the sophistication of the life that feeds it:
+- Simple life (bacteria, basic cells) produces only the faintest background presence.
+- Plants and simple animals contribute more.
+- Complex animals stronger still.
+- Sapient minds (especially humanity) exert by far the greatest influence.
+
+The barrier between the material world and the Immaterium did not collapse completely during the Unveiling. It was damaged and thinned. As a result, influence from the Immaterium can now bleed through into reality, particularly under certain conditions (False Moon nights, places of extreme emotion or death, the megastructures, etc.).
+
+INFLUENCE OF SAPIENT MINDS
+Sapient thought and feeling are the primary drivers of significant manifestation within the Immaterium.
+
+Strong negative emotions — especially sustained fear, hatred, despair, and cruelty — can coalesce into conscious malevolent entities. Once formed, these entities actively seek to sustain and strengthen themselves. They do so by influencing the material world: spreading terror, encouraging bloodshed, fostering madness, and further weakening the barrier so that more of their kind may cross or be born.
+
+Positive emotions, disciplined faith, and collective devout belief can likewise manifest. This is the true mechanism behind the power of organised religions on Virath. Sincere and widespread worship can give rise to protective entities, miraculous interventions, saintly manifestations, and other phenomena that the faithful interpret as divine. Entities that cultures recognise as gods can and do take form in this way (expanded in the Religions files).
+
+The full range of entities runs from actively malevolent, through indifferent or alien, to benevolent and protective. Some are fantastical; others appear almost mundane until their true nature is revealed. All of them, by their existence and actions, influence the material world in countless subtle and overt ways.
+
+A significant portion of the creatures, spirits, and abominations encountered on Virath are not natural products of the material world. They are born of, or heavily shaped by, the Immaterium (expanded in the Bestiary).
+
+This bleed from the Immaterium is the true source of:
+- Dark Magic
+- Mutations and spontaneous abominations
+- Prophetic or nightmarish dreams
+- The various subtle wrongnesses that haunt Virath
+- The sense of being watched or judged
+- Both the horrors that stalk the edges of civilisation and the genuine miracles claimed by the faithful
+
+The False Moon itself is a visible symptom of the damaged barrier, not a natural celestial body.
+
+No culture on Virath understands this mechanism. All explanations remain mythic, religious, or superstitious.
