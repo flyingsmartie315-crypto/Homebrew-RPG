@@ -1,0 +1,19 @@
+Processed Goods (Derived from Primary Village Commodities)
+Refined/manufactured towns/forges/mills/workshops. Values per standard stack/cart load(~100–200 units/equiv processed volume). Prices gc/sc/bc. Fluctuate region quality supply(±50%).
+Beer — Fermented grain(barley/malt); common drink preservation. 1 stack(barrels ~100L) → 1 sc. Wt:180kg Vol:1.2m³. Grain.
+Crude Iron — Smelted ore; basic ingots tools/weapons. 1 stack(ingots ~100kg metal) → 2 sc. Wt:120kg Vol:0.5m³. Iron Ore.
+Wrought Iron — Forged crude; stronger workable armor/tools. 1 stack(ingots ~100kg) → 3 sc. Wt:110kg Vol:0.5m³. Crude Iron.
+Wine — Fermented grapes; luxury drink trade staple. 1 stack(barrels ~100L) → 1 sc. Wt:180kg Vol:1.1m³. Grapes.
+Steel — Refined wrought; balanced blades/armor. 1 stack(ingots ~100kg) → 5 sc. Wt:110kg Vol:0.5m³. Wrought Iron.
+Fine Steel — High-purity; superior weapons/armor base. 1 stack(ingots ~100kg) → 8 sc. Wt:110kg Vol:0.5m³. Steel.
+Whale Oil — Rendered fat; lamps soap leather treatment. 1 stack(barrels ~100L) → 2 sc. Wt:170kg Vol:1m³. Walrus Tusk(coastal whale hunts).
+Leather — Tanned hides; armor boots saddles. 1 stack(sheets ~100 hides) → 1 sc. Wt:120kg Vol:1.5m³. Hides.
+Planks — Sawn timber; construction ships furniture. 1 stack(boards ~100m² coverage) → 80 bc. Wt:300kg Vol:2.5m³. Timber.
+Crucible Steel — Legendary high-tier alloy; finest blades/armor. 1 stack(ingots ~50kg) → 50 gc. Wt:60kg Vol:0.3m³. Fine Steel+rare Thamaskene refinement.
+Pottery — Fired clay vessels/tiles; containers roofing. 1 stack(vessels/tiles) → 30 bc. Wt:120kg Vol:1.2m³. Clay.
+Oil — Pressed olives; cooking lamps trade staple. 1 stack(jars ~100L) → 80 bc. Wt:150kg Vol:0.9m³. Olives.
+Tools — Forged iron implements(hoes axes hammers). 1 stack(20–30 tools) → 1 sc. Wt:100kg Vol:1m³. Iron Ore→Crude Iron→Wrought Iron.
+Linen — Woven flax cloth; clothing sails bandages. 1 stack(bolts ~100m²) → 1 sc. Wt:90kg Vol:2m³. Flax.
+Velvet — Luxurious woven fabric; noble clothing/trade. 1 stack(bolts ~50m²) → 5 sc. Wt:80kg Vol:2m³. Wool+dyes+advanced weaving.
+Felt — Compressed wool; hats padding insulation. 1 stack(sheets ~100m²) → 50 bc. Wt:100kg Vol:2m³. Wool.
+These processed goods represent next tier. Supply raw primary inputs; towns mills forges transform higher-value(typically 2–5× raw price). Barter rural common; coin urban elite trade. All advanced goods(armor weapons luxury) derive from these basics.

@@ -1,0 +1,8 @@
+Wages (Base bc, supply-dependent)
+Common labor: 2–6 bc (farmhand 2, laborer 3, herdsman 2, servant 2).
+Skilled trades: 20–80 bc (leatherworker 20, miller 28, stonemason 76, armorer 72).
+Specialists: 50–100+ bc (mercenary 50, physician 60, bodyguard 80, executioner 100).
+Scaling
+Proficiency: Apprentice 0.25×, Journeyman base, Experienced 1.25×, Local Renown 2×, Region/Kingdom 5×, World 10×.
+Client: Commoner base, Bourgeoisie 2×, Nobility 5×.
+Example: World-renowned Imperial glassblower (72 bc base) ×10 ×5 = 3600 bc = 15 gc daily.
