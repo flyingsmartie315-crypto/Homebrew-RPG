@@ -56,7 +56,26 @@ This loader gives you autonomous access to the repository. Use it intelligently 
 
 === MASTER FILE INDEX (Full Repository) ===
 
-(The index will be manually maintained and expanded by the user as new files are added.)
+=== ECONOMY FILES ===
 
-Current known files:
-- Core_RP_Guidelines.txt
+Economy_Rules.txt
+Core rules of Virath’s economy and currency system. Covers the three-tier coinage (gc/sc/bc), barter vs coin use, social class attitudes toward money, debasement, and guidelines for roleplaying economic interactions.
+
+Economy_Labour.txt
+Daily wage and economic value guidelines for all major categories of work. Includes Common Labour (rural & urban), Skilled Hazardous Labour, Skilled Trades, and Specialists, with definitions, example occupations, and scaling multipliers.
+
+Economy_Primary_Goods.txt
+Base prices for raw primary commodities (grain, meat, ore, timber, fibres, etc.) measured primarily per kilogram. Forms the foundation of the mundane economy.
+
+Economy_Processed_Goods.txt
+Prices for goods refined or manufactured from primary materials (beer, wine, iron, steel, leather, textiles, tools, etc.), including typical markups and common trade lots.
+
+Economy_Livestock.txt
+Purchase prices, upkeep costs, space requirements, and primary uses for common livestock, beasts of burden, and war mounts.
+
+Economy_Unveiling_Goods.txt
+High-risk, high-value materials harvested from Unveiling monsters and phenomena (venom, chitin, troll hide, veil-drop metal, etc.), including black-market considerations and specialised buyers.
+
+Economy_Unveiling_Beasts.txt
+Economic and logistical treatment of rare, intelligent, or supernatural creatures (Gryphons, Royal Gryphons, Pegasus, Direwolves, River/Swamp Trolls, etc.). Covers theoretical prices, extreme upkeep, bonding rules, and why most cannot be treated as normal livestock.
+
