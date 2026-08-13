@@ -1,0 +1,124 @@
+# Geography_Rules.txt
+# Environmental Scoring System for Geographic Regions
+
+These scores provide a consistent way to describe the environment of any land or oceanic region on Virath. 
+They are used both for general regional description and for comparison against creature HSI values in the Bestiary.
+
+
+--------------------------------------------------
+LAND REGIONS – Environmental Scores (0–5)
+--------------------------------------------------
+
+Temperature (heat / cold)
+0 – Sub-arctic / freezing
+1 – Arctic cold
+2 – Cool temperate
+3 – Mild temperate
+4 – Warm subtropical
+5 – Hot (sub-Saharan equivalent)
+
+Rainfall (precipitation / humidity)
+0 – Arid desert
+1 – Dry / sparse
+2 – Semi-arid
+3 – Temperate / balanced
+4 – Humid / wet
+5 – Rainforest / torrential
+
+Human Density (settlement level)
+0 – Uninhabited wilderness
+1 – Sparse / isolated
+2 – Low / scattered
+3 – Moderate (villages)
+4 – High (towns)
+5 – Dense (cities)
+
+Flora/Fauna Density (abundance of life)
+0 – Barren / lifeless
+1 – Limited / scarce
+2 – Sparse / occasional
+3 – Moderate / common
+4 – Abundant / thriving
+5 – Teeming / overrun
+
+Topography (elevation / steepness)
+0 – Flat plains
+1 – Gentle slopes
+2 – Undulating hills
+3 – Rugged terrain
+4 – Steep cliffs
+5 – Sheer mountains
+
+Hydrology (water features)
+0 – None / parched
+1 – Sparse trickles
+2 – Limited streams
+3 – Moderate rivers
+4 – Abundant lakes
+5 – Flooded / swamps
+
+
+--------------------------------------------------
+OCEANIC REGIONS – Environmental Scores (0–5)
+--------------------------------------------------
+
+When scoring oceanic regions, the same six categories are used with adapted meanings:
+
+Temperature (water temperature)
+0 – Polar / permanently frozen surface or near-freezing
+1 – Freezing cold
+2 – Cold currents
+3 – Temperate seas
+4 – Warm waters
+5 – Tropical hot
+
+Rainfall (storm frequency / humidity over water)
+0 – Extremely dry air / almost no precipitation
+1 – Minimal storms
+2 – Light fog / occasional rain
+3 – Moderate rains
+4 – Frequent storms
+5 – Constant high humidity / monsoon conditions
+
+Human Density (maritime activity)
+0 – No human presence (unexplored or avoided waters)
+1 – Isolated routes
+2 – Sparse traffic
+3 – Moderate trade
+4 – Busy shipping lanes
+5 – Crowded ports / heavy traffic
+
+Flora/Fauna Density (marine life)
+0 – Essentially lifeless / sterile
+1 – Barren depths
+2 – Sparse fish
+3 – Moderate schools
+4 – Abundant reefs / rich waters
+5 – Teeming ecosystems
+
+Topography (water depth)
+0 – Intertidal / exposed flats at low tide
+1 – Shallow waters
+2 – Coastal shelf
+3 – Moderate depths
+4 – Deep sea
+5 – Abyssal depths / trenches
+
+Hydrology (sea state / surface conditions)
+0 – Dead calm / mirror-like
+1 – Calm seas
+2 – Mild swells
+3 – Moderate waves
+4 – Rough currents
+5 – Extreme storms / violent seas
+
+
+--------------------------------------------------
+USAGE NOTES
+--------------------------------------------------
+
+- Scores are relative tools for consistency, not absolute scientific measurements.
+- A region is normally described with all six scores.
+- When comparing a region to a creature’s HSI, use the method defined in Bestiary_Rules.txt.
+- Extreme scores (0 or 5) should be used deliberately; most settled regions will cluster in the middle ranges.
+- Unveiling phenomena, megastructures, or local anomalies can create exceptions that override normal environmental expectations.

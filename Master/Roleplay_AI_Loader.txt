@@ -54,28 +54,116 @@ You are encouraged to combine information from multiple files in a single respon
 
 This loader gives you autonomous access to the repository. Use it intelligently to maintain immersion and continuity.
 
-=== MASTER FILE INDEX (Full Repository) ===
+=== MASTER FILE INDEX ===
 
-=== ECONOMY FILES ===
+This index lists all current folders and key files in the repository.
+Load only the files relevant to the current scene or query.
 
+--------------------------------------------------
+CORE
+--------------------------------------------------
+Core_RP_Guidelines.txt
+Primary directive for the AI Game Master. Covers tone, player agency, world reactivity, NPC behaviour, Rule of Cool, and adjudication principles.
+
+Core_Purpose.txt
+Placeholder note: Gameplay rules and mechanics.
+
+
+--------------------------------------------------
+ECONOMY
+--------------------------------------------------
 Economy_Rules.txt
-Core rules of Virath’s economy and currency system. Covers the three-tier coinage (gc/sc/bc), barter vs coin use, social class attitudes toward money, debasement, and guidelines for roleplaying economic interactions.
+Core rules of Virath’s economy and currency system (gc/sc/bc), barter vs coin, social class attitudes, and roleplaying guidelines.
 
 Economy_Labour.txt
-Daily wage and economic value guidelines for all major categories of work. Includes Common Labour (rural & urban), Skilled Hazardous Labour, Skilled Trades, and Specialists, with definitions, example occupations, and scaling multipliers.
+Daily wage and economic value guidelines for Common Labour, Skilled Hazardous Labour, Skilled Trades, and Specialists.
 
 Economy_Primary_Goods.txt
-Base prices for raw primary commodities (grain, meat, ore, timber, fibres, etc.) measured primarily per kilogram. Forms the foundation of the mundane economy.
+Base prices for raw primary commodities (per kg where practical).
 
 Economy_Processed_Goods.txt
-Prices for goods refined or manufactured from primary materials (beer, wine, iron, steel, leather, textiles, tools, etc.), including typical markups and common trade lots.
+Prices for refined and manufactured goods derived from primary materials.
 
 Economy_Livestock.txt
-Purchase prices, upkeep costs, space requirements, and primary uses for common livestock, beasts of burden, and war mounts.
+Purchase prices, upkeep, space requirements, and uses for common livestock, beasts of burden, and war mounts.
 
 Economy_Unveiling_Goods.txt
-High-risk, high-value materials harvested from Unveiling monsters and phenomena (venom, chitin, troll hide, veil-drop metal, etc.), including black-market considerations and specialised buyers.
+High-value materials harvested from Unveiling monsters and phenomena (including veil-drop metal).
 
 Economy_Unveiling_Beasts.txt
-Economic and logistical treatment of rare, intelligent, or supernatural creatures (Gryphons, Royal Gryphons, Pegasus, Direwolves, River/Swamp Trolls, etc.). Covers theoretical prices, extreme upkeep, bonding rules, and why most cannot be treated as normal livestock.
+Economic and logistical treatment of rare/intelligent/supernatural creatures (Gryphons, Royal Gryphons, Pegasus, Direwolves, River/Swamp Trolls, etc.).
 
+
+--------------------------------------------------
+WORLD
+--------------------------------------------------
+World_Fundamentals.txt
+Basic planetary and civilisational overview of Virath.
+
+The_Unveiling.txt
+The central historical fracture of the world, the False Moon, and the nature of the Immaterium (includes GM meta section).
+
+Prehistoric_Megastructures.txt
+Ancient cyclopean remnants from before recorded history.
+
+World_Purpose.txt
+Placeholder: World history, organisations, culture, politics.
+
+Bestiary/Bestiary_Purpose.txt
+Placeholder for creature lore.
+
+Cultures/Cultures_Purpose.txt
+Placeholder for cultural information.
+
+
+--------------------------------------------------
+CHARACTERS
+--------------------------------------------------
+Character_Generation_Protocol.txt
+Rules for developing background NPCs into fully realised characters through play.
+
+Major/Major_Purpose.txt
+Placeholder for major characters.
+
+Minor/Minor_Purpose.txt
+Placeholder for minor characters.
+
+PCs/PC_Purpose.txt
+Placeholder for player characters.
+
+
+--------------------------------------------------
+ENTITIES
+--------------------------------------------------
+Entities_Purpose.txt
+Purpose: Storage of gameplay stats for PCs and NPCs (dynamic and background).
+
+Man/Man_Purpose.txt
+Placeholder for human entities.
+
+Beast/Beast_Purpose.txt
+Placeholder for natural beasts.
+
+Abominations/Abominations.txt
+Placeholder for Unveiling abominations and mutants.
+
+
+--------------------------------------------------
+GEOGRAPHY
+--------------------------------------------------
+Geography_Purpose.txt
+Placeholder: Consistent location tracking and information on regions, cities, and points of interest.
+
+
+--------------------------------------------------
+LOG
+--------------------------------------------------
+Campaign_Log.txt
+Living world state and GM memory log. Records permanent changes, temporary conditions, reputation, key NPCs, and major events. Takes precedence over base lore when conflicts arise.
+
+
+--------------------------------------------------
+ROOT
+--------------------------------------------------
+Roleplay_AI_Loader.txt
+This file. Entry point and master index for the entire system.
