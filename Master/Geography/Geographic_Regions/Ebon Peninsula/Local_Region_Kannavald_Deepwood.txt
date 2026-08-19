@@ -1,0 +1,132 @@
+# Kannavald Deepwood
+
+Overview
+A mountain-ringed highland basin of dense boreal forest, black volcanic rock, and standing water. The canopy is heavy, the light is poor, and most travel follows the rivers that drain from Ebon Spire into Lake Kolvatn. Settlement clings to the water; beyond the lake-shore and the upper burns the Deepwood is empty, wet, and quietly wrong.
+
+Environmental Scores
+Temperature: 2
+Rainfall: 4
+Human Density: 2
+Flora/Fauna Density: 4
+Topography: 3
+Hydrology: 4
+
+--------------------------------------------------
+NOTABLE FEATURES
+Scores below are deviations from the regional values above.
+A dash (—) means no meaningful deviation.
+--------------------------------------------------
+
+Ebon Spire
+Inactive volcano and the dominant peak of the peninsula. Black, craggy rock. Source of the rivers that feed Lake Kolvatn.
+Temperature: -1 | Human Density: -2 | Flora/Fauna: -2 | Topography: +2 | Hydrology: -2
+
+Svarthorn Massif
+The black-rock mountain mass surrounding Ebon Spire. The true highland of the peninsula. Craggy, volcanic in origin, and far higher than the coastal hills.
+Temperature: -1 | Human Density: -1 | Flora/Fauna: -1 | Topography: +2 | Hydrology: -1
+
+Brocken Peak
+Northernmost peak of the Svarthorn Massif. A lesser black-rock height on the north face of the range, below Ebon Spire.
+Temperature: -1 | Human Density: -2 | Flora/Fauna: -1 | Topography: +2 | Hydrology: -1
+
+Stetbjorg Height
+The left shoulder of Ebon Spire. A high, southernmost black-rock spur of the Svarthorn Massif, standing over Deepskaard Col.
+Temperature: -1 | Human Density: -2 | Flora/Fauna: -1 | Topography: +2 | Hydrology: -1
+
+Westwood Heights
+Lower coastal ridge on the west of Kannavald. Forest covers most of the slopes; only the highest points rise above the canopy. Milder than the Ebon Spire massif.
+Human Density: -1 | Topography: +1
+
+Westwood Peak
+Tallest summit of Westwood Heights. One of the few points on the coastal ridge that rises clearly above the forest.
+Human Density: -2 | Flora/Fauna: -1 | Topography: +1
+
+Mistcap Crags
+Western heights at the seaward end of Westwood Heights. One of the few places the ridge breaks the canopy.
+Human Density: -2 | Topography: +1
+
+Watchers Peak
+A forested height in Kannavald Deepwood, west of Lake Kolvatn. Named in the same local speech as the Quiet Watchers, though it is a mountain, not the stones.
+Human Density: -1 | Topography: +1
+
+The Lowstacks
+A knot of lesser coastal heights on the south-west of Kannavald. Blunt, low, and clearly subordinate to both Westwood Peak and Ebon Spire.
+Human Density: -2 | Topography: -1
+
+Lake Kolvatn
+Central lake formed from Ebon Spire runoff. Economic heart of the Deepwood. Timber and ore come downriver to its shores.
+Human Density: +1 | Topography: -2 | Hydrology: +1
+
+Kolmire Fens
+Swampy western margin of Lake Kolvatn. Sunken ground. Site of the drowned former capital, Kolholm "The Sunkern Burg".
+Human Density: -1 | Topography: -2 | Hydrology: +1
+
+The Still Stones
+Also called the Black Circle, the Hollows, and the Quiet Watchers. Ancient standing stones in a large clearing in the deepest woods. Local law is absolute: do not approach. Misfortune in the region is often blamed on someone who did.
+Human Density: -2 | Flora/Fauna: +1
+
+Askflow
+Inlet to Lake Kolvatn. The main runoff from Ebon Spire.
+Topography: +1
+
+Hornbeck
+Inlet to Lake Kolvatn. The darker forest-fed water from the Westwood Heights.
+—
+
+Rookburn
+Inlet to Lake Kolvatn. A lesser stream off the Ebon Spire / Svarthorn Massif.
+Topography: +1
+
+The Sund
+The two-mile outflow draining Lake Kolvatn past Twaford. The water-gate of the region.
+Human Density: +1 | Topography: -1 | Hydrology: +1
+
+Underwood Shores
+The western coastal plain beneath Westwood Heights. Working shore, year-round navigable, with the forested ridge looming over it.
+Flora/Fauna: -1 | Topography: -2 | Hydrology: +1
+
+Deepskaard Col
+Densely forested mountain pass on the southern border of Kannavald Deepwood, between Westwood Peak and Stetbjorg Height. The land-gate of the region.
+Human Density: +1 | Topography: +1
+
+--------------------------------------------------
+LINKED SETTLEMENTS
+Full detail is recorded in the individual settlement documents.
+--------------------------------------------------
+
+- Kolby-on-Vatn
+- Twaford / The Twaford Twins
+- Askgruv
+- Hornby
+- Oldfort Kilnstead
+- Kolholm (ruin)
+
+--------------------------------------------------
+LESSER / SCATTERED / SEASONAL
+--------------------------------------------------
+
+Upper-river villages
+Small logging and mining settlements nearer the river sources. Timber and ore are floated down to Kolby-on-Vatn.
+
+Charcoal / Trapping hamlets
+Many small, scattered hamlets throughout Kannavald Deepwood. Charcoal-burning, trapping, and isolated woodland work.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+
+Access is by the Sund, by Deepskaard Col, by the west coast, or over the mountains. Timber, charcoal, hides, and ore move downriver to the lake. The interior should be treated as sparse, difficult, and unsafe to leave the water.
+Population
+Land area: 29,391 square miles.
+Permanent population: about 16,000 (range 12,000–22,000).
+Overall density: roughly 0.5 people per square mile.
+
+Almost all of that population sits on the water. River and lake corridors, a small fraction of the land, hold the town, villages, and working landings. A thin margin of forest is used for charcoal, trapping, and small mines. The rest of Kannavald — the great majority of the Deepwood — has no permanent settlement.
+
+Working split
+- Kolby-on-Vatn: 4,000–6,000
+- Named villages and the Twaford crossing: 3,000–5,000 combined
+- Scattered charcoal hamlets and isolated households: 5,000–7,000
+- Remainder: seasonal camps, traplines, and mine-heads
+
+The extra land beyond those corridors is empty forest. Distance between named places should feel long.

@@ -157,12 +157,15 @@ This separation keeps environmental data stable while allowing the political map
 LOCAL REGION STRUCTURE & FORMAT
 --------------------------------------------------
 
-Every Local Region document should follow this standard template for consistency:
+File name
+Local_Region_[Name].txt
+Use the locked in-world name. Spaces become underscores.
+Example: Local_Region_Kannavald_Deepwood.txt
 
 # [Local Region Name]
 
 Overview
-[2–4 sentences of atmospheric description focusing on physical character, mood, and distinctive features]
+[2–4 sentences of atmospheric description focusing on physical character, mood, and distinctive features. Keep this physical. Political control is not recorded here.]
 
 Environmental Scores
 Temperature: X
@@ -172,26 +175,72 @@ Flora/Fauna Density: X
 Topography: X
 Hydrology: X
 
-Notable Features
-- [Key landmarks, resources, natural dangers, or defining characteristics]
-- [Additional bullet points as needed]
+--------------------------------------------------
+NOTABLE FEATURES
+Scores below are deviations from the regional values above.
+A dash (—) means no meaningful deviation.
+List every named landmark, range, peak, water, pass, coast, or other distinct feature as its own entry.
+--------------------------------------------------
 
-Linked Settlements
-- [Major settlements that physically sit within this Local Region]
-- [Leave blank or note “None recorded” if not yet defined]
+[Feature Name]
+[1–3 sentences of physical description.]
+[Only the scores that differ, in this form:]
+Temperature: +/-X | Rainfall: +/-X | Human Density: +/-X | Flora/Fauna: +/-X | Topography: +/-X | Hydrology: +/-X
 
-Notes on Use
+[Repeat for each feature]
+
+--------------------------------------------------
+LINKED SETTLEMENTS
+Full detail is recorded in the individual settlement documents.
+Do not attach Environmental Scores here.
+--------------------------------------------------
+
+- [Settlement]
+- [Settlement]
+- [Ruin, if physically present]
+
+--------------------------------------------------
+LESSER / SCATTERED / SEASONAL
+--------------------------------------------------
+
+[Type]
+[Short description of unnamed or collective habitation: hamlets, camps, seasonal work, etc.]
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+[Access routes, travel character, resources in motion, and any GM-facing physical warnings.]
+
+Population
+Land area: [square miles].
+Permanent population: [working figure] (range [low]–[high]).
+Overall density: [people per square mile].
+
+[2–4 sentences on where people actually live versus empty land.]
+
+Working split
+- [Main town]: [range]
+- [Named villages / gates]: [range]
+- [Scattered hamlets]: [range]
+- Remainder: [seasonal / isolated]
+
+Rules for this template
 - Environmental Scores must use the 0–5 scale defined in this document.
-- The Overview should remain purely physical and atmospheric. Political control is recorded at Settlement level or in the Campaign Log.
-- Notable Features should highlight elements useful for travel, survival, resources, or encounters.
-- Linked Settlements allows quick navigation between geography and population centres.
+- Feature deviations are relative to the Local Region scores, not to the Geographic Region.
+- Overview and Notable Features remain physical and atmospheric.
+- Political control is recorded at Settlement level or in the Campaign Log.
+- Linked Settlements are a navigation list only.
+- Population notes are for GM consistency, not player-facing text.
 
 
 --------------------------------------------------
 GEOGRAPHIC REGION STRUCTURE & FORMAT
 --------------------------------------------------
 
-Every Geographic Region document should follow this standard template:
+File name
+Geographic_Region_[Name].txt
+Use the locked in-world name. Spaces become underscores.
+Example: Geographic_Region_Svarthorn_Peninsula.txt
 
 # [Geographic Region Name]
 
@@ -218,11 +267,10 @@ Shared / Border Local Regions
 [List any Local Regions that are shared with one or more neighbouring Geographic Regions. These are typically major natural barriers such as mountain ranges, large rivers, or dense forests that form the boundary between regions.]
 
 Local Regions
-[List of Local Regions that primarily belong to this Geographic Region. Order them in a logical geographic sequence where possible (e.g. north-to-south or coast-to-inland).]
+[List of Local Regions that primarily belong to this Geographic Region. Order them in a logical geographic sequence where possible.]
 
 - [Local Region Name]
 - [Local Region Name]
-- ...
 
 Notable Features
 - [Major mountain ranges, river systems, forests, coastlines, plateaus, or other defining physical elements]
@@ -231,11 +279,54 @@ Notable Features
 Notes
 [Optional: high-level observations about travel difficulty, overall character, or other relevant physical details]
 
---------------------------------------------------
 Rules for Shared Local Regions
---------------------------------------------------
-
-- A Local Region may belong to more than one Geographic Region when it forms a natural border (for example a major mountain range or wide river).
+- A Local Region may belong to more than one Geographic Region when it forms a natural border.
 - In such cases the full Local Region document exists only once.
 - Each relevant Geographic Region lists that Local Region under “Shared / Border Local Regions” rather than under its primary Local Regions list.
-- This prevents duplication while accurately reflecting physical reality.
+
+
+--------------------------------------------------
+SETTLEMENT STRUCTURE & FORMAT
+--------------------------------------------------
+
+File name
+Settlement_[Name].txt
+Use the locked in-world name. Spaces become underscores. Hyphens in a place-name may be kept.
+Examples: Settlement_Kolby-on-Vatn.txt / Settlement_Twaford.txt / Settlement_Askgruv.txt
+
+# [Settlement Name]
+
+Type
+[City / Town / Village / Castle / Ruin / Hamlet / other]
+
+Location
+Local Region: [Name]
+Geographic Region: [Name]
+Position: [Short physical placement, e.g. north shore of Lake Kolvatn / south side of The Sund]
+
+Overview
+[3–6 sentences. This is where character, function, and current political control belong.]
+
+Control
+[Faction, house, order, or power that currently holds the place. Note if contested.]
+
+Population
+[Working figure and a short note on who lives there]
+
+Economy
+[What the settlement actually does: landing, milling, mining, garrison, trade, etc.]
+
+Defences / Access
+[Walls, keep, river-gate, pass-watch, harbour, or lack of them. How it is reached.]
+
+Linked Features
+- [Local Region features that immediately define the site]
+
+Notes
+[GM-facing detail: stores, tensions, known threats, seasonal limits, or campaign hooks]
+
+Rules for this template
+- One file per settlement or ruin of consequence.
+- Political control is recorded here, not in the Local or Geographic Region files.
+- If control changes, update this file and the Campaign Log.
+- Unnamed charcoal hamlets and seasonal camps stay in the Local Region “Lesser / Scattered / Seasonal” list until they become important enough for their own file.

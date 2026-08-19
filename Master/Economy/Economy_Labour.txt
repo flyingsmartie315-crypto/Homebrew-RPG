@@ -63,6 +63,7 @@ Heavier Rural Labour (3–4 bc):
 - Irrigation ditch maintainer
 - Fence builder (basic)
 - Land clearer
+- Resin Tapper / Pitch Boiler
 
 URBAN COMMON LABOUR
 Base daily value: 4–7 bc
@@ -178,6 +179,7 @@ Examples:
 - Professional deep miner
 - Long-distance teamster / caravan driver
 - River pilot (difficult waters)
+- Log Driver / River Driver
 - Professional watchman (rough districts)
 - Whaler / dangerous sea hunter
 - Border patrol (non-military)
