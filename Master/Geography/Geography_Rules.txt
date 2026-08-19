@@ -122,3 +122,120 @@ USAGE NOTES
 - When comparing a region to a creature’s HSI, use the method defined in Bestiary_Rules.txt.
 - Extreme scores (0 or 5) should be used deliberately; most settled regions will cluster in the middle ranges.
 - Unveiling phenomena, megastructures, or local anomalies can create exceptions that override normal environmental expectations.
+
+
+--------------------------------------------------
+GEOGRAPHY HIERARCHY & PHILOSOPHY
+--------------------------------------------------
+
+Virath’s geography is organised in three tiers:
+
+1. Geographic Region
+   - Large-scale physical area roughly comparable to Western Europe in size.
+   - Defined purely by natural geography, climate patterns, and major landforms.
+   - Political and cultural ownership is not inherent to the region.
+
+2. Local Region
+   - Smaller physical subdivision within a Geographic Region.
+   - Each Local Region carries its own full set of Environmental Scores.
+   - Still defined by physical characteristics rather than politics.
+
+3. Settlement
+   - Individual cities, towns, villages, fortresses, and other permanent human sites.
+   - Political control, cultural identity, and faction ownership are recorded at this level.
+   - Settlements link upward to the Local Region (and therefore Geographic Region) they physically occupy.
+
+Core Principle
+Geographic and Local Regions are physical realities. They do not change ownership.
+Political control is fluid and is determined by who holds the settlements within them. 
+As a result, any Geographic or Local Region may be wholly controlled, partially controlled, or actively contested by multiple factions at the same time.
+
+This separation keeps environmental data stable while allowing the political map to shift through conquest, diplomacy, rebellion, or collapse.
+
+
+--------------------------------------------------
+LOCAL REGION STRUCTURE & FORMAT
+--------------------------------------------------
+
+Every Local Region document should follow this standard template for consistency:
+
+# [Local Region Name]
+
+Overview
+[2–4 sentences of atmospheric description focusing on physical character, mood, and distinctive features]
+
+Environmental Scores
+Temperature: X
+Rainfall: X
+Human Density: X
+Flora/Fauna Density: X
+Topography: X
+Hydrology: X
+
+Notable Features
+- [Key landmarks, resources, natural dangers, or defining characteristics]
+- [Additional bullet points as needed]
+
+Linked Settlements
+- [Major settlements that physically sit within this Local Region]
+- [Leave blank or note “None recorded” if not yet defined]
+
+Notes on Use
+- Environmental Scores must use the 0–5 scale defined in this document.
+- The Overview should remain purely physical and atmospheric. Political control is recorded at Settlement level or in the Campaign Log.
+- Notable Features should highlight elements useful for travel, survival, resources, or encounters.
+- Linked Settlements allows quick navigation between geography and population centres.
+
+
+--------------------------------------------------
+GEOGRAPHIC REGION STRUCTURE & FORMAT
+--------------------------------------------------
+
+Every Geographic Region document should follow this standard template:
+
+# [Geographic Region Name]
+
+Visual Reference
+[Link to a map or image clearly showing the shape of this Geographic Region and its position relative to neighbouring regions]
+
+Overview
+[3–6 sentences describing the overall physical character, climate patterns, major landforms, and general feel of the region. Keep this purely geographical.]
+
+Location & Borders
+[Short prose description of the region’s position]
+
+borders:
+- North: 
+- Northeast: 
+- East: 
+- Southeast: 
+- South: 
+- Southwest: 
+- West: 
+- Northwest: 
+
+Shared / Border Local Regions
+[List any Local Regions that are shared with one or more neighbouring Geographic Regions. These are typically major natural barriers such as mountain ranges, large rivers, or dense forests that form the boundary between regions.]
+
+Local Regions
+[List of Local Regions that primarily belong to this Geographic Region. Order them in a logical geographic sequence where possible (e.g. north-to-south or coast-to-inland).]
+
+- [Local Region Name]
+- [Local Region Name]
+- ...
+
+Notable Features
+- [Major mountain ranges, river systems, forests, coastlines, plateaus, or other defining physical elements]
+- [Significant natural resources or large-scale environmental characteristics]
+
+Notes
+[Optional: high-level observations about travel difficulty, overall character, or other relevant physical details]
+
+--------------------------------------------------
+Rules for Shared Local Regions
+--------------------------------------------------
+
+- A Local Region may belong to more than one Geographic Region when it forms a natural border (for example a major mountain range or wide river).
+- In such cases the full Local Region document exists only once.
+- Each relevant Geographic Region lists that Local Region under “Shared / Border Local Regions” rather than under its primary Local Regions list.
+- This prevents duplication while accurately reflecting physical reality.

@@ -1,0 +1,83 @@
+# Kannavald_Labels.txt
+# Working label list for the Ebon Spire / Kannavald region
+# Brief location blurbs only. Political control is not recorded here.
+
+--------------------------------------------------
+MAJOR LANDMARKS
+--------------------------------------------------
+
+Ebon Spire
+Inactive volcano and the dominant peak of the peninsula. Black, craggy rock. Source of the rivers that feed Lake Kolvatn.
+
+Westwood Heights
+Lower coastal ridge on the west of Kannavald. Forest covers most of the slopes; only the highest points rise above the canopy. Milder than the Ebon Spire massif.
+
+Svarthorn Massif
+The black-rock mountain mass surrounding Ebon Spire. The true highland of the peninsula. Craggy, volcanic in origin, and far higher than the coastal hills.
+
+Brocken Peak
+(Southern most peak of the Svarthorn Massif range)
+
+Kannavald Deepwood
+The great boreal forest of the region. Dense, dark, and thinly settled. Timber, charcoal, trapping, and small mining.
+
+Lake Kolvatn
+Central lake formed from Ebon Spire runoff. Economic heart of the Deepwood. Timber and ore come downriver to its shores.
+
+Kolmire Fens
+Swampy western margin of Lake Kolvatn. Sunken ground. Site of the drowned former capital, The Sunkern Burg.
+
+The Still Stones
+Also called: The Black Circle, The Hollows, The Quiet Watchers.
+Ancient standing stones in a large clearing in the deepest woods. Local law is absolute: do not approach. Misfortune in the region is often blamed on someone who did.
+
+Mistcap Crags
+Western heights at the seaward end of Westwood Heights. One of the few places the ridge breaks the canopy.
+
+Watchers Peak
+A forested height in Kannavald Deepwood, west of Lake Kolvatn. Named in the same local speech as the Quiet Watchers, though it is a mountain, not the stones.
+
+Westwood Peak
+(Tallest peak of Westwood Heights)
+
+Stetbjorg Height
+(Brief description)
+
+Askflow
+Inlet to Lake Kolvatn. The main runoff from Ebon Spire.
+
+Hornbeck
+Inlet to Lake Kolvatn. The darker forest-fed water from the Westwood Heights
+
+Rookburn
+Inlet to Lake Kolvatn. A lesser stream off the Ebon Spire / Svarthorn Massif.
+
+The Sund
+The two-mile outflow draining Lake Kolvatn past Twaford. The water-gate of the region.
+
+--------------------------------------------------
+SETTLEMENTS
+--------------------------------------------------
+
+Kolby-on-Vatn
+The lake town. Primary hub for processing timber, charcoal, and mine produce. The only real town in Kannavald.
+
+The Twaford Twins
+Pair of castles, one on each side of the outflow at Twaford. Seat of regional power. Gate to the Kolvatn basin. Main access into the economic region.
+
+Kolholm "The Sunkern Burg"
+Ruined former regional capital, now lost in the Kolmire Fens. Drowned when rains and runoff from Ebon Spire flooded the western marshes.
+
+Hornby
+(Brief description)
+
+
+--------------------------------------------------
+LESSER / SCATTERED
+--------------------------------------------------
+
+Upper-river villages
+Small logging and mining settlements nearer the river sources. Timber and ore are floated down to Kolby-on-Vatn.
+
+Charcoal hamlets
+Many small, scattered hamlets throughout Kannavald Deepwood. Charcoal-burning, trapping, and isolated woodland work.
