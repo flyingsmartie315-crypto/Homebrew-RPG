@@ -335,6 +335,23 @@ Goods taken from living beasts, or from beasts that must be killed.
     Packing: basket
     Lot (10 kg) → 3 sc 4 bc
 
+    Feathers
+    Chicken, duck, goose. Not from four-foots.
+    Used for bedding, fletching, and cheap stuffing.
+    Base: 6 bc per kg
+    Bulk: 40 kg/m³
+    Packing: sack
+    Sack (5 kg) → 2 sc 6 bc
+    Cart load (100 kg, volume) → 50 sc
+
+    Down
+    Goose first, then duck. Chicken gives almost none.
+    Used for fine bedding and warm linings.
+    Base: 1 sc 6 bc per kg
+    Bulk: 30 kg/m³
+    Packing: sack
+    Sack (2 kg) → 3 sc
+
   Ivory
 
     Walrus Tusk
