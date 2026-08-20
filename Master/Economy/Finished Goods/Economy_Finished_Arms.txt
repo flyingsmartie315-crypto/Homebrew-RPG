@@ -1,0 +1,259 @@
+# Economy_Finished_Arms.txt
+# Fighting pieces. Not tools.
+
+HEADER NOTE
+All prices use the universal currency (1 gc = 20 sc = 240 bc).
+Arms are sold by the piece.
+The metal in the weapon is never cheaper than the grade named in the inputs.
+Hafts and shafts use selected blanks, not boards.
+
+Stay inside the categories below. Named examples are types within a category, not separate files.
+
+--------------------------------------------------
+BLADES
+--------------------------------------------------
+
+Small Bladed
+Type: Small Bladed
+Examples: knife, dagger, rondel dagger
+Inputs:
+  - 0.3–0.6 kg steel
+  - small fittings as needed
+Labour: Smith, part of a day to a day
+Modifiers:
+  - Poor: wrought iron
+  - Fine: fine steel
+Output: 1 piece
+Base price: 12–25 sc
+
+Single Bladed
+Type: Single Bladed
+Examples: arming sword, sabre, scimitar
+Inputs:
+  - 1.0–1.4 kg steel
+  - grip, guard, and scabbard fittings
+Labour: Smith, several days
+Modifiers:
+  - Poor: wrought iron / low steel
+  - Fine: fine steel
+Output: 1 piece
+Base price: 2–5 gc
+
+Long Bladed
+Type: Long Bladed
+Examples: longsword, bastard sword
+Inputs:
+  - 1.4–1.8 kg steel
+  - longer grip and fittings
+Labour: Smith, a week or more
+Modifiers:
+  - Poor: common steel
+  - Fine: fine steel or better
+Output: 1 piece
+Base price: 5–10 gc
+
+Great Bladed
+Type: Great Bladed
+Examples: zweihander, claymore
+Inputs:
+  - 2.0–3.0 kg steel
+  - long grip, substantial fittings
+Labour: Smith, specialised, two weeks or more
+Modifiers:
+  - Fine: fine or crucible steel
+Output: 1 piece
+Base price: 10–20 gc
+
+--------------------------------------------------
+AXES
+--------------------------------------------------
+
+Single Axe
+Type: Single Axe
+Examples: fighting axe, horseman’s axe
+Inputs:
+  - 1.0–1.5 kg steel
+  - 2–3 kg ash shaft-blank
+Labour: Smith, a day or two, plus hafting
+Modifiers:
+  - Poor: wrought iron head
+  - Fine: steel bit, selected ash
+Output: 1 piece
+Base price: 18–35 sc
+
+Long Axe
+Type: Long Axe
+Examples: long fighting axe, two-handed field axe
+Inputs:
+  - 1.5–2.2 kg steel
+  - 3–4 kg ash shaft-blank
+Labour: Smith, several days, plus hafting
+Modifiers:
+  - Poor: wrought iron head
+  - Fine: steel head, selected ash
+Output: 1 piece
+Base price: 2–4 gc
+
+Great Axe
+Type: Great Axe
+Examples: great axe, pollaxe
+Inputs:
+  - 2.0–3.5 kg steel
+  - 3 kg selected ash shaft-blank
+Labour: Smith, specialised, plus careful hafting
+Modifiers:
+  - Fine: fine steel head; weapon-grade ash
+Output: 1 piece
+Base price: 4–8 gc
+
+--------------------------------------------------
+BLUNT
+--------------------------------------------------
+
+Single Blunt
+Type: Single Blunt
+Examples: mace, horseman’s hammer
+Inputs:
+  - 1.2–2.0 kg wrought iron or steel
+  - 2 kg ash handle-blank
+Labour: Smith, a day or two
+Modifiers:
+  - Fine: steel flanges or pick
+Output: 1 piece
+Base price: 16–30 sc
+
+Long Blunt
+Type: Long Blunt
+Examples: two-handed mace, long hammer
+Inputs:
+  - 2.0–3.0 kg wrought iron or steel
+  - 3 kg ash shaft-blank
+Labour: Smith, several days
+Modifiers:
+  - Fine: steel working-faces
+Output: 1 piece
+Base price: 2–4 gc
+
+Great Blunt
+Type: Great Blunt
+Examples: maul, great hammer
+Inputs:
+  - 3.0–5.0 kg wrought iron or steel
+  - 3–4 kg ash shaft-blank
+Labour: Smith, heavy work, plus hafting
+Modifiers:
+  - Fine: steel face
+Output: 1 piece
+Base price: 3–6 gc
+
+--------------------------------------------------
+POLE AND SHAFT
+--------------------------------------------------
+
+Polearm
+Type: Polearm
+Examples: halberd, bill, glaive
+Inputs:
+  - 1.5–2.5 kg steel
+  - 3–4 kg ash shaft-blank
+Labour: Smith, several days, plus hafting
+Modifiers:
+  - Poor: wrought iron head
+  - Fine: steel head, selected ash
+Output: 1 piece
+Base price: 3–7 gc
+
+Spear
+Type: Spear
+Examples: common spear, war spear, winged spear
+Inputs:
+  - 0.4–0.8 kg steel
+  - 2–3 kg ash shaft-blank
+Labour: Smith, part of a day to a day, plus hafting
+Modifiers:
+  - Poor: wrought iron head; mixed-timber shaft
+  - Fine: steel head, selected ash
+Output: 1 piece
+Base price: 10–25 sc
+
+--------------------------------------------------
+BOWS
+--------------------------------------------------
+
+Low-Poundage Bow
+Type: Low-Poundage Bow
+Examples: light bow, self bow
+Inputs:
+  - 1 selected bow-stave (ash, elm, or lesser yew)
+Labour: Bowyer, several days
+Modifiers:
+  - Fine: better stave and tiller
+Output: 1 piece
+Base price: 15–30 sc
+
+Medium-Poundage Bow
+Type: Medium-Poundage Bow
+Examples: cavalry bow, skirmish bow
+Inputs:
+  - 1 selected bow-stave
+  - sinew / glue / horn if composite
+Labour: Bowyer, a week or more
+Modifiers:
+  - Composite: extra materials and time
+Output: 1 piece
+Base price: 2–5 gc
+
+High-Poundage Bow
+Type: High-Poundage Bow
+Examples: longbow, warbow
+Inputs:
+  - 1 selected yew stave (5 kg class) or lesser substitute
+Labour: Bowyer, skilled, long seasoning before the tiller
+Modifiers:
+  - Yew: as Forestry yew stave
+  - Substitute stave: cheaper, worse
+Output: 1 piece
+Base price: 5–12 gc
+
+--------------------------------------------------
+CROSSBOWS
+--------------------------------------------------
+
+Low-Poundage Crossbow
+Type: Low-Poundage Crossbow
+Examples: hand-drawn; stirrup and belt-hook
+Inputs:
+  - steel or horn prod
+  - tiller of hardwood
+  - lock and simple fittings
+Labour: Bowyer / smith together, several days
+Modifiers:
+  - Poor: iron prod, mixed-timber tiller
+Output: 1 piece
+Base price: 2–4 gc
+
+Medium-Poundage Crossbow
+Type: Medium-Poundage Crossbow
+Examples: goat’s-foot lever
+Inputs:
+  - heavier steel prod
+  - hardwood tiller
+  - lock, stirrup, and lever
+Labour: Specialist, a week or more
+Modifiers:
+  - Fine: better lock and prod
+Output: 1 piece
+Base price: 5–10 gc
+
+High-Poundage Crossbow
+Type: High-Poundage Crossbow
+Examples: windlass or cranequin
+Inputs:
+  - heavy steel prod
+  - hardwood tiller
+  - lock and winding gear
+Labour: Specialist, two weeks or more
+Modifiers:
+  - Windlass or cranequin counted in the fittings
+Output: 1 piece
+Base price: 12–25 gc

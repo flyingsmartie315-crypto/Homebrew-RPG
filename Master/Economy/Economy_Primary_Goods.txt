@@ -6,15 +6,44 @@ All prices use the universal currency (1 gc = 20 sc = 240 bc).
 Prices shown are base market values and are subject to ±50% (or greater) fluctuation by region, season, supply, and demand.
 Base unit is 1 kg wherever practical. Larger lots are provided for convenience.
 
+Bulk is packed density for the good in its listed packing.
+A vehicle is full at whichever comes first: weight or volume.
+Standard cart: 800 kg or 2.5 m³
+Heavy cart: 1,500 kg or 4 m³
+River timber barge: 12,000 kg or 30 m³
+A “cart load” is one standard cart.
+A “heavy-cart load” is one heavy cart.
+A “barge-load” is one river timber barge.
+
+Packing
+The Bulk figure already includes the listed packing.
+Use the modifiers below only when the good is packed differently from its listed method.
+
+Sacks
++2% weight (cloth and ties).
++5% volume (voids and slack).
+Default for grain, salt, charcoal, dried meat, dried fish.
+
+Baskets
++15–25% volume.
+Default for eggs, berries, greens, moss, and anything that must breathe or not be crushed.
+
+Casks / Crates
++8–12% weight (wood).
+Volume is the cask’s outside measure.
+Default for butter, tallow, pitch, and breakable dry goods.
+
+Loose pile
+No extra penalty.
+Default for ore, coal, stone, bricks, clay, peat, and logs.
+Stow it: cover or fasten ore and coal; stack bricks; wedge and bind logs; sheet clay and peat against rain.
+
 These goods form the economic foundation of Virath.
 
 ---
 
 Agriculture
 Crops planted, tended, and taken from the field or grove.
-Comes from settled farmland.
-Acquired by farm labour through the year.
-Used as food, fibre, oil, and specialist trade.
 
   Grain
   The staple seed-crop of settled land: wheat, barley, rye, or local equivalents.
@@ -22,36 +51,100 @@ Used as food, fibre, oil, and specialist trade.
   Acquired by farm labour through the agricultural year.
   Used as bread-corn, ale-corn, fodder, and the baseline of most diets.
   Base: 3 bc per kg
-  Common lots: Sack (40 kg) → 1 sc 20 bc | Cart load (800 kg) → 10 sc
-  Wt/Vol reference: 1 kg ≈ 1.3 L
+  Bulk: 750 kg/m³
+  Packing: sack
+  Sack (40 kg) → 10 sc
+  Cart load (800 kg) → 200 sc
+  Heavy-cart load (1,500 kg) → 375 sc
+
+  Root Vegetables
+  Plot-crops of the common house: carrots, cabbages, beets, onions, peas, potatoes, and their like.
+  Grown in gardens and small fields wherever the season allows.
+  Acquired by ordinary household and farm labour.
+  Used as daily food, pottage, and winter store.
+  Base: 2 bc per kg
+  Bulk: 550 kg/m³
+  Packing: sack / basket
+  Sack (30 kg) → 5 sc
+  Cart load (800 kg) → 133 sc 4 bc
+  Heavy-cart load (1,500 kg) → 250 sc
+
+  Apples
+  The common orchard fruit of temperate country.
+  Grown in orchards and on household trees.
+  Picked in season; eaten fresh, dried, or pressed.
+  Base: 4 bc per kg
+  Bulk: 550 kg/m³
+  Packing: sack / crate
+  Sack (25 kg) → 8 sc 4 bc
+  Cart load (800 kg) → 266 sc 8 bc
+  Heavy-cart load (1,500 kg) → 500 sc
+
+  Citrus Fruit
+  Oranges, lemons, limes, and their like.
+  Grown in warm groves; a southern and coastal good.
+  Picked by seasonal labour; eaten fresh or used as preserve and flavour.
+  Base: 9 bc per kg
+  Bulk: 600 kg/m³
+  Packing: crate
+  Crate (20 kg) → 15 sc
+  Cart load (800 kg) → 600 sc
+  Heavy-cart load (1,500 kg) → 1,125 sc
+
+  Berries (cultivated)
+  Garden and field berries: strawberry, cherry, and their like.
+  Grown on tended bushes and trees, not taken from the wild wood.
+  Picked in season; eaten fresh or preserved.
+  Base: 8 bc per kg
+  Bulk: 400 kg/m³
+  Packing: basket
+  Basket (5 kg) → 3 sc 4 bc
+  Cart load (800 kg) → 533 sc 4 bc
+  Heavy-cart load (1,500 kg) → 1,000 sc
 
   Olives
   Oil-fruit of warm coasts and hills.
   Grown in groves; picked by seasonal labour.
   Pressed for oil or eaten cured.
   Base: 4 bc per kg
-  Common lots: Sack (30 kg) → 1 sc | Cart load (600 kg) → 10 sc
+  Bulk: 650 kg/m³
+  Packing: sack / crate
+  Sack (30 kg) → 10 sc
+  Cart load (800 kg) → 266 sc 8 bc
+  Heavy-cart load (1,500 kg) → 500 sc
 
   Grapes
   Fresh or pressed fruit of the vine.
   Grown in warm, settled hill-country.
   Picked by seasonal labour; used for eating or wine.
   Base: 6 bc per kg
-  Common lots: Crate (20 kg) → 1 sc | Cart load (500 kg) → 12 sc 10 bc
+  Bulk: 600 kg/m³
+  Packing: crate
+  Crate (20 kg) → 10 sc
+  Cart load (800 kg) → 400 sc
+  Heavy-cart load (1,500 kg) → 750 sc
 
   Date Fruit (dried)
   Sweet dried fruit of hot, dry lands.
   Grown in irrigated groves; picked and sun-dried.
   Eaten as food and a high-value southern staple.
   Base: 9 bc per kg
-  Common lots: Sack (25 kg) → 2 sc 5 bc
+  Bulk: 650 kg/m³
+  Packing: sack
+  Sack (25 kg) → 18 sc 9 bc
+  Cart load (800 kg) → 600 sc
+  Heavy-cart load (1,500 kg) → 1,125 sc
 
   Flax
   Fibre-plant of damp fields.
   Grown and retted by farm labour, then broken and scutched.
   Used for linen, twine, and oil-seed.
   Base: 7 bc per kg
-  Common lots: Bundle/sack (20 kg) → 1 sc 10 bc
+  Bulk: 180 kg/m³
+  Packing: bundle / sack
+  Bundle/sack (20 kg) → 11 sc 8 bc
+  Cart load (450 kg, volume) → 262 sc 6 bc
+  Heavy-cart load (720 kg, volume) → 420 sc
 
   Raw Silk
   Unwoven fibre of the silkworm.
@@ -59,14 +152,22 @@ Used as food, fibre, oil, and specialist trade.
   Acquired by sericulture, not ordinary farmwork.
   Used for high cloth.
   Base: 2 sc per kg
-  Common lots: Bundle (5 kg) → 10 sc
+  Bulk: 120 kg/m³
+  Packing: bundle
+  Bundle (5 kg) → 10 sc
+  Cart load (300 kg, volume) → 600 sc
+  Heavy-cart load (480 kg, volume) → 960 sc
 
   Spice
   Dried aromatic goods of hot and distant lands.
   Grown or gathered in specialised regions, then packed for long trade.
   Used in cooking, medicine, and as a mark of wealth.
   Base: 3 sc per kg
-  Common lots: Small chest (5 kg) → 15 sc
+  Bulk: 400 kg/m³
+  Packing: chest / crate
+  Small chest (5 kg) → 15 sc
+  Cart load (800 kg) → 2,400 sc
+  Heavy-cart load (1,500 kg) → 4,500 sc
 
   Dyes
   Colouring stuffs of plant, insect, or mineral origin.
@@ -74,431 +175,531 @@ Used as food, fibre, oil, and specialist trade.
   Acquired by specialist harvest or trade.
   Used by dyers and cloth-makers.
   Base: 1 sc 10 bc per kg
-  Common lots: Pot (5 kg) → 7 sc 10 bc
+  Bulk: 400 kg/m³
+  Packing: pot / crate
+  Pot (5 kg) → 9 sc 2 bc
+  Cart load (800 kg) → 1,466 sc 8 bc
+  Heavy-cart load (1,500 kg) → 2,750 sc
 
 
 Animal Produce
 Goods taken from living beasts, or from beasts that must be killed.
-Comes from herds, yards, woods, and the hunt.
-Acquired by husbandry, slaughter, or trapping.
 
   Live / Household
-  Taken without slaughter.
 
     Butter
     Churned fat of milk.
-    Comes from cattle and similar dairy herds in pastoral country.
-    Acquired by daily dairy work.
-    Used for cooking, eating, and as a stored fat.
     Base: 12 bc per kg
-    Common lots: Small cask (20 kg) → 1 sc | Larger cask (50 kg) → 2 sc 10 bc
+    Bulk: 900 kg/m³
+    Packing: cask
+    Small cask (20 kg) → 20 sc
+    Larger cask (50 kg) → 50 sc
+    Cart load (800 kg) → 800 sc
+    Heavy-cart load (1,500 kg) → 1,500 sc
+
+    Milk
+    Fresh milk of cattle, goats, or sheep.
+    Comes from dairy herds and household beasts.
+    Acquired by daily milking.
+    Used as drink and as the start of butter and cheese. Spoils fast; rarely a long-haul good.
+    Base: 4 bc per kg
+    Bulk: 1,000 kg/m³
+    Packing: pail / cask
+    Pail (10 kg) → 3 sc 4 bc
+    Cask (50 kg) → 16 sc 8 bc
+    Cart load (800 kg) → 266 sc 8 bc
 
     Cheese
     Pressed, aged milk-curd.
-    Made in pastoral and mixed-farming country.
-    Acquired by dairy labour after milking.
-    Used as stored protein and trade food.
     Base: 14 bc per kg
-    Common lots: Wheel/sack (15 kg) → 1 sc 15 bc | Larger lot (40 kg) → 2 sc 10 bc
+    Bulk: 700 kg/m³
+    Packing: sack / crate
+    Wheel/sack (15 kg) → 17 sc 6 bc
+    Cart load (800 kg) → 933 sc 4 bc
+    Heavy-cart load (1,500 kg) → 1,750 sc
 
     Wool
     Shorn fleece.
-    Comes from sheep in pastoral country.
-    Acquired by shearing.
-    Used for cloth, felt, and stuffing.
     Base: 5 bc per kg
-    Common lots: Fleece sack (25 kg) → 1 sc 5 bc | Cart load (400 kg) → 8 sc 10 bc
+    Bulk: 150 kg/m³
+    Packing: sack / bundle
+    Fleece sack (25 kg) → 10 sc 5 bc
+    Cart load (375 kg, volume) → 156 sc 3 bc
+    Heavy-cart load (600 kg, volume) → 250 sc
 
     Eggs
     Fresh eggs of domestic fowl.
-    Comes from household flocks.
-    Acquired by ordinary yard-labour.
-    Used as daily food; rarely a long-range trade good.
-    Base: 1 bc each (≈ 20–25 eggs per kg)
-    Common lots: Basket (100 eggs) → 1 sc
+    Base: 1 bc each (≈ 20 eggs per kg)
+    Bulk: 400 kg/m³
+    Packing: basket
+    Basket (100 eggs) → 8 sc 4 bc
+    Cart load (800 kg) → 1,333 sc 4 bc
 
     Honey
     Wild or kept sweet.
-    Taken from woodland hives or kept skeps.
-    Acquired by bee-keepers and forest gatherers.
-    Used as sweetener, drink-base, and store food.
     Base: 14 bc per kg
-    Common lots: Jar/cask (15 kg) → 2 sc 10 bc
+    Bulk: 1,400 kg/m³
+    Packing: jar / cask
+    Jar/cask (15 kg) → 17 sc 6 bc
+    Cart load (800 kg) → 933 sc 4 bc
+    Heavy-cart load (1,500 kg) → 1,750 sc
 
     Beeswax
     The comb-wax of the same hives.
-    Taken when honey is cut.
-    Used for candles, sealing, and fine craft.
     Base: 16 bc per kg
-    Common lots: Block (10 kg) → 1 sc 15 bc
+    Bulk: 950 kg/m³
+    Packing: block / crate
+    Block (10 kg) → 13 sc 4 bc
+    Cart load (800 kg) → 1,066 sc 8 bc
+    Heavy-cart load (1,500 kg) → 2,000 sc
 
   Slaughter / Hunt
-  Requires the beast to be killed, or taken as a carcass. Includes meat, hide, fur, and fat.
 
     Meat (smoked/salted)
     Preserved flesh of livestock or game.
-    Comes from slaughter or hunting, then salted or smoked.
-    Used as travelling food and winter store.
     Base: 15 bc per kg
-    Common lots: Sack (20 kg) → 1 sc 5 bc | Cart load (350 kg) → 21 sc 15 bc
+    Bulk: 500 kg/m³
+    Packing: sack
+    Sack (20 kg) → 25 sc
+    Cart load (800 kg) → 1,000 sc
+    Heavy-cart load (1,500 kg) → 1,875 sc
 
     Hides (raw)
     Unworked skins of cattle and large game.
-    Taken at slaughter or from the hunt.
-    Acquired by flaying and a first salting or drying.
-    Used by tanners for leather.
     Base: 10 bc per kg
-    Common lots: Bundle (15 kg) → 1 sc 10 bc
+    Bulk: 300 kg/m³
+    Packing: bundle
+    Bundle (15 kg) → 12 sc 6 bc
+    Cart load (750 kg, volume) → 625 sc
+    Heavy-cart load (1,200 kg, volume) → 1,000 sc
 
     Fur
     The dense winter coat of forest and highland beasts.
-    Taken by trappers.
-    Used for warm clothing, trim, and high-value trade.
     Base: 1 sc 10 bc per kg
-    Common lots: Bundle (10 kg) → 15 sc
+    Bulk: 100 kg/m³
+    Packing: bundle
+    Bundle (10 kg) → 18 sc 4 bc
+    Cart load (250 kg, volume) → 458 sc 4 bc
+    Heavy-cart load (400 kg, volume) → 733 sc 4 bc
 
     Tallow
     Rendered animal fat.
-    Comes from slaughter and hunting.
-    Acquired by boiling down carcass fat.
-    Used for candles, soap, and cheap cooking fat.
     Base: 9 bc per kg
-    Common lots: Cask (25 kg) → 2 sc 5 bc
+    Bulk: 900 kg/m³
+    Packing: cask
+    Cask (25 kg) → 18 sc 9 bc
+    Cart load (800 kg) → 600 sc
+    Heavy-cart load (1,500 kg) → 1,125 sc
 
     Fish (smoked/dried)
     Preserved catch from sea, lake, or river.
-    Taken by net, line, or trap, then smoked or dried.
-    Used as staple protein and a durable trade food.
     Base: 8 bc per kg
-    Common lots: Sack (25 kg) → 2 sc | Cart load (400 kg) → 13 sc 10 bc
+    Bulk: 450 kg/m³
+    Packing: sack
+    Sack (25 kg) → 16 sc 8 bc
+    Cart load (800 kg) → 533 sc 4 bc
+    Heavy-cart load (1,500 kg) → 1,000 sc
+
+    Carcass Parts
+    What is left when the meat and hide are taken.
+    Comes from slaughter, not from the hunt alone.
+    Acquired by the butcher.
+
+    Bone
+    Long-bone and knuckle of cattle, horse, and similar.
+    Used for glue, buttons, handles, and meal.
+    Base: 3 bc per kg
+    Bulk: 800 kg/m³
+    Packing: sack / loose
+    Sack (20 kg) → 5 sc
+
+    Horn (livestock)
+    Cattle and goat horn. Same family as Antler / Horn, cheaper.
+    Used for combs, cups, lantern-panels, and glue.
+    Base: 8 bc per kg
+    Bulk: 1,200 kg/m³
+    Packing: bundle
+    Bundle (5 kg) → 3 sc 4 bc
+
+    Gut / Sinew
+    Cleaned bowel and tendon.
+    Used for sausage-casing, binding, and bow-string.
+    Base: 12 bc per kg
+    Packing: salt-cask
+    Lot (5 kg) → 5 sc
+
+    Offal
+    Liver, heart, tripe, and the rest of the inner meat.
+    Eaten poor, or fed to dogs. Spoils faster than the carcase.
+    Base: 4 bc per kg
+    Packing: basket
+    Lot (10 kg) → 3 sc 4 bc
 
   Ivory
-  Hard animal material used for fine work, handles, and ornament.
 
     Walrus Tusk
     The great ivory of cold seas.
-    Taken by northern hunters from walrus.
-    Used for carving, inlay, and prestige goods.
     Base: 2 sc 10 bc per kg
-    Common lots: Single large tusk (8–12 kg) → 20–30 sc
+    Bulk: 1,800 kg/m³
+    Packing: loose / wrapped
+    Single large tusk (8–12 kg) → 22 sc 8 bc to 34 sc
 
     Antler / Horn
     Shed or taken antler, and horn of deer, goat, and similar beasts.
-    Comes from hunting country and forest margins.
-    Acquired by hunting, gathering sheds, or slaughter.
-    Used for handles, combs, glue, and small tools.
     Base: 1 sc per kg
-    Common lots: Bundle (10 kg) → 10 sc
+    Bulk: 1,800 kg/m³
+    Packing: bundle
+    Bundle (10 kg) → 10 sc
 
 
 Wilderness Foraging
-What is taken from wood, fen, shore, and waste without the plough.
-Comes from wild ground.
-Acquired by gathering, seasonal picking, and shore-combing.
-Used as food, packing, medicine, and small high-value finds.
 
   Moss / Lichen
-  Soft growth of the deep forest floor, wet bark, and swamp margins. Includes peat-moss for packing and tanner’s moss for curing.
-  Comes from heavy woodland and fen-edges.
-  Acquired by gathering; little skill, much stooping and carrying.
-  Used to pack fragile goods, stuff walls, and dress hides.
+  Soft growth of the deep forest floor, wet bark, and swamp margins.
   Base: 4 bc per kg
-  Common lots: Sack (20 kg) → 80 bc | Cart load (400 kg) → 6 sc 10 bc
+  Bulk: 80 kg/m³
+  Packing: basket
+  Basket (20 kg) → 6 sc 8 bc
+  Cart load (200 kg, volume) → 66 sc 8 bc
+  Heavy-cart load (320 kg, volume) → 106 sc 8 bc
 
   Bog Berries
   Sour small fruit of wet moss and fen.
-  Comes from Kolmire-type ground and lake margins.
-  Picked in season, then eaten fresh or dried.
-  Used as winter store, drink-base, and a minor export.
   Base: 8 bc per kg
-  Common lots: Sack (15 kg) → 1 sc | Basket (5 kg) → 40 bc
+  Bulk: 400 kg/m³
+  Packing: basket
+  Basket (5 kg) → 3 sc 4 bc
+  Sack (15 kg) → 10 sc
+  Cart load (800 kg) → 533 sc 4 bc
+  Heavy-cart load (1,500 kg) → 1,000 sc
 
   Forest Berries
-  Ordinary wild fruit of the wood: bramble, currant, and the like.
-  Comes from woodland edges and burns.
-  Picked in season by anyone who can walk.
-  Used as food and cheap preserve; rarely worth a long haul.
+  Ordinary wild fruit of the wood.
   Base: 5 bc per kg
-  Common lots: Basket (8 kg) → 40 bc | Sack (20 kg) → 1 sc
+  Bulk: 400 kg/m³
+  Packing: basket
+  Basket (8 kg) → 3 sc 4 bc
+  Sack (20 kg) → 8 sc 4 bc
+  Cart load (800 kg) → 333 sc 4 bc
+  Heavy-cart load (1,500 kg) → 625 sc
 
   Dried Fungi
   Edible or useful mushrooms, dried for keeping.
-  Comes from the deep-wood floor after rain.
-  Gathered by those who know the safe from the dead.
-  Used as food, some dye, and a little medicine.
   Base: 12 bc per kg
-  Common lots: Bundle (5 kg) → 60 bc | Sack (12 kg) → 6 sc
+  Bulk: 200 kg/m³
+  Packing: sack / bundle
+  Bundle (5 kg) → 5 sc
+  Sack (12 kg) → 12 sc
+  Cart load (500 kg, volume) → 500 sc
+  Heavy-cart load (800 kg, volume) → 800 sc
 
   Wild Greens / Roots
   Eaten leaves, shoots, and roots of waste and wood.
-  Comes from any wild country in season.
-  Gathered as household food, not as a staple trade.
-  Used to stretch the pot when grain is dear.
   Base: 3 bc per kg
-  Common lots: Bundle (10 kg) → 30 bc
+  Bulk: 150 kg/m³
+  Packing: basket
+  Bundle (10 kg) → 2 sc 6 bc
+  Cart load (375 kg, volume) → 93 sc 9 bc
+  Heavy-cart load (600 kg, volume) → 150 sc
 
   Medicinal Herbs
   Known useful plants, dried or bound.
-  Comes from specific banks, clearings, and fen-edges.
-  Gathered by those with the knowledge.
-  Used by physicians, wise-women, and household medicine.
   Base: 1 sc per kg
-  Common lots: Bundle (2 kg) → 2 sc | Small chest (5 kg) → 5 sc
+  Bulk: 180 kg/m³
+  Packing: bundle / chest
+  Bundle (2 kg) → 2 sc
+  Small chest (5 kg) → 5 sc
+  Cart load (450 kg, volume) → 450 sc
+  Heavy-cart load (720 kg, volume) → 720 sc
 
   Amber
-  Fossil tree-resin, hard and clear enough for ornament.
-  Found washed up on wooded shores, or dug from old fen-ground.
-  Acquired by shore-combing and careful digging; never a sure harvest.
-  Used by jewellers and long-range traders.
+  Fossil tree-resin.
   Base: 4 sc per kg
-  Common lots: Small lot (1 kg) → 4 sc | Choice piece by quality
+  Bulk: 1,100 kg/m³
+  Packing: wrapped / chest
+  Small lot (1 kg) → 4 sc | Choice piece by quality
+
 
 Forestry
 Wood, and what is taken from the standing tree besides timber.
-Comes from forest and woodland.
-Acquired by woodcutters, charcoal-burners, and tappers.
+
+Note on timber value
+The per-kilogram price is for sound, usable forest-cut wood.
+Scraps lose any species premium and are valued as Mixed Timber or firewood.
+
+Note on masts, spars, and monumental trunks
+A great trunk is still only its species, by weight.
+Intact-piece premium: +25% to +100% (1.25× to 2×).
+Haulage is costed separately.
 
   Timber (mixed)
-  Unsorted building and firewood. Species not specified or not worth specifying.
-  Felled in any workable wood.
-  Used for ordinary building, fuel, and cheap joinery.
-  Base: 4 bc per kg
-  Common lots: Cart load (1,200 kg) → 20 sc
+  Unsorted building wood and firewood.
+  Base: 0.2 bc per kg
+  Bulk: 450 kg/m³
+  Packing: loose pile
+  20 kg firewood bundle → 4 bc
+  100 kg pit-props / rough posts → 20 bc
+  Cart load (800 kg) → 13 sc 4 bc
+  Heavy-cart load (1,500 kg) → 25 sc
+  Barge-load (12,000 kg) → 200 sc
 
   Pine / Fir
-  Light, resinous softwood of cold and highland forest.
-  Fast to fell, easy to float, prone to rot if left raw.
-  Used for common building, planking, scaffolding, and as the chief source of resin.
-  Base: 5 bc per kg
-  Common lots: Cart load (1,100 kg) → 22 sc 10 bc
+  Light, resinous softwood.
+  Base: 0.25 bc per kg
+  Bulk: 450 kg/m³
+  Packing: loose pile
+  15 kg small spar / oar blank → 4 bc
+  150 kg building baulk → 3 sc 1 bc
+  Cart load (800 kg) → 16 sc 8 bc
+  Heavy-cart load (1,500 kg) → 31 sc 3 bc
+  Barge-load (12,000 kg) → 250 sc
+  Master-mast: one flawless 2,000 kg unbroken trunk at 1.5× → 62 sc 6 bc
 
   Birch
-  Pale, even wood of northern and mixed forest.
-  Burns hot; the bark is a good tinder and wrapping.
-  Used for firewood, small joinery, turned work, and bark-goods.
-  Base: 6 bc per kg
-  Common lots: Cart load (1,000 kg) → 25 sc
+  Pale, even northern wood.
+  Base: 0.3 bc per kg
+  Bulk: 500 kg/m³
+  Packing: loose pile
+  5 kg turning blank → 2 bc
+  50 kg handle / clog billets → 1 sc 3 bc
+  Cart load (800 kg) → 20 sc
+  Heavy-cart load (1,500 kg) → 37 sc 6 bc
+  Barge-load (12,000 kg) → 300 sc
 
   Alder
-  Wet-ground wood of river, fen, and lake-margin.
-  Holds up in water better than most cheap timber.
-  Used for piles, sluices, clogs, and work that stands in the damp.
-  Base: 6 bc per kg
-  Common lots: Cart load (1,000 kg) → 25 sc
+  Wet-ground wood.
+  Base: 0.3 bc per kg
+  Bulk: 450 kg/m³
+  Packing: loose pile
+  20 kg stave blanks → 6 bc
+  80 kg sluice-board / small pile → 2 sc
+  Cart load (800 kg) → 20 sc
+  Heavy-cart load (1,500 kg) → 37 sc 6 bc
+  Barge-load (12,000 kg) → 300 sc
 
   Beech
-  Hard, close-grained wood of temperate forest.
-  Takes a clean cut and a good finish; splits well for fuel.
-  Used for furniture, tools, flooring, and better firewood.
-  Base: 9 bc per kg
-  Common lots: Cart load (950 kg) → 35 sc 10 bc
+  Hard, close-grained temperate wood.
+  Base: 0.45 bc per kg
+  Bulk: 550 kg/m³
+  Packing: loose pile
+  10 kg turning blank → 5 bc
+  100 kg furniture baulk → 3 sc 9 bc
+  Cart load (800 kg) → 30 sc
+  Heavy-cart load (1,500 kg) → 56 sc 3 bc
+  Barge-load (12,000 kg) → 450 sc
 
   Elm
-  Tough, twisted wood that does not split easily.
-  Stands wet better than oak in some uses.
-  Used for hubs, keels, pipes, and any work that must take strain and damp together.
-  Base: 10 bc per kg
-  Common lots: Cart load (950 kg) → 39 sc 10 bc
+  Tough, twisted wood.
+  Base: 0.5 bc per kg
+  Bulk: 550 kg/m³
+  Packing: loose pile
+  15 kg wheel-hub blank → 8 bc
+  120 kg pump-pipe / sluice log → 5 sc
+  Cart load (800 kg) → 33 sc 4 bc
+  Heavy-cart load (1,500 kg) → 62 sc 6 bc
+  Barge-load (12,000 kg) → 500 sc
 
   Ash
   Springy, straight-grained hardwood.
-  Takes shock without snapping.
-  Used for tool-handles, oars, shafts, and frames.
-  Base: 12 bc per kg
-  Common lots: Cart load (900 kg) → 45 sc
+  Base: 0.6 bc per kg
+  Bulk: 550 kg/m³
+  Packing: loose pile
+  8 kg handle / shaft blank → 5 bc
+  60 kg wheel-rim / chassis timber → 3 sc
+  Cart load (800 kg) → 40 sc
+  Heavy-cart load (1,500 kg) → 75 sc
+  Barge-load (12,000 kg) → 600 sc
 
   Oak
-  The chief heavy hardwood of lasting work.
-  Slow to grow, slow to rot, hard to work.
-  Used for ships, halls, gates, barrels, and any frame meant to outlast the builder.
-  Base: 14 bc per kg
-  Common lots: Cart load (900 kg) → 52 sc 10 bc
+  The chief heavy hardwood.
+  Base: 0.7 bc per kg
+  Bulk: 650 kg/m³
+  Packing: loose pile
+  12 kg cooper’s stave blanks → 8 bc
+  100 kg framing knee / gate-post → 5 sc 10 bc
+  Cart load (800 kg) → 46 sc 8 bc
+  Heavy-cart load (1,500 kg) → 87 sc 6 bc
+  Barge-load (12,000 kg) → 700 sc
+  Monumental pillar: one flawless 2,500 kg unbroken trunk at 1.5× → 218 sc 9 bc
 
   Yew
-  Dense, elastic, dark wood. Scarce and slow.
-  The best common bow-wood; waste is still valued.
-  Used for bows, small fine work, and costly joinery.
-  Base: 1 sc 10 bc per kg
-  Common lots: Billet lot (20 kg) → 30 sc
+  Dense, elastic, dark wood.
+  Base: 2 sc 6 bc per kg (30 bc)
+  Bulk: 700 kg/m³
+  Packing: wrapped / loose
+  1 kg carving / hilt piece → 2 sc 6 bc
+  5 kg knotless self-bow stave → 12 sc 6 bc
+  20 kg workshop lot → 50 sc
 
   Charcoal
   Wood burned down to a hot, clean fuel.
-  Made in forest kilns and pits from whatever is cheap and dry enough.
-  Acquired by charcoal-burners.
-  Used by smiths, smelters, and anyone needing a strong fire.
   Base: 6 bc per kg
-  Common lots: Sack (15 kg) → 90 bc | Cart load (300 kg) → 7 sc 10 bc
+  Bulk: 280 kg/m³
+  Packing: sack
+  Sack (15 kg) → 7 sc 6 bc
+  Cart load (700 kg, volume) → 350 sc
+  Heavy-cart load (1,120 kg, volume) → 560 sc
+  Barge-load (8,400 kg, volume) → 4,200 sc
 
   Resin / Pitch
   Sticky sap and the boiled tar made from it.
-  Tapped chiefly from pine and fir, or rendered from their roots and waste.
-  Acquired by woodland labour and simple boiling.
-  Used to seal boats, bind torches, and weatherproof timber.
   Base: 12 bc per kg
-  Common lots: Cask (20 kg) → 1 sc | Cart load (400 kg) → 20 sc
+  Bulk: 1,100 kg/m³
+  Packing: cask
+  Cask (20 kg) → 20 sc
+  Cart load (800 kg) → 800 sc
+  Heavy-cart load (1,500 kg) → 1,500 sc
 
 
 Earths and Salts
-Bulk stuffs dug, cut, or evaporated from ground and water.
-Comes from pits, pans, and fens.
-Acquired by digging, cutting, boiling, or drying.
-Used as fuel, preservative, and raw building-earth.
 
   Clay
   Raw earth for pots, brick, and daub.
-  Dug from riverbanks, lake margins, and clay-pits.
-  Acquired by digging and hauling.
-  Used by potters, builders, and tilers.
   Base: 2 bc per kg
-  Common lots: Cart load (1,000 kg) → 8 sc 10 bc
+  Bulk: 1,600 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 133 sc 4 bc
+  Heavy-cart load (1,500 kg) → 250 sc
 
   Salt
   The chief preservative.
-  Taken from pans, mines, or coastal works.
-  Acquired by boiling, cutting, or evaporating.
-  Used to cure meat and fish, and as a universal kitchen good.
   Base: 18 bc per kg
-  Common lots: Sack (20 kg) → 1 sc 10 bc | Cart load (400 kg) → 30 sc
+  Bulk: 1,200 kg/m³
+  Packing: sack
+  Sack (20 kg) → 30 sc
+  Cart load (800 kg) → 1,200 sc
+  Heavy-cart load (1,500 kg) → 2,250 sc
 
   Peat
   Cut and dried fen-earth used as fuel.
-  Taken from bogs and lake-margin mosses.
-  Acquired by cutting, stacking, and drying.
-  Used as a cheap local fire where wood and charcoal are too dear to burn.
   Base: 2 bc per kg
-  Common lots: Cart load (800 kg) → 6 sc 10 bc
+  Bulk: 350 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 133 sc 4 bc
+  Heavy-cart load (1,400 kg, volume) → 233 sc 4 bc
 
 
 Minerals
-Raw ores and mineral stuffs taken from the ground.
-Comes from veins, washes, pits, and volcanic ground.
-Acquired by miners, diggers, and washers.
-Used by smelters, smiths, and specialists once reduced.
 
   Iron Ore
   Mined rock bearing iron.
-  Comes from highland veins and workings.
-  Used to make bloom, bar, and finished iron.
   Base: 8 bc per kg
-  Common lots: Sack (50 kg) → 1 sc 15 bc | Cart load (800 kg) → 26 sc 15 bc
+  Bulk: 2,200 kg/m³
+  Packing: loose pile
+  Sack only if bagged for sale (50 kg) → 33 sc 4 bc
+  Cart load (800 kg) → 533 sc 4 bc
+  Heavy-cart load (1,500 kg) → 1,000 sc
 
   Bog Iron
-  Low-grade iron taken from wet ground rather than hard rock.
-  Forms in fens, lake margins, and old waterlogged soils.
-  Acquired by digging and washing, then smelted locally.
+  Low-grade iron from wet ground.
   Base: 5 bc per kg
-  Common lots: Sack (50 kg) → 1 sc 10 bc | Cart load (800 kg) → 16 sc 10 bc
+  Bulk: 1,800 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 333 sc 4 bc
+  Heavy-cart load (1,500 kg) → 625 sc
 
   Copper Ore
-  The common ore of bronze and common plate.
-  Comes from green-stained veins in hills and old workings.
-  Used for bronze, pots, fittings, and roofing once smelted.
   Base: 14 bc per kg
-  Common lots: Sack (40 kg) → 2 sc 5 bc | Cart load (700 kg) → 40 sc 10 bc
+  Bulk: 2,200 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 933 sc 4 bc
+  Heavy-cart load (1,500 kg) → 1,750 sc
 
   Tin Ore
-  The scarcer half of bronze.
-  Comes from specific stream-washes and hard-rock veins.
-  Used with copper to make bronze; little other common use in the raw.
   Base: 1 sc 2 bc per kg
-  Common lots: Sack (25 kg) → 27 sc 10 bc | Small lot (10 kg) → 11 sc
+  Bulk: 2,400 kg/m³
+  Packing: sack / chest if in small lots
+  Small lot (10 kg) → 11 sc 8 bc
+  Sack (25 kg) → 29 sc 2 bc
 
   Lead Ore
-  Heavy, common ore.
-  Comes from widespread highland veins, often beside silver.
-  Used for pipes, roofs, shot, seals, and cheap casting.
   Base: 7 bc per kg
-  Common lots: Sack (50 kg) → 1 sc 10 bc | Cart load (900 kg) → 26 sc 5 bc
+  Bulk: 2,800 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 466 sc 8 bc
+  Heavy-cart load (1,500 kg) → 875 sc
 
   Silver Ore
-  Rock bearing silver.
-  Comes from uncommon highland veins, often with lead.
-  Used for coin, plate, and fine work once smelted.
   Base: 1 sc 5 bc per kg
-  Common lots: Small sack (10 kg) → 12 sc 10 bc
+  Bulk: 2,600 kg/m³
+  Packing: sack / chest
+  Small sack (10 kg) → 14 sc 2 bc
 
   Gold Ore
-  Rock bearing gold.
-  Comes from rare veins and washings.
-  Used for coin and high ornament once refined.
   Base: 6 sc per kg
-  Common lots: Small sack (5 kg) → 30 sc
+  Bulk: 2,800 kg/m³
+  Packing: sack / chest
+  Small sack (5 kg) → 30 sc
 
   Coal
-  Black mineral fuel.
-  Comes from seams and shallow pits.
-  Used where woodland charcoal is dear, and in some heavy firing.
   Base: 3 bc per kg
-  Common lots: Sack (40 kg) → 1 sc | Cart load (800 kg) → 10 sc
+  Bulk: 800 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 200 sc
+  Heavy-cart load (1,500 kg) → 375 sc
 
   Sulphur
-  Pale, stinking mineral of volcanic and rotten ground.
-  Comes from vents, old flows, and rare pits.
-  Acquired by scraping and careful packing.
-  Used by smiths, fowlers, and those who make fire-powders and medicines.
   Base: 1 sc per kg
-  Common lots: Sack (15 kg) → 15 sc
+  Bulk: 1,000 kg/m³
+  Packing: sack / crate
+  Sack (15 kg) → 15 sc
 
   Saltpetre
-  Crystalline mineral of dry earth, stables, and old cellars.
-  Comes from nitre-beds and scraped deposits.
-  Used in preserving, medicine, and fire-work.
   Base: 1 sc 8 bc per kg
-  Common lots: Small sack (10 kg) → 16 sc
+  Bulk: 900 kg/m³
+  Packing: sack / chest
+  Small sack (10 kg) → 16 sc 8 bc
 
   Alum
-  Astringent mineral salt.
-  Comes from specific shales and works, not from ordinary rock.
-  Used by dyers and tanners to fix colour and harden hide.
   Base: 18 bc per kg
-  Common lots: Sack (20 kg) → 1 sc 10 bc
+  Bulk: 1,000 kg/m³
+  Packing: sack
+  Sack (20 kg) → 30 sc
 
 
 Stone and Volcanic Products
-Cut, broken, or gathered rock for building, grinding, and craft.
-Taken from quarries, cliffs, volcanic highlands, and river-wash.
-Acquired by quarrymen, gatherers, and hauliers.
 
   Common Stone
-  Ordinary building stone: limestone, sandstone, and unmarked local rock.
-  Comes from lowland and hillside quarries.
-  Used for walls, cottages, and heavy fill.
+  Ordinary building stone.
   Base: 3 bc per kg
-  Common lots: Cart load (1,500 kg) → 18 sc 15 bc
+  Bulk: 2,200 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 200 sc
+  Heavy-cart load (1,500 kg) → 375 sc
 
   Granite
-  Hard, coarse stone for lasting work.
-  Comes from highland bosses and deep cuttings.
-  Used for keeps, quays, millstones, and foundations that must not fail.
   Base: 6 bc per kg
-  Common lots: Cart load (1,400 kg) → 35 sc
+  Bulk: 2,700 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 400 sc
+  Heavy-cart load (1,500 kg) → 750 sc
 
   Slate
-  Splitting stone for roofs and flags.
-  Comes from specific beds, not from any cliff.
-  Used for roofing, flooring, and thin facing.
   Base: 8 bc per kg
-  Common lots: Cart load (1,000 kg) → 33 sc 10 bc
+  Bulk: 2,600 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 533 sc 4 bc
+  Heavy-cart load (1,500 kg) → 1,000 sc
 
   Marble
-  Fine, workable stone that takes a polish.
-  Comes from uncommon beds in hills and old massifs.
-  Used for halls, tombs, and finished facing.
   Base: 1 sc 5 bc per kg
-  Common lots: Cart load (800 kg) → 50 sc
+  Bulk: 2,700 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 1,133 sc 4 bc
+  Heavy-cart load (1,500 kg) → 2,125 sc
 
   Basalt / Pumice
-  Dark volcanic rock and the light abrasive stone washed from it.
-  Comes from volcanic highlands and the runoff rivers below them.
-  Acquired by cutting the hard rock or gathering the river-stone.
-  Used for grinding, hide-work, scouring, and dark building.
   Base: 5 bc per kg
-  Common lots: Cart load (1,200 kg) → 25 sc
+  Basalt bulk: 2,800 kg/m³
+  Pumice bulk: 400 kg/m³
+  Packing: loose pile
+  Basalt cart load (800 kg) → 333 sc 4 bc
+  Basalt heavy-cart load (1,500 kg) → 625 sc
+  Pumice cart load (800 kg) → 333 sc 4 bc
+  Pumice heavy-cart load (1,500 kg) → 625 sc
 
   Obsidian
-  Volcanic glass.
-  Comes from old flows and the broken flanks of volcanic peaks.
-  Acquired by careful gathering and splitting, not ordinary quarrying.
-  Used for keen edges, ceremonial blades, and small high-value work.
   Base: 2 sc per kg
-  Common lots: Bundle (5 kg) → 10 sc
+  Bulk: 2,400 kg/m³
+  Packing: wrapped / crate
+  Bundle (5 kg) → 10 sc

@@ -1,0 +1,78 @@
+# Economy_Finished_Goods_Index.txt
+# Pointer index for piece-priced wares
+
+HEADER NOTE
+Finished goods are sold as objects, not by the kilo.
+The metal, wood, or hide in a piece is never cheaper than the processed material it was made from.
+Each item is recorded as inputs + labour + modifiers + price.
+Recipes live in the files below, not here.
+
+--------------------------------------------------
+RULE
+--------------------------------------------------
+Look up the category, then open that file.
+Do not add full recipes to this index.
+
+--------------------------------------------------
+FILES
+--------------------------------------------------
+
+Economy_Finished_Tools.txt
+Farm, yard, wood, and household tools.
+Hammers, axes, saws, tongs, knives, bits, and trade kits.
+Not knightly arms.
+
+Economy_Finished_Arms.txt
+Weapons.
+Swords, spears, bows, pollaxes, and other fighting pieces.
+Steel heads and selected shafts belong here.
+
+Economy_Finished_Armour.txt
+Worn defence.
+Mail, plate, helmets, jacks, shields.
+
+Economy_Finished_Clothing.txt
+Worn cloth and hide.
+Shirts, cloaks, boots, gloves, and made garments.
+
+Economy_Finished_Household.txt
+Domestic objects.
+Pots, chests, furniture, candles, and common house-wares.
+
+Economy_Finished_Transport.txt
+Things that move people or goods.
+Carts, saddles, tack, boats, and related gear.
+
+--------------------------------------------------
+ITEM RULE (for every file above)
+--------------------------------------------------
+[Item name]
+Type:
+Inputs:
+  - [quantity] [specific good]
+Labour:
+Modifiers:
+Output: 1 piece
+Base price:
+
+Economy_Finished_Architecture.txt
+Buildings and works.
+Cottages, halls, walls, bridges, kilns, and quays.
+Priced as a recipe: materials, labour, time, and a finished cost — not as a single object on a stall.
+
+[Building name]
+Type: [Cottage / Hall / Keep / Bridge / Kiln / etc.]
+Scale: [size in one line]
+Inputs:
+  - [qty] [good]      e.g. 8,000 kg mixed planks
+  - [qty] [good]      e.g. 12,000 kg common stone
+  - [qty] [good]      e.g. 200 kg wrought iron
+Labour:
+  - [who] × [days]
+Time: [seasons or months, if weather matters]
+Modifiers:
+  - Site (timber country cheaper in wood, dearer in stone)
+  - Quality (common / lasting / fine)
+  - Haulage quoted separately for monumental pieces
+Output: 1 structure
+Base cost: [sc/gc]

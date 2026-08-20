@@ -1,0 +1,61 @@
+# Economy_Finished_Tools.txt
+# Ordinary trade tools. Not knightly arms.
+
+HEADER NOTE
+All prices use the universal currency (1 gc = 20 sc = 240 bc).
+Finished tools are sold by the piece.
+The iron in the tool is never cheaper than wrought iron.
+Hafts use a shaft / handle blank, not a board.
+
+--------------------------------------------------
+GENERAL
+--------------------------------------------------
+
+Tools
+The ordinary kit of a trade: hammers, axes, saws, tongs, knives, and bits.
+Input: Wrought iron, plus an ash or similar handle-blank where the tool has a haft.
+Labour: Forged, fitted, and quenched as the job needs.
+Use: Farm, yard, wood, and household work. Not knightly arms.
+
+--------------------------------------------------
+GROUPINGS
+--------------------------------------------------
+
+Small tool
+Type: Small tool
+Typical pieces: knife, bit, awl, small hammer
+Inputs:
+  - 0.2–0.4 kg wrought iron
+  - haft only if needed (scrap or short ash-handle)
+Labour: Smith, part of a day
+Modifiers:
+  - Poor: scrap-forged iron
+  - Fine: steel edge; +labour
+Output: 1 piece
+Base price: 5–8 sc
+
+Common tool
+Type: Common tool
+Typical pieces: hand-hammer, hatchet, tongs, drawknife
+Inputs:
+  - 0.5–1 kg wrought iron
+  - 1–2 kg ash handle-blank if hafted
+Labour: Smith, most of a day, plus hafting
+Modifiers:
+  - Poor: mixed-timber haft; scrap-forged head
+  - Fine: steel edge or better finish; +1 day
+Output: 1 piece
+Base price: 8–14 sc
+
+Heavy tool
+Type: Heavy tool
+Typical pieces: felling axe, mattock, large hammer, pit-saw
+Inputs:
+  - 1.5–3 kg wrought iron
+  - 2–3 kg ash handle-blank if hafted
+Labour: Smith, a day or more. A pit-saw longer.
+Modifiers:
+  - Poor: scrap-forged; mixed-timber haft
+  - Fine: steel bit or better temper; selected ash
+Output: 1 piece
+Base price: 16–30 sc

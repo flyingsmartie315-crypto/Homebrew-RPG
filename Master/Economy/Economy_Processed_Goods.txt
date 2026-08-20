@@ -1,91 +1,364 @@
 # Economy_Processed_Goods.txt
-# Processed Goods – Base Unit: 1 kg (or single natural item)
+# Processed Goods – Base Unit: 1 kg (or 1 litre where noted)
 
 HEADER NOTE
 All prices use the universal currency (1 gc = 20 sc = 240 bc).
 Prices shown are base market values and are subject to ±50% (or greater) fluctuation by region, quality, supply, and demand.
-Base unit is 1 kg wherever practical. Larger lots are provided for convenience.
+Base unit is 1 kg wherever practical. Liquids use 1 litre (≈ 1 kg).
+Larger lots are computed from the per-kg / per-litre base (1 sc = 12 bc).
 
-Processed goods normally sell for 2.5–6× the value of their primary inputs after labour and wastage, except for high-skill or luxury items.
+Processed goods normally sell for 2.5–6× the value of their primary inputs after labour and wastage, except high-skill or luxury items.
+A 1 kg scrap of a processed good is only worth its price if a workshop can use it.
+
+Bulk is packed density for the good in its listed packing.
+A vehicle is full at whichever comes first: weight or volume.
+Standard cart: 800 kg or 2.5 m³
+Heavy cart: 1,500 kg or 4 m³
+River timber barge: 12,000 kg or 30 m³
+A “cart load” is one standard cart.
+A “heavy-cart load” is one heavy cart.
+A “barge-load” is one river timber barge.
+
+Packing
+The Bulk figure already includes the listed packing.
+Use the modifiers below only when the good is packed differently from its listed method.
+
+Sacks
++2% weight. +5% volume.
+Default for sack-goods.
+
+Baskets
++15–25% volume.
+Default for pottery and anything that must breathe or not be crushed.
+
+Casks / Crates
++8–12% weight.
+Volume is the cask’s outside measure.
+Default for beer, wine, oil, and other liquids.
+
+Loose pile
+No extra penalty.
+Default for ingots, planks, beams, and stacked stone-ware.
 
 ---
 
-Beer
-Base: 18 bc per litre (≈ 18 bc per kg)
-Common lots: Small barrel (50 L) → 3 sc 15 bc | Large barrel (100 L) → 7 sc 10 bc
-Source: Grain
+Drink and Pressed Goods
+Liquids taken from farm produce by brewing, fermenting, or pressing.
 
-Wine
-Base: 35 bc per litre
-Common lots: Small barrel (50 L) → 7 sc 5 bc | Large barrel (100 L) → 14 sc 10 bc
-Source: Grapes
+  Beer
+  Small beer and common ale.
+  Made from grain, water, and labour.
+  Used as daily drink and a safer store than water in many towns.
+  Base: 12 bc per litre
+  Bulk: 1,000 kg/m³
+  Packing: cask
+  Small barrel (50 L) → 50 sc
+  Large barrel (100 L) → 100 sc
+  Cart load (800 L) → 800 sc
+  Heavy-cart load (1,500 L) → 1,500 sc
 
-Oil (olive)
-Base: 25 bc per litre
-Common lots: Jar (10 L) → 1 sc 5 bc | Small barrel (50 L) → 5 sc 5 bc
-Source: Olives
+  Wine
+  Fermented grape-drink.
+  Made from grapes in warm hill-country.
+  Used as drink, store, and trade.
+  Base: 24 bc per litre
+  Bulk: 1,000 kg/m³
+  Packing: cask
+  Small barrel (50 L) → 100 sc
+  Large barrel (100 L) → 200 sc
+  Cart load (800 L) → 1,600 sc
+  Heavy-cart load (1,500 L) → 3,000 sc
 
-Crude Iron
-Base: 35 bc per kg
-Common lots: Ingot lot (50 kg) → 7 sc 5 bc | Cart lot (300 kg) → 43 sc 15 bc
-Source: Iron Ore
+  Oil (olive)
+  Pressed fruit-oil.
+  Made from olives.
+  Used for cooking, lamps, and some craft.
+  Base: 20 bc per litre
+  Bulk: 900 kg/m³
+  Packing: cask / jar
+  Jar (10 L) → 16 sc 8 bc
+  Small barrel (50 L) → 83 sc 4 bc
+  Cart load (800 L) → 1,333 sc 4 bc
+  Heavy-cart load (1,500 L) → 2,500 sc
 
-Wrought Iron
-Base: 55 bc per kg
-Common lots: Ingot lot (50 kg) → 11 sc 10 bc
-Source: Crude Iron
+  Whale Oil
+  Rendered oil of great sea-beasts.
+  Taken from coastal hunts.
+  Used for lamps and some waterproofing.
+  Base: 40 bc per litre
+  Bulk: 900 kg/m³
+  Packing: cask
+  Small barrel (50 L) → 166 sc 8 bc
+  Cart load (800 L) → 2,666 sc 8 bc
+  Heavy-cart load (1,500 L) → 5,000 sc
 
-Steel
-Base: 1 sc 5 bc per kg
-Common lots: Ingot lot (50 kg) → 31 sc 5 bc
-Source: Wrought Iron
 
-Fine Steel
-Base: 2 sc per kg
-Common lots: Ingot lot (30 kg) → 60 sc
-Source: Steel
+Cloth and Fibre
+Spun, woven, or felted goods.
 
-Crucible Steel
-Base: 12 gc per kg
-Common lots: Small ingot (5 kg) → 60 gc
-Source: Fine Steel + rare refinement
-Notes: Valuble material. Restricted.
+  Linen
+  Woven flax-cloth.
+  Made from retted flax by spinning and weaving.
+  Used for shirts, sails, and household cloth.
+  Base: 1 sc 5 bc per kg (≈ 4–5 m²)
+  Bulk: 250 kg/m³
+  Packing: bolt / bale
+  Bolt (10 kg) → 14 sc 2 bc
+  Cart load (625 kg, volume) → 885 sc 5 bc
+  Heavy-cart load (1,000 kg, volume) → 1,416 sc 8 bc
+
+  Felt
+  Beaten wool-cloth.
+  Made from wool without a true weave.
+  Used for hats, padding, and cheap warm layers.
+  Base: 25 bc per kg
+  Bulk: 180 kg/m³
+  Packing: roll / bale
+  Roll (15 kg) → 31 sc 3 bc
+  Cart load (450 kg, volume) → 937 sc 6 bc
+  Heavy-cart load (720 kg, volume) → 1,500 sc
+
+  Velvet
+  Fine dyed pile-cloth.
+  Made from good wool or silk, dye, and skilled weaving.
+  Used for rich clothing and display.
+  Base: 6 sc per kg
+  Bulk: 200 kg/m³
+  Packing: bolt
+  Bolt (5 kg) → 30 sc
+  Cart load (500 kg, volume) → 3,000 sc
+
 
 Leather
-Base: 45 bc per kg
-Common lots: Bundle (20 kg) → 3 sc 15 bc | Larger lot (50 kg) → 9 sc 10 bc
-Source: Hides
+Hides made usable.
 
-Planks
-Base: 15 bc per kg
-Common lots: Stack (200 kg) → 12 sc 10 bc | Cart load (800 kg) → 50 sc
-Source: Timber
+  Leather
+  Tanned hide.
+  Made from raw hides, tannin, and time.
+  Used for shoes, belts, tack, and jacks.
+  Base: 40 bc per kg
+  Bulk: 400 kg/m³
+  Packing: bundle
+  Bundle (20 kg) → 66 sc 8 bc
+  Larger lot (50 kg) → 166 sc 8 bc
+  Cart load (800 kg) → 2,666 sc 8 bc
+  Heavy-cart load (1,500 kg) → 5,000 sc
 
-Pottery
-Base: 12 bc per kg
-Common lots: Crate (40 kg) → 2 sc
 
-Tools (common iron)
-Base: 1 sc – 2 sc each (depending on size and quality)
-Common lots: Set of 10 mixed tools → 12–18 sc
-Source: Wrought Iron
+Ceramic
+Earth fired into ware.
 
-Linen
-Base: 1 sc 5 bc per kg (or per ≈ 4–5 m² of cloth)
-Common lots: Bolt (10 kg / ≈ 45 m²) → 12 sc 10 bc
-Source: Flax
+  Pottery
+  Common fired ware.
+  Made from clay and kiln-labour.
+  Used for pots, jars, and household vessels.
+  Base: 10 bc per kg
+  Bulk: 400 kg/m³
+  Packing: crate / basket
+  Crate (40 kg) → 33 sc 4 bc
+  Cart load (800 kg) → 666 sc 8 bc
+  Heavy-cart load (1,500 kg) → 1,250 sc
 
-Velvet
-Base: 6 sc per kg
-Common lots: Bolt (5 kg) → 30 sc
-Source: Fine wool + dyes + skilled weaving
 
-Felt
-Base: 25 bc per kg
-Common lots: Roll (15 kg) → 1 sc 15 bc
-Source: Wool
+Woodwork
+Timber sawn, split, hewn, or selected for use.
+About a third to half of a log is lost to slab, bark, and sawdust.
+The input is always a Forestry log or selected trunk of that species.
+A piece too short or shaken for the named use drops to mixed planks, or to firewood.
+Packed planks and beams: Bulk 500 kg/m³, loose-stacked.
+Shingles: Bulk 350 kg/m³, bundled.
 
-Whale Oil
-Base: 40 bc per litre
-Common lots: Small barrel (50 L) → 8 sc 10 bc
-Source: Coastal whale hunts
+FORMS
+
+Planks / Boards
+Input: A sound log, bark on or roughly barked.
+Labour: Saw-pit or mill. Two men and a saw, or a water-saw. Then stacking to season.
+Use: Floors, walls, hull-skin, doors, chests, common furniture.
+Property: Even thickness. Short offcuts are not shafts.
+
+Roof shingles
+Input: Straight-grained log, usually pine or oak.
+Labour: Split with froe and mallet, then dressed thin.
+Use: Roofs, sometimes wall-hang.
+Property: Thin, overlapping, sheds water.
+
+Spar / pole blank
+Input: A young, straight pine or fir, or a clean top-log.
+Labour: Felled whole, barked, knots dressed off.
+Use: Scaffold-poles, light spars, ladder-stiles.
+Property: Still one stick.
+
+Hewn beam
+Input: A large, reasonably straight log.
+Labour: Scored and hewn square with axe and adze.
+Use: Posts, ties, plates, hall and barn frames.
+Property: One tree, squared.
+
+Turning blanks
+Input: Birch or beech, clean and even.
+Labour: Cross-cut and split or sawn to a short block, then seasoned.
+Use: Bowls, spoons, legs, handles.
+Property: Short grain is acceptable.
+
+Wet-work blanks
+Input: Alder from river or fen.
+Labour: Cut to length and kept from checking.
+Use: Clogs, sluice-linings, cheap damp joinery.
+Property: Stands wet. Not a structural timber.
+
+Hub / pipe blanks
+Input: Elm, the twisted, knot-free heart of a good log.
+Labour: Selected and cross-cut.
+Use: Wheel-hubs, pump-pipes.
+Property: Interlocked grain. Hard to split.
+
+Shaft / oar / handle blanks
+Input: Straight-grained ash, one stick.
+Labour: Selected and seasoned. Turning to the haft comes later.
+Use: Axe and pollaxe shafts, spear-hafts, oars, tool-handles.
+Property: Long spring. A board will not do.
+
+Cooper’s staves
+Input: Oak, split from the log rather than sawn when possible.
+Labour: Split, dressed to a taper, seasoned.
+Use: Casks, barrels, vats.
+Property: Holds liquid when the grain runs right.
+
+Knee / compass-timber blank
+Input: An oak that grew a natural bend.
+Labour: Found more than made.
+Use: Ship-knees, frames.
+Property: The strength is the grown curve.
+
+PRICES BY SPECIES
+
+Mixed / Pine
+Bulk: 500 kg/m³ (planks, beams, spars) / 350 kg/m³ (shingles)
+Packing: loose stack / bundle
+| Form | Rate | Lots |
+|------|------|------|
+| Planks | 1 bc/kg | 20 kg → 1 sc 8 bc; 200 kg stack → 16 sc 8 bc; cart 800 kg → 66 sc 8 bc; heavy cart 1,500 kg → 125 sc; barge 12,000 kg → 1,000 sc |
+| Roof shingles | 1.5 bc/kg | 10 kg → 1 sc 3 bc; cart 800 kg → 100 sc; heavy cart 1,400 kg volume → 175 sc |
+| Spar / pole blank | 1.2 bc/kg | 15 kg → 1 sc 6 bc |
+| Hewn beam | 1.5 bc/kg | 100 kg → 12 sc 6 bc; cart 800 kg → 100 sc |
+
+Birch
+Bulk: 500 kg/m³
+Packing: loose stack
+| Form | Rate | Lots |
+|------|------|------|
+| Boards | 1.2 bc/kg | 20 kg → 2 sc; 200 kg → 20 sc; cart 800 kg → 80 sc; heavy cart 1,500 kg → 150 sc |
+| Turning blanks | 2.4 bc/kg | 5 kg → 1 sc |
+
+Alder
+Bulk: 500 kg/m³
+Packing: loose stack
+| Form | Rate | Lots |
+|------|------|------|
+| Boards | 1.2 bc/kg | 20 kg → 2 sc; 200 kg → 20 sc; cart 800 kg → 80 sc; heavy cart 1,500 kg → 150 sc |
+| Wet-work blanks | 2 bc/kg | 8 kg → 1 sc 4 bc |
+
+Beech
+Bulk: 500 kg/m³
+Packing: loose stack
+| Form | Rate | Lots |
+|------|------|------|
+| Boards | 1.8 bc/kg | 20 kg → 3 sc; 200 kg → 30 sc; cart 800 kg → 120 sc; heavy cart 1,500 kg → 225 sc |
+| Turning / furniture blanks | 3.6 bc/kg | 8 kg → 2 sc 5 bc |
+
+Elm
+Bulk: 500 kg/m³
+Packing: loose stack
+| Form | Rate | Lots |
+|------|------|------|
+| Boards | 2 bc/kg | 20 kg → 3 sc 4 bc; 200 kg → 33 sc 4 bc; cart 800 kg → 133 sc 4 bc; heavy cart 1,500 kg → 250 sc |
+| Hub / pipe blanks | 5 bc/kg | 15 kg → 6 sc 3 bc |
+| Hewn beam | 3 bc/kg | 100 kg → 25 sc; cart 800 kg → 200 sc |
+
+Ash
+Bulk: 500 kg/m³
+Packing: loose stack
+| Form | Rate | Lots |
+|------|------|------|
+| Boards | 2.4 bc/kg | 20 kg → 4 sc; 200 kg → 40 sc; cart 800 kg → 160 sc; heavy cart 1,500 kg → 300 sc |
+| Shaft / oar / handle blanks | 7 bc/kg | 3 kg weapon-shaft → 1 sc 9 bc; 8 kg oar / long-handle → 4 sc 8 bc |
+| Hewn frame-beam | 3.6 bc/kg | 80 kg → 24 sc; cart 800 kg → 240 sc |
+
+Oak
+Bulk: 550 kg/m³ (planks, beams) / 350 kg/m³ (shingles)
+Packing: loose stack / bundle
+| Form | Rate | Lots |
+|------|------|------|
+| Planks | 2.6 bc/kg | 20 kg → 4 sc 4 bc; 200 kg → 43 sc 4 bc; cart 800 kg → 173 sc 4 bc; heavy cart 1,500 kg → 325 sc; barge 12,000 kg → 2,600 sc |
+| Cooper’s staves | 3 bc/kg | 12 kg → 3 sc; 60 kg → 15 sc |
+| Roof shingles | 1.5 bc/kg | 10 kg → 1 sc 3 bc; cart 800 kg → 100 sc |
+| Knee / compass-timber blank | 6 bc/kg | 40 kg → 20 sc |
+| Hewn beam | 4 bc/kg | 100 kg → 33 sc 4 bc; cart 800 kg → 266 sc 8 bc |
+
+
+Metal
+Ore reduced and refined. Each step costs more than the last.
+Ingots stack dense. Bulk: 4,000 kg/m³. Packing: loose pile.
+Carts always fill by weight.
+
+  Crude Iron
+  Bloom or rough pig from the furnace.
+  Made from iron ore or bog iron.
+  Used only to be worked again.
+  Base: 24 bc per kg
+  Single ingot (1 kg) → 2 sc
+  Ingot lot (50 kg) → 100 sc
+  Cart load (800 kg) → 1,600 sc
+  Heavy-cart load (1,500 kg) → 3,000 sc
+
+  Wrought Iron
+  Hammered, usable iron.
+  Made from crude iron by smith’s labour.
+  Used for tools, fittings, and common arms.
+  Base: 50 bc per kg
+  Single ingot (1 kg) → 4 sc 2 bc
+  Ingot lot (50 kg) → 208 sc 4 bc
+  Cart load (800 kg) → 3,333 sc 4 bc
+  Heavy-cart load (1,500 kg) → 6,250 sc
+
+  Steel
+  Hardened, refined iron.
+  Made from wrought iron with more fire and skill.
+  Used for good edges and better arms.
+  Base: 6 sc per kg
+  Single ingot (1 kg) → 6 sc
+  Ingot lot (50 kg) → 300 sc
+  Cart load (800 kg) → 4,800 sc
+  Heavy-cart load (1,500 kg) → 9,000 sc
+
+  Fine Steel
+  Clean, even steel for the best common work.
+  Made from steel by specialist smiths.
+  Used for fine blades and precision tools.
+  Base: 12 sc per kg
+  Single ingot (1 kg) → 12 sc
+  Ingot lot (30 kg) → 360 sc
+  Cart load (800 kg) → 9,600 sc
+
+  Crucible Steel
+  Rare, very even steel.
+  Made from fine steel by restricted, costly refinement.
+  Used for exceptional blades and prized work.
+  Base: 12 gc per kg
+  Single ingot (1 kg) → 12 gc
+  Small lot (5 kg) → 60 gc
+
+  Note on metal scrap
+  Any piece that can be melted or faggoted keeps value.
+  Price scrap as a fraction of the parent metal’s per-kg rate.
+
+  Clean, sorted scrap of one metal: 50–70% of that metal’s ingot price
+  Rusty but still one metal: 35–50%
+  Mixed or dirty scrap: 20–35% of the cheapest metal in the heap
+  Precious or steel scrap keeps its own ladder.
+
+  Examples, per kg
+  Clean wrought-iron scrap → 25–35 bc
+  Rusty nails and offcuts → 18–25 bc
+  Mixed iron heap → 10–18 bc
+  Clean steel scrap → 3–4 sc
