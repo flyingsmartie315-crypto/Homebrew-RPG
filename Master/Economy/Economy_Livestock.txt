@@ -1,16 +1,23 @@
 # Economy_Livestock.txt
-# Livestock, Beasts of Burden, War Mounts & Exotic Creatures
+# Livestock, Beasts of Burden, War Mounts, Game & Sea-Take
 
 HEADER NOTE
 All prices use the universal currency (1 gc = 20 sc = 240 bc).
 Prices shown are base market values for healthy adult animals and are subject to significant regional and seasonal fluctuation (±50% or more).
 Livestock requires ongoing space, feed, water, and care. Neglect rapidly reduces value or kills the animal.
 
-Animals are listed with:
-- Purchase price (healthy adult)
-- Typical upkeep (daily or monthly feed cost equivalent)
-- Space / housing needs
-- Primary uses
+Live / Household output is a healthy adult’s yearly take in milk, eggs, wool, and the like.
+It assumes ordinary keep, not a prize dairy or a starved yard.
+Wool is taken in life. Milk and eggs are taken in life. None of these are slaughter yields.
+
+Slaughter turns a live beast into the goods in Economy_Primary_Goods.txt.
+Meat weights are carcase meat, priced raw or preserved from that file.
+
+How to price a year
+Add the live output at Primary Goods rates.
+How to price a kill
+Add the slaughter parts at Primary Goods rates.
+The live beast is worth more than the carcase while it still works, breeds, or gives this yearly take.
 
 ---
 
@@ -20,55 +27,152 @@ Chicken
 Price: 8–15 bc
 Upkeep: Negligible (scraps + foraging)
 Space: Minimal
-Uses: Eggs, meat, feathers
+Uses: Eggs, chicken, feathers
+Live / Household, yearly:
+  Eggs       80–120
+Slaughter:
+  Chicken    1.0–1.5 kg
+  Offal      0.2 kg
+  Feathers   0.1 kg
+  Bone       scrap
 
-Duck / Goose
-Price: 15–30 bc
+Duck
+Price: 15–25 bc
 Upkeep: Low
 Space: Access to water preferred
-Uses: Eggs, meat, feathers, down
+Uses: Eggs, duck, feathers, down
+Live / Household, yearly:
+  Eggs       60–100
+Slaughter:
+  Duck       1.5–2.0 kg
+  Offal      0.3 kg
+  Feathers   0.2 kg
+  Down       a little
+
+Goose
+Price: 20–30 bc
+Upkeep: Low
+Space: Access to water preferred
+Uses: Eggs, goose, feathers, down
+Live / Household, yearly:
+  Eggs       15–30
+Slaughter:
+  Goose      3–4 kg
+  Offal      0.5 kg
+  Feathers   0.3 kg
+  Down       0.1–0.2 kg
 
 Sheep
 Price: 1 sc – 1 sc 10 bc
 Upkeep: 1–2 bc per day (grazing + winter feed)
 Space: Pasture
-Uses: Wool, meat, milk, hides
+Uses: Wool, mutton, milk, hides
+Live / Household, yearly:
+  Wool       1.5–2.5 kg
+  Milk       40–80 kg if a milk ewe; none if kept only for wool
+Slaughter:
+  Mutton     18–25 kg
+  Hide       4–6 kg
+  Tallow     3–5 kg
+  Bone       4–6 kg
+  Gut        1 kg
+  Offal      3–4 kg
+  Horn       0.5–1 kg if a horned breed
 
 Goat
 Price: 1 sc – 1 sc 15 bc
 Upkeep: 1–2 bc per day
 Space: Pasture or rough ground
-Uses: Milk, meat, hides, brush clearing
+Uses: Milk, goat, hides, brush clearing
+Live / Household, yearly:
+  Milk       150–300 kg
+  Hair / wool  0.5–1 kg if a fibre breed
+Slaughter:
+  Goat       16–22 kg
+  Hide       3–5 kg
+  Tallow     2–4 kg
+  Bone       3–5 kg
+  Gut        1 kg
+  Offal      2–4 kg
+  Horn       1–2 kg
 
 Pig
 Price: 1 sc 10 bc – 2 sc
-Upkeep: 2–3 bc per day (omnivorous, can use scraps)
+Upkeep: 2–3 bc per day
 Space: Sty or woodland pannage
-Uses: Meat, fat, hides
+Uses: Pork, fat, hides
+Live / Household, yearly:
+  None. A pig is a meat-beast.
+Slaughter:
+  Pork       50–70 kg
+  Hide       8–12 kg
+  Tallow     8–15 kg
+  Bone       8–12 kg
+  Gut        2–3 kg
+  Offal      8–10 kg
 
 Cattle (Cow / Ox)
 Price: 4–8 sc (oxen toward the higher end)
 Upkeep: 3–5 bc per day
 Space: Significant pasture
-Uses: Milk, meat, hides, labour (ploughing, hauling)
+Uses: Milk, beef, hides, labour
+Live / Household, yearly:
+  Milk       400–800 kg if a cow in milk; none from an ox
+  Labour     plough and haul, not a traded good
+Slaughter:
+  Beef       120–160 kg
+  Hide       25–35 kg
+  Tallow     15–25 kg
+  Bone       20–30 kg
+  Horn       1–3 kg
+  Gut        3–4 kg
+  Offal      15–25 kg
 
 Donkey
 Price: 3–6 sc
 Upkeep: 2–3 bc per day
 Space: Modest
 Uses: Pack transport, light draught
+Live / Household, yearly:
+  Labour     pack and draught
+Slaughter:
+  Horsemeat  80–120 kg
+  Hide       12–18 kg
+  Tallow     6–10 kg
+  Bone       15–20 kg
+  Offal      8–12 kg
 
 Mule
 Price: 5–9 sc
 Upkeep: 2–4 bc per day
 Space: Modest
-Uses: Superior pack and draught animal
+Uses: Superior pack and draught
+Live / Household, yearly:
+  Labour     pack and draught
+Slaughter:
+  Horsemeat  120–160 kg
+  Hide       15–22 kg
+  Tallow     8–14 kg
+  Bone       18–25 kg
+  Offal      10–15 kg
 
 Horse (Common / Work)
 Price: 6–12 sc
 Upkeep: 4–6 bc per day
 Space: Stable + pasture
 Uses: Riding, light cavalry, draught
+Live / Household, yearly:
+  Labour     riding and draught
+  Hair       a little, if taken
+Slaughter:
+  Horsemeat  150–200 kg
+  Hide       20–30 kg
+  Tallow     10–18 kg
+  Bone       25–35 kg
+  Gut        3–4 kg
+  Offal      15–20 kg
+  Hair       1–2 kg
+Notes: A working horse is almost never killed for the carcase.
 
 ---
 
@@ -77,32 +181,116 @@ WAR & QUALITY MOUNTS
 Riding Horse (trained)
 Price: 12–25 sc
 Upkeep: 5–7 bc per day
-Notes: Basic trained riding animal
+Slaughter: as Horse (Common / Work)
 
 Destrier / War Horse
 Price: 1–3 gc
 Upkeep: 8–12 bc per day
-Notes: Heavy war mount. Requires experienced handler. High status.
+Notes: Heavy war mount. Requires experienced handler.
+Slaughter: as Horse, at the high end of the weights. Rarely done.
 
 Courser / Light War Horse
 Price: 18–40 sc
 Upkeep: 6–9 bc per day
-Notes: Faster than a destrier, still combat-capable.
+Slaughter: as Horse
 
-Camel (where climatically appropriate)
+Camel
 Price: 15–35 sc
-Upkeep: 3–5 bc per day (efficient in arid regions)
+Upkeep: 3–5 bc per day
 Uses: Long-distance pack and riding in deserts
+Slaughter:
+  Camel Meat 120–180 kg
+  Hide       20–30 kg
+  Tallow     10–15 kg
+  Bone       20–30 kg
+  Offal      12–18 kg
 
 ---
 
+GAME
+Taken by the hunt. No purchase price. The cost is the hunt.
+
+Deer (red / common)
+  Venison (red)  25–40 kg
+  Hide           5–8 kg
+  Tallow         2–4 kg
+  Bone           6–10 kg
+  Antler         2–6 kg if in season
+  Offal          3–5 kg
+
+Elk
+  Venison (elk)  80–120 kg
+  Hide           15–22 kg
+  Tallow         8–12 kg
+  Bone           15–25 kg
+  Antler         8–15 kg if in season
+  Offal          8–12 kg
+
+Roe / small deer
+  Venison (roe)  8–12 kg
+  Hide           2–3 kg
+  Antler         0.5–1.5 kg if in season
+  Offal          1 kg
+
+Boar / wild pig
+  Boar Meat      40–60 kg
+  Hide           6–10 kg
+  Tallow         6–10 kg
+  Bone           8–12 kg
+  Offal          6–8 kg
+
+Wolf
+  Fur            4–8 kg
+  Bone           scrap
+Notes: The worth is the fur.
+
+Bear
+  Bear Meat      60–100 kg
+  Hide/Fur       15–25 kg
+  Tallow         10–20 kg
+  Bone           12–20 kg
+  Offal          8–12 kg
+
+---
+
+SEA-TAKE
+Not kept as livestock. Taken by boat, net, or hunt.
+
+Fish (lake)
+  Fish (smoked/dried)  0.5–3 kg each typical
+  Shoal take sold by the sack
+
+Fish (ocean)
+  Fish (smoked/dried)  1–8 kg each typical
+  Large catch sold by the sack or cart
+
+Walrus
+  Walrus Meat    80–150 kg
+  Hide           20–40 kg
+  Tallow / oil   20–40 kg
+  Tusk           8–12 kg
+  Bone           15–25 kg
+
+Shark
+  Shark Meat     30–200 kg
+  Hide           5–20 kg
+  Oil            5–40 kg
+  Teeth          a few kg
+
+Whale
+  Whale Meat     hundreds to thousands of kg, by size
+  Oil            the chief take
+  Baleen / bone  as the kind allows
+  Hide           thick, limited use
+Notes: A whale is a voyage. Price oil and bone after rendering.
+
+---
 
 UPKEEP & LOGISTICS NOTES
 
-- Grazing land dramatically reduces feed costs for sheep, goats, cattle and horses.
-- Urban animals are significantly more expensive to keep due to the need to purchase all feed.
-- War mounts and exotic beasts often require dedicated staff (grooms, handlers).
-- Transporting livestock long distances incurs high losses and costs (see future Transport file).
-- Slaughter value is usually 40–70% of live purchase price depending on condition and local demand.
-
-This file covers the main categories of living animals used by societies on Virath. Specialised breeding stock, young animals, and pregnant females will vary in price from the adult baselines above.
+- Grazing land reduces feed costs for sheep, goats, cattle and horses.
+- Urban animals cost more to keep; all feed is bought.
+- War mounts often need dedicated grooms.
+- Transporting livestock long distances incurs losses.
+- Breeding stock, young, and pregnant females vary from the adult baselines.
+- Gryphons, royal gryphons, and pegasus are in Economy_Unveiling_Beasts.txt.

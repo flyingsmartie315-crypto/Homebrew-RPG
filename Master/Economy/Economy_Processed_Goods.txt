@@ -42,6 +42,29 @@ Default for ingots, planks, beams, and stacked stone-ware.
 
 ---
 
+Milled and Baked
+
+  Flour
+  Ground grain.
+  Made from grain at the mill.
+  Used for bread, pottage, and further cooking.
+  Base: 6 bc per kg
+  Bulk: 600 kg/m³
+  Packing: sack
+  Sack (40 kg) → 20 sc
+  Cart load (800 kg) → 400 sc
+
+  Bread
+  Baked loaf from flour.
+  Made by the baker. Eaten the same day or the next.
+  Sold by the loaf more often than by the cart.
+  Base: 10 bc per kg
+  Bulk: 350 kg/m³
+  Packing: basket / crate
+  Loaf (1 kg) → 10 bc
+  Basket (10 kg) → 8 sc 4 bc
+  Cart load (800 kg) → 666 sc 8 bc
+
 Drink and Pressed Goods
 Liquids taken from farm produce by brewing, fermenting, or pressing.
 
@@ -96,6 +119,26 @@ Liquids taken from farm produce by brewing, fermenting, or pressing.
 Cloth and Fibre
 Spun, woven, or felted goods.
 
+  Wool Cloth
+  Ordinary woven woollen.
+  Made from wool by spinning and weaving.
+  Used for hose, kirtles, cloaks, and common clothing.
+  Base: 1 sc per kg (≈ 3–4 m²)
+  Bulk: 220 kg/m³
+  Packing: bolt / bale
+  Bolt (10 kg) → 10 sc
+  Cart load (550 kg, volume) → 550 sc
+
+  Silk Cloth
+  Woven silk.
+  Made from raw silk by specialised weavers.
+  Used for rich clothing and display.
+  Base: 8 sc per kg
+  Bulk: 180 kg/m³
+  Packing: bolt
+  Bolt (5 kg) → 40 sc
+  Cart load (450 kg, volume) → 3,600 sc
+
   Linen
   Woven flax-cloth.
   Made from retted flax by spinning and weaving.
@@ -128,6 +171,37 @@ Spun, woven, or felted goods.
   Bolt (5 kg) → 30 sc
   Cart load (500 kg, volume) → 3,000 sc
 
+  Rope
+  Laid cordage from flax (or hemp where grown).
+  Made by the ropemaker.
+  Used for carts, ships, wells, and binding.
+  Base: 18 bc per kg
+  Bulk: 250 kg/m³
+  Packing: coil
+  Coil (10 kg) → 15 sc
+  Cart load (625 kg, volume) → 937 sc 6 bc
+
+Household lights
+
+  Tallow Candles
+  Cheap candles from rendered fat.
+  Made from tallow.
+  Used for ordinary indoor light.
+  Base: 16 bc per kg
+  Bulk: 800 kg/m³
+  Packing: crate
+  Dozen (1 kg) → 1 sc 4 bc
+  Cart load (800 kg) → 1,066 sc 8 bc
+
+  Beeswax Candles
+  Cleaner, dearer candles.
+  Made from beeswax.
+  Used in halls, churches, and fine houses.
+  Base: 28 bc per kg
+  Bulk: 800 kg/m³
+  Packing: crate
+  Dozen (1 kg) → 2 sc 4 bc
+  Cart load (800 kg) → 1,866 sc 8 bc
 
 Leather
 Hides made usable.
@@ -158,6 +232,16 @@ Earth fired into ware.
   Crate (40 kg) → 33 sc 4 bc
   Cart load (800 kg) → 666 sc 8 bc
   Heavy-cart load (1,500 kg) → 1,250 sc
+
+  Brick
+  Fired clay for building.
+  Made from clay and kiln-labour.
+  Used for walls, hearths, and linings.
+  Base: 5 bc per kg
+  Bulk: 1,600 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 333 sc 4 bc
+  Heavy-cart load (1,500 kg) → 625 sc
 
 
 Woodwork
@@ -362,3 +446,62 @@ Carts always fill by weight.
   Rusty nails and offcuts → 18–25 bc
   Mixed iron heap → 10–18 bc
   Clean steel scrap → 3–4 sc
+
+  Copper
+  Smelted copper.
+  Made from copper ore.
+  Used for pots, fittings, roofing, and bronze.
+  Base: 50 bc per kg
+  Bulk: 4,000 kg/m³
+  Packing: loose pile
+  Single ingot (1 kg) → 4 sc 2 bc
+  Cart load (800 kg) → 3,333 sc 4 bc
+
+  Tin
+  Smelted tin.
+  Made from tin ore.
+  Used with copper to make bronze.
+  Base: 4 sc per kg
+  Bulk: 4,000 kg/m³
+  Packing: loose pile
+  Single ingot (1 kg) → 4 sc
+  Ingot lot (50 kg) → 200 sc
+
+  Bronze
+  Copper and tin together.
+  Made by the founder.
+  Used for fittings, bells, some arms, and plate.
+  Base: 6 sc per kg
+  Bulk: 4,000 kg/m³
+  Packing: loose pile
+  Single ingot (1 kg) → 6 sc
+  Ingot lot (50 kg) → 300 sc
+
+  Lead
+  Smelted lead.
+  Made from lead ore.
+  Used for roofs, pipes, shot, and seals.
+  Base: 22 bc per kg
+  Bulk: 5,000 kg/m³
+  Packing: loose pile
+  Single ingot (1 kg) → 1 sc 10 bc
+  Cart load (800 kg) → 1,466 sc 8 bc
+
+  Silver (refined)
+  Fine silver.
+  Made from silver ore.
+  Used for coin, plate, and fine work.
+  Base: 200 sc per kg
+  Bulk: 5,000 kg/m³
+  Packing: chest
+  Ingot (1 kg) → 10 gc
+  Small lot (5 kg) → 50 gc
+
+  Gold (refined)
+  Fine gold.
+  Made from gold ore.
+  Used for coin and high ornament.
+  Base: 200 gc per kg
+  Bulk: 5,000 kg/m³
+  Packing: chest
+  Ingot (1 kg) → 200 gc

@@ -1,0 +1,80 @@
+# World_Calendar.txt
+# The Common Reckoning of Virath
+
+HEADER NOTE
+The year is the same length and shape as a real terrestrial year.
+Twelve months. Four seasons. The same number of days.
+Only the names differ.
+This is the trader’s and scholar’s calendar. Local cultures keep their own feast-names on top of it.
+
+The natural moon is Lorn.
+The False Moon is not used for reckoning.
+
+---
+
+THE YEAR
+
+365 days in a common year.
+366 in a leap year, every fourth year.
+Weeks of 7 days, if a culture bothers to count them that way.
+
+---
+
+SEASONS
+
+Thaw
+The spring. Snow-melt, first plough, lambing.
+Months: Budmoon, Lambmoon, Greenleaf
+
+Highsun
+The summer. Long days, hay, dry roads.
+Months: Flowering, Highsun, Aftersun
+
+Harvest
+The autumn. Cutting, pressing, slaughter for winter.
+Months: Reaping, Fallwine, Leafbare
+
+Longnight
+The winter. Short days, store-eating, closed high passes.
+Months: Frostfall, Deepcold, Icewane
+
+---
+
+MONTHS
+(Real-world equivalent in brackets)
+
+Budmoon      31 days    [January]
+Lambmoon     28 days    [February]  (29 in a leap year)
+Greenleaf    31 days    [March]
+Flowering    30 days    [April]
+Highsun      31 days    [May]
+Aftersun     30 days    [June]
+Reaping      31 days    [July]
+Fallwine     31 days    [August]
+Leafbare     30 days    [September]
+Frostfall    31 days    [October]
+Deepcold     30 days    [November]
+Icewane      31 days    [December]
+
+---
+
+SEASON BOUNDS
+
+Thaw        Greenleaf 1 – Flowering 30
+Highsun     Highsun 1 – Aftersun 30
+Harvest     Reaping 1 – Leafbare 30
+Longnight   Frostfall 1 – Budmoon 31
+
+Budmoon and Lambmoon sit in Longnight’s tail and Thaw’s first breath.
+For modifiers, treat:
+- Budmoon, Lambmoon as late Longnight / early Thaw
+- Use the month if a finer grain is needed
+
+---
+
+NOTES
+
+- Equatorial and southern lands keep the same names and reverse the heat.
+- A leap day is added at the end of Lambmoon.
+- False-moon nights are dated on this calendar; they do not change its length.
+- Seasonal price modifiers, when written, key off these four seasons.

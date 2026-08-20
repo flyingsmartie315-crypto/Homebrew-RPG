@@ -1,17 +1,20 @@
 # Geography_Rules.txt
 # Environmental Scoring System for Geographic Regions
 
-These scores provide a consistent way to describe the environment of any land or oceanic region on Virath. 
+These scores provide a consistent way to describe the environment of any land or oceanic region on Virath.
 They are used both for general regional description and for comparison against creature HSI values in the Bestiary.
 
+Every scored place uses seven measures, written on one line:
+
+Temperature: X | Rainfall: X | Human Density: X | Flora: X | Fauna: X | Topography: X | Hydrology: X
 
 --------------------------------------------------
 LAND REGIONS – Environmental Scores (0–5)
 --------------------------------------------------
 
 Temperature (heat / cold)
-0 – Sub-arctic / freezing
-1 – Arctic cold
+0 – Arctic / freezing
+1 – Sub-arctic / cold
 2 – Cool temperate
 3 – Mild temperate
 4 – Warm subtropical
@@ -33,7 +36,15 @@ Human Density (settlement level)
 4 – High (towns)
 5 – Dense (cities)
 
-Flora/Fauna Density (abundance of life)
+Flora (plant cover)
+0 – Barren / lifeless
+1 – Limited / scarce
+2 – Sparse / occasional
+3 – Moderate / common
+4 – Abundant / thriving
+5 – Teeming / overrun
+
+Fauna (animal life)
 0 – Barren / lifeless
 1 – Limited / scarce
 2 – Sparse / occasional
@@ -57,12 +68,11 @@ Hydrology (water features)
 4 – Abundant lakes
 5 – Flooded / swamps
 
-
 --------------------------------------------------
 OCEANIC REGIONS – Environmental Scores (0–5)
 --------------------------------------------------
 
-When scoring oceanic regions, the same six categories are used with adapted meanings:
+When scoring oceanic regions, the same seven categories are used with adapted meanings.
 
 Temperature (water temperature)
 0 – Polar / permanently frozen surface or near-freezing
@@ -88,12 +98,20 @@ Human Density (maritime activity)
 4 – Busy shipping lanes
 5 – Crowded ports / heavy traffic
 
-Flora/Fauna Density (marine life)
-0 – Essentially lifeless / sterile
+Flora (marine plant and reef cover)
+0 – Barren / sterile
+1 – Limited / scarce
+2 – Sparse weed or poor reef
+3 – Moderate growth
+4 – Abundant kelp / rich reef
+5 – Teeming / overrun
+
+Fauna (marine animal life)
+0 – Essentially lifeless
 1 – Barren depths
 2 – Sparse fish
 3 – Moderate schools
-4 – Abundant reefs / rich waters
+4 – Abundant life
 5 – Teeming ecosystems
 
 Topography (water depth)
@@ -112,17 +130,88 @@ Hydrology (sea state / surface conditions)
 4 – Rough currents
 5 – Extreme storms / violent seas
 
+--------------------------------------------------
+SEASONAL MODIFIER TEMPLATES
+--------------------------------------------------
+
+Applied to Temperature, Rainfall, Flora, and Fauna only.
+Harvest is the printed score.
+Shifts are +1, 0, or −1 only.
+A modified score cannot go below 0 or above 5.
+
+Temperate
+Thaw        Temp −1 | Rain +1 | Flora 0 | Fauna 0
+Highsun     Temp +1 | Rain −1 | Flora +1 | Fauna +1
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1 | Fauna −1
+
+Boreal / cold forest
+Thaw        Temp −1 | Rain +1 | Flora 0 | Fauna 0
+Highsun     Temp +1 | Rain  0 | Flora +1 | Fauna +1
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1 | Fauna −1
+
+Alpine / high mountain
+Thaw        Temp −1 | Rain +1 | Flora 0 | Fauna 0
+Highsun     Temp  0 | Rain  0 | Flora +1 | Fauna +1
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1 | Fauna −1
+
+Arid / desert
+Thaw        Temp  0 | Rain +1 | Flora 0 | Fauna 0
+Highsun     Temp +1 | Rain −1 | Flora −1 | Fauna −1
+Harvest     none
+Longnight   Temp −1 | Rain  0 | Flora 0 | Fauna 0
+
+Mediterranean / dry-summer coast
+Thaw        Temp −1 | Rain +1 | Flora +1 | Fauna +1
+Highsun     Temp +1 | Rain −1 | Flora 0 | Fauna 0
+Harvest     none
+Longnight   Temp −1 | Rain +1 | Flora −1 | Fauna −1
+
+Oceanic / wet coast
+Thaw        Temp −1 | Rain +1 | Flora 0 | Fauna 0
+Highsun     Temp +1 | Rain  0 | Flora +1 | Fauna +1
+Harvest     none
+Longnight   Temp −1 | Rain +1 | Flora −1 | Fauna −1
+
+Steppe / grassland
+Thaw        Temp −1 | Rain +1 | Flora +1 | Fauna +1
+Highsun     Temp +1 | Rain −1 | Flora 0 | Fauna 0
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1 | Fauna −1
+
+Tropical wet (rainforest)
+Thaw        Temp  0 | Rain +1 | Flora 0 | Fauna 0
+Highsun     Temp +1 | Rain +1 | Flora +1 | Fauna +1
+Harvest     none
+Longnight   Temp  0 | Rain −1 | Flora 0 | Fauna 0
+Notes: “Longnight” here is the drier season, not snow.
+
+Tropical wet-dry / monsoon
+Thaw        Temp  0 | Rain +1 | Flora +1 | Fauna +1
+Highsun     Temp +1 | Rain −1 | Flora −1 | Fauna −1
+Harvest     none
+Longnight   Temp  0 | Rain  0 | Flora 0 | Fauna 0
+Notes: Thaw = wet onset. Highsun = drought.
+
+Polar / tundra
+Thaw        Temp +1 | Rain +1 | Flora +1 | Fauna +1
+Highsun     Temp +1 | Rain  0 | Flora +1 | Fauna +1
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1 | Fauna −1
+Notes: Harvest is the brief usable season. Highsun is the thaw-peak.
 
 --------------------------------------------------
 USAGE NOTES
 --------------------------------------------------
 
 - Scores are relative tools for consistency, not absolute scientific measurements.
-- A region is normally described with all six scores.
-- When comparing a region to a creature’s HSI, use the method defined in Bestiary_Rules.txt.
+- A region is normally described with all seven scores.
+- Flora and Fauna are scored separately. A closed canopy can sit at Flora 4 with Fauna 2. A steppe can sit at Flora 2 with Fauna 4.
+- When comparing a region to a creature’s HSI, use the method defined in Bestiary_Rules.txt. Match Flora and Fauna on their own axes.
 - Extreme scores (0 or 5) should be used deliberately; most settled regions will cluster in the middle ranges.
 - Unveiling phenomena, megastructures, or local anomalies can create exceptions that override normal environmental expectations.
-
 
 --------------------------------------------------
 GEOGRAPHY HIERARCHY & PHILOSOPHY
@@ -147,91 +236,85 @@ Virath’s geography is organised in three tiers:
 
 Core Principle
 Geographic and Local Regions are physical realities. They do not change ownership.
-Political control is fluid and is determined by who holds the settlements within them. 
+Political control is fluid and is determined by who holds the settlements within them.
 As a result, any Geographic or Local Region may be wholly controlled, partially controlled, or actively contested by multiple factions at the same time.
 
 This separation keeps environmental data stable while allowing the political map to shift through conquest, diplomacy, rebellion, or collapse.
-
 
 --------------------------------------------------
 LOCAL REGION STRUCTURE & FORMAT
 --------------------------------------------------
 
+Every Local Region document should follow this standard template.
+
 File name
 Local_Region_[Name].txt
-Use the locked in-world name. Spaces become underscores.
-Example: Local_Region_Kannavald_Deepwood.txt
 
 # [Local Region Name]
 
 Overview
-[2–4 sentences of atmospheric description focusing on physical character, mood, and distinctive features. Keep this physical. Political control is not recorded here.]
+[2–4 sentences of atmospheric description focusing on physical character, mood, and distinctive features]
 
 Environmental Scores
-Temperature: X
-Rainfall: X
-Human Density: X
-Flora/Fauna Density: X
-Topography: X
-Hydrology: X
+Temperature: X | Rainfall: X | Human Density: X | Flora: X | Fauna: X | Topography: X | Hydrology: X
+These are Harvest aggregates: the rounded mean of the land-cover features below.
+Point sites (stones, ruins, a single peak used only as a landmark) are not averaged in.
 
---------------------------------------------------
-NOTABLE FEATURES
-Scores below are deviations from the regional values above.
-A dash (—) means no meaningful deviation.
-List every named landmark, range, peak, water, pass, coast, or other distinct feature as its own entry.
---------------------------------------------------
+Seasonal modifiers: [Template name]
+Season is applied to each feature first, on Temperature, Rainfall, Flora, and Fauna only.
+Then the region scores are aggregated again from those modified features.
+Human Density, Topography, and Hydrology do not change with season.
 
-[Feature Name]
-[1–3 sentences of physical description.]
-[Only the scores that differ, in this form:]
-Temperature: +/-X | Rainfall: +/-X | Human Density: +/-X | Flora/Fauna: +/-X | Topography: +/-X | Hydrology: +/-X
+Notable Features
+Each land-cover feature has its own Harvest scores (0–5).
+- [Feature]
+  [description]
+  Temperature: X | Rainfall: X | Human Density: X | Flora: X | Fauna: X | Topography: X | Hydrology: X
 
-[Repeat for each feature]
-
---------------------------------------------------
-LINKED SETTLEMENTS
+Linked Settlements
 Full detail is recorded in the individual settlement documents.
-Do not attach Environmental Scores here.
---------------------------------------------------
-
 - [Settlement]
 - [Settlement]
 - [Ruin, if physically present]
 
---------------------------------------------------
-LESSER / SCATTERED / SEASONAL
---------------------------------------------------
+Lesser / Scattered / Seasonal
+Places too small or too many for their own settlement file.
+- [Type]
+  [What they are and what they do]
 
-[Type]
-[Short description of unnamed or collective habitation: hamlets, camps, seasonal work, etc.]
+Notes
+Access
+[How the region is entered and left. Main roads, passes, rivers, coasts.]
 
---------------------------------------------------
-NOTES
---------------------------------------------------
-[Access routes, travel character, resources in motion, and any GM-facing physical warnings.]
+Goods
+[What moves, and along which routes.]
 
 Population
-Land area: [square miles].
-Permanent population: [working figure] (range [low]–[high]).
-Overall density: [people per square mile].
-
-[2–4 sentences on where people actually live versus empty land.]
+Land area: [square miles]
+Permanent population: [figure] (range [low]–[high])
+Overall density: [people per square mile]
+[Where people actually sit. What of the land is empty.]
 
 Working split
-- [Main town]: [range]
-- [Named villages / gates]: [range]
-- [Scattered hamlets]: [range]
-- Remainder: [seasonal / isolated]
+- [Chief town]: [range]
+- [Named villages / crossings]: [range]
+- [Scattered hamlets / isolated households]: [range]
+- Remainder: [seasonal camps, traplines, and the like]
 
-Rules for this template
-- Environmental Scores must use the 0–5 scale defined in this document.
-- Feature deviations are relative to the Local Region scores, not to the Geographic Region.
-- Overview and Notable Features remain physical and atmospheric.
-- Political control is recorded at Settlement level or in the Campaign Log.
-- Linked Settlements are a navigation list only.
-- Population notes are for GM consistency, not player-facing text.
+[One closing line on distance and travel feel.]
 
+--------------------------------------------------
+HOW TO SCORE
+--------------------------------------------------
+
+1. Give every land-cover feature a Harvest score in all seven measures.
+2. Name one seasonal template for the region (or a different template on a feature that needs it).
+3. When a season is dated, shift each feature’s Temperature, Rainfall, Flora, and Fauna by that template (+1 / 0 / −1).
+4. Average the land-cover features. Round to the nearest whole number. Clamp 0–5.
+5. Print that average as the region’s Environmental Scores.
+
+A lake, a forest, and a mountain each keep their own character.
+The region line is only the summary.
 
 --------------------------------------------------
 GEOGRAPHIC REGION STRUCTURE & FORMAT
@@ -254,21 +337,20 @@ Location & Borders
 [Short prose description of the region’s position]
 
 borders:
-- North: 
-- Northeast: 
-- East: 
-- Southeast: 
-- South: 
-- Southwest: 
-- West: 
-- Northwest: 
+- North:
+- Northeast:
+- East:
+- Southeast:
+- South:
+- Southwest:
+- West:
+- Northwest:
 
 Shared / Border Local Regions
 [List any Local Regions that are shared with one or more neighbouring Geographic Regions. These are typically major natural barriers such as mountain ranges, large rivers, or dense forests that form the boundary between regions.]
 
 Local Regions
 [List of Local Regions that primarily belong to this Geographic Region. Order them in a logical geographic sequence where possible.]
-
 - [Local Region Name]
 - [Local Region Name]
 
@@ -283,7 +365,6 @@ Rules for Shared Local Regions
 - A Local Region may belong to more than one Geographic Region when it forms a natural border.
 - In such cases the full Local Region document exists only once.
 - Each relevant Geographic Region lists that Local Region under “Shared / Border Local Regions” rather than under its primary Local Regions list.
-
 
 --------------------------------------------------
 SETTLEMENT STRUCTURE & FORMAT

@@ -20,8 +20,7 @@ The Bulk figure already includes the listed packing.
 Use the modifiers below only when the good is packed differently from its listed method.
 
 Sacks
-+2% weight (cloth and ties).
-+5% volume (voids and slack).
++2% weight. +5% volume.
 Default for grain, salt, charcoal, dried meat, dried fish.
 
 Baskets
@@ -29,27 +28,22 @@ Baskets
 Default for eggs, berries, greens, moss, and anything that must breathe or not be crushed.
 
 Casks / Crates
-+8–12% weight (wood).
++8–12% weight.
 Volume is the cask’s outside measure.
-Default for butter, tallow, pitch, and breakable dry goods.
+Default for butter, tallow, pitch, milk, and breakable dry goods.
 
 Loose pile
 No extra penalty.
 Default for ore, coal, stone, bricks, clay, peat, and logs.
-Stow it: cover or fasten ore and coal; stack bricks; wedge and bind logs; sheet clay and peat against rain.
 
 These goods form the economic foundation of Virath.
 
 ---
 
 Agriculture
-Crops planted, tended, and taken from the field or grove.
 
   Grain
-  The staple seed-crop of settled land: wheat, barley, rye, or local equivalents.
-  Comes from ploughed fields in temperate and warmer regions.
-  Acquired by farm labour through the agricultural year.
-  Used as bread-corn, ale-corn, fodder, and the baseline of most diets.
+  The staple seed-crop of settled land.
   Base: 3 bc per kg
   Bulk: 750 kg/m³
   Packing: sack
@@ -59,9 +53,6 @@ Crops planted, tended, and taken from the field or grove.
 
   Root Vegetables
   Plot-crops of the common house: carrots, cabbages, beets, onions, peas, potatoes, and their like.
-  Grown in gardens and small fields wherever the season allows.
-  Acquired by ordinary household and farm labour.
-  Used as daily food, pottage, and winter store.
   Base: 2 bc per kg
   Bulk: 550 kg/m³
   Packing: sack / basket
@@ -71,8 +62,6 @@ Crops planted, tended, and taken from the field or grove.
 
   Apples
   The common orchard fruit of temperate country.
-  Grown in orchards and on household trees.
-  Picked in season; eaten fresh, dried, or pressed.
   Base: 4 bc per kg
   Bulk: 550 kg/m³
   Packing: sack / crate
@@ -82,8 +71,6 @@ Crops planted, tended, and taken from the field or grove.
 
   Citrus Fruit
   Oranges, lemons, limes, and their like.
-  Grown in warm groves; a southern and coastal good.
-  Picked by seasonal labour; eaten fresh or used as preserve and flavour.
   Base: 9 bc per kg
   Bulk: 600 kg/m³
   Packing: crate
@@ -93,8 +80,6 @@ Crops planted, tended, and taken from the field or grove.
 
   Berries (cultivated)
   Garden and field berries: strawberry, cherry, and their like.
-  Grown on tended bushes and trees, not taken from the wild wood.
-  Picked in season; eaten fresh or preserved.
   Base: 8 bc per kg
   Bulk: 400 kg/m³
   Packing: basket
@@ -103,9 +88,6 @@ Crops planted, tended, and taken from the field or grove.
   Heavy-cart load (1,500 kg) → 1,000 sc
 
   Olives
-  Oil-fruit of warm coasts and hills.
-  Grown in groves; picked by seasonal labour.
-  Pressed for oil or eaten cured.
   Base: 4 bc per kg
   Bulk: 650 kg/m³
   Packing: sack / crate
@@ -114,9 +96,6 @@ Crops planted, tended, and taken from the field or grove.
   Heavy-cart load (1,500 kg) → 500 sc
 
   Grapes
-  Fresh or pressed fruit of the vine.
-  Grown in warm, settled hill-country.
-  Picked by seasonal labour; used for eating or wine.
   Base: 6 bc per kg
   Bulk: 600 kg/m³
   Packing: crate
@@ -125,9 +104,6 @@ Crops planted, tended, and taken from the field or grove.
   Heavy-cart load (1,500 kg) → 750 sc
 
   Date Fruit (dried)
-  Sweet dried fruit of hot, dry lands.
-  Grown in irrigated groves; picked and sun-dried.
-  Eaten as food and a high-value southern staple.
   Base: 9 bc per kg
   Bulk: 650 kg/m³
   Packing: sack
@@ -136,9 +112,6 @@ Crops planted, tended, and taken from the field or grove.
   Heavy-cart load (1,500 kg) → 1,125 sc
 
   Flax
-  Fibre-plant of damp fields.
-  Grown and retted by farm labour, then broken and scutched.
-  Used for linen, twine, and oil-seed.
   Base: 7 bc per kg
   Bulk: 180 kg/m³
   Packing: bundle / sack
@@ -147,61 +120,34 @@ Crops planted, tended, and taken from the field or grove.
   Heavy-cart load (720 kg, volume) → 420 sc
 
   Raw Silk
-  Unwoven fibre of the silkworm.
-  Comes from specialised warm-country rearing.
-  Acquired by sericulture, not ordinary farmwork.
-  Used for high cloth.
   Base: 2 sc per kg
   Bulk: 120 kg/m³
   Packing: bundle
   Bundle (5 kg) → 10 sc
   Cart load (300 kg, volume) → 600 sc
-  Heavy-cart load (480 kg, volume) → 960 sc
 
   Spice
-  Dried aromatic goods of hot and distant lands.
-  Grown or gathered in specialised regions, then packed for long trade.
-  Used in cooking, medicine, and as a mark of wealth.
   Base: 3 sc per kg
   Bulk: 400 kg/m³
   Packing: chest / crate
   Small chest (5 kg) → 15 sc
   Cart load (800 kg) → 2,400 sc
-  Heavy-cart load (1,500 kg) → 4,500 sc
 
   Dyes
-  Colouring stuffs of plant, insect, or mineral origin.
-  Grown, gathered, or imported according to type.
-  Acquired by specialist harvest or trade.
-  Used by dyers and cloth-makers.
   Base: 1 sc 10 bc per kg
   Bulk: 400 kg/m³
   Packing: pot / crate
   Pot (5 kg) → 9 sc 2 bc
   Cart load (800 kg) → 1,466 sc 8 bc
-  Heavy-cart load (1,500 kg) → 2,750 sc
 
 
 Animal Produce
-Goods taken from living beasts, or from beasts that must be killed.
 
   Live / Household
 
-    Butter
-    Churned fat of milk.
-    Base: 12 bc per kg
-    Bulk: 900 kg/m³
-    Packing: cask
-    Small cask (20 kg) → 20 sc
-    Larger cask (50 kg) → 50 sc
-    Cart load (800 kg) → 800 sc
-    Heavy-cart load (1,500 kg) → 1,500 sc
-
     Milk
     Fresh milk of cattle, goats, or sheep.
-    Comes from dairy herds and household beasts.
-    Acquired by daily milking.
-    Used as drink and as the start of butter and cheese. Spoils fast; rarely a long-haul good.
+    Spoils fast; rarely a long-haul good.
     Base: 4 bc per kg
     Bulk: 1,000 kg/m³
     Packing: pail / cask
@@ -209,8 +155,15 @@ Goods taken from living beasts, or from beasts that must be killed.
     Cask (50 kg) → 16 sc 8 bc
     Cart load (800 kg) → 266 sc 8 bc
 
+    Butter
+    Base: 12 bc per kg
+    Bulk: 900 kg/m³
+    Packing: cask
+    Small cask (20 kg) → 20 sc
+    Cart load (800 kg) → 800 sc
+    Heavy-cart load (1,500 kg) → 1,500 sc
+
     Cheese
-    Pressed, aged milk-curd.
     Base: 14 bc per kg
     Bulk: 700 kg/m³
     Packing: sack / crate
@@ -219,7 +172,6 @@ Goods taken from living beasts, or from beasts that must be killed.
     Heavy-cart load (1,500 kg) → 1,750 sc
 
     Wool
-    Shorn fleece.
     Base: 5 bc per kg
     Bulk: 150 kg/m³
     Packing: sack / bundle
@@ -228,7 +180,6 @@ Goods taken from living beasts, or from beasts that must be killed.
     Heavy-cart load (600 kg, volume) → 250 sc
 
     Eggs
-    Fresh eggs of domestic fowl.
     Base: 1 bc each (≈ 20 eggs per kg)
     Bulk: 400 kg/m³
     Packing: basket
@@ -236,36 +187,57 @@ Goods taken from living beasts, or from beasts that must be killed.
     Cart load (800 kg) → 1,333 sc 4 bc
 
     Honey
-    Wild or kept sweet.
     Base: 14 bc per kg
     Bulk: 1,400 kg/m³
     Packing: jar / cask
     Jar/cask (15 kg) → 17 sc 6 bc
     Cart load (800 kg) → 933 sc 4 bc
-    Heavy-cart load (1,500 kg) → 1,750 sc
 
     Beeswax
-    The comb-wax of the same hives.
     Base: 16 bc per kg
     Bulk: 950 kg/m³
     Packing: block / crate
     Block (10 kg) → 13 sc 4 bc
     Cart load (800 kg) → 1,066 sc 8 bc
-    Heavy-cart load (1,500 kg) → 2,000 sc
 
-  Slaughter / Hunt
+  Meat
+All listed prices are raw carcase.
+Preserved (smoked / salted / dried) is the same meat after labour and materials.
 
-    Meat (smoked/salted)
-    Preserved flesh of livestock or game.
-    Base: 15 bc per kg
-    Bulk: 500 kg/m³
-    Packing: sack
-    Sack (20 kg) → 25 sc
-    Cart load (800 kg) → 1,000 sc
-    Heavy-cart load (1,500 kg) → 1,875 sc
+Preserve modifier
++ salt, fuel, and time.
+When Preserved is checked, the meat or fish is treated as salted, smoked, or dried.
+Apply +80% to +120% to the raw price (use +100% as default).
+
+  Chicken          4 bc per kg
+  Duck             4 bc per kg
+  Goose            5 bc per kg
+  Pork             5 bc per kg
+  Mutton           5 bc per kg
+  Goat             5 bc per kg
+  Beef             5 bc per kg
+  Horsemeat        3 bc per kg
+  Camel            4 bc per kg
+  Venison (roe)    5 bc per kg
+  Venison (red)    6 bc per kg
+  Venison (elk)    6 bc per kg
+  Boar             6 bc per kg
+  Bear             5 bc per kg
+  Walrus           4 bc per kg
+  Shark            5 bc per kg
+  Whale            3 bc per kg
+
+Fish
+Raw catch, lake or ocean.
++ salt, fuel, and time.
+When Preserved is checked, the meat or fish is treated as salted, smoked, or dried.
+Apply +80% to +120% to the raw price (use +100% as default).
+
+  Fish             4 bc per kg
+
+  Slaughter / Hunt, other
 
     Hides (raw)
-    Unworked skins of cattle and large game.
     Base: 10 bc per kg
     Bulk: 300 kg/m³
     Packing: bundle
@@ -274,7 +246,6 @@ Goods taken from living beasts, or from beasts that must be killed.
     Heavy-cart load (1,200 kg, volume) → 1,000 sc
 
     Fur
-    The dense winter coat of forest and highland beasts.
     Base: 1 sc 10 bc per kg
     Bulk: 100 kg/m³
     Packing: bundle
@@ -283,7 +254,6 @@ Goods taken from living beasts, or from beasts that must be killed.
     Heavy-cart load (400 kg, volume) → 733 sc 4 bc
 
     Tallow
-    Rendered animal fat.
     Base: 9 bc per kg
     Bulk: 900 kg/m³
     Packing: cask
@@ -291,53 +261,31 @@ Goods taken from living beasts, or from beasts that must be killed.
     Cart load (800 kg) → 600 sc
     Heavy-cart load (1,500 kg) → 1,125 sc
 
-    Fish (smoked/dried)
-    Preserved catch from sea, lake, or river.
-    Base: 8 bc per kg
-    Bulk: 450 kg/m³
-    Packing: sack
-    Sack (25 kg) → 16 sc 8 bc
-    Cart load (800 kg) → 533 sc 4 bc
-    Heavy-cart load (1,500 kg) → 1,000 sc
-
-    Carcass Parts
-    What is left when the meat and hide are taken.
-    Comes from slaughter, not from the hunt alone.
-    Acquired by the butcher.
+  Carcass Parts
 
     Bone
-    Long-bone and knuckle of cattle, horse, and similar.
-    Used for glue, buttons, handles, and meal.
     Base: 3 bc per kg
     Bulk: 800 kg/m³
-    Packing: sack / loose
+    Packing: sack
     Sack (20 kg) → 5 sc
 
     Horn (livestock)
-    Cattle and goat horn. Same family as Antler / Horn, cheaper.
-    Used for combs, cups, lantern-panels, and glue.
     Base: 8 bc per kg
     Bulk: 1,200 kg/m³
     Packing: bundle
     Bundle (5 kg) → 3 sc 4 bc
 
     Gut / Sinew
-    Cleaned bowel and tendon.
-    Used for sausage-casing, binding, and bow-string.
     Base: 12 bc per kg
     Packing: salt-cask
     Lot (5 kg) → 5 sc
 
     Offal
-    Liver, heart, tripe, and the rest of the inner meat.
-    Eaten poor, or fed to dogs. Spoils faster than the carcase.
     Base: 4 bc per kg
     Packing: basket
     Lot (10 kg) → 3 sc 4 bc
 
     Feathers
-    Chicken, duck, goose. Not from four-foots.
-    Used for bedding, fletching, and cheap stuffing.
     Base: 6 bc per kg
     Bulk: 40 kg/m³
     Packing: sack
@@ -345,24 +293,20 @@ Goods taken from living beasts, or from beasts that must be killed.
     Cart load (100 kg, volume) → 50 sc
 
     Down
-    Goose first, then duck. Chicken gives almost none.
-    Used for fine bedding and warm linings.
     Base: 1 sc 6 bc per kg
     Bulk: 30 kg/m³
     Packing: sack
     Sack (2 kg) → 3 sc
 
-  Ivory
+  Hard Animal Parts
 
     Walrus Tusk
-    The great ivory of cold seas.
     Base: 2 sc 10 bc per kg
     Bulk: 1,800 kg/m³
     Packing: loose / wrapped
     Single large tusk (8–12 kg) → 22 sc 8 bc to 34 sc
 
     Antler / Horn
-    Shed or taken antler, and horn of deer, goat, and similar beasts.
     Base: 1 sc per kg
     Bulk: 1,800 kg/m³
     Packing: bundle
@@ -372,184 +316,130 @@ Goods taken from living beasts, or from beasts that must be killed.
 Wilderness Foraging
 
   Moss / Lichen
-  Soft growth of the deep forest floor, wet bark, and swamp margins.
   Base: 4 bc per kg
   Bulk: 80 kg/m³
   Packing: basket
   Basket (20 kg) → 6 sc 8 bc
   Cart load (200 kg, volume) → 66 sc 8 bc
-  Heavy-cart load (320 kg, volume) → 106 sc 8 bc
 
   Bog Berries
-  Sour small fruit of wet moss and fen.
   Base: 8 bc per kg
   Bulk: 400 kg/m³
   Packing: basket
   Basket (5 kg) → 3 sc 4 bc
-  Sack (15 kg) → 10 sc
   Cart load (800 kg) → 533 sc 4 bc
-  Heavy-cart load (1,500 kg) → 1,000 sc
 
   Forest Berries
-  Ordinary wild fruit of the wood.
   Base: 5 bc per kg
   Bulk: 400 kg/m³
   Packing: basket
   Basket (8 kg) → 3 sc 4 bc
-  Sack (20 kg) → 8 sc 4 bc
   Cart load (800 kg) → 333 sc 4 bc
-  Heavy-cart load (1,500 kg) → 625 sc
 
   Dried Fungi
-  Edible or useful mushrooms, dried for keeping.
   Base: 12 bc per kg
   Bulk: 200 kg/m³
   Packing: sack / bundle
   Bundle (5 kg) → 5 sc
-  Sack (12 kg) → 12 sc
   Cart load (500 kg, volume) → 500 sc
-  Heavy-cart load (800 kg, volume) → 800 sc
 
   Wild Greens / Roots
-  Eaten leaves, shoots, and roots of waste and wood.
   Base: 3 bc per kg
   Bulk: 150 kg/m³
   Packing: basket
   Bundle (10 kg) → 2 sc 6 bc
   Cart load (375 kg, volume) → 93 sc 9 bc
-  Heavy-cart load (600 kg, volume) → 150 sc
 
   Medicinal Herbs
-  Known useful plants, dried or bound.
   Base: 1 sc per kg
   Bulk: 180 kg/m³
   Packing: bundle / chest
   Bundle (2 kg) → 2 sc
-  Small chest (5 kg) → 5 sc
   Cart load (450 kg, volume) → 450 sc
-  Heavy-cart load (720 kg, volume) → 720 sc
 
   Amber
-  Fossil tree-resin.
   Base: 4 sc per kg
   Bulk: 1,100 kg/m³
   Packing: wrapped / chest
-  Small lot (1 kg) → 4 sc | Choice piece by quality
+  Small lot (1 kg) → 4 sc
 
 
 Forestry
-Wood, and what is taken from the standing tree besides timber.
-
-Note on timber value
-The per-kilogram price is for sound, usable forest-cut wood.
-Scraps lose any species premium and are valued as Mixed Timber or firewood.
-
-Note on masts, spars, and monumental trunks
-A great trunk is still only its species, by weight.
-Intact-piece premium: +25% to +100% (1.25× to 2×).
-Haulage is costed separately.
 
   Timber (mixed)
-  Unsorted building wood and firewood.
   Base: 0.2 bc per kg
   Bulk: 450 kg/m³
   Packing: loose pile
-  20 kg firewood bundle → 4 bc
-  100 kg pit-props / rough posts → 20 bc
   Cart load (800 kg) → 13 sc 4 bc
   Heavy-cart load (1,500 kg) → 25 sc
   Barge-load (12,000 kg) → 200 sc
 
   Pine / Fir
-  Light, resinous softwood.
   Base: 0.25 bc per kg
   Bulk: 450 kg/m³
   Packing: loose pile
-  15 kg small spar / oar blank → 4 bc
-  150 kg building baulk → 3 sc 1 bc
   Cart load (800 kg) → 16 sc 8 bc
   Heavy-cart load (1,500 kg) → 31 sc 3 bc
   Barge-load (12,000 kg) → 250 sc
-  Master-mast: one flawless 2,000 kg unbroken trunk at 1.5× → 62 sc 6 bc
+  Master-mast: 2,000 kg at 1.5× → 62 sc 6 bc
 
   Birch
-  Pale, even northern wood.
   Base: 0.3 bc per kg
   Bulk: 500 kg/m³
   Packing: loose pile
-  5 kg turning blank → 2 bc
-  50 kg handle / clog billets → 1 sc 3 bc
   Cart load (800 kg) → 20 sc
   Heavy-cart load (1,500 kg) → 37 sc 6 bc
   Barge-load (12,000 kg) → 300 sc
 
   Alder
-  Wet-ground wood.
   Base: 0.3 bc per kg
   Bulk: 450 kg/m³
   Packing: loose pile
-  20 kg stave blanks → 6 bc
-  80 kg sluice-board / small pile → 2 sc
   Cart load (800 kg) → 20 sc
   Heavy-cart load (1,500 kg) → 37 sc 6 bc
   Barge-load (12,000 kg) → 300 sc
 
   Beech
-  Hard, close-grained temperate wood.
   Base: 0.45 bc per kg
   Bulk: 550 kg/m³
   Packing: loose pile
-  10 kg turning blank → 5 bc
-  100 kg furniture baulk → 3 sc 9 bc
   Cart load (800 kg) → 30 sc
   Heavy-cart load (1,500 kg) → 56 sc 3 bc
   Barge-load (12,000 kg) → 450 sc
 
   Elm
-  Tough, twisted wood.
   Base: 0.5 bc per kg
   Bulk: 550 kg/m³
   Packing: loose pile
-  15 kg wheel-hub blank → 8 bc
-  120 kg pump-pipe / sluice log → 5 sc
   Cart load (800 kg) → 33 sc 4 bc
   Heavy-cart load (1,500 kg) → 62 sc 6 bc
   Barge-load (12,000 kg) → 500 sc
 
   Ash
-  Springy, straight-grained hardwood.
   Base: 0.6 bc per kg
   Bulk: 550 kg/m³
   Packing: loose pile
-  8 kg handle / shaft blank → 5 bc
-  60 kg wheel-rim / chassis timber → 3 sc
   Cart load (800 kg) → 40 sc
   Heavy-cart load (1,500 kg) → 75 sc
   Barge-load (12,000 kg) → 600 sc
 
   Oak
-  The chief heavy hardwood.
   Base: 0.7 bc per kg
   Bulk: 650 kg/m³
   Packing: loose pile
-  12 kg cooper’s stave blanks → 8 bc
-  100 kg framing knee / gate-post → 5 sc 10 bc
   Cart load (800 kg) → 46 sc 8 bc
   Heavy-cart load (1,500 kg) → 87 sc 6 bc
   Barge-load (12,000 kg) → 700 sc
-  Monumental pillar: one flawless 2,500 kg unbroken trunk at 1.5× → 218 sc 9 bc
+  Monumental pillar: 2,500 kg at 1.5× → 218 sc 9 bc
 
   Yew
-  Dense, elastic, dark wood.
-  Base: 2 sc 6 bc per kg (30 bc)
+  Base: 2 sc 6 bc per kg
   Bulk: 700 kg/m³
   Packing: wrapped / loose
-  1 kg carving / hilt piece → 2 sc 6 bc
-  5 kg knotless self-bow stave → 12 sc 6 bc
+  5 kg bow-stave → 12 sc 6 bc
   20 kg workshop lot → 50 sc
 
   Charcoal
-  Wood burned down to a hot, clean fuel.
   Base: 6 bc per kg
   Bulk: 280 kg/m³
   Packing: sack
@@ -559,7 +449,6 @@ Haulage is costed separately.
   Barge-load (8,400 kg, volume) → 4,200 sc
 
   Resin / Pitch
-  Sticky sap and the boiled tar made from it.
   Base: 12 bc per kg
   Bulk: 1,100 kg/m³
   Packing: cask
@@ -571,7 +460,6 @@ Haulage is costed separately.
 Earths and Salts
 
   Clay
-  Raw earth for pots, brick, and daub.
   Base: 2 bc per kg
   Bulk: 1,600 kg/m³
   Packing: loose pile
@@ -579,7 +467,6 @@ Earths and Salts
   Heavy-cart load (1,500 kg) → 250 sc
 
   Salt
-  The chief preservative.
   Base: 18 bc per kg
   Bulk: 1,200 kg/m³
   Packing: sack
@@ -588,7 +475,6 @@ Earths and Salts
   Heavy-cart load (1,500 kg) → 2,250 sc
 
   Peat
-  Cut and dried fen-earth used as fuel.
   Base: 2 bc per kg
   Bulk: 350 kg/m³
   Packing: loose pile
@@ -599,16 +485,13 @@ Earths and Salts
 Minerals
 
   Iron Ore
-  Mined rock bearing iron.
   Base: 8 bc per kg
   Bulk: 2,200 kg/m³
   Packing: loose pile
-  Sack only if bagged for sale (50 kg) → 33 sc 4 bc
   Cart load (800 kg) → 533 sc 4 bc
   Heavy-cart load (1,500 kg) → 1,000 sc
 
   Bog Iron
-  Low-grade iron from wet ground.
   Base: 5 bc per kg
   Bulk: 1,800 kg/m³
   Packing: loose pile
@@ -625,7 +508,7 @@ Minerals
   Tin Ore
   Base: 1 sc 2 bc per kg
   Bulk: 2,400 kg/m³
-  Packing: sack / chest if in small lots
+  Packing: sack / chest
   Small lot (10 kg) → 11 sc 8 bc
   Sack (25 kg) → 29 sc 2 bc
 
@@ -677,7 +560,6 @@ Minerals
 Stone and Volcanic Products
 
   Common Stone
-  Ordinary building stone.
   Base: 3 bc per kg
   Bulk: 2,200 kg/m³
   Packing: loose pile
@@ -710,10 +592,8 @@ Stone and Volcanic Products
   Basalt bulk: 2,800 kg/m³
   Pumice bulk: 400 kg/m³
   Packing: loose pile
-  Basalt cart load (800 kg) → 333 sc 4 bc
-  Basalt heavy-cart load (1,500 kg) → 625 sc
-  Pumice cart load (800 kg) → 333 sc 4 bc
-  Pumice heavy-cart load (1,500 kg) → 625 sc
+  Cart load (800 kg) → 333 sc 4 bc
+  Heavy-cart load (1,500 kg) → 625 sc
 
   Obsidian
   Base: 2 sc per kg
