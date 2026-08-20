@@ -1,0 +1,99 @@
+# Ebormark
+
+Overview
+The lower southern country beneath Ebon Spire. Black rock still shows on the skyline, but the land falls away into wooded ridges, river-floors, and the sheltered Leeshore. There is no lake. Melt and rain run straight to the gulf. The Hornwood Range walls the east. Most people live on the rivers and the strand; the Knights hold the Spire-foot as if it were their own realm.
+
+Environmental Scores
+Temperature: 3 | Rainfall: 4 | Human Density: 3 | Flora: 3 | Fauna: 3 | Topography: 3 | Hydrology: 3
+These are Harvest aggregates of the land-cover features below.
+Point sites are not averaged in.
+
+Height: upland
+
+Seasonal modifiers: Temperate
+
+--------------------------------------------------
+NOTABLE FEATURES
+--------------------------------------------------
+
+Ebon Spire (south face)
+The mountain’s lower southern slopes, shared with Kannavald. Black crag and steep burns. The Knights’ country begins here.
+Point site of the peak itself is scored in Kannavald. These are the inhabited flanks.
+Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora: 2 | Fauna: 3 | Topography: 5 | Hydrology: 2
+
+Deepskaard Col
+Forested pass between Westwood Peak and Stetbjorg Height. Shared land-gate with Kannavald Deepwood.
+Temperature: 2 | Rainfall: 4 | Human Density: 3 | Flora: 4 | Fauna: 2 | Topography: 4 | Hydrology: 2
+
+Hornwood Range
+Eastern protecting wall. Wooded mountains, heavier timber than the Spire’s black rock, less farmable.
+Temperature: 2 | Rainfall: 4 | Human Density: 1 | Flora: 4 | Fauna: 3 | Topography: 4 | Hydrology: 3
+
+Leeshore
+Sheltered southern strand on the gulf. Gentle, year-round workable coast. Rivers from the mountains reach the sea here.
+Temperature: 3 | Rainfall: 4 | Human Density: 3 | Flora: 3 | Fauna: 3 | Topography: 1 | Hydrology: 5
+
+Leebight
+The unnamed gulf off the Leeshore. Sheltered water, the sea-gate of Ebormark.
+Temperature: 3 | Rainfall: 4 | Human Density: 2 | Flora: 2 | Fauna: 3 | Topography: 1 | Hydrology: 5
+
+Spirebeck
+Central river. The main farm-water of Ebormark. Runs from the south face of Ebon Spire to the Leeshore.
+Temperature: 3 | Rainfall: 4 | Human Density: 2 | Flora: 3 | Fauna: 2 | Topography: 3 | Hydrology: 3
+
+Dreibach
+Western river of Ebormark. Fed from the Lowstacks, Westwood Peak, and Stetbjorg Height. The farm-water of the west floors.
+Temperature: 3 | Rainfall: 4 | Human Density: 3 | Flora: 3 | Fauna: 3 | Topography: 2 | Hydrology: 3
+
+Hornau
+Eastern river off the Hornwood Range to the Leeshore.
+Temperature: 3 | Rainfall: 4 | Human Density: 2 | Flora: 3 | Fauna: 3 | Topography: 3 | Hydrology: 3
+
+The Lowstacks
+A knot of lesser coastal heights on the north-west of Ebormark, against the Kannavald border. Blunt, low, and clearly subordinate to both Westwood Peak and Ebon Spire. Forested, not farmed.
+Temperature: 3 | Rainfall: 4 | Human Density: 1 | Flora: 4 | Fauna: 2 | Topography: 2 | Hydrology: 2
+
+Stetbjorg Height
+The left shoulder of Ebon Spire. High southern spur of the Svarthorn Massif, standing over Deepskaard Col. Ebormark sees the south face and the drop into the Col.
+Point site — not averaged.
+Temperature: 2 | Rainfall: 4 | Human Density: 0 | Flora: 3 | Fauna: 2 | Topography: 5 | Hydrology: 2
+
+--------------------------------------------------
+LINKED SETTLEMENTS
+--------------------------------------------------
+
+
+--------------------------------------------------
+LESSER / SCATTERED / SEASONAL
+--------------------------------------------------
+River-floor hamlets
+Small farming and mill places along the Hartlauf and Hornau.
+
+Shore landings
+Fishing and coastal work on the Leeshore. Few, and tied to the gulf.
+
+Hill pastures
+Seasonal grazing under the Hornwood and the Spire-foot.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+Access
+By Deepskaard Col from Kannavald, by the Leeshore and Leebight from the sea, or over the Hornwood.
+
+Goods
+Grain, hides, timber from the Hornwood, fish from the gulf. Gryphon work and knight-service sit above ordinary trade.
+
+Population
+Land area: about 20,000 square miles.
+Permanent population: about 40,000 (range 30,000–55,000).
+Overall density: roughly 2 people per square mile.
+People sit on the rivers and the Leeshore. The Hornwood and the high Spire-foot are thin.
+
+Working split
+- Greifhorst and its immediate lands: 4,000–7,000
+- Named river and shore places: 10,000–16,000
+- Scattered hamlets: 12,000–20,000
+- Remainder: seasonal pasture, timber camps, and the Order’s out-posts
+
+Lower and opener than Kannavald. Distances are shorter on the floors; the Hornwood still takes a day to cross.
