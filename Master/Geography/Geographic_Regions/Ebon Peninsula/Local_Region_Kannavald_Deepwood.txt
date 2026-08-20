@@ -1,3 +1,3579 @@
+Skip to main content
+Ctrl+K
+Ctrl+J
+
+
+
+
+Worked for 4s
+# Economy_Primary_Goods.txt
+# Primary Goods – Base Unit: 1 kg (or single natural item)
+
+HEADER NOTE
+All prices use the universal currency (1 gc = 20 sc = 240 bc).
+Prices shown are base market values and are subject to ±50% (or greater) fluctuation by region, season, supply, and demand.
+Base unit is 1 kg wherever practical. Larger lots are provided for convenience.
+
+Bulk is packed density for the good in its listed packing.
+A vehicle is full at whichever comes first: weight or volume.
+Standard cart: 800 kg or 2.5 m³
+Heavy cart: 1,500 kg or 4 m³
+River timber barge: 12,000 kg or 30 m³
+A “cart load” is one standard cart.
+A “heavy-cart load” is one heavy cart.
+A “barge-load” is one river timber barge.
+
+Packing
+The Bulk figure already includes the listed packing.
+Use the modifiers below only when the good is packed differently from its listed method.
+
+Sacks
++2% weight. +5% volume.
+Default for grain, salt, charcoal, dried meat, dried fish.
+
+Baskets
++15–25% volume.
+Default for eggs, berries, greens, moss, and anything that must breathe or not be crushed.
+
+Casks / Crates
++8–12% weight.
+Volume is the cask’s outside measure.
+Default for butter, tallow, pitch, milk, and breakable dry goods.
+
+Loose pile
+No extra penalty.
+Default for ore, coal, stone, bricks, clay, peat, and logs.
+
+These goods form the economic foundation of Virath.
+
+---
+
+Agriculture
+
+  Grain
+  The staple seed-crop of settled land.
+  Base: 3 bc per kg
+  Bulk: 750 kg/m³
+  Packing: sack
+  Sack (40 kg) → 10 sc
+  Cart load (800 kg) → 200 sc
+  Heavy-cart load (1,500 kg) → 375 sc
+
+  Root Vegetables
+  Plot-crops of the common house: carrots, cabbages, beets, onions, peas, potatoes, and their like.
+  Base: 2 bc per kg
+  Bulk: 550 kg/m³
+  Packing: sack / basket
+  Sack (30 kg) → 5 sc
+  Cart load (800 kg) → 133 sc 4 bc
+  Heavy-cart load (1,500 kg) → 250 sc
+
+  Apples
+  The common orchard fruit of temperate country.
+  Base: 4 bc per kg
+  Bulk: 550 kg/m³
+  Packing: sack / crate
+  Sack (25 kg) → 8 sc 4 bc
+  Cart load (800 kg) → 266 sc 8 bc
+  Heavy-cart load (1,500 kg) → 500 sc
+
+  Citrus Fruit
+  Oranges, lemons, limes, and their like.
+  Base: 9 bc per kg
+  Bulk: 600 kg/m³
+  Packing: crate
+  Crate (20 kg) → 15 sc
+  Cart load (800 kg) → 600 sc
+  Heavy-cart load (1,500 kg) → 1,125 sc
+
+  Berries (cultivated)
+  Garden and field berries: strawberry, cherry, and their like.
+  Base: 8 bc per kg
+  Bulk: 400 kg/m³
+  Packing: basket
+  Basket (5 kg) → 3 sc 4 bc
+  Cart load (800 kg) → 533 sc 4 bc
+  Heavy-cart load (1,500 kg) → 1,000 sc
+
+  Olives
+  Base: 4 bc per kg
+  Bulk: 650 kg/m³
+  Packing: sack / crate
+  Sack (30 kg) → 10 sc
+  Cart load (800 kg) → 266 sc 8 bc
+  Heavy-cart load (1,500 kg) → 500 sc
+
+  Grapes
+  Base: 6 bc per kg
+  Bulk: 600 kg/m³
+  Packing: crate
+  Crate (20 kg) → 10 sc
+  Cart load (800 kg) → 400 sc
+  Heavy-cart load (1,500 kg) → 750 sc
+
+  Date Fruit (dried)
+  Base: 9 bc per kg
+  Bulk: 650 kg/m³
+  Packing: sack
+  Sack (25 kg) → 18 sc 9 bc
+  Cart load (800 kg) → 600 sc
+  Heavy-cart load (1,500 kg) → 1,125 sc
+
+  Flax
+  Base: 7 bc per kg
+  Bulk: 180 kg/m³
+  Packing: bundle / sack
+  Bundle/sack (20 kg) → 11 sc 8 bc
+  Cart load (450 kg, volume) → 262 sc 6 bc
+  Heavy-cart load (720 kg, volume) → 420 sc
+
+  Raw Silk
+  Base: 2 sc per kg
+  Bulk: 120 kg/m³
+  Packing: bundle
+  Bundle (5 kg) → 10 sc
+  Cart load (300 kg, volume) → 600 sc
+
+  Spice
+  Base: 3 sc per kg
+  Bulk: 400 kg/m³
+  Packing: chest / crate
+  Small chest (5 kg) → 15 sc
+  Cart load (800 kg) → 2,400 sc
+
+  Dyes
+  Base: 1 sc 10 bc per kg
+  Bulk: 400 kg/m³
+  Packing: pot / crate
+  Pot (5 kg) → 9 sc 2 bc
+  Cart load (800 kg) → 1,466 sc 8 bc
+
+
+Animal Produce
+
+  Live / Household
+
+    Milk
+    Fresh milk of cattle, goats, or sheep.
+    Spoils fast; rarely a long-haul good.
+    Base: 4 bc per kg
+    Bulk: 1,000 kg/m³
+    Packing: pail / cask
+    Pail (10 kg) → 3 sc 4 bc
+    Cask (50 kg) → 16 sc 8 bc
+    Cart load (800 kg) → 266 sc 8 bc
+
+    Butter
+    Base: 12 bc per kg
+    Bulk: 900 kg/m³
+    Packing: cask
+    Small cask (20 kg) → 20 sc
+    Cart load (800 kg) → 800 sc
+    Heavy-cart load (1,500 kg) → 1,500 sc
+
+    Cheese
+    Base: 14 bc per kg
+    Bulk: 700 kg/m³
+    Packing: sack / crate
+    Wheel/sack (15 kg) → 17 sc 6 bc
+    Cart load (800 kg) → 933 sc 4 bc
+    Heavy-cart load (1,500 kg) → 1,750 sc
+
+    Wool
+    Base: 5 bc per kg
+    Bulk: 150 kg/m³
+    Packing: sack / bundle
+    Fleece sack (25 kg) → 10 sc 5 bc
+    Cart load (375 kg, volume) → 156 sc 3 bc
+    Heavy-cart load (600 kg, volume) → 250 sc
+
+    Eggs
+    Base: 1 bc each (≈ 20 eggs per kg)
+    Bulk: 400 kg/m³
+    Packing: basket
+    Basket (100 eggs) → 8 sc 4 bc
+    Cart load (800 kg) → 1,333 sc 4 bc
+
+    Honey
+    Base: 14 bc per kg
+    Bulk: 1,400 kg/m³
+    Packing: jar / cask
+    Jar/cask (15 kg) → 17 sc 6 bc
+    Cart load (800 kg) → 933 sc 4 bc
+
+    Beeswax
+    Base: 16 bc per kg
+    Bulk: 950 kg/m³
+    Packing: block / crate
+    Block (10 kg) → 13 sc 4 bc
+    Cart load (800 kg) → 1,066 sc 8 bc
+
+  Meat
+  Flesh for the pot or the road.
+  Raw is the butcher’s fresh carcase.
+  Preserved is smoked or salted, and already includes salt, labour, and wastage.
+  Game is taken in the hunt. It is not a farm yield.
+  Packing: raw in basket or on the hook (spoils). Preserved in sack.
+  Bulk, preserved: 500 kg/m³
+
+    Raw, domestic
+      Chicken          4 bc per kg
+      Duck             4 bc per kg
+      Goose            5 bc per kg
+      Pork             5 bc per kg
+      Mutton           5 bc per kg
+      Goat             5 bc per kg
+      Beef             5 bc per kg
+      Horsemeat        3 bc per kg
+      Camel            4 bc per kg
+
+    Preserved, domestic
+      Chicken          8 bc per kg
+      Duck             8 bc per kg
+      Goose            10 bc per kg
+      Pork             10 bc per kg
+      Mutton           10 bc per kg
+      Goat             10 bc per kg
+      Beef             10 bc per kg
+      Horsemeat        6 bc per kg
+      Camel            8 bc per kg
+
+    Raw, game
+      Venison (roe)    5 bc per kg
+      Venison (red)    6 bc per kg
+      Venison (elk)    6 bc per kg
+      Boar             6 bc per kg
+      Bear             5 bc per kg
+
+    Preserved, game
+      Venison (roe)    10 bc per kg
+      Venison (red)    12 bc per kg
+      Venison (elk)    12 bc per kg
+      Boar             12 bc per kg
+      Bear             10 bc per kg
+
+    Raw, sea
+      Walrus           4 bc per kg
+      Shark            5 bc per kg
+      Whale            3 bc per kg
+
+    Preserved, sea
+      Walrus           8 bc per kg
+      Shark            10 bc per kg
+      Whale            6 bc per kg
+
+    Fish (smoked/dried)
+    Preserved catch from sea, lake, or river.
+    Base: 8 bc per kg
+    Bulk: 450 kg/m³
+    Packing: sack
+    Sack (25 kg) → 16 sc 8 bc
+    Cart load (800 kg) → 533 sc 4 bc
+    Heavy-cart load (1,500 kg) → 1,000 sc
+
+  Slaughter / Hunt, other
+
+    Hides (raw)
+    Base: 10 bc per kg
+    Bulk: 300 kg/m³
+    Packing: bundle
+    Bundle (15 kg) → 12 sc 6 bc
+    Cart load (750 kg, volume) → 625 sc
+    Heavy-cart load (1,200 kg, volume) → 1,000 sc
+
+    Fur
+    Base: 1 sc 10 bc per kg
+    Bulk: 100 kg/m³
+    Packing: bundle
+    Bundle (10 kg) → 18 sc 4 bc
+    Cart load (250 kg, volume) → 458 sc 4 bc
+    Heavy-cart load (400 kg, volume) → 733 sc 4 bc
+
+    Tallow
+    Base: 9 bc per kg
+    Bulk: 900 kg/m³
+    Packing: cask
+    Cask (25 kg) → 18 sc 9 bc
+    Cart load (800 kg) → 600 sc
+    Heavy-cart load (1,500 kg) → 1,125 sc
+
+  Carcass Parts
+
+    Bone
+    Base: 3 bc per kg
+    Bulk: 800 kg/m³
+    Packing: sack
+    Sack (20 kg) → 5 sc
+
+    Horn (livestock)
+    Base: 8 bc per kg
+    Bulk: 1,200 kg/m³
+    Packing: bundle
+    Bundle (5 kg) → 3 sc 4 bc
+
+    Gut / Sinew
+    Base: 12 bc per kg
+    Packing: salt-cask
+    Lot (5 kg) → 5 sc
+
+    Offal
+    Base: 4 bc per kg
+    Packing: basket
+    Lot (10 kg) → 3 sc 4 bc
+
+    Feathers
+    Base: 6 bc per kg
+    Bulk: 40 kg/m³
+    Packing: sack
+    Sack (5 kg) → 2 sc 6 bc
+    Cart load (100 kg, volume) → 50 sc
+
+    Down
+    Base: 1 sc 6 bc per kg
+    Bulk: 30 kg/m³
+    Packing: sack
+    Sack (2 kg) → 3 sc
+
+  Hard Animal Parts
+
+    Walrus Tusk
+    Base: 2 sc 10 bc per kg
+    Bulk: 1,800 kg/m³
+    Packing: loose / wrapped
+    Single large tusk (8–12 kg) → 22 sc 8 bc to 34 sc
+
+    Antler / Horn
+    Base: 1 sc per kg
+    Bulk: 1,800 kg/m³
+    Packing: bundle
+    Bundle (10 kg) → 10 sc
+
+
+Wilderness Foraging
+
+  Moss / Lichen
+  Base: 4 bc per kg
+  Bulk: 80 kg/m³
+  Packing: basket
+  Basket (20 kg) → 6 sc 8 bc
+  Cart load (200 kg, volume) → 66 sc 8 bc
+
+  Bog Berries
+  Base: 8 bc per kg
+  Bulk: 400 kg/m³
+  Packing: basket
+  Basket (5 kg) → 3 sc 4 bc
+  Cart load (800 kg) → 533 sc 4 bc
+
+  Forest Berries
+  Base: 5 bc per kg
+  Bulk: 400 kg/m³
+  Packing: basket
+  Basket (8 kg) → 3 sc 4 bc
+  Cart load (800 kg) → 333 sc 4 bc
+
+  Dried Fungi
+  Base: 12 bc per kg
+  Bulk: 200 kg/m³
+  Packing: sack / bundle
+  Bundle (5 kg) → 5 sc
+  Cart load (500 kg, volume) → 500 sc
+
+  Wild Greens / Roots
+  Base: 3 bc per kg
+  Bulk: 150 kg/m³
+  Packing: basket
+  Bundle (10 kg) → 2 sc 6 bc
+  Cart load (375 kg, volume) → 93 sc 9 bc
+
+  Medicinal Herbs
+  Base: 1 sc per kg
+  Bulk: 180 kg/m³
+  Packing: bundle / chest
+  Bundle (2 kg) → 2 sc
+  Cart load (450 kg, volume) → 450 sc
+
+  Amber
+  Base: 4 sc per kg
+  Bulk: 1,100 kg/m³
+  Packing: wrapped / chest
+  Small lot (1 kg) → 4 sc
+
+
+Forestry
+
+  Timber (mixed)
+  Base: 0.2 bc per kg
+  Bulk: 450 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 13 sc 4 bc
+  Heavy-cart load (1,500 kg) → 25 sc
+  Barge-load (12,000 kg) → 200 sc
+
+  Pine / Fir
+  Base: 0.25 bc per kg
+  Bulk: 450 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 16 sc 8 bc
+  Heavy-cart load (1,500 kg) → 31 sc 3 bc
+  Barge-load (12,000 kg) → 250 sc
+  Master-mast: 2,000 kg at 1.5× → 62 sc 6 bc
+
+  Birch
+  Base: 0.3 bc per kg
+  Bulk: 500 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 20 sc
+  Heavy-cart load (1,500 kg) → 37 sc 6 bc
+  Barge-load (12,000 kg) → 300 sc
+
+  Alder
+  Base: 0.3 bc per kg
+  Bulk: 450 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 20 sc
+  Heavy-cart load (1,500 kg) → 37 sc 6 bc
+  Barge-load (12,000 kg) → 300 sc
+
+  Beech
+  Base: 0.45 bc per kg
+  Bulk: 550 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 30 sc
+  Heavy-cart load (1,500 kg) → 56 sc 3 bc
+  Barge-load (12,000 kg) → 450 sc
+
+  Elm
+  Base: 0.5 bc per kg
+  Bulk: 550 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 33 sc 4 bc
+  Heavy-cart load (1,500 kg) → 62 sc 6 bc
+  Barge-load (12,000 kg) → 500 sc
+
+  Ash
+  Base: 0.6 bc per kg
+  Bulk: 550 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 40 sc
+  Heavy-cart load (1,500 kg) → 75 sc
+  Barge-load (12,000 kg) → 600 sc
+
+  Oak
+  Base: 0.7 bc per kg
+  Bulk: 650 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 46 sc 8 bc
+  Heavy-cart load (1,500 kg) → 87 sc 6 bc
+  Barge-load (12,000 kg) → 700 sc
+  Monumental pillar: 2,500 kg at 1.5× → 218 sc 9 bc
+
+  Yew
+  Base: 2 sc 6 bc per kg
+  Bulk: 700 kg/m³
+  Packing: wrapped / loose
+  5 kg bow-stave → 12 sc 6 bc
+  20 kg workshop lot → 50 sc
+
+  Charcoal
+  Base: 6 bc per kg
+  Bulk: 280 kg/m³
+  Packing: sack
+  Sack (15 kg) → 7 sc 6 bc
+  Cart load (700 kg, volume) → 350 sc
+  Heavy-cart load (1,120 kg, volume) → 560 sc
+  Barge-load (8,400 kg, volume) → 4,200 sc
+
+  Resin / Pitch
+  Base: 12 bc per kg
+  Bulk: 1,100 kg/m³
+  Packing: cask
+  Cask (20 kg) → 20 sc
+  Cart load (800 kg) → 800 sc
+  Heavy-cart load (1,500 kg) → 1,500 sc
+
+
+Earths and Salts
+
+  Clay
+  Base: 2 bc per kg
+  Bulk: 1,600 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 133 sc 4 bc
+  Heavy-cart load (1,500 kg) → 250 sc
+
+  Salt
+  Base: 18 bc per kg
+  Bulk: 1,200 kg/m³
+  Packing: sack
+  Sack (20 kg) → 30 sc
+  Cart load (800 kg) → 1,200 sc
+  Heavy-cart load (1,500 kg) → 2,250 sc
+
+  Peat
+  Base: 2 bc per kg
+  Bulk: 350 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 133 sc 4 bc
+  Heavy-cart load (1,400 kg, volume) → 233 sc 4 bc
+
+
+Minerals
+
+  Iron Ore
+  Base: 8 bc per kg
+  Bulk: 2,200 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 533 sc 4 bc
+  Heavy-cart load (1,500 kg) → 1,000 sc
+
+  Bog Iron
+  Base: 5 bc per kg
+  Bulk: 1,800 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 333 sc 4 bc
+  Heavy-cart load (1,500 kg) → 625 sc
+
+  Copper Ore
+  Base: 14 bc per kg
+  Bulk: 2,200 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 933 sc 4 bc
+  Heavy-cart load (1,500 kg) → 1,750 sc
+
+  Tin Ore
+  Base: 1 sc 2 bc per kg
+  Bulk: 2,400 kg/m³
+  Packing: sack / chest
+  Small lot (10 kg) → 11 sc 8 bc
+  Sack (25 kg) → 29 sc 2 bc
+
+  Lead Ore
+  Base: 7 bc per kg
+  Bulk: 2,800 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 466 sc 8 bc
+  Heavy-cart load (1,500 kg) → 875 sc
+
+  Silver Ore
+  Base: 1 sc 5 bc per kg
+  Bulk: 2,600 kg/m³
+  Packing: sack / chest
+  Small sack (10 kg) → 14 sc 2 bc
+
+  Gold Ore
+  Base: 6 sc per kg
+  Bulk: 2,800 kg/m³
+  Packing: sack / chest
+  Small sack (5 kg) → 30 sc
+
+  Coal
+  Base: 3 bc per kg
+  Bulk: 800 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 200 sc
+  Heavy-cart load (1,500 kg) → 375 sc
+
+  Sulphur
+  Base: 1 sc per kg
+  Bulk: 1,000 kg/m³
+  Packing: sack / crate
+  Sack (15 kg) → 15 sc
+
+  Saltpetre
+  Base: 1 sc 8 bc per kg
+  Bulk: 900 kg/m³
+  Packing: sack / chest
+  Small sack (10 kg) → 16 sc 8 bc
+
+  Alum
+  Base: 18 bc per kg
+  Bulk: 1,000 kg/m³
+  Packing: sack
+  Sack (20 kg) → 30 sc
+
+
+Stone and Volcanic Products
+
+  Common Stone
+  Base: 3 bc per kg
+  Bulk: 2,200 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 200 sc
+  Heavy-cart load (1,500 kg) → 375 sc
+
+  Granite
+  Base: 6 bc per kg
+  Bulk: 2,700 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 400 sc
+  Heavy-cart load (1,500 kg) → 750 sc
+
+  Slate
+  Base: 8 bc per kg
+  Bulk: 2,600 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 533 sc 4 bc
+  Heavy-cart load (1,500 kg) → 1,000 sc
+
+  Marble
+  Base: 1 sc 5 bc per kg
+  Bulk: 2,700 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 1,133 sc 4 bc
+  Heavy-cart load (1,500 kg) → 2,125 sc
+
+  Basalt / Pumice
+  Base: 5 bc per kg
+  Basalt bulk: 2,800 kg/m³
+  Pumice bulk: 400 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 333 sc 4 bc
+  Heavy-cart load (1,500 kg) → 625 sc
+
+  Obsidian
+  Base: 2 sc per kg
+  Bulk: 2,400 kg/m³
+  Packing: wrapped / crate
+  Bundle (5 kg) → 10 sc
+The old single Meat (smoked/salted) 15 bc line is gone. Livestock yields now point at these named meats. Hide and tallow are still the next mismatch with live prices.
+
+output updated Economy_Livestock
+
+
+Worked for 3s
+# Economy_Livestock.txt
+# Livestock, Beasts of Burden, War Mounts, Game & Sea-Take
+
+HEADER NOTE
+All prices use the universal currency (1 gc = 20 sc = 240 bc).
+Prices shown are base market values for healthy adult animals and are subject to significant regional and seasonal fluctuation (±50% or more).
+Livestock requires ongoing space, feed, water, and care. Neglect rapidly reduces value or kills the animal.
+
+Animals are listed with:
+- Purchase price (healthy adult)
+- Typical upkeep
+- Space / housing needs
+- Primary uses
+- Slaughter yields, named as the Primary Goods meat types
+
+Slaughter turns a live beast into the goods in Economy_Primary_Goods.txt.
+Yields are working averages. Age, breed, and season move them.
+Meat weights are as carcase meat, priced raw or preserved from that file.
+Wool is taken in life and is not a slaughter yield.
+
+How to price a kill
+Add the parts at the Primary Goods rates.
+Do not add a separate “carcase” price on top.
+The live beast is worth more than this stack only while it still works, breeds, or gives milk and wool.
+
+Live prices below are the current listed rates and do not yet match the slaughter stack. Hide and tallow still need the same treatment meat received.
+
+---
+
+COMMON LIVESTOCK
+
+Chicken
+Price: 8–15 bc
+Upkeep: Negligible (scraps + foraging)
+Space: Minimal
+Uses: Eggs, chicken, feathers
+Slaughter:
+  Chicken    1.0–1.5 kg
+  Offal      0.2 kg
+  Feathers   0.1 kg
+  Bone       scrap
+
+Duck
+Price: 15–25 bc
+Upkeep: Low
+Space: Access to water preferred
+Uses: Eggs, duck, feathers, down
+Slaughter:
+  Duck       1.5–2.0 kg
+  Offal      0.3 kg
+  Feathers   0.2 kg
+  Down       a little
+
+Goose
+Price: 20–30 bc
+Upkeep: Low
+Space: Access to water preferred
+Uses: Eggs, goose, feathers, down
+Slaughter:
+  Goose      3–4 kg
+  Offal      0.5 kg
+  Feathers   0.3 kg
+  Down       0.1–0.2 kg
+
+Sheep
+Price: 1 sc – 1 sc 10 bc
+Upkeep: 1–2 bc per day (grazing + winter feed)
+Space: Pasture
+Uses: Wool, mutton, milk, hides
+Slaughter:
+  Mutton     18–25 kg
+  Hide       4–6 kg
+  Tallow     3–5 kg
+  Bone       4–6 kg
+  Gut        1 kg
+  Offal      3–4 kg
+  Horn       0.5–1 kg if a horned breed
+
+Goat
+Price: 1 sc – 1 sc 15 bc
+Upkeep: 1–2 bc per day
+Space: Pasture or rough ground
+Uses: Milk, goat, hides, brush clearing
+Slaughter:
+  Goat       16–22 kg
+  Hide       3–5 kg
+  Tallow     2–4 kg
+  Bone       3–5 kg
+  Gut        1 kg
+  Offal      2–4 kg
+  Horn       1–2 kg
+
+Pig
+Price: 1 sc 10 bc – 2 sc
+Upkeep: 2–3 bc per day
+Space: Sty or woodland pannage
+Uses: Pork, fat, hides
+Slaughter:
+  Pork       50–70 kg
+  Hide       8–12 kg
+  Tallow     8–15 kg
+  Bone       8–12 kg
+  Gut        2–3 kg
+  Offal      8–10 kg
+
+Cattle (Cow / Ox)
+Price: 4–8 sc (oxen toward the higher end)
+Upkeep: 3–5 bc per day
+Space: Significant pasture
+Uses: Milk, beef, hides, labour
+Slaughter:
+  Beef       120–160 kg
+  Hide       25–35 kg
+  Tallow     15–25 kg
+  Bone       20–30 kg
+  Horn       1–3 kg
+  Gut        3–4 kg
+  Offal      15–25 kg
+
+Donkey
+Price: 3–6 sc
+Upkeep: 2–3 bc per day
+Space: Modest
+Uses: Pack transport, light draught
+Slaughter:
+  Horsemeat  80–120 kg
+  Hide       12–18 kg
+  Tallow     6–10 kg
+  Bone       15–20 kg
+  Offal      8–12 kg
+
+Mule
+Price: 5–9 sc
+Upkeep: 2–4 bc per day
+Space: Modest
+Uses: Superior pack and draught
+Slaughter:
+  Horsemeat  120–160 kg
+  Hide       15–22 kg
+  Tallow     8–14 kg
+  Bone       18–25 kg
+  Offal      10–15 kg
+
+Horse (Common / Work)
+Price: 6–12 sc
+Upkeep: 4–6 bc per day
+Space: Stable + pasture
+Uses: Riding, light cavalry, draught
+Slaughter:
+  Horsemeat  150–200 kg
+  Hide       20–30 kg
+  Tallow     10–18 kg
+  Bone       25–35 kg
+  Gut        3–4 kg
+  Offal      15–20 kg
+  Hair       1–2 kg
+Notes: A working horse is almost never killed for the carcase.
+
+---
+
+WAR & QUALITY MOUNTS
+
+Riding Horse (trained)
+Price: 12–25 sc
+Upkeep: 5–7 bc per day
+Slaughter: as Horse (Common / Work)
+
+Destrier / War Horse
+Price: 1–3 gc
+Upkeep: 8–12 bc per day
+Notes: Heavy war mount. Requires experienced handler.
+Slaughter: as Horse, at the high end of the weights. Rarely done.
+
+Courser / Light War Horse
+Price: 18–40 sc
+Upkeep: 6–9 bc per day
+Slaughter: as Horse
+
+Camel
+Price: 15–35 sc
+Upkeep: 3–5 bc per day
+Uses: Long-distance pack and riding in deserts
+Slaughter:
+  Camel      120–180 kg
+  Hide       20–30 kg
+  Tallow     10–15 kg
+  Bone       20–30 kg
+  Offal      12–18 kg
+
+---
+
+GAME
+Taken by the hunt. No purchase price. The cost is the hunt.
+
+Deer (red / common)
+  Venison (red)  25–40 kg
+  Hide           5–8 kg
+  Tallow         2–4 kg
+  Bone           6–10 kg
+  Antler         2–6 kg if in season
+  Offal          3–5 kg
+
+Elk
+  Venison (elk)  80–120 kg
+  Hide           15–22 kg
+  Tallow         8–12 kg
+  Bone           15–25 kg
+  Antler         8–15 kg if in season
+  Offal          8–12 kg
+
+Roe / small deer
+  Venison (roe)  8–12 kg
+  Hide           2–3 kg
+  Antler         0.5–1.5 kg if in season
+  Offal          1 kg
+
+Boar / wild pig
+  Boar           40–60 kg
+  Hide           6–10 kg
+  Tallow         6–10 kg
+  Bone           8–12 kg
+  Offal          6–8 kg
+
+Wolf
+  Fur            4–8 kg
+  Bone           scrap
+Notes: The worth is the fur.
+
+Bear
+  Bear           60–100 kg
+  Hide/Fur       15–25 kg
+  Tallow         10–20 kg
+  Bone           12–20 kg
+  Offal          8–12 kg
+
+---
+
+SEA-TAKE
+Not kept as livestock. Taken by boat, net, or hunt.
+
+Fish (lake)
+  Fish (smoked/dried)  0.5–3 kg each typical
+  Shoal take sold by the sack
+
+Fish (ocean)
+  Fish (smoked/dried)  1–8 kg each typical
+  Large catch sold by the sack or cart
+
+Walrus
+  Walrus         80–150 kg
+  Hide           20–40 kg
+  Tallow / oil   20–40 kg
+  Tusk           8–12 kg
+  Bone           15–25 kg
+
+Shark
+  Shark          30–200 kg
+  Hide           5–20 kg
+  Oil            5–40 kg
+  Teeth          a few kg
+
+Whale
+  Whale          hundreds to thousands of kg, by size
+  Oil            the chief take
+  Baleen / bone  as the kind allows
+  Hide           thick, limited use
+Notes: A whale is a voyage. Price oil and bone after rendering.
+
+---
+
+UPKEEP & LOGISTICS NOTES
+
+- Grazing land reduces feed costs for sheep, goats, cattle and horses.
+- Urban animals cost more to keep; all feed is bought.
+- War mounts often need dedicated grooms.
+- Transporting livestock long distances incurs losses.
+- Breeding stock, young, and pregnant females vary from the adult baselines.
+- Gryphons, royal gryphons, and pegasus are in Economy_Unveiling_Beasts.txt.
+New revision to Economy_Livestock
+Like with Slaughter Values add Live / Household annual output to each applicable species in milk, eggs. woll ect
+
+
+Worked for 19s
+# Economy_Livestock.txt
+# Livestock, Beasts of Burden, War Mounts, Game & Sea-Take
+
+HEADER NOTE
+All prices use the universal currency (1 gc = 20 sc = 240 bc).
+Prices shown are base market values for healthy adult animals and are subject to significant regional and seasonal fluctuation (±50% or more).
+Livestock requires ongoing space, feed, water, and care. Neglect rapidly reduces value or kills the animal.
+
+Live / Household output is a healthy adult’s yearly take in milk, eggs, wool, and the like.
+It assumes ordinary keep, not a prize dairy or a starved yard.
+Wool is taken in life. Milk and eggs are taken in life. None of these are slaughter yields.
+
+Slaughter turns a live beast into the goods in Economy_Primary_Goods.txt.
+Meat weights are carcase meat, priced raw or preserved from that file.
+
+How to price a year
+Add the live output at Primary Goods rates.
+How to price a kill
+Add the slaughter parts at Primary Goods rates.
+The live beast is worth more than the carcase while it still works, breeds, or gives this yearly take.
+
+---
+
+COMMON LIVESTOCK
+
+Chicken
+Price: 8–15 bc
+Upkeep: Negligible (scraps + foraging)
+Space: Minimal
+Uses: Eggs, chicken, feathers
+Live / Household, yearly:
+  Eggs       80–120
+Slaughter:
+  Chicken    1.0–1.5 kg
+  Offal      0.2 kg
+  Feathers   0.1 kg
+  Bone       scrap
+
+Duck
+Price: 15–25 bc
+Upkeep: Low
+Space: Access to water preferred
+Uses: Eggs, duck, feathers, down
+Live / Household, yearly:
+  Eggs       60–100
+Slaughter:
+  Duck       1.5–2.0 kg
+  Offal      0.3 kg
+  Feathers   0.2 kg
+  Down       a little
+
+Goose
+Price: 20–30 bc
+Upkeep: Low
+Space: Access to water preferred
+Uses: Eggs, goose, feathers, down
+Live / Household, yearly:
+  Eggs       15–30
+Slaughter:
+  Goose      3–4 kg
+  Offal      0.5 kg
+  Feathers   0.3 kg
+  Down       0.1–0.2 kg
+
+Sheep
+Price: 1 sc – 1 sc 10 bc
+Upkeep: 1–2 bc per day (grazing + winter feed)
+Space: Pasture
+Uses: Wool, mutton, milk, hides
+Live / Household, yearly:
+  Wool       1.5–2.5 kg
+  Milk       40–80 kg if a milk ewe; none if kept only for wool
+Slaughter:
+  Mutton     18–25 kg
+  Hide       4–6 kg
+  Tallow     3–5 kg
+  Bone       4–6 kg
+  Gut        1 kg
+  Offal      3–4 kg
+  Horn       0.5–1 kg if a horned breed
+
+Goat
+Price: 1 sc – 1 sc 15 bc
+Upkeep: 1–2 bc per day
+Space: Pasture or rough ground
+Uses: Milk, goat, hides, brush clearing
+Live / Household, yearly:
+  Milk       150–300 kg
+  Hair / wool  0.5–1 kg if a fibre breed
+Slaughter:
+  Goat       16–22 kg
+  Hide       3–5 kg
+  Tallow     2–4 kg
+  Bone       3–5 kg
+  Gut        1 kg
+  Offal      2–4 kg
+  Horn       1–2 kg
+
+Pig
+Price: 1 sc 10 bc – 2 sc
+Upkeep: 2–3 bc per day
+Space: Sty or woodland pannage
+Uses: Pork, fat, hides
+Live / Household, yearly:
+  None. A pig is a meat-beast.
+Slaughter:
+  Pork       50–70 kg
+  Hide       8–12 kg
+  Tallow     8–15 kg
+  Bone       8–12 kg
+  Gut        2–3 kg
+  Offal      8–10 kg
+
+Cattle (Cow / Ox)
+Price: 4–8 sc (oxen toward the higher end)
+Upkeep: 3–5 bc per day
+Space: Significant pasture
+Uses: Milk, beef, hides, labour
+Live / Household, yearly:
+  Milk       400–800 kg if a cow in milk; none from an ox
+  Labour     plough and haul, not a traded good
+Slaughter:
+  Beef       120–160 kg
+  Hide       25–35 kg
+  Tallow     15–25 kg
+  Bone       20–30 kg
+  Horn       1–3 kg
+  Gut        3–4 kg
+  Offal      15–25 kg
+
+Donkey
+Price: 3–6 sc
+Upkeep: 2–3 bc per day
+Space: Modest
+Uses: Pack transport, light draught
+Live / Household, yearly:
+  Labour     pack and draught
+Slaughter:
+  Horsemeat  80–120 kg
+  Hide       12–18 kg
+  Tallow     6–10 kg
+  Bone       15–20 kg
+  Offal      8–12 kg
+
+Mule
+Price: 5–9 sc
+Upkeep: 2–4 bc per day
+Space: Modest
+Uses: Superior pack and draught
+Live / Household, yearly:
+  Labour     pack and draught
+Slaughter:
+  Horsemeat  120–160 kg
+  Hide       15–22 kg
+  Tallow     8–14 kg
+  Bone       18–25 kg
+  Offal      10–15 kg
+
+Horse (Common / Work)
+Price: 6–12 sc
+Upkeep: 4–6 bc per day
+Space: Stable + pasture
+Uses: Riding, light cavalry, draught
+Live / Household, yearly:
+  Labour     riding and draught
+  Hair       a little, if taken
+Slaughter:
+  Horsemeat  150–200 kg
+  Hide       20–30 kg
+  Tallow     10–18 kg
+  Bone       25–35 kg
+  Gut        3–4 kg
+  Offal      15–20 kg
+  Hair       1–2 kg
+Notes: A working horse is almost never killed for the carcase.
+
+---
+
+WAR & QUALITY MOUNTS
+
+Riding Horse (trained)
+Price: 12–25 sc
+Upkeep: 5–7 bc per day
+Live / Household, yearly: labour (riding)
+Slaughter: as Horse (Common / Work)
+
+Destrier / War Horse
+Price: 1–3 gc
+Upkeep: 8–12 bc per day
+Live / Household, yearly: labour (war)
+Slaughter: as Horse, at the high end of the weights. Rarely done.
+
+Courser / Light War Horse
+Price: 18–40 sc
+Upkeep: 6–9 bc per day
+Live / Household, yearly: labour (riding / war)
+Slaughter: as Horse
+
+Camel
+Price: 15–35 sc
+Upkeep: 3–5 bc per day
+Uses: Long-distance pack and riding in deserts
+Live / Household, yearly:
+  Milk       500–1,000 kg if a milking beast
+  Labour     pack and riding
+Slaughter:
+  Camel      120–180 kg
+  Hide       20–30 kg
+  Tallow     10–15 kg
+  Bone       20–30 kg
+  Offal      12–18 kg
+
+---
+
+GAME
+Taken by the hunt. No purchase price. No yearly household output.
+
+Deer (red / common)
+  Venison (red)  25–40 kg
+  Hide           5–8 kg
+  Tallow         2–4 kg
+  Bone           6–10 kg
+  Antler         2–6 kg if in season
+  Offal          3–5 kg
+
+Elk
+  Venison (elk)  80–120 kg
+  Hide           15–22 kg
+  Tallow         8–12 kg
+  Bone           15–25 kg
+  Antler         8–15 kg if in season
+  Offal          8–12 kg
+
+Roe / small deer
+  Venison (roe)  8–12 kg
+  Hide           2–3 kg
+  Antler         0.5–1.5 kg if in season
+  Offal          1 kg
+
+Boar / wild pig
+  Boar           40–60 kg
+  Hide           6–10 kg
+  Tallow         6–10 kg
+  Bone           8–12 kg
+  Offal          6–8 kg
+
+Wolf
+  Fur            4–8 kg
+  Bone           scrap
+
+Bear
+  Bear           60–100 kg
+  Hide/Fur       15–25 kg
+  Tallow         10–20 kg
+  Bone           12–20 kg
+  Offal          8–12 kg
+
+---
+
+SEA-TAKE
+Not kept as livestock. No yearly household output.
+
+Fish (lake)
+  Fish (smoked/dried)  0.5–3 kg each typical
+
+Fish (ocean)
+  Fish (smoked/dried)  1–8 kg each typical
+
+Walrus
+  Walrus         80–150 kg
+  Hide           20–40 kg
+  Tallow / oil   20–40 kg
+  Tusk           8–12 kg
+  Bone           15–25 kg
+
+Shark
+  Shark          30–200 kg
+  Hide           5–20 kg
+  Oil            5–40 kg
+  Teeth          a few kg
+
+Whale
+  Whale          hundreds to thousands of kg, by size
+  Oil            the chief take
+  Baleen / bone  as the kind allows
+  Hide           thick, limited use
+
+---
+
+UPKEEP & LOGISTICS NOTES
+
+- Grazing land reduces feed costs for sheep, goats, cattle and horses.
+- Urban animals cost more to keep; all feed is bought.
+- A cow or goat in milk is worth keeping far above its carcase.
+- A pig is bought for the knife. A sheep is bought for the fleece.
+- War mounts need grooms. Breeding stock, young, and pregnant females vary from the adult baselines.
+- Gryphons, royal gryphons, and pegasus are in Economy_Unveiling_Beasts.txt.
+Proposal in primary goods.
+All meats and fish listed as raw
+smoked/dried is just a keyword price modifier based on labour and material cost
+
+
+Worked for 2s
+Do that. One price each, always raw. Preserving is a process, not a second good.
+
+Meat
+All listed prices are raw carcase.
+Preserved (smoked / salted / dried) is the same meat after labour and materials.
+
+Preserve modifier
++ salt, fuel, and time.
+Typical: +80% to +120% on the raw price.
+Use +100% unless the region is short of salt or the work is poor.
+
+  Chicken          4 bc per kg
+  Duck             4 bc per kg
+  Goose            5 bc per kg
+  Pork             5 bc per kg
+  Mutton           5 bc per kg
+  Goat             5 bc per kg
+  Beef             5 bc per kg
+  Horsemeat        3 bc per kg
+  Camel            4 bc per kg
+  Venison (roe)    5 bc per kg
+  Venison (red)    6 bc per kg
+  Venison (elk)    6 bc per kg
+  Boar             6 bc per kg
+  Bear             5 bc per kg
+  Walrus           4 bc per kg
+  Shark            5 bc per kg
+  Whale            3 bc per kg
+
+Fish
+Raw catch, lake or ocean.
+Preserve modifier: the same +80% to +120% (use +100% as default).
+  Fish             4 bc per kg
+In play
+
+Butcher’s hook: raw price.
+Road-sack: raw × 2, and it needs salt.
+Livestock yields stay in raw kg. Preserve only if they smoke or salt the take.
+That kills the doubled meat tables and keeps fish on the same rule.
+
+Add note, salted, smoked, dried applied automatically when Preserved checked
+
+
+Worked for 2s
+Preserve modifier
+When Preserved is checked, the meat or fish is treated as salted, smoked, or dried.
+Apply +80% to +120% to the raw price (use +100% as default).
+Do not list a second good. The checkbox is the process.
+Shifting a moment,
+Proposal for seasonal modifiers based on season.
+Spring, Summer, Autumn, Winter
+First lets detail the calander in new doc World_Calander, identical to real world, just with different sames
+
+
+Worked for 22s
+# World_Calendar.txt
+# The Common Reckoning of Virath
+
+HEADER NOTE
+The year is the same length and shape as a real terrestrial year.
+Twelve months. Four seasons. The same number of days.
+Only the names differ.
+This is the trader’s and scholar’s calendar. Local cultures keep their own feast-names on top of it.
+
+The natural moon is Lorn.
+The False Moon is not used for reckoning.
+
+---
+
+THE YEAR
+
+365 days in a common year.
+366 in a leap year, every fourth year.
+Weeks of 7 days, if a culture bothers to count them that way.
+
+---
+
+SEASONS
+
+Thaw
+The spring. Snow-melt, first plough, lambing.
+Months: Budmoon, Lambmoon, Greenleaf
+
+Highsun
+The summer. Long days, hay, dry roads.
+Months: Flowering, Highsun, Aftersun
+
+Harvest
+The autumn. Cutting, pressing, slaughter for winter.
+Months: Reaping, Fallwine, Leafbare
+
+Longnight
+The winter. Short days, store-eating, closed high passes.
+Months: Frostfall, Deepcold, Icewane
+
+---
+
+MONTHS
+(Real-world equivalent in brackets)
+
+Budmoon      31 days    [January]
+Lambmoon     28 days    [February]  (29 in a leap year)
+Greenleaf    31 days    [March]
+Flowering    30 days    [April]
+Highsun      31 days    [May]
+Aftersun     30 days    [June]
+Reaping      31 days    [July]
+Fallwine     31 days    [August]
+Leafbare     30 days    [September]
+Frostfall    31 days    [October]
+Deepcold     30 days    [November]
+Icewane      31 days    [December]
+
+---
+
+SEASON BOUNDS
+
+Thaw        Greenleaf 1 – Flowering 30
+Highsun     Highsun 1 – Aftersun 30
+Harvest     Reaping 1 – Leafbare 30
+Longnight   Frostfall 1 – Budmoon 31
+
+Budmoon and Lambmoon sit in Longnight’s tail and Thaw’s first breath.
+For modifiers, treat:
+- Budmoon, Lambmoon as late Longnight / early Thaw
+- Use the month if a finer grain is needed
+
+---
+
+NOTES
+
+- Equatorial and southern lands keep the same names and reverse the heat.
+- A leap day is added at the end of Lambmoon.
+- False-moon nights are dated on this calendar; they do not change its length.
+- Seasonal price modifiers, when written, key off these four seasons.
+Filename: World_Calendar.txt
+Seasonal modifiers can now hang off Thaw / Highsun / Harvest / Longnight without inventing a new year-shape.
+
+Ok, Local_Region formatting in Geography_Rules
+Section will detail SEASON modifiers to environmental scores
+
+
+Worked for 6s
+--------------------------------------------------
+SEASONAL MODIFIERS TO ENVIRONMENTAL SCORES
+--------------------------------------------------
+Every Local Region has a standing 0–5 score for the six land measures.
+Seasons do not replace those scores. They shift them.
+
+Use the Common Reckoning in World_Calendar.txt:
+Thaw, Highsun, Harvest, Longnight.
+
+Write the standing score once.
+Apply the season when the scene is dated.
+
+A modified score cannot go below 0 or above 5.
+
+--------------------------------------------------
+DEFAULT TEMPERATE SHIFTS
+(cool-to-mild temperate land; most settled Virath)
+--------------------------------------------------
+
+Thaw
+Temperature     +0
+Rainfall        +1
+Human Density    0
+Flora/Fauna     +1
+Topography       0
+Hydrology       +1
+Notes: Melt, mud, full streams. Travel is wet. Life returns.
+
+Highsun
+Temperature     +1
+Rainfall         0 or −1
+Human Density    0
+Flora/Fauna     +1
+Topography       0
+Hydrology        0 or −1
+Notes: Heat and dust on dry ground. High country still cold at night.
+
+Harvest
+Temperature      0
+Rainfall         0
+Human Density   +1
+Flora/Fauna      0
+Topography       0
+Hydrology        0
+Notes: People on the roads and in the fields. Stores move.
+
+Longnight
+Temperature     −1
+Rainfall        −1
+Human Density   −1
+Flora/Fauna     −1
+Topography      +1
+Hydrology       −1
+Notes: Frozen ground reads as harder travel (Topography up). Water locks. Beasts and folk withdraw.
+
+--------------------------------------------------
+HOW TO RECORD IT ON A LOCAL REGION
+--------------------------------------------------
+Keep the standing scores as now.
+
+Add a short season block:
+
+Seasonal modifiers (temperate default unless noted)
+Thaw        Temp 0 | Rain +1 | Human 0 | Flora +1 | Topo 0 | Hydro +1
+Highsun     Temp +1 | Rain 0 | Human 0 | Flora +1 | Topo 0 | Hydro 0
+Harvest     Temp 0 | Rain 0 | Human +1 | Flora 0 | Topo 0 | Hydro 0
+Longnight   Temp −1 | Rain −1 | Human −1 | Flora −1 | Topo +1 | Hydro −1
+
+Only write a custom table when the region is not temperate:
+- Arid land: Highsun hits Hydrology and Flora harder.
+- Rainforest: Highsun may raise Rainfall, not cut it.
+- High alpine: Longnight Temperature −2, Thaw Hydrology +2 (melt).
+- Oceanic regions use the oceanic scores; ice and storm are Hydrology / Temperature shifts.
+
+Unveiling phenomena are not seasonal unless a region file says they are.
+Standing scores stay the region’s character. Season is a dated overlay, same as you already do for local feature deviations.
+
+Seasonal modifiers, shall use Harvest as the default
+Only Temperature, Rainfall & Flora/Fauna change with season
+
+
+Worked for 2s
+--------------------------------------------------
+SEASONAL MODIFIERS TO ENVIRONMENTAL SCORES
+--------------------------------------------------
+The standing 0–5 scores on a Local Region are the Harvest values.
+Harvest is the default. If no season is stated, use the listed scores as written.
+
+Only three measures move with the year:
+Temperature
+Rainfall
+Flora/Fauna Density
+
+Human Density, Topography, and Hydrology do not change with season.
+
+A modified score cannot go below 0 or above 5.
+
+Use the Common Reckoning in World_Calendar.txt:
+Thaw, Highsun, Harvest, Longnight.
+
+--------------------------------------------------
+DEFAULT TEMPERATE SHIFTS
+(from Harvest)
+--------------------------------------------------
+
+Thaw
+Temperature     −1
+Rainfall        +1
+Flora/Fauna      0
+
+Highsun
+Temperature     +1
+Rainfall        −1
+Flora/Fauna     +1
+
+Harvest
+Temperature      0
+Rainfall         0
+Flora/Fauna      0
+(the printed scores)
+
+Longnight
+Temperature     −2
+Rainfall        −1
+Flora/Fauna     −1
+
+--------------------------------------------------
+HOW TO RECORD IT ON A LOCAL REGION
+--------------------------------------------------
+Print the six standing scores as Harvest.
+
+Add:
+
+Seasonal modifiers (temperate default unless noted)
+Applied to Temperature, Rainfall, and Flora/Fauna only.
+Thaw        Temp −1 | Rain +1 | Flora 0
+Highsun     Temp +1 | Rain −1 | Flora +1
+Harvest     none
+Longnight   Temp −2 | Rain −1 | Flora −1
+
+Write a custom table only when the region is not temperate
+(arid Highsun drought, rainforest wet-heat, alpine melt).
+Unveiling phenomena are not seasonal unless the region file says they are.
+-------------------------------------------------- SEASONAL MODIFIERS TO ENVIRONMENTAL SCORES -------------------------------------------------- The standing 0–5 scores on a Local Region are the Harvest values. Harvest is the default. If no season is stated, use the listed scores as written.
+Only three measures move with the year: Temperature Rainfall Flora/Fauna Density
+Human Density, Topography, and Hydrology do not change with season.
+A modified score cannot go below 0 or above 5.
+Use the Common Reckoning in World_Calendar.txt: Thaw, Highsun, Harvest, Longnight.
+-------------------------------------------------- DEFAULT TEMPERATE SHIFTS (from Harvest) --------------------------------------------------
+Thaw Temperature −1 Rainfall +1 Flora/Fauna 0
+Highsun Temperature +1 Rainfall −1 Flora/Fauna +1
+Harvest Temperature 0 Rainfall 0 Flora/Fauna 0 (the printed scores)
+Longnight Temperature −1 Rainfall −1 Flora/Fauna −1
+-------------------------------------------------- HOW TO RECORD IT ON A LOCAL REGION -------------------------------------------------- Print the six standing scores as Harvest.
+Add:
+Seasonal modifiers (temperate default unless noted) Applied to Temperature, Rainfall, and Flora/Fauna only. Thaw Temp −1 | Rain +1 | Flora 0 Highsun Temp +1 | Rain −1 | Flora +1 Harvest none Longnight Temp −1 | Rain −1 | Flora −1
+Write a custom table only when the region is not temperate (arid Highsun drought, rainforest wet-heat, alpine melt). Unveiling phenomena are not seasonal unless the region file says they are.
+
+
+Worked for 4s
+--------------------------------------------------
+SEASONAL MODIFIERS TO ENVIRONMENTAL SCORES
+--------------------------------------------------
+The standing 0–5 scores on a Local Region are the Harvest values.
+Harvest is the default. If no season is stated, use the listed scores as written.
+
+Only three measures move with the year:
+Temperature
+Rainfall
+Flora/Fauna Density
+
+Human Density, Topography, and Hydrology do not change with season.
+
+A modified score cannot go below 0 or above 5.
+
+Use the Common Reckoning in World_Calendar.txt:
+Thaw, Highsun, Harvest, Longnight.
+
+--------------------------------------------------
+DEFAULT TEMPERATE SHIFTS
+(from Harvest)
+--------------------------------------------------
+
+Thaw
+Temperature     −1
+Rainfall        +1
+Flora/Fauna      0
+
+Highsun
+Temperature     +1
+Rainfall        −1
+Flora/Fauna     +1
+
+Harvest
+Temperature      0
+Rainfall         0
+Flora/Fauna      0
+(the printed scores)
+
+Longnight
+Temperature     −1
+Rainfall        −1
+Flora/Fauna     −1
+
+--------------------------------------------------
+HOW TO RECORD IT ON A LOCAL REGION
+--------------------------------------------------
+Print the six standing scores as Harvest.
+
+Add:
+
+Seasonal modifiers (temperate default unless noted)
+Applied to Temperature, Rainfall, and Flora/Fauna only.
+Thaw        Temp −1 | Rain +1 | Flora 0
+Highsun     Temp +1 | Rain −1 | Flora +1
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1
+
+Write a custom table only when the region is not temperate
+(arid Highsun drought, rainforest wet-heat, alpine melt).
+Unveiling phenomena are not seasonal unless the region file says they are.
+Locked: Harvest is baseline. Longnight Temperature is −1, not −2.
+
+So lets make basic templates for other basic biomes
+
+
+Worked for 3s
+--------------------------------------------------
+SEASONAL MODIFIER TEMPLATES
+Applied to Temperature, Rainfall, and Flora/Fauna only.
+Harvest is the printed score. Shifts cannot go below 0 or above 5.
+--------------------------------------------------
+
+Temperate
+Thaw        Temp −1 | Rain +1 | Flora 0
+Highsun     Temp +1 | Rain −1 | Flora +1
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1
+
+Boreal / cold forest
+(Kannavald and like country)
+Thaw        Temp −1 | Rain +1 | Flora 0
+Highsun     Temp +1 | Rain  0 | Flora +1
+Harvest     none
+Longnight   Temp −2 | Rain −1 | Flora −2
+
+Alpine / high mountain
+Thaw        Temp −1 | Rain +1 | Flora 0
+Highsun     Temp  0 | Rain  0 | Flora +1
+Harvest     none
+Longnight   Temp −2 | Rain −1 | Flora −2
+
+Arid / desert
+Thaw        Temp  0 | Rain +1 | Flora 0
+Highsun     Temp +2 | Rain −1 | Flora −1
+Harvest     none
+Longnight   Temp −1 | Rain  0 | Flora 0
+
+Mediterranean / dry-summer coast
+Thaw        Temp −1 | Rain +1 | Flora +1
+Highsun     Temp +1 | Rain −2 | Flora 0
+Harvest     none
+Longnight   Temp −1 | Rain +1 | Flora −1
+
+Oceanic / wet coast
+Thaw        Temp −1 | Rain +1 | Flora 0
+Highsun     Temp +1 | Rain  0 | Flora +1
+Harvest     none
+Longnight   Temp −1 | Rain +1 | Flora −1
+
+Steppe / grassland
+Thaw        Temp −1 | Rain +1 | Flora +1
+Highsun     Temp +1 | Rain −1 | Flora 0
+Harvest     none
+Longnight   Temp −2 | Rain −1 | Flora −1
+
+Tropical wet (rainforest)
+Thaw        Temp  0 | Rain +1 | Flora 0
+Highsun     Temp +1 | Rain +1 | Flora +1
+Harvest     none
+Longnight   Temp  0 | Rain −1 | Flora 0
+Notes: “Longnight” here is the drier season, not snow.
+
+Tropical wet-dry / monsoon
+Thaw        Temp  0 | Rain +2 | Flora +1
+Highsun     Temp +1 | Rain −2 | Flora −1
+Harvest     none
+Longnight   Temp  0 | Rain  0 | Flora 0
+Notes: Thaw = wet onset. Highsun = drought.
+
+Polar / tundra
+Thaw        Temp +1 | Rain +1 | Flora +1
+Highsun     Temp +1 | Rain  0 | Flora +1
+Harvest     none
+Longnight   Temp −2 | Rain −1 | Flora −2
+Notes: Harvest is the brief usable season. Highsun is the thaw-peak.
+On a Local Region, name the template once (Seasonal modifiers: Boreal) and only write a custom line if that region breaks it.
+
+lets only have modifiers of 1+- never 2
+
+
+Worked for 2s
+--------------------------------------------------
+SEASONAL MODIFIER TEMPLATES
+Applied to Temperature, Rainfall, and Flora/Fauna only.
+Harvest is the printed score. Shifts are +1, 0, or −1 only.
+A modified score cannot go below 0 or above 5.
+--------------------------------------------------
+
+Temperate
+Thaw        Temp −1 | Rain +1 | Flora 0
+Highsun     Temp +1 | Rain −1 | Flora +1
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1
+
+Boreal / cold forest
+Thaw        Temp −1 | Rain +1 | Flora 0
+Highsun     Temp +1 | Rain  0 | Flora +1
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1
+
+Alpine / high mountain
+Thaw        Temp −1 | Rain +1 | Flora 0
+Highsun     Temp  0 | Rain  0 | Flora +1
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1
+
+Arid / desert
+Thaw        Temp  0 | Rain +1 | Flora 0
+Highsun     Temp +1 | Rain −1 | Flora −1
+Harvest     none
+Longnight   Temp −1 | Rain  0 | Flora 0
+
+Mediterranean / dry-summer coast
+Thaw        Temp −1 | Rain +1 | Flora +1
+Highsun     Temp +1 | Rain −1 | Flora 0
+Harvest     none
+Longnight   Temp −1 | Rain +1 | Flora −1
+
+Oceanic / wet coast
+Thaw        Temp −1 | Rain +1 | Flora 0
+Highsun     Temp +1 | Rain  0 | Flora +1
+Harvest     none
+Longnight   Temp −1 | Rain +1 | Flora −1
+
+Steppe / grassland
+Thaw        Temp −1 | Rain +1 | Flora +1
+Highsun     Temp +1 | Rain −1 | Flora 0
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1
+
+Tropical wet (rainforest)
+Thaw        Temp  0 | Rain +1 | Flora 0
+Highsun     Temp +1 | Rain +1 | Flora +1
+Harvest     none
+Longnight   Temp  0 | Rain −1 | Flora 0
+Notes: “Longnight” is the drier season, not snow.
+
+Tropical wet-dry / monsoon
+Thaw        Temp  0 | Rain +1 | Flora +1
+Highsun     Temp +1 | Rain −1 | Flora −1
+Harvest     none
+Longnight   Temp  0 | Rain  0 | Flora 0
+Notes: Thaw = wet onset. Highsun = drought.
+
+Polar / tundra
+Thaw        Temp +1 | Rain +1 | Flora +1
+Highsun     Temp +1 | Rain  0 | Flora +1
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1
+Notes: Harvest is the brief usable season. Highsun is the thaw-peak.
+Boreal and alpine now share Longnight with temperate. Difference is in the standing Harvest scores, not in a bigger swing.
+
+output full
+-------------------------------------------------- SEASONAL MODIFIERS TO ENVIRONMENTAL SCORES --------------------------------------------------
+
+
+Worked for 5s
+--------------------------------------------------
+SEASONAL MODIFIERS TO ENVIRONMENTAL SCORES
+--------------------------------------------------
+The standing 0–5 scores on a Local Region are the Harvest values.
+Harvest is the default. If no season is stated, use the listed scores as written.
+
+Only three measures move with the year:
+Temperature
+Rainfall
+Flora/Fauna Density
+
+Human Density, Topography, and Hydrology do not change with season.
+
+Shifts are +1, 0, or −1 only.
+A modified score cannot go below 0 or above 5.
+
+Use the Common Reckoning in World_Calendar.txt:
+Thaw, Highsun, Harvest, Longnight.
+
+On a Local Region, name the template once
+(Seasonal modifiers: Boreal)
+and only write a custom line if that region breaks it.
+
+Unveiling phenomena are not seasonal unless the region file says they are.
+
+--------------------------------------------------
+TEMPLATES
+Applied to Temperature, Rainfall, and Flora/Fauna only.
+Harvest is the printed score.
+--------------------------------------------------
+
+Temperate
+Thaw        Temp −1 | Rain +1 | Flora 0
+Highsun     Temp +1 | Rain −1 | Flora +1
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1
+
+Boreal / cold forest
+Thaw        Temp −1 | Rain +1 | Flora 0
+Highsun     Temp +1 | Rain  0 | Flora +1
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1
+
+Alpine / high mountain
+Thaw        Temp −1 | Rain +1 | Flora 0
+Highsun     Temp  0 | Rain  0 | Flora +1
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1
+
+Arid / desert
+Thaw        Temp  0 | Rain +1 | Flora 0
+Highsun     Temp +1 | Rain −1 | Flora −1
+Harvest     none
+Longnight   Temp −1 | Rain  0 | Flora 0
+
+Mediterranean / dry-summer coast
+Thaw        Temp −1 | Rain +1 | Flora +1
+Highsun     Temp +1 | Rain −1 | Flora 0
+Harvest     none
+Longnight   Temp −1 | Rain +1 | Flora −1
+
+Oceanic / wet coast
+Thaw        Temp −1 | Rain +1 | Flora 0
+Highsun     Temp +1 | Rain  0 | Flora +1
+Harvest     none
+Longnight   Temp −1 | Rain +1 | Flora −1
+
+Steppe / grassland
+Thaw        Temp −1 | Rain +1 | Flora +1
+Highsun     Temp +1 | Rain −1 | Flora 0
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1
+
+Tropical wet (rainforest)
+Thaw        Temp  0 | Rain +1 | Flora 0
+Highsun     Temp +1 | Rain +1 | Flora +1
+Harvest     none
+Longnight   Temp  0 | Rain −1 | Flora 0
+Notes: “Longnight” is the drier season, not snow.
+
+Tropical wet-dry / monsoon
+Thaw        Temp  0 | Rain +1 | Flora +1
+Highsun     Temp +1 | Rain −1 | Flora −1
+Harvest     none
+Longnight   Temp  0 | Rain  0 | Flora 0
+Notes: Thaw = wet onset. Highsun = drought.
+
+Polar / tundra
+Thaw        Temp +1 | Rain +1 | Flora +1
+Highsun     Temp +1 | Rain  0 | Flora +1
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1
+Notes: Harvest is the brief usable season. Highsun is the thaw-peak.
+## on
+
+## LOCAL REGION STRUCTURE & FORMAT
+
+update to include the seasonal template
+
+
+Worked for 7s
+--------------------------------------------------
+LOCAL REGION STRUCTURE & FORMAT
+--------------------------------------------------
+Every Local Region document should follow this standard template:
+
+# [Local Region Name]
+
+Overview
+[2–4 sentences of atmospheric description focusing on physical character, mood, and distinctive features]
+
+Environmental Scores
+Temperature: X
+Rainfall: X
+Human Density: X
+Flora/Fauna Density: X
+Topography: X
+Hydrology: X
+(These are Harvest values.)
+
+Seasonal modifiers: [Template name]
+Temperate / Boreal / Alpine / Arid / Mediterranean / Oceanic / Steppe / Tropical wet / Tropical wet-dry / Polar
+Use the shifts in Seasonal Modifiers to Environmental Scores.
+Write a custom line only if this region breaks its template.
+
+Notable Features
+Scores below are deviations from the regional Harvest values above.
+A dash (—) means no meaningful deviation.
+- [Feature]
+  [description]
+  Temperature: ± | Rainfall: ± | Human Density: ± | Flora/Fauna: ± | Topography: ± | Hydrology: ±
+
+Linked Settlements
+Full detail is recorded in the individual settlement documents.
+- [Settlement]
+
+Notes
+- The Overview remains physical and atmospheric. Political control is at Settlement level or in the Campaign Log.
+- Environmental Scores use the 0–5 scale in this document.
+- File name: Local_Region_[Name].txt
+Apply the Seasonal modifiers to Notable Features, then aggregate scores for the Environmental Scores
+
+
+Worked for 10s
+Change the direction of the numbers.
+Features are scored first. The region is the average.
+
+--------------------------------------------------
+LOCAL REGION STRUCTURE & FORMAT
+--------------------------------------------------
+Every Local Region document should follow this standard template:
+
+# [Local Region Name]
+
+Overview
+[2–4 sentences of atmospheric description focusing on physical character, mood, and distinctive features]
+
+Environmental Scores
+Temperature: X
+Rainfall: X
+Human Density: X
+Flora/Fauna Density: X
+Topography: X
+Hydrology: X
+These are Harvest aggregates: the rounded mean of the land-cover features below.
+Point sites (stones, ruins, a single peak used only as a landmark) are not averaged in.
+
+Seasonal modifiers: [Template name]
+Season is applied to each feature first, on Temperature, Rainfall, and Flora/Fauna only.
+Then the region scores are aggregated again from those modified features.
+Human Density, Topography, and Hydrology do not change with season.
+
+Notable Features
+Each land-cover feature has its own Harvest scores (0–5).
+- [Feature]
+  [description]
+  Temperature: X | Rainfall: X | Human Density: X | Flora/Fauna: X | Topography: X | Hydrology: X
+
+Linked Settlements
+Full detail is recorded in the individual settlement documents.
+- [Settlement]
+
+Notes
+- Overview stays physical and atmospheric.
+- File name: Local_Region_[Name].txt
+
+--------------------------------------------------
+HOW TO SCORE
+--------------------------------------------------
+1. Give every land-cover feature a Harvest score in all six measures.
+2. Name one seasonal template for the region (or a different template on a feature that needs it).
+3. When a season is dated, shift each feature’s Temperature, Rainfall, and Flora/Fauna by that template (+1 / 0 / −1).
+4. Average the land-cover features. Round to the nearest whole number. Clamp 0–5.
+5. Print that average as the region’s Environmental Scores.
+
+A lake, a forest, and a mountain each keep their own character.
+The region line is only the summary.
+Kannavald would then list Ebon Spire, Kolvatn, the Deepwood, and so on as absolute scores, not ± off a basin average. The six numbers at the top become the mean of those.
+
+## Use following as ref on the Notes section
+
+## NOTES
+
+Access is by the Sund, by Deepskaard Col, by the west coast, or over the mountains. Timber, charcoal, hides, and ore move downriver to the lake. The interior should be treated as sparse, difficult, and unsafe to leave the water.
+Population
+Land area: 29,391 square miles.
+Permanent population: about 16,000 (range 12,000–22,000).
+Overall density: roughly 0.5 people per square mile.
+Almost all of that population sits on the water. River and lake corridors, a small fraction of the land, hold the town, villages, and working landings. A thin margin of forest is used for charcoal, trapping, and small mines. The rest of Kannavald — the great majority of the Deepwood — has no permanent settlement.
+Working split
+
+Kolby-on-Vatn: 4,000–6,000
+Named villages and the Twaford crossing: 3,000–5,000 combined
+Scattered charcoal hamlets and isolated households: 5,000–7,000
+Remainder: seasonal camps, traplines, and mine-heads
+The extra land beyond those corridors is empty forest. Distance between named places should feel long.
+
+Worked for 2s
+--------------------------------------------------
+LOCAL REGION STRUCTURE & FORMAT
+--------------------------------------------------
+Every Local Region document should follow this standard template:
+
+# [Local Region Name]
+
+Overview
+[2–4 sentences of atmospheric description focusing on physical character, mood, and distinctive features]
+
+Environmental Scores
+Temperature: X
+Rainfall: X
+Human Density: X
+Flora/Fauna Density: X
+Topography: X
+Hydrology: X
+These are Harvest aggregates: the rounded mean of the land-cover features below.
+Point sites (stones, ruins, a single peak used only as a landmark) are not averaged in.
+
+Seasonal modifiers: [Template name]
+Season is applied to each feature first, on Temperature, Rainfall, and Flora/Fauna only.
+Then the region scores are aggregated again from those modified features.
+Human Density, Topography, and Hydrology do not change with season.
+
+Notable Features
+Each land-cover feature has its own Harvest scores (0–5).
+- [Feature]
+  [description]
+  Temperature: X | Rainfall: X | Human Density: X | Flora/Fauna: X | Topography: X | Hydrology: X
+
+Linked Settlements
+Full detail is recorded in the individual settlement documents.
+- [Settlement]
+
+Notes
+Access
+[How the region is entered and left. Main roads, passes, rivers, coasts.]
+
+Goods
+[What moves, and along which routes.]
+
+Population
+Land area: [square miles]
+Permanent population: [figure] (range [low]–[high])
+Overall density: [people per square mile]
+[Where people actually sit. What of the land is empty.]
+
+Working split
+- [Chief town]: [range]
+- [Named villages / crossings]: [range]
+- [Scattered hamlets / isolated households]: [range]
+- Remainder: [seasonal camps, traplines, and the like]
+
+[One closing line on distance and travel feel.]
+## Include -------------------------------------------------- LESSER / SCATTERED / SEASONAL
+
+## under linked settlements with following as example  
+
+## LESSER / SCATTERED / SEASONAL
+
+Upper-river villages
+Small logging and mining settlements nearer the river sources. Timber and ore are floated down to Kolby-on-Vatn.
+Charcoal / Trapping hamlets
+Many small, scattered hamlets throughout Kannavald Deepwood. Charcoal-burning, trapping, and isolated woodland work.
+
+
+Worked for 2s
+--------------------------------------------------
+LOCAL REGION STRUCTURE & FORMAT
+--------------------------------------------------
+Every Local Region document should follow this standard template:
+
+# [Local Region Name]
+
+Overview
+[2–4 sentences of atmospheric description focusing on physical character, mood, and distinctive features]
+
+Environmental Scores
+Temperature: X
+Rainfall: X
+Human Density: X
+Flora/Fauna Density: X
+Topography: X
+Hydrology: X
+These are Harvest aggregates: the rounded mean of the land-cover features below.
+Point sites (stones, ruins, a single peak used only as a landmark) are not averaged in.
+
+Seasonal modifiers: [Template name]
+Season is applied to each feature first, on Temperature, Rainfall, and Flora/Fauna only.
+Then the region scores are aggregated again from those modified features.
+Human Density, Topography, and Hydrology do not change with season.
+
+Notable Features
+Each land-cover feature has its own Harvest scores (0–5).
+- [Feature]
+  [description]
+  Temperature: X | Rainfall: X | Human Density: X | Flora/Fauna: X | Topography: X | Hydrology: X
+
+Linked Settlements
+Full detail is recorded in the individual settlement documents.
+- [Named town, village, or castle]
+
+Lesser / Scattered / Seasonal
+Places too small or too many for their own settlement file.
+- [Type]
+  [What they are and what they do]
+
+Example:
+Upper-river villages
+Small logging and mining settlements nearer the river sources. Timber and ore are floated down to Kolby-on-Vatn.
+Charcoal / Trapping hamlets
+Many small, scattered hamlets throughout Kannavald Deepwood. Charcoal-burning, trapping, and isolated woodland work.
+
+Notes
+Access
+[How the region is entered and left. Main roads, passes, rivers, coasts.]
+
+Goods
+[What moves, and along which routes.]
+
+Population
+Land area: [square miles]
+Permanent population: [figure] (range [low]–[high])
+Overall density: [people per square mile]
+[Where people actually sit. What of the land is empty.]
+
+Working split
+- [Chief town]: [range]
+- [Named villages / crossings]: [range]
+- [Scattered hamlets / isolated households]: [range]
+- Remainder: [seasonal camps, traplines, and the like]
+
+[One closing line on distance and travel feel.]
+
+Local_Region_Kannavald_Deepwood.txt
+ok apply most recent LOCAL REGION STRUCTURE & FORMAT
+to following
+
+
+Worked for 16s
+# Kannavald Deepwood
+
+Overview
+A mountain-ringed highland basin of dense boreal forest, black volcanic rock, and standing water. The canopy is heavy, the light is poor, and most travel follows the rivers that drain from Ebon Spire into Lake Kolvatn. Settlement clings to the water; beyond the lake-shore and the upper burns the Deepwood is empty, wet, and quietly wrong.
+
+Environmental Scores
+Temperature: 2
+Rainfall: 4
+Human Density: 2
+Flora/Fauna Density: 4
+Topography: 3
+Hydrology: 4
+These are Harvest aggregates of the land-cover features below.
+Point sites are not averaged in.
+
+Seasonal modifiers: Boreal
+Season is applied to each feature first, on Temperature, Rainfall, and Flora/Fauna only.
+Then the region scores are aggregated again.
+Human Density, Topography, and Hydrology do not change with season.
+
+--------------------------------------------------
+NOTABLE FEATURES
+Each land-cover feature has its own Harvest scores (0–5).
+Point sites are marked and are not averaged into the region scores.
+--------------------------------------------------
+
+Ebon Spire
+Inactive volcano and the dominant peak of the peninsula. Black, craggy rock. Source of the rivers that feed Lake Kolvatn.
+Temperature: 1 | Rainfall: 4 | Human Density: 0 | Flora/Fauna: 2 | Topography: 5 | Hydrology: 2
+
+Svarthorn Massif
+The black-rock mountain mass surrounding Ebon Spire. The true highland of the peninsula. Craggy, volcanic in origin, and far higher than the coastal hills.
+Temperature: 1 | Rainfall: 4 | Human Density: 1 | Flora/Fauna: 3 | Topography: 5 | Hydrology: 3
+
+Brocken Peak
+Northernmost peak of the Svarthorn Massif. A lesser black-rock height on the north face of the range, below Ebon Spire.
+Point site — not averaged.
+Temperature: 1 | Rainfall: 4 | Human Density: 0 | Flora/Fauna: 3 | Topography: 5 | Hydrology: 3
+
+Stetbjorg Height
+The left shoulder of Ebon Spire. A high, southernmost black-rock spur of the Svarthorn Massif, standing over Deepskaard Col.
+Point site — not averaged.
+Temperature: 1 | Rainfall: 4 | Human Density: 0 | Flora/Fauna: 3 | Topography: 5 | Hydrology: 3
+
+Westwood Heights
+Lower coastal ridge on the west of Kannavald. Forest covers most of the slopes; only the highest points rise above the canopy. Milder than the Ebon Spire massif.
+Temperature: 2 | Rainfall: 4 | Human Density: 1 | Flora/Fauna: 4 | Topography: 4 | Hydrology: 4
+
+Westwood Peak
+Tallest summit of Westwood Heights. One of the few points on the coastal ridge that rises clearly above the forest.
+Point site — not averaged.
+Temperature: 2 | Rainfall: 4 | Human Density: 0 | Flora/Fauna: 3 | Topography: 4 | Hydrology: 4
+
+Mistcap Crags
+Western heights at the seaward end of Westwood Heights. One of the few places the ridge breaks the canopy.
+Point site — not averaged.
+Temperature: 2 | Rainfall: 4 | Human Density: 0 | Flora/Fauna: 4 | Topography: 4 | Hydrology: 4
+
+Watchers Peak
+A forested height in Kannavald Deepwood, west of Lake Kolvatn. Named in the same local speech as the Quiet Watchers, though it is a mountain, not the stones.
+Point site — not averaged.
+Temperature: 2 | Rainfall: 4 | Human Density: 1 | Flora/Fauna: 4 | Topography: 4 | Hydrology: 4
+
+The Lowstacks
+A knot of lesser coastal heights on the south-west of Kannavald. Blunt, low, and clearly subordinate to both Westwood Peak and Ebon Spire.
+Temperature: 2 | Rainfall: 4 | Human Density: 0 | Flora/Fauna: 4 | Topography: 2 | Hydrology: 4
+
+Lake Kolvatn
+Central lake formed from Ebon Spire runoff. Economic heart of the Deepwood. Timber and ore come downriver to its shores.
+Temperature: 2 | Rainfall: 4 | Human Density: 3 | Flora/Fauna: 4 | Topography: 1 | Hydrology: 5
+
+Kolmire Fens
+Swampy western margin of Lake Kolvatn. Sunken ground. Site of the drowned former capital, Kolholm "The Sunkern Burg".
+Temperature: 2 | Rainfall: 4 | Human Density: 1 | Flora/Fauna: 4 | Topography: 1 | Hydrology: 5
+
+The Still Stones
+Also called the Black Circle, the Hollows, and the Quiet Watchers. Ancient standing stones in a large clearing in the deepest woods. Local law is absolute: do not approach. Misfortune in the region is often blamed on someone who did.
+Point site — not averaged.
+Temperature: 2 | Rainfall: 4 | Human Density: 0 | Flora/Fauna: 5 | Topography: 3 | Hydrology: 4
+
+Askflow
+Inlet to Lake Kolvatn. The main runoff from Ebon Spire.
+Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora/Fauna: 4 | Topography: 4 | Hydrology: 4
+
+Hornbeck
+Inlet to Lake Kolvatn. The darker forest-fed water from the Westwood Heights.
+Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora/Fauna: 4 | Topography: 3 | Hydrology: 4
+
+Rookburn
+Inlet to Lake Kolvatn. A lesser stream off the Ebon Spire / Svarthorn Massif.
+Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora/Fauna: 4 | Topography: 4 | Hydrology: 4
+
+The Sund
+The two-mile outflow draining Lake Kolvatn past Twaford. The water-gate of the region.
+Temperature: 2 | Rainfall: 4 | Human Density: 3 | Flora/Fauna: 4 | Topography: 2 | Hydrology: 5
+
+Underwood Shores
+The western coastal plain beneath Westwood Heights. Working shore, year-round navigable, with the forested ridge looming over it.
+Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora/Fauna: 3 | Topography: 1 | Hydrology: 5
+
+Deepskaard Col
+Densely forested mountain pass on the southern border of Kannavald Deepwood, between Westwood Peak and Stetbjorg Height. The land-gate of the region.
+Temperature: 2 | Rainfall: 4 | Human Density: 3 | Flora/Fauna: 4 | Topography: 4 | Hydrology: 4
+
+--------------------------------------------------
+LINKED SETTLEMENTS
+Full detail is recorded in the individual settlement documents.
+--------------------------------------------------
+- Kolby-on-Vatn
+- Twaford / The Twaford Twins
+- Askgruv
+- Hornby
+- Oldfort Kilnstead
+- Kolholm (ruin)
+
+--------------------------------------------------
+LESSER / SCATTERED / SEASONAL
+--------------------------------------------------
+Upper-river villages
+Small logging and mining settlements nearer the river sources. Timber and ore are floated down to Kolby-on-Vatn.
+
+Charcoal / Trapping hamlets
+Many small, scattered hamlets throughout Kannavald Deepwood. Charcoal-burning, trapping, and isolated woodland work.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+Access
+By the Sund, by Deepskaard Col, by the west coast, or over the mountains.
+
+Goods
+Timber, charcoal, hides, and ore move downriver to the lake.
+
+Population
+Land area: 29,391 square miles.
+Permanent population: about 16,000 (range 12,000–22,000).
+Overall density: roughly 0.5 people per square mile.
+Almost all of that population sits on the water. River and lake corridors, a small fraction of the land, hold the town, villages, and working landings. A thin margin of forest is used for charcoal, trapping, and small mines. The rest of Kannavald — the great majority of the Deepwood — has no permanent settlement.
+
+Working split
+- Kolby-on-Vatn: 4,000–6,000
+- Named villages and the Twaford crossing: 3,000–5,000 combined
+- Scattered charcoal hamlets and isolated households: 5,000–7,000
+- Remainder: seasonal camps, traplines, and mine-heads
+
+The extra land beyond those corridors is empty forest. Distance between named places should feel long.
+Absolute feature scores are the old regional 2/4/2/4/3/4 plus each deviation, clamped 0–5. Averaging the land-cover set still returns 2 / 4 / 2 / 4 / 3 / 4.
+
+
+Geography_Rules.txt
+
+Local_Region_Kannavald_Deepwood.txt
+see following docs. Check for rule consistency.
+Note read order Geography_Rules is always referenced before a Local_Region file
+
+
+Worked for 9s
+Read order is fine. Geography_Rules.txt first, then the Local Region. The problem is the two files no longer describe the same method.
+
+Breaks inside Geography_Rules
+Seasonal templates still use ±2
+Boreal, Alpine, Arid, Mediterranean, Steppe, monsoon, Polar. You locked shifts at +1 / 0 / −1 only. The HOW TO SCORE line already says ±1. The template block does not.
+Feature scoring is defined twice, two ways
+Local Region Structure: features have absolute 0–5 scores; the region is the average.
+Later “Rules for this template”: Feature deviations are relative to the Local Region scores.
+Those cannot both be true.
+Duplicate stub sections
+Linked Settlements, Lesser / Scattered / Seasonal, and Notes appear again after HOW TO SCORE, in the old shape. Cut them. One template only.
+Breaks in Kannavald (the attached file)
+It is still the old document.
+
+Rule (after Geography_Rules)	Kannavald as attached
+Name a seasonal template	Missing
+Feature scores are absolute 0–5	Still deviations (−1, +2, —)
+Region scores are the Harvest aggregate	Printed, but not derived on the page
+Point sites not averaged	Still Stones (and the named peaks) not marked
+Notes: Access / Goods / Population / Working split	Access and goods are one paragraph
+The rewrite from the last pass already matches the new rules. The attached file does not.
+
+What to do
+In Geography_Rules.txt, replace the seasonal block with the ±1 templates and delete the leftover “deviations” sentence and the duplicate stubs.
+Use the absolute-score Kannavald file, not this attachment.
+Keep Boreal as Kannavald’s template once Longnight is Temp −1 | Rain −1 | Flora −1.
+Until those two edits, a GM who reads Rules first and then this Kannavald file will score features as deviations, skip season, and ignore the aggregate rule.
+
+
+Geography_Rules.txt
+See revision 1
+
+
+Worked for 5s
+Revision 1 is most of the way there. Seasonal templates are now all ±1. The Local Region header matches the new method. Two leftovers still fight it.
+
+Still wrong
+1. Duplicate blocks after HOW TO SCORE
+LINKED SETTLEMENTS, LESSER / SCATTERED / SEASONAL, and NOTES are already inside the template. The second copies should go.
+
+2. This sentence is the old system
+
+Feature deviations are relative to the Local Region scores, not to the Geographic Region.
+
+Features are now absolute 0–5. The region is the average. Replace with:
+
+Feature scores are absolute Harvest values (0–5). The Local Region scores are their rounded mean. Point sites are not averaged.
+
+Fine as written
+Land / ocean 0–5 scales
+Hierarchy (physical vs political)
+Seasonal templates, including Boreal
+HOW TO SCORE (feature first, then average, clamp 0–5)
+Geographic Region and Settlement formats
+File-name rules
+Kannavald
+This rules file now expects the absolute-score Kannavald, with Seasonal modifiers: Boreal. The deviation-style Kannavald still does not comply.
+
+Cut the duplicate stubs and swap that one rules line, and Geography_Rules is internally consistent.
+
+
+Geography_Rules.txt
+See revision 2
+
+
+Worked for 2s
+Revision 2 is internally consistent.
+
+The seasonal templates are all ±1. Features are absolute Harvest scores. The region line is their rounded mean. Point sites stay out of the average. The duplicate stubs and the old “deviations” sentence are gone.
+
+Still true, not errors
+
+Local Region files should name Seasonal modifiers: [Template]. Kannavald = Boreal.
+Geographic Region and Settlement formats do not need season lines.
+File-name rules are clear.
+HOW TO SCORE matches the template.
+One optional tidy
+
+Local Region files have no stated naming line in this draft. Settlement and Geographic Region do. Add:
+
+File name: Local_Region_[Name].txt
+
+That is the last mismatch with the other two templates. Otherwise this can lock.
+
+
+Local_Region_Kannavald_Deepwood.txt
+
+Geography_Rules.txt
+audit for consistency between the two
+
+
+Worked for 3s
+Geography_Rules is consistent with itself.
+Kannavald is still the old file. They do not match.
+
+Rule	Geography_Rules	Kannavald as attached
+File name	Local_Region_[Name].txt	Local_Region_Kannavald_Deepwood.txt — fine
+Seasonal template named	Required	Missing
+Feature scores	Absolute 0–5	Deviations (−1, +2, —)
+Region scores	Rounded mean of land-cover features	Printed, not derived on the page
+Point sites	Not averaged	Still Stones / named peaks not marked
+Notes	Access / Goods / Population / Working split	Access and goods in one paragraph
+Settlements and lesser hamlets already follow the rules. Overview and population notes are fine.
+
+To comply, Kannavald needs:
+
+Seasonal modifiers: Boreal
+Every feature as six absolute Harvest scores
+Point sites labelled and left out of the average
+Notes split into Access and Goods
+That is the rewrite already done in the earlier absolute-score Kannavald. Replace this attachment with that version and the two files agree.
+
+To comply, Kannavald needs:
+
+Seasonal modifiers: Boreal
+Every feature as six absolute Harvest scores
+Point sites labelled and left out of the average
+Notes split into Access and Goods execute
+
+Worked for 2s
+# Kannavald Deepwood
+
+Overview
+A mountain-ringed highland basin of dense boreal forest, black volcanic rock, and standing water. The canopy is heavy, the light is poor, and most travel follows the rivers that drain from Ebon Spire into Lake Kolvatn. Settlement clings to the water; beyond the lake-shore and the upper burns the Deepwood is empty, wet, and quietly wrong.
+
+Environmental Scores
+Temperature: 2
+Rainfall: 4
+Human Density: 2
+Flora/Fauna Density: 4
+Topography: 3
+Hydrology: 4
+These are Harvest aggregates of the land-cover features below.
+Point sites are not averaged in.
+
+Seasonal modifiers: Boreal
+
+--------------------------------------------------
+NOTABLE FEATURES
+Each land-cover feature has its own Harvest scores (0–5).
+Point sites are marked and are not averaged into the region scores.
+--------------------------------------------------
+
+Ebon Spire
+Inactive volcano and the dominant peak of the peninsula. Black, craggy rock. Source of the rivers that feed Lake Kolvatn.
+Temperature: 1 | Rainfall: 4 | Human Density: 0 | Flora/Fauna: 2 | Topography: 5 | Hydrology: 2
+
+Svarthorn Massif
+The black-rock mountain mass surrounding Ebon Spire. The true highland of the peninsula. Craggy, volcanic in origin, and far higher than the coastal hills.
+Temperature: 1 | Rainfall: 4 | Human Density: 1 | Flora/Fauna: 3 | Topography: 5 | Hydrology: 3
+
+Brocken Peak
+Northernmost peak of the Svarthorn Massif. A lesser black-rock height on the north face of the range, below Ebon Spire.
+Point site — not averaged.
+Temperature: 1 | Rainfall: 4 | Human Density: 0 | Flora/Fauna: 3 | Topography: 5 | Hydrology: 3
+
+Stetbjorg Height
+The left shoulder of Ebon Spire. A high, southernmost black-rock spur of the Svarthorn Massif, standing over Deepskaard Col.
+Point site — not averaged.
+Temperature: 1 | Rainfall: 4 | Human Density: 0 | Flora/Fauna: 3 | Topography: 5 | Hydrology: 3
+
+Westwood Heights
+Lower coastal ridge on the west of Kannavald. Forest covers most of the slopes; only the highest points rise above the canopy. Milder than the Ebon Spire massif.
+Temperature: 2 | Rainfall: 4 | Human Density: 1 | Flora/Fauna: 4 | Topography: 4 | Hydrology: 4
+
+Westwood Peak
+Tallest summit of Westwood Heights. One of the few points on the coastal ridge that rises clearly above the forest.
+Point site — not averaged.
+Temperature: 2 | Rainfall: 4 | Human Density: 0 | Flora/Fauna: 3 | Topography: 4 | Hydrology: 4
+
+Mistcap Crags
+Western heights at the seaward end of Westwood Heights. One of the few places the ridge breaks the canopy.
+Point site — not averaged.
+Temperature: 2 | Rainfall: 4 | Human Density: 0 | Flora/Fauna: 4 | Topography: 4 | Hydrology: 4
+
+Watchers Peak
+A forested height in Kannavald Deepwood, west of Lake Kolvatn. Named in the same local speech as the Quiet Watchers, though it is a mountain, not the stones.
+Point site — not averaged.
+Temperature: 2 | Rainfall: 4 | Human Density: 1 | Flora/Fauna: 4 | Topography: 4 | Hydrology: 4
+
+The Lowstacks
+A knot of lesser coastal heights on the south-west of Kannavald. Blunt, low, and clearly subordinate to both Westwood Peak and Ebon Spire.
+Temperature: 2 | Rainfall: 4 | Human Density: 0 | Flora/Fauna: 4 | Topography: 2 | Hydrology: 4
+
+Lake Kolvatn
+Central lake formed from Ebon Spire runoff. Economic heart of the Deepwood. Timber and ore come downriver to its shores.
+Temperature: 2 | Rainfall: 4 | Human Density: 3 | Flora/Fauna: 4 | Topography: 1 | Hydrology: 5
+
+Kolmire Fens
+Swampy western margin of Lake Kolvatn. Sunken ground. Site of the drowned former capital, Kolholm "The Sunkern Burg".
+Temperature: 2 | Rainfall: 4 | Human Density: 1 | Flora/Fauna: 4 | Topography: 1 | Hydrology: 5
+
+The Still Stones
+Also called the Black Circle, the Hollows, and the Quiet Watchers. Ancient standing stones in a large clearing in the deepest woods. Local law is absolute: do not approach. Misfortune in the region is often blamed on someone who did.
+Point site — not averaged.
+Temperature: 2 | Rainfall: 4 | Human Density: 0 | Flora/Fauna: 5 | Topography: 3 | Hydrology: 4
+
+Askflow
+Inlet to Lake Kolvatn. The main runoff from Ebon Spire.
+Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora/Fauna: 4 | Topography: 4 | Hydrology: 4
+
+Hornbeck
+Inlet to Lake Kolvatn. The darker forest-fed water from the Westwood Heights.
+Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora/Fauna: 4 | Topography: 3 | Hydrology: 4
+
+Rookburn
+Inlet to Lake Kolvatn. A lesser stream off the Ebon Spire / Svarthorn Massif.
+Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora/Fauna: 4 | Topography: 4 | Hydrology: 4
+
+The Sund
+The two-mile outflow draining Lake Kolvatn past Twaford. The water-gate of the region.
+Temperature: 2 | Rainfall: 4 | Human Density: 3 | Flora/Fauna: 4 | Topography: 2 | Hydrology: 5
+
+Underwood Shores
+The western coastal plain beneath Westwood Heights. Working shore, year-round navigable, with the forested ridge looming over it.
+Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora/Fauna: 3 | Topography: 1 | Hydrology: 5
+
+Deepskaard Col
+Densely forested mountain pass on the southern border of Kannavald Deepwood, between Westwood Peak and Stetbjorg Height. The land-gate of the region.
+Temperature: 2 | Rainfall: 4 | Human Density: 3 | Flora/Fauna: 4 | Topography: 4 | Hydrology: 4
+
+--------------------------------------------------
+LINKED SETTLEMENTS
+Full detail is recorded in the individual settlement documents.
+--------------------------------------------------
+- Kolby-on-Vatn
+- Twaford / The Twaford Twins
+- Askgruv
+- Hornby
+- Oldfort Kilnstead
+- Kolholm (ruin)
+
+--------------------------------------------------
+LESSER / SCATTERED / SEASONAL
+--------------------------------------------------
+Upper-river villages
+Small logging and mining settlements nearer the river sources. Timber and ore are floated down to Kolby-on-Vatn.
+
+Charcoal / Trapping hamlets
+Many small, scattered hamlets throughout Kannavald Deepwood. Charcoal-burning, trapping, and isolated woodland work.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+Access
+By the Sund, by Deepskaard Col, by the west coast, or over the mountains.
+
+Goods
+Timber, charcoal, hides, and ore move downriver to the lake.
+
+Population
+Land area: 29,391 square miles.
+Permanent population: about 16,000 (range 12,000–22,000).
+Overall density: roughly 0.5 people per square mile.
+Almost all of that population sits on the water. River and lake corridors, a small fraction of the land, hold the town, villages, and working landings. A thin margin of forest is used for charcoal, trapping, and small mines. The rest of Kannavald — the great majority of the Deepwood — has no permanent settlement.
+
+Working split
+- Kolby-on-Vatn: 4,000–6,000
+- Named villages and the Twaford crossing: 3,000–5,000 combined
+- Scattered charcoal hamlets and isolated households: 5,000–7,000
+- Remainder: seasonal camps, traplines, and mine-heads
+
+The extra land beyond those corridors is empty forest. Distance between named places should feel long.
+Land-cover average (excluding the six point sites) is still 2 / 4 / 2 / 4 / 3 / 4.
+
+lastly give following a formatting for clear sections and readability
+
+# Geography_Rules.txt
+
+# Environmental Scoring System for Geographic Regions
+
+## These scores provide a consistent way to describe the environment of any land or oceanic region on Virath. They are used both for general regional description and for comparison against creature HSI values in the Bestiary.
+
+## LAND REGIONS – Environmental Scores (0–5)
+
+## Temperature (heat / cold) 0 – Sub-arctic / freezing 1 – Arctic cold 2 – Cool temperate 3 – Mild temperate 4 – Warm subtropical 5 – Hot (sub-Saharan equivalent) Rainfall (precipitation / humidity) 0 – Arid desert 1 – Dry / sparse 2 – Semi-arid 3 – Temperate / balanced 4 – Humid / wet 5 – Rainforest / torrential Human Density (settlement level) 0 – Uninhabited wilderness 1 – Sparse / isolated 2 – Low / scattered 3 – Moderate (villages) 4 – High (towns) 5 – Dense (cities) Flora/Fauna Density (abundance of life) 0 – Barren / lifeless 1 – Limited / scarce 2 – Sparse / occasional 3 – Moderate / common 4 – Abundant / thriving 5 – Teeming / overrun Topography (elevation / steepness) 0 – Flat plains 1 – Gentle slopes 2 – Undulating hills 3 – Rugged terrain 4 – Steep cliffs 5 – Sheer mountains Hydrology (water features) 0 – None / parched 1 – Sparse trickles 2 – Limited streams 3 – Moderate rivers 4 – Abundant lakes 5 – Flooded / swamps
+
+## OCEANIC REGIONS – Environmental Scores (0–5)
+
+## When scoring oceanic regions, the same six categories are used with adapted meanings: Temperature (water temperature) 0 – Polar / permanently frozen surface or near-freezing 1 – Freezing cold 2 – Cold currents 3 – Temperate seas 4 – Warm waters 5 – Tropical hot Rainfall (storm frequency / humidity over water) 0 – Extremely dry air / almost no precipitation 1 – Minimal storms 2 – Light fog / occasional rain 3 – Moderate rains 4 – Frequent storms 5 – Constant high humidity / monsoon conditions Human Density (maritime activity) 0 – No human presence (unexplored or avoided waters) 1 – Isolated routes 2 – Sparse traffic 3 – Moderate trade 4 – Busy shipping lanes 5 – Crowded ports / heavy traffic Flora/Fauna Density (marine life) 0 – Essentially lifeless / sterile 1 – Barren depths 2 – Sparse fish 3 – Moderate schools 4 – Abundant reefs / rich waters 5 – Teeming ecosystems Topography (water depth) 0 – Intertidal / exposed flats at low tide 1 – Shallow waters 2 – Coastal shelf 3 – Moderate depths 4 – Deep sea 5 – Abyssal depths / trenches Hydrology (sea state / surface conditions) 0 – Dead calm / mirror-like 1 – Calm seas 2 – Mild swells 3 – Moderate waves 4 – Rough currents 5 – Extreme storms / violent seas
+
+## SEASONAL MODIFIER TEMPLATES Applied to Temperature, Rainfall, and Flora/Fauna only. Harvest is the printed score. Shifts cannot go below 0 or above 5.
+
+## Temperate Thaw Temp −1 | Rain +1 | Flora 0 Highsun Temp +1 | Rain −1 | Flora +1 Harvest none Longnight Temp −1 | Rain −1 | Flora −1 Boreal / cold forest Thaw Temp −1 | Rain +1 | Flora 0 Highsun Temp +1 | Rain 0 | Flora +1 Harvest none Longnight Temp −1 | Rain −1 | Flora −1 Alpine / high mountain Thaw Temp −1 | Rain +1 | Flora 0 Highsun Temp 0 | Rain 0 | Flora +1 Harvest none Longnight Temp −1 | Rain −1 | Flora −1 Arid / desert Thaw Temp 0 | Rain +1 | Flora 0 Highsun Temp +1 | Rain −1 | Flora −1 Harvest none Longnight Temp −1 | Rain 0 | Flora 0 Mediterranean / dry-summer coast Thaw Temp −1 | Rain +1 | Flora +1 Highsun Temp +1 | Rain −1 | Flora 0 Harvest none Longnight Temp −1 | Rain +1 | Flora −1 Oceanic / wet coast Thaw Temp −1 | Rain +1 | Flora 0 Highsun Temp +1 | Rain 0 | Flora +1 Harvest none Longnight Temp −1 | Rain +1 | Flora −1 Steppe / grassland Thaw Temp −1 | Rain +1 | Flora +1 Highsun Temp +1 | Rain −1 | Flora 0 Harvest none Longnight Temp −1 | Rain −1 | Flora −1 Tropical wet (rainforest) Thaw Temp 0 | Rain +1 | Flora 0 Highsun Temp +1 | Rain +1 | Flora +1 Harvest none Longnight Temp 0 | Rain −1 | Flora 0 Notes: “Longnight” here is the drier season, not snow. Tropical wet-dry / monsoon Thaw Temp 0 | Rain +1 | Flora +1 Highsun Temp +1 | Rain −1 | Flora −1 Harvest none Longnight Temp 0 | Rain 0 | Flora 0 Notes: Thaw = wet onset. Highsun = drought. Polar / tundra Thaw Temp +1 | Rain +1 | Flora +1 Highsun Temp +1 | Rain 0 | Flora +1 Harvest none Longnight Temp −1 | Rain −1 | Flora −1 Notes: Harvest is the brief usable season. Highsun is the thaw-peak.
+
+## USAGE NOTES
+
+Scores are relative tools for consistency, not absolute scientific measurements.
+A region is normally described with all six scores.
+When comparing a region to a creature’s HSI, use the method defined in Bestiary_Rules.txt.
+Extreme scores (0 or 5) should be used deliberately; most settled regions will cluster in the middle ranges.
+Unveiling phenomena, megastructures, or local anomalies can create exceptions that override normal environmental expectations.
+## GEOGRAPHY HIERARCHY & PHILOSOPHY
+
+Virath’s geography is organised in three tiers:
+
+Geographic Region
+   - Large-scale physical area roughly comparable to Western Europe in size.
+   - Defined purely by natural geography, climate patterns, and major landforms.
+   - Political and cultural ownership is not inherent to the region.
+Local Region
+   - Smaller physical subdivision within a Geographic Region.
+   - Each Local Region carries its own full set of Environmental Scores.
+   - Still defined by physical characteristics rather than politics.
+Settlement
+   - Individual cities, towns, villages, fortresses, and other permanent human sites.
+   - Political control, cultural identity, and faction ownership are recorded at this level.
+   - Settlements link upward to the Local Region (and therefore Geographic Region) they physically occupy.
+Core Principle
+Geographic and Local Regions are physical realities. They do not change ownership.
+Political control is fluid and is determined by who holds the settlements within them.
+As a result, any Geographic or Local Region may be wholly controlled, partially controlled, or actively contested by multiple factions at the same time.
+This separation keeps environmental data stable while allowing the political map to shift through conquest, diplomacy, rebellion, or collapse.
+## LOCAL REGION STRUCTURE & FORMAT
+
+Every Local Region document should follow this standard template:
+File name: Local_Region_[Name].txt
+Overview
+[2–4 sentences of atmospheric description focusing on physical character, mood, and distinctive features]
+Environmental Scores
+Temperature: X
+Rainfall: X
+Human Density: X
+Flora/Fauna Density: X
+Topography: X
+Hydrology: X
+These are Harvest aggregates: the rounded mean of the land-cover features below.
+Point sites (stones, ruins, a single peak used only as a landmark) are not averaged in.
+Seasonal modifiers: [Template name]
+Season is applied to each feature first, on Temperature, Rainfall, and Flora/Fauna only.
+Then the region scores are aggregated again from those modified features.
+Human Density, Topography, and Hydrology do not change with season.
+Notable Features
+Each land-cover feature has its own Harvest scores (0–5).
+
+[Feature]
+  [description]
+  Temperature: X | Rainfall: X | Human Density: X | Flora/Fauna: X | Topography: X | Hydrology: X
+Linked Settlements
+Full detail is recorded in the individual settlement documents.
+[Settlement]
+[Settlement]
+[Ruin, if physically present]
+LESSER / SCATTERED / SEASONAL
+[Type]
+[Short description of unnamed or collective habitation: hamlets, camps, seasonal work, etc.]
+Example:
+Upper-river villages
+Small logging and mining settlements nearer the river sources. Timber and ore are floated down to Kolby-on-Vatn.
+Charcoal / Trapping hamlets
+Many small, scattered hamlets throughout Kannavald Deepwood. Charcoal-burning, trapping, and isolated woodland work.
+Notes
+Access
+[How the region is entered and left. Main roads, passes, rivers, coasts.]
+Goods
+[What moves, and along which routes.]
+Population
+Land area: [square miles]
+Permanent population: [figure] (range [low]–[high])
+Overall density: [people per square mile]
+[Where people actually sit. What of the land is empty.]
+Working split
+Remainder: [seasonal camps, traplines, and the like]
+[One closing line on distance and travel feel.]
+## HOW TO SCORE
+
+Give every land-cover feature a Harvest score in all six measures.
+Name one seasonal template for the region (or a different template on a feature that needs it).
+When a season is dated, shift each feature’s Temperature, Rainfall, and Flora/Fauna by that template (+1 / 0 / −1).
+Average the land-cover features. Round to the nearest whole number. Clamp 0–5.
+Print that average as the region’s Environmental Scores.
+A lake, a forest, and a mountain each keep their own character.
+The region line is only the summary.
+## GEOGRAPHIC REGION STRUCTURE & FORMAT
+
+File name
+Geographic_Region_[Name].txt
+Use the locked in-world name. Spaces become underscores.
+Example: Geographic_Region_Svarthorn_Peninsula.txt
+
+# [Geographic Region Name]
+
+Visual Reference
+[Link to a map or image clearly showing the shape of this Geographic Region and its position relative to neighbouring regions]
+Overview
+[3–6 sentences describing the overall physical character, climate patterns, major landforms, and general feel of the region. Keep this purely geographical.]
+Location & Borders
+[Short prose description of the region’s position]
+borders:
+
+North:
+Northeast:
+East:
+Southeast:
+South:
+Southwest:
+West:
+Northwest:
+Shared / Border Local Regions
+[List any Local Regions that are shared with one or more neighbouring Geographic Regions. These are typically major natural barriers such as mountain ranges, large rivers, or dense forests that form the boundary between regions.]
+Local Regions
+[List of Local Regions that primarily belong to this Geographic Region. Order them in a logical geographic sequence where possible.]
+[Local Region Name]
+[Local Region Name]
+Notable Features
+[Major mountain ranges, river systems, forests, coastlines, plateaus, or other defining physical elements]
+[Significant natural resources or large-scale environmental characteristics]
+Notes
+[Optional: high-level observations about travel difficulty, overall character, or other relevant physical details]
+Rules for Shared Local Regions
+A Local Region may belong to more than one Geographic Region when it forms a natural border.
+In such cases the full Local Region document exists only once.
+Each relevant Geographic Region lists that Local Region under “Shared / Border Local Regions” rather than under its primary Local Regions list.
+## SETTLEMENT STRUCTURE & FORMAT
+
+File name
+Settlement_[Name].txt
+Use the locked in-world name. Spaces become underscores. Hyphens in a place-name may be kept.
+Examples: Settlement_Kolby-on-Vatn.txt / Settlement_Twaford.txt / Settlement_Askgruv.txt
+
+# [Settlement Name]
+
+Type
+[City / Town / Village / Castle / Ruin / Hamlet / other]
+Location
+Local Region: [Name]
+Geographic Region: [Name]
+Position: [Short physical placement, e.g. north shore of Lake Kolvatn / south side of The Sund]
+Overview
+[3–6 sentences. This is where character, function, and current political control belong.]
+Control
+[Faction, house, order, or power that currently holds the place. Note if contested.]
+Population
+[Working figure and a short note on who lives there]
+Economy
+[What the settlement actually does: landing, milling, mining, garrison, trade, etc.]
+Defences / Access
+[Walls, keep, river-gate, pass-watch, harbour, or lack of them. How it is reached.]
+Linked Features
+
+[Local Region features that immediately define the site]
+Notes
+[GM-facing detail: stores, tensions, known threats, seasonal limits, or campaign hooks]
+Rules for this template
+One file per settlement or ruin of consequence.
+Political control is recorded here, not in the Local or Geographic Region files.
+If control changes, update this file and the Campaign Log.
+Unnamed charcoal hamlets and seasonal camps stay in the Local Region “Lesser / Scattered / Seasonal” list until they become important enough for their own file.
+
+Worked for 3s
+# Geography_Rules.txt
+# Environmental Scoring System for Geographic Regions
+
+These scores provide a consistent way to describe the environment of any land or oceanic region on Virath.
+They are used both for general regional description and for comparison against creature HSI values in the Bestiary.
+
+--------------------------------------------------
+LAND REGIONS – Environmental Scores (0–5)
+--------------------------------------------------
+
+Temperature (heat / cold)
+0 – Sub-arctic / freezing
+1 – Arctic cold
+2 – Cool temperate
+3 – Mild temperate
+4 – Warm subtropical
+5 – Hot (sub-Saharan equivalent)
+
+Rainfall (precipitation / humidity)
+0 – Arid desert
+1 – Dry / sparse
+2 – Semi-arid
+3 – Temperate / balanced
+4 – Humid / wet
+5 – Rainforest / torrential
+
+Human Density (settlement level)
+0 – Uninhabited wilderness
+1 – Sparse / isolated
+2 – Low / scattered
+3 – Moderate (villages)
+4 – High (towns)
+5 – Dense (cities)
+
+Flora/Fauna Density (abundance of life)
+0 – Barren / lifeless
+1 – Limited / scarce
+2 – Sparse / occasional
+3 – Moderate / common
+4 – Abundant / thriving
+5 – Teeming / overrun
+
+Topography (elevation / steepness)
+0 – Flat plains
+1 – Gentle slopes
+2 – Undulating hills
+3 – Rugged terrain
+4 – Steep cliffs
+5 – Sheer mountains
+
+Hydrology (water features)
+0 – None / parched
+1 – Sparse trickles
+2 – Limited streams
+3 – Moderate rivers
+4 – Abundant lakes
+5 – Flooded / swamps
+
+--------------------------------------------------
+OCEANIC REGIONS – Environmental Scores (0–5)
+--------------------------------------------------
+
+When scoring oceanic regions, the same six categories are used with adapted meanings.
+
+Temperature (water temperature)
+0 – Polar / permanently frozen surface or near-freezing
+1 – Freezing cold
+2 – Cold currents
+3 – Temperate seas
+4 – Warm waters
+5 – Tropical hot
+
+Rainfall (storm frequency / humidity over water)
+0 – Extremely dry air / almost no precipitation
+1 – Minimal storms
+2 – Light fog / occasional rain
+3 – Moderate rains
+4 – Frequent storms
+5 – Constant high humidity / monsoon conditions
+
+Human Density (maritime activity)
+0 – No human presence (unexplored or avoided waters)
+1 – Isolated routes
+2 – Sparse traffic
+3 – Moderate trade
+4 – Busy shipping lanes
+5 – Crowded ports / heavy traffic
+
+Flora/Fauna Density (marine life)
+0 – Essentially lifeless / sterile
+1 – Barren depths
+2 – Sparse fish
+3 – Moderate schools
+4 – Abundant reefs / rich waters
+5 – Teeming ecosystems
+
+Topography (water depth)
+0 – Intertidal / exposed flats at low tide
+1 – Shallow waters
+2 – Coastal shelf
+3 – Moderate depths
+4 – Deep sea
+5 – Abyssal depths / trenches
+
+Hydrology (sea state / surface conditions)
+0 – Dead calm / mirror-like
+1 – Calm seas
+2 – Mild swells
+3 – Moderate waves
+4 – Rough currents
+5 – Extreme storms / violent seas
+
+--------------------------------------------------
+SEASONAL MODIFIER TEMPLATES
+--------------------------------------------------
+
+Applied to Temperature, Rainfall, and Flora/Fauna only.
+Harvest is the printed score.
+Shifts are +1, 0, or −1 only.
+A modified score cannot go below 0 or above 5.
+
+Temperate
+Thaw        Temp −1 | Rain +1 | Flora 0
+Highsun     Temp +1 | Rain −1 | Flora +1
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1
+
+Boreal / cold forest
+Thaw        Temp −1 | Rain +1 | Flora 0
+Highsun     Temp +1 | Rain  0 | Flora +1
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1
+
+Alpine / high mountain
+Thaw        Temp −1 | Rain +1 | Flora 0
+Highsun     Temp  0 | Rain  0 | Flora +1
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1
+
+Arid / desert
+Thaw        Temp  0 | Rain +1 | Flora 0
+Highsun     Temp +1 | Rain −1 | Flora −1
+Harvest     none
+Longnight   Temp −1 | Rain  0 | Flora 0
+
+Mediterranean / dry-summer coast
+Thaw        Temp −1 | Rain +1 | Flora +1
+Highsun     Temp +1 | Rain −1 | Flora 0
+Harvest     none
+Longnight   Temp −1 | Rain +1 | Flora −1
+
+Oceanic / wet coast
+Thaw        Temp −1 | Rain +1 | Flora 0
+Highsun     Temp +1 | Rain  0 | Flora +1
+Harvest     none
+Longnight   Temp −1 | Rain +1 | Flora −1
+
+Steppe / grassland
+Thaw        Temp −1 | Rain +1 | Flora +1
+Highsun     Temp +1 | Rain −1 | Flora 0
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1
+
+Tropical wet (rainforest)
+Thaw        Temp  0 | Rain +1 | Flora 0
+Highsun     Temp +1 | Rain +1 | Flora +1
+Harvest     none
+Longnight   Temp  0 | Rain −1 | Flora 0
+Notes: “Longnight” here is the drier season, not snow.
+
+Tropical wet-dry / monsoon
+Thaw        Temp  0 | Rain +1 | Flora +1
+Highsun     Temp +1 | Rain −1 | Flora −1
+Harvest     none
+Longnight   Temp  0 | Rain  0 | Flora 0
+Notes: Thaw = wet onset. Highsun = drought.
+
+Polar / tundra
+Thaw        Temp +1 | Rain +1 | Flora +1
+Highsun     Temp +1 | Rain  0 | Flora +1
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1
+Notes: Harvest is the brief usable season. Highsun is the thaw-peak.
+
+--------------------------------------------------
+USAGE NOTES
+--------------------------------------------------
+
+- Scores are relative tools for consistency, not absolute scientific measurements.
+- A region is normally described with all six scores.
+- When comparing a region to a creature’s HSI, use the method defined in Bestiary_Rules.txt.
+- Extreme scores (0 or 5) should be used deliberately; most settled regions will cluster in the middle ranges.
+- Unveiling phenomena, megastructures, or local anomalies can create exceptions that override normal environmental expectations.
+
+--------------------------------------------------
+GEOGRAPHY HIERARCHY & PHILOSOPHY
+--------------------------------------------------
+
+Virath’s geography is organised in three tiers:
+
+1. Geographic Region
+   - Large-scale physical area roughly comparable to Western Europe in size.
+   - Defined purely by natural geography, climate patterns, and major landforms.
+   - Political and cultural ownership is not inherent to the region.
+
+2. Local Region
+   - Smaller physical subdivision within a Geographic Region.
+   - Each Local Region carries its own full set of Environmental Scores.
+   - Still defined by physical characteristics rather than politics.
+
+3. Settlement
+   - Individual cities, towns, villages, fortresses, and other permanent human sites.
+   - Political control, cultural identity, and faction ownership are recorded at this level.
+   - Settlements link upward to the Local Region (and therefore Geographic Region) they physically occupy.
+
+Core Principle
+Geographic and Local Regions are physical realities. They do not change ownership.
+Political control is fluid and is determined by who holds the settlements within them.
+As a result, any Geographic or Local Region may be wholly controlled, partially controlled, or actively contested by multiple factions at the same time.
+
+This separation keeps environmental data stable while allowing the political map to shift through conquest, diplomacy, rebellion, or collapse.
+
+--------------------------------------------------
+LOCAL REGION STRUCTURE & FORMAT
+--------------------------------------------------
+
+Every Local Region document should follow this standard template.
+
+File name
+Local_Region_[Name].txt
+
+# [Local Region Name]
+
+Overview
+[2–4 sentences of atmospheric description focusing on physical character, mood, and distinctive features]
+
+Environmental Scores
+Temperature: X
+Rainfall: X
+Human Density: X
+Flora/Fauna Density: X
+Topography: X
+Hydrology: X
+These are Harvest aggregates: the rounded mean of the land-cover features below.
+Point sites (stones, ruins, a single peak used only as a landmark) are not averaged in.
+
+Seasonal modifiers: [Template name]
+Season is applied to each feature first, on Temperature, Rainfall, and Flora/Fauna only.
+Then the region scores are aggregated again from those modified features.
+Human Density, Topography, and Hydrology do not change with season.
+
+Notable Features
+Each land-cover feature has its own Harvest scores (0–5).
+- [Feature]
+  [description]
+  Temperature: X | Rainfall: X | Human Density: X | Flora/Fauna: X | Topography: X | Hydrology: X
+
+Linked Settlements
+Full detail is recorded in the individual settlement documents.
+- [Settlement]
+- [Settlement]
+- [Ruin, if physically present]
+
+Lesser / Scattered / Seasonal
+Places too small or too many for their own settlement file.
+- [Type]
+  [What they are and what they do]
+
+Example:
+Upper-river villages
+Small logging and mining settlements nearer the river sources. Timber and ore are floated down to Kolby-on-Vatn.
+Charcoal / Trapping hamlets
+Many small, scattered hamlets throughout Kannavald Deepwood. Charcoal-burning, trapping, and isolated woodland work.
+
+Notes
+Access
+[How the region is entered and left. Main roads, passes, rivers, coasts.]
+
+Goods
+[What moves, and along which routes.]
+
+Population
+Land area: [square miles]
+Permanent population: [figure] (range [low]–[high])
+Overall density: [people per square mile]
+[Where people actually sit. What of the land is empty.]
+
+Working split
+- [Chief town]: [range]
+- [Named villages / crossings]: [range]
+- [Scattered hamlets / isolated households]: [range]
+- Remainder: [seasonal camps, traplines, and the like]
+
+[One closing line on distance and travel feel.]
+
+--------------------------------------------------
+HOW TO SCORE
+--------------------------------------------------
+
+1. Give every land-cover feature a Harvest score in all six measures.
+2. Name one seasonal template for the region (or a different template on a feature that needs it).
+3. When a season is dated, shift each feature’s Temperature, Rainfall, and Flora/Fauna by that template (+1 / 0 / −1).
+4. Average the land-cover features. Round to the nearest whole number. Clamp 0–5.
+5. Print that average as the region’s Environmental Scores.
+
+A lake, a forest, and a mountain each keep their own character.
+The region line is only the summary.
+
+--------------------------------------------------
+GEOGRAPHIC REGION STRUCTURE & FORMAT
+--------------------------------------------------
+
+File name
+Geographic_Region_[Name].txt
+Use the locked in-world name. Spaces become underscores.
+Example: Geographic_Region_Svarthorn_Peninsula.txt
+
+# [Geographic Region Name]
+
+Visual Reference
+[Link to a map or image clearly showing the shape of this Geographic Region and its position relative to neighbouring regions]
+
+Overview
+[3–6 sentences describing the overall physical character, climate patterns, major landforms, and general feel of the region. Keep this purely geographical.]
+
+Location & Borders
+[Short prose description of the region’s position]
+
+borders:
+- North:
+- Northeast:
+- East:
+- Southeast:
+- South:
+- Southwest:
+- West:
+- Northwest:
+
+Shared / Border Local Regions
+[List any Local Regions that are shared with one or more neighbouring Geographic Regions. These are typically major natural barriers such as mountain ranges, large rivers, or dense forests that form the boundary between regions.]
+
+Local Regions
+[List of Local Regions that primarily belong to this Geographic Region. Order them in a logical geographic sequence where possible.]
+- [Local Region Name]
+- [Local Region Name]
+
+Notable Features
+- [Major mountain ranges, river systems, forests, coastlines, plateaus, or other defining physical elements]
+- [Significant natural resources or large-scale environmental characteristics]
+
+Notes
+[Optional: high-level observations about travel difficulty, overall character, or other relevant physical details]
+
+Rules for Shared Local Regions
+- A Local Region may belong to more than one Geographic Region when it forms a natural border.
+- In such cases the full Local Region document exists only once.
+- Each relevant Geographic Region lists that Local Region under “Shared / Border Local Regions” rather than under its primary Local Regions list.
+
+--------------------------------------------------
+SETTLEMENT STRUCTURE & FORMAT
+--------------------------------------------------
+
+File name
+Settlement_[Name].txt
+Use the locked in-world name. Spaces become underscores. Hyphens in a place-name may be kept.
+Examples: Settlement_Kolby-on-Vatn.txt / Settlement_Twaford.txt / Settlement_Askgruv.txt
+
+# [Settlement Name]
+
+Type
+[City / Town / Village / Castle / Ruin / Hamlet / other]
+
+Location
+Local Region: [Name]
+Geographic Region: [Name]
+Position: [Short physical placement, e.g. north shore of Lake Kolvatn / south side of The Sund]
+
+Overview
+[3–6 sentences. This is where character, function, and current political control belong.]
+
+Control
+[Faction, house, order, or power that currently holds the place. Note if contested.]
+
+Population
+[Working figure and a short note on who lives there]
+
+Economy
+[What the settlement actually does: landing, milling, mining, garrison, trade, etc.]
+
+Defences / Access
+[Walls, keep, river-gate, pass-watch, harbour, or lack of them. How it is reached.]
+
+Linked Features
+- [Local Region features that immediately define the site]
+
+Notes
+[GM-facing detail: stores, tensions, known threats, seasonal limits, or campaign hooks]
+
+Rules for this template
+- One file per settlement or ruin of consequence.
+- Political control is recorded here, not in the Local or Geographic Region files.
+- If control changes, update this file and the Campaign Log.
+- Unnamed charcoal hamlets and seasonal camps stay in the Local Region “Lesser / Scattered / Seasonal” list until they become important enough for their own file.
+detail on geography rules
+ 
+Temperature 0 vs 1 is backwards. 0 is “sub-arctic / freezing,” 1 is “arctic cold.” Arctic is the colder band. Ebon Spire at 1 is labelled colder than a 0, which is the opposite of the names. Swap the labels (0 arctic, 1 sub-arctic) or the peak scores will read wrong next to a true ice-cap region.
+
+
+Worked for 21s
+Swap the labels. Leave the numbers.
+
+Arctic is the colder band. Sub-arctic sits above it.
+
+Temperature (heat / cold)
+0 – Arctic / freezing
+1 – Sub-arctic / cold
+2 – Cool temperate
+3 – Mild temperate
+4 – Warm subtropical
+5 – Hot (sub-Saharan equivalent)
+Ebon Spire at 1 is then sub-arctic highland, not “colder than arctic.”
+A true ice-cap or polar waste is 0.
+
+Oceanic is already in the right order (0 polar, then 1 freezing cold). Leave it.
+
+Kannavald does not need a score rewrite unless you want the Spire itself as a 0.
+
+New edit to Geography rules. How Environmental scores are logged. Detail fully including revisions to
+LAND REGIONS – Environmental Scores (0–5) & OCEANIC REGIONS – Environmental Scores (0–5)
+ 
+Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora: 4 | Fauna: 2 | Topography: 3 | Hydrology: 4
+ 
+Add Flora and Fauna as two normal 0–5 axes. That is a small rules change and a real gain for Deepwood, steppe, reef, and the bestiary.
+ 
+Output revised Geography_Rules
+
+
+Worked for 8s
+# Geography_Rules.txt
+# Environmental Scoring System for Geographic Regions
+
+These scores provide a consistent way to describe the environment of any land or oceanic region on Virath.
+They are used both for general regional description and for comparison against creature HSI values in the Bestiary.
+
+Every scored place uses seven measures, written on one line:
+
+Temperature: X | Rainfall: X | Human Density: X | Flora: X | Fauna: X | Topography: X | Hydrology: X
+
+--------------------------------------------------
+LAND REGIONS – Environmental Scores (0–5)
+--------------------------------------------------
+
+Temperature (heat / cold)
+0 – Arctic / freezing
+1 – Sub-arctic / cold
+2 – Cool temperate
+3 – Mild temperate
+4 – Warm subtropical
+5 – Hot (sub-Saharan equivalent)
+
+Rainfall (precipitation / humidity)
+0 – Arid desert
+1 – Dry / sparse
+2 – Semi-arid
+3 – Temperate / balanced
+4 – Humid / wet
+5 – Rainforest / torrential
+
+Human Density (settlement level)
+0 – Uninhabited wilderness
+1 – Sparse / isolated
+2 – Low / scattered
+3 – Moderate (villages)
+4 – High (towns)
+5 – Dense (cities)
+
+Flora (plant cover)
+0 – Barren / lifeless
+1 – Limited / scarce
+2 – Sparse / occasional
+3 – Moderate / common
+4 – Abundant / thriving
+5 – Teeming / overrun
+
+Fauna (animal life)
+0 – Barren / lifeless
+1 – Limited / scarce
+2 – Sparse / occasional
+3 – Moderate / common
+4 – Abundant / thriving
+5 – Teeming / overrun
+
+Topography (elevation / steepness)
+0 – Flat plains
+1 – Gentle slopes
+2 – Undulating hills
+3 – Rugged terrain
+4 – Steep cliffs
+5 – Sheer mountains
+
+Hydrology (water features)
+0 – None / parched
+1 – Sparse trickles
+2 – Limited streams
+3 – Moderate rivers
+4 – Abundant lakes
+5 – Flooded / swamps
+
+--------------------------------------------------
+OCEANIC REGIONS – Environmental Scores (0–5)
+--------------------------------------------------
+
+When scoring oceanic regions, the same seven categories are used with adapted meanings.
+
+Temperature (water temperature)
+0 – Polar / permanently frozen surface or near-freezing
+1 – Freezing cold
+2 – Cold currents
+3 – Temperate seas
+4 – Warm waters
+5 – Tropical hot
+
+Rainfall (storm frequency / humidity over water)
+0 – Extremely dry air / almost no precipitation
+1 – Minimal storms
+2 – Light fog / occasional rain
+3 – Moderate rains
+4 – Frequent storms
+5 – Constant high humidity / monsoon conditions
+
+Human Density (maritime activity)
+0 – No human presence (unexplored or avoided waters)
+1 – Isolated routes
+2 – Sparse traffic
+3 – Moderate trade
+4 – Busy shipping lanes
+5 – Crowded ports / heavy traffic
+
+Flora (marine plant and reef cover)
+0 – Barren / sterile
+1 – Limited / scarce
+2 – Sparse weed or poor reef
+3 – Moderate growth
+4 – Abundant kelp / rich reef
+5 – Teeming / overrun
+
+Fauna (marine animal life)
+0 – Essentially lifeless
+1 – Barren depths
+2 – Sparse fish
+3 – Moderate schools
+4 – Abundant life
+5 – Teeming ecosystems
+
+Topography (water depth)
+0 – Intertidal / exposed flats at low tide
+1 – Shallow waters
+2 – Coastal shelf
+3 – Moderate depths
+4 – Deep sea
+5 – Abyssal depths / trenches
+
+Hydrology (sea state / surface conditions)
+0 – Dead calm / mirror-like
+1 – Calm seas
+2 – Mild swells
+3 – Moderate waves
+4 – Rough currents
+5 – Extreme storms / violent seas
+
+--------------------------------------------------
+SEASONAL MODIFIER TEMPLATES
+--------------------------------------------------
+
+Applied to Temperature, Rainfall, Flora, and Fauna only.
+Harvest is the printed score.
+Shifts are +1, 0, or −1 only.
+A modified score cannot go below 0 or above 5.
+
+Temperate
+Thaw        Temp −1 | Rain +1 | Flora 0 | Fauna 0
+Highsun     Temp +1 | Rain −1 | Flora +1 | Fauna +1
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1 | Fauna −1
+
+Boreal / cold forest
+Thaw        Temp −1 | Rain +1 | Flora 0 | Fauna 0
+Highsun     Temp +1 | Rain  0 | Flora +1 | Fauna +1
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1 | Fauna −1
+
+Alpine / high mountain
+Thaw        Temp −1 | Rain +1 | Flora 0 | Fauna 0
+Highsun     Temp  0 | Rain  0 | Flora +1 | Fauna +1
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1 | Fauna −1
+
+Arid / desert
+Thaw        Temp  0 | Rain +1 | Flora 0 | Fauna 0
+Highsun     Temp +1 | Rain −1 | Flora −1 | Fauna −1
+Harvest     none
+Longnight   Temp −1 | Rain  0 | Flora 0 | Fauna 0
+
+Mediterranean / dry-summer coast
+Thaw        Temp −1 | Rain +1 | Flora +1 | Fauna +1
+Highsun     Temp +1 | Rain −1 | Flora 0 | Fauna 0
+Harvest     none
+Longnight   Temp −1 | Rain +1 | Flora −1 | Fauna −1
+
+Oceanic / wet coast
+Thaw        Temp −1 | Rain +1 | Flora 0 | Fauna 0
+Highsun     Temp +1 | Rain  0 | Flora +1 | Fauna +1
+Harvest     none
+Longnight   Temp −1 | Rain +1 | Flora −1 | Fauna −1
+
+Steppe / grassland
+Thaw        Temp −1 | Rain +1 | Flora +1 | Fauna +1
+Highsun     Temp +1 | Rain −1 | Flora 0 | Fauna 0
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1 | Fauna −1
+
+Tropical wet (rainforest)
+Thaw        Temp  0 | Rain +1 | Flora 0 | Fauna 0
+Highsun     Temp +1 | Rain +1 | Flora +1 | Fauna +1
+Harvest     none
+Longnight   Temp  0 | Rain −1 | Flora 0 | Fauna 0
+Notes: “Longnight” here is the drier season, not snow.
+
+Tropical wet-dry / monsoon
+Thaw        Temp  0 | Rain +1 | Flora +1 | Fauna +1
+Highsun     Temp +1 | Rain −1 | Flora −1 | Fauna −1
+Harvest     none
+Longnight   Temp  0 | Rain  0 | Flora 0 | Fauna 0
+Notes: Thaw = wet onset. Highsun = drought.
+
+Polar / tundra
+Thaw        Temp +1 | Rain +1 | Flora +1 | Fauna +1
+Highsun     Temp +1 | Rain  0 | Flora +1 | Fauna +1
+Harvest     none
+Longnight   Temp −1 | Rain −1 | Flora −1 | Fauna −1
+Notes: Harvest is the brief usable season. Highsun is the thaw-peak.
+
+--------------------------------------------------
+USAGE NOTES
+--------------------------------------------------
+
+- Scores are relative tools for consistency, not absolute scientific measurements.
+- A region is normally described with all seven scores.
+- Flora and Fauna are scored separately. A closed canopy can sit at Flora 4 with Fauna 2. A steppe can sit at Flora 2 with Fauna 4.
+- When comparing a region to a creature’s HSI, use the method defined in Bestiary_Rules.txt. Match Flora and Fauna on their own axes.
+- Extreme scores (0 or 5) should be used deliberately; most settled regions will cluster in the middle ranges.
+- Unveiling phenomena, megastructures, or local anomalies can create exceptions that override normal environmental expectations.
+
+--------------------------------------------------
+GEOGRAPHY HIERARCHY & PHILOSOPHY
+--------------------------------------------------
+
+Virath’s geography is organised in three tiers:
+
+1. Geographic Region
+   - Large-scale physical area roughly comparable to Western Europe in size.
+   - Defined purely by natural geography, climate patterns, and major landforms.
+   - Political and cultural ownership is not inherent to the region.
+
+2. Local Region
+   - Smaller physical subdivision within a Geographic Region.
+   - Each Local Region carries its own full set of Environmental Scores.
+   - Still defined by physical characteristics rather than politics.
+
+3. Settlement
+   - Individual cities, towns, villages, fortresses, and other permanent human sites.
+   - Political control, cultural identity, and faction ownership are recorded at this level.
+   - Settlements link upward to the Local Region (and therefore Geographic Region) they physically occupy.
+
+Core Principle
+Geographic and Local Regions are physical realities. They do not change ownership.
+Political control is fluid and is determined by who holds the settlements within them.
+As a result, any Geographic or Local Region may be wholly controlled, partially controlled, or actively contested by multiple factions at the same time.
+
+This separation keeps environmental data stable while allowing the political map to shift through conquest, diplomacy, rebellion, or collapse.
+
+--------------------------------------------------
+LOCAL REGION STRUCTURE & FORMAT
+--------------------------------------------------
+
+Every Local Region document should follow this standard template.
+
+File name
+Local_Region_[Name].txt
+
+# [Local Region Name]
+
+Overview
+[2–4 sentences of atmospheric description focusing on physical character, mood, and distinctive features]
+
+Environmental Scores
+Temperature: X | Rainfall: X | Human Density: X | Flora: X | Fauna: X | Topography: X | Hydrology: X
+These are Harvest aggregates: the rounded mean of the land-cover features below.
+Point sites (stones, ruins, a single peak used only as a landmark) are not averaged in.
+
+Seasonal modifiers: [Template name]
+Season is applied to each feature first, on Temperature, Rainfall, Flora, and Fauna only.
+Then the region scores are aggregated again from those modified features.
+Human Density, Topography, and Hydrology do not change with season.
+
+Notable Features
+Each land-cover feature has its own Harvest scores (0–5).
+- [Feature]
+  [description]
+  Temperature: X | Rainfall: X | Human Density: X | Flora: X | Fauna: X | Topography: X | Hydrology: X
+
+Linked Settlements
+Full detail is recorded in the individual settlement documents.
+- [Settlement]
+- [Settlement]
+- [Ruin, if physically present]
+
+Lesser / Scattered / Seasonal
+Places too small or too many for their own settlement file.
+- [Type]
+  [What they are and what they do]
+
+Notes
+Access
+[How the region is entered and left. Main roads, passes, rivers, coasts.]
+
+Goods
+[What moves, and along which routes.]
+
+Population
+Land area: [square miles]
+Permanent population: [figure] (range [low]–[high])
+Overall density: [people per square mile]
+[Where people actually sit. What of the land is empty.]
+
+Working split
+- [Chief town]: [range]
+- [Named villages / crossings]: [range]
+- [Scattered hamlets / isolated households]: [range]
+- Remainder: [seasonal camps, traplines, and the like]
+
+[One closing line on distance and travel feel.]
+
+--------------------------------------------------
+HOW TO SCORE
+--------------------------------------------------
+
+1. Give every land-cover feature a Harvest score in all seven measures.
+2. Name one seasonal template for the region (or a different template on a feature that needs it).
+3. When a season is dated, shift each feature’s Temperature, Rainfall, Flora, and Fauna by that template (+1 / 0 / −1).
+4. Average the land-cover features. Round to the nearest whole number. Clamp 0–5.
+5. Print that average as the region’s Environmental Scores.
+
+A lake, a forest, and a mountain each keep their own character.
+The region line is only the summary.
+
+--------------------------------------------------
+GEOGRAPHIC REGION STRUCTURE & FORMAT
+--------------------------------------------------
+
+File name
+Geographic_Region_[Name].txt
+Use the locked in-world name. Spaces become underscores.
+Example: Geographic_Region_Svarthorn_Peninsula.txt
+
+# [Geographic Region Name]
+
+Visual Reference
+[Link to a map or image clearly showing the shape of this Geographic Region and its position relative to neighbouring regions]
+
+Overview
+[3–6 sentences describing the overall physical character, climate patterns, major landforms, and general feel of the region. Keep this purely geographical.]
+
+Location & Borders
+[Short prose description of the region’s position]
+
+borders:
+- North:
+- Northeast:
+- East:
+- Southeast:
+- South:
+- Southwest:
+- West:
+- Northwest:
+
+Shared / Border Local Regions
+[List any Local Regions that are shared with one or more neighbouring Geographic Regions. These are typically major natural barriers such as mountain ranges, large rivers, or dense forests that form the boundary between regions.]
+
+Local Regions
+[List of Local Regions that primarily belong to this Geographic Region. Order them in a logical geographic sequence where possible.]
+- [Local Region Name]
+- [Local Region Name]
+
+Notable Features
+- [Major mountain ranges, river systems, forests, coastlines, plateaus, or other defining physical elements]
+- [Significant natural resources or large-scale environmental characteristics]
+
+Notes
+[Optional: high-level observations about travel difficulty, overall character, or other relevant physical details]
+
+Rules for Shared Local Regions
+- A Local Region may belong to more than one Geographic Region when it forms a natural border.
+- In such cases the full Local Region document exists only once.
+- Each relevant Geographic Region lists that Local Region under “Shared / Border Local Regions” rather than under its primary Local Regions list.
+
+--------------------------------------------------
+SETTLEMENT STRUCTURE & FORMAT
+--------------------------------------------------
+
+File name
+Settlement_[Name].txt
+Use the locked in-world name. Spaces become underscores. Hyphens in a place-name may be kept.
+Examples: Settlement_Kolby-on-Vatn.txt / Settlement_Twaford.txt / Settlement_Askgruv.txt
+
+# [Settlement Name]
+
+Type
+[City / Town / Village / Castle / Ruin / Hamlet / other]
+
+Location
+Local Region: [Name]
+Geographic Region: [Name]
+Position: [Short physical placement, e.g. north shore of Lake Kolvatn / south side of The Sund]
+
+Overview
+[3–6 sentences. This is where character, function, and current political control belong.]
+
+Control
+[Faction, house, order, or power that currently holds the place. Note if contested.]
+
+Population
+[Working figure and a short note on who lives there]
+
+Economy
+[What the settlement actually does: landing, milling, mining, garrison, trade, etc.]
+
+Defences / Access
+[Walls, keep, river-gate, pass-watch, harbour, or lack of them. How it is reached.]
+
+Linked Features
+- [Local Region features that immediately define the site]
+
+Notes
+[GM-facing detail: stores, tensions, known threats, seasonal limits, or campaign hooks]
+
+Rules for this template
+- One file per settlement or ruin of consequence.
+- Political control is recorded here, not in the Local or Geographic Region files.
+- If control changes, update this file and the Campaign Log.
+- Unnamed charcoal hamlets and seasonal camps stay in the Local Region “Lesser / Scattered / Seasonal” list until they become important enough for their own file.
+Kannavald’s old Flora/Fauna 4 should now be split on the page — Deepwood canopy Flora 4, game Fauna 2 on the basin, higher Fauna on the lake and fens if you want the contrast.
+
+
+Local_Region_Kannavald_Deepwood.txt
+Lets implement update to
+
+
+Worked for 33s
 # Kannavald Deepwood
 
 Overview
@@ -136,3 +3712,586 @@ Working split
 - Remainder: seasonal camps, traplines, and mine-heads
 
 The extra land beyond those corridors is empty forest. Distance between named places should feel long.
+The basin is now Flora 4, Fauna 2: heavy wood, thin game. The lake is where the animals actually are.
+
+
+pasted-text.txt
+proposal, assess revision to following
+
+
+Worked for 26s
+The revision is sound. It solves a real hole without adding an eighth score.
+
+Topography already measures steepness, not how high the place sits in the world. Kolmire can be Hydrology 5 and Topography 1 and still be a highland fen. Underwood can be a shore and still sit under a ridge. Height-as-label plus a place-clause in the description is the right split.
+
+What works
+Height is optional, one line, not averaged. A highland basin stays a highland basin in Longnight.
+floor / bench / pass / rim / peak / shore is relative elevation in words. Ebon is a peak; Kolvatn is a floor; Deepskaard is a pass; Underwood is a shore. No new axis to fight Flora or HSI.
+Kannavald needs Height: highland basin and those clauses in the feature blurbs. Scores stay as they are.
+What to watch
+One clause only. Do not write “peak and rim.” Pick the land’s job.
+Do not invent extra words (saddle, hanging valley) unless you add them to the allowed list. Six is enough.
+Rivers are awkward. Askflow is a floor-channel, not a shore. Either treat inlets as floor or add course later. Until then, use floor.
+Still Stones is a point site on a floor (the clearing).
+Bestiary HSI should keep ignoring Height. It is for travel and weather feel, not habitat match.
+Verdict
+Keep it. It is a labelling rule, not a scoring rule. Apply it to Kannavald next: one Height line, one place-word per feature, no score changes.
+
+ok lets expand, define and list out clauses and height terms
+
+
+Worked for 20s
+--------------------------------------------------
+HEIGHT AND PLACE
+--------------------------------------------------
+Height is a label for the Local Region as a whole.
+Place is a clause in each feature’s description.
+Neither is a 0–5 score. Neither is averaged. Neither is used for HSI.
+
+--------------------------------------------------
+HEIGHT (region line)
+--------------------------------------------------
+One optional line. Name the region’s seat in the world, not the steepness of its ground.
+
+highland basin
+A high, enclosed or half-enclosed floor, ringed by higher ground.
+Kannavald Deepwood.
+
+high range
+A mountain mass as the main body of the region, not a basin inside one.
+
+highland
+High country that is not a closed basin and not a single range.
+
+plateau
+A raised table. The floor is high and relatively even.
+
+upland
+Hills and high ground above the neighbouring low country, short of a true highland.
+
+lowland
+Broad country near the regional base level. Valleys, plains, wide river-floors.
+
+coastal plain
+Low, open land against the sea.
+
+coastal highland
+High ground that meets the sea. Cliffs, raised benches, seaward ranges.
+
+rift / trench
+A deep cut below the surrounding land. Use rarely.
+
+Do not mark a basin floor as lowland if that floor still sits high in the world.
+
+--------------------------------------------------
+PLACE (feature clause)
+--------------------------------------------------
+Every Notable Feature description includes one of these.
+It says where the feature sits relative to the land around it.
+
+floor
+The low ground of the region or of a hollow inside it.
+Lakes, fens, valley bottoms, basin woods, river-courses.
+
+bench
+A step or shoulder: higher than the floor, lower than the rim or peak.
+Terraces, mid-slopes, hanging woods, lesser coastal heights.
+
+pass
+A gap that lets travel through higher ground.
+Cols, defiles, water-gates if the water is the way through.
+
+rim
+The enclosing edge of a basin, plateau, or highland.
+The ring of heights, the lip of a crater, the upper forest around a lake.
+
+peak
+The high point. A summit, spire, or dominant height.
+Use for the mountain itself, not for the range as a whole unless the range is treated as one feature.
+
+shore
+Where land meets standing water or the sea.
+Lake-strand, fen-margin, coastal plain against the ocean.
+
+--------------------------------------------------
+HOW TO PICK
+--------------------------------------------------
+- One place-word per feature.
+- The range is usually rim or peak. The lake is floor or shore. The col is pass.
+- A river in a basin is floor. A working coast is shore.
+- Point sites still take a place-word (the Still Stones sit on a floor).
+- If two words fit, pick the feature’s job: Deepskaard is a pass, not a bench.
+
+Kannavald example
+Height: highland basin
+
+Ebon Spire — peak
+Svarthorn Massif — rim
+Brocken Peak — peak
+Stetbjorg Height — peak
+Westwood Heights — rim
+Westwood Peak — peak
+Mistcap Crags — rim
+Watchers Peak — peak
+The Lowstacks — bench
+Lake Kolvatn — floor
+Kolmire Fens — floor
+The Still Stones — floor
+Askflow — floor
+Hornbeck — floor
+Rookburn — floor
+The Sund — pass
+Underwood Shores — shore
+Deepskaard Col — pass
+proposal to only keep HEIGHT (region line)? Assess
+
+
+Worked for 3s
+Keep Height. Drop the place-clauses.
+
+Height does the one job Topography cannot: it says the whole region sits high or low in the world. Kannavald is a highland basin even when the lake-floor is Topography 1.
+
+Place-clauses do not earn their keep.
+
+The feature name and blurb already say peak, pass, shore, fen.
+Forcing one of six words is extra grammar for no extra number.
+Rivers fight the list. Point sites fight the list. You will keep adding words.
+HSI and season do not use them. The average does not use them.
+Use this only:
+
+Height: highland basin
+Optional. One line. Not scored. Not averaged.
+
+Leave floor / bench / pass / rim / peak / shore out of the rules. If a feature’s job is unclear, write it in the description, not as a required tag.
+
+implement revision into geography_rules.txt and LOCAL REGION STRUCTURE & FORMAT
+Keep Height. Drop the place-clauses.
+
+
+Worked for 4s
+--------------------------------------------------
+HEIGHT
+--------------------------------------------------
+Height is an optional label for the Local Region as a whole.
+It is not a 0–5 score. It is not averaged. It is not used for HSI.
+
+It names the region’s seat in the world, not the steepness of its ground.
+
+highland basin
+A high, enclosed or half-enclosed floor, ringed by higher ground.
+
+high range
+A mountain mass as the main body of the region.
+
+highland
+High country that is not a closed basin and not a single range.
+
+plateau
+A raised table. The floor is high and relatively even.
+
+upland
+Hills and high ground above the neighbouring low country, short of a true highland.
+
+lowland
+Broad country near the regional base level.
+
+coastal plain
+Low, open land against the sea.
+
+coastal highland
+High ground that meets the sea.
+
+rift / trench
+A deep cut below the surrounding land. Use rarely.
+
+Do not mark a basin floor as lowland if that floor still sits high in the world.
+
+--------------------------------------------------
+LOCAL REGION STRUCTURE & FORMAT
+--------------------------------------------------
+
+Every Local Region document should follow this standard template.
+
+File name
+Local_Region_[Name].txt
+
+# [Local Region Name]
+
+Overview
+[2–4 sentences of atmospheric description focusing on physical character, mood, and distinctive features]
+
+Environmental Scores
+Temperature: X | Rainfall: X | Human Density: X | Flora: X | Fauna: X | Topography: X | Hydrology: X
+These are Harvest aggregates: the rounded mean of the land-cover features below.
+Point sites (stones, ruins, a single peak used only as a landmark) are not averaged in.
+
+Height: [highland basin / high range / highland / plateau / upland / lowland / coastal plain / coastal highland / rift]
+Optional. One un-numbered line for the region as a whole.
+This is not a 0–5 score and is not averaged into the Environmental Scores.
+Use it when the region’s height class is not obvious from Temperature and Topography.
+
+Seasonal modifiers: [Template name]
+Season is applied to each feature first, on Temperature, Rainfall, Flora, and Fauna only.
+Then the region scores are aggregated again from those modified features.
+Human Density, Topography, and Hydrology do not change with season.
+
+Notable Features
+Each land-cover feature has its own Harvest scores (0–5).
+- [Feature]
+  [description]
+  Temperature: X | Rainfall: X | Human Density: X | Flora: X | Fauna: X | Topography: X | Hydrology: X
+
+Linked Settlements
+Full detail is recorded in the individual settlement documents.
+- [Settlement]
+- [Ruin, if physically present]
+
+Lesser / Scattered / Seasonal
+Places too small or too many for their own settlement file.
+- [Type]
+  [What they are and what they do]
+
+Notes
+Access
+[How the region is entered and left.]
+
+Goods
+[What moves, and along which routes.]
+
+Population
+Land area: [square miles]
+Permanent population: [figure] (range [low]–[high])
+Overall density: [people per square mile]
+[Where people actually sit. What of the land is empty.]
+
+Working split
+- [Chief town]: [range]
+- [Named villages / crossings]: [range]
+- [Scattered hamlets / isolated households]: [range]
+- Remainder: [seasonal camps, traplines, and the like]
+
+[One closing line on distance and travel feel.]
+
+--------------------------------------------------
+HOW TO SCORE
+--------------------------------------------------
+
+1. Give every land-cover feature a Harvest score in all seven measures.
+2. Name one seasonal template for the region (or a different template on a feature that needs it).
+3. When a season is dated, shift each feature’s Temperature, Rainfall, Flora, and Fauna by that template (+1 / 0 / −1).
+4. Average the land-cover features. Round to the nearest whole number. Clamp 0–5.
+5. Print that average as the region’s Environmental Scores.
+6. Optionally add a Height line for the region as a whole. It is a label, not a score.
+
+A lake, a forest, and a mountain each keep their own character.
+The region line is only the summary.
+Kannavald only needs one added line under the scores:
+
+Height: highland basin
+
+output revised Local_Region_Kannavald
+
+
+Worked for 3s
+# Kannavald Deepwood
+
+Overview
+A mountain-ringed highland basin of dense boreal forest, black volcanic rock, and standing water. The canopy is heavy, the light is poor, and most travel follows the rivers that drain from Ebon Spire into Lake Kolvatn. Settlement clings to the water; beyond the lake-shore and the upper burns the Deepwood is empty, wet, and quietly wrong.
+
+Environmental Scores
+Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora: 4 | Fauna: 2 | Topography: 3 | Hydrology: 4
+These are Harvest aggregates of the land-cover features below.
+Point sites are not averaged in.
+
+Height: highland basin
+
+Seasonal modifiers: Boreal
+
+--------------------------------------------------
+NOTABLE FEATURES
+Each land-cover feature has its own Harvest scores (0–5).
+Point sites are marked and are not averaged into the region scores.
+--------------------------------------------------
+
+Ebon Spire
+Inactive volcano and the dominant peak of the peninsula. Black, craggy rock. Source of the rivers that feed Lake Kolvatn.
+Temperature: 1 | Rainfall: 4 | Human Density: 0 | Flora: 2 | Fauna: 1 | Topography: 5 | Hydrology: 2
+
+Svarthorn Massif
+The black-rock mountain mass surrounding Ebon Spire. The true highland of the peninsula. Craggy, volcanic in origin, and far higher than the coastal hills.
+Temperature: 1 | Rainfall: 4 | Human Density: 1 | Flora: 3 | Fauna: 2 | Topography: 5 | Hydrology: 3
+
+Brocken Peak
+Northernmost peak of the Svarthorn Massif. A lesser black-rock height on the north face of the range, below Ebon Spire.
+Point site — not averaged.
+Temperature: 1 | Rainfall: 4 | Human Density: 0 | Flora: 3 | Fauna: 2 | Topography: 5 | Hydrology: 3
+
+Stetbjorg Height
+The left shoulder of Ebon Spire. A high, southernmost black-rock spur of the Svarthorn Massif, standing over Deepskaard Col.
+Point site — not averaged.
+Temperature: 1 | Rainfall: 4 | Human Density: 0 | Flora: 3 | Fauna: 2 | Topography: 5 | Hydrology: 3
+
+Westwood Heights
+Lower coastal ridge on the west of Kannavald. Forest covers most of the slopes; only the highest points rise above the canopy. Milder than the Ebon Spire massif.
+Temperature: 2 | Rainfall: 4 | Human Density: 1 | Flora: 4 | Fauna: 2 | Topography: 4 | Hydrology: 4
+
+Westwood Peak
+Tallest summit of Westwood Heights. One of the few points on the coastal ridge that rises clearly above the forest.
+Point site — not averaged.
+Temperature: 2 | Rainfall: 4 | Human Density: 0 | Flora: 3 | Fauna: 2 | Topography: 4 | Hydrology: 4
+
+Mistcap Crags
+Western heights at the seaward end of Westwood Heights. One of the few places the ridge breaks the canopy.
+Point site — not averaged.
+Temperature: 2 | Rainfall: 4 | Human Density: 0 | Flora: 4 | Fauna: 2 | Topography: 4 | Hydrology: 4
+
+Watchers Peak
+A forested height in Kannavald Deepwood, west of Lake Kolvatn. Named in the same local speech as the Quiet Watchers, though it is a mountain, not the stones.
+Point site — not averaged.
+Temperature: 2 | Rainfall: 4 | Human Density: 1 | Flora: 4 | Fauna: 2 | Topography: 4 | Hydrology: 4
+
+The Lowstacks
+A knot of lesser coastal heights on the south-west of Kannavald. Blunt, low, and clearly subordinate to both Westwood Peak and Ebon Spire.
+Temperature: 2 | Rainfall: 4 | Human Density: 0 | Flora: 4 | Fauna: 2 | Topography: 2 | Hydrology: 4
+
+Lake Kolvatn
+Central lake formed from Ebon Spire runoff. Economic heart of the Deepwood. Timber and ore come downriver to its shores.
+Temperature: 2 | Rainfall: 4 | Human Density: 3 | Flora: 3 | Fauna: 4 | Topography: 1 | Hydrology: 5
+
+Kolmire Fens
+Swampy western margin of Lake Kolvatn. Sunken ground. Site of the drowned former capital, Kolholm "The Sunkern Burg".
+Temperature: 2 | Rainfall: 4 | Human Density: 1 | Flora: 4 | Fauna: 3 | Topography: 1 | Hydrology: 5
+
+The Still Stones
+Also called the Black Circle, the Hollows, and the Quiet Watchers. Ancient standing stones in a large clearing in the deepest woods. Local law is absolute: do not approach. Misfortune in the region is often blamed on someone who did.
+Point site — not averaged.
+Temperature: 2 | Rainfall: 4 | Human Density: 0 | Flora: 5 | Fauna: 2 | Topography: 3 | Hydrology: 4
+
+Askflow
+Inlet to Lake Kolvatn. The main runoff from Ebon Spire.
+Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora: 4 | Fauna: 3 | Topography: 4 | Hydrology: 4
+
+Hornbeck
+Inlet to Lake Kolvatn. The darker forest-fed water from the Westwood Heights.
+Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora: 4 | Fauna: 2 | Topography: 3 | Hydrology: 4
+
+Rookburn
+Inlet to Lake Kolvatn. A lesser stream off the Ebon Spire / Svarthorn Massif.
+Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora: 4 | Fauna: 2 | Topography: 4 | Hydrology: 4
+
+The Sund
+The two-mile outflow draining Lake Kolvatn past Twaford. The water-gate of the region.
+Temperature: 2 | Rainfall: 4 | Human Density: 3 | Flora: 3 | Fauna: 3 | Topography: 2 | Hydrology: 5
+
+Underwood Shores
+The western coastal plain beneath Westwood Heights. Working shore, year-round navigable, with the forested ridge looming over it.
+Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora: 3 | Fauna: 3 | Topography: 1 | Hydrology: 5
+
+Deepskaard Col
+Densely forested mountain pass on the southern border of Kannavald Deepwood, between Westwood Peak and Stetbjorg Height. The land-gate of the region.
+Temperature: 2 | Rainfall: 4 | Human Density: 3 | Flora: 4 | Fauna: 2 | Topography: 4 | Hydrology: 4
+
+--------------------------------------------------
+LINKED SETTLEMENTS
+Full detail is recorded in the individual settlement documents.
+--------------------------------------------------
+- Kolby-on-Vatn
+- Twaford / The Twaford Twins
+- Askgruv
+- Hornby
+- Oldfort Kilnstead
+- Kolholm (ruin)
+
+--------------------------------------------------
+LESSER / SCATTERED / SEASONAL
+--------------------------------------------------
+Upper-river villages
+Small logging and mining settlements nearer the river sources. Timber and ore are floated down to Kolby-on-Vatn.
+
+Charcoal / Trapping hamlets
+Many small, scattered hamlets throughout Kannavald Deepwood. Charcoal-burning, trapping, and isolated woodland work.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+Access
+By the Sund, by Deepskaard Col, by the west coast, or over the mountains.
+
+Goods
+Timber, charcoal, hides, and ore move downriver to the lake.
+
+Population
+Land area: 29,391 square miles.
+Permanent population: about 16,000 (range 12,000–22,000).
+Overall density: roughly 0.5 people per square mile.
+Almost all of that population sits on the water. River and lake corridors, a small fraction of the land, hold the town, villages, and working landings. A thin margin of forest is used for charcoal, trapping, and small mines. The rest of Kannavald — the great majority of the Deepwood — has no permanent settlement.
+
+Working split
+- Kolby-on-Vatn: 4,000–6,000
+- Named villages and the Twaford crossing: 3,000–5,000 combined
+- Scattered charcoal hamlets and isolated households: 5,000–7,000
+- Remainder: seasonal camps, traplines, and mine-heads
+
+The extra land beyond those corridors is empty forest. Distance between named places should feel long.
+Note I've refined the following
+Hydrology (water features)
+0 – None / parched
+1 – Sparse trickles
+2 – Limited streams
+3 – Rivers / inlets / channels
+4 – Lakes / major through-water
+5 – Flooded / swamps / wet coast
+ 
+Apply to Local_Region_Kannavald
+
+
+Worked for 18s
+New Hydrology labels change what 3 / 4 / 5 mean. Inlets are 3, lakes are 4, swamp and wet coast are 5. Several Kannavald 4s were leftover from the old “abundant lakes” sense.
+
+# Kannavald Deepwood
+
+Overview
+A mountain-ringed highland basin of dense boreal forest, black volcanic rock, and standing water. The canopy is heavy, the light is poor, and most travel follows the rivers that drain from Ebon Spire into Lake Kolvatn. Settlement clings to the water; beyond the lake-shore and the upper burns the Deepwood is empty, wet, and quietly wrong.
+
+Environmental Scores
+Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora: 4 | Fauna: 2 | Topography: 3 | Hydrology: 3
+These are Harvest aggregates of the land-cover features below.
+Point sites are not averaged in.
+
+Height: highland basin
+
+Seasonal modifiers: Boreal
+
+--------------------------------------------------
+NOTABLE FEATURES
+Each land-cover feature has its own Harvest scores (0–5).
+Point sites are marked and are not averaged into the region scores.
+--------------------------------------------------
+
+Ebon Spire
+Inactive volcano and the dominant peak of the peninsula. Black, craggy rock. Source of the rivers that feed Lake Kolvatn.
+Temperature: 1 | Rainfall: 4 | Human Density: 0 | Flora: 2 | Fauna: 1 | Topography: 5 | Hydrology: 2
+
+Svarthorn Massif
+The black-rock mountain mass surrounding Ebon Spire. The true highland of the peninsula. Craggy, volcanic in origin, and far higher than the coastal hills.
+Temperature: 1 | Rainfall: 4 | Human Density: 1 | Flora: 3 | Fauna: 2 | Topography: 5 | Hydrology: 3
+
+Brocken Peak
+Northernmost peak of the Svarthorn Massif. A lesser black-rock height on the north face of the range, below Ebon Spire.
+Point site — not averaged.
+Temperature: 1 | Rainfall: 4 | Human Density: 0 | Flora: 3 | Fauna: 2 | Topography: 5 | Hydrology: 2
+
+Stetbjorg Height
+The left shoulder of Ebon Spire. A high, southernmost black-rock spur of the Svarthorn Massif, standing over Deepskaard Col.
+Point site — not averaged.
+Temperature: 1 | Rainfall: 4 | Human Density: 0 | Flora: 3 | Fauna: 2 | Topography: 5 | Hydrology: 2
+
+Westwood Heights
+Lower coastal ridge on the west of Kannavald. Forest covers most of the slopes; only the highest points rise above the canopy. Milder than the Ebon Spire massif.
+Temperature: 2 | Rainfall: 4 | Human Density: 1 | Flora: 4 | Fauna: 2 | Topography: 4 | Hydrology: 3
+
+Westwood Peak
+Tallest summit of Westwood Heights. One of the few points on the coastal ridge that rises clearly above the forest.
+Point site — not averaged.
+Temperature: 2 | Rainfall: 4 | Human Density: 0 | Flora: 3 | Fauna: 2 | Topography: 4 | Hydrology: 2
+
+Mistcap Crags
+Western heights at the seaward end of Westwood Heights. One of the few places the ridge breaks the canopy.
+Point site — not averaged.
+Temperature: 2 | Rainfall: 4 | Human Density: 0 | Flora: 4 | Fauna: 2 | Topography: 4 | Hydrology: 2
+
+Watchers Peak
+A forested height in Kannavald Deepwood, west of Lake Kolvatn. Named in the same local speech as the Quiet Watchers, though it is a mountain, not the stones.
+Point site — not averaged.
+Temperature: 2 | Rainfall: 4 | Human Density: 1 | Flora: 4 | Fauna: 2 | Topography: 4 | Hydrology: 2
+
+The Lowstacks
+A knot of lesser coastal heights on the south-west of Kannavald. Blunt, low, and clearly subordinate to both Westwood Peak and Ebon Spire.
+Temperature: 2 | Rainfall: 4 | Human Density: 0 | Flora: 4 | Fauna: 2 | Topography: 2 | Hydrology: 2
+
+Lake Kolvatn
+Central lake formed from Ebon Spire runoff. Economic heart of the Deepwood. Timber and ore come downriver to its shores.
+Temperature: 2 | Rainfall: 4 | Human Density: 3 | Flora: 3 | Fauna: 4 | Topography: 1 | Hydrology: 4
+
+Kolmire Fens
+Swampy western margin of Lake Kolvatn. Sunken ground. Site of the drowned former capital, Kolholm "The Sunkern Burg".
+Temperature: 2 | Rainfall: 4 | Human Density: 1 | Flora: 4 | Fauna: 3 | Topography: 1 | Hydrology: 5
+
+The Still Stones
+Also called the Black Circle, the Hollows, and the Quiet Watchers. Ancient standing stones in a large clearing in the deepest woods. Local law is absolute: do not approach. Misfortune in the region is often blamed on someone who did.
+Point site — not averaged.
+Temperature: 2 | Rainfall: 4 | Human Density: 0 | Flora: 5 | Fauna: 2 | Topography: 3 | Hydrology: 2
+
+Askflow
+Inlet to Lake Kolvatn. The main runoff from Ebon Spire.
+Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora: 4 | Fauna: 3 | Topography: 4 | Hydrology: 3
+
+Hornbeck
+Inlet to Lake Kolvatn. The darker forest-fed water from the Westwood Heights.
+Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora: 4 | Fauna: 2 | Topography: 3 | Hydrology: 3
+
+Rookburn
+Inlet to Lake Kolvatn. A lesser stream off the Ebon Spire / Svarthorn Massif.
+Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora: 4 | Fauna: 2 | Topography: 4 | Hydrology: 3
+
+The Sund
+The two-mile outflow draining Lake Kolvatn past Twaford. The water-gate of the region.
+Temperature: 2 | Rainfall: 4 | Human Density: 3 | Flora: 3 | Fauna: 3 | Topography: 2 | Hydrology: 4
+
+Underwood Shores
+The western coastal plain beneath Westwood Heights. Working shore, year-round navigable, with the forested ridge looming over it.
+Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora: 3 | Fauna: 3 | Topography: 1 | Hydrology: 5
+
+Deepskaard Col
+Densely forested mountain pass on the southern border of Kannavald Deepwood, between Westwood Peak and Stetbjorg Height. The land-gate of the region.
+Temperature: 2 | Rainfall: 4 | Human Density: 3 | Flora: 4 | Fauna: 2 | Topography: 4 | Hydrology: 2
+
+--------------------------------------------------
+LINKED SETTLEMENTS
+Full detail is recorded in the individual settlement documents.
+--------------------------------------------------
+- Kolby-on-Vatn
+- Twaford / The Twaford Twins
+- Askgruv
+- Hornby
+- Oldfort Kilnstead
+- Kolholm (ruin)
+
+--------------------------------------------------
+LESSER / SCATTERED / SEASONAL
+--------------------------------------------------
+Upper-river villages
+Small logging and mining settlements nearer the river sources. Timber and ore are floated down to Kolby-on-Vatn.
+
+Charcoal / Trapping hamlets
+Many small, scattered hamlets throughout Kannavald Deepwood. Charcoal-burning, trapping, and isolated woodland work.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+Access
+By the Sund, by Deepskaard Col, by the west coast, or over the mountains.
+
+Goods
+Timber, charcoal, hides, and ore move downriver to the lake.
+
+Population
+Land area: 29,391 square miles.
+Permanent population: about 16,000 (range 12,000–22,000).
+Overall density: roughly 0.5 people per square mile.
+Almost all of that population sits on the water. River and lake corridors, a small fraction of the land, hold the town, villages, and working landings. A thin margin of forest is used for charcoal, trapping, and small mines. The rest of Kannavald — the great majority of the Deepwood — has no permanent settlement.
+
+Working split
+- Kolby-on-Vatn: 4,000–6,000
+- Named villages and the Twaford crossing: 3,000–5,000 combined
+- Scattered charcoal hamlets and isolated households: 5,000–7,000
+- Remainder: seasonal camps, traplines, and mine-heads
+
+The extra land beyond those corridors is empty forest. Distance between named places should feel long.
+Region Hydrology is now 3: rivers and inlets as the mean, lake 4, fen and wet coast 5.
+
+Add to chat
+
+
+
+Modular Homebrew RPG System Setup - Grok

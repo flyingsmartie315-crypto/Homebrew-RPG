@@ -64,9 +64,9 @@ Hydrology (water features)
 0 – None / parched
 1 – Sparse trickles
 2 – Limited streams
-3 – Moderate rivers
-4 – Abundant lakes
-5 – Flooded / swamps
+3 – Rivers / inlets / channels
+4 – Lakes / major through-water
+5 – Flooded / swamps / wet coast
 
 --------------------------------------------------
 OCEANIC REGIONS – Environmental Scores (0–5)
@@ -242,6 +242,43 @@ As a result, any Geographic or Local Region may be wholly controlled, partially 
 This separation keeps environmental data stable while allowing the political map to shift through conquest, diplomacy, rebellion, or collapse.
 
 --------------------------------------------------
+HEIGHT
+--------------------------------------------------
+Height is an optional label for the Local Region as a whole.
+It is not a 0–5 score. It is not averaged. It is not used for HSI.
+
+It names the region’s seat in the world, not the steepness of its ground.
+
+highland basin
+A high, enclosed or half-enclosed floor, ringed by higher ground.
+
+high range
+A mountain mass as the main body of the region.
+
+highland
+High country that is not a closed basin and not a single range.
+
+plateau
+A raised table. The floor is high and relatively even.
+
+upland
+Hills and high ground above the neighbouring low country, short of a true highland.
+
+lowland
+Broad country near the regional base level.
+
+coastal plain
+Low, open land against the sea.
+
+coastal highland
+High ground that meets the sea.
+
+rift / trench
+A deep cut below the surrounding land. Use rarely.
+
+Do not mark a basin floor as lowland if that floor still sits high in the world.
+
+--------------------------------------------------
 LOCAL REGION STRUCTURE & FORMAT
 --------------------------------------------------
 
@@ -260,6 +297,11 @@ Temperature: X | Rainfall: X | Human Density: X | Flora: X | Fauna: X | Topograp
 These are Harvest aggregates: the rounded mean of the land-cover features below.
 Point sites (stones, ruins, a single peak used only as a landmark) are not averaged in.
 
+Height: [highland basin / high range / highland / plateau / upland / lowland / coastal plain / coastal highland / rift]
+Optional. One un-numbered line for the region as a whole.
+This is not a 0–5 score and is not averaged into the Environmental Scores.
+Use it when the region’s height class is not obvious from Temperature and Topography.
+
 Seasonal modifiers: [Template name]
 Season is applied to each feature first, on Temperature, Rainfall, Flora, and Fauna only.
 Then the region scores are aggregated again from those modified features.
@@ -274,7 +316,6 @@ Each land-cover feature has its own Harvest scores (0–5).
 Linked Settlements
 Full detail is recorded in the individual settlement documents.
 - [Settlement]
-- [Settlement]
 - [Ruin, if physically present]
 
 Lesser / Scattered / Seasonal
@@ -284,7 +325,7 @@ Places too small or too many for their own settlement file.
 
 Notes
 Access
-[How the region is entered and left. Main roads, passes, rivers, coasts.]
+[How the region is entered and left.]
 
 Goods
 [What moves, and along which routes.]
@@ -312,6 +353,7 @@ HOW TO SCORE
 3. When a season is dated, shift each feature’s Temperature, Rainfall, Flora, and Fauna by that template (+1 / 0 / −1).
 4. Average the land-cover features. Round to the nearest whole number. Clamp 0–5.
 5. Print that average as the region’s Environmental Scores.
+6. Optionally add a Height line for the region as a whole. It is a label, not a score.
 
 A lake, a forest, and a mountain each keep their own character.
 The region line is only the summary.
