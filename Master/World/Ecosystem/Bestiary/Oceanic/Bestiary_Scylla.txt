@@ -1,0 +1,59 @@
+# Bestiary_Scylla
+
+Type: Unveiling
+Domain: Marine
+Biome: Strand, Shelf, Gulf, Temperate sea, Warm sea, Tropical sea
+
+HSI
+Temperature: 3–5 | Rainfall: 2–4 | Human Density: 1–4 | Flora: 3–5 | Fauna: 3–5 | Topography: 0–2 | Hydrology: 2–4
+
+RHK
+Rarity: 5
+Individual Harm: 5
+Collective Harm: 3
+Knowledge: 6
+
+Properties
+Length: body 2–4 m; tentacles 8–12 m
+Weight: 400–1,200 kg
+Lifespan: 20–40 years
+Clutch: egg-cluster in a reef-hole or under-stone den
+Maturity: three to five years
+Dimorphism: little. Females hold the den.
+
+Stats
+Entity_Scylla.txt
+
+Overview
+Scylla are the smaller Unveiling kin of the kraken, of the shallows and the reef, not of the open deep. One central body, slim barbed tentacles, a faint eye-glow in stirred water. They take a swimmer or a small boat and pull it under. A prepared crew can drive one off with spear and fire. They are a shore-peril, not a navy’s problem.
+
+Signs
+- A rumble like far thunder under the hull
+- Eye-glow in murk, then the water coming up
+- Slim coils on a piling, a keel, or a swimmer
+- Foam and a muffled cry, then a boat that sits too low
+- Ink-cloud in the shallows after a miss
+- Egg-mass in a hole under the reef
+
+Behaviour
+One den to a stretch of reef or rock-shelf. The female sits it. She hunts by trailing tentacles into the working water — channel, landing, the lee of a skerry — and by waiting. The rumble comes first. Then the grab. Barbs hold. The body stays low. Prey is fish, seal, man, and anything that floats small. They do not attack a high-sided ship for preference.
+
+They are not a pack. Two on one reef is a disputed den or a mother and almost-grown young. The young leave. Most die on the next shelf.
+
+They do not come ashore to walk. Strand is the intertidal hunt, not a land-beast’s road. Fire hurts them. Spear in the mass ends it; a severed limb is not a kill. Ink is for the escape.
+
+False Moon puts the glow up and the hunt closer in to the boats. It does not breed a second bird on the same rock.
+
+Encounter
+One. A small boat or a swimmer is the usual take (Harm 5).
+A landing-party in the water is worse ground than a deck.
+Target the body. Limbs grow back slowly; they do not make two scylla.
+Kraken is a different file and a different depth. Do not run a scylla as a ship-killer.
+
+Notes
+- Locked name: Scylla. One body, slim tentacles. Not a ring of heads.
+- Domain is Marine. Land is a skip. Freshwater is a skip. Open sea and Abyssal fail the depth-line (Topography 0–2).
+- Use oceanic HSI meanings. Do not score them as a land animal.
+- Cold sea and Polar sea are poor. Warm reef and temperate shelf are home.
+- Economy: small-scale trophy — light scale, tooth, hide-rope, ink, sucker-hooks. Not a stall-common. No livestock price.
+- Kraken is Bestiary_Kraken when that file exists. Same family, not the same encounter.

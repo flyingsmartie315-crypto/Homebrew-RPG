@@ -1,0 +1,302 @@
+# Fauna_Temperate
+# Shortlist for this biome. Not an ecosystem.
+
+Biome: Temperate
+
+
+STOCK
+
+Sheep
+Domain: Land
+Biome: Temperate, Boreal, Oceanic, Steppe, Mediterranean
+HSI: Temperature: 1–4 | Rainfall: 2–4 | Human Density: 3–5 | Flora: 2–4 | Fauna: 2–3 | Topography: 0–3 | Hydrology: 2–3
+Rarity: 10 | Harm: 1 | Knowledge: 10
+Use: wool, meat, tallow, hide | Notes: the vale’s count. Tied to fold and village.
+
+Cattle
+Domain: Land
+Biome: Temperate, Oceanic, Steppe
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 9 | Harm: 2 | Knowledge: 10
+Use: meat, hide, milk, draught | Notes: wants the better grass. Thin on a cold or steep floor.
+
+Pig
+Domain: Land
+Biome: Temperate, Boreal, Oceanic
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–5 | Fauna: 2–4 | Topography: 0–3 | Hydrology: 2–3
+Rarity: 9 | Harm: 2 | Knowledge: 10
+Use: meat, fat, hide | Notes: mast-wood and sty. Follows oak and beech.
+
+Goat
+Domain: Land
+Biome: Temperate, Alpine, Mediterranean, Steppe, Boreal
+HSI: Temperature: 1–4 | Rainfall: 2–4 | Human Density: 2–5 | Flora: 1–3 | Fauna: 2–3 | Topography: 2–5 | Hydrology: 1–3
+Rarity: 8 | Harm: 1 | Knowledge: 9
+Use: milk, meat, hide | Notes: poor slope and browse. Where sheep will not stay.
+
+Horse
+Domain: Land
+Biome: Temperate, Steppe, Oceanic, Mediterranean
+HSI: Temperature: 2–4 | Rainfall: 2–4 | Human Density: 3–5 | Flora: 2–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 8 | Harm: 2 | Knowledge: 10
+Use: mount, draught | Notes: settlement-tied. Not a wood animal.
+
+Chicken
+Domain: Land
+Biome: Any
+HSI: Temperature: 2–4 | Rainfall: 2–4 | Human Density: 3–5 | Flora: 2–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 10 | Harm: 1 | Knowledge: 10
+Use: meat, egg | Notes: yard-bird. Drops off the table in true wild.
+
+Goose
+Domain: Land, Freshwater
+Biome: Temperate, Oceanic, Wetland, River
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 3–4 | Topography: 0–1 | Hydrology: 3–5
+Rarity: 8 | Harm: 1 | Knowledge: 9
+Use: meat, fat, quill, watch | Notes: water-yard and stubble.
+
+Dog
+Domain: Land
+Biome: Any
+HSI: Temperature: — | Rainfall: — | Human Density: 3–5 | Flora: — | Fauna: — | Topography: — | Hydrology: —
+Rarity: 10 | Harm: 3 | Knowledge: 10
+Use: herd, hunt, watch | Notes: follows people. HSI is the settlement.
+
+Cat
+Domain: Land
+Biome: Any
+HSI: Temperature: — | Rainfall: — | Human Density: 3–5 | Flora: — | Fauna: 2–4 | Topography: — | Hydrology: —
+Rarity: 9 | Harm: 1 | Knowledge: 10
+Use: vermin | Notes: follows the store and the rat.
+
+
+HUNT
+
+Red deer
+Domain: Land
+Biome: Temperate, Boreal
+HSI: Temperature: 1–3 | Rainfall: 3–4 | Human Density: 0–3 | Flora: 3–5 | Fauna: 2–4 | Topography: 1–4 | Hydrology: 2–4
+Rarity: 7 | Harm: 2 | Knowledge: 8
+Use: venison, hide, tallow, antler | Notes: the wood’s main quarry. Thin where Fauna is 2.
+
+Roe deer
+Domain: Land
+Biome: Temperate, Boreal, Oceanic
+HSI: Temperature: 1–4 | Rainfall: 3–4 | Human Density: 0–3 | Flora: 3–5 | Fauna: 2–3 | Topography: 1–3 | Hydrology: 2–3
+Rarity: 8 | Harm: 1 | Knowledge: 8
+Use: venison, hide | Notes: edge and copse. Smaller take.
+
+Wild boar
+Domain: Land
+Biome: Temperate, Boreal, Mediterranean
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 0–3 | Flora: 3–5 | Fauna: 2–4 | Topography: 1–3 | Hydrology: 2–4
+Rarity: 6 | Harm: 4 | Knowledge: 7
+Use: meat, hide, tusk | Notes: mast-wood. Dangerous quarry.
+
+Hare
+Domain: Land
+Biome: Temperate, Boreal, Steppe, Oceanic
+HSI: Temperature: 1–4 | Rainfall: 2–4 | Human Density: 0–3 | Flora: 2–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 8 | Harm: 1 | Knowledge: 8
+Use: meat, fur | Notes: open floor and field-edge.
+
+Rabbit
+Domain: Land
+Biome: Temperate, Oceanic, Mediterranean
+HSI: Temperature: 2–4 | Rainfall: 2–4 | Human Density: 1–4 | Flora: 2–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 9 | Harm: 1 | Knowledge: 9
+Use: meat, fur | Notes: warren and waste. Pest when the count rises.
+
+Squirrel
+Domain: Land
+Biome: Temperate, Boreal
+HSI: Temperature: 1–3 | Rainfall: 3–4 | Human Density: 0–3 | Flora: 4–5 | Fauna: 2–3 | Topography: 1–3 | Hydrology: 2–3
+Rarity: 8 | Harm: 1 | Knowledge: 8
+Use: meat, fur | Notes: canopy. Follows mast.
+
+Pheasant
+Domain: Land
+Biome: Temperate, Oceanic
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 1–4 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 7 | Harm: 1 | Knowledge: 7
+Use: meat, feather | Notes: copse and field. Often near working land.
+
+Mallard
+Domain: Freshwater, Land
+Biome: Temperate, Oceanic, Wetland, Lake, River, Pond
+HSI: Temperature: 2–4 | Rainfall: 3–5 | Human Density: 0–4 | Flora: 3–5 | Fauna: 3–4 | Topography: 0–1 | Hydrology: 4–5
+Rarity: 8 | Harm: 1 | Knowledge: 8
+Use: meat, down | Notes: the common duck.
+
+Beaver
+Domain: Land, Freshwater
+Biome: Temperate, Boreal, River, Wetland, Pond
+HSI: Temperature: 1–3 | Rainfall: 3–5 | Human Density: 0–2 | Flora: 3–5 | Fauna: 2–4 | Topography: 0–2 | Hydrology: 4–5
+Rarity: 6 | Harm: 2 | Knowledge: 6
+Use: pelt, meat, castoreum | Notes: cuts the stream. Feature-maker.
+
+
+PREDATOR
+
+Wolf
+Domain: Land
+Biome: Temperate, Boreal, Alpine, Steppe
+HSI: Temperature: 0–3 | Rainfall: 2–4 | Human Density: 0–2 | Flora: 2–4 | Fauna: 3–5 | Topography: 1–4 | Hydrology: 2–4
+Rarity: 6 | Harm: 4 | Knowledge: 8
+Use: pelt | Notes: pack hunter. Wants game. Thin where Fauna is 2.
+
+Fox
+Domain: Land
+Biome: Temperate, Boreal, Oceanic, Steppe
+HSI: Temperature: 1–4 | Rainfall: 2–4 | Human Density: 1–4 | Flora: 2–4 | Fauna: 2–4 | Topography: 0–3 | Hydrology: 2–3
+Rarity: 8 | Harm: 2 | Knowledge: 8
+Use: pelt | Notes: yard and wood-edge. Seen less than it is present.
+
+Lynx
+Domain: Land
+Biome: Temperate, Boreal, Alpine
+HSI: Temperature: 1–3 | Rainfall: 3–4 | Human Density: 0–2 | Flora: 3–5 | Fauna: 2–4 | Topography: 2–4 | Hydrology: 2–3
+Rarity: 5 | Harm: 3 | Knowledge: 5
+Use: pelt | Notes: shy. Deep wood and height.
+
+Badger
+Domain: Land
+Biome: Temperate, Boreal, Oceanic
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 0–3 | Flora: 3–5 | Fauna: 2–3 | Topography: 1–3 | Hydrology: 2–3
+Rarity: 7 | Harm: 3 | Knowledge: 7
+Use: pelt, fat | Notes: sett in the bank. Night worker.
+
+Otter
+Domain: Land, Freshwater
+Biome: Temperate, Boreal, Oceanic, River, Lake, Wetland
+HSI: Temperature: 1–4 | Rainfall: 3–5 | Human Density: 0–3 | Flora: 3–5 | Fauna: 3–5 | Topography: 0–2 | Hydrology: 4–5
+Rarity: 6 | Harm: 2 | Knowledge: 6
+Use: pelt | Notes: the water’s hunter. Fish-take.
+
+Pine marten
+Domain: Land
+Biome: Temperate, Boreal
+HSI: Temperature: 1–3 | Rainfall: 3–4 | Human Density: 0–2 | Flora: 4–5 | Fauna: 2–3 | Topography: 2–4 | Hydrology: 2–3
+Rarity: 5 | Harm: 2 | Knowledge: 5
+Use: pelt | Notes: canopy. Squirrel-killer.
+
+Goshawk
+Domain: Air, Land
+Biome: Temperate, Boreal
+HSI: Temperature: 1–3 | Rainfall: 3–4 | Human Density: 0–3 | Flora: 4–5 | Fauna: 2–4 | Topography: 1–3 | Hydrology: 2–3
+Rarity: 6 | Harm: 2 | Knowledge: 6
+Use: feather, falconry | Notes: short-wing of the closed wood.
+
+Tawny owl
+Domain: Air, Land
+Biome: Temperate, Boreal, Oceanic
+HSI: Temperature: 1–4 | Rainfall: 3–4 | Human Density: 0–3 | Flora: 3–5 | Fauna: 2–4 | Topography: 1–3 | Hydrology: 2–3
+Rarity: 7 | Harm: 1 | Knowledge: 7
+Use: — | Notes: night voice of the vale wood.
+
+
+PEST
+
+Brown rat
+Domain: Land
+Biome: Any
+HSI: Temperature: 2–4 | Rainfall: — | Human Density: 3–5 | Flora: — | Fauna: 2–4 | Topography: — | Hydrology: 2–4
+Rarity: 10 | Harm: 1 | Knowledge: 10
+Use: — | Notes: store, ship, and ditch. Follows people.
+
+Mouse
+Domain: Land
+Biome: Any
+HSI: Temperature: 1–4 | Rainfall: — | Human Density: 2–5 | Flora: 2–4 | Fauna: 2–3 | Topography: — | Hydrology: —
+Rarity: 10 | Harm: 1 | Knowledge: 10
+Use: — | Notes: crib and thatch.
+
+Crow
+Domain: Air, Land
+Biome: Temperate, Boreal, Oceanic, Steppe
+HSI: Temperature: 1–4 | Rainfall: 2–4 | Human Density: 1–5 | Flora: 2–4 | Fauna: 2–4 | Topography: 0–3 | Hydrology: 2–3
+Rarity: 9 | Harm: 1 | Knowledge: 8
+Use: — | Notes: field and gallows. Learns a stretch.
+
+Wood pigeon
+Domain: Air, Land
+Biome: Temperate, Oceanic
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 1–4 | Flora: 3–5 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 9 | Harm: 1 | Knowledge: 8
+Use: meat | Notes: mast and crop. Pest when the field is ripe.
+
+
+WATER
+
+Brown trout
+Domain: Freshwater
+Biome: Temperate, Boreal, Oceanic, River, Burn, Lake
+HSI: Temperature: 1–3 | Rainfall: 3–5 | Human Density: 0–3 | Flora: 2–4 | Fauna: 3–4 | Topography: 1–4 | Hydrology: 3–5
+Rarity: 7 | Harm: 1 | Knowledge: 8
+Use: fish | Notes: clean running water. Fails a warm stagnant.
+
+Pike
+Domain: Freshwater
+Biome: Temperate, Boreal, Lake, River, Wetland
+HSI: Temperature: 2–4 | Rainfall: 3–5 | Human Density: 0–3 | Flora: 3–5 | Fauna: 4–5 | Topography: 0–1 | Hydrology: 4–5
+Rarity: 6 | Harm: 2 | Knowledge: 7
+Use: fish | Notes: still and slow water. Eats the rest of this list.
+
+Perch
+Domain: Freshwater
+Biome: Temperate, Boreal, Lake, River, Pond
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 0–3 | Flora: 3–4 | Fauna: 3–4 | Topography: 0–1 | Hydrology: 3–5
+Rarity: 7 | Harm: 1 | Knowledge: 7
+Use: fish | Notes: the common pan-fish.
+
+Eel
+Domain: Freshwater
+Biome: Temperate, Oceanic, River, Lake, Wetland
+HSI: Temperature: 2–4 | Rainfall: 3–5 | Human Density: 0–3 | Flora: 3–5 | Fauna: 3–4 | Topography: 0–2 | Hydrology: 4–5
+Rarity: 7 | Harm: 1 | Knowledge: 7
+Use: fish, oil | Notes: mud and night. Runs to the sea to breed.
+
+Carp
+Domain: Freshwater
+Biome: Temperate, Pond, Lake, River
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 1–4 | Flora: 3–5 | Fauna: 3–4 | Topography: 0–1 | Hydrology: 4–5
+Rarity: 6 | Harm: 1 | Knowledge: 7
+Use: fish | Notes: still, warmish water. Often stocked.
+
+Salmon
+Domain: Freshwater, Marine
+Biome: Temperate, Boreal, Oceanic, River, Burn
+HSI: Temperature: 1–3 | Rainfall: 3–5 | Human Density: 0–3 | Flora: 2–4 | Fauna: 3–4 | Topography: 1–4 | Hydrology: 3–5
+Rarity: 6 | Harm: 1 | Knowledge: 7
+Use: fish | Notes: run up the clean river. Season-locked.
+
+Crayfish
+Domain: Freshwater
+Biome: Temperate, Oceanic, River, Burn, Lake
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 0–3 | Flora: 2–4 | Fauna: 3–4 | Topography: 0–2 | Hydrology: 3–5
+Rarity: 7 | Harm: 1 | Knowledge: 6
+Use: meat | Notes: under the stone.
+
+Frog
+Domain: Freshwater, Land
+Biome: Temperate, Wetland, Pond, River, Lake
+HSI: Temperature: 2–4 | Rainfall: 3–5 | Human Density: 0–3 | Flora: 3–5 | Fauna: 3–4 | Topography: 0–1 | Hydrology: 4–5
+Rarity: 8 | Harm: 1 | Knowledge: 7
+Use: meat | Notes: the fen’s noise. Fenwight-prey.
+
+
+GREAT BEAST
+
+Brown bear
+Domain: Land
+Biome: Temperate, Boreal, Alpine
+HSI: Temperature: 1–3 | Rainfall: 3–5 | Human Density: 0–2 | Flora: 3–5 | Fauna: 2–4 | Topography: 2–5 | Hydrology: 2–4
+Rarity: 5 | Harm: 5 | Knowledge: 7
+Use: hide, fat, meat | Notes: the wood’s large animal. Not Unveiling. Mast and fish.
+
+Elk
+Domain: Land
+Biome: Temperate, Boreal
+HSI: Temperature: 1–3 | Rainfall: 3–4 | Human Density: 0–2 | Flora: 3–5 | Fauna: 2–4 | Topography: 1–3 | Hydrology: 2–4
+Rarity: 5 | Harm: 3 | Knowledge: 6
+Use: meat, hide, antler | Notes: cool-edge of Temperate. Commoner on the Boreal file.

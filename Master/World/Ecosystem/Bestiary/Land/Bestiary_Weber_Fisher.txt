@@ -1,0 +1,60 @@
+# Bestiary_Weber_Fisher
+
+Type: Natural
+Domain: Land, Freshwater
+Biome: River, Wetland, Lake, Pond
+
+HSI
+Temperature: 2–4 | Rainfall: 3–5 | Human Density: 0–3 | Flora: 3–5 | Fauna: 3–5 | Topography: 0–3 | Hydrology: 3–5
+
+RHK
+Rarity: 6
+Individual Harm: 3
+Collective Harm: 3
+Knowledge: 6
+
+Properties
+Height: — (sits and hangs; not a standing beast)
+Leg-span: 4–7 ft
+Body: 25–45 kg (large-dog to small-wolf.)
+Lifespan: 8–15 years
+Clutch: egg-sac, dozens of young. Most are eaten or wash out.
+Maturity: one to two years
+Dimorphism: females larger; they hold the hang. Males wander and die sooner.
+
+Stats
+Entity_Weber_Fisher.txt
+
+Overview
+Weber-fishers are the water-edge hangers. Riverfolk call them Old Eight-Lines. Dark blue-black or reed-mottled, short slick hair, long thin legs, hooked claws for wet stone, piling, and branch. They do not run down a man. They dangle eight silk lines into the current, each tipped with a sticky drop or a small lure, and they wait. When a line goes taut they reel, haul, bite, and wrap. They are the least of the Unveiling-adjacent water-threats, and they were here as a stable kind, not a new spawn.
+
+Signs
+- Eight thin lines in the water under a branch, rock, or piling
+- Small lures or droplets on the drift
+- Silk wrap in the overhang: fish-head, frog-bone, a duck’s foot
+- Hook-scratch on wet timber
+- A gap in the small-fish take on a favoured stretch
+- On a False Moon, the lines take a faint light
+
+Behaviour
+One hang, one bird. They do not hunt as a pack and they do not keep a chief. The female owns the overhang. She sits still for hours. The lines fish for her. Prey is fish, frog, and waterfowl. A floater will be taken if it hits a line; that is all the “cleaning” they do. They do not go into the open water after a kill.
+
+They are shy of men. Sudden move or torchlight and they go up into the cover or drop and run along the bank. They bite a person when the nest is touched or a line is cut. The venom is weak: numbness and swelling in the limb, not a drop. Children and drunks are the ones who get a hand in the silk.
+
+Riverfolk leave a small fish on the piling or the root. The gift is to keep the hang where it is, and to keep a hand off the lines. It is not worship.
+
+False Moon makes the silk show and the spider bolder. Then they will dangle nearer a boat or a lone rod. They still run from a lantern if it is shoved at them.
+
+Young hatch from a sac in the same overhang and scatter. Most die. A stretch of river may hold several hangs, each its own.
+
+Encounter
+One spider on one hang. A second hang is a second beast, not a pair-bond.
+Cutting lines or climbing the nest is what starts a fight.
+False Moon: easier to see, closer to boats, same Harm.
+Fenwight water can hold both. They are not allies. A fenwight will take a wrapped catch if it can reach it.
+
+Notes
+- Locked name: Weber-Fisher. Spoken name: Old Eight-Lines.
+- Domain is Land and Freshwater. They hunt from above the water. Marine is a skip. A dry ridge is a skip.
+- Need an overhang: branch, rock, piling, root. Open fen with no perch is poor HSI even if the biome matches.
+- Economy: no price. A fish on a piling is cheaper than a swollen hand.

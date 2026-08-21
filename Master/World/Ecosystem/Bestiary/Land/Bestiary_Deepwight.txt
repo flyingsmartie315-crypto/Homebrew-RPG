@@ -1,0 +1,61 @@
+# Bestiary_Deepwight
+
+Type: Unveiling
+Domain: Land
+Biome: Alpine, Boreal, Polar
+
+HSI
+Temperature: 0–2 | Rainfall: 2–4 | Human Density: 0–3 | Flora: 0–2 | Fauna: 1–3 | Topography: 4–5 | Hydrology: 1–3
+
+RHK
+Rarity: 6
+Individual Harm: 4
+Collective Harm: 5
+Knowledge: 5
+
+Properties
+Height: 1.4–1.7 m. Built to a fissure, not to a road.
+Weight: 40–60 kg
+Lifespan: 25–40 years
+Clutch: small litters in the dark. A year to a raider.
+Maturity: two to three years
+Dimorphism: little. The largest male keeps the deepest hole.
+
+Stats
+Entity_Deepwight.txt
+
+Overview
+Deepwights are an Unveiling strain of the high hole: cavern, dead mine, and the ridge that opens underfoot. Scholars say troglodyte. Ridge-folk say clicker. Compact, wiry, limbs a little long, skin pale enough to show the vein, eyes small and poor. They run the tunnel by click and hum. They raid in the night and they are gone before the sun sits on the stone. They are not a people. They are not gryphons. They are the mountain’s basement, breeding true.
+
+Signs
+- Click and low hum in a shaft or a sink
+- A mine-mouth that breathes when the wind does not
+- Goat, meal, or a sleeper gone before dawn
+- Flint flakes, stolen picks, a torch burned down in the wrong place
+- Bone and stolen iron hung on a sinew in the dark
+- Fresh spoil below a slope that had no working
+- Spiral and claw-cut on a wall, half a mark, not a script
+
+Behaviour
+They live in the deep of a cave-system or a dead working. The strongest hold the furthest dark. The rest take the outer rifts. There is no chief’s court. There is a hole that the others do not enter.
+
+They move at night on the surface. Dawn puts them back under. They take food, tools, and sometimes a body — meat, or a back to carry until it fails. They do not keep slaves as a trade. They do not come to talk.
+
+Sight is poor. Click and hum map the stone and pick a moving thing. A loud party in a mine is a beacon. A quiet party can pass a side-rift if they do not strike metal.
+
+Tools are flint, broken stone, and whatever they stole last. They cut, they pry, they open a new mouth if you seal the old one. Dense bone and a miner’s shoulder take a fall better than a man. They do not claw through live granite.
+
+Ornament is trophy: bone, a ring on a string, a wall-cut. The old one that sits by a drip is not a priest. Folk call it a shaman. It listens. That is all anyone has proved.
+
+False Moon takes the clicks up into howls and puts whole groups on the ridge. Then the fold and the out-hamlet are in season.
+
+Encounter
+One in a rift is a nasty ambush (Harm 4).
+A night-raid is several, then a retreat into stone (Collective 5).
+Sealing one mouth is not a clear. Watch for a new sink.
+False Moon: surface numbers, less caution.
+
+Notes
+- Locked name: Deepwight. Spoken: clicker. Troglodyte is the scholar’s word. Do not write them a clan-law or a church.
+- Domain is Land. The cave is a feature, not a biome. Alpine, Boreal, Polar are the gate.
+- Economy: no price. A closed mine and a paid watch on a goat-fold are the costs.

@@ -1,0 +1,64 @@
+# Bestiary_Skinwight
+
+Type: Unveiling
+Domain: Land
+Biome: Boreal, Temperate, Tropical wet
+
+HSI
+Temperature: 1–4 | Rainfall: 3–5 | Human Density: 0–1 | Flora: 4–5 | Fauna: 2–4 | Topography: 2–5 | Hydrology: 2–4
+
+RHK
+Rarity: 5
+Individual Harm: 5
+Collective Harm: 4
+Knowledge: 6
+
+Properties
+Height: 1.6–1.9 m in the standing mask; longer in the limb when it drops
+Weight: 50–80 kg
+Lifespan: unknown. Hunted ones die of steel or fire. None have been kept.
+Clutch: none recorded
+Maturity: —
+Dimorphism: —
+
+Stats
+Entity_Skinwight.txt
+
+Overview
+Skinwights came with the Unveiling, in the closed canopy where the path forgets itself. They stand almost as a person and they are wrong in every joint: gait on strings, knees that take a side-way, eyes too wide, a mouth that does not know a smile, needle-teeth behind lips that do not fit. They copy voices they have heard — a child, a lover, a mother through the mist — and nothing else. They do not reason speech. They do not belong in a town. They wait at the last trees and they make a man walk to them.
+
+Signs
+- A known voice from the wrong place, calling for help
+- The same phrase again, no new words
+- A standing figure at the tree-line that does not settle its weight
+- Scratch-marks high on bole or stone, too high for a cat
+- A kill left slow: fear-work, not a feeding
+- Silence after a cry that should have brought an answer
+- A door-knock in the same cadence as someone already inside
+
+Behaviour
+They hold a stretch of deep wood, not a nest in the gryphon sense. One to a country of canopy. They do not hunt the street or the market. Straight walls, many bodies, and hard light confuse them. The outer woodlot and the overgrown path are as close to a village as they will come.
+
+They eat. Man is the preferred take. Beast will do if nothing answers. The lure is the tool: they play a heard voice, wait for the step toward it, and close. If they can make the prey see a way out and lose it, they will. That is method, not theatre. When the mask is enough they walk. When it is not, or when they mean to run, they drop to all fours and go spider-fast, up trunk and rock.
+
+The face is a worn thing. It is taken from a kill and it never sits right. They do not grow a perfect double and they do not speak a tongue they have not heard. A quiet party gives them little. A talking party teaches them the next cry.
+
+They are mortal. Steel cuts. Fire takes them. They are faster and crueller than the thing they are wearing. Hunters go in pairs or not at all, and they wait for the mouth to slip.
+
+False Moon makes the calls more frequent and the hunt less careful. It does not put them in the square.
+
+Encounter
+One. Almost never two.
+The fight starts when someone answers the voice, or when the mask is already inside the firelight.
+A knock at an isolated door is an encounter if the voice is known and the body is not seen.
+Do not give it new sentences. Repeat what the table has already said, badly timed.
+Quantity stays low (Rarity 5). Deep canopy and Human Density 0–1 are the gate. A town is a skip.
+
+Notes
+- Locked name: Skinwight. Spoken: caller, or the answer in the trees. Do not write Skinwalker.
+- The face is a taken skin, worn badly. That is the lock. Not a born human, not a perfect double.
+- They copy only what they have heard. Deep-wood custom: do not go alone to a cry; do not open a door on a voice without a blade; do not talk loud on the long path.
+- Domain is Land. Water and sea are skips. Open steppe, arid, and strand fail Flora and cover.
+- Kannavald: the Deepwood floor is candidate country. Kolby’s streets are not.
+- Fenwight is the fen. Weber-fisher is the hang. This is the unanswered call. Do not mix them.
+- Economy: no price. A hide is a trophy and a curse-rumour, not a stall-good.

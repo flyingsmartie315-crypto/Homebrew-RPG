@@ -1,0 +1,64 @@
+# Bestiary_Royal_Gryphon
+
+Type: Unveiling
+Domain: Land, Air
+Biome: Alpine, Polar, Boreal
+
+HSI
+Temperature: 0–2 | Rainfall: 2–4 | Human Density: 0–2 | Flora: 1–3 | Fauna: 2–4 | Topography: 4–5 | Hydrology: 1–3
+
+RHK
+Rarity: 1
+Individual Harm: 8
+Collective Harm: 2
+Knowledge: 5
+
+Properties
+Height: 3.6 m at the shoulder; 4.5 m at the head when standing
+Weight: 2,800–3,500 kg
+Lifespan: several centuries
+Clutch: none of their own. One in a thousand eggs from an earthbound pair.
+Maturity: slower than earthbound; on the wing before the first Longnight is out, full size within a few years
+Dimorphism: all recorded adults are male.
+
+Stats
+Entity_Royal_Gryphon.txt
+
+Overview
+Royal Gryphons are the winged hatch of an ordinary gryphon nest. One egg in a thousand. They come larger, and they come with working wings: eagle head and beak, lion body, tawny hide, a span that will take them the length of a range in a day. Always male. A handful have been named on Virath since the Unveiling — rarer than Pegasus. The roar carries a valley. The talons open plate. They are not the earthbound gryphon, and they are not a market beast.
+
+Signs
+- A shadow that does not belong to any cloud, circling a massif
+- Nest-crag of an earthbound pair, one chick already bigger than the dam
+- Roar that shakes loose stone
+- Boulders, wagons, or roof-work moved to the drop
+- A single huge kill cached on a peak no climber uses
+- Earthbound pair gone quiet, or dead, under a new tenant
+
+Behaviour
+They do not make a people. There is no royal dam, no royal clutch, no pair of royals on one rock. The bird hatches in an earthbound nest and outgrows it. By the time it takes the air the home pair cannot keep it, and most cannot share a crag with it. It leaves, or the crag becomes its own.
+
+They are solitary. A Royal holds a territory the size of a small range and patrols it from height. They do not migrate between countries. Highsun they take the high ice and the long thermal. Longnight they still fly; they only come lower when weather or hunger says so. They hunt alone. They are not angry by nature. A traveller on the pass who keeps his distance is usually left. A challenge, a climb to the cache, or a strike at the bird is answered by a stoop: talons first, beak after.
+
+They share the earthbound habit of knocking what is loose into the drop. At this weight that is a boulder, a cart, a section of wall. It is still play.
+
+They do not pair. They do not sit eggs. The one-in-a-thousand hatch is the whole of their increase. A Royal that lives four hundred years is still only one bird.
+
+Bonding is rarer than the hatch. The bird chooses. Courage and respect, proved on the mountain, are the only coin. A rider who fails is refused, or killed if he tries to take the choice away. A rider who is taken is taken for life. The bond is not a mate-substitute in the earthbound sense; it is closer to a chosen equal. The rider gets the air: reconnaissance, travel, a strike that will break a field. The bird will die for that person. Capture, sale, or force is wasted and, in most law, sacrilege.
+
+Grief is not recorded the way it is in earthbound widows. There is no mate to lose. Harm to a bonded rider is the thing that will bring a Royal down onto men and keep it there.
+
+Encounter
+Never a pair of Royals. Never a clutch of royal eggs.
+A sighting is one bird, usually at height.
+An earthbound nest with one over-large chick is the only “young royal” encounter, and the parents are still the danger on the face.
+A stoop is a battlefield problem, not a patrol fight.
+A bird that follows a party across country is either curious or already decided.
+Quantity is mythical (Rarity 1). False Moon may draw them lower and make a stoop more likely. It does not make a second bird.
+
+Notes
+- Domain is Land and Air. They nest and kill on rock; they travel on the wing.
+- Alpine and Polar are home. Boreal is the high massif, as with the earthbound.
+- Economy: Economy_Unveiling_Beasts.txt. Beyond price. Institutional upkeep only. Not livestock.
+- Earthbound gryphon is Bestiary_Gryphon.txt / Entity_Gryphon.txt. Same egg, different bird. Do not mix them at the table.
+- Pegasus is rarer in the market-sense of “cannot be held”; Royals are rarer in count. Do not treat them as the same wonder.
