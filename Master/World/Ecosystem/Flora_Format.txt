@@ -1,0 +1,47 @@
+# Flora_Format.txt
+# How to write a biome plant shortlist.
+# How to read Domain, Biome, and HSI is in Bestiary_Rules.txt.
+# Biome tags come from Geography_Rules.txt.
+
+File name
+Flora_[Biome].txt
+Use the locked biome tag. Spaces become underscores.
+Examples: Flora_Boreal.txt / Flora_Temperate.txt / Flora_Wetland.txt
+
+# Flora_[Biome]
+# Shortlist for this biome. Not an ecosystem.
+
+Biome: [locked tag]
+
+COVER
+The plants that make the country look like this biome.
+
+[Name]
+Domain: [Land / Freshwater / Marine]
+Biome: [this tag and any others it belongs to, or Any]
+HSI: Temperature: X–Y | Rainfall: X–Y | Human Density: X–Y | Flora: X–Y | Fauna: X–Y | Topography: X–Y | Hydrology: X–Y
+Rarity: X
+Use: [timber, mast, fuel] | Notes: [canopy, understorey]
+
+FORAGE
+Wild take: food, dye, medicine, fibre.
+
+[Name]
+Domain: [ ]
+Biome: [ ]
+HSI: Temperature: X–Y | Rainfall: X–Y | Human Density: X–Y | Flora: X–Y | Fauna: X–Y | Topography: X–Y | Hydrology: X–Y
+Rarity: X
+Use: [ ] | Notes: [ ]
+
+[Same block]
+
+HAZARD
+Poison, thorn, bog-wood, things that close a path.
+
+[Same block]
+
+Omit a section if this biome has nothing for it.
+Repeat the plant in every Flora_ file whose biome tag it carries.
+Agriculture sits on working land, not on every matching feature.
+A dash (—) on an HSI axis means indifferent.
+Fauna on a plant line is animal life around the plant, not the plant’s own abundance.

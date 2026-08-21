@@ -1,0 +1,43 @@
+# Settlement_Format.txt
+# How to write a Settlement file.
+# Political control lives here, not on the region files.
+
+File name
+Settlement_[Name].txt
+Use the locked in-world name. Spaces become underscores. Hyphens in a place-name may be kept.
+Examples: Settlement_Kolby-on-Vatn.txt / Settlement_Twaford.txt / Settlement_Skaardhold.txt
+
+# [Settlement Name]
+
+Type
+[City / Town / Village / Castle / Ruin / Hamlet / other]
+
+Location
+Local Region: [Name]
+Geographic Region: [Name]
+Position: [Short physical placement]
+
+Overview
+[3–6 sentences. Character, function, and current political control.]
+
+Control
+[Faction, house, order, or power that currently holds the place. Note if contested.]
+
+Population
+[Working figure and a short note on who lives there]
+
+Economy
+[What the settlement actually does.]
+
+Defences / Access
+[Walls, keep, river-gate, pass-watch, harbour, or lack of them. How it is reached.]
+
+Linked Features
+- [Local Region features that immediately define the site]
+
+Notes
+[GM-facing detail: stores, tensions, known threats, seasonal limits, or campaign hooks]
+
+One file per settlement or ruin of consequence.
+If control changes, update this file and the Campaign Log.
+Unnamed charcoal hamlets and seasonal camps stay in the Local Region Lesser / Scattered / Seasonal list until they need their own file.

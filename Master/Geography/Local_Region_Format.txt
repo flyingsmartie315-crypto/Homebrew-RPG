@@ -1,0 +1,96 @@
+# Local_Region_Format.txt
+# How to write a Local Region file.
+# How to read scores and biomes is in Geography_Rules.txt.
+
+File name
+Local_Region_[Name].txt
+
+# [Local Region Name]
+
+Overview
+[2–4 sentences of atmospheric description focusing on physical character, mood, and distinctive features]
+
+Biome: [one tag from Geography_Rules.txt]
+Sub-biomes: [tags from the same list, or none]
+The Biome is the climate or water of the floor.
+Sub-biomes are other biomes that occupy real ground or water in this region.
+At least one climate biome must appear here so the seasonal template is known.
+
+Environmental Scores
+Temperature: X | Rainfall: X | Human Density: X | Flora: X | Fauna: X | Topography: X | Hydrology: X
+Harvest aggregates: the rounded mean of the land-cover features below.
+Point sites are not averaged in.
+
+Height: [highland basin / high range / highland / plateau / upland / lowland / coastal plain / coastal highland / rift / trench]
+Optional. One un-numbered line for the region as a whole.
+Not a 0–5 score. Not averaged. Not an HSI axis.
+
+Seasonal modifiers: [climate biome]
+Must be a climate biome named above as Biome or as a Sub-biome.
+If Biome is water, this line is the climate tag listed under Sub-biomes.
+
+Notable Features
+Each land-cover feature has its own Harvest scores (0–5).
+Point site = pin only (stones, ruin, named summit on ground already scored). Not averaged.
+A biome line is given only when the feature is not the region Biome.
+If present, it must be one of this region’s Biome or Sub-biomes.
+
+- [Feature]
+  [description]
+  Biome: [tag, only if different from the region Biome]
+  Temperature: X | Rainfall: X | Human Density: X | Flora: X | Fauna: X | Topography: X | Hydrology: X
+
+Linked Settlements
+Full detail is recorded in the individual settlement documents.
+- [Settlement]
+- [Ruin, if physically present]
+
+Lesser / Scattered / Seasonal
+Places too small or too many for their own settlement file.
+- [Type]
+  [What they are and what they do]
+
+Notes
+Access
+[How the region is entered and left.]
+
+Goods
+[What moves, and along which routes.]
+
+Population
+Land area: [square miles]
+Permanent population: [figure] (range [low]–[high])
+Overall density: [people per square mile]
+[Where people actually sit. What of the land is empty.]
+
+Working split
+- [Chief town]: [range]
+- [Named villages / crossings]: [range]
+- [Scattered hamlets / isolated households]: [range]
+- Remainder: [seasonal camps, traplines, and the like]
+
+[One closing line on distance and travel feel.]
+
+Wildlife
+Optional. A short list after the biome filter and HSI.
+Do not copy Fauna_ or Flora_ files into this document.
+
+
+HOW TO BUILD THE SCORES
+
+1. Name the Biome and any Sub-biomes from the locked list.
+2. Score every land-cover feature in all seven measures at Harvest.
+3. Tag a feature with its own biome only when it is not the region Biome.
+4. Name the seasonal template: the climate biome in use.
+5. Average the land-cover features. Round to the nearest whole number. Clamp 0–5.
+6. Print that average as the region’s Environmental Scores.
+7. Optionally add a Height line.
+
+A lake, a forest, and a mountain each keep their own character.
+The region line is only the summary.
+
+SHARED FEATURES
+A border landform may appear in two Local Region files.
+The full write-up lives in one file.
+The other lists the same name, marks it Shared, and scores only its own face.
+Point sites stay unaveraged on both sides.

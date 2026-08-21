@@ -1,15 +1,21 @@
 # Geography_Rules.txt
-# Environmental Scoring System for Geographic Regions
+# How to read environmental scores, biomes, and season on Virath.
 
-These scores provide a consistent way to describe the environment of any land or oceanic region on Virath.
-They are used both for general regional description and for comparison against creature HSI values in the Bestiary.
+These scores describe any land or oceanic place.
+They are compared to creature HSI in Bestiary_Rules.txt.
+
+How to write the files is not in this document.
+- Local_Region_Format.txt
+- Geographic_Region_Format.txt
+- Settlement_Format.txt
 
 Every scored place uses seven measures, written on one line:
 
 Temperature: X | Rainfall: X | Human Density: X | Flora: X | Fauna: X | Topography: X | Hydrology: X
 
+
 --------------------------------------------------
-LAND REGIONS – Environmental Scores (0–5)
+LAND – Environmental Scores (0–5)
 --------------------------------------------------
 
 Temperature (heat / cold)
@@ -68,11 +74,13 @@ Hydrology (water features)
 4 – Lakes / major through-water
 5 – Flooded / swamps / wet coast
 
+
 --------------------------------------------------
-OCEANIC REGIONS – Environmental Scores (0–5)
+OCEANIC – Environmental Scores (0–5)
 --------------------------------------------------
 
-When scoring oceanic regions, the same seven categories are used with adapted meanings.
+Same seven categories, different meanings.
+Do not mix land meanings and oceanic meanings in the same comparison.
 
 Temperature (water temperature)
 0 – Polar / permanently frozen surface or near-freezing
@@ -130,14 +138,151 @@ Hydrology (sea state / surface conditions)
 4 – Rough currents
 5 – Extreme storms / violent seas
 
+
+--------------------------------------------------
+BIOMES
+--------------------------------------------------
+
+Biome is a quick filter for flora, fauna, and Bestiary placement.
+HSI remains the finer tool.
+
+Biome and Sub-biomes use this same list.
+Do not invent new tags without adding them here.
+
+A Local Region names one Biome and may name Sub-biomes.
+A Geographic Region does not take a biome line. It inherits the set of its Local Regions.
+
+
+LAND – CLIMATE
+These ten carry seasonal templates.
+
+Polar
+Tundra, ice-waste, and the high frozen floor.
+
+Boreal
+Cold forest, taiga, and dark winter wood.
+
+Alpine
+High mountain climate: short thaw, hard Longnight, rock and snow.
+
+Temperate
+Mild seasonal country. The default of vale, ridge, and mixed wood.
+
+Oceanic
+Wet coast and year-round damp air. Land climate, not the sea itself.
+
+Steppe
+Grass, dry wind, and open distance.
+
+Mediterranean
+Dry-summer coast and maquis.
+
+Arid
+Desert of sand, stone, or salt.
+
+Tropical wet
+Hot rainforest and standing wet.
+
+Tropical wet-dry
+Hot monsoon country. Thaw is the wet; Highsun is the drought.
+
+
+LAND – WATER
+Standing and running water on the land.
+Use as Biome when the Local Region is that water.
+Use as Sub-biome when it is a real part of a land region.
+
+Burn
+Headwater, mountain stream, and small fast water.
+
+River
+A named ordinary river and its floor.
+
+Great river
+Through-water that defines a country. Days to follow, not hours.
+
+Pond
+Small still water: mere, pool, farm-pond, wood-pond.
+
+Lake
+Standing water of regional consequence.
+
+Great lake
+Inland sea. A crossing is a voyage.
+
+Wetland
+Fen, marsh, swamp, and flood-meadow.
+
+
+OCEANIC
+Use oceanic HSI meanings when scoring these.
+
+Polar sea
+Ice-edge, near-freezing water, polar haul-outs.
+
+Cold sea
+Cold currents and boreal water.
+
+Temperate sea
+Open temperate water.
+
+Warm sea
+Subtropical and warm current.
+
+Tropical sea
+Hot water, reef, and monsoon sea.
+
+Strand
+Shore, beach, tidal flat, and the intertidal.
+
+Shelf
+Coastal shallows and the drowned shelf.
+
+Gulf
+Enclosed or half-enclosed sea, bight, or sound.
+
+Open sea
+The deep road between lands. No shore in the day’s work.
+
+Abyssal
+Trench and the lightless floor.
+
+
+READING THE TAGS
+
+Biome is the country of the floor. One only.
+Sub-biomes are other biomes that occupy real ground or water in that region.
+At least one climate biome must appear, as Biome or as a Sub-biome. Season needs it.
+
+If Biome is a climate tag, that is the seasonal template.
+If Biome is a water tag, take the seasonal template from a climate tag listed under Sub-biomes.
+
+Features inherit the region’s Biome unless they carry their own biome line.
+A feature biome should be one of the region’s Biome or Sub-biomes.
+
+QUICK FILTER
+Flora, fauna, and Bestiary entries list one or more tags from this list, or Any.
+
+- Region Biome is in the entry’s list → candidate for the country as a whole
+- Only a Sub-biome matches → candidate on those features only
+- No overlap → skip
+- Any → skip the biome gate
+- Then apply HSI against the region, or against the matching feature
+
+Domain is defined in Bestiary_Rules.txt. Domain remains a hard gate. Biome is the quick gate. HSI is the score.
+
+
 --------------------------------------------------
 SEASONAL MODIFIER TEMPLATES
 --------------------------------------------------
 
+Looked up from the climate biome in use.
 Applied to Temperature, Rainfall, Flora, and Fauna only.
 Harvest is the printed score.
 Shifts are +1, 0, or −1 only.
 A modified score cannot go below 0 or above 5.
+
+Water biomes do not have their own templates. They take the climate biome of the region or feature.
 
 Temperate
 Thaw        Temp −1 | Rain +1 | Flora 0 | Fauna 0
@@ -145,107 +290,89 @@ Highsun     Temp +1 | Rain −1 | Flora +1 | Fauna +1
 Harvest     none
 Longnight   Temp −1 | Rain −1 | Flora −1 | Fauna −1
 
-Boreal / cold forest
+Boreal
 Thaw        Temp −1 | Rain +1 | Flora 0 | Fauna 0
 Highsun     Temp +1 | Rain  0 | Flora +1 | Fauna +1
 Harvest     none
 Longnight   Temp −1 | Rain −1 | Flora −1 | Fauna −1
 
-Alpine / high mountain
+Alpine
 Thaw        Temp −1 | Rain +1 | Flora 0 | Fauna 0
 Highsun     Temp  0 | Rain  0 | Flora +1 | Fauna +1
 Harvest     none
 Longnight   Temp −1 | Rain −1 | Flora −1 | Fauna −1
 
-Arid / desert
+Arid
 Thaw        Temp  0 | Rain +1 | Flora 0 | Fauna 0
 Highsun     Temp +1 | Rain −1 | Flora −1 | Fauna −1
 Harvest     none
 Longnight   Temp −1 | Rain  0 | Flora 0 | Fauna 0
 
-Mediterranean / dry-summer coast
+Mediterranean
 Thaw        Temp −1 | Rain +1 | Flora +1 | Fauna +1
 Highsun     Temp +1 | Rain −1 | Flora 0 | Fauna 0
 Harvest     none
 Longnight   Temp −1 | Rain +1 | Flora −1 | Fauna −1
 
-Oceanic / wet coast
+Oceanic
 Thaw        Temp −1 | Rain +1 | Flora 0 | Fauna 0
 Highsun     Temp +1 | Rain  0 | Flora +1 | Fauna +1
 Harvest     none
 Longnight   Temp −1 | Rain +1 | Flora −1 | Fauna −1
 
-Steppe / grassland
+Steppe
 Thaw        Temp −1 | Rain +1 | Flora +1 | Fauna +1
 Highsun     Temp +1 | Rain −1 | Flora 0 | Fauna 0
 Harvest     none
 Longnight   Temp −1 | Rain −1 | Flora −1 | Fauna −1
 
-Tropical wet (rainforest)
+Tropical wet
 Thaw        Temp  0 | Rain +1 | Flora 0 | Fauna 0
 Highsun     Temp +1 | Rain +1 | Flora +1 | Fauna +1
 Harvest     none
 Longnight   Temp  0 | Rain −1 | Flora 0 | Fauna 0
 Notes: “Longnight” here is the drier season, not snow.
 
-Tropical wet-dry / monsoon
+Tropical wet-dry
 Thaw        Temp  0 | Rain +1 | Flora +1 | Fauna +1
 Highsun     Temp +1 | Rain −1 | Flora −1 | Fauna −1
 Harvest     none
 Longnight   Temp  0 | Rain  0 | Flora 0 | Fauna 0
-Notes: Thaw = wet onset. Highsun = drought.
+Notes: Thaw = wet onset. Highsun is the drought.
 
-Polar / tundra
+Polar
 Thaw        Temp +1 | Rain +1 | Flora +1 | Fauna +1
 Highsun     Temp +1 | Rain  0 | Flora +1 | Fauna +1
 Harvest     none
 Longnight   Temp −1 | Rain −1 | Flora −1 | Fauna −1
 Notes: Harvest is the brief usable season. Highsun is the thaw-peak.
 
---------------------------------------------------
-USAGE NOTES
---------------------------------------------------
-
-- Scores are relative tools for consistency, not absolute scientific measurements.
-- A region is normally described with all seven scores.
-- Flora and Fauna are scored separately. A closed canopy can sit at Flora 4 with Fauna 2. A steppe can sit at Flora 2 with Fauna 4.
-- When comparing a region to a creature’s HSI, use the method defined in Bestiary_Rules.txt. Match Flora and Fauna on their own axes.
-- Extreme scores (0 or 5) should be used deliberately; most settled regions will cluster in the middle ranges.
-- Unveiling phenomena, megastructures, or local anomalies can create exceptions that override normal environmental expectations.
 
 --------------------------------------------------
-GEOGRAPHY HIERARCHY & PHILOSOPHY
+HOW TO READ A LOCAL REGION
 --------------------------------------------------
 
-Virath’s geography is organised in three tiers:
+The seven-number line is Harvest.
+It is the rounded mean of the land-cover features.
+Point sites (stones, ruins, a summit used only as a landmark) are scored for HSI at that pin. They are not in the average.
 
-1. Geographic Region
-   - Large-scale physical area roughly comparable to Western Europe in size.
-   - Defined purely by natural geography, climate patterns, and major landforms.
-   - Political and cultural ownership is not inherent to the region.
+If the date is known:
+1. Take each feature’s climate template. A feature with no climate of its own uses the region’s.
+2. Shift that feature’s Temperature, Rainfall, Flora, and Fauna by +1 / 0 / −1.
+3. Average the modified features again. That is the region in that season.
 
-2. Local Region
-   - Smaller physical subdivision within a Geographic Region.
-   - Each Local Region carries its own full set of Environmental Scores.
-   - Still defined by physical characteristics rather than politics.
+Human Density, Topography, and Hydrology do not change with season.
 
-3. Settlement
-   - Individual cities, towns, villages, fortresses, and other permanent human sites.
-   - Political control, cultural identity, and faction ownership are recorded at this level.
-   - Settlements link upward to the Local Region (and therefore Geographic Region) they physically occupy.
+A dated encounter tied to one feature uses that feature’s modified scores, not the region line.
 
-Core Principle
-Geographic and Local Regions are physical realities. They do not change ownership.
-Political control is fluid and is determined by who holds the settlements within them.
-As a result, any Geographic or Local Region may be wholly controlled, partially controlled, or actively contested by multiple factions at the same time.
-
-This separation keeps environmental data stable while allowing the political map to shift through conquest, diplomacy, rebellion, or collapse.
 
 --------------------------------------------------
 HEIGHT
 --------------------------------------------------
+
 Height is an optional label for the Local Region as a whole.
 It is not a 0–5 score. It is not averaged. It is not used for HSI.
+It is not a biome.
 
 It names the region’s seat in the world, not the steepness of its ground.
 
@@ -276,180 +403,37 @@ High ground that meets the sea.
 rift / trench
 A deep cut below the surrounding land. Use rarely.
 
-Do not mark a basin floor as lowland if that floor still sits high in the world.
+Do not read a basin floor as lowland if that floor still sits high in the world.
+
 
 --------------------------------------------------
-LOCAL REGION STRUCTURE & FORMAT
+HIERARCHY
 --------------------------------------------------
 
-Every Local Region document should follow this standard template.
+1. Geographic Region
+   Large-scale physical area, roughly Western Europe in size.
+   Defined by natural geography. No political ownership.
 
-File name
-Local_Region_[Name].txt
+2. Local Region
+   Physical subdivision. Holds Environmental Scores, Biome, and Sub-biomes.
 
-# [Local Region Name]
+3. Settlement
+   City, town, village, fortress, ruin.
+   Political control is recorded here only.
 
-Overview
-[2–4 sentences of atmospheric description focusing on physical character, mood, and distinctive features]
+Geographic and Local Regions do not change ownership.
+Control is who holds the settlements inside them.
 
-Environmental Scores
-Temperature: X | Rainfall: X | Human Density: X | Flora: X | Fauna: X | Topography: X | Hydrology: X
-These are Harvest aggregates: the rounded mean of the land-cover features below.
-Point sites (stones, ruins, a single peak used only as a landmark) are not averaged in.
+A Local Region may belong to more than one Geographic Region when it is a natural border.
+The Local Region file exists once. Each Geographic Region lists it under Shared / Border Local Regions.
 
-Height: [highland basin / high range / highland / plateau / upland / lowland / coastal plain / coastal highland / rift]
-Optional. One un-numbered line for the region as a whole.
-This is not a 0–5 score and is not averaged into the Environmental Scores.
-Use it when the region’s height class is not obvious from Temperature and Topography.
-
-Seasonal modifiers: [Template name]
-Season is applied to each feature first, on Temperature, Rainfall, Flora, and Fauna only.
-Then the region scores are aggregated again from those modified features.
-Human Density, Topography, and Hydrology do not change with season.
-
-Notable Features
-Each land-cover feature has its own Harvest scores (0–5).
-- [Feature]
-  [description]
-  Temperature: X | Rainfall: X | Human Density: X | Flora: X | Fauna: X | Topography: X | Hydrology: X
-
-Linked Settlements
-Full detail is recorded in the individual settlement documents.
-- [Settlement]
-- [Ruin, if physically present]
-
-Lesser / Scattered / Seasonal
-Places too small or too many for their own settlement file.
-- [Type]
-  [What they are and what they do]
-
-Notes
-Access
-[How the region is entered and left.]
-
-Goods
-[What moves, and along which routes.]
-
-Population
-Land area: [square miles]
-Permanent population: [figure] (range [low]–[high])
-Overall density: [people per square mile]
-[Where people actually sit. What of the land is empty.]
-
-Working split
-- [Chief town]: [range]
-- [Named villages / crossings]: [range]
-- [Scattered hamlets / isolated households]: [range]
-- Remainder: [seasonal camps, traplines, and the like]
-
-[One closing line on distance and travel feel.]
 
 --------------------------------------------------
-HOW TO SCORE
+USAGE
 --------------------------------------------------
 
-1. Give every land-cover feature a Harvest score in all seven measures.
-2. Name one seasonal template for the region (or a different template on a feature that needs it).
-3. When a season is dated, shift each feature’s Temperature, Rainfall, Flora, and Fauna by that template (+1 / 0 / −1).
-4. Average the land-cover features. Round to the nearest whole number. Clamp 0–5.
-5. Print that average as the region’s Environmental Scores.
-6. Optionally add a Height line for the region as a whole. It is a label, not a score.
-
-A lake, a forest, and a mountain each keep their own character.
-The region line is only the summary.
-
---------------------------------------------------
-GEOGRAPHIC REGION STRUCTURE & FORMAT
---------------------------------------------------
-
-File name
-Geographic_Region_[Name].txt
-Use the locked in-world name. Spaces become underscores.
-Example: Geographic_Region_Svarthorn_Peninsula.txt
-
-# [Geographic Region Name]
-
-Visual Reference
-[Link to a map or image clearly showing the shape of this Geographic Region and its position relative to neighbouring regions]
-
-Overview
-[3–6 sentences describing the overall physical character, climate patterns, major landforms, and general feel of the region. Keep this purely geographical.]
-
-Location & Borders
-[Short prose description of the region’s position]
-
-borders:
-- North:
-- Northeast:
-- East:
-- Southeast:
-- South:
-- Southwest:
-- West:
-- Northwest:
-
-Shared / Border Local Regions
-[List any Local Regions that are shared with one or more neighbouring Geographic Regions. These are typically major natural barriers such as mountain ranges, large rivers, or dense forests that form the boundary between regions.]
-
-Local Regions
-[List of Local Regions that primarily belong to this Geographic Region. Order them in a logical geographic sequence where possible.]
-- [Local Region Name]
-- [Local Region Name]
-
-Notable Features
-- [Major mountain ranges, river systems, forests, coastlines, plateaus, or other defining physical elements]
-- [Significant natural resources or large-scale environmental characteristics]
-
-Notes
-[Optional: high-level observations about travel difficulty, overall character, or other relevant physical details]
-
-Rules for Shared Local Regions
-- A Local Region may belong to more than one Geographic Region when it forms a natural border.
-- In such cases the full Local Region document exists only once.
-- Each relevant Geographic Region lists that Local Region under “Shared / Border Local Regions” rather than under its primary Local Regions list.
-
---------------------------------------------------
-SETTLEMENT STRUCTURE & FORMAT
---------------------------------------------------
-
-File name
-Settlement_[Name].txt
-Use the locked in-world name. Spaces become underscores. Hyphens in a place-name may be kept.
-Examples: Settlement_Kolby-on-Vatn.txt / Settlement_Twaford.txt / Settlement_Askgruv.txt
-
-# [Settlement Name]
-
-Type
-[City / Town / Village / Castle / Ruin / Hamlet / other]
-
-Location
-Local Region: [Name]
-Geographic Region: [Name]
-Position: [Short physical placement, e.g. north shore of Lake Kolvatn / south side of The Sund]
-
-Overview
-[3–6 sentences. This is where character, function, and current political control belong.]
-
-Control
-[Faction, house, order, or power that currently holds the place. Note if contested.]
-
-Population
-[Working figure and a short note on who lives there]
-
-Economy
-[What the settlement actually does: landing, milling, mining, garrison, trade, etc.]
-
-Defences / Access
-[Walls, keep, river-gate, pass-watch, harbour, or lack of them. How it is reached.]
-
-Linked Features
-- [Local Region features that immediately define the site]
-
-Notes
-[GM-facing detail: stores, tensions, known threats, seasonal limits, or campaign hooks]
-
-Rules for this template
-- One file per settlement or ruin of consequence.
-- Political control is recorded here, not in the Local or Geographic Region files.
-- If control changes, update this file and the Campaign Log.
-- Unnamed charcoal hamlets and seasonal camps stay in the Local Region “Lesser / Scattered / Seasonal” list until they become important enough for their own file.
+- Scores are relative tools, not laboratory measurements.
+- Flora and Fauna are separate. Closed canopy can be Flora 4, Fauna 2. Steppe can be Flora 2, Fauna 4.
+- Creature comparison uses Bestiary_Rules.txt.
+- Extreme scores (0 or 5) should be rare. Most settled country sits in the middle.
+- Unveiling, megastructures, or local anomalies can override the printed scores.

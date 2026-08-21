@@ -1,0 +1,55 @@
+# Fauna_Format.txt
+# How to write a biome wildlife shortlist.
+# How to read Domain, Biome, and HSI is in Bestiary_Rules.txt.
+# Biome tags come from Geography_Rules.txt.
+
+File name
+Fauna_[Biome].txt
+Use the locked biome tag. Spaces become underscores.
+Examples: Fauna_Boreal.txt / Fauna_Alpine.txt / Fauna_Cold_sea.txt
+
+# Fauna_[Biome]
+# Shortlist for this biome. Not an ecosystem.
+
+Biome: [locked tag]
+
+STOCK
+Animals people keep or take as a matter of course.
+
+[Name]
+Domain: [Land / Freshwater / Marine / Air / Amphibious]
+Biome: [this tag and any others it belongs to, or Any]
+HSI: Temperature: X–Y | Rainfall: X–Y | Human Density: X–Y | Flora: X–Y | Fauna: X–Y | Topography: X–Y | Hydrology: X–Y
+Rarity: X | Harm: X | Knowledge: X
+Use: [meat, hide, wool, labour] | Notes: [season, settlement-tied]
+
+HUNT
+Wild quarry.
+
+[Name]
+Domain: [ ]
+Biome: [ ]
+HSI: Temperature: X–Y | Rainfall: X–Y | Human Density: X–Y | Flora: X–Y | Fauna: X–Y | Topography: X–Y | Hydrology: X–Y
+Rarity: X | Harm: X | Knowledge: X
+Use: [ ] | Notes: [ ]
+
+PREDATOR
+[Same block]
+
+PEST
+[Same block]
+
+WATER
+Freshwater or inshore take that belongs to this biome tag.
+
+[Same block]
+
+GREAT BEAST
+Large natural animals. Not Unveiling.
+
+[Same block]
+
+Omit a section if this biome has nothing for it.
+Repeat the animal in every Fauna_ file whose biome tag it carries.
+Do not write a lore file here. If it needs Signs and Behaviour, it is a Bestiary_ file.
+A dash (—) on an HSI axis means indifferent.

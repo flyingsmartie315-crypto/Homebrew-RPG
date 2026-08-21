@@ -1,0 +1,240 @@
+# Economy_Agriculture.txt
+# Sown and planted take. Economy and yields read this.
+# How to place a crop is in Bestiary_Rules.txt. Biome tags from Geography_Rules.txt.
+
+GRAIN
+
+Barley
+Domain: Land
+Biome: Temperate, Boreal, Oceanic, Steppe
+HSI: Temperature: 1–4 | Rainfall: 2–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 9
+Use: bread, porridge, ale | Notes: hardiest grain. Takes thin or cold ground wheat will not.
+
+Rye
+Domain: Land
+Biome: Temperate, Boreal
+HSI: Temperature: 1–3 | Rainfall: 2–4 | Human Density: 3–5 | Flora: 2–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 8
+Use: dense bread | Notes: poor, acid soils and hard Longnight.
+
+Oats
+Domain: Land
+Biome: Temperate, Boreal, Oceanic
+HSI: Temperature: 1–3 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 3–4 | Topography: 0–2 | Hydrology: 2–4
+Rarity: 8
+Use: porridge, horse-feed | Notes: people and draft. Wet-cooler than wheat.
+
+Wheat
+Domain: Land
+Biome: Temperate, Mediterranean, Steppe
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–1 | Hydrology: 2–3
+Rarity: 8
+Use: leavened flour | Notes: wants the good floor. Fails first when the vale is cold or thin.
+
+Buckwheat
+Domain: Land
+Biome: Temperate, Boreal
+HSI: Temperature: 2–4 | Rainfall: 2–4 | Human Density: 3–5 | Flora: 2–4 | Fauna: 3–4 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 7
+Use: porridge, bee-feed | Notes: short-season catch crop. Smothers weeds.
+
+
+PULSE
+
+Field pea
+Domain: Land
+Biome: Temperate, Boreal, Oceanic
+HSI: Temperature: 2–3 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 8
+Use: dried pea, fodder | Notes: winter store. Puts nitrogen back.
+
+Fava
+Domain: Land
+Biome: Temperate, Boreal, Mediterranean
+HSI: Temperature: 1–3 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 7
+Use: bean, protein | Notes: cold-tolerant broad bean. Early sowing.
+
+Lentil
+Domain: Land
+Biome: Temperate, Mediterranean, Steppe
+HSI: Temperature: 3–4 | Rainfall: 2–3 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–1 | Hydrology: 1–2
+Rarity: 6
+Use: dry pulse | Notes: well-drained and warmer edge. Thin on a wet cool vale.
+
+
+ROOT
+
+Turnip
+Domain: Land
+Biome: Temperate, Boreal, Oceanic
+HSI: Temperature: 1–3 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 3–4 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 8
+Use: root, fodder | Notes: winter staple for folk and stock.
+
+Parsnip
+Domain: Land
+Biome: Temperate, Oceanic
+HSI: Temperature: 1–3 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 7
+Use: root | Notes: left in frozen ground to sweeten. Mid-Longnight lift.
+
+Carrot
+Domain: Land
+Biome: Temperate, Oceanic, Mediterranean
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 7
+Use: root | Notes: cellar in sand.
+
+Onion and garlic
+Domain: Land
+Biome: Temperate, Mediterranean, Steppe
+HSI: Temperature: 2–4 | Rainfall: 2–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 8
+Use: bulb | Notes: braid and hang in a dry draught.
+
+Jerusalem artichoke
+Domain: Land
+Biome: Temperate
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 6
+Use: tuber | Notes: sown stand. Wild form is on Flora_Temperate.
+
+
+COLE
+
+Cabbage
+Domain: Land
+Biome: Temperate, Boreal, Oceanic
+HSI: Temperature: 1–3 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 8
+Use: leaf, ferment | Notes: kraut and cool-store.
+
+Kale
+Domain: Land
+Biome: Temperate, Boreal, Oceanic
+HSI: Temperature: 1–3 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 7
+Use: leaf | Notes: stands through frost. Fresh green in Longnight.
+
+
+OIL AND FIBRE
+
+Flax
+Domain: Land
+Biome: Temperate, Oceanic, Steppe
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–1 | Hydrology: 2–3
+Rarity: 7
+Use: linen, linseed oil | Notes: labour-heavy. Retting wants water.
+
+Hemp
+Domain: Land
+Biome: Temperate, Oceanic
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 7
+Use: rope, sail, coarse cloth | Notes: bast fibre. Ship and farm.
+
+Poppy
+Domain: Land
+Biome: Temperate, Mediterranean
+HSI: Temperature: 2–4 | Rainfall: 2–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 6
+Use: seed-oil, pain-draft | Notes: garden and field-edge. Watched more than wheat.
+
+
+ORCHARD
+
+Apple
+Domain: Land
+Biome: Temperate, Boreal, Oceanic
+HSI: Temperature: 1–4 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 8
+Use: store-fruit, cider, drying | Notes: many local kinds. Cellar through Longnight.
+
+Pear
+Domain: Land
+Biome: Temperate, Oceanic
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 7
+Use: fruit, perry | Notes: in cool country, train on a south wall.
+
+Quince
+Domain: Land
+Biome: Temperate, Mediterranean
+HSI: Temperature: 3–4 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 6
+Use: paste, preserve | Notes: not eaten raw. Pectin for the pan.
+
+Medlar
+Domain: Land
+Biome: Temperate, Oceanic
+HSI: Temperature: 2–3 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 5
+Use: bletted fruit | Notes: eaten after frost-softening. Late Harvest into Longnight.
+
+Plum
+Domain: Land
+Biome: Temperate, Oceanic, Mediterranean
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 7
+Use: fruit, prune | Notes: split and dry or smoke for winter.
+
+Cherry
+Domain: Land
+Biome: Temperate, Oceanic
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 6
+Use: fruit, preserve | Notes: Highsun flush. Sour kinds keep in honey or spirit.
+
+Peach and apricot
+Domain: Land
+Biome: Temperate, Mediterranean
+HSI: Temperature: 3–4 | Rainfall: 2–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 5
+Use: fruit | Notes: warm fringe or espalier on sun-baked stone. Fails a cold vale.
+
+Walnut
+Domain: Land
+Biome: Temperate
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 6
+Use: nut, timber | Notes: legacy tree. Stores in the shell. Wild form is on Flora_Temperate.
+
+Hazel
+Domain: Land
+Biome: Temperate, Boreal, Oceanic
+HSI: Temperature: 1–4 | Rainfall: 3–4 | Human Density: 2–5 | Flora: 3–4 | Fauna: 2–4 | Topography: 0–3 | Hydrology: 2–3
+Rarity: 8
+Use: nut, coppice, hedge | Notes: orchard row or laid hedge. Autumn take.
+
+Sweet chestnut
+Domain: Land
+Biome: Temperate, Mediterranean
+HSI: Temperature: 3–4 | Rainfall: 3–4 | Human Density: 2–4 | Flora: 3–5 | Fauna: 2–4 | Topography: 1–3 | Hydrology: 2–3
+Rarity: 6
+Use: nut, flour | Notes: bread-tree on warmer slopes. Dry and mill.
+
+
+VINE
+
+Grape
+Domain: Land
+Biome: Temperate, Mediterranean
+HSI: Temperature: 3–4 | Rainfall: 2–3 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 1–3 | Hydrology: 1–2
+Rarity: 6
+Use: wine, vinegar, raisin | Notes: south face. Hand-tread and press. Thin on a wet cool floor.
+
+Hop
+Domain: Land
+Biome: Temperate, Oceanic
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 7
+Use: ale-preserve, bitter | Notes: pole-grown bine. Ties grain to drink that keeps.
+
+Hardy kiwi
+Domain: Land
+Biome: Temperate
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 4
+Use: fruit | Notes: hairless grape-sized vine. Cut if you do not want it on Virath.

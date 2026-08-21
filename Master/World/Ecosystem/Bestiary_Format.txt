@@ -1,0 +1,42 @@
+# Bestiary_Format.txt
+# How to write a lore-significant entity file.
+# How to read Domain, Biome, HSI, and RHK is in Bestiary_Rules.txt.
+# Biome tags come from Geography_Rules.txt.
+
+File name
+Bestiary_[Name].txt
+Use the locked in-world name. Spaces become underscores.
+
+# [Name]
+
+Type: [Unveiling / Wonder / Natural]
+Domain: [Land / Freshwater / Marine / Air / Amphibious]
+Biome: [tags from Geography_Rules.txt, or Any]
+
+HSI
+Temperature: X–Y | Rainfall: X–Y | Human Density: X–Y | Flora: X–Y | Fauna: X–Y | Topography: X–Y | Hydrology: X–Y
+
+RHK
+Rarity: X
+Individual Harm: X
+Collective Harm: X
+Knowledge: X
+
+Overview
+[3–6 sentences. What it is, how it sits in the world, why it is feared or sought.]
+
+Signs
+- [Track, kill-pattern, weather, sound, absence]
+
+Behaviour
+[How it hunts, nests, avoids or seeks people. Season if it matters.]
+
+Encounter
+[Usual numbers. What a patrol actually meets. Unveiling modifiers if any.]
+
+Notes
+[Warding, use, confusion with a fauna entry, campaign hooks.]
+
+Write one Domain, or two only if it truly uses both.
+A dash (—) on an HSI axis means indifferent.
+Do not put ordinary wildlife here. That belongs in a Fauna_ file.

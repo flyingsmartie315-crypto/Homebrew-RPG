@@ -1,0 +1,51 @@
+# Geographic_Region_Format.txt
+# How to write a Geographic Region file.
+# How to read geography is in Geography_Rules.txt.
+
+File name
+Geographic_Region_[Name].txt
+Use the locked in-world name. Spaces become underscores.
+Example: Geographic_Region_Svarthorn_Peninsula.txt
+
+# [Geographic Region Name]
+
+Visual Reference
+[Link to a map or image clearly showing the shape of this Geographic Region and its position relative to neighbouring regions]
+
+Overview
+[3–6 sentences describing the overall physical character, climate patterns, major landforms, and general feel of the region. Keep this purely geographical.]
+
+Location & Borders
+[Short prose description of the region’s position]
+
+borders:
+- North:
+- Northeast:
+- East:
+- Southeast:
+- South:
+- Southwest:
+- West:
+- Northwest:
+
+Shared / Border Local Regions
+[List any Local Regions shared with neighbouring Geographic Regions.
+These are typically major natural barriers that form the boundary.]
+
+Local Regions
+[List of Local Regions that primarily belong here. Geographic order where possible.]
+- [Local Region Name]
+- [Local Region Name]
+
+Notable Features
+- [Major mountain ranges, river systems, forests, coastlines, plateaus]
+- [Significant natural resources or large-scale environmental characteristics]
+
+Notes
+[Optional: travel difficulty, overall character, physical detail]
+
+A Geographic Region does not take a Biome line or Environmental Scores.
+It inherits the biomes of its Local Regions.
+
+A Local Region that forms a natural border exists as one file.
+Each Geographic Region lists it under Shared / Border Local Regions, not under its primary list.
