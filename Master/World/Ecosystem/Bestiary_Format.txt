@@ -2,6 +2,7 @@
 # How to write a lore-significant entity file.
 # How to read Domain, Biome, HSI, and RHK is in Bestiary_Rules.txt.
 # Biome tags come from Geography_Rules.txt.
+# Combat and other game numbers live in Entity_[Name].txt. Do not print them here.
 
 File name
 Bestiary_[Name].txt
@@ -22,6 +23,17 @@ Individual Harm: X
 Collective Harm: X
 Knowledge: X
 
+Properties
+Height: [standing or at-shoulder, as appropriate]
+Weight: [typical adult range]
+Lifespan: [wild / bonded if they differ]
+[Optional lines: clutch, age at maturity, sexual dimorphism. Physical facts only.]
+
+Stats
+Entity_[Name].txt
+One line. Same locked name as this file.
+If the beast has no mechanical sheet yet, write none.
+
 Overview
 [3–6 sentences. What it is, how it sits in the world, why it is feared or sought.]
 
@@ -29,7 +41,9 @@ Signs
 - [Track, kill-pattern, weather, sound, absence]
 
 Behaviour
-[How it hunts, nests, avoids or seeks people. Season if it matters.]
+[Habits, range and season, how they hunt or feed.]
+[Mate, nest or den, clutch or litter, who keeps the young, how long to independence.]
+[Pair-bond or solitude. What a False Moon or Unveiling does.]
 
 Encounter
 [Usual numbers. What a patrol actually meets. Unveiling modifiers if any.]
@@ -40,3 +54,4 @@ Notes
 Write one Domain, or two only if it truly uses both.
 A dash (—) on an HSI axis means indifferent.
 Do not put ordinary wildlife here. That belongs in a Fauna_ file.
+Do not put hit points, attacks, or skills here. That belongs in the Entity_ file.
