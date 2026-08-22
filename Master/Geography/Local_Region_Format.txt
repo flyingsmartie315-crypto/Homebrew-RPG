@@ -94,3 +94,17 @@ A border landform may appear in two Local Region files.
 The full write-up lives in one file.
 The other lists the same name, marks it Shared, and scores only its own face.
 Point sites stay unaveraged on both sides.
+
+--------------------------------------------------
+MAP LINK
+--------------------------------------------------
+Visual Reference
+maps/Map_Local_Region_[Name].jpeg
+Same stem as this text file.
+Fetch the raw file from this repo.
+Tile west / centre / east (or a 2×2) if labels fail.
+
+The file is one picture of this Local Region.
+Uploads are capped (~4096 on the long edge). Small labels will not survive a Geographic-Region export.
+
+Shared features should appear on this map and on the neighbour’s map.

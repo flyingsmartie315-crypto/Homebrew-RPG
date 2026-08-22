@@ -20,6 +20,10 @@ Season is applied to each feature first, on Temperature, Rainfall, Flora, and Fa
 Then the region scores are aggregated again from those modified features.
 Human Density, Topography, and Hydrology do not change with season.
 
+Visual Reference
+maps/Map_Local_Region_Kannavald_Deepwood.jpeg
+Tile west / centre / east if labels fail.
+
 --------------------------------------------------
 NOTABLE FEATURES
 Each land-cover feature has its own Harvest scores (0–5).
@@ -143,9 +147,9 @@ Goods
 Timber, charcoal, hides, and ore move downriver to the lake.
 
 Population
-Land area: 29,391 square miles.
+Land area: 19,827 square miles.
 Permanent population: about 16,000 (range 12,000–22,000).
-Overall density: roughly 0.5 people per square mile.
+Overall density: roughly 1.2 people per square mile.
 Almost all of that population sits on the water. River and lake corridors, a small fraction of the land, hold the town, villages, and working landings. A thin margin of forest is used for charcoal, trapping, and small mines. The rest of Kannavald — the great majority of the Deepwood — has no permanent settlement.
 
 Working split
