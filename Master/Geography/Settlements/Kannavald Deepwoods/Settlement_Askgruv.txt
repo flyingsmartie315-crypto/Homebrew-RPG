@@ -1,0 +1,55 @@
+# Askgruv
+
+Type
+Village
+
+Location
+Local Region: Kannavald Deepwood
+Geographic Region: Ebon Peninsula
+Position: Upper Askflow / Spire drainage, on the black-rock flank above the lake road
+
+Overview
+A hard-rock mining village under the volcanic massif. Adits and tips scar the slope; the burn runs cloudy after melt. Ore goes down the Askflow toward Kolby-on-Vatn. Life is pit, path, and pay — thin soil, thin comfort, and a name known for copper and iron more than for people.
+
+Control
+[Local Kannavald authority or Kolby’s reach — lock house later]
+The pits may be leased; the village answers to whoever holds the lake-road law.
+
+Population
+About 400–700
+Miners, haulers, a few smiths and timber-hands. Numbers rise when a vein is hot and fall when the water wins.
+
+Economy
+Hard-rock take from the Spire’s volcanic complex:
+- Copper (chalcopyrite, malachite staining in hydrothermal veins)
+- Iron (magnetite or haematite in contact zones)
+- Minor gold or silver in quartz-carbonate veins
+Timber and charcoal for props and fire. Food mostly imported from the lake floors. Ore floated or sledded down to Kolby.
+
+Defences / Access
+No circuit wall. Hall, store, and ore-yard are fortified homesteads in the Kannavald main-building style.
+
+To Burnford (bridge on the Rookburn)
+- Woodsmen’s path: 13 miles north-west through steep, dense woodland. Svarthorn Massif looms to the north-east. Experienced travellers only; no carts.
+- Working route: 29 miles down the Askflow (or the parallel road) to the Rookburn confluence. Only small river craft go up the Rookburn. Most put to shore and take the steep road on the east bank, 14 miles up to Burnford and the bridge. The Kolmire lies across the burn the whole way.
+
+To Kolby-on-Vatn
+- Askflow 29 miles to the Rookburn join (Kolmire west; Sunkern Burg above the water).
+- About 34 miles from Askgruv the Askflow meets Lake Kolvatn at the tip of the Kolmire.
+- North-west across the lake ~24 miles to Kolby-on-Vatn.
+
+To Hornby
+- From the tip of the Kolmire, west across Kolvatn ~28 miles to the Hornbeck mouth.
+- Up the Hornbeck 14 miles to Hornby.
+
+Ore goes down-Askflow. Lake traffic splits for Kolby or Hornby. Burnford is the Rookburn bridge-village; the woodland path is a shortcut for those who can walk it.
+
+Linked Features
+- Askflow
+- Ebon Spire / Svarthorn Massif
+- Lake Kolvatn (downriver market)
+
+Notes
+Upper Spire drainage: cold, wet, Alpine edge even when the region floor is Boreal.
+Vein geology is volcanic-arc honest — copper and iron pay the village; precious metal is a rumour that sometimes pays a season.
+Campaign hooks: flooded adit, a rich pocket that draws claim-jumpers, ore stolen on the float to Kolby, a collapse that closes the main path, Kolby squeezing the lease.

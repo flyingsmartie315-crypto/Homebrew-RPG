@@ -1,0 +1,42 @@
+# Eyrenal
+
+Type
+Castle / Order seat
+
+Location
+Local Region: Ebormark
+Geographic Region: Ebon Peninsula
+Position: Hanging vale on the south face of Ebon Spire; the keep is Eyrenhorst
+
+Overview
+A closed sun-bowl under the black peak. Meltwater and volcanic soil make a green notch where the mountain should be barren. Outsiders call it the hanging gardens under the eyrie. The Knights Gryphon hold it as their own ground — not a fief of Ostbruck. Gryphons nest on the crags above; the hall and fields sit on the vale floor. Few are invited in. Fewer still are allowed to stay.
+
+Control
+Knights Gryphon
+Sovereign within the vale and the eyries. No local mark-lord answers here.
+
+Population
+About 800–1,500
+Order brethren, stable-hands, vale farmers, and a small staff of smiths and stewards. Not a town. Numbers swell when fledglings are reared or when the Order musters.
+
+Economy
+Self-supply from the vale fields and herds. Fresh melt-irrigation, hay, garden crops, a little orchard.
+Gryphon rearing, training, and the trade in trained mounts and skilled riders.
+Stone and labour for Eyrenhorst; little ordinary market. Surplus is political (service, alliance, rare sale of a mount), not cart-loads of grain.
+
+Defences / Access
+The mountain is the wall. One main path up from the Spirebeck side; easy to watch, easy to close.
+Eyrenhorst: stone keep and yard on a spur inside the vale, above the flood of the melt-burn.
+Eyrie-ledges above the gardens. No harbour, no through-road. Deepskaard and Ostbruck are a hard ride below.
+
+Linked Features
+- Eyrenal (the vale)
+- Ebon Spire (south face)
+- Spirebeck (far below)
+- Schulterhöhe / Schulterzacken (east, outside the notch)
+
+Notes
+Season: Alpine template on the surrounding rock; the vale floor runs a step milder in practice — sun, shelter, water — without changing the printed Alpine tag for the massif.
+Do not treat Eyrenal as Ostbruck’s hinterland. Toll and law stop at the notch.
+Gryphon upkeep is the real cost: meat, space, and trained people. The gardens exist to keep the Order fed, not to enrich the mark.
+Campaign hooks: egg-theft, failed bonding, Ostbruck envoys left waiting at the gate, a melt-year that floods the lower plots, a lean year when the Order must buy grain from the floors below.

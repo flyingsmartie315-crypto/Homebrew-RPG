@@ -1,0 +1,68 @@
+# Peoples_Aperti
+
+Umbrella name
+Aperti (proper). The Openers (myth and common speech). Speculari (high / old liturgical variant).
+
+What this file is
+The smallest late arrival: inquiry, not empire.
+By their time the thinning in this region of space was already noticed. They came to probe it.
+They are not a founding demographic of Virath. They survive as a thread in myth, a blame, and a few thin bloodlines.
+Branch files, if any, are rare. This file holds the shared claim.
+
+--------------------------------------------------
+GM META — THE OPENERS
+--------------------------------------------------
+A small contingent of specialists — survey, theory, instrument, and the study of anomalies around Virath.
+They operated under late colonial charter, alongside or under Ordinari authority, while the Multitude settled and the elder waves watched.
+Something in their probing coincides, in history and in every later story, with the Unveiling.
+Whether they caused it, hastened it, or only documented the last moment before the tear is unknowable in-world. Myth does not care.
+After the Dark Ages they are remembered out of proportion to their numbers: knockers on the wrong door.
+
+--------------------------------------------------
+ORIGIN
+--------------------------------------------------
+They claim no Appulse, no Lift, no Seal over the Multitude.
+They claim **the Question** — the right and the duty to look at what was wrong with the sky.
+Sacred memory is the instrument, the sealed report, the night the readings went mad, and the silence that followed the Cradle’s death and the world’s tear.
+
+--------------------------------------------------
+SHARED CLAIM
+--------------------------------------------------
+- Descent from those who studied the thinning
+- Knowledge as inheritance: fragment, symbol, taboo diagram, oral formula
+- Ambiguous guilt and ambiguous pride — we saw it coming / we brought it near
+- Distance from ordinary land-claim; belonging is to archive, cell, and secret continuity
+- Fear and fascination from other peoples in equal measure
+
+--------------------------------------------------
+RELATION TO OTHER WAVES
+--------------------------------------------------
+Pionari: the world-stewards who felt the land sour and blamed the knockers.
+Ingenari: the builders who wanted stable measures and got impossibilities.
+Ordinari: the authority that signed the inquiry and could not control its end.
+Novari: the many who only know the Openers as a curse-story told when the bells ring or the veil feels thin.
+
+--------------------------------------------------
+AFTER THE UNVEILING
+--------------------------------------------------
+Some lines were hunted.
+Some hid inside other peoples’ names.
+Some became cults that revere the tear or claim they can close it.
+A few still carry objects or words that predate the Dark and do not behave.
+
+--------------------------------------------------
+BRANCHES
+--------------------------------------------------
+List only if a living stock is locked.
+Each gets Peoples_Aperti_[Name].txt
+
+- [Name] — [one-line seat and character]
+
+Most campaigns will meet Openers as rumour, a single household, a banned rite, or a hazard-site inscription — not as a kingdom.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+Keep demography tiny.
+Unveiling mechanics and Immaterium truth stay in The_Unveiling and GM meta files; this file only states the people tied to the probing.
+Campaign Log records whether any known Aperti line is active in the present age.

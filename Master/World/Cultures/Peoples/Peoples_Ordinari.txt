@@ -1,0 +1,71 @@
+# Peoples_Ordinari
+
+Umbrella name
+Ordinari (proper). The Seal-Blood / The Ordainers (myth and high speech). Ordins (common / foreign short form).
+
+What this file is
+The late-wave authority: charter, rank, and elite claim to Virath.
+They arrived with the Multitude (Novari) and used that mass as cudgel and wedge to plant themselves on a world already woken by Pionari and raised by Ingenari.
+Branch files hold surviving houses and seal-stocks. This file holds what they share.
+
+--------------------------------------------------
+GM META — THE SEAL
+--------------------------------------------------
+Ordinari were colonial administration, law, and entitled elite from the Cradle — not a small founding crew and not the labour multitude.
+They brought paper, hierarchy, and the assumption that Virath was theirs to allot.
+The Novari were the demographic tool: numbers to occupy, pressure elder holds, and make the Seal’s map real on the ground.
+Then the Cradle went silent. The Unveiling came. Charters without a homeworld became faith, nostalgia, or empty ink.
+Surviving Ordinari lines are few compared to Novari mass, but punch above their weight in law, lineage myth, and the memory of “legitimate” rule.
+
+--------------------------------------------------
+ORIGIN
+--------------------------------------------------
+They claim neither first footfall nor the Lift’s raising as their special craft.
+They claim **Ordainment**: the right to order the world — boundaries, offices, taxes, and rank — in the Cradle’s name.
+Sacred objects in their myth are seal, chain of office, census-roll, and the last true warrants from the sky-home.
+When the Cradle died in the sky, those objects became relics. The claim did not.
+
+--------------------------------------------------
+SHARED CLAIM
+--------------------------------------------------
+- Descent from the Seal-Blood / those who held Terra’s warrant on Virath
+- Legitimacy through charter, office, and blood of the ordaining houses
+- The Multitude as historical instrument: brought under Seal, settled under Seal, still owed hierarchy in hard Ordinari speech
+- Contempt for pure might without warrant — and fear of Novari number when warrant fails
+- Memory of cities and provinces drawn on maps that no longer match the broken world
+- Rank, precedence, and written or recited right as the spine of self-respect
+
+--------------------------------------------------
+RELATION TO OTHER WAVES
+--------------------------------------------------
+Pionari: elder stewards. Treated as native princes to be bargained with or overridden; their taboo ground is an obstacle to allotment.
+Ingenari: necessary builders and watch-captains. Respected as infrastructure; challenged when they act as if the city is theirs alone without Seal.
+Novari: the flood they rode in on. Without the Multitude the Ordinari could not have seated power. In myth that dependence is often rewritten as pure command.
+Openers: dangerous specialists under late charter; later blamed or buried in the story of the tear.
+
+--------------------------------------------------
+AFTER THE UNVEILING
+--------------------------------------------------
+Some Ordinari houses became priest-kings of charter-faith.
+Some became ordinary nobles who forgot the Cradle and kept only pride.
+Some were destroyed when the Multitude turned and the elder waves pushed back.
+Descendants may still speak of warrant and proper order in lands where no Cradle official has existed for millennia.
+
+--------------------------------------------------
+BRANCHES
+--------------------------------------------------
+List locked ethnic groups / houses below as they are written.
+Each gets Peoples_Ordinari_[Name].txt
+
+- [House or stock] — [seat / one-line character]
+- [House or stock] — [seat / one-line character]
+
+Branches are often narrow: a city lineage, a provincial seal, a refugee court in exile on hard ground.
+They disagree on who inherited the last true authority. They do not disagree that authority was theirs to inherit.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+Do not put full house custom here.
+Ordinari demography is thin; influence is outsized in law-myth and in any culture that still loves ranks and seals.
+Campaign Log records which Ordinari line still holds office, and which is only a name in a chronicle.

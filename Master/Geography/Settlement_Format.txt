@@ -38,6 +38,64 @@ Linked Features
 Notes
 [GM-facing detail: stores, tensions, known threats, seasonal limits, or campaign hooks]
 
+--------------------------------------------------
+HAZARD / DUNGEON SITES
+--------------------------------------------------
+The same file pattern can mark a place that is not a living town: ruins, lairs, cursed ground, megastructure mouths, or other playable hazards.
+In gameplay terms these are the dungeons of Virath.
+
+File name
+Settlement_[Name].txt
+Same naming rules. The stem is the locked in-world name of the site.
+
+# [Site Name]
+
+Type
+other
+Always. Do not use Village, Town, or Castle for a hazard site.
+
+Location
+Local Region: [Name]
+Geographic Region: [Name]
+Position: [Short physical placement]
+
+Overview
+[3–6 sentences. What the place is and what it does in the landscape.]
+Lore (common knowledge)
+[How people of the region speak of it — rumour, law, taboo, and what is safely known. Not full GM truth.]
+
+Control
+[Who claims it, if anyone. Often none, contested, or “avoided.”]
+
+Population
+[Usually none, or transient (bandits, cult, garrison on the rim).]
+
+Bestiary
+- [Creature] — [rough numbers or density]
+- [Creature] — [rough numbers or density]
+Use names from the Bestiary files. Quantity is a working band, not a census.
+
+Environmental hazards
+[Water, gas, unstable stone, veil phenomena, disease, seasonal traps, and the like.]
+
+Economy
+[Only if the site is worked — salvage, ore, pilgrimage tolls. Otherwise omit or write “none.”]
+
+Defences / Access
+[Natural gates, choke-points, taboo lines, and how it is reached. Include neighbour miles when the site sits on a known road or water.]
+
 One file per settlement or ruin of consequence.
 If control changes, update this file and the Campaign Log.
 Unnamed charcoal hamlets and seasonal camps stay in the Local Region Lesser / Scattered / Seasonal list until they need their own file.
+
+Linked Features
+- [Local Region features that immediately define the site]
+
+Notes
+[GM-facing truth, triggers, Unveiling detail, and campaign hooks. Keep player lore in Overview / Lore above.]
+
+Rules
+- One file per site of consequence.
+- Living hamlets stay in the Local Region Lesser list until they need a file.
+- Hazard sites do not change Local Region ownership; they only sit in it.
+- If a ruin becomes a held settlement, change Type and rewrite Control / Population.

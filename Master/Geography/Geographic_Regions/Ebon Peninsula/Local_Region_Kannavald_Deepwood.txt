@@ -9,16 +9,12 @@ The floor is cold forest. The massif is another climate. The water is another co
 
 Environmental Scores
 Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora: 4 | Fauna: 2 | Topography: 3 | Hydrology: 3
-These are Harvest aggregates of the land-cover features below.
+Harvest aggregates of the land-cover features below.
 Point sites are not averaged in.
 
 Height: highland basin
 
 Seasonal modifiers: Boreal
-Must be a climate biome named above as Biome or as a Sub-biome.
-Season is applied to each feature first, on Temperature, Rainfall, Flora, and Fauna only.
-Then the region scores are aggregated again from those modified features.
-Human Density, Topography, and Hydrology do not change with season.
 
 Visual Reference
 maps/Map_Local_Region_Kannavald_Deepwood.jpeg
@@ -26,13 +22,14 @@ Tile west / centre / east if labels fail.
 
 --------------------------------------------------
 NOTABLE FEATURES
-Each land-cover feature has its own Harvest scores (0–5).
-Point sites are marked and are not averaged into the region scores.
+Point sites are marked and are not averaged.
 A biome line is given only when the feature is not the region Biome.
+Shared = border landform; full write-up lives here unless noted.
 --------------------------------------------------
 
 Ebon Spire
 Inactive volcano and the dominant peak of the peninsula. Black, craggy rock. Source of the rivers that feed Lake Kolvatn.
+Shared with Ebormark. Full write-up lives here. Ebormark scores the south face only.
 Biome: Alpine
 Temperature: 1 | Rainfall: 4 | Human Density: 0 | Flora: 2 | Fauna: 1 | Topography: 5 | Hydrology: 2
 
@@ -49,7 +46,7 @@ Temperature: 1 | Rainfall: 4 | Human Density: 0 | Flora: 3 | Fauna: 2 | Topograp
 
 Stetbjorg Height
 The left shoulder of Ebon Spire. A high, southernmost black-rock spur of the Svarthorn Massif, standing over Deepskaard Col.
-Point site — not averaged.
+Shared with Ebormark. Point site — not averaged.
 Biome: Alpine
 Temperature: 1 | Rainfall: 4 | Human Density: 0 | Flora: 3 | Fauna: 2 | Topography: 5 | Hydrology: 2
 
@@ -113,20 +110,21 @@ Biome: Strand
 Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora: 3 | Fauna: 3 | Topography: 1 | Hydrology: 5
 
 Deepskaard Col
-Densely forested mountain pass on the southern border of Kannavald Deepwood, between Westwood Peak and Stetbjorg Height. The land-gate of the region.
+Densely forested mountain pass on the southern border of Kannavald Deepwood, between Westwood Peak and Stetbjorg Height. The land-gate of the region. The Kannavald watch is Skaardhold.
+Shared with Ebormark. Full write-up lives here.
 Temperature: 2 | Rainfall: 4 | Human Density: 3 | Flora: 4 | Fauna: 2 | Topography: 4 | Hydrology: 2
 
 --------------------------------------------------
 LINKED SETTLEMENTS
-Full detail is recorded in the individual settlement documents.
 --------------------------------------------------
-- Kolby-on-Vatn
-- Twaford / The Twaford Twins
-- Skaardhold
-- Askgruv
-- Hornby
-- Oldfort Kilnstead
-- Kolholm (ruin)
+- Kolby-on-Vatn — Settlement_Kolby-on-Vatn.txt
+- The Twaford Twins — Settlement_The_Twaford_Twins.txt
+- Skaardhold — Settlement_Skaardhold.txt
+- Askgruv — Settlement_Askgruv.txt
+- Hornby — Settlement_Hornby.txt
+- Burnford — Settlement_Burnford.txt
+- Oldfort Kilnstead — Settlement_Oldfort_Kilnstead.txt
+- Kolholm (ruin) — Settlement_Kolholm.txt
 
 --------------------------------------------------
 LESSER / SCATTERED / SEASONAL
@@ -142,6 +140,7 @@ NOTES
 --------------------------------------------------
 Access
 By the Sund, by Deepskaard Col, by the west coast, or over the mountains.
+Mile detail lives in settlement Access notes (neighbours only).
 
 Goods
 Timber, charcoal, hides, and ore move downriver to the lake.
@@ -149,7 +148,7 @@ Timber, charcoal, hides, and ore move downriver to the lake.
 Population
 Land area: 19,827 square miles.
 Permanent population: about 16,000 (range 12,000–22,000).
-Overall density: roughly 1.2 people per square mile.
+Overall density: roughly 0.8 people per square mile.
 Almost all of that population sits on the water. River and lake corridors, a small fraction of the land, hold the town, villages, and working landings. A thin margin of forest is used for charcoal, trapping, and small mines. The rest of Kannavald — the great majority of the Deepwood — has no permanent settlement.
 
 Working split

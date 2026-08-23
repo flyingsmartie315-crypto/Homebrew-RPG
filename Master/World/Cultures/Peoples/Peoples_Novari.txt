@@ -1,0 +1,68 @@
+# Peoples_Novari
+
+Umbrella name
+Novari (proper). The Multitude (myth and common speech). Novs (foreign short form).
+
+What this file is
+The third and final colonial wave’s mass — the many who came to fill a world already woken and raised.
+They outnumbered Pionari and Ingenari by an order of magnitude. They had nowhere else to go.
+Their descendants inhabit most of Virath. Branch files hold the living ethnic groups. This file holds what they share.
+
+--------------------------------------------------
+GM META — THE MULTITUDE
+--------------------------------------------------
+After Pioneer seeding and Ingenari infrastructure, Terra sent population: families, labour, the surplus of the Cradle.
+They arrived under Ordinari charter and elite claim, used as wedge and cudgel to settle a bountiful world.
+Then contact with the Cradle was lost. The Unveiling followed. The Dark Ages began.
+The Novari could not return. In the struggle that followed, elder waves held much of the best temperate and plateau ground. Novari blood was pushed, fled, or driven into harder country — including the less habitable regions below the equator — and there became the demographic floor of later ages.
+
+--------------------------------------------------
+ORIGIN
+--------------------------------------------------
+They claim no Appulse and no Lift.
+They claim **arrival and need**: the last ships, the full holds, the promise of land on a green world.
+In myth the Multitude is a flood — mouths, hands, and children — that the elder peoples could not absorb without conflict.
+Sacred memory is the voyage, the landing under Seal-authority, the silence of the Cradle, and the long walk into poorer ground after the sky broke.
+
+--------------------------------------------------
+SHARED CLAIM
+--------------------------------------------------
+- Descent from the Multitude / the last great landing
+- Right to live and till wherever the elder waves left room — or wherever strength could take it
+- Suspicion of plateau stewardship and tower-privilege when those mean “no place for you”
+- Pride in endurance: heat, hard soil, thin water, and the making of homes where the First and Second Blood did not care to sit
+- Numbers as history’s argument: we are many; the world is ours by survival
+
+--------------------------------------------------
+RELATION TO OTHER WAVES
+--------------------------------------------------
+Pionari: elder stewards who locked the best basins and named the green their kin-gift. Respected in old speech; resented when they bar the field.
+Ingenari: builders of walls the Multitude were told to stand outside. Craft is admired; exclusion is not.
+Ordinari: the Seal that brought them and the elites that used them. Some Novari stocks still revere charter and rank. Others remember only the cudgel.
+Openers: a small shadow in the story — the ones who probed the thinning before the Dark. Not a rival people; a omen.
+
+--------------------------------------------------
+GEOGRAPHY OF THE DESCENDANTS
+--------------------------------------------------
+Most of Virath’s later population carries Novari blood in some measure.
+Many branches were forced or chose south of the equator into harsher belts: heat, monsoon, thin soil, long dry, or fever-country.
+There they founded the bulk of lowland and southern peoples. Northern and plateau holds often remain thicker with Pionari or Ingenari claim even when Novari labour is present.
+
+--------------------------------------------------
+BRANCHES
+--------------------------------------------------
+List locked ethnic groups below as they are written.
+Each gets Peoples_Novari_[Name].txt
+
+- [Branch] — [seat / climate / one-line character]
+- [Branch] — [seat / climate / one-line character]
+
+Branches differ by which shore they were dumped on, which elite they served, and which hard country they finally held.
+They do not disagree that they are the Multitude’s children.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+Do not put full branch custom here.
+Equatorial and sub-equatorial Geographic Regions will lean Novari in demography even when ruled by another blood’s house.
+Campaign Log records migrations and which branch holds which ground now.

@@ -1,0 +1,83 @@
+# Peoples_Ingenari
+
+Umbrella name
+Ingenari (proper). Ingens (common / foreign short form). The Raisers / Second Blood (myth and high speech).
+
+What this file is
+The second colonial wave and the peoples that formed from them.
+They came after the Pionari had made Virath livable. Their work was engineering, extraction, the first true cities — and the arms that guarded them.
+Branch files hold the living ethnic groups. This file holds what they share.
+
+--------------------------------------------------
+GM META — SECOND WAVE
+--------------------------------------------------
+After the Pioneers seeded climate and life, a later arrival brought material science and heavy engineering.
+They built space elevators, opened extraction, and raised the first real cities — the investment that made the colony a world-economy.
+Technology is forgotten as technique. It survives as myth: the Lift, the Tower, the first walls, the right to take value from stone and deep metal.
+
+--------------------------------------------------
+GM META — SCALE AND COMPOSITION
+--------------------------------------------------
+The Pionari were a small founding crew. The Ingenari were a full investment wave:
+- Work crews — lift-wrights, miners, masons, surveyors, harbour-makers
+- Engineers — makers and planners of infrastructure
+- Soldiers / guards — posted to protect what was built and extracted
+
+Craft and arms are both spines of the Second Blood. Later branches lean guild-city or watch-city; the umbrella remembers both.
+
+--------------------------------------------------
+GM META — PLACE IN THE THREE WAVES
+--------------------------------------------------
+1. Pionari — wake the world.
+2. Ingenari — raise and hold the works.
+3. Late wave — Ordinari, Novari (Multitude), Aperti (Openers).
+Cradle falls silent. Factions friction. Unveiling. Dark Ages.
+Ingenari city-stocks and tower-claims survive as blood, ruin-rights, and the memory of wall and watch. Some later “Vesting” mark-peoples may be Ingenari offshoots who kept iron and conquest and lost the Lift in their story.
+
+--------------------------------------------------
+ORIGIN
+--------------------------------------------------
+They did not claim the first footfall. That belongs to the Appulse and the Pionari.
+They claimed the raising — cable and city, mine and road — and the watch on the first night while the mortar dried.
+Sacred geography: old lift-roots, first city-stones, engineered scars in myth and ruin.
+
+Mythic line:
+The First Men woke the world. The Raisers built upon it — and stood armed at the gate while the mortar dried.
+
+--------------------------------------------------
+SHARED CLAIM
+--------------------------------------------------
+- Descent from the Second Blood / the Raisers
+- Pride of making and holding: wall, bridge, gate, memory of the Lift
+- Inheritance of crew and watch
+- Honour for builder and guard; contempt for the idler who claims the city without labour or risk
+- Right to extract and build, bounded by crew-oath and city-law (forms differ by branch)
+- Ruins of tower, cable-foot, and under-city as inheritance — dangerous, holy, or both
+- Rank tied to craft, arms, hold, and city-stock blood
+
+--------------------------------------------------
+RELATION TO OTHER WAVES
+--------------------------------------------------
+Pionari: elder stewards of the green. Cooperation is the deep truth; contempt goes both ways when ore meets taboo grove.
+Ordinari: Seal and elite who claimed the right to order what Ingenari built. Useful when they fund and recognise the wall; hated when they command without craft.
+Novari: the Multitude that filled and strained the cities. Labour and market; also riot, pressure, and the long push into harder lands after the Dark.
+Aperti: small, ill-omened. The probe that sat badly with men who wanted measures to stay measures.
+
+--------------------------------------------------
+BRANCHES
+--------------------------------------------------
+List locked ethnic groups below as they are written.
+Each gets Peoples_Ingenari_[Name].txt
+
+- [Branch] — [city-stock / crew or guard origin / one-line character]
+- [Branch] — [city-stock / crew or guard origin / one-line character]
+
+Branches remember different crews and watches.
+They disagree on custom and rank. They do not disagree that the Raisers built the first cities and held them.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+Do not put full branch custom here.
+Megastructure and elevator law sit in region and hazard files.
+Campaign Log records which Ingenari branch holds which city or ruin now.

@@ -1,0 +1,61 @@
+# Burnford
+
+Type
+Village
+
+Location
+Local Region: Kannavald Deepwood
+Geographic Region: Ebon Peninsula
+Position: East bank of the Rookburn at the bridge; Kolmire Fens across the water to the west
+
+Overview
+A bridge-village on the Rookburn where the steep east-bank road meets the water. Mist off the Kolmire hangs on the far shore; the Sunkern Burg is a rumour and a warning downstream. Burnford lives on the crossing — toll, talk, and the thin traffic between the upper Spire pits and the lake road. Hall, store, and bridge-yard stand as fortified homesteads in the settlement centre; there is no circuit wall.
+
+Control
+[Local Kannavald authority or Kolby’s reach — lock house later]
+Whoever holds the bridge holds the Rookburn road.
+
+Population
+About 300–550
+Bridge-hands, a few farm and fen-edge folk, drovers and ore-haulers passing through. Quieter than Kolby; busier than Askgruv when the float is running.
+
+Economy
+Lumber. Timber cut on the east-bank woods and the lower Rookburn slopes is floated down the burn to the Askflow and on toward the lake.
+The Rookburn is not easy water — shallow, steep, and hungry for the west shore. River-drivers ride the floats, keep the sticks in the channel, and stop a break-up from feeding the Kolmire.
+Fenwights out of the mist take the chance when a boom splits or a raft grounds. Driving is skilled, wet, and armed work, not a quiet float.
+Side-take: bridge toll, a little fen-margin fishing and reed. Grain and tools come from the lake road. This is not a farm village and not a mine.
+
+Defences / Access
+No circuit wall. Village hall, store, and bridge-yard in Kannavald main-building style (stone or brick ground, oak frame, heavy shutters).
+The bridge is the gate. East bank is the living side; west is fen.
+
+To Askgruv
+- Steep east-bank road down the Rookburn 14 miles to the Askflow confluence, then up-Askflow (road or water) about 29 miles to Askgruv. Small craft only on the Rookburn.
+- Woodsmen’s path: 13 miles south-east through steep dense woodland to Askgruv. Svarthorn looms north-east on that trail. Experienced travellers only; no carts.
+
+To Kolby-on-Vatn (road)
+- West over the bridge, then about 30 miles of undulating trail to Kolby.
+- Kolmire stays a couple of miles south the whole stretch.
+- At about 15 miles: old stone pillar and road-sign pointing south into the fens. Broken paved way; after roughly two miles it is swamp. Path to Kolholm (Sunkern Burg). Local knowledge and dry season only.
+
+To Hornby (road)
+- From the Rookburn–Askflow join (14 miles down from the bridge): cross south over the Askflow bridge.
+- 8 miles beside the Askflow; tip of the Kolmire and Kolholm across the water to the north.
+- About 40 miles along the southern edge of Lake Kolvatn to the Hornbeck mouth.
+- 13 miles upriver on the adjacent road to the bridge into Hornby.
+
+To Kolby-on-Vatn / Hornby (water)
+- Down Rookburn (small craft) to the Askflow join, then to the tip of the Kolmire and the lake — as for Askgruv’s water routes.
+- Kolby about 24 miles north-west across Kolvatn from the fen-tip.
+- Hornby: about 28 miles west across the lake to the Hornbeck mouth, then 14 miles up the Hornbeck.
+
+Linked Features
+- Rookburn
+- Kolmire Fens
+- Askflow (confluence downriver)
+- Lake Kolvatn
+- Kolholm / Sunkern Burg (west, through the fen)
+
+Notes
+Burnford is the Rookburn lock between upper Spire country and the lake roads. The fen is always present — sound, smell, and bad stories.
+Campaign hooks: boom broken and timber in the fen, Fenwight strike on a night float, drivers unpaid and refusing the next run, Kolby squeezing the lumber price, someone using a float to smuggle more than wood.

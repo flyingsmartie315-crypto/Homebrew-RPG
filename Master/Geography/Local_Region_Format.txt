@@ -42,8 +42,9 @@ If present, it must be one of this region’s Biome or Sub-biomes.
 
 Linked Settlements
 Full detail is recorded in the individual settlement documents.
-- [Settlement]
-- [Ruin, if physically present]
+- [Settlement name] — Settlement_[Name].txt
+- [Settlement name] — Settlement_[Name].txt
+- [Ruin name] — Settlement_[Name].txt
 
 Lesser / Scattered / Seasonal
 Places too small or too many for their own settlement file.

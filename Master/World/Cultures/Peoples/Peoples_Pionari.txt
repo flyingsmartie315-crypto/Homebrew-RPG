@@ -1,0 +1,70 @@
+# Peoples_Pionari
+
+Umbrella name
+Pionari (proper). Pions (common / foreign short form). The Pioneers / First Blood (myth and liturgy).
+
+What this file is
+The First Men and the peoples that formed from them.
+Branch files hold the living ethnic groups. This file holds what they share and how they claim the Landing.
+
+--------------------------------------------------
+GM META — FIRST MEN
+--------------------------------------------------
+The Pioneers were the first colonists — a small founding crew.
+They found a stable rocky world, named it Virath, and faced primitive native life.
+They seeded and shaped the biosphere after Terra: climate, flora, fauna, the working face of a livable world.
+That labour is lost as engineering. It survives as genesis and stewardship.
+Descendants feel kinship with a world their ancestors made fit for blood.
+
+--------------------------------------------------
+GM META — PLACE IN THE THREE WAVES
+--------------------------------------------------
+1. Pionari — wake the world (biology, climate).
+2. Ingenari — raise Lift, city, mine, and watch.
+3. Late wave — Ordinari (Seal and elite), Novari (the Multitude), Aperti (Openers, small).
+Cradle contact is lost. Friction hardens. The Openers probe the thinning. The Unveiling strikes. Dark Ages begin.
+Pionari holds often kept the best basins and plateau ground when the Multitude was pushed toward harder and more equatorial country.
+
+--------------------------------------------------
+ORIGIN
+--------------------------------------------------
+Heartland: Appolasian Plateau — impact basin, central lake, forest, mountain ring.
+The Appulse: from appulsus, the striking of the vessel upon the shore. The landing on the basin floor.
+The Landing is cosmic genesis, not machinery.
+The First Men did not only land. They made the world fit for blood. What crawled here before was lesser. The true green and the true beasts followed the pattern of the old sky-home.
+
+--------------------------------------------------
+SHARED CLAIM
+--------------------------------------------------
+- Descent from the First Men / the Appulse
+- Stewardship of Virath’s living face (green, beasts, named ground)
+- High-tongue fragments in rite and place-name (worn Latin)
+- Ruins of the under-stone as sacred or forbidden before they are quarry
+- Blood, oath, and memory as the spine of law
+- Elder right: we were the first blood on a world we shaped
+
+--------------------------------------------------
+RELATION TO LATER WAVES
+--------------------------------------------------
+Ingenari: the Raisers who framed the living world in stone and iron. Kin in the deep colony story; rivals when extraction ignores stewardship.
+Ordinari: after-comers with seal and entitlement. Bargained with, resisted, or overridden when they allot Pionari ground as empty paper.
+Novari: the Multitude — need and number. Respected as human mouths to feed; feared when they trample taboo green and elder holds. Much of their mass was forced elsewhere; where they remain on Pionari rims, custom is tight.
+Aperti: the Openers who knocked on the thinning. In Pionari speech often tied to the souring of the land and the night the world changed.
+
+--------------------------------------------------
+BRANCHES
+--------------------------------------------------
+List locked ethnic groups below as they are written.
+Each gets Peoples_Pionari_[Name].txt
+
+- [Branch] — [one-line seat and character]
+- [Branch] — [one-line seat and character]
+
+Branches differ in speech, dress, and which taboos they keep strict.
+They do not disagree that the Appulse was the beginning, or that the green is a trust.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+Do not put full branch custom here.
+Campaign Log records which branch holds which settlement now.
