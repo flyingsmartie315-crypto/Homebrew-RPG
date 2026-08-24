@@ -1,0 +1,90 @@
+# Peoples_Syllvani
+
+Umbrella name
+Syllvani (formal). Syllvans (common). Syllvs (short / slang).
+
+What this file is
+A Pionari-descended people of the Northwestern continent.
+Romance linguistic base that evolved into a softer, more sing-song, almost elvish sound over millennia, with a Welsh-flavoured naming layer.
+They have held the Appolasian Plateau — the most natural fortress of the north-west — since before the Isernvolk arrived on the western shores.
+One of the two core stocks that form the fantasy Europe cultural layer alongside the Isernvolk.
+
+--------------------------------------------------
+GM META — ORIGIN
+--------------------------------------------------
+Primarily Wave 1 — Pionari stock.
+The original Latin base softened and phonetically drifted over thousands of years into a lighter, more melodic, almost elvish-sounding tongue.
+A secondary Welsh-flavoured naming layer developed alongside it, giving many personal and place names a Celtic lilt within the broader Romance sound.
+They are the elder blood on the Northwestern continent — the people whose stewardship claim predates the Isernvolk sea-crossing.
+Their heartland is the Appolasian Plateau: the impact basin, central lake, and mountain-ringed forest that forms the most defensible natural fortress in the region.
+
+--------------------------------------------------
+DEEP NAME VS SURFACE NAME
+--------------------------------------------------
+Deep / mythic lean: Syllvani (from silva — the woodland people, the forest-born)
+Surface / contemporary: Syllvans
+Short / common: Syllvs
+
+Naming note: Personal and place names often carry a Welsh-flavoured layer (e.g. soft consonants, melodic endings, occasional “ll”, “dd”, “rh” sounds) blended into the sing-song Latin base. This gives the Syllvani a distinct phonetic texture without breaking the overall Romance feel.
+
+--------------------------------------------------
+SHARED CLAIM
+--------------------------------------------------
+- Descent from the First Blood who shaped Virath’s living face
+- Stewardship of the green world their ancestors made fit for blood
+- The Appulse as sacred origin; the Appolasian Plateau as their unyielding heartland
+- Taboo ground, named groves, and the memory of the First Men’s shaping hand
+- Elder right on the Northwestern continent — they were here before the sea-crossers
+- The Plateau as fortress: they hunkered down and held when others came
+
+--------------------------------------------------
+CULTURAL DEVELOPMENT — DARK AGE SURVIVAL
+--------------------------------------------------
+Because of their natural terrain advantage, the Syllvani outlasted the Dark Age period far better than most other groups.
+This security allowed them to retain written records and long-standing intact historical memory.
+As a result, they possess a clearer, more continuous understanding of their origins, the First Men’s shaping of Virath, and the true sequence of events leading to the Unveiling.
+This has given them a distinctly long-term outlook on the world — decisions are weighed across generations rather than seasons or lifetimes.
+
+--------------------------------------------------
+CULTURAL TRAITS SHAPED BY SURVIVAL
+--------------------------------------------------
+Insular and isolationist outlook. The Plateau’s natural defences encouraged a closed, self-contained society that looks inward rather than outward.
+Deep historical continuity. Written records and oral tradition survived largely intact, creating a culture that remembers its past with unusual clarity.
+Long-term thinking. With a clearer view of history, the Syllvani plan across centuries. They are cautious, deliberate, and slow to act, but also deeply knowledgeable and resistant to short-term folly.
+Stewardship as lived practice rather than myth. Because they remember what their ancestors actually did, the duty to maintain the green world feels immediate and practical, not abstract.
+
+--------------------------------------------------
+RELATION TO OTHER WAVES
+--------------------------------------------------
+Isernvolk: later arrivals from the western sea. Respected as craft-strong kin in the deep colony story; tension when they cut, mine, or press against the Plateau’s edges.
+Ordinari: Seal and elite who came with the Multitude. Bargained with or resisted when they try to allot elder land by charter.
+Novari: the Multitude. Some absorbed into Syllvani lands as labour or client peoples; others pushed into harder country. Mixed blood exists but is tightly controlled on the Plateau itself.
+Aperti: the Openers. Often blamed in Syllvani myth for the souring of the land and the coming of the Unveiling.
+
+--------------------------------------------------
+GEOGRAPHY AND CULTURE
+--------------------------------------------------
+Heartland: Appolasian Plateau — the mountain-ringed impact basin with its central lake and dense forest. The most natural fortress in the north-west.
+They have held this ground through the Isernvolk arrival, the loss of the Cradle, the Unveiling, and the long Dark Ages — emerging more intact than most.
+Customs shaped by forest stewardship, lake-and-basin living, and the memory of shaping the green.
+Will form one of the two main linguistic-cultural poles of the fantasy Europe layer — the softer, more melodic Romance pole (with Welsh-flavoured naming) against the Isernvolk’s harder Anglo-Germanic-Scandi pole.
+
+--------------------------------------------------
+BRANCHES
+--------------------------------------------------
+List locked ethnic groups below as they are written.
+Each gets Peoples_Syllvani_[Name].txt
+
+- [Branch] — [one-line seat and character]
+- [Branch] — [one-line seat and character]
+
+Branches differ by which part of the Plateau or its immediate rim they hold and how strictly they keep the old taboos.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+The Syllvani are defined by their long, unbroken hold on the Appolasian Plateau and their unusually intact historical memory.
+Their name and identity are tied directly to the forest and the stewardship of the living world.
+The Welsh-flavoured naming layer is a surface phonetic feature only — it does not change the underlying Romance linguistic base.
+Jarns / Jarnfolk noted earlier as a future Isernvolk-related branch — not connected to the Syllvani line.
+A separate terraforming branch of the original Pionari stock is noted as existing in the deep past (the ones who engineered Virath’s axial tilt); their relationship to the Syllvani is still to be defined.

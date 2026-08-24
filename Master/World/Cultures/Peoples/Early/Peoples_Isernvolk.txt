@@ -1,0 +1,64 @@
+# Peoples_Isernvolk
+
+Umbrella name
+Isernvolk (formal). Isernmen (common). Iserns / Irons (short / slang). Markings (regional / frontier usage).
+
+What this file is
+An Ingenari-descended people of the Northwestern continent. Anglo-Germanic-Scandi linguistic base. Iron-working, frontier, and sea-crossing identity. One of the core stocks that will form the “fantasy Europe” cultural layer.
+
+--------------------------------------------------
+GM META — ORIGIN
+--------------------------------------------------
+Second Wave Ingenari stock that retained a strong craft-and-arms memory.
+Settled the western shores and marks after the Pionari had already shaped the green world.
+Over millennia developed a distinct Anglo-Germanic-Scandi spoken base rather than preserving the old Latin Ingenari root.
+Iron, sea-crossing, and frontier mark identity became central to their self-image.
+
+--------------------------------------------------
+DEEP NAME VS SURFACE NAME
+--------------------------------------------------
+Deep / mythic lean: Isernvolk / Isernmen (iron-people, iron-men).
+Surface / contemporary: Vestrings / Westmen / Markings (western sea, western men, the mark).
+Jarns / Jarnfolk noted as seed for a future related but distinct branch (purer Scandi-iron feel).
+
+--------------------------------------------------
+SHARED CLAIM
+--------------------------------------------------
+- Descent from the Raisers who built and held the first works
+- Pride in iron, craft, and the strength to cross the western sea
+- Frontier identity: the mark as both home and edge
+- Word, oath, and iron as binding forces
+- Suspicion of lone strangers and of those who claim without labour
+
+--------------------------------------------------
+RELATION TO OTHER WAVES
+--------------------------------------------------
+Pionari / Syllvani: elder stewards of the green. Respected as first blood; tension when stewardship limits extraction or settlement.
+Ordinari: Seal and elite who came with the Multitude. Useful when they bring order and charters; resented when they command without craft.
+Novari: the Multitude. Labour and numbers that filled the marks. Some Isernvolk stocks absorbed or ruled over Novari-descended locals; others clashed with them.
+Aperti: small, ill-omened. The Openers who probed the thinning. Rarely central to Isernvolk myth.
+
+--------------------------------------------------
+GEOGRAPHY AND CULTURE
+--------------------------------------------------
+Western shores and marks of the Northwestern continent.
+Iron-working, shipcraft, and frontier settlement are core skills.
+Customs shaped by dense forest, lake-and-burn country, and the need to hold ground against older or denser neighbours.
+Will form one of the two main linguistic-cultural poles of the “fantasy Europe” layer alongside the Syllvani.
+
+--------------------------------------------------
+BRANCHES
+--------------------------------------------------
+List locked ethnic groups below as they are written.
+Each gets Peoples_Isernvolk_[Name].txt
+
+- [Branch] — [seat / one-line character]
+- [Branch] — [seat / one-line character]
+
+Branches differ by which mark or shore they hold and how strongly they lean on iron vs sea vs frontier identity.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+Jarns / Jarnfolk held for a future branch.
+Vestrings remains the working surface name in conversation and settlement files until a deeper formal name is locked.
