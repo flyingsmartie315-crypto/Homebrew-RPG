@@ -1,0 +1,60 @@
+# Local_Region_Rhennod_Marches
+
+Overview
+The south-eastern border country of the Ebon Peninsula. Rolling green hills and river floors lie under the western shadow of the forested Rhennod Mountains. A fertile but watched land: good soils on the lower Rhennod slopes and river terraces support vines, orchard fruit, and mixed farming that the heavier or colder soils of the rest of the peninsula cannot match in quality. The great eastern wall is always present.
+
+Biome: Temperate
+Sub-biomes: Highland, River, Strand (if coastal contact exists)
+The hills and river country are mild seasonal land. The upper Rhennod slopes are another climate.
+
+Environmental Scores
+Temperature: 3 | Rainfall: 3 | Human Density: 3 | Flora: 3 | Fauna: 3 | Topography: 2–3 | Hydrology: 3
+Harvest aggregates of the land-cover features below.
+Point sites are not averaged in.
+
+Height: upland / border hills
+
+Seasonal modifiers: Temperate
+
+Visual Reference
+maps/Map_Local_Region_Rhennod_Marches.jpeg
+Tile west / centre / east if labels fail.
+
+--------------------------------------------------
+NOTABLE FEATURES
+--------------------------------------------------
+
+Rhennod Mountains (Lower Western Slopes)
+The foothills and lower forest edge of the Rhennod. Well-drained, mineral-rich soils (older volcaniclastic, metamorphic, or calcareous parent material) that favour vines and finer orchard crops.
+Temperature: 3 | Rainfall: 3–4 | Human Density: 2 | Flora: 4 | Fauna: 3 | Topography: 3 | Hydrology: 2
+
+Rolling Hill Country
+The open green hills that form the bulk of the region. Mixed farming, grazing, and scattered settlement.
+Temperature: 3 | Rainfall: 3 | Human Density: 3 | Flora: 3 | Fauna: 3 | Topography: 2 | Hydrology: 3
+
+Border River (placeholder name)
+The principal river that forms a natural boundary with the heartlands / southern districts and carries traffic through the region.
+Biome: River
+Temperature: 3 | Rainfall: 3 | Human Density: 3 | Flora: 3 | Fauna: 3 | Topography: 1–2 | Hydrology: 4
+
+--------------------------------------------------
+LINKED SETTLEMENTS
+--------------------------------------------------
+- [River-town and market settlements — to be defined]
+- [Hill villages and vineyard holds — to be defined]
+- [Border watch posts toward the Rhennod — to be defined]
+
+--------------------------------------------------
+LESSER / SCATTERED / SEASONAL
+--------------------------------------------------
+Vineyard and orchard holds on the better soils.
+River-floor hamlets and mills.
+Seasonal timber and grazing camps on the lower Rhennod edge.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+Access is by the border river from the western heartlands, by hill roads, and by limited tracks that climb toward the Rhennod passes.
+The region’s distinction is soil quality rather than climate: the lower Rhennod slopes give reliable vines and finer fruit that the rest of the peninsula produces less consistently.
+Culturally Isernvolk, with a stronger visible Syllvani substrate than the western heartland.
+The Rhennod Mountains dominate the eastern skyline and remain the cultural and political frontier with the Appolasian Plateau.

@@ -1,0 +1,16 @@
+# World_History_Matrix.txt
+# Working development document – not player-facing
+# Tracks major peoples across deep time so interactions and succession stay coherent
+
+Time scale is approximate and relative.
+Columns can be adjusted as the calendar hardens.
+
+People | Origin Wave | Deep Homeland | -3000 | -2000 | -1000 | -500 | 0 | +500 | +1000 | +1300 | +1500 | Current | Notes
+-------|-------------|---------------|-------|-------|-------|------|---|------|-------|-------|-------|---------|------
+Pionari | Wave 1 | Appulse / early basins | Founding | Shaping | Stewardship | Regional | — | — | — | — | — | Extinct as unitary people | Became Syllvani + other branches
+Ingenari | Wave 2 | Lift sites / early cities | — | Arrival | Building | Peak | Fragment | — | — | — | — | Extinct as unitary people | Became Isernvolk + other branches
+Novari | Wave 3 | Equatorial & hard lands | — | — | Arrival | Spread | Dominant mass | Fragment | Regional | Regional | Regional | Living (many branches) | Demographic floor of most of Virath
+Ordinari | Wave 3 elite | Charter centres | — | — | Arrival | Influence | Hidden | Hidden | Hidden | Thin | Thin | Living (thin) | Survive as law-myth and bloodlines
+Aperti | Specialists | Probe sites | — | — | Brief | Fade | Myth | Myth | Myth | Myth | Myth | Effectively gone | Survive only as curse and rare lines
+Syllvani | Pionari branch | Appolasian Plateau | — | — | — | Forming | Holding | Isolation | Continuity | Continuity | Continuity | Living | Long memory, fortress people
+Isernvolk | Ingenari branch | Ebon Peninsula / western shores | — | — | — | Landing | Expansion | Mark-building | Regional powers | Regional powers | Regional powers | Living | Iron, sea, frontier identity

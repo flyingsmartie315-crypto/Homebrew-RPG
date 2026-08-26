@@ -27,24 +27,24 @@ A biome line is given only when the feature is not the region Biome.
 Shared = border landform; full write-up lives here unless noted.
 --------------------------------------------------
 
-Ebon Spire
+Ebon Spire (western slopes)
 Inactive volcano and the dominant peak of the peninsula. Black, craggy rock. Source of the rivers that feed Lake Kolvatn.
 Shared with Ebormark. Full write-up lives here. Ebormark scores the south face only.
 Biome: Alpine
 Temperature: 1 | Rainfall: 4 | Human Density: 0 | Flora: 2 | Fauna: 1 | Topography: 5 | Hydrology: 2
 
-Svarthorn Massif
+Svarthorn Massif (western foot hills)
 The black-rock mountain mass surrounding Ebon Spire. The true highland of the peninsula. Craggy, volcanic in origin, and far higher than the coastal hills.
 Biome: Alpine
 Temperature: 1 | Rainfall: 4 | Human Density: 1 | Flora: 3 | Fauna: 2 | Topography: 5 | Hydrology: 3
 
-Brocken Peak
+Brocken Peak (western flanks)
 Northernmost peak of the Svarthorn Massif. A lesser black-rock height on the north face of the range, below Ebon Spire.
 Point site — not averaged.
 Biome: Alpine
 Temperature: 1 | Rainfall: 4 | Human Density: 0 | Flora: 3 | Fauna: 2 | Topography: 5 | Hydrology: 2
 
-Stetbjorg Height
+Stetbjorg Height (western flank)
 The left shoulder of Ebon Spire. A high, southernmost black-rock spur of the Svarthorn Massif, standing over Deepskaard Col.
 Shared with Ebormark. Point site — not averaged.
 Biome: Alpine
@@ -109,7 +109,7 @@ The western coastal plain beneath Westwood Heights. Working shore, year-round na
 Biome: Strand
 Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora: 3 | Fauna: 3 | Topography: 1 | Hydrology: 5
 
-Deepskaard Col
+Deepskaard Col (northern border) 
 Densely forested mountain pass on the southern border of Kannavald Deepwood, between Westwood Peak and Stetbjorg Height. The land-gate of the region. The Kannavald watch is Skaardhold.
 Shared with Ebormark. Full write-up lives here.
 Temperature: 2 | Rainfall: 4 | Human Density: 3 | Flora: 4 | Fauna: 2 | Topography: 4 | Hydrology: 2

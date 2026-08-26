@@ -34,12 +34,12 @@ Hanging vale on the south face of Ebon Spire. Sun-bowl, meltwater, volcanic soil
 Biome: Alpine
 Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora: 3 | Fauna: 2 | Topography: 4 | Hydrology: 3
 
-Stetbjorg Height
+Stetbjorg Height (eastern crags)
 Left shoulder of Ebon Spire above Deepskaard Col. Shared with Kannavald. Point site — not averaged.
 Biome: Alpine
 Temperature: 2 | Rainfall: 4 | Human Density: 0 | Flora: 3 | Fauna: 2 | Topography: 5 | Hydrology: 2
 
-Deepskaard Col
+Deepskaard Col (southern border)
 Forested pass between Westwood Peak and Stetbjorg Height. Shared land-gate with Kannavald. Full write-up lives in Kannavald; Ebormark sees the south approach. Skaardhold is the Kannavald watch.
 Temperature: 2 | Rainfall: 4 | Human Density: 3 | Flora: 4 | Fauna: 2 | Topography: 4 | Hydrology: 2
 
@@ -81,11 +81,11 @@ Flachberge Island
 Large gulf island (~650 sq mi) off the Leeshore. Low hills (Flachberge). Sheep, timber, ferry-traffic to the mainland.
 Temperature: 3 | Rainfall: 4 | Human Density: 2 | Flora: 3 | Fauna: 3 | Topography: 2 | Hydrology: 3
 
-Hornwood Range
+Hornwood Range (western marches)
 Eastern protecting wall. Wooded mountains; timber and stone; less farmable than the central floors.
 Temperature: 2 | Rainfall: 4 | Human Density: 1 | Flora: 4 | Fauna: 3 | Topography: 4 | Hydrology: 3
 
-Die Schulter
+Die Schulter (western slopes and crags)
 East flank of Ebon Spire within Ebormark. High shoulder-mass between the Spire and Hornwood.
 Biome: Alpine
 Temperature: 2 | Rainfall: 4 | Human Density: 0 | Flora: 2 | Fauna: 2 | Topography: 5 | Hydrology: 2

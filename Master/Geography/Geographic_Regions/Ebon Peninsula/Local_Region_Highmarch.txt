@@ -1,0 +1,66 @@
+# Local_Region_Highmarch
+
+Overview
+The elevated middle country of the Ebon Peninsula, lying between the eastern flanks of Ebon Spire / Svarthorn Massif and the rising Marchwall Range. A broken highland of ridges, high valleys, and passes. Settlement is thinner and harder than in Westmark; the land serves as both shield and corridor toward the Syllvani frontier. Watch-posts, herding holds, and pass-tolls matter more than open fields.
+
+Biome: Temperate / Highland
+Sub-biomes: Alpine, River, Highland
+The high ground is cold and steep. The deeper valleys are milder but still elevated.
+
+Environmental Scores
+Temperature: 2 | Rainfall: 3 | Human Density: 2 | Flora: 3 | Fauna: 2 | Topography: 4 | Hydrology: 3
+Harvest aggregates of the land-cover features below.
+Point sites are not averaged in.
+
+Height: highland / march
+
+Seasonal modifiers: Temperate (with strong Alpine influence on the higher ground)
+
+Visual Reference
+maps/Map_Local_Region_Highmarch.jpeg
+Tile west / centre / east if labels fail.
+
+--------------------------------------------------
+NOTABLE FEATURES
+--------------------------------------------------
+
+Ebon Spire (northern face)
+The high northern slopes and ridges of the inactive volcano. Cold, steep, and sparsely held. Shared feature; full write-up lives in Kannavald Deepwood. Highmarch scores only the northern face and its immediate approaches.
+Biome: Alpine
+Temperature: 1 | Rainfall: 4 | Human Density: 0–1 | Flora: 2 | Fauna: 1–2 | Topography: 5 | Hydrology: 2
+
+Svarthorn Massif (eastern flanks)
+The black-rock highland mass surrounding Ebon Spire. Craggy, volcanic in origin, and higher than the coastal hills. Shared feature; full write-up lives in Kannavald Deepwood. Highmarch scores the eastern flanks that fall into the marches.
+Biome: Alpine
+Temperature: 1 | Rainfall: 4 | Human Density: 1 | Flora: 2–3 | Fauna: 2 | Topography: 5 | Hydrology: 2–3
+
+Marchwall Range
+The rising wall that forms the northern border against the Northern Seas. High, continuous, and strategically critical.
+Biome: Alpine
+Temperature: 1–2 | Rainfall: 3 | Human Density: 1 | Flora: 2 | Fauna: 2 | Topography: 5 | Hydrology: 2
+
+High Valleys and Pass Country
+The network of elevated valleys, cols, and through-routes that cross the region. Primary settlement and travel corridors.
+Temperature: 2 | Rainfall: 3 | Human Density: 2–3 | Flora: 3 | Fauna: 2 | Topography: 3–4 | Hydrology: 3
+
+--------------------------------------------------
+LINKED SETTLEMENTS
+--------------------------------------------------
+- [Watch holds and pass settlements — to be defined]
+- [Herding and valley villages — to be defined]
+
+--------------------------------------------------
+LESSER / SCATTERED / SEASONAL
+--------------------------------------------------
+High pastures and seasonal herding camps.
+Isolated watch-posts and signal stations along the Marchwall approaches.
+Small timber and charcoal workings in the lower valleys.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+Access is by the high passes from Westmark, by routes descending from the Spire country, and by the limited corridors that cross toward the Rhennod / Plateau frontier.
+The region is the shield of the peninsula — thinner in people, heavier in watch and toll.
+Economy rests on highland herding, limited mining, timber, and control of the through-roads.
+Culturally Isernvolk, but harder and more frontier-minded than the green heartland.
+Ebon Spire and Svarthorn Massif are shared landforms; detailed scores and full descriptions live in Kannavald Deepwood (and the south face in Ebormark). Highmarch only records the northern faces that fall into this region.

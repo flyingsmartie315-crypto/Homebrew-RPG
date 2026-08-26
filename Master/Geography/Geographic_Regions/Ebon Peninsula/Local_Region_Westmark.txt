@@ -1,32 +1,45 @@
 # Local_Region_Westmark
 
 Overview
-A broad, well-watered peninsula heartland on the western approaches of the Ebon Peninsula. The original landing ground of the Isernvolk, now the seat of the region’s capital and principal port. Sheltered central valleys run between Ebon Spire and its twin, Isenhorn, while the broken northern ranges form a natural barrier against the northern seas. Rivers are navigable, cultivated, and heavily travelled. The land is more open and settled than Kannavald, but still defined by iron, sea, and the memory of first arrival.
+A broad, well-watered peninsula heartland on the western approaches of the Ebon Peninsula. The original landing ground of the Isernvolk, now the seat of the region’s capital and principal port. Sheltered central valleys run between Isenhorn and the western faces of the Marchwall Range, while the broken northern ranges form a natural barrier against the northern seas. Rivers are navigable, cultivated, and heavily travelled. The land is more open and settled than Kannavald, but still defined by iron, sea, and the memory of first arrival.
 
-Environmental Scores (Harvest)
-Temperature: 3
-Rainfall: 3
-Human Density: 4
-Flora: 3
-Fauna: 3
-Topography: 3
-Hydrology: 4
+Biome: Temperate
+Sub-biomes: Alpine, Oceanic, Strand, River, Highland
+The floors and coast are mild seasonal country. Isenhorn and the Marchwall faces are another climate.
+
+Environmental Scores
+Temperature: 3 | Rainfall: 3 | Human Density: 4 | Flora: 3 | Fauna: 3 | Topography: 3 | Hydrology: 4
+Harvest aggregates of the land-cover features below.
+Point sites are not averaged in.
+
+Height: upland / heartland
+
+Seasonal modifiers: Temperate
+
+Visual Reference
+maps/Map_Local_Region_Westmark.jpeg
+Tile west / centre / east if labels fail.
 
 --------------------------------------------------
 NOTABLE FEATURES
-Scores below are absolute Harvest values unless noted.
 --------------------------------------------------
 
-Isenhorn (the Twinspire)
-Second-highest peak of the Ebon Peninsula and the “little twin” of Ebon Spire. Black rock, steep approaches, and clear sight-lines over the western approaches.
+Isenhorn
+Second-highest peak of the Ebon Peninsula and the “little twin” of Ebon Spire, known as the Twinspire. Black rock, steep approaches, and clear sight-lines over the western approaches.
+Biome: Alpine
 Temperature: 2 | Rainfall: 3 | Human Density: 1 | Flora: 2 | Fauna: 2 | Topography: 5 | Hydrology: 2
 
 The Rivenstrand Walls
 Broken northern coast and ranges. A non-uniform barrier of jagged cliffs and high ground that shelters the interior from northern seas and wind-borne threats.
 Temperature: 2 | Rainfall: 3 | Human Density: 1 | Flora: 2 | Fauna: 2 | Topography: 4 | Hydrology: 3
 
-Isendale (placeholder name for the central valley)
-The rivered heartland between Ebon Spire and Isenhorn. Sheltered, fed by mountain runoff, with forests on the rising flanks and navigable, cultivated rivers. Primary farming and herding ground of the region.
+Marchwall Range (far western crags and foothills)
+The lower western slopes and foothills of the Marchwall Range that fall into Westmark. Steeper and colder than the central valley.
+Biome: Alpine / Highland
+Temperature: 2 | Rainfall: 3 | Human Density: 1 | Flora: 3 | Fauna: 2 | Topography: 4 | Hydrology: 2
+
+Isendale
+The rivered heartland between Isenhorn and the western faces of the Marchwall. Sheltered, fed by mountain runoff, with forests on the rising flanks and navigable, cultivated rivers. Primary farming and herding ground of the region.
 Temperature: 3 | Rainfall: 3 | Human Density: 4 | Flora: 3 | Fauna: 3 | Topography: 2 | Hydrology: 4
 
 Western Landing Coast
@@ -35,25 +48,23 @@ Temperature: 3 | Rainfall: 3 | Human Density: 5 | Flora: 2 | Fauna: 2 | Topograp
 
 --------------------------------------------------
 LINKED SETTLEMENTS
-Full detail is recorded in the individual settlement documents.
 --------------------------------------------------
-
 - [Capital / Port City] — Settlement_[Name].txt
 - [Other named settlements as defined]
 
 --------------------------------------------------
 LESSER / SCATTERED / SEASONAL
 --------------------------------------------------
-
 Valley farmsteads and herding holds along the main rivers.
 Small coastal landings and fishing stations under the Rivenstrand Walls.
-Hill pastures and wood-edge settlements on the flanks of Isenhorn and the northern ranges.
+Hill pastures and wood-edge settlements on the flanks of Isenhorn and the western Marchwall faces.
 
 --------------------------------------------------
 NOTES
 --------------------------------------------------
-Access is by sea into the western port, by the navigable rivers of the central valley, or over the high passes toward Kannavald and Ebormark.
+Access is by sea into the western port, by the navigable rivers of the central valley, or over the high passes toward Kannavald, the yellow marches, and Ebormark.
 The region is the political and commercial heart of the Ebon Peninsula for the Isernvolk.
 Population is markedly higher and more continuous than in Kannavald Deepwood.
 Iron, grain, livestock, and sea trade form the economic spine.
 The Rivenstrand Walls remain a meaningful natural defence against northern threats.
+The western faces of the Marchwall Range mark the transition from heartland to frontier.

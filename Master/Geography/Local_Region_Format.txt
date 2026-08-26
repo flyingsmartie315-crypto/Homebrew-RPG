@@ -108,4 +108,27 @@ Tile west / centre / east (or a 2×2) if labels fail.
 The file is one picture of this Local Region.
 Uploads are capped (~4096 on the long edge). Small labels will not survive a Geographic-Region export.
 
-Shared features should appear on this map and on the neighbour’s map.
+--------------------------------------------------
+NOTABLE FEATURES — NAMING RULE
+--------------------------------------------------
+
+Format:
+Feature Name (portion / face / detail)
+
+Rules:
+1. The base Feature Name must be identical in every Local Region that shares the landform.
+2. The text in brackets specifies which part of the feature is being described and scored in the current region.
+3. Shared features carry a short note: “Shared feature; full write-up lives in [Home Region].”
+4. Only the portion that falls inside the current Local Region is scored here.
+5. Point sites remain marked as point sites and are not averaged.
+
+6. When no bracketed detail is included, the feature is assumed to lie wholly within the borders of the current Local Region.
+
+Examples:
+- Ebon Spire (eastern face)
+- Ebon Spire (south face)
+- Svarthorn Massif (eastern flanks)
+- Marchwall Range (western faces)
+- Rhennod Mountains (lower western slopes)
+- High Valleys and Pass Country          ← wholly within this region (no brackets needed)
+- Lake Kolvatn                           ← wholly within this region (no brackets needed)

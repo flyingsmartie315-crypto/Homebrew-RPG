@@ -54,116 +54,214 @@ You are encouraged to combine information from multiple files in a single respon
 
 This loader gives you autonomous access to the repository. Use it intelligently to maintain immersion and continuity.
 
-=== MASTER FILE INDEX ===
+Repository Structure Summary
+Master/
+├── Characters/
+├── Core/
+├── Economy/
+│   └── Finished Goods/
+├── Entities/
+├── Geography/
+│   ├── Geographic_Regions/
+│   │   ├── Appolasian Plateau/
+│   │   └── Ebon Peninsula/
+│   ├── Geography_Maps/
+│   └── Settlements/
+│       ├── Ebormark/
+│       └── Kannavald Deepwoods/
+├── Log/
+├── Roleplay_AI_Loader.txt
+└── World/
+    ├── Cultures/
+    │   ├── Geographic Region/
+    │   └── Peoples/
+    │       ├── Early/
+    │       └── Founders/
+    └── Ecosystem/
+        ├── Bestiary/
+        └── Fauna/
 
-This index lists all current folders and key files in the repository.
-Load only the files relevant to the current scene or query.
+=== MASTER FILE INDEX (Full Repository) ===
 
 --------------------------------------------------
 CORE
 --------------------------------------------------
 Core_RP_Guidelines.txt
-Primary directive for the AI Game Master. Covers tone, player agency, world reactivity, NPC behaviour, Rule of Cool, and adjudication principles.
-
-Core_Purpose.txt
-Placeholder note: Gameplay rules and mechanics.
-
-
---------------------------------------------------
-ECONOMY
---------------------------------------------------
-Economy_Rules.txt
-Core rules of Virath’s economy and currency system (gc/sc/bc), barter vs coin, social class attitudes, and roleplaying guidelines.
-
-Economy_Labour.txt
-Daily wage and economic value guidelines for Common Labour, Skilled Hazardous Labour, Skilled Trades, and Specialists.
-
-Economy_Primary_Goods.txt
-Base prices for raw primary commodities (per kg where practical).
-
-Economy_Processed_Goods.txt
-Prices for refined and manufactured goods derived from primary materials.
-
-Economy_Livestock.txt
-Purchase prices, upkeep, space requirements, and uses for common livestock, beasts of burden, and war mounts.
-
-Economy_Unveiling_Goods.txt
-High-value materials harvested from Unveiling monsters and phenomena (including veil-drop metal).
-
-Economy_Unveiling_Beasts.txt
-Economic and logistical treatment of rare/intelligent/supernatural creatures (Gryphons, Royal Gryphons, Pegasus, Direwolves, River/Swamp Trolls, etc.).
-
+Primary GM directive. Tone, reactivity, agency, dice transparency, immersion rules, and how to handle uncertainty. Takes precedence on tone and dramatic adjudication.
 
 --------------------------------------------------
 WORLD
 --------------------------------------------------
 World_Fundamentals.txt
-Basic planetary and civilisational overview of Virath.
+Basic planetary and civilisational overview of Virath (atmosphere, technology level, dominant species, high-level history).
 
 The_Unveiling.txt
-The central historical fracture of the world, the False Moon, and the nature of the Immaterium (includes GM meta section).
+The central historical fracture of the world. False Moon, Immaterium, nature of the barrier, and GM meta on how entities and miracles work.
 
 Prehistoric_Megastructures.txt
-Ancient cyclopean remnants from before recorded history.
+Ancient cyclopean remnants (dark porous stone, grey ash, False Moon activation). Pre-date recorded peoples.
 
-World_Purpose.txt
-Placeholder: World history, organisations, culture, politics.
+World_Calander.txt
+The common reckoning of the year (Thaw, Highsun, Harvest, Longnight) and seasonal structure.
 
-Bestiary/Bestiary_Purpose.txt
-Placeholder for creature lore.
+--------------------------------------------------
+WORLD / CULTURES / PEOPLES / FOUNDERS
+--------------------------------------------------
+Peoples_Pionari.txt
+Wave 1 – First Blood. The original colonists who shaped the biosphere. Stewardship claim and Appulse origin.
 
-Cultures/Cultures_Purpose.txt
-Placeholder for cultural information.
+Peoples_Ingenari.txt
+Wave 2 – Second Blood / Raisers. Engineers, city-builders, and the guards who protected the works. Lift and craft memory.
 
+Peoples_Novari.txt
+Wave 3 – The Multitude. Mass settlement wave. Demographic floor of most of Virath; forced into harder and more equatorial lands.
+
+Peoples_Ordinari.txt
+Seal-Blood. Administrative and elite charter-holders who arrived with the Multitude. Thin demographically but outsized in law-myth and hidden influence.
+
+Peoples_Aperti.txt
+The Openers. Tiny specialist group who probed the thinning. Survive mainly as myth, curse, and rare bloodlines.
+
+--------------------------------------------------
+WORLD / CULTURES / PEOPLES / EARLY
+--------------------------------------------------
+Peoples_Isernvolk.txt
+Ingenari-descended people of the Northwestern continent. Anglo-Germanic-Scandi base. Iron, frontier, and western-sea identity. One of the two core “fantasy Europe” stocks.
+
+Peoples_Syllvani.txt
+Pionari-descended people of the Northwestern continent. Softened Romance + Welsh-flavoured naming. Holders of the Appolasian Plateau. Isolationist, long historical memory, long-term outlook.
+
+--------------------------------------------------
+WORLD / CULTURES
+--------------------------------------------------
+Cultures_Purpose.txt
+Placeholder for cultural organisation.
+
+Customs_Kannavald.txt
+Living customs of Kannavald Deepwood (Woods-Bells, Never Alone / Skinwight test, Forest Law, livestock practice, Still Stones taboo).
+
+--------------------------------------------------
+WORLD / ECOSYSTEM
+--------------------------------------------------
+Bestiary_Rules.txt
+Rules for creature Habitat Suitability Index (HSI) and comparison against regional environmental scores.
+
+Bestiary_Format.txt
+Template for writing individual bestiary entries.
+
+Fauna_Format.txt
+Template for natural fauna entries.
+
+Flora_Format.txt
+Template for flora entries.
+
+Fauna_Temperate.txt
+Natural temperate-zone fauna reference.
+
+Bestiary_Gryphon.txt
+Earthbound gryphons – origin, behaviour, bonding, and campaign use.
+
+Bestiary_Royal_Gryphon.txt
+Winged ultra-rare apex variant.
+
+Bestiary_Deepwight.txt / Bestiary_Fenwight.txt / Bestiary_Skinwight.txt / Bestiary_Ghoul.txt / Bestiary_Weber_Fisher.txt / Bestiary_Scylla.txt
+Individual Unveiling and natural threat entries.
+
+--------------------------------------------------
+ECONOMY
+--------------------------------------------------
+Economy_Rules.txt
+Core economic framework and currency system (gc / sc / bc).
+
+Economy_Primary_Goods.txt
+Raw and extracted goods with weights, volumes, packing rules, and base prices.
+
+Economy_Processed_Goods.txt
+Processed materials (metals, woodwork forms, etc.).
+
+Economy_Labour.txt
+Daily wage bands for Common Labour, Skilled Trades, Skilled Hazardous Labour, and Specialists, with rural/urban distinction and in-kind notes.
+
+Economy_Livestock.txt
+Live animals, slaughter yields, and annual household outputs (milk, eggs, wool, etc.).
+
+Economy_Agriculture.txt
+Crop and farming reference.
+
+Economy_Unveiling_Goods.txt
+High-value materials harvested from Unveiling sources.
+
+Economy_Unveiling_Beasts.txt
+Economic and logistical treatment of rare/intelligent mounts and creatures (Gryphons, Pegasus, etc.).
+
+Economy_Finished_Goods_Index.txt
+Pointer index to the finished-goods family.
+
+Economy_Finished_Tools.txt / Arms.txt / Armour.txt / Clothing.txt / Household.txt / Transport.txt / Architecture.txt
+Finished manufactured goods by category.
+
+--------------------------------------------------
+GEOGRAPHY
+--------------------------------------------------
+Geography_Rules.txt
+How to read the seven environmental scores, biomes, height terms, and seasonal modifiers.
+
+Local_Region_Format.txt
+Mandatory template for writing Local Region files.
+
+Geographic_Region_Format.txt
+Template for Geographic Region files.
+
+Settlement_Format.txt
+Template for settlements and hazard/dungeon sites.
+
+Geography_Purpose.txt
+Placeholder for geography organisation notes.
+
+Geographic_Region_Appolasian_Plateau.txt
+The Syllvani heartland – mountain-ringed impact basin and natural fortress.
+
+Local_Region_Kannavald_Deepwood.txt
+Highland boreal basin of dense forest, black volcanic rock, and Lake Kolvatn. Sparse, wet, and quietly wrong.
+
+Local_Region_Ebormark.txt
+Lower southern country beneath Ebon Spire. Rivers, Leeshore, Hornwood, and the seat of the Knights Gryphon at Eyrenhorst.
+
+Settlement files (Kannavald):
+Settlement_Kolby-on-Vatn.txt, Settlement_Askgruv.txt, Settlement_Burnford.txt, Settlement_Hornby.txt, Settlement_Oldfort_Kilnstead.txt, Settlement_The_Twaford_Twins.txt, Settlement_Kolholm.txt (hazard).
+
+Settlement files (Ebormark):
+Settlement_Eyrenal.txt (and further stubs as added).
 
 --------------------------------------------------
 CHARACTERS
 --------------------------------------------------
 Character_Generation_Protocol.txt
-Rules for developing background NPCs into fully realised characters through play.
+How background NPCs become fully realised characters through play.
 
-Major/Major_Purpose.txt
-Placeholder for major characters.
-
-Minor/Minor_Purpose.txt
-Placeholder for minor characters.
-
-PCs/PC_Purpose.txt
-Placeholder for player characters.
-
+Major_Purpose.txt / Minor_Purpose.txt / PC_Purpose.txt
+Placeholders for character storage.
 
 --------------------------------------------------
 ENTITIES
 --------------------------------------------------
 Entities_Purpose.txt
-Purpose: Storage of gameplay stats for PCs and NPCs (dynamic and background).
+Gameplay stats storage for PCs and NPCs.
 
-Man/Man_Purpose.txt
-Placeholder for human entities.
-
-Beast/Beast_Purpose.txt
-Placeholder for natural beasts.
-
-Abominations/Abominations.txt
-Placeholder for Unveiling abominations and mutants.
-
-
---------------------------------------------------
-GEOGRAPHY
---------------------------------------------------
-Geography_Purpose.txt
-Placeholder: Consistent location tracking and information on regions, cities, and points of interest.
-
+Man_Purpose.txt / Beast_Purpose.txt / Abominations.txt
+Placeholders for entity categories.
 
 --------------------------------------------------
 LOG
 --------------------------------------------------
 Campaign_Log.txt
-Living world state and GM memory log. Records permanent changes, temporary conditions, reputation, key NPCs, and major events. Takes precedence over base lore when conflicts arise.
-
+Living world state and GM memory. Records permanent changes, temporary conditions, reputation, key NPCs, and major events. Takes precedence over base lore when conflicts arise.
 
 --------------------------------------------------
 ROOT
+--------------------------------------------------
+Roleplay_AI_Loader.txt
+This file. Mandatory entry point and master index for the entire system.
 --------------------------------------------------
 Roleplay_AI_Loader.txt
 This file. Entry point and master index for the entire system.
