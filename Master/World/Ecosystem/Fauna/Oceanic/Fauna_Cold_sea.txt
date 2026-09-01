@@ -1,0 +1,163 @@
+# Fauna_Cold_sea
+# Shortlist for this sea-climate. Not an ecosystem.
+
+Biome: Cold sea
+
+
+STRAND
+
+Grey seal
+Domain: Marine, Land
+Biome: Cold sea, Temperate sea
+Place: Strand, Shelf
+HSI: Temperature: 1–3 | Rainfall: 2–4 | Human Density: 1–3 | Flora: 2–4 | Fauna: 3–4 | Topography: 0–2 | Hydrology: 2–4
+Rarity: 6 | Harm: 3 | Knowledge: 7
+Use: oil, hide, meat | Notes: haul-out on rock and skerry.
+
+Harbour seal
+Domain: Marine, Land
+Biome: Cold sea, Temperate sea
+Place: Strand, Gulf
+HSI: Temperature: 1–3 | Rainfall: 2–4 | Human Density: 1–4 | Flora: 2–4 | Fauna: 3–4 | Topography: 0–1 | Hydrology: 1–3
+Rarity: 7 | Harm: 2 | Knowledge: 7
+Use: oil, hide | Notes: quiet bight and river-mouth.
+
+Puffin
+Domain: Air, Marine
+Biome: Cold sea, Temperate sea
+Place: Strand
+HSI: Temperature: 1–3 | Rainfall: 3–5 | Human Density: 0–2 | Flora: 1–3 | Fauna: 3–4 | Topography: 0–1 | Hydrology: 2–5
+Rarity: 6 | Harm: 1 | Knowledge: 7
+Use: meat, down | Notes: cliff-burrow. Fish-carrier.
+
+Cormorant
+Domain: Air, Marine
+Biome: Cold sea, Temperate sea, Warm sea
+Place: Strand, Shelf
+HSI: Temperature: 2–4 | Rainfall: 2–4 | Human Density: 1–4 | Flora: 2–4 | Fauna: 3–4 | Topography: 0–2 | Hydrology: 1–3
+Rarity: 7 | Harm: 1 | Knowledge: 7
+Use: — | Notes: dries its wings on the piling.
+
+
+SHELF
+
+Herring
+Domain: Marine
+Biome: Cold sea, Temperate sea
+Place: Shelf, Open sea
+HSI: Temperature: 2–3 | Rainfall: 2–4 | Human Density: 1–4 | Flora: 2–4 | Fauna: 4–5 | Topography: 1–3 | Hydrology: 2–4
+Rarity: 8 | Harm: 1 | Knowledge: 8
+Use: fish, oil | Notes: the silver school. Runs and fails by the year.
+
+Cod
+Domain: Marine
+Biome: Cold sea, Temperate sea
+Place: Shelf, Open sea
+HSI: Temperature: 2–3 | Rainfall: 2–4 | Human Density: 1–3 | Flora: 2–4 | Fauna: 3–5 | Topography: 1–3 | Hydrology: 2–4
+Rarity: 7 | Harm: 1 | Knowledge: 8
+Use: fish | Notes: the shelf’s staple. Ground and mid-water.
+
+Haddock
+Domain: Marine
+Biome: Cold sea, Temperate sea
+Place: Shelf
+HSI: Temperature: 2–3 | Rainfall: 2–4 | Human Density: 1–3 | Flora: 2–4 | Fauna: 3–4 | Topography: 1–2 | Hydrology: 2–3
+Rarity: 7 | Harm: 1 | Knowledge: 7
+Use: fish | Notes: bottom-take with the cod.
+
+Halibut
+Domain: Marine
+Biome: Cold sea, Polar sea
+Place: Shelf
+HSI: Temperature: 1–3 | Rainfall: 2–4 | Human Density: 0–3 | Flora: 1–3 | Fauna: 3–4 | Topography: 1–3 | Hydrology: 2–4
+Rarity: 5 | Harm: 2 | Knowledge: 6
+Use: fish | Notes: great flatfish. Heavy take.
+
+Capelin
+Domain: Marine
+Biome: Polar sea, Cold sea
+Place: Shelf, Strand
+HSI: Temperature: 0–2 | Rainfall: 1–3 | Human Density: 0–2 | Flora: 1–3 | Fauna: 3–5 | Topography: 0–2 | Hydrology: 1–3
+Rarity: 8 | Harm: 1 | Knowledge: 6
+Use: fish, oil | Notes: same run as Polar sea.
+
+Lobster
+Domain: Marine
+Biome: Cold sea, Temperate sea
+Place: Shelf, Strand
+HSI: Temperature: 2–3 | Rainfall: 2–4 | Human Density: 1–3 | Flora: 2–4 | Fauna: 3–4 | Topography: 0–2 | Hydrology: 1–3
+Rarity: 6 | Harm: 2 | Knowledge: 7
+Use: meat | Notes: under the stone and the pot.
+
+Harbour porpoise
+Domain: Marine
+Biome: Cold sea, Temperate sea
+Place: Shelf, Gulf
+HSI: Temperature: 2–3 | Rainfall: 2–4 | Human Density: 1–4 | Flora: 2–4 | Fauna: 3–4 | Topography: 1–2 | Hydrology: 1–3
+Rarity: 6 | Harm: 1 | Knowledge: 6
+Use: oil | Notes: small, shy. Inshore.
+
+Greenland shark
+Domain: Marine
+Biome: Polar sea, Cold sea
+Place: Shelf, Open sea, Abyssal
+HSI: Temperature: 0–2 | Rainfall: 1–3 | Human Density: 0–2 | Flora: 0–2 | Fauna: 2–4 | Topography: 2–5 | Hydrology: 1–4
+Rarity: 5 | Harm: 4 | Knowledge: 4
+Use: oil, skin | Notes: same fish as Polar sea.
+
+
+GULF
+
+Harbour seal
+Domain: Marine, Land
+Biome: Cold sea, Temperate sea
+Place: Strand, Gulf
+HSI: Temperature: 1–3 | Rainfall: 2–4 | Human Density: 1–4 | Flora: 2–4 | Fauna: 3–4 | Topography: 0–1 | Hydrology: 1–3
+Rarity: 7 | Harm: 2 | Knowledge: 7
+Use: oil, hide | Notes: listed under STRAND. Same animal.
+
+
+OPEN SEA
+
+Minke whale
+Domain: Marine
+Biome: Cold sea, Temperate sea
+Place: Open sea, Shelf
+HSI: Temperature: 1–3 | Rainfall: 2–4 | Human Density: 0–3 | Flora: 1–3 | Fauna: 3–5 | Topography: 2–4 | Hydrology: 2–4
+Rarity: 5 | Harm: 3 | Knowledge: 6
+Use: oil, meat | Notes: smaller rorqual. Comes onto the shelf to feed.
+
+Humpback
+Domain: Marine
+Biome: Cold sea, Temperate sea, Warm sea
+Place: Open sea, Shelf
+HSI: Temperature: 1–4 | Rainfall: 2–4 | Human Density: 0–3 | Flora: 1–3 | Fauna: 3–5 | Topography: 2–4 | Hydrology: 2–4
+Rarity: 4 | Harm: 3 | Knowledge: 6
+Use: oil, baleen | Notes: long traveller. Season on the cold feed.
+
+Orca
+Domain: Marine
+Biome: Polar sea, Cold sea, Temperate sea, Warm sea
+Place: Open sea, Gulf, Shelf
+HSI: Temperature: 0–4 | Rainfall: 1–4 | Human Density: 0–3 | Flora: 1–3 | Fauna: 3–5 | Topography: 1–4 | Hydrology: 1–4
+Rarity: 5 | Harm: 5 | Knowledge: 6
+Use: — | Notes: same pack hunter.
+
+Gannet
+Domain: Air, Marine
+Biome: Cold sea, Temperate sea
+Place: Open sea, Strand
+HSI: Temperature: 2–3 | Rainfall: 2–4 | Human Density: 0–3 | Flora: 1–3 | Fauna: 3–5 | Topography: 0–3 | Hydrology: 2–5
+Rarity: 6 | Harm: 1 | Knowledge: 6
+Use: — | Notes: plunge-diver. Nests on stack, hunts off.
+
+
+ABYSSAL
+
+Greenland shark
+Domain: Marine
+Biome: Polar sea, Cold sea
+Place: Shelf, Open sea, Abyssal
+HSI: Temperature: 0–2 | Rainfall: 1–3 | Human Density: 0–2 | Flora: 0–2 | Fauna: 2–4 | Topography: 2–5 | Hydrology: 1–4
+Rarity: 5 | Harm: 4 | Knowledge: 4
+Use: oil, skin | Notes: the deep cold fish of this climate.

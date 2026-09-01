@@ -1,0 +1,673 @@
+# Core_Combat.txt
+# Virath structured-time combat — time, actions, hitting, movement
+# Status: DRAFT for Core. First full pass.
+# Companion files:
+#   Core_Resolution.txt                 tests, Degrees, Narrative / Structured Time
+#   Core_Characteristics_Skills.txt     WS, BS, M, Attacks, NAC, AC, Wounds, Size, Dodge
+#   Core_Injury.txt                     finishing blow, locations (not yet written)
+
+PURPOSE
+This file is Structured Time when seconds decide who lives.
+Resolution rolls the dice. Characteristics supply the numbers.
+This file says who acts when, what a Turn holds, how a hit
+becomes damage, and how bodies move in a fight and on the road.
+
+Use Narrative Time until someone draws, flees under fire, or
+the seconds matter (Core_Resolution §1a).
+
+Locked already, not imported from another game:
+  Initiative is rerolled every Round.
+  Dodge and Parry are Opposed Tests against the hit’s Degrees.
+  Wounds above 0 are glancing. The blow that reaches 0 is the
+  blow that counts.
+  Protection = NAC + AC. Size to-hit is relative.
+
+--------------------------------------------------
+0. KEYWORDS
+--------------------------------------------------
+
+Round              About ten seconds. Six Rounds ≈ one minute.
+Turn               One Entity’s chance to act in a Round.
+Full Action        The whole Turn. No Half Actions that Turn.
+Half Action        Two Halves replace one Full.
+Free Action        A split second. On top of Full or Half.
+Attack Action      Any Action with “Attack” in the name.
+                   Only one Attack Action per Turn.
+Initiative         Agility + 1d10. Rerolled each Round.
+Surprise           First Round only. No Turn that Round.
+Protection         NAC + AC.
+Wallace location   First d100. The limb (Injury §3).
+Limb location      Second d100. The spot on that
+                   limb (Injury §3). Same list as
+                   armour Slots.
+Hover / Fly        Two kinds of aerial movement. See section 8.
+Hampered           Bad ground, weather, or a loaded march.
+
+--------------------------------------------------
+1. STARTING A FIGHT
+--------------------------------------------------
+
+When combat starts, and at the start of every later Round:
+
+Step 1. Roll Initiative
+  Each Entity still in the fight rolls
+    Initiative = Agility + 1d10
+  Full Agility, not Agility Bonus.
+
+Step 2. Determine order
+  Rank every score high to low. That is this Round’s order.
+  Reroll and rebuild at the start of every new Round.
+  Ties: higher Agility, then higher Perception, then a
+  fresh 1d10 for that pair.
+  Like beasts with the same stats may share one roll and
+  act together. New arrivals roll when they join and slot
+  into the current Round or the next, GM call.
+
+Step 3. Surprise (Round 1 only)
+  Ask: was anyone hidden (Concealment), quiet (Silent Move),
+  distracted, or in odd circumstance (rain on cobbles, a
+  rite, a press of bodies)?
+  Opposed Awareness / Perception against the ambush Skill,
+  or Difficulty if the land itself is the trap.
+  Surprised Entities take no Turn in Round 1. After that
+  they join the order as normal.
+
+Step 4. Turns
+  Highest Initiative acts. Then the next score down.
+  On a Turn the Entity takes one Full Action or two Half
+  Actions, plus Free Actions (section 2).
+
+Step 5. Round ends
+  When everyone who could act has had a Turn (or was
+  skipped), about ten seconds have passed.
+
+Step 6. Repeat
+  If the fight continues, back to Step 1.
+  When it ends, add the minutes to Campaign_Log Current
+  Time and return to Narrative Time.
+
+--------------------------------------------------
+2. ACTION ECONOMY
+--------------------------------------------------
+
+A Turn is a few seconds inside a ten-second Round.
+
+  One Full Action + Free Actions
+  or
+  Two Half Actions + Free Actions
+
+Rules
+  Only one Action whose name includes “Attack” per Turn.
+  Only one Cast / Channel per Turn.
+  Free Actions have no written cap. The GM cuts the list
+  when the seconds break. A speech or emptying a pack
+  is not Free.
+  Most Actions finish this Turn. Reload, a long Skill,
+  or a Channelled working may be Extended (Resolution §7)
+  with the increment set to Rounds. Aborting wastes the
+  time already spent; start again from the beginning.
+
+Typical packages
+  Charge                          Full
+  Aim and shoot                   Half + Half
+  Called Shot and strike          Half + Half
+  Draw and strike                 Half + Half
+  Move and strike                 Half + Half
+  Shout on the charge             Free + Full
+
+Attacks stat (default 1) is spent by Swift Attack, not
+by taking two Standard Attacks.
+
+--------------------------------------------------
+3. BASIC ACTIONS
+--------------------------------------------------
+
+Aim (Half)
+  If the next Action this Turn is a Standard Attack,
+  that attack gains +10 WS or +10 BS. Anything else
+  wastes the Aim.
+  Aim and Called Shot cannot both be taken on the
+  same Turn. There are not three Halves.
+
+Called Shot (Half)
+  Name a location. Spend the time to line the gap,
+  not a −20 chip on the same swing.
+  If the next Action this Turn is a Standard Attack
+  and that hit stands, it strikes the named part.
+  No 3 DoS required. A miss is still a miss.
+  Anything other than a Standard Attack next wastes
+  the Called Shot (the part is not named on a Charge,
+  Swift Attack, or All Out).
+  This is not an Attack Action.
+
+Charge Attack (Full) — Attack Action
+  One melee attack at +10 WS.
+  Target at least 4 yards away and within Charge yards
+  (section 7). Last 4 yards in a straight line.
+
+Disengage (Full)
+  Leave melee and move the Move/Disengage yards.
+  Leaving melee without Disengage: each opponent still
+  in reach makes one free Standard Attack first. That
+  free hit does not spend their Attack Action later.
+
+Move (Half)
+  Move the Move/Disengage yards. Difficult ground halves
+  (round up).
+
+Ready (Half)
+  Draw or stow. One Ready may put one thing away and
+  take another out. Drink a flask already in hand.
+
+Reload (Varies)
+  Time is on the weapon. May be Extended.
+
+Stand / Mount (Half)
+  Rise, or mount a willing creature. Dismount is the
+  same cost.
+
+Standard Attack (Half) — Attack Action
+  One melee (WS) or ranged (BS) attack.
+
+Swift Attack (Full) — Attack Action
+  Strikes equal to the Attacks stat.
+  Attacks 1: one strike and the Turn is gone.
+  Two loaded one-hand missiles: at most two shots,
+  one per hand, and only if Attacks is 2+.
+
+Cast / Channel (Varies)
+  One working per Round. An extra Half first allows a
+  Channelling test to aid it (Resolution §8).
+  Procedure and cost are not in this file. May be
+  Extended.
+
+Use a Skill (Varies)
+  A Skill that fits the seconds. Cost is Half, Full,
+  or Extended as the work demands.
+
+--------------------------------------------------
+4. ADVANCED ACTIONS
+--------------------------------------------------
+
+All Out Attack (Full) — Attack Action
+  One melee attack at +20 WS.
+  Until the start of this Entity’s next Turn: no Dodge,
+  no Parry.
+
+Defensive Stance (Half)
+  No Attack Action this Turn.
+  Until the start of this Entity’s next Turn: melee
+  attacks against this Entity take −20 WS.
+
+Delay (Half)
+  Turn ends. One Half is held and may be spent any
+  time before the next Turn. Two Entities spending
+  held actions on the same instant: opposed Agility.
+  Unused held Half is lost at the next Turn.
+
+Feint (Half)
+  Opposed WS. If this Entity wins, its next Action
+  this Turn must be a Standard Attack, and that attack
+  cannot be Dodged or Parried. Any other next Action
+  wastes the Feint.
+
+Guarded Attack (Full) — Attack Action
+  One melee attack at −10 WS.
+  Until the start of this Entity’s next Turn: +10 on
+  Dodge and Parry tests.
+
+Jump / Leap (Full)
+  See section 8.
+
+Manoeuvre (Half)
+  Opposed WS. Winner moves the target 2 yards in a
+  declared direction and may move 2 yards itself.
+  Cannot force into another Entity or a solid thing.
+
+Parrying Stance (Half)
+  Ready a Parry at +10. Ends at the start of the next
+  Turn whether used or not.
+
+Run (Full)
+  Move the Run yards. Cannot Run while engaged —
+  Disengage first. Cannot Run on difficult ground.
+  Until the next Turn: ranged attacks against this
+  Entity take −20 BS; melee attacks against it gain
+  +20 WS.
+
+--------------------------------------------------
+5. HITTING
+--------------------------------------------------
+
+Melee: test WS. Ranged: test BS.
+Size to-hit = (Target Size − Attacker Size) × 10.
+Other modifiers: Resolution §4 and the combat examples
+in section 11.
+
+A melee WS test is the exchange — looking for an opening
+while the defender already denies some of them. Fail and
+the blow never finds a gap. Succeed and it is a telling
+blow unless Parried or Dodged (section 6).
+
+Ranged attacks are not Parried or Dodged unless a later
+rule says so.
+
+Hit location
+  Every successful attack that still stands after Dodge
+  or Parry rolls two d100s on a biped (Injury §3).
+  First die: Wallace limb. Second die: Slot on that
+  limb. Soak uses Armour_Rules.txt §5 on that Slot. These
+  dice are not the Coverage d100.
+
+    First d100
+    01–10    Head         10%
+    11–50    Torso        40%
+    51–60    Right Arm    10%
+    61–70    Left Arm     10%
+    71–85    Right Leg    15%
+    86–100   Left Leg     15%
+
+    Second d100 (Arm, locked)
+    01–10    Hand         10%
+    11–35    Forearm      25%
+    36–45    Elbow        10%
+    46–80    Upper Arm    35%
+    81–00    Shoulder     20%
+
+    Second d100 (Leg, locked)
+    01–08    Foot              8%
+    09–47    Shin / Calf       39%
+    48–57    Knee              10%
+    58–95    Thigh             38%
+    96–00    Hip / Buttock     5%
+
+    Second d100 (Torso, locked)
+    01–45    Chest / Upper Back           45%
+    46–85    Abdomen / Lower Back         40%
+    86–95    Groin / Pelvis
+             (Glutes / Sacrum from behind) 10%
+    96–00    Collarbone / Base of Neck     5%
+    Facing picks the front or back name
+    (Injury §3).
+
+    Second d100 (Head, locked)
+    01–10    Eyes                         10%
+    11–60    Skull / Occipital            50%
+    61–85    Lower face / Back of neck    25%
+    86–00    Throat                       15%
+    Facing picks the pair (Injury §3).
+
+  Three or more DoS on the attack: the attacker may
+  nominate the limb, the Slot, or both. That is the
+  clean strike that found the open helm on its own.
+
+  Called Shot (Half, section 3) is the other door:
+  spend the extra Half so a following Standard Attack
+  hits the named limb or Slot even on 0–2 DoS. Better
+  chance at the part, worse Turn (no move, no Aim).
+
+  Do not stack Called Shot and a 3 DoS nomination.
+  The part is already named.
+
+  DoS is the attack roll’s Degrees, after Size and
+  other modifiers, kept through the Opposed defence
+  if any. If the defender won, there is no location
+  because there is no hit.
+
+  Wrong-shaped bodies: use the analogue (wing, coil)
+  or the nearest column.
+
+  Helpless melee that auto-hits still rolls location
+  unless Called Shot was taken this Turn, or the
+  optional WS roll scored 3+ DoS and the attacker
+  nominates.
+
+Helpless (bound, unaware, down at 0 Wounds): the ordinary
+exchange does not apply. No Dodge, no Parry.
+Melee attacks automatically succeed. No WS test. Damage
+is SB + weapon. An optional WS roll may add DoS; failure
+on that roll does not miss.
+Ranged attacks still roll BS.
+
+--------------------------------------------------
+6. DODGE AND PARRY
+--------------------------------------------------
+
+A successful melee hit is not yet damage. The last line
+is an Opposed Test against the Degrees already on that
+hit. This is not a flat test.
+
+  Attacker keeps the Degrees from the WS roll.
+  Defender rolls Parry (WS) or Dodge (Dodge Skill).
+  Compare as Resolution §5.
+
+  Defender wins: the blow is beaten or slipped. No damage.
+  Attacker wins: the blow lands. Damage, section 9.
+
+Do not reroll the attack. Do not roll damage before the
+defence.
+
+Limits
+  Melee only.
+  Must be aware of the attack.
+  One Parry per Round. One Dodge per Round.
+  Never both on the same blow.
+  Surprise, blind, bound, All Out Attack: neither.
+  A won Feint’s following Standard Attack: neither.
+
+Parry
+  Opposed WS. Ready weapon or shield.
+  Paid for by Parrying Stance, or Free if a weapon or
+  shield is in the off hand.
+  Main-hand only and no Stance: no Parry.
+
+Dodge
+  Opposed Dodge Skill. Free. Ordinary Skill — Unknown
+  is Skill Base ÷ 2. Not an Advanced closed trick.
+
+--------------------------------------------------
+7. COMBAT MOVEMENT (YARDS)
+--------------------------------------------------
+
+  M     Move / Disengage    Charge    Run
+  1            2               4        6
+  2            4               8       12
+  3            6              12       18
+  4            8              16       24
+  5           10              20       30
+  6           12              24       36
+  7           14              28       42
+  8           16              32       48
+  9           18              36       54
+ 10           20              40       60
+
+  Move / Disengage  = M × 2
+  Charge            = M × 4
+  Run               = M × 6
+
+  Always floor the yards after the formula.
+  Difficult ground: halve those yards, then round up.
+
+M = (Agility ÷ 10) + Size adjustment.
+Keep one decimal. Do not drop to Agility Bonus.
+Agility 30 and Agility 38 are different Movement.
+
+  Size 4, Agility 30 → M 3.0 → Move 6, Charge 12, Run 18
+  Size 4, Agility 38 → M 3.8 → Move 7.6→7, Charge 15.2→15,
+                               Run 22.8→22
+  Size 6, Agility 38 → M 5.8 → Move 11, Charge 23, Run 34
+
+The whole-number rows above are the formula at M 1.0, 2.0, …
+They are a lookup, not a requirement to snap M to an integer.
+
+On a mapped grid, 2 yards = 1 square if the table uses
+2-yard squares. Narrative description is always legal.
+Do not require miniatures.
+
+Mounted: the mount’s M and Charge apply when the rider
+uses Charge or Move on the animal. The rider is still
+Size 4 as a target unless the blow is meant for the
+horse (Characteristics §3).
+
+--------------------------------------------------
+8. JUMP, LEAP, FALL, FLY
+--------------------------------------------------
+
+Jump (controlled descent)
+  Full Action.
+  Agility test for each 3 yards of drop (round up).
+  Fail: remaining distance is a fall. Stop testing.
+  Performer (Contortion) or a later Acrobat specialism
+  may replace Agility if the Entity has it Known+.
+
+Leap (horizontal)
+  Full Action. Running leap needs at least 4 yards of
+  straight run-up.
+  Test Strength. Success: distance = M + SB yards.
+  Standing leap: same test, distance halved (round up).
+  Each DoF reduces distance by 1 yard (minimum 1).
+  Result 0 or less: do not clear the gap. That is a fall
+  of whatever depth the gap has.
+  Vertical leap, if it matters: M − 2 yards, same DoF
+  trim, minimum 1.
+
+Fall
+  Incoming damage by distance fallen. AC does not soak
+  a fall. NAC does.
+
+    Yards fallen     Incoming
+         3               3
+         6               5
+         9               7
+        12               9
+        15              11
+        18              13
+        21              15
+        24              17
+        25+             20
+
+  Then Protection = NAC only. Leftover ticks Wounds.
+  If 10+ Wounds get through in one fall, also test
+  Agility or take +1d10 incoming before soak (bad
+  landing). Standing after a fall that dealt Wounds
+  takes a Stand Action.
+
+Flying
+  Two kinds, written on the Entity.
+    Hoverer  cannot climb more than 2 yards of air.
+             A Hoverer that takes no Move on its Turn
+             stalls and falls.
+    Flier    can use the air as a road.
+
+  Flying Movement is a second M used only in the air,
+  listed in parentheses on the profile. Charge and Run
+  columns use Flying M while aloft.
+
+  Altitude
+    Hovering   under 2 yards. Attacks ground as normal.
+               Cannot be attacked from below as if it
+               were high.
+    Low        about 15 yards. Cannot attack or be
+               attacked in melee. Shooting down is
+               ordinary. Shooting up from the ground
+               at more than 16 yards: −10 BS.
+    High       more than about 15 yards. Only attacks
+               and is attacked by others at High, or
+               by shot from below at −10 BS.
+
+  Changing altitude one step (Hovering ↔ Low ↔ High)
+  is a Move or part of Charge / Run.
+  A Flier that Charges in air may strike at any point
+  along the Charge and finish the remaining yards
+  after the blow (pass-through).
+  Two flyers at the same altitude fight as on the
+  ground.
+
+  Force down
+  Instead of damage, a Charge or Standard Attack
+  against a flyer may be an opposed Strength test to
+  drag it down one altitude step. Fail: no damage, no
+  drop. Both fail to break a deadlock: they tangle and
+  fall, taking falling damage from current altitude.
+
+--------------------------------------------------
+9. DAMAGE AND WOUNDS
+--------------------------------------------------
+
+  Incoming = 1d10 + SB + type + DoS
+  Type is Cut, Pierce, or Blunt from Weaponry.txt.
+  A 0 DoS hit still rolls the d10 and adds SB + type.
+  Impact weapons: 2d10 keep the higher die.
+
+  Protection = NAC + Soak AC from Armour_Rules.txt §5.
+  One d100, read down Modular → mail → Textile.
+  A Modular catch rolls 1d(modules on that Location)
+  to name the plate that was met, uses that module’s
+  AC, and adds mail and quilt. Armour Piercing
+  ignores 1 AC after that total.
+  Incoming ≤ Protection   →  0 Wounds
+  Incoming > Protection   →  Wounds lost = incoming − Protection
+
+  A helm’s AC does not cover a bare arm. An unarmoured
+  head on an otherwise mailed man is NAC only.
+
+Wounds above 0 are glancing (Characteristics §3c).
+The blow that reaches 0 is fatal or debilitating.
+Injury will name dead, down, or a table. Until then:
+out of the fight, plus one lasting cost that fits the
+weapon. Overflow on that blow may worsen the cost.
+
+Unarmed
+  Incoming = 1d10 + SB − 4 + DoS (minimum 1 before
+  soak if the hit landed).
+  Worn AC counts twice against unarmed. NAC is normal.
+
+Natural harm
+  Fire, drowning, and the like are incoming damage
+  by the scene, not a weapon value.
+  Fire: each Round of exposure, incoming set by the
+  GM from 1 (ember) to 10 (raging). Two Rounds in
+  the same source: Agility to put it out or get clear.
+  Fail: +1d10 incoming this Round, no AC, NAC still
+  soaks. Repeat until out.
+  Suffocation: Toughness test each Round after the
+  first. Cumulative −10 after the first fail. Third
+  failed test: unconscious. Two more Rounds: dead.
+  Disease is not a combat Action. Heal, Outdoor
+  Survival, and a later affliction file.
+
+--------------------------------------------------
+10. GRAPPLE
+--------------------------------------------------
+
+Start with a Charge Attack or Standard Attack that
+declares a grapple instead of damage. Then both test
+Agility (opposed). Winner: the target is grappled.
+
+While grappled
+  Both may not Dodge or Parry.
+  Outside melee against either has +20 WS.
+  The grappler’s only useful Action is to maintain
+  the hold (Full, opposed Strength to keep it) or
+  to deal unarmed damage (Half).
+  The held Entity’s only useful Action is to break
+  (Full, opposed Strength). Success: free.
+  Either may let go as a Free Action.
+
+--------------------------------------------------
+11. COMBAT DIFFICULTY (EXAMPLES)
+--------------------------------------------------
+
+These sit on the Resolution ladder. They do not
+replace Size to-hit or darkness already paid.
+
+  +30   attacking someone unaware who can still act
+  +20   attacking a Stunned target; ranged at Helpless
+  auto   melee at Helpless (no WS test; see §5)
+  +10   attacking someone who is Down but not Helpless
+   0    a standard exchange
+  −10   shooting into melee (friend and foe mixed)
+  −20   shooting while engaged in melee; Dodge while down
+  −30   shot at extreme range; Parry against a thing
+        two or more Size steps larger
+
+Shooting into melee: −10 BS, and a miss may strike
+another Entity in the tangle (GM picks the nearest
+or rolls).
+
+Extreme range: usually a waste. Called shots at
+that distance also take the −30.
+
+Behind cover, fog, or a wall: −10 to −30 BS as the
+view dictates. If the attacker cannot see the target
+at all, there is no shot.
+
+--------------------------------------------------
+12. NARRATIVE MOVEMENT
+--------------------------------------------------
+
+Out of Structured Time, M still governs travel.
+Groups move at the slowest member.
+
+Local (yards per minute)
+
+  M     Hampered    Standard
+  1        12          24
+  2        24          48
+  3        36          72
+  4        48          96
+  5        60         120
+  6        72         144
+  7        84         168
+  8        96         192
+  9       108         216
+ 10       120         240
+
+  Hampered  = M × 12
+  Standard  = M × 24
+
+Overland (miles per hour)
+
+  M     Hampered    Standard
+  1       0.5           1
+  2       1             2
+  3       1.5           3
+  4       1.75          3.5
+  5       2.25          4.5
+  6       3             6
+  7       3.5           7
+  8       4             8
+  9       4.5           9
+ 10       5            10
+
+Hampered: woods, marsh, hills, weather, a loaded
+march, a column in formation.
+Standard: road or open country.
+The GM may cut the day’s miles further for rain,
+hunger, or a press of refugees. Eight hours is a
+working travel day. Pushing longer is Fatigue
+(Characteristics §3a).
+
+Update Campaign_Log Current Time and Location when
+the grain of the journey changes.
+
+--------------------------------------------------
+13. FATE
+--------------------------------------------------
+
+Fate Points are Player Characters only
+(Characteristics §3d).
+
+Until a longer list exists, one FP buys one of:
+  — do not die on the finishing blow (stay at 1 Wound,
+    down, out of the fight)
+  — force a reroll (yours or an incoming attack)
+  — walk out of a result the dice already closed
+
+Declared before the fiction moves on. No second FP
+in the same scene for the same blow.
+
+There is no separate Fortune pool in this system.
+
+--------------------------------------------------
+14. ENDING THE FIGHT
+--------------------------------------------------
+
+The fight ends when no one is still trying to hold
+the field. Yield and flight are legal.
+Then leave Structured Time. Update the Log. Resume
+Narrative Time.
+
+--------------------------------------------------
+15. OPEN
+--------------------------------------------------
+
+  — Weapon values, reach, qualities, reload times
+  — Armour AC values by location
+  — Finishing-blow table lives in Core_Injury.txt
+  — Two-weapon fighting beyond off-hand Parry
+  — Mounted combat beyond using the mount’s M
+  — Extra Attacks from Size
+  — Channelling procedure in a fight
+  — Optional staggered / declining Swift Attack
+  — Affliction file (disease is not combat)

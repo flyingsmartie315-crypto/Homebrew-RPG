@@ -1,0 +1,1136 @@
+# Core_Characteristics_Skills.txt
+# Virath Characteristics, Size, and (later) Skills
+# Status: DRAFT for Core — Characteristics, Size, ranks locked in principle.
+#         Skill list begun.
+# Companion files:
+#   Core_Resolution.txt                 tests, Degrees, Dominate, Man-Scale
+#   Core_Combat.txt / Core_Injury.txt   not yet written
+#   Core_Character_Creation.txt         not yet written
+
+PURPOSE
+This file defines what an Entity is made of, mechanically: nine
+Characteristics, their Bonuses, Size, and the frame Skills will hang
+from. Resolution (how you roll) lives in Core_Resolution.txt. This
+file answers what you roll against.
+
+--------------------------------------------------
+0. KEYWORDS (this file)
+--------------------------------------------------
+
+Characteristic
+  One of nine standing capacities. Every Entity that can take a test
+  has all nine, even if one of them is vestigial (a stone-bulk with
+  Fellowship 0 is still an Entity; it simply cannot win a Fellowship test).
+
+Bonus
+  Tens digit of a Characteristic. Strength 41 → SB 4.
+  Defined in Core_Resolution §6. Repeated here only as abbreviations.
+
+  SB   Strength Bonus
+  PB   Perception Bonus
+  TB   Toughness Bonus
+  FelB Fellowship Bonus
+  IB   Intelligence Bonus
+  AB   Agility Bonus
+  WB   Willpower Bonus
+  WSB  Weapon Skill Bonus
+  BSB  Ballistic Skill Bonus
+
+Parent Characteristic
+  A Characteristic a Skill is built from. A Skill has one or more
+  Parents. See Skill Base.
+
+Skill Base
+  The spine of a Skill: the mean of its Parent Characteristics.
+  Sum the Parents, divide by how many there are, discard the
+  remainder. Rank is applied to this number. Rank does not
+  replace the mean and does not drop a Parent.
+
+Rank
+  How well the Entity knows the Skill. Default is Unknown
+  (Skill Base ÷ 2). See section 5.
+
+Advanced Skill (*)
+  A Skill that cannot be attempted until it has been formally
+  learned. No Unknown test. No guess.
+  Formal learning: apprenticeship, academic study, or an equivalent
+  closed instruction. No Unknown roll. No “I have a go.”
+
+Intuitive
+  A Skill this specific Entity treats as Known without instruction,
+  because the body or kind already does that work. Listed on the
+  Entity (people, bestiary, profile), not as a property of the Skill
+  itself. Ranks above Known still have to be earned. Advanced (*)
+  Skills are Intuitive only if the Entity entry says so.
+
+Size / Size Category
+  A 1–10 trait of an Entity’s body. Size 4 is Average and is
+  Man-Scale. See section 3.
+
+Man-Scale / Scale / Dominate
+  Resolution terms. See Core_Resolution §0 and §6a.
+  Size does not trigger Dominate. A Characteristic of 100+ does.
+
+Natural Armour Class (NAC)
+  Derived from Toughness Bonus. The body’s own soak. See section 3b.
+
+Armour Class (AC)
+  Soak from worn armour and shields when Combat writes those
+  numbers. Stacks with NAC. Not a Characteristic.
+
+Wounds
+  Hit points. Starting Wounds = TB × 3. See section 3c.
+  Boxes above the last one are glancing. The last one is
+  the blow that counts.
+
+Movement (M)
+  How far the Entity goes in structured time.
+  Base M = Agility ÷ 10 (keep one decimal), then Size.
+  See section 3d. Yards are floored after the Combat formula.
+
+Encumbrance Limit
+  How much kit the body can bear, in points.
+  Limit = Strength × 10. See section 3d.
+
+Attacks
+  Basic attacks allowed per turn in structured time. Default 1.
+
+Insanity Points (IP)
+  Accumulated mental trauma. See section 3d.
+
+Fate Points (FP)
+  Destiny and luck. Player Characters only. See section 3d.
+
+Initiative
+  Reaction speed in Structured Time.
+  Initiative = Agility + 1d10.
+  Rolled at the start of every Round. Order is rebuilt.
+  See Core_Combat.txt.
+
+Specialism
+  A bracketed focus on a Skill written (various).
+  Trade (Armourer) is not Trade (Glass). See section 6.
+
+--------------------------------------------------
+1. THE NINE CHARACTERISTICS
+--------------------------------------------------
+
+Every Entity has these nine, and only these nine, unless a later
+Core file adds one in this list.
+
+Human-range note
+  An ordinary Size 4 adult, before Size modifiers, usually sits
+  around 20–40 in each Characteristic. 30 is competent. 40 is
+  marked. 10 is crippling. Exact generation is a Character Creation
+  problem.
+
+Values may exceed 100. That is Dominate territory for Man-Scale
+tests of that Characteristic only (Core_Resolution §6a).
+
+-----
+Strength (S)
+-----
+An Entity’s ability to exert force on the world around them.
+
+Lift, break, shove, haul, crush, hold a gate, draw a heavy bow,
+keep a grip, throw mass. Raw output of body against matter.
+
+Not fine placement (that is Agility). Not lasting the work (that
+is Toughness). A smith’s hammer-blow is Strength. The hour at the
+anvil is Toughness. Setting the punch on the rivet is Agility.
+
+Bonus (SB): damage from force, distance something is moved or
+thrown, how much can be lifted or broken without a test.
+
+-----
+Perception (Per)
+-----
+An Entity’s ability to perceive the world around them, by whatever
+senses that Entity actually has: sight, smell, hearing,
+echolocation, vibration through the ground, heat, the pull of the
+veil — the list follows the body, not a human default.
+
+Notice, track, spot a lie in the face if the cue is visible,
+catch the changed note in a herd, feel the tripwire. Sensing,
+not interpreting.
+
+A wolf and a man can both have high Perception. They are not
+sensing the same world.
+
+Not knowing what the mark means (Intelligence). Not using the
+mark in conversation (Fellowship). Seeing the mark is Perception.
+
+Bonus (PB): range of notice, number of extra details on a success,
+how early a thing is detected.
+
+-----
+Toughness (T)
+-----
+An Entity’s ability to withstand damage, physical duress,
+endurance, fatigue, and poison.
+
+Take a blow, march through the night, hold breath, shrug cold,
+resist a tincture, keep standing when the body wants to stop.
+The body as a wall.
+
+Not force applied outward (Strength). Not keeping a hand steady
+(Agility). Not holding a purpose through pain or fear
+(Willpower).
+
+Bonus (TB): Natural Armour Class (section 3b), duration of labour
+before collapse, resistance amounts for poison, disease, exposure.
+TB is not subtracted from damage a second time once NAC exists.
+
+-----
+Fellowship (Fel)
+-----
+An Entity’s ability to act inside social dynamics.
+
+Doing, not understanding. Deliver the speech, hold the stare,
+soothe the horse, command the levy, insult a knight in a way
+that lands, pass as one of the hall. The work of presence.
+
+A beast can have Fellowship: a gryphon’s bearing, a hound’s plea,
+a stallion’s dominance in the herd. The audience has to be able
+to receive it. Fellowship against stone is not a test.
+
+Not knowing the custom (Intelligence). Not noticing the room
+has turned (Perception). Knowing the right form of address is
+Intelligence. Seeing the jaw tighten is Perception. Saying the
+thing that uses both is Fellowship.
+
+Bonus (FelB): number of people held, severity of a social result,
+how far a reputation chip travels from one scene.
+
+-----
+Intelligence (Int)
+-----
+An Entity’s ability to reason and understand the world, and its
+ability to learn and retain new skills and information.
+
+Recall, infer, plan, read a map, learn a trade, follow a legal
+argument, reconstruct how the mill jammed, understand a custom
+well enough to explain it. The work of the mind.
+
+Not noticing the mill has jammed (Perception). Not talking the
+miller down (Fellowship). Not the hour of crawling in the wheel
+(Toughness / Agility).
+
+Beasts have Intelligence. Low Intelligence is not “no mind.” It
+is a shorter horizon, fewer stored tricks, poorer transfer from
+one problem to the next.
+
+Bonus (IB): extra facts recalled, speed of learning when
+Advancement exists, complexity of a plan that can be held
+without writing.
+
+-----
+Agility (Ag)
+-----
+An Entity’s ability for fine motor control, flexibility, balance,
+and body awareness.
+
+Land the cut where it was aimed, pick a lock, keep the saddle,
+cross the ice, catch the dropped cup, thread a needle, place
+the feet on a cliff that is about balance rather than force.
+
+Not how hard the cut hits (Strength). Not how long the climb
+can be sustained (Toughness). Not seeing the next hold
+(Perception).
+
+Bonus (AB): short-burst movement (modified by Size), balance
+margin, fine-work precision, initiative when Combat exists,
+unless that file assigns initiative elsewhere.
+
+-----
+Willpower (WP)
+-----
+An Entity’s ability to withstand mental duress, temptation, pain,
+fear, and the machinations of the Immaterium — or to influence it.
+
+Hold a purpose when the body wants to flee. Refuse the drink, the
+bribe, the easy lie. Stay present through pain. Stand a False Moon.
+Push back on a whisper that is not yours. Where a later file allows
+it, bend the veil on purpose.
+
+Toughness is whether the flesh keeps working. Willpower is whether
+the will keeps pointing. A poison is Toughness. The urge to lie down
+and accept it is Willpower. A wound is Injury and Toughness. Using
+the arm anyway, screaming, is Willpower.
+
+Not noticing the wrongness (Perception). Not understanding what the
+whisper wants (Intelligence). Not performing courage for an audience
+(Fellowship). Fellowship can fake a steady voice. Willpower is whether
+the voice should be steady.
+
+Influencing the Immaterium uses this same Characteristic, not a
+separate magic stat. How that work is done — cost, backlash, False
+Moon — is not written here.
+
+Bonus (WB): severity of fear or temptation shrugged, duration a
+purpose is held, magnitude of a veil-working when that file exists.
+
+-----
+Weapon Skill (WS)
+-----
+An Entity’s ability to hit a target in melee.
+
+Connect the blow. Sword, axe, spear, fist, beak, claw, a chair
+leg in a tavern. Whether the attack lands on the body it was
+aimed at.
+
+Not how hard it hits (Strength). Not the footwork of a climb or
+a lock (Agility), though a later combat Skill may list those as
+Parents. Not seeing the foe arrive (Perception).
+
+WS is a Characteristic, not a Skill. Melee Skills, when written,
+may take WS as a Parent. They do not replace it.
+
+Bonus (WSB): extra effect on a melee hit when Combat exists
+(additional DoS converted to result, or as that file says).
+Damage itself remains Strength unless Combat says otherwise.
+
+-----
+Ballistic Skill (BS)
+-----
+An Entity’s ability to hit a target with a shot or a thrown
+object.
+
+Arrow, bolt, stone, javelin, thrown axe, a hurled bottle, a
+spit of venom if the body aims it. Whether the missile arrives
+on the mark.
+
+Not drawing a heavy bow (Strength). Not judging that a thing
+is there (Perception). Not the flight of the body (Agility).
+Seeing the deer is Perception. Putting the arrow in it is BS.
+
+BS is a Characteristic, not a Skill. Ranged Skills, when written,
+may take BS as a Parent. They do not replace it.
+
+Bonus (BSB): extra effect on a missile hit when Combat exists.
+Damage of the missile is a weapon and Strength question for
+that file.
+
+--------------------------------------------------
+2. WHICH CHARACTERISTIC TO TEST
+--------------------------------------------------
+
+Ask what the Entity is actually doing.
+
+  Force against matter                 Strength
+  Lasting, soaking, staying upright    Toughness
+  Placing the body or the hand         Agility
+  Taking in a stimulus                 Perception
+  Making meaning of what is known      Intelligence
+  Acting on other wills, socially      Fellowship
+  Holding the mind, or pressing the
+  Immaterium                           Willpower
+  Hitting in melee                     Weapon Skill
+  Hitting with shot or throw           Ballistic Skill
+
+Split tests when two things are both in play. A climber who must
+find the hold and then commit the body: Perception or an applicable
+Skill to read the face, then Agility to move. That is a chain
+(Core_Resolution §8), not one mashed TN.
+
+When a Skill exists for the action, use the Skill (section 5).
+When the action has no Skill, test the one Characteristic that
+is actually doing the work. Do not average Characteristics unless
+a Skill says those are its Parents.
+
+Combat uses Weapon Skill to hit in melee and Ballistic Skill to
+hit with shot or thrown weapons. Size modifies those TNs
+(section 3). Combat may still add Skills with WS or BS as
+Parents. It does not add a tenth Characteristic for fighting.
+
+--------------------------------------------------
+3. SIZE
+--------------------------------------------------
+
+Canonical Size rules. The old Size holding file is merged here.
+
+Every Entity has a Size Category from 1 to 10. Objects that matter
+(gates, beams, boats) may be given a Size when an Entity tries to
+move, break, or hide behind them.
+
+Size 4 is Average and is Man-Scale.
+
+The printed to-hit and stealth figures below are Man-Scale
+relative: they assume the other party is Size 4. They are a
+reference chart, not the live modifier.
+
+Live play always uses the difference between the two Entities
+in the test. Never apply the printed Titanic +60 (or any other
+printed to-hit number) because “the target is large.” That +60
+is only Size 10 against Size 4.
+
+  Step        = 1 Size Category
+  Step value  = 10
+
+To-hit (WS or BS)
+  Attacker’s TN modifier = (Target Size − Attacker Size) × 10
+
+  Size 10 striking Size 9    (9 − 10) × 10 = −10
+  Size 9 striking Size 10    (10 − 9) × 10 = +10
+  Size 4 striking Size 10    (10 − 4) × 10 = +60
+  Size 10 striking Size 4    (4 − 10) × 10 = −60
+  Size 7 striking Size 7     (7 − 7) × 10 =   0
+
+  A leviathan does not hit another vast thing at +60. It hits
+  the next step down at −10. A monumental troll tagging that
+  leviathan is at +10, not +60.
+  Same Size is always +0, whatever the number on the chart.
+
+Stealth / concealment
+  Actor’s TN modifier = (Observer Size − Actor Size) × 10
+  A child (3) hiding from a man (4) is +10.
+  A troll (8) hiding from a man (4) is −40.
+  Cover, dark, and Skill still apply on top.
+
+Movement
+  Base M = Agility ÷ 10 (keep one decimal), then apply the
+  printed Size adjustment. Absolute, not relative.
+  Floor M at 1.0 unless the Entity cannot move.
+  Combat floors the yards after M × 2 / × 4 / × 6.
+  See section 3d.
+
+S/T scaling
+  Apply the printed modifier to Strength and Toughness only.
+  Absolute. This is the usual reason a large Entity reaches 100+
+  and therefore Dominates Man-Scale tests of that Characteristic.
+  Size does not itself trigger Dominate.
+
+  Typical human Strength/Toughness before Size is 20–40.
+  An Immense troll with a strong base of 65 and +40 Size is 105:
+  Dominates Man-Scale Strength, still rolls against another troll.
+
+  Perception, Fellowship, Intelligence, Agility, Willpower,
+  Weapon Skill, and Ballistic Skill are not moved by this column.
+  A titan is not automatically accurate, and is not automatically
+  brave. To-hit already uses the Size difference on the WS or BS
+  test. Do not also raise WS or BS for bulk.
+
+SIZE TABLE
+
+  #  Category      To-hit vs 4*     Stealth vs 4*  Move     S/T
+  1  Miniscule     −30              +30       AB − 3   −30
+  2  Puny          −20              +20       AB − 2   −20
+  3  Weedy         −10              +10       AB − 1   −10
+  4  Average        +0               +0       AB        +0
+  5  Hulking       +10              −10       AB + 1   +10
+  6  Enormous      +20              −20       AB + 2   +20
+  7  Massive       +30              −30       AB + 3   +30
+  8  Immense       +40              −40       AB + 4   +40
+  9  Monumental    +50              −50       AB + 5   +50
+ 10  Titanic       +60              −60       AB + 6   +60
+
+  * Printed columns are vs Size 4 only. Live to-hit and stealth
+    use Size difference. Size 10 vs Size 9 is −10 to hit, not +50.
+
+EXAMPLES (Virath)
+
+  1  Miniscule     insects, tiny wisps, small artefacts
+  2  Puny          rats, Unveiling-echo servo-skulls, thrown dagger
+                   as a flying target
+  3  Weedy         human children, luminescent wisps
+  4  Average       adult humans (about 5'5"–6'8" athletic build),
+                   dryads, fenwight, smallest giant spiders
+  5  Hulking       rare human frames at the edge of the possible,
+                   large beastmen
+  6  Enormous      horse, cattle, ~500 kg destrier, direwolf
+  7  Massive       earthbound gryphon (720–880 kg), largest common
+                   beasts
+  8  Immense       royal gryphon, elephant, smaller troll, small
+                   scylla, largest giant spiders
+  9  Monumental    largest trolls, common scylla, lesser kraken-form
+ 10  Titanic       leviathan, full kraken, dragon, the Others’ ice
+                   constructs, ancient Unveiling titans
+
+Mixed Size
+  A man on a destrier is still Size 4 as a target unless the blow
+  is meant for the horse. The mount is Size 6. State which Entity
+  is being tested.
+
+Caps
+  Do not stack Size to-hit with a second “it is big” Difficulty
+  chip for the same fact. Size already paid for that.
+  Other facts (night, rain, injured wing) still stack.
+
+Combat files may add Wound bands, reach, and trample by Size.
+They do not replace this table.
+
+--------------------------------------------------
+3a. STRENGTH AND LOAD
+--------------------------------------------------
+
+Athletics is run, jump, leap, bound. It is not this section.
+Kilograms come from Strength itself, not from Strength Bonus.
+Size already sits inside Strength via S/T scaling, so do not
+apply Size a second time.
+
+  s = Strength ÷ 10     keep one decimal
+  Strength 30 → s 3.0
+  Strength 38 → s 3.8
+  Strength 50 → s 5.0
+
+  After every load or throw formula, floor the answer.
+  NAC stays TB (tens digit of Toughness). Wounds stay TB × 3.
+  Those are not converted to T ÷ 10.
+
+TWO SCALES
+
+  Day and Heavy stay linear. A 300 kg pull does not make a
+  12-hour ruck scale the same way.
+
+    Day carry, no penalty            s ×  5 kg
+    Heavy carry, fatigue             s × 10 kg
+
+  Press, Lift, and Push accelerate from s 4.0 (Strength 40).
+  Below that, linear.
+
+    s under 4.0
+      Press   s × 15 kg
+      Lift    s × 45 kg
+      Push    s × 65 kg
+
+    s 4.0 and up
+      Press   4 × s × s kg
+      Lift   12 × s × s kg
+      Push   16 × s × s kg
+
+  s 5.0 is the exceptional-human mark: 100 kg press, 300 kg
+  lift/pull. That is the calibration.
+
+  s      Day   Heavy   Press   Lift    Push     notes
+  2.0     10      20      30      90     130    linear
+  3.0     15      30      45     135     195    ordinary adult
+  3.8     19      38      57     171     247    Ag/S 38 band
+  4.0     20      40      64     192     256    trained strong
+  5.0     25      50     100     300     400    exceptional human
+  6.0     30      60     144     432     576
+  7.0     35      70     196     588     784    edge of flesh
+ 10.0     50     100     400    1200    1600    troll-band
+ 12.0     60     120     576    1728    2304
+
+  Strength 38 and Strength 30 are not the same column.
+  Use the formula. Floor the kilograms.
+
+What needs a roll
+  Inside press, day-carry, or an easy shove well under push:
+    no roll. It happens.
+  At the lift ceiling, or an awkward shape, or bad footing:
+    Strength test. Success moves it. Failure is a wasted effort
+    or a dropped edge, not automatic injury.
+  Past the lift or push ceiling:
+    no. Dominate does not invent kilograms. A Strength 120
+    troll has s 12.0: lift 1728 kg, push 2304 kg. That is the
+    ceiling. A cottage door is not that mass; that remains a
+    Dominated Man-Scale Strength test (Core_Resolution §6a).
+
+Press
+  Awkward mass taken to full extension: grain-sack, timber,
+  a body. The Press number, no roll, if the Entity can stand
+  and has room. Heavier than that is a Strength test up to
+  the lift ceiling, and it is not held there long.
+
+Push / drag
+  Legs and friction on flat, solid ground. Movement while
+  pushing at the ceiling is a crawl (Combat will set the
+  yards; until then, treat it as a slow walk at best).
+  Soft ground, slope, or wheels change this by Difficulty
+  or by a later Labour Skill, not by rewriting the multiple.
+
+Carry and fatigue
+  s × 5 kg: tools, light kit, a day’s pack. Walk the day.
+  No mechanical penalty.
+
+  Above that, up to s × 10 kg: heavy kit, a combat load.
+  The Entity may carry it for a number of hours equal to
+  Toughness Bonus without a test. Each hour after that
+  requires a Toughness test. Failure inflicts one Fatigue.
+
+  Fatigue is a condition. Until Injury writes it:
+    each Fatigue is −10 to physical TNs (Strength, Toughness,
+    Agility, WS, Athletics, and other bodily work).
+    At 3 Fatigue, movement is halved.
+    At Fatigue equal to TB, the Entity cannot continue
+    the march and must drop the load or stop.
+
+  A 12-hour march at Heavy carry with TB 3 is three free
+  hours and nine tests. That is supposed to ruin the day.
+
+Throwing — combat toss, no run-up
+  Distance = s × the metres in the class, then floor.
+  Classes below are written for s 3.0. For any other s,
+  multiply each class’s upper weight by (s ÷ 3), floor,
+  minimum the listed kilograms.
+
+  Weight class (at s 3.0)         Example           Distance
+  Negligible   under 0.5 kg       stone, dagger     s × 4 m
+  Light        0.5 to 2 kg        hatchet, javelin  s × 2 m
+  Medium       2.1 to 10 kg       hammer, boulder   s × 1 m
+  Heavy        10.1 to 25 kg      grain-sack        s × 0.5 m
+  Extreme      over 25 kg         log, barrel       Strength
+                                                    test; on
+                                                    success,
+                                                    0.5 m heave
+
+  s 3.0: dagger 12 m, javelin 6 m, sack 1.5 m.
+  s 3.8: dagger 15 m, javelin 7 m, sack 1 m.
+  These are fight distances — planted feet, kit on, no run-up.
+  An athletic throw with room to step is not this table.
+  Combat may give missiles their own range bands. Those
+  replace this row for that weapon.
+
+Hitting a target with a thrown object is Ballistic Skill.
+This table only answers how far the object can be made to go.
+
+--------------------------------------------------
+3b. NATURAL ARMOUR CLASS
+--------------------------------------------------
+
+NAC is the body’s soak. It is derived from Toughness Bonus.
+
+  NAC = TB
+
+A hide, carapace, or Unveiling thickness may add to NAC. That
+add is written on the Entity, not invented at the table. Size
+does not add a second time: Size already moved Toughness, so
+it already moved NAC.
+
+AC is soak from worn armour on the location hit
+(Combat §5). A helm does not cover an arm. Economy
+will give the numbers per piece. A shield adds AC
+only when Combat says it covers that blow.
+
+  Protection = NAC + AC of the location hit
+  AC is typed Cut / Pierce / Blunt. Coverage may
+  fail (Armour.txt).
+
+Damage
+  Incoming damage is a Combat number (weapon, SB, Degrees —
+  that file).
+  Subtract Protection from incoming damage.
+
+    If incoming ≤ Protection     →  0 damage. The blow does
+                                    not bite.
+    If incoming > Protection     →  damage taken = incoming
+                                    − Protection.
+
+  Equal to Protection is no damage. One point over is one
+  point through.
+
+Do not also subtract TB, NAC, or AC a second time in Injury.
+Wounds, crits, and bleed start from the damage that remains
+after this step.
+
+NAC 0
+  Legal. Soft things. They still wear AC if they can.
+
+Examples
+  Human, Toughness 34, no armour
+    NAC 3. A 3-damage hit does nothing. A 4-damage hit
+    inflicts 1.
+
+  Same human, AC 2 mail
+    Protection 5. A 5-damage hit does nothing. A 8-damage
+    hit inflicts 3.
+
+  Troll, Toughness 105 (Size already in)
+    NAC 10. Unarmoured. Ordinary man-scale blows that roll
+    10 or less of damage do not mark it.
+
+--------------------------------------------------
+3c. WOUNDS
+--------------------------------------------------
+
+Wounds are the Entity’s hit points.
+
+  Starting Wounds = TB × 3
+
+  TB 2 →  6 Wounds
+  TB 3 →  9 Wounds
+  TB 4 → 12 Wounds
+  TB 5 → 15 Wounds
+  TB 10 → 30 Wounds
+
+Current Wounds start at that number and fall as damage gets
+through Protection (section 3b). Damage that Protection already
+stopped does not touch Wounds.
+
+What a lost Wound is
+  Every Wound lost while the Entity still has Wounds remaining
+  after the hit is minor: a dink, a bruise, a glancing blow, a
+  cut that looks worse than it is, wind knocked out, a ringing
+  ear, kit scored, pride hurt. These are layers coming off.
+  They are not maiming. They are not the death. Describe them
+  that way. Do not narrate ruined knees and opened bellies
+  while boxes remain.
+
+  The blow that takes the Entity to 0 Wounds is different.
+  That single blow is fatal or debilitating — the cut that
+  lands, the bone that goes, the beast that drops. Injury
+  will say whether 0 is dead, down, or a crit table. Until
+  that file exists: at 0 Wounds the Entity is out of the
+  fight and the GM names one lasting cost that fits the
+  weapon and the fiction.
+
+  Overflow on the finishing blow (3 Wounds left, 10 through)
+  may worsen that cost. It does not invent extra corpses
+  behind the first one.
+
+What Wounds are not
+  They are not a drip of growing injury. Do not apply
+  cumulative cripples, bleed tables, or limb loss for each
+  box ticked. The plot armour is supposed to hold until it
+  does not.
+
+  Fatigue, poison, and veil-shock are not Wounds. They use
+  their own tracks.
+
+TB 0
+  Starting Wounds 0. The first point through Protection is
+  already the finishing blow.
+
+Recovery
+  How Wounds return is an Injury / time question. Not written
+  here. Until it is: a night’s rest restores 1 Wound if the
+  Entity was not at 0. Returning from 0 is treatment, not
+  sleep.
+
+Examples
+  Human, TB 3, 9 Wounds, Protection 5.
+    An 8-damage hit inflicts 3. Wounds 6. A bruise and a
+    split lip. Still standing clean.
+    Later a 12-damage hit inflicts 7. Wounds −1 → 0. That
+    is the blow that drops them.
+
+  Troll, TB 10, 30 Wounds, NAC 10, no AC.
+    A 14-damage hit inflicts 4. Wounds 26. The hide is
+    marked. The troll is not dying.
+
+--------------------------------------------------
+3d. MOVEMENT, ENCUMBRANCE, ATTACKS, INSANITY, FATE
+--------------------------------------------------
+
+Movement (M)
+  Base M = Agility ÷ 10. Keep one decimal.
+  Then add the Size column from section 3 and any Talent
+  or condition modifiers.
+
+  Agility Bonus (the tens digit) is not Movement.
+  Agility 38 is M 3.8 at Size 4, not M 3.
+  That is the point: 31 and 39 do not walk the same.
+
+  Size 4, Agility 30 → M 3.0
+  Size 4, Agility 38 → M 3.8
+  Size 6, Agility 38 → M 5.8
+  Size 2, Agility 38 → M 1.8
+  Floor M at 1.0 unless the Entity cannot move.
+
+  Combat yards: floor(M × 2), floor(M × 4), floor(M × 6).
+  Difficult ground halves those yards, then rounds up.
+
+Encumbrance Limit
+  Limit = Strength × 10 points.
+  Strength 31 → 310 points. Strength 40 → 400 points.
+
+  Working bridge to section 3a until Economy weights are
+  mapped: 10 points ≈ 1 kg.
+  Then the Limit sits on the Heavy-carry line (about s × 10 kg).
+  Day-carry without penalty is s × 5 kg.
+
+  Over the Limit: cannot move with it, or only at a crawl
+  after dropping something. Between Day and Heavy: Fatigue
+  rules in section 3a. Combat may add extra penalties for
+  fighting in Heavy kit.
+
+Attacks
+  Secondary stat. Default 1.
+  The number of basic attacks (melee or ranged) the Entity
+  may make in one turn of structured time.
+  Talents, weapons, Size, and conditions may raise or cut
+  this. Combat writes those modifiers. Do not invent extra
+  attacks at the table because the Entity is large unless
+  Size or a Talent says so.
+
+Insanity Points (IP)
+  A running total of mental trauma: Unveiling horrors, failed
+  Fear or Terror tests, witnessed atrocity, long exposure to
+  the wrong night.
+  This file only stores the number. Thresholds, disorders,
+  and how IP is gained or shed belong with Willpower / veil
+  rules. Do not convert IP into Wounds.
+
+Fate Points (FP)
+  Destiny, luck, or heroic resilience. Player Characters only.
+  NPCs, beasts, and abominations do not have Fate.
+  Spending one lets the player intervene in a dire moment:
+  not die on the finishing blow, force a reroll, or walk out
+  of a result the dice already closed. Exact spends are an
+  Advancement / Combat note. Until that exists: one FP buys
+  one of those three, declared before the fiction moves on.
+  FP do not refill in the same scene.
+
+Initiative
+  Initiative = Agility + 1d10.
+  This is the full Agility Characteristic, not Agility Bonus.
+  Agility 38 → roll 1d10 → score 39 to 48.
+  Reroll at the start of every Round. The new scores are the
+  new Turn order. Surprise still only applies to Round 1.
+  Turn order and surprise procedure are Core_Combat.txt.
+
+--------------------------------------------------
+4. ZERO VALUES AND LEFTOVER GAPS
+--------------------------------------------------
+
+Fellowship 0 / Intelligence 0 / Willpower 0
+  Legal. Mindless bulk, a thing with no social existence, or a
+  husk that cannot hold a purpose. They fail those tests. They
+  are still Entities if they can take any other test.
+
+  Willpower 0 is not “unafraid.” It is no will to test. Fear,
+  temptation, and the Immaterium act without opposition.
+
+Still not written
+  How veil-working is actually performed, what it costs, and
+  what a False Moon does to TNs. Those use Willpower. They are
+  not defined here.
+
+--------------------------------------------------
+5. SKILLS
+--------------------------------------------------
+
+A Skill is a trained or practised action. It draws on one or more
+Parent Characteristics. The TN of a Skill test is the Skill value
+after modifiers.
+
+Skill Base
+  Skill Base = (sum of Parent Characteristics) ÷ (number of Parents)
+  Remainder discarded.
+
+  One Parent: the Base is that Characteristic.
+  Two Parents: the Base is their mean.
+  Three or more: same rule.
+
+  This is the point. A single oversized Characteristic cannot carry
+  a Skill that also needs another capacity.
+
+Example — Climbing (Parents: Strength, Agility)
+  Strength is the pull and the hold. Agility is the movement.
+  Climbing Base = (Strength + Agility) ÷ 2
+
+  Troll, Strength 120, Agility 35
+    Base = 155 ÷ 2 = 77
+    Strong enough to hang. Not a flash of a technical route.
+    Strength 120 would Dominate a Man-Scale door. It does not
+    Dominate this Skill.
+
+  Stage-hand, Strength 25, Agility 55
+    Base = 80 ÷ 2 = 40
+    Hands and balance. Not the athleticism of a climber who can
+    lock off on a small hold. Sleight of hand, if it is Agility
+    alone, stays at 55. Climbing does not.
+
+Ranks
+  No Entity knows a Skill by default. Every Skill starts Unknown
+  unless it has been learned, or unless it is Intuitive for that
+  Entity.
+
+  Learned
+    Life, labour, a career, an apprenticeship, or a later
+    Advancement rule. First learned rank is Known.
+
+  Intuitive
+    Natural to this Entity’s body or kind. A gryphon bounds.
+    A human child does not need a master to run. The Entity
+    entry (people, bestiary, profile) lists which Skills are
+    Intuitive. Treat those as Known from the start. Proficient
+    and above are still earned.
+    The Skill definition itself is not Intuitive. The Entity is.
+
+    Unknown        Skill Base ÷ 2     remainder discarded
+    Known          Skill Base
+    Proficient     Skill Base + 10
+    Experienced    Skill Base + 20
+    Master         Skill Base + 30
+
+  Unknown is not “Base with a penalty.” It is half the Base.
+  Known is the first learned rank: the full mean, nothing added.
+  Each rank after Known is +10.
+
+  Ranks modify Skill Base. They do not drop a Parent from the mean.
+
+  Climbing examples, continuing from above
+    Troll, Base 77
+      Unknown       38
+      Known         77
+      Proficient    87
+      Experienced   97
+      Master       107
+    Stage-hand, Base 40
+      Unknown       20
+      Known         40
+      Proficient    50
+      Experienced   60
+      Master        70
+
+Advanced Skills (*)
+  Marked with an asterisk on the Skill list.
+  Require formal learning: apprenticeship, academic instruction,
+  guild mystery, or an equivalent closed path.
+  Cannot be attempted at Unknown. If the Entity has not learned
+  the Skill, there is no test. The work is not done.
+  Once Known, Proficient, Experienced, and Master apply as normal.
+
+  Ordinary Skills may be attempted Unknown, at half Base: a
+  desperate climb, a guessed haggle, a raw track. Poorly.
+
+Dominate
+  A Skill Dominates only if its Rank value (before situational
+  modifiers) is 100+ and the test is Man-Scale work that Skill
+  actually covers.
+  One Parent at 100+ is not enough if other Parents drag the mean
+  down. Tear the door off: that is a Strength test, and the troll
+  Dominates. Climb the chimney: that is Climbing, and the troll rolls.
+
+Which Bonus
+  Effect amounts use the Bonus of the Parent that is doing the
+  work in that moment, or the lowest relevant Bonus if both are
+  in play (SB for a locked-off hang, AB for a balance step).
+  Skills do not have their own Bonus unless a later rule says so.
+
+Impossible bodies
+  If a required Parent is 0 and the action needs that capacity
+  at all, there is no test. A thing with Agility 0 does not
+  climb at Strength ÷ 2. It does not climb.
+
+The Skill list in section 6 names each Skill’s Parents and marks
+Advanced Skills with *. Do not invent a second mean at the table
+for a Skill that already has Parents written.
+
+--------------------------------------------------
+6. SKILL LIST
+--------------------------------------------------
+
+Format
+  Name
+  Parents
+  Ordinary or Advanced (*)
+  Use
+  Specialism, if any, is the bracket. Trade (Armourer) cannot
+  blow glass. Speak Language (Isernvolk) is not Speak Language
+  (Syllvani). Each specialism is its own Skill for Rank.
+
+--------------------------------------------------
+ORDINARY
+--------------------------------------------------
+
+Athletics
+  Parents:  Strength, Agility
+  Use:      running, jumping, leaping, bounding
+  Not:      lift, carry, haul; not Climb, Swim, or Ride
+  Strength is the drive. Agility is the feet and the landing.
+
+Awareness
+  Parents:  Perception
+  Use:      noticing details, ambushes, hidden things, a change
+            in the room. Instant take, not a search of the chest.
+
+Charm
+  Parents:  Fellowship
+  Use:      persuasion, making friends, calming a person or a
+            willing beast. Not Intimidate. Not Haggle.
+
+Concealment
+  Parents:  Agility
+  Use:      hiding from sight. Visibility. Size stealth modifier
+            applies. Not Silent Move.
+
+Dodge
+  Parents:  Agility
+  Use:      evading attacks in structured time. Combat will say
+            when this replaces or sits beside WS.
+
+Evaluate
+  Parents:  Intelligence, Perception
+  Use:      appraising value, spotting fakes, knowing what a
+            thing should cost in this market.
+
+Gossip
+  Parents:  Fellowship
+  Use:      gathering rumours, loosening tongues in a hall or
+            yard. Not a substitute for Common Lore.
+
+Haggle
+  Parents:  Fellowship
+  Use:      bartering a price. Speak Language may chain into
+            this (Core_Resolution §8).
+
+Intimidate
+  Parents:  Fellowship, Strength
+  Use:      threats, cowing, the promise of force. Mean of
+            presence and mass. A slight tyrant still needs Fel.
+            A silent brute still needs Fel.
+
+Common Lore (various)
+  Parents:  Intelligence
+  Use:      working knowledge of a field. Specialisms include
+            History, Religion, Unveiling, Monsters, Regions
+            (name the region). Common Lore (Kannavald) is not
+            Common Lore (Heraldry — that is Academic).
+
+Ride
+  Parents:  Agility
+  Use:      handling a mount that accepts a rider. Not Drive.
+            Not Animal Training. The mount is a separate Entity.
+
+Silent Move
+  Parents:  Agility
+  Use:      moving quietly. Not Concealment. A man can be silent
+            and still visible, or hidden and still loud.
+
+--------------------------------------------------
+ADVANCED (*)
+--------------------------------------------------
+
+Cannot be attempted Unknown. Formal learning, or Intuitive
+only if the Entity entry says so.
+
+Animal Care *
+  Parents:  Intelligence
+  Use:      keeping and healing animals. Not surgery on men.
+            Not taming a wild adult.
+
+Animal Training *
+  Parents:  Intelligence, Fellowship
+  Use:      taming and training beasts (hounds, destriers,
+            direwolves, gryphons). Long work. One test is not
+            a bonded mount.
+
+Disguise *
+  Parents:  Perception, Fellowship
+  Use:      altering appearance and behaviour to pass. Seeing
+            what to copy, then wearing it.
+
+Heal *
+  Parents:  Intelligence
+  Use:      first aid, treating disease and poison, keeping a
+            body from the last Wound. Not Surgery.
+
+Navigation *
+  Parents:  Intelligence
+  Use:      maps, stars, not getting lost. Outdoor Survival
+            feeds it; it does not replace it.
+
+Performer (various) *
+  Parents:  Fellowship, Agility
+  Use:      acting, singing, contortion, storytelling — name
+            the specialism. Performer (Song) is not
+            Performer (Contortion).
+
+Read/Write *
+  Parents:  Intelligence
+  Use:      literacy in a script already spoken or being
+            learned. Forgery is this Skill used badly or well.
+            Does not grant Speak Language.
+
+Search *
+  Parents:  Perception
+  Use:      detailed inspection, finding what is hidden, traps
+            in a chest or a wall. Not Awareness. Takes time.
+
+Sleight of Hand *
+  Parents:  Agility
+  Use:      pickpocketing, palming, planting. Not Evaluate.
+            Not Charm.
+
+Speak Language (various) *
+  Parents:  Intelligence
+  Use:      a specific tongue. Specialisms are the languages
+            of Virath (Isernvolk, Syllvani, and others as World
+            files name them). Speak Language (Isernvolk) is not
+            Speak Language (Syllvani). Do not use Calradian
+            culture names.
+
+Torture *
+  Parents:  Willpower
+  Use:      extracting information through pain. Risks
+            backlash (IP, reputation, veil). The subject still
+            rolls Willpower to hold.
+
+Trade (various) *
+  Parents:  listed on the specialism; default Intelligence,
+            Agility
+  Use:      a specific craft. Trade (Armourer), Trade
+            (Gunsmith), Trade (Herbalist), Trade (Brewer).
+            Trade (Armourer) cannot blow glass. Each
+            specialism is its own Rank.
+
+Academic Knowledge (various) *
+  Parents:  Intelligence
+  Use:      deep lore. Specialisms: Engineering, Science,
+            Arcane, Heraldry, and others as written. Not
+            Common Lore. Not Channelling.
+
+Channelling *
+  Parents:  Willpower
+  Use:      manipulating Unveiling energies (druids, rare
+            mystics). The procedure, cost, and False Moon
+            live in a later file. This Skill is the TN.
+
+Drive *
+  Parents:  Agility
+  Use:      wagons and carts, including rough ground. Not Ride.
+
+Outdoor Survival *
+  Parents:  Intelligence, Perception
+  Use:      foraging, shelter, reading weather and country.
+            Chains into Stealth and travel as the Guidelines
+            already allow.
+
+Prepare Poison *
+  Parents:  Intelligence
+  Use:      making toxins. Risky. Heal and Toughness answer
+            the other end.
+
+Secret Language (various) *
+  Parents:  Intelligence
+  Use:      closed codes. Battle Tongue, thief-cant, and
+            others as written. Not a public Speak Language.
+
+Secret Signs *
+  Parents:  Intelligence
+  Use:      marks and gestures: hunter signs, gang marks,
+            way-tokens. Reading and leaving them.
+
+Trapping *
+  Parents:  Agility, Intelligence
+  Use:      building and spotting snares. Not Track.
+
+Surgery *
+  Parents:  Intelligence, Perception, Agility
+  Use:      advanced medical work — openings, amputations,
+            setting what Heal cannot. Mean of three Parents.
+            Heal is first aid. This is the knife.
+
+Track *
+  Parents:  Intelligence, Perception
+  Use:      following trails. Outdoor Survival says the
+            country can be lived in. Track says who passed.
+
+--------------------------------------------------
+7. OPEN
+--------------------------------------------------
+
+  — Climb, Swim, melee and missile Skills, Lift/Labour
+  — How ranks are gained (Advancement / careers / time)
+  — Default Intuitive Skills by people and by beast kind
+  — Character generation ranges by people
+  — Enc point values on Economy goods
+  — What one point of M is in yards
+  — IP thresholds and disorders
+  — Full Fate spend list
+  — Initiative
+  — Channelling procedure, cost, False Moon
+  — Rider / mount default when a blow is not declared

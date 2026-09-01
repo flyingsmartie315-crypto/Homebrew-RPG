@@ -1,0 +1,60 @@
+# Fauna_Oceanic_Format.txt
+# How to write a sea-climate wildlife shortlist.
+# How to read Domain, Biome, and HSI is in Bestiary_Rules.txt.
+# Biome and Place tags come from Geography_Rules.txt.
+# Use oceanic HSI meanings. Do not use land meanings.
+
+File name
+Fauna_[Sea-climate].txt
+Locked names only:
+Fauna_Polar_sea.txt
+Fauna_Cold_sea.txt
+Fauna_Temperate_sea.txt
+Fauna_Warm_sea.txt
+Fauna_Tropical_sea.txt
+
+Do not make Fauna_Strand.txt or Fauna_Shelf.txt the master list.
+Do not use the land tag Oceanic as a sea-climate.
+
+# Fauna_[Sea-climate]
+# Shortlist for this sea-climate. Not an ecosystem.
+
+Biome: [Polar sea / Cold sea / Temperate sea / Warm sea / Tropical sea]
+
+STRAND
+SHELF
+GULF
+OPEN SEA
+ABYSSAL
+
+Omit a section if this climate has nothing for it.
+List an animal once in this file. If it uses two Places, put it under the shallower Place and name both on the Place line.
+
+[Name]
+Domain: [Marine / Marine, Land]
+Biome: [this sea-climate and any others it belongs to]
+Place: [Strand / Shelf / Gulf / Open sea / Abyssal]
+HSI: Temperature: X–Y | Rainfall: X–Y | Human Density: X–Y | Flora: X–Y | Fauna: X–Y | Topography: X–Y | Hydrology: X–Y
+Rarity: X | Harm: X | Knowledge: X
+Use: [ ] | Notes: [ ]
+
+HSI is oceanic:
+Temperature = water temperature
+Rainfall = storm climate over water
+Human Density = maritime traffic
+Flora = weed, kelp, reef
+Fauna = animal life around it
+Topography = depth (0 intertidal … 5 abyssal)
+Hydrology = sea-state
+
+A dash (—) means indifferent.
+
+PLACEMENT
+1. Domain
+2. Open the file whose sea-climate matches the region Biome or a Sub-biome
+3. Keep lines whose Place hits the region Biome or a Sub-biome
+4. Then HSI against the region or the matching feature
+
+Repeat the animal in every sea-climate file whose tag it carries.
+Strand beasts may take Domain: Marine, Land.
+Do not write a lore file here. That is a Bestiary_ file.

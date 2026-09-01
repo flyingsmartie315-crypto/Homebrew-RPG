@@ -1,0 +1,149 @@
+# Fauna_Warm_sea
+# Shortlist for this sea-climate. Not an ecosystem.
+
+Biome: Warm sea
+
+
+STRAND
+
+Monk seal
+Domain: Marine, Land
+Biome: Warm sea, Temperate sea
+Place: Strand
+HSI: Temperature: 3–4 | Rainfall: 2–3 | Human Density: 0–2 | Flora: 2–4 | Fauna: 3–4 | Topography: 0–1 | Hydrology: 1–3
+Rarity: 4 | Harm: 2 | Knowledge: 5
+Use: oil, hide | Notes: shy cave-haul. Rare.
+
+Gull
+Domain: Air, Marine, Land
+Biome: Temperate sea, Cold sea, Warm sea
+Place: Strand
+HSI: Temperature: 2–4 | Rainfall: 2–4 | Human Density: 2–5 | Flora: 1–3 | Fauna: 3–4 | Topography: 0–1 | Hydrology: 1–4
+Rarity: 9 | Harm: 1 | Knowledge: 9
+Use: — | Notes: landing-bird.
+
+Oyster
+Domain: Marine
+Biome: Temperate sea, Warm sea
+Place: Strand, Shelf
+HSI: Temperature: 3–4 | Rainfall: 2–4 | Human Density: 2–4 | Flora: 3–5 | Fauna: 3–4 | Topography: 0–1 | Hydrology: 1–3
+Rarity: 6 | Harm: 1 | Knowledge: 8
+Use: meat | Notes: worked shallows.
+
+Loggerhead
+Domain: Marine, Land
+Biome: Warm sea, Tropical sea
+Place: Strand, Shelf, Open sea
+HSI: Temperature: 4–5 | Rainfall: 2–4 | Human Density: 0–3 | Flora: 3–5 | Fauna: 3–4 | Topography: 0–3 | Hydrology: 1–3
+Rarity: 5 | Harm: 2 | Knowledge: 6
+Use: shell, meat | Notes: nests on sand. At sea otherwise.
+
+
+SHELF
+
+Sardine
+Domain: Marine
+Biome: Warm sea, Temperate sea
+Place: Shelf, Open sea
+HSI: Temperature: 3–4 | Rainfall: 2–4 | Human Density: 1–4 | Flora: 3–4 | Fauna: 4–5 | Topography: 1–2 | Hydrology: 2–3
+Rarity: 8 | Harm: 1 | Knowledge: 8
+Use: fish, oil | Notes: tight school. Lamp-oil and barrel.
+
+Anchovy
+Domain: Marine
+Biome: Warm sea, Tropical sea
+Place: Shelf
+HSI: Temperature: 4–5 | Rainfall: 2–4 | Human Density: 1–3 | Flora: 3–4 | Fauna: 4–5 | Topography: 1–2 | Hydrology: 1–3
+Rarity: 8 | Harm: 1 | Knowledge: 7
+Use: fish, sauce | Notes: inshore school.
+
+Grouper
+Domain: Marine
+Biome: Warm sea, Tropical sea
+Place: Shelf
+HSI: Temperature: 4–5 | Rainfall: 2–4 | Human Density: 1–3 | Flora: 3–5 | Fauna: 3–4 | Topography: 1–2 | Hydrology: 1–3
+Rarity: 6 | Harm: 2 | Knowledge: 6
+Use: fish | Notes: reef-rock sit-and-wait.
+
+Octopus
+Domain: Marine
+Biome: Warm sea, Tropical sea, Temperate sea
+Place: Shelf, Strand
+HSI: Temperature: 3–5 | Rainfall: 2–4 | Human Density: 1–3 | Flora: 3–5 | Fauna: 3–4 | Topography: 0–2 | Hydrology: 1–3
+Rarity: 6 | Harm: 2 | Knowledge: 6
+Use: meat, ink | Notes: den in the stone. Not a scylla.
+
+Bass
+Domain: Marine
+Biome: Temperate sea, Warm sea
+Place: Shelf, Strand
+HSI: Temperature: 3–4 | Rainfall: 2–4 | Human Density: 1–4 | Flora: 2–4 | Fauna: 3–4 | Topography: 0–2 | Hydrology: 2–4
+Rarity: 6 | Harm: 1 | Knowledge: 7
+Use: fish | Notes: same hunter.
+
+
+GULF
+
+Common dolphin
+Domain: Marine
+Biome: Temperate sea, Warm sea
+Place: Gulf, Open sea, Shelf
+HSI: Temperature: 3–4 | Rainfall: 2–4 | Human Density: 1–3 | Flora: 2–4 | Fauna: 4–5 | Topography: 1–3 | Hydrology: 2–4
+Rarity: 6 | Harm: 1 | Knowledge: 6
+Use: oil | Notes: same school.
+
+
+OPEN SEA
+
+Tuna
+Domain: Marine
+Biome: Warm sea, Tropical sea, Temperate sea
+Place: Open sea, Shelf
+HSI: Temperature: 3–5 | Rainfall: 2–4 | Human Density: 1–3 | Flora: 2–3 | Fauna: 4–5 | Topography: 2–4 | Hydrology: 2–4
+Rarity: 6 | Harm: 2 | Knowledge: 7
+Use: fish | Notes: fast school. Great take when it runs.
+
+Swordfish
+Domain: Marine
+Biome: Warm sea, Tropical sea
+Place: Open sea
+HSI: Temperature: 4–5 | Rainfall: 2–4 | Human Density: 0–3 | Flora: 1–3 | Fauna: 3–5 | Topography: 3–4 | Hydrology: 2–4
+Rarity: 5 | Harm: 3 | Knowledge: 6
+Use: fish, bill | Notes: spear-hunter of the deep road.
+
+Flying fish
+Domain: Marine
+Biome: Warm sea, Tropical sea
+Place: Open sea
+HSI: Temperature: 4–5 | Rainfall: 2–3 | Human Density: 0–2 | Flora: 1–3 | Fauna: 3–4 | Topography: 2–3 | Hydrology: 1–3
+Rarity: 7 | Harm: 1 | Knowledge: 5
+Use: fish | Notes: leaves the water when driven.
+
+Humpback
+Domain: Marine
+Biome: Cold sea, Temperate sea, Warm sea
+Place: Open sea, Shelf
+HSI: Temperature: 1–4 | Rainfall: 2–4 | Human Density: 0–3 | Flora: 1–3 | Fauna: 3–5 | Topography: 2–4 | Hydrology: 2–4
+Rarity: 4 | Harm: 3 | Knowledge: 6
+Use: oil, baleen | Notes: winters in the warm.
+
+Orca
+Domain: Marine
+Biome: Polar sea, Cold sea, Temperate sea, Warm sea
+Place: Open sea, Gulf, Shelf
+HSI: Temperature: 0–4 | Rainfall: 1–4 | Human Density: 0–3 | Flora: 1–3 | Fauna: 3–5 | Topography: 1–4 | Hydrology: 1–4
+Rarity: 5 | Harm: 5 | Knowledge: 6
+Use: — | Notes: same pack hunter.
+
+Loggerhead
+Domain: Marine, Land
+Biome: Warm sea, Tropical sea
+Place: Strand, Shelf, Open sea
+HSI: Temperature: 4–5 | Rainfall: 2–4 | Human Density: 0–3 | Flora: 3–5 | Fauna: 3–4 | Topography: 0–3 | Hydrology: 1–3
+Rarity: 5 | Harm: 2 | Knowledge: 6
+Use: shell, meat | Notes: listed under STRAND.
+
+
+ABYSSAL
+
+— none listed.

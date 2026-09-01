@@ -1,0 +1,40 @@
+# Geographic_Region_Valenidia
+
+Visual Reference
+maps/Map_Geographic_Region_Valenidia.jpeg
+Tile west / centre / east if labels fail.
+
+Overview
+A large southern block of the north-west continent, bigger than a single Iberian analogue and carrying a serious mountain spine. Low country and long coasts sit against a highland core that behaves like an alpine wall. The climate splits: milder or hotter open land on the floors and shores, cold and steep country on the ranges. A major river on the northern edge divides Valenidia from the Coritanian Heartlands. This is the first big southward step of the continent: more light, more heat, and a harder upland than the heartlands above it.
+
+Location & Borders
+Valenidia occupies the large southern body of the mapped north-west: south of the Coritanian Heartlands, west of Saturnia, and open to the southern and western seas.
+
+borders:
+- North: Coritanian Heartlands
+- Northeast: Appolasian Plateau / Saturnia
+- East: Saturnia
+- Southeast: [open / further east not yet locked]
+- South: Southern sea
+- Southwest: Southern / western sea
+- West: Western sea
+- Northwest: Coritanian Heartlands / western gulf
+
+Shared / Border Local Regions
+- [The hinge river corridor] — shared with Coritanian Heartlands
+- [Eastern highland contact] — shared with Saturnia
+- [Northern alpine approaches toward the Plateau] — shared with Appolasian Plateau if the ranges connect
+
+Local Regions
+- [Not yet defined]
+- [Not yet defined]
+
+Notable Features
+- A substantial internal mountain spine (the “Swiss Alps” element of the template)
+- Long southern and western coasts
+- The northern hinge river against Coritania
+- A climate split between hot or dry floors and high alpine country
+- Larger land area than Spain proper (about 359,000 square miles)
+
+Notes
+Treat Valenidia as Iberian in the lowlands and alpine in the high spine, not as a single uniform climate. Travel is easy on the floors and coasts, hard across the ranges. Local Regions should be split on that line: coastal/lowland blocks versus highland blocks, with the northern river as the contact with Coritania.

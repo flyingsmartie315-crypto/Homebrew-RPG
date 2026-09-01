@@ -1,0 +1,457 @@
+# Weaponry.txt
+# Virath weapons — ordinary and specialist, Cut / Pierce / Blunt
+# Status: DRAFT for Core. Numbers from the revised weapon set.
+# Companion files:
+#   Core_Combat.txt                     hitting, Reach, Reload as Actions
+#   Core_Characteristics_Skills.txt     Enc Limit, Size, WS, BS
+#   Core_Injury.txt                     finishing blow; type effects later
+#   Economy files                       coin and availability
+
+PURPOSE
+This file is the weapon list. Combat says how a Turn is spent.
+This file says what is in the hand, how far it reaches, what
+it does when it lands, and who may use it without a Talent.
+
+ASSESS (locked here, not left as contradictions)
+
+  Soak
+    Incoming is reduced by NAC + AC of the location hit.
+    Not TB + “Armour Points.” Armour Piercing ignores 1 AC
+    on that location. No armour there: the quality does
+    nothing.
+
+  Damage
+    Incoming = 1d10 + SB + type value + DoS
+    Type value is Cut, Pierce, or Blunt from the profile.
+    A 0 DoS hit still rolls the d10 and adds SB + type.
+    Impact: roll 2d10, keep the higher, then add SB + type
+    + DoS.
+    Unarmed stays Combat §9 (no weapon type profile).
+
+  Reload
+    Source notes used “AP.” This system does not.
+      1 AP  →  Half Action
+      2 AP  →  Full Action
+      4 AP  →  Extended: two Full Actions across two
+               Rounds (or one Turn spent and the shot
+               ready at the start of the next)
+
+  Specialist
+    Without the matching Specialist Weapon Group Talent,
+    WS or BS with that weapon is halved (round down).
+    Ordinary weapons need no Talent.
+    The −20 untrained chip is not used. Halve is the law.
+
+  Currency and Enc
+    Costs stay as written (bc / sc / gc) until Economy
+    maps them. Enc is points. 10 points ≈ 1 kg.
+
+  Outliers left as written, flagged
+    Javelin at 5 gc against a 14 sc axe. Revisit in
+    Economy. Siege engines are narrative, not Turn
+    weapons.
+
+--------------------------------------------------
+0. KEYWORDS
+--------------------------------------------------
+
+Ordinary Weapon
+  No Talent required.
+
+Specialist Weapon
+  Needs the named Group Talent. Without it, half WS/BS.
+
+Damage Profile (Cut / Pierce / Blunt)
+  Three numbers. Declare Slash, Thrust, or Bash when
+  you hit. Use that column. 0 means that style is not
+  available.
+
+Versatile (*)
+  Any of the three types, each attack.
+
+Reach
+  Melee striking distance in yards.
+
+Range
+  Missiles: short / long in yards. Long is −10 BS
+  unless a quality says otherwise.
+
+Craftsmanship
+  Best / Good / Common / Poor. See section 2.
+
+--------------------------------------------------
+1. WHO CAN USE WHAT
+--------------------------------------------------
+
+Ordinary (no Talent)
+  Improvised
+  Tools
+  Dagger and its listed variants
+  Utility Axe (Hatchet)
+  One-Handed Axe
+  One-Handed Mace / Hammer
+  One-Handed Polearm (Spear)
+  Staff
+  Light Bow, Medium Bow
+  Crossbow Pistol, Light Crossbow
+  Throwing weapons as listed
+  Sling (Pouch)
+
+Specialist Groups (Talent required)
+  Two-handed
+  Longbow
+  Crossbow          (Medium is Ordinary; Heavy, Repeater,
+                     Pistol if the table says Crossbow)
+  Cavalry
+  Sling             (Staff Sling)
+  Parrying          (Main Gauche)
+  Throwing          only where Group is Throwing and not
+                     also Ordinary
+
+If the table says Ordinary / Two-handed (hand-and-a-half),
+one hand is Ordinary. Two hands wants the Two-handed
+Talent for the two-hand profile.
+
+Hulking only on a quality means Size 5+ to take that
+grip or Versatile option.
+
+--------------------------------------------------
+2. CRAFTSMANSHIP
+--------------------------------------------------
+
+Listed stats are Common.
+
+  Best     +1 damage, +10 WS or BS. Cost ×10.
+  Good     +1 damage. Cost ×3.
+  Common   as table.
+  Poor     −1 damage. On 91–00 the attack fails
+           (jam, slip, haft crack) in addition to
+           any miss. Cost ×½.
+
+Damage modifiers from craft apply after the d10 + SB
++ type, before soak.
+
+--------------------------------------------------
+3. REACH
+--------------------------------------------------
+
+A melee attack needs the target inside this weapon’s
+Reach. No Reach, no strike without a Move or Charge.
+
+When two melee fighters first close inside both
+Reaches, the longer Reach gains +10 WS on that first
+exchange only.
+
+Corridors and doors 1 yard or narrower: Reach greater
+than 2 suffers −10 WS.
+
+Mounted: Lance / cavalry polearm Reach doubles on a
+Charge from horseback.
+
+Versatile melee: the wielder may shorten grip by 1
+yard of Reach for +10 WS in a cramped space. Declare
+before the attack.
+
+--------------------------------------------------
+4. HOW A HIT DEALS DAMAGE
+--------------------------------------------------
+
+  1. Hit stands (Combat §5–6). Location is set.
+  2. Declare Slash / Thrust / Bash if the profile
+     allows a choice. Versatile: any. Else only a
+     column that is not 0.
+  3. Incoming = 1d10 + SB + type + DoS
+     Impact: 2d10 keep higher, then SB + type + DoS.
+  4. Protection = NAC + AC of that location
+     Armour Piercing: AC on that location is 1 less
+     (minimum 0) for this hit.
+  5. Leftover ticks Wounds. Finishing Blow is Injury.
+
+Ammunition modifiers apply to type or qualities
+before step 3.
+
+--------------------------------------------------
+5. QUALITIES
+--------------------------------------------------
+
+Armour Piercing    Ignore 1 AC on the location hit.
+                   No AC there: no effect.
+Balanced           No penalty for a second weapon in
+                   the off hand (two-weapon rules still
+                   Open in Combat).
+Concealable        +20 Concealment to hide it.
+                   Enc over 50: quality does not apply.
+Defensive          +10 Parry while wielding it.
+Experimental       Attack roll 96–00: weapon ruins.
+                   Wielder takes 1d10 + SB incoming,
+                   NAC only (no worn AC).
+Fast               Defender −10 on Parry or Dodge
+                   against this weapon.
+Formation Specialist
+                   +10 WS and +1 Pierce per adjacent
+                   ally in the same ranked body
+                   (max +30 WS / +3 Pierce).
+                   Alone: −20 WS. No Charge, no Run.
+Impact             2d10 keep higher for the damage
+                   die.
+Inconspicuous      Passes as a tool or stick.
+                   +10 Charm or Disguise to treat it
+                   as harmless. Ambush: foes −10
+                   Initiative the first Round.
+Mounted Specialist +1 Pierce and ignore Tiring while
+                   mounted. On foot: halve Reach,
+                   gain Slow.
+Precise            +1 DoS on a hit, after the roll.
+                   Helps Called Shot / 3 DoS location.
+Pre-Loaded         Stays loaded until fired.
+                   +10 Initiative the first Round if
+                   that shot is the opening.
+                   Jostled travel: 91–00 discharges
+                   at a random nearby Entity.
+Pummelling         +10 Strength when the blow is used
+                   to stun (that Action is still Open).
+Shrapnel           Cone to max range. Each Entity in
+                   it tests Agility or takes the hit.
+Slow               Defender +10 on Parry or Dodge
+                   against this weapon.
+Snare              On a standing hit, target is held.
+                   Opposed Agility to act or move.
+                   Opposed Strength each Round to
+                   break. Held: no Charge/Run, −20
+                   other tests.
+Special            See the weapon or ammunition line.
+Throwing           May be thrown at the listed range.
+                   Returns to hand on 3+ DoS and a
+                   successful Agility test.
+Tiring             First attack or first Round only
+                   at full value.
+                   Bows: −10 BS each extra Round the
+                   string is held drawn.
+Unreliable         96–00: 1d10. 1–5 fail to fire.
+                   6–10: incoming to the wielder as
+                   Experimental, weapon ruined.
+Versatile          Choose type each attack. Some
+                   entries restrict the two-hand or
+                   heavy grip to Hulking.
+
+--------------------------------------------------
+6. MELEE
+--------------------------------------------------
+
+Small
+  Dagger *                 7 sc   Enc 10   Ord
+    (3/5/1)  Reach 0.5   Fast
+  Misericordia             9 sc   Enc 10   Ord
+    (2/6/1)  Reach 0.5   Fast, Armour Piercing
+  Main Gauche              8 sc   Enc 15   Parrying
+    (2/4/1)  Reach 0.5   Fast, Defensive, Balanced
+  Utility Axe (Hatchet) *  8 sc   Enc 15   Ord
+    (5/1/3)  Reach 0.5   Impact, Throwing
+
+Axes
+  One-Handed Axe *        14 sc   Enc 40   Ord
+    (5/2/3)  Reach 1     Impact, Versatile
+  Two-Handed Axe *     1 gc 6 sc  Enc 150  Two-handed
+    (6/2/4)  Reach 1.5   Impact, Slow, Versatile
+                         (Hulking only)
+
+Maces / hammers
+  One-Handed Mace *       14 sc   Enc 50   Ord
+    (2/3/5)  Reach 1     Armour Piercing, Pummelling
+  Two-Handed Mace *    1 gc 6 sc  Enc 150  Two-handed
+    (1/3/6)  Reach 1.5   AP, Impact, Pummelling, Slow
+  Staff                    6 sc   Enc 50   Two-handed
+    (0/1/4)  Reach 2     Defensive, Fast, Concealable,
+                         Inconspicuous
+
+Swords
+  Double-edged straight   14 sc   Enc 50   Ord
+    (4/4/2)  Reach 1     Balanced, Precise
+  Single-edged curved     14 sc   Enc 50   Ord
+    (5/2/2)  Reach 1     Balanced, Impact
+  H&H double-edged *   1 gc 3 sc  Enc 75   Ord / Two-hand
+    (5/4/2)  Reach 1.5   Balanced, Versatile
+  H&H single-edged *   1 gc 3 sc  Enc 80   Ord / Two-hand
+    (6/2/3)  Reach 1.5   Balanced, Impact, Versatile
+  Great double-edged * 1 gc 8 sc  Enc 200  Two-handed
+    (7/4/3)  Reach 2     Impact, Slow, Versatile
+                         (Hulking only)
+  Great single-edged * 1 gc 8 sc  Enc 220  Two-handed
+    (8/2/3)  Reach 2     Impact, Slow, Versatile
+                         (Hulking only)
+
+Polearms
+  Spear (1H polearm) *    16 sc   Enc 50   Ord
+    (2/5/1)  Reach 2     Fast, Versatile
+  Lance (cavalry) *    1 gc 2 sc  Enc 100  Cavalry
+    (2/7/1)  Reach 3     Fast, Impact, Tiring,
+                         Mounted Specialist
+  2H polearm Short *   1 gc 5 sc  Enc 150  Two-handed
+    (5/5/4)  Reach 2     AP, Impact, Versatile
+                         (Hulking only)
+  2H polearm Long *    1 gc 6 sc  Enc 175  Two-handed
+    (5/5/3)  Reach 2.5   AP, Snare, Slow, Versatile
+                         (Hulking only)
+  2H polearm Very Long * 1 gc 4 sc Enc 125 Two-handed
+    (1/6/1)  Reach 3.5   AP, Slow, Formation Specialist
+
+--------------------------------------------------
+7. MISSILE
+--------------------------------------------------
+
+Range is short / long yards. Reload is Actions.
+
+Bows                                          Min S
+  Light (hunting)     16 sc  Enc 60  Ord
+    (2/3/1)  18/36   Reload Half    Fast
+    Draw 20–40 lb.  Min S 20
+  Medium              20 sc  Enc 75  Ord
+    (3/4/1)  24/48   Reload Half
+    Draw 40–70 lb.  Min S 25
+  Heavy               24 sc  Enc 90  Ord
+    (3/5/1)  30/60   Reload Full    Tiring, AP
+    Draw 70–100 lb. Min S 30
+  Longbow *           26 sc  Enc 90  Longbow
+    (4/5/1)  36/72   Reload Full    Tiring, AP, Impact
+    Draw 100–180 lb. Min S 35
+
+Crossbows
+  Pistol           1 gc 4 sc  Enc 25  Crossbow
+    (1/3/1)  8/16    Reload Half    Fast, Concealable
+  Light            1 gc 8 sc  Enc 80  Ord
+    (1/4/1)  20/40   Reload Half    Pre-Loaded
+  Medium           2 gc       Enc 120 Ord
+    (1/5/1)  30/60   Reload Full    AP, Pre-Loaded
+  Heavy (Arbalest) 2 gc 8 sc  Enc 150 Crossbow
+    (1/6/1)  40/80   Reload Ext×2   AP, Impact, Slow,
+                                    Pre-Loaded
+  Repeater *       3 gc 4 sc  Enc 150 Crossbow
+    (1/4/1)  16/32   Reload Ext×2   Experimental,
+                                    Special: 3 shots
+                                    in the magazine,
+                                    Pre-Loaded
+
+Slings
+  Pouch               8 sc   Enc 10  Ord
+    (0/1/4)  16/32   Reload Half    Concealable,
+                                    Inconspicuous
+  Staff Sling *      16 sc   Enc 50  Sling
+    (0/1/5)  24/48   Reload Half    Impact
+
+Thrown (ready + throw is one Half; Group Throwing
+unless noted Ordinary)
+  Improvised          —      Enc var  Ord
+    profile by size  4/8 or as §8
+  Javelin             5 gc   Enc 30  Throwing
+    (1/4/2)  8/16    Fast
+    Melee as short spear, Reach 1.5
+  Throwing Axe        5 gc   Enc 40  Throwing
+    (4/1/3)  6/12    Impact, Throwing (returns)
+  Throwing Dagger     2 gc   Enc 10  Throwing
+    (2/4/1)  6/12    Fast, Concealable
+                     +15 Concealment hidden
+
+Min S on a bow: below it the draw is a Strength test
+each shot or the bow is not used. Hulking+ thrown:
++1 to each type and +2 yards short range.
+
+--------------------------------------------------
+8. IMPROVISED THROWN
+--------------------------------------------------
+
+  Tiny    pebble, coin     (0/0/1)  4/8
+  Small   rock, mug        (0/1/2)  6/12
+  Medium  brick, helm      (1/2/3)  4/8   −10 BS
+  Large   barrel, shield   (2/2/4)  3/6   −20 BS,
+                                          two hands
+  Massive drop only        (3/3/6)  use Fall
+                                          (Combat §8)
+
++1 Blunt per 20 Enc of the object.
+Drop from a height: Fall table, not this profile.
+
+--------------------------------------------------
+9. AMMUNITION
+--------------------------------------------------
+
+  Broadhead arrow/bolt     2 bc   Enc 10   Common
+    +0   no extra quality
+  Bodkin                   4 bc   Enc 10   Scarce
+    +0   Armour Piercing (extra ignore 1 AC,
+         stacks with a weapon that already has it)
+  Blunt (hunt / train)     2 bc   Enc 10   Average
+    −1   Pummelling
+  Fire (incendiary)       10 bc   Enc 15   Rare
+    +0   Special: +1d10 fire incoming.
+         Agility or the target keeps burning
+         (Combat §9 fire).
+  Barbed                   6 bc   Enc 10   Scarce
+    +0   +1 Severity if this hit is a Finishing
+         Blow. −10 Heal to take it out.
+  Sling stone              —      Enc 5    Abundant
+    +0   forage free
+  Sling lead               4 bc   Enc 10   Average
+    +1   Precise. +10 BS at short range.
+         Ignore 1 AC.
+
+Enc 10 of shafts is a bundle, not one arrow, until
+Economy splits the bundle. Until then treat Enc 10
+as one ready shot for tracking weight, not count.
+
+--------------------------------------------------
+10. SIEGE (NARRATIVE)
+--------------------------------------------------
+
+Not Turn weapons. Crew, wagons, and minutes.
+Use Narrative Time. Structured Time only if a crew
+is assaulted while serving the piece.
+
+Torsion
+  Scorpion        90 / 140 yd    18 P or 14 B
+                  20–30 sec      crew 4–6     18 gc
+  Springald       110 / 160      24 P or 20 B
+                  25–40 sec      crew 5–7     28 gc
+  Medium Ballista 160 / 240      32 P or 26 B
+                  Overpenetration 1
+                  45–60 sec      crew 8–10    52 gc
+  Heavy Ballista  180 / 260      38 P or 42 B
+                  Overpenetration 2; structure
+                  90–120 sec     crew 12–16   95 gc
+
+Rampart
+  Bankarmbrost    150 / 250      30 P
+                  Overpenetration 2
+                  about 2 min    1 firer + 2–4 wind
+                  12 gc (18 masterwork)
+
+Traction
+  Mangonel        110 / 160      22 B (small area)
+                  incendiary pots
+                  45–75 sec      crew 15–25   35 gc
+
+Counterweight
+  Light (“Falcon”)     120 / 180   18 B   3–4 min   22 gc
+  Medium (“Warhound”)  180 / 260   28 B   4–6 min   68 gc
+                       structure
+  Large (“Great Thunder”) 220 / 300+  45 B
+                       6–10 min    195–240 gc
+                       structure; usually built on site
+
+Overpenetration N: the bolt may strike N further
+Entities in a line if the first hit kills or the
+GM says the mass goes through. Each further hit
+uses the same incoming, new location.
+
+--------------------------------------------------
+11. OPEN
+--------------------------------------------------
+
+  — Specialist Weapon Group Talents on careers
+  — Two-weapon fighting (Balanced is waiting on it)
+  — Strike to Stun as an Action
+  — Armour AC by location and by Cut / Pierce / Blunt
+  — Type-specific finishing effects (bleed, stun)
+  — Javelin / throwing-axe gold cost vs sidearm silver
+  — Arrow count vs Enc 10 bundles
+  — Repeater magazine as three Standard Attacks
+    before the Extended reload

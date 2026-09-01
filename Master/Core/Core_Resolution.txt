@@ -1,0 +1,595 @@
+# Core_Resolution.txt
+# Virath core resolution — d100 tests, Degrees, opposed and chained tests
+# Status: DRAFT for Core.
+# Companion files:
+#   Core_RP_Guidelines.txt              tone, transparency, situational modifiers
+#   Core_Characteristics_Skills.txt     Characteristics, Size, Skills, M, Enc, FP
+#   Log/Campaign_Log.txt                living date, time, and world state
+#   Core_Combat.txt / Core_Injury.txt   not yet written
+
+PURPOSE
+This file is the spine. Every Characteristic test, Skill test, opposed
+contest, and chained test uses these rules. Combat, injury, advancement,
+and company files add procedures on top. They do not replace the d100 test.
+
+GM law from Core_RP_Guidelines still applies: roll openly, state the
+Target Number and modifiers before the roll, explain Degrees, and invent
+situational rules only when this file is silent.
+
+--------------------------------------------------
+0. KEYWORDS
+--------------------------------------------------
+
+Living glossary. Add terms here as later Core files create them. Do not
+redefine a term in a later file without updating this list.
+
+Entity
+  Anything that can take a test — and therefore anything that can sit on
+  one side of an Opposed Test. A person, beast, abomination, spirit, or
+  other will with Characteristics (and Skills, when those exist).
+  A cliff, a lock, a storm, a language, a distance, or a night is not an
+  Entity. Those have no stats and do not roll. They are represented as
+  Difficulty and other modifiers on the Entity’s test.
+
+Test
+  One d100 rolled by an Entity against a Target Number. The basic unit
+  of resolution.
+
+Unopposed Test
+  A Test taken by one Entity against the world. The world does not roll.
+  Climbing a cliff is an Unopposed Test: the climber rolls the applicable
+  Characteristic or Skill; wet rock, dark, height, and missing pitons
+  are modifiers from section 4. The cliff never has a TN.
+
+Opposed Test
+  A contest between two Entities. Both roll. Compare Degrees (section 5).
+  If only one side can roll, it is not Opposed. Use an Unopposed Test.
+
+Target Number (TN)
+  The number the roll must be less than or equal to. A Characteristic or
+  Skill value after all modifiers.
+
+Characteristic
+  A standing capacity of an Entity (Strength, and the rest when that
+  file exists). Has a Bonus equal to its tens digit. Values may exceed
+  100. That does not make every test of that Characteristic an automatic
+  success. See Man-Scale and Dominate.
+
+Skill
+  A trained or practised application of a Characteristic. Other files
+  define the list and how the value is built. This file only uses the
+  final TN.
+
+Modifier
+  A plus or minus applied to the TN before the roll. Difficulty ladder
+  entries, tools, injury, aid, chain results, weather, and similar.
+
+Difficulty
+  The named band in section 4 that sets a single modifier for how hard
+  the whole task is. Other modifiers may still stack on top.
+
+Degree of Success (DoS)
+  How many full 10s the roll came in under the TN. A success by 0–9 is
+  0 DoS. Still a success.
+
+Degree of Failure (DoF)
+  How many full 10s the roll went over the TN. A failure by 1–9 is
+  0 DoF. Still a failure.
+
+Bonus
+  Tens digit of a Characteristic. The unit of effect (damage, shove,
+  short movement, and so on). Other files say which Bonus applies.
+  A Characteristic of 123 has Bonus 12.
+
+Man-Scale
+  The default size and force of an adult human body and the work such a
+  body is expected to do: a door, a cart-shaft, a man in a grapple, a
+  barrel, a dropped beam a farm crew could lift.
+  When Size Categories exist, Man-Scale is Size 4 (Average).
+  Most tests in play are Man-Scale unless the GM says otherwise.
+
+Scale
+  The size, mass, or force a test is actually about. Man-Scale is the
+  baseline. A troll, a siege gate, a falling mill-wheel, or another
+  troll is a different Scale. Scale is judged per test and per
+  Characteristic, not as a single label on the Entity.
+
+Size / Size Category
+  A trait of an Entity’s body. The numbered categories, examples,
+  to-hit, stealth, movement, and S/T scaling live in
+  Core_Characteristics_Skills.txt.
+  This file only needs the distinction: Size is a trait; Scale is the
+  frame of the present test. Man-Scale is Size 4.
+
+Dominate
+  An Entity with 100 or more in a Characteristic Dominates Man-Scale
+  tests of that Characteristic. The test succeeds without a roll.
+  Dominate does not apply to tests at matching or greater Scale, and
+  it does not leak into other Characteristics. A troll with Strength
+  120 Dominates a Man-Scale Strength test. It does not automatically
+  sneak, climb a wet chimney, or win an argument.
+
+Critical
+  A successful Test that also rolled doubles, or a roll of 01.
+
+Fumble
+  A failed Test that also rolled doubles, or a roll of 100.
+
+Threshold
+  The total DoS an Extended Test must accumulate before the work is done.
+
+Narrative Time
+  Loose time. Conversation, travel, work, the story moving.
+  The GM keeps a convincing clock. See section 1a.
+
+Structured Time
+  Exact time. Combat and any moment where seconds matter.
+  Tracked in Rounds and Turns. See section 1a.
+
+Round
+  About ten seconds. Six Rounds are about one minute.
+
+Turn
+  One Entity’s chance to act inside a Round.
+
+Action
+  What an Entity does on its Turn. Combat names the list.
+  Attacks (Core_Characteristics_Skills.txt) limits basic
+  attacks per Turn.
+
+--------------------------------------------------
+1. THE TEST
+--------------------------------------------------
+
+An Entity resolves an uncertain action with a single d100 (1–100).
+Treat a roll of 00 as 100.
+
+Only an Entity rolls. If the other side of the situation cannot roll,
+the test is Unopposed and the resistance is written as modifiers.
+
+Target Number (TN)
+  The TN is the relevant Characteristic or Skill value after modifiers.
+  Other files define how a Skill value is derived. This file only
+  cares about the final TN.
+
+Outcome
+  Success  = roll ≤ TN
+  Failure  = roll > TN
+
+Do not roll if there is no meaningful chance of failure, no meaningful
+chance of success, or no interesting cost to trying. Narrate the
+obvious result. Roll when the result is uncertain and the Degrees will
+change what happens next.
+
+--------------------------------------------------
+1a. NARRATIVE TIME AND STRUCTURED TIME
+--------------------------------------------------
+
+Most play does not need the second. When players talk to people,
+travel a road, work a Skill at leisure, or sit in a hall, the GM
+keeps time as fits the scene and keeps the game moving. Be
+consistent and convincing. There is no stopwatch. This is
+Narrative Time. Use it when the point is to progress the story.
+
+Narrative Time still has a clock. It is coarse: a conversation,
+a watch, an hour, a morning, a ride, a night. Name the grain
+that matters. Do not count seconds inside it.
+
+The living clock is Campaign_Log.txt. When a scene ends or the
+grain of time changes in a way later play will care about
+(dawn, noon, after a forced march, after a fight, a False Moon
+rising), update:
+
+  === CAMPAIGN METADATA ===
+  Campaign Name:
+  Starting Date (in-world):
+  Current In-World Date / Season:
+  Current Time:
+  Current Location:
+  Last Updated:
+
+Current Time is the new field. Date / Season already lived
+there. Do not leave Time blank after a structured fight or a
+day’s travel.
+
+Structured Time
+  Use it when exact order and elapsed seconds will change who
+  lives: combat, a chase over a short burst, a fuse, a ritual
+  that must finish before the watch turns, anything where
+  “who acts first” or “how many breaths” is the question.
+
+  One Round  ≈  ten seconds
+  Six Rounds ≈  one minute
+
+  In a Round, every Entity in the encounter takes one Turn.
+  Order of Turns is a Combat question (initiative). This file
+  only says: one Round, then every Entity that can still act
+  has had a Turn, then the next Round.
+
+  On a Turn, an Entity may take one or more Actions. Combat
+  names what an Action is and how many fit. The Attacks stat
+  (default 1) is the number of basic attacks — melee or
+  ranged — allowed on that Turn unless a Talent, weapon,
+  Size rule, or condition says otherwise. Movement, a Skill
+  test, drawing steel, and speaking a short line are Actions
+  when Combat says they are. Until Combat exists: one attack
+  or one meaningful deed, plus a short move, is a fair Turn.
+
+Switching
+  Enter Structured Time when someone draws, flees under fire,
+  or the seconds start to matter. Leave it when the fight or
+  the chase is over. The last Round’s time is added to
+  Current Time in the Log (six Rounds = one minute; a short
+  scrap is a minute; a long one is several). Then return to
+  Narrative Time.
+
+  Do not run a market scene in Rounds. Do not run a melee as
+  “a few minutes later” with no Turns.
+
+Extended tests (section 7) usually sit in Narrative Time
+(watches, hours, days). A short extended action inside a
+fight uses Rounds as its increment instead.
+2. DEGREES OF SUCCESS AND FAILURE
+--------------------------------------------------
+
+Degrees measure how well or how badly the roll landed. Count only
+full bands of 10.
+
+  If roll ≤ TN:
+      Gap = TN − roll
+      DoS = Gap ÷ 10, remainder discarded
+      DoF = none
+  If roll > TN:
+      Gap = roll − TN
+      DoF = Gap ÷ 10, remainder discarded
+      DoS = none
+
+A success by 0–9 points is still a success. It scores 0 DoS
+(narrow success).
+A failure by 1–9 points is still a failure. It scores 0 DoF
+(narrow failure).
+
+Worked examples (TN 40)
+  Roll 40 → success,  0 DoS     (equal to TN)
+  Roll 31 → success,  0 DoS     (under by 9)
+  Roll 30 → success,  1 DoS     (under by 10)
+  Roll 21 → success,  1 DoS     (under by 19)
+  Roll 20 → success,  2 DoS
+  Roll 01 → success,  3 DoS
+  Roll 41 → failure,  0 DoF     (over by 1)
+  Roll 49 → failure,  0 DoF     (over by 9)
+  Roll 50 → failure,  1 DoF     (over by 10)
+  Roll 59 → failure,  1 DoF
+  Roll 60 → failure,  2 DoF
+  Roll 100→ failure,  6 DoF
+
+What Degrees do
+  Quality of the result, margin in opposed tests, extra effect, extra
+  harm, extra time saved or wasted, morale, and how much a chained
+  test helps or hurts the next roll. Characteristic Bonuses (section 6)
+  set amounts. Degrees set how many times those amounts apply, or how
+  far the fiction moves.
+
+--------------------------------------------------
+3. CRITICALS
+--------------------------------------------------
+
+A roll of doubles (11, 22, 33, 44, 55, 66, 77, 88, 99) is a critical
+if the test succeeded, and a fumble if the test failed.
+
+  01 is always a critical success.
+  100 is always a fumble.
+
+A critical success is at least 1 DoS, or one extra DoS if the roll
+already scored DoS. Describe it under Rule of Cool. It does not erase
+prior poor decisions.
+
+A fumble is at least 1 DoF, or one extra DoF if the roll already
+scored DoF. The extra failure should be specific: dropped tool, opened
+a line, said the unforgivable word, startled the herd, nicked the veil.
+It should not be cartoon death unless the situation was already lethal.
+
+01 and 100 guarantee the critical or fumble tag. Still calculate
+ordinary DoS/DoF, then apply the extra Degree above.
+
+--------------------------------------------------
+4. DIFFICULTY AND MODIFIERS
+--------------------------------------------------
+
+State the base TN, then every modifier, then the final TN, then roll.
+
+Default difficulty is Average (no modifier). Change the TN, not the dice.
+
+  Trivial       +30     almost anyone manages this
+  Easy          +20     trained or careful people rarely fail
+  Routine       +10     the expected job under decent conditions
+  Average        +0     the ordinary test
+  Challenging   −10     pressure, poor tools, bad footing, hurried work
+  Difficult     −20     real opposition from the world
+  Very Hard     −30     stacked problems, night, injury, hostile ground
+  Extreme       −40     possible, not reasonable
+
+Typical live modifiers sit between ±5 and ±20 (Core_RP_Guidelines).
+Use the ladder when the whole task is easier or harder. Use small
+±5 / ±10 chips for one fact (better tool, off hand, rain, speaking a
+second language).
+
+Example — Unopposed Test
+  A climber faces a wet cliff at night. The cliff is not an Entity.
+  The climber tests the applicable Skill. The GM applies Difficulty
+  (wet, dark, poor holds) and any smaller chips (good rope, injured
+  hand). One roll. The rock does not roll back.
+
+Do not stack past Extreme without a hard look. If the final TN is 0
+or less, the test cannot succeed unless a later rule says otherwise —
+narrate failure or let the player change the approach.
+
+A final TN of 100 or more is not a blanket automatic success.
+See section 6a. If the Entity Dominates the test, do not roll.
+If the test is at matching or greater Scale, roll as normal. A TN
+above 100 only fails when modifiers pull it down into the d100 range
+and the roll exceeds it. When TN remains 100+ and the test was worth
+rolling, treat the roll as a success and spend it on Degrees
+(TN − roll, still in bands of 10).
+
+Aid from a prior test (see section 8) is a modifier, not a second
+resolution system.
+
+Size modifiers (to-hit, stealth, movement, S/T) are assigned in
+Core_Characteristics_Skills.txt. Do not invent a second “it is big”
+Difficulty chip for a fact Size has already paid for.
+
+--------------------------------------------------
+5. OPPOSED TESTS
+--------------------------------------------------
+
+An Opposed Test requires two Entities. Both roll against their own TN.
+A watchman is an Entity. A cliff is not. Sneaking past the watch is
+Opposed. Climbing the cliff to get above the watch is Unopposed.
+
+If one Entity Dominates the Characteristic the contest is actually
+about, and the other side is Man-Scale, do not make an Opposed Test.
+The dominant side wins that contest. The smaller Entity may only stay
+in the fight by changing what the contest is (slip, tool, numbers,
+terrain, a different Characteristic). Two Entities of matching Scale
+roll as normal, even if both sit above 100.
+
+Compare in this order:
+  1. Success beats failure. Always.
+  2. Among successes, higher DoS wins.
+  3. Among failures, lower DoF wins.
+  4. Same result and same Degree: higher TN wins (better capacity holds).
+  5. TNs also equal: deadlock. No change, or both pay the same cost if
+     the fiction will not stand still.
+
+Examples (both TN 40 unless noted)
+  A rolls 20 (2 DoS).  B rolls 35 (0 DoS).     A wins.
+  A rolls 35 (0 DoS).  B rolls 41 (0 DoF).     A wins — success beats failure.
+  A rolls 41 (0 DoF).  B rolls 60 (2 DoF).     A wins — nearer miss.
+  A rolls 30 (1 DoS).  B rolls 30 (1 DoS).     Higher TN wins; if TNs match,
+                                               deadlock.
+
+Do not subtract raw roll from raw roll. Always go through Degrees.
+
+Use opposed tests for contests: grapples, chases over a short burst,
+argument, sneaking past a watch, two smiths racing a join, a beast and
+a rider fighting for the bit. Long chases and sieges are extended
+tests (section 7).
+
+--------------------------------------------------
+6. CHARACTERISTIC BONUSES
+--------------------------------------------------
+
+Every Characteristic has a Bonus equal to its tens digit.
+
+  Strength 41  → Strength Bonus (SB) 4
+  Agility  38  → Agility Bonus (AB)  3
+  09         → Bonus 0
+  100        → Bonus 10
+  Strength 123 → Strength Bonus (SB) 12
+
+Bonus = integer divide the Characteristic by 10. Do not round the units.
+
+Bonuses are the unit of effect. Other files say which Bonus applies.
+
+  Damage, shove, lift, break         Strength Bonus
+  Distance in a short burst, balance Agility Bonus
+  Time saved, careful work rate      relevant Bonus, or Skill Bonus
+                                     when that is defined
+  Severity of a consequence          often the Degree × a Bonus
+
+This file does not set combat damage. It only defines what a Bonus is.
+
+A Skill does not automatically have its own Bonus unless a later file
+says so. Until then, when a rule calls for “the Bonus,” use the parent
+Characteristic Bonus.
+
+--------------------------------------------------
+6a. CHARACTERISTICS ABOVE 100
+--------------------------------------------------
+
+Characteristics may exceed 100. This is normal for large, heavy, or
+otherwise out-of-band Entities (a troll’s Strength, a royal gryphon’s
+mass, an Unveiling bulk that was never a man).
+
+100+ is not “always succeeds.”
+100+ means the Entity Dominates any Man-Scale test of that
+Characteristic.
+
+Unopposed, Man-Scale
+  Strength 120 troll, barred cottage door, fallen cart-horse, man-high
+  boulder a work crew could shift.
+  No roll. The troll succeeds. If the quality of the success matters
+  (how cleanly the door comes off, how far the horse is thrown), grant
+  DoS = (Characteristic − 100) ÷ 10, remainder discarded, minimum 1 DoS.
+
+Unopposed, matching or greater Scale
+  The same troll lifting a portcullis forged for it, bracing a collapsing
+  gallery, forcing a siege-leaf, swimming a mill-race in flood.
+  This is an ordinary Test. Set Difficulty for how hard it is at the
+  troll’s Scale, not for how impossible it would be for a man.
+  Roll against the full Characteristic after modifiers.
+
+Opposed, Man-Scale Entity
+  Troll against a man in a pure Strength contest (shove, break grip,
+  hold the gate shut with the body).
+  The troll Dominates. The man does not roll Strength to win.
+  The man may only continue by changing the contest.
+
+Opposed, matching Scale
+  Troll against troll, or troll against something built to its force.
+  Both roll as normal, even if both Characteristics sit above 100.
+
+Other Characteristics are untouched.
+  Strength 120 does not Dominate Agility, Perception, or Willpower.
+  Judge which Characteristic the test is actually using, then apply
+  Dominate only to that one.
+
+Skills
+  A Skill’s TN is the mean of its Parents, then training
+  (Core_Characteristics_Skills.txt §5). Dominate follows that final
+  Skill value and the Scale of the work, not a single oversized
+  Parent. A troll with Strength 120 Dominates a Man-Scale Strength
+  test (the cottage door). The same troll rolls Climbing, because
+  Climbing is (Strength + Agility) ÷ 2.
+
+How a large body reaches 100+
+  Size Category S/T scaling (Core_Characteristics_Skills.txt) is the
+  usual route. Size does not itself trigger Dominate. The Characteristic
+  does.
+
+GM tell
+  If a man could plausibly do the job with enough men, time, or tools,
+  it is Man-Scale. If the job assumes a body or force of another Scale,
+  set Difficulty at that Scale and roll. When unsure, roll. Dominate
+  is for the obvious cases.
+
+--------------------------------------------------
+7. EXTENDED TESTS
+--------------------------------------------------
+
+Use an extended test when the work takes time and progress can be seen:
+forced march, tracking a widow-gryphon off the massif, translating a
+seal, digging a palisade before night, bargaining a winter contract.
+
+  1. Set a Threshold in required DoS (typical 3, 6, or 10).
+  2. Set a Time increment per roll (a round, a watch, a day).
+  3. Each successful roll adds its DoS to a running total.
+  4. A 0 DoS success adds 1 progress (the work still moved).
+  5. Each failure adds no progress. A fumble or DoF 2+ removes progress
+     equal to the DoF, or introduces a complication, or both.
+  6. The test ends when the Threshold is met, the time runs out, or a
+     complication makes the original approach impossible.
+
+Complications should be concrete: tools break, weather turns, a watchman
+changes post, the veil thickens, the herd moves. Do not empty the
+attempt into a void.
+
+--------------------------------------------------
+8. CHAINED TESTS
+--------------------------------------------------
+
+When one action sets up another, resolve them in order. Degrees on the
+first test modify the TN of the second.
+
+Default chain (matches Core_RP_Guidelines):
+
+  +10 to the follow-up TN per DoS on the setup test
+  −10 to the follow-up TN per DoF on the setup test
+  Critical failure on the setup may impose −20, force a different Skill,
+  or abort the follow-up.
+
+Examples already in the Guidelines
+  Speak Language DoS/DoF → Haggle
+  Lore or Outdoor Survival DoS → Stealth in that country
+
+Cap the chain bonus or penalty at ±30 unless the setup was a dedicated
+scene of preparation. Preparation the player actually played out can
+stack with a chain; a hand-waved “I also studied the map” should not.
+
+--------------------------------------------------
+9. ASSISTANCE, RETRIES, TIME
+--------------------------------------------------
+
+Assistance
+  One helper who could attempt the same test may assist.
+  If the helper succeeds, the main actor gains +10.
+  If the helper scores 2+ DoS, the main actor gains +20.
+  If the helper fumbles, the main actor takes −10 and inherits a
+  complication.
+  More bodies do not stack +10 forever. Extra helpers change the
+  fiction (more hands, more noise, more mouths to feed) rather than
+  the math.
+
+Retry
+  An immediate retry after a failure is only allowed if the situation
+  has changed: new tool, new angle, extra time, help arrived, the
+  watch moved. Same approach, same conditions: the failure stands.
+  Trying again anyway costs time and may worsen the Degree of the
+  original failure.
+
+Extra time
+  Working at leisure, with no pressure, grants +10 and may turn a
+  single test into an extended test at the player’s option.
+  Rushing for half the reasonable time imposes −10.
+  Rushing beyond that is −20 and a fumble range the GM should describe
+  before the roll.
+
+--------------------------------------------------
+10. WHAT THE ROLL MEANS IN PLAY
+--------------------------------------------------
+
+0 DoS success
+  The thing happens. No flourish. No spare margin. A lock opens; the
+  sentence is believed; the footing holds. Tight.
+
+1–2 DoS
+  Clean work. Spare time, spare information, a better position, a
+  second useful fact, a witness who remembers you kindly.
+
+3+ DoS or critical success
+  The world notices. Rule of Cool applies. Doors open that the player
+  did not know were there. Do not hand free miracles. Hand earned
+  advantage.
+
+0 DoF failure
+  It does not happen. The cost is small: time, noise, a lost chance,
+  a cool look from the merchant. The attempt can usually be reframed.
+
+1–2 DoF
+  A real cost. Resource, position, reputation, or safety moves against
+  the actor. The next scene is harder in a specific way.
+
+3+ DoF or fumble
+  The situation changes species. Alarm, injury, broken gear, a
+  veil-prick, a promise you did not mean to make. Still not automatic
+  death.
+
+--------------------------------------------------
+11. TRANSPARENCY
+--------------------------------------------------
+
+Before the roll, say:
+  — what is being tested (Characteristic or Skill)
+  — the unmodified value
+  — each modifier and why
+  — the final TN
+  — what success, failure, and a fumble will look like, in brief
+
+After the roll, say the number, the Degrees, and the result.
+Do not hide the math. The world is cruel. The dice are not secret.
+
+--------------------------------------------------
+12. OPEN QUESTIONS FOR LATER FILES
+--------------------------------------------------
+
+These are deliberately not answered here.
+
+  — Combat action list, initiative order, what M is in yards
+  — Injury, crit tables, infection (the finishing blow at 0 Wounds)
+  — How Unveiling phenomena modify TN on a False Moon
+  — Company-scale tests (many actors, one roll vs many rolls)
+  — Full Fate spend list (FP already exist on PCs)
+
+Until those files exist, use this file plus Core_RP_Guidelines section 7
+for situational rulings. Note any standing ruling in the Campaign Log.

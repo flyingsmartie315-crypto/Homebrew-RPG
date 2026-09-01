@@ -1,0 +1,39 @@
+# Geographic_Region_Coritanian_Heartlands
+
+Visual Reference
+maps/Map_Geographic_Region_Coritanian_Heartlands.jpeg
+Tile west / centre / east if labels fail.
+
+Overview
+A broad, river-cut lowland and rolling upland south of the Ebon Peninsula and west of the Appolasian Plateau. The land is milder and more open than the highland basin above it. A major west–east river drains the heart of the region and marks its southern hinge with Valenidia. Coasts face the western sea; the interior is cultivated hill-and-vale country rather than closed forest. Compared with the peninsula and plateau, this is the first large, continuous farming floor of the north-west.
+
+Location & Borders
+The Coritanian Heartlands occupy the mid-western block of the north-west continent: below the Ebon Peninsula, west of the Appolasian Plateau, and north of Valenidia.
+
+borders:
+- North: Ebon Peninsula
+- Northeast: Appolasian Plateau
+- East: Appolasian Plateau / Saturnia approaches
+- Southeast: Valenidia
+- South: Valenidia (main river hinge)
+- Southwest: Western sea / gulf
+- West: Western sea
+- Northwest: Ebon Peninsula / western approaches
+
+Shared / Border Local Regions
+- [Southern Ebon Peninsula fringe / Leeshore-adjacent country] — shared with Ebon Peninsula
+- [Western rim of the Appolasian Plateau] — shared with Appolasian Plateau
+- [The hinge river corridor] — shared with Valenidia
+
+Local Regions
+- [Not yet defined]
+- [Not yet defined]
+
+Notable Features
+- A major west–east river that drains the heartland and forms the southern political and climatic hinge with Valenidia
+- Open rolling country suitable for dense settlement and grain agriculture
+- Western sea-coast and river mouths
+- Lower, more continuous land than the Ebon highlands or the Appolasian basin
+
+Notes
+France-scale in area (about 228,000 square miles). Treat as the cultivated, riverine heart of the north-west rather than a fortress or a timber wilderness. Travel is easier here than in Kannavald or the Plateau. Local Regions should be defined around the main river, the western coast, and the northern contact with the Ebon Peninsula.

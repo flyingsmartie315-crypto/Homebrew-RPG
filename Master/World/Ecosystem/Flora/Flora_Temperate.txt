@@ -1,0 +1,258 @@
+# Flora_Temperate
+# Shortlist for this biome. Not an ecosystem.
+
+Biome: Temperate
+Agriculture is in Economy_Agriculture.txt. Do not repeat sown crops here.
+
+COVER
+
+Oak
+Domain: Land
+Biome: Temperate, Oceanic, Mediterranean
+HSI: Temperature: 2–4 | Rainfall: 2–4 | Human Density: 0–4 | Flora: 3–5 | Fauna: 2–4 | Topography: 0–3 | Hydrology: 2–3
+Rarity: 9
+Use: timber, mast, fuel | Notes: heavy canopy; white, red, and bur kinds. Acorns draw hog and deer.
+
+Maple
+Domain: Land
+Biome: Temperate, Boreal, Oceanic
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 0–3 | Flora: 3–5 | Fauna: 2–3 | Topography: 0–3 | Hydrology: 2–4
+Rarity: 8
+Use: timber, sap, fuel | Notes: sugar, red, and silver. Autumn colour. Takes wetter floors than oak.
+
+Beech
+Domain: Land
+Biome: Temperate, Oceanic
+HSI: Temperature: 2–3 | Rainfall: 3–4 | Human Density: 0–3 | Flora: 4–5 | Fauna: 2–3 | Topography: 1–3 | Hydrology: 2–3
+Rarity: 7
+Use: timber, mast | Notes: smooth grey bark. Deep shade. Mast in good years.
+
+Birch
+Domain: Land
+Biome: Temperate, Boreal
+HSI: Temperature: 1–3 | Rainfall: 3–4 | Human Density: 0–3 | Flora: 2–4 | Fauna: 2–3 | Topography: 0–3 | Hydrology: 2–3
+Rarity: 8
+Use: light timber, bark, fuel | Notes: paper and sweet kinds. Colonises clearings and burns.
+
+Elm
+Domain: Land
+Biome: Temperate, Oceanic, River
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 1–4 | Flora: 3–5 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 3–4
+Rarity: 7
+Use: timber | Notes: vase canopy. Vale and water-meadow. Follows settlement more than beech.
+
+Pine
+Domain: Land
+Biome: Temperate, Boreal, Alpine, Mediterranean
+HSI: Temperature: 1–4 | Rainfall: 2–4 | Human Density: 0–3 | Flora: 2–4 | Fauna: 2–3 | Topography: 1–4 | Hydrology: 1–3
+Rarity: 9
+Use: timber, pitch, fuel | Notes: white, yellow, and Scots kinds. Drier or thinner soils than the broadleafs.
+
+Fir
+Domain: Land
+Biome: Temperate, Boreal, Alpine
+HSI: Temperature: 1–3 | Rainfall: 3–5 | Human Density: 0–2 | Flora: 3–5 | Fauna: 2–3 | Topography: 2–5 | Hydrology: 2–4
+Rarity: 7
+Use: timber | Notes: cool, wet slopes. Upright cones. Thin on warm vale floors.
+
+Spruce
+Domain: Land
+Biome: Temperate, Boreal, Alpine
+HSI: Temperature: 1–3 | Rainfall: 3–5 | Human Density: 0–2 | Flora: 3–5 | Fauna: 2–3 | Topography: 2–4 | Hydrology: 2–4
+Rarity: 8
+Use: timber, fuel | Notes: stiff needle. Dark stands. More a cool-edge tree than a vale tree.
+
+Larch
+Domain: Land
+Biome: Temperate, Boreal, Alpine
+HSI: Temperature: 1–3 | Rainfall: 2–4 | Human Density: 0–2 | Flora: 2–4 | Fauna: 2–3 | Topography: 1–4 | Hydrology: 2–4
+Rarity: 6
+Use: timber | Notes: drops needles in Longnight. Open, colder ground.
+
+Hemlock
+Domain: Land
+Biome: Temperate, Boreal
+HSI: Temperature: 1–3 | Rainfall: 4–5 | Human Density: 0–2 | Flora: 4–5 | Fauna: 2–3 | Topography: 2–4 | Hydrology: 3–4
+Rarity: 6
+Use: timber | Notes: shade and wet valleys. Does not take dry ridge or open vale.
+
+Hickory
+Domain: Land
+Biome: Temperate
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 0–3 | Flora: 3–5 | Fauna: 2–4 | Topography: 1–3 | Hydrology: 2–3
+Rarity: 6
+Use: hard timber, mast | Notes: shagbark and pignut. Tool-wood. Nuts for hog and folk.
+
+Walnut
+Domain: Land
+Biome: Temperate
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 1–4 | Flora: 3–5 | Fauna: 2–4 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 6
+Use: timber, nuts | Notes: wild in mixed wood. Planted form is in Economy_Agriculture.txt.
+
+Magnolia
+Domain: Land
+Biome: Temperate, Mediterranean
+HSI: Temperature: 3–4 | Rainfall: 3–5 | Human Density: 1–4 | Flora: 3–5 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 3–4
+Rarity: 5
+Use: ornamental, light timber | Notes: warm-edge only. Sweetbay and southern kinds. Absent from cool vale.
+
+Bald cypress
+Domain: Land
+Biome: Temperate, Wetland, River
+HSI: Temperature: 3–4 | Rainfall: 4–5 | Human Density: 0–3 | Flora: 3–5 | Fauna: 2–4 | Topography: 0–1 | Hydrology: 4–5
+Rarity: 5
+Use: wet timber | Notes: floodplain and standing water. Knees in the mud. Not a dry-wood tree.
+
+Dogwood
+Domain: Land
+Biome: Temperate, Boreal, River, Wetland
+HSI: Temperature: 2–4 | Rainfall: 3–5 | Human Density: 0–3 | Flora: 3–5 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 3–5
+Rarity: 7
+Use: dye, weaving, fuel | Notes: red-osier kind. Bank and wet edge. Flexible splints.
+
+Cattail
+Domain: Land
+Biome: Temperate, Wetland, Lake, Pond, River
+HSI: Temperature: 2–4 | Rainfall: 3–5 | Human Density: 0–3 | Flora: 3–5 | Fauna: 3–5 | Topography: 0–1 | Hydrology: 4–5
+Rarity: 8
+Use: shoot, pollen, starch, mat | Notes: stands in the shallows. See FORAGE. Country-wide only where wetland is a Sub-biome.
+
+
+FORAGE
+
+Dandelion
+Domain: Land
+Biome: Temperate, Boreal, Oceanic, Steppe
+HSI: Temperature: 2–4 | Rainfall: 2–4 | Human Density: 2–5 | Flora: 2–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 9
+Use: leaf, root, yellow dye, medicine | Notes: follows track, yard, and waste. Almost Any on working land.
+
+Nettle
+Domain: Land
+Biome: Temperate, Boreal, Oceanic, River
+HSI: Temperature: 2–4 | Rainfall: 3–5 | Human Density: 1–4 | Flora: 3–5 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 3–4
+Rarity: 8
+Use: cooked green, fibre, green dye | Notes: sting until boiled. Dung-rich and waste ground. See HAZARD.
+
+Violet
+Domain: Land
+Biome: Temperate, Boreal, Oceanic
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 0–3 | Flora: 3–5 | Fauna: 2–3 | Topography: 0–3 | Hydrology: 2–4
+Rarity: 8
+Use: leaf, flower, medicine | Notes: wood-edge and bank. Early Thaw.
+
+Yarrow
+Domain: Land
+Biome: Temperate, Boreal, Alpine, Steppe
+HSI: Temperature: 1–4 | Rainfall: 2–4 | Human Density: 0–3 | Flora: 2–4 | Fauna: 2–3 | Topography: 0–4 | Hydrology: 1–3
+Rarity: 8
+Use: astringent, dye | Notes: stops bleeding. Dry verge and open ground.
+
+Goldenrod
+Domain: Land
+Biome: Temperate, Steppe
+HSI: Temperature: 2–4 | Rainfall: 2–4 | Human Density: 0–3 | Flora: 2–4 | Fauna: 2–4 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 8
+Use: yellow dye, medicine | Notes: late Harvest. Open wood and field-edge.
+
+Bramble
+Domain: Land
+Biome: Temperate, Oceanic, Boreal
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 1–4 | Flora: 3–5 | Fauna: 3–4 | Topography: 0–3 | Hydrology: 2–3
+Rarity: 8
+Use: berry, leaf-tea, basketry | Notes: blackberry and raspberry. Thickets close a path. See HAZARD.
+
+Elder
+Domain: Land
+Biome: Temperate, Oceanic, River
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 1–4 | Flora: 3–5 | Fauna: 2–4 | Topography: 0–2 | Hydrology: 3–4
+Rarity: 7
+Use: cooked berry, medicine, dye | Notes: raw berry is a gut-hazard. Hedge and wet edge.
+
+Wild rose
+Domain: Land
+Biome: Temperate, Boreal, Oceanic
+HSI: Temperature: 1–4 | Rainfall: 2–4 | Human Density: 0–3 | Flora: 2–4 | Fauna: 2–3 | Topography: 0–3 | Hydrology: 2–3
+Rarity: 7
+Use: hip, syrup | Notes: Longnight vitamin. Hedge and waste.
+
+Blueberry
+Domain: Land
+Biome: Temperate, Boreal, Alpine
+HSI: Temperature: 1–3 | Rainfall: 3–5 | Human Density: 0–2 | Flora: 2–4 | Fauna: 2–4 | Topography: 1–4 | Hydrology: 2–4
+Rarity: 7
+Use: berry, purple dye | Notes: acid soil, open wood, and height. Bilberry kind on the cool edge.
+
+Cranberry
+Domain: Land
+Biome: Temperate, Boreal, Wetland
+HSI: Temperature: 1–3 | Rainfall: 3–5 | Human Density: 0–2 | Flora: 2–4 | Fauna: 2–3 | Topography: 0–1 | Hydrology: 4–5
+Rarity: 6
+Use: berry, dye, medicine | Notes: bog only. Fails on dry vale.
+
+Jerusalem artichoke
+Domain: Land
+Biome: Temperate
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 1–4 | Flora: 2–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 6
+Use: tuber | Notes: winter calorie. Wild stand. Sown form is in Economy_Agriculture.txt.
+
+Cattail
+Domain: Land
+Biome: Temperate, Wetland, Lake, Pond, River
+HSI: Temperature: 2–4 | Rainfall: 3–5 | Human Density: 0–3 | Flora: 3–5 | Fauna: 3–5 | Topography: 0–1 | Hydrology: 4–5
+Rarity: 8
+Use: shoot, pollen-flour, root starch, weaving | Notes: Thaw shoot; Harvest starch. Same stand as COVER.
+
+Burdock
+Domain: Land
+Biome: Temperate, Oceanic
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 2–4 | Flora: 2–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 7
+Use: taproot, medicine | Notes: waste and track. Burrs on cloth and fleece.
+
+Wild ginger
+Domain: Land
+Biome: Temperate, Boreal
+HSI: Temperature: 2–3 | Rainfall: 3–4 | Human Density: 0–2 | Flora: 4–5 | Fauna: 2–3 | Topography: 1–3 | Hydrology: 3–4
+Rarity: 6
+Use: flavour, digestive | Notes: deep shade. Floor of closed wood.
+
+Ostrich fern
+Domain: Land
+Biome: Temperate, Boreal, Wetland, River
+HSI: Temperature: 2–3 | Rainfall: 3–5 | Human Density: 0–2 | Flora: 3–5 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 3–5
+Rarity: 6
+Use: fiddlehead | Notes: Thaw only. Wet shade. Unfurl is not food.
+
+Sphagnum
+Domain: Land
+Biome: Temperate, Boreal, Polar, Wetland
+HSI: Temperature: 0–3 | Rainfall: 4–5 | Human Density: 0–1 | Flora: 2–4 | Fauna: 1–3 | Topography: 0–2 | Hydrology: 4–5
+Rarity: 7
+Use: dressing, insulation | Notes: bog moss. Holds water. Feature-only on a dry Temperate floor.
+
+Old-man’s beard
+Domain: Land
+Biome: Temperate, Boreal, Oceanic
+HSI: Temperature: 1–3 | Rainfall: 3–5 | Human Density: 0–2 | Flora: 3–5 | Fauna: 2–3 | Topography: 1–4 | Hydrology: 2–4
+Rarity: 6
+Use: medicine, dye | Notes: lichen on old standing wood. Wants wet air and canopy.
+
+
+HAZARD
+
+Nettle
+Domain: Land
+Biome: Temperate, Boreal, Oceanic, River
+HSI: Temperature: 2–4 | Rainfall: 3–5 | Human Density: 1–4 | Flora: 3–5 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 3–4
+Rarity: 8
+Use: none until cooked | Notes: closes a bank or waste in summer. Same plant as FORAGE.
+
+Bramble
+Domain: Land
+Biome: Temperate, Oceanic, Boreal
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 1–4 | Flora: 3–5 | Fauna: 3–4 | Topography: 0–3 | Hydrology: 2–3
+Rarity: 8
+Use: barrier | Notes: thorn thicket. Same plant as FORAGE.

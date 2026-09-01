@@ -17,7 +17,8 @@ USAGE RULES
 === CAMPAIGN METADATA ===
 Campaign Name: 
 Starting Date (in-world): 
-Current In-World Date / Season: 
+Current In-World Date / Season:
+Current Time:
 Current Location: 
 Last Updated: 
 

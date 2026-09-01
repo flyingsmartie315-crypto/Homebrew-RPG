@@ -1,0 +1,493 @@
+# Armour.txt
+# Virath armour — catalogue. Models, Forms, materials, cost, Enc, AC.
+# Status: DRAFT for Core.
+# Law: Armour_Rules.txt
+# Companion files:
+#   Core_Injury.txt                     Wallace + Limb location
+#   Core_Combat.txt                     hitting
+#   Weaponry.txt                        type of blow
+#   Core_Characteristics_Skills.txt     Enc Limit, NAC
+#   Economy                             coin, availability
+
+Lists only. How to wear and soak: Armour_Rules.txt.
+Tags Slots with Limb location names from Injury §3.
+
+--------------------------------------------------
+6. CLOTHING (0 AC)
+--------------------------------------------------
+
+None layer (against the skin; one only)
+  Linen shirt & hose     5 sc   Enc 3
+  Wool tunic & hose      8 sc   Enc 5    +10 Toughness vs cold
+  Silk shirt & hose     25 sc   Enc 2    +10 Fellowship at court
+
+Outdoor (over kit; may stack with sense)
+  Hooded cloak          15 sc   Enc 8    +10 Concealment in
+                                         shadow; +10 T vs rain
+  Surcoat / tabard      18 sc   Enc 6    heraldry: +10 Fel or
+                                         Intimidate among one’s
+                                         own
+  Short cloak           10 sc   Enc 5
+  Fur-lined mantle      30 sc   Enc 12   +20 T vs cold; −5 Fel
+                                         in heat
+  Leather jerkin        22 sc   Enc 10   +5 Concealment
+  Embroidered robe      35 sc   Enc 7    +15 Fel at court or
+                                         shrine
+
+Good / Best clothing: +5 / +10 Fellowship, or +10
+Concealment, not AC.
+
+People of Virath wear what the climate and the hall
+demand. Do not use Calradian culture lists.
+
+--------------------------------------------------
+7. TEXTILE
+--------------------------------------------------
+
+Models below. Sleeves, hem, and collar are Form.
+
+Torso Models
+  Aketon            10 sc  Enc 8    2/1/2   wanted under plate
+  Gambeson          15 sc  Enc 10   3/1/3   standalone; not
+                                            the plate
+                                            under-layer
+  Arming Doublet    12 sc  Enc 8    2/1/2   always Long Sleeves.
+                                            Required under
+                                            Modular on Arms.
+                                            Also legal under
+                                            Body plate.
+  Pourpoint         18 sc  Enc 8    3/2/3   wanted under plate
+
+  Default on every torso Model (100% Coverage)
+    Chest / Upper Back
+    Abdomen / Lower Back
+    Collarbone / Base of Neck
+
+  Form — Sleeves
+    None            no arm Slots
+    Short Sleeves   Shoulder 100%, Upper Arm 50%
+    Long Sleeves    Shoulder, Upper Arm, Elbow,
+                    Forearm 100%
+  Default Short if unsaid.
+  Arming Doublet is always Long. Enc 8 already
+  includes that step.
+
+  Form — Hem (H Slots, not trouser Slots)
+    Cropped Hem     Groin / Pelvis, Glutes / Sacrum,
+                    Hip / Buttock 100%
+    Short Hem       those same 95%, Thigh 50%
+    Long Hem        those same 95%, Thigh 80%,
+                    Knee 80%
+    Robe Hem        Groin / Pelvis, Glutes / Sacrum,
+                    Hip / Buttock 100%,
+                    Thigh 95%, Knee 95%, Shin 95%
+  Default Short Hem if unsaid.
+
+  Form — Collar (Textile only)
+    None            no throat Slot
+    Collar          Throat 50%
+    High Collar     Throat 75%,
+                    Lower face / Back of neck 50%
+  Default None. Mail has no Collar Form.
+
+  Hem and dedicated legs (chausses, hose, winingas)
+  may both be worn. Their AC does not stack.
+  Use the higher column. Do not add them.
+
+  Form Enc: +3 per raised sleeve, hem, or collar
+  step. Round Enc to 5. Form never changes AC.
+
+Legs
+  Padded chausses    8 sc  Enc 6    2/1/2   Legs 100%
+                                        Slots: Upper Leg,
+                                        Knee, Shin
+                                        Ordinary blows only.
+                                        Called Shot at the
+                                        groin / femoral uses
+                                        Coverage 20%.
+  Arming hose        6 sc  Enc 4    1/1/1   required under
+                                            Modular on Legs
+                                        Legs 100%, same gap
+                                        rule as chausses.
+                                        Slots: Upper Leg,
+                                        Knee, Shin
+  Winingas           4 sc  Enc 3    1/1/1   Legs 20%
+                                        Slot: Shin
+
+Head
+  Arming cap         4 sc  Enc 3    1/1/1   Head 50%
+                                        Slot: Skull
+  Padded coif        6 sc  Enc 5    2/1/2   Head 75%
+                                        Slots: Skull +
+                                        Occipital
+                   face covered             Head 95%
+                                        + Face
+  Malakhai           8 sc  Enc 6    2/2/2   Head 50%
+                                        Slots: Skull +
+                                        Occipital
+  Padded turban      7 sc  Enc 4    3/1/2   Head 75%
+                                        Slot: Skull
+                   face covered             Head 95%
+                                        + Face
+
+Hands (count as Arms at 10% of the Arm location
+unless the blow is declared at the hand)
+  Fingerless         4 sc  Enc 3    1/1/1   Slot: Hand
+                                        no BS penalty
+  Gloves             6 sc  Enc 4    2/1/2   Slot: Hand
+                                        −10 BS
+  Mittens            8 sc  Enc 5    3/2/3   Slot: Hand
+                                        −20 BS
+
+Textile Enc under 50 on the whole kit: +10 Dodge
+while that is the outer layer.
+
+--------------------------------------------------
+8. METALLIC FLEXIBLE
+--------------------------------------------------
+
+Models below. Sleeves and hem are the same Form
+list as Textile.
+
+Torso Models
+  Riveted mail      50 sc  Enc 70   4/4/4
+  Butted mail       35 sc  Enc 65   2/2/2
+  Scale             55 sc  Enc 75   4/3/5
+  Mail voiders      25 sc  Enc 20   4/4/4   gaps only
+                                        Slots: Armpit L/R
+
+  Default on every torso Model (100% Coverage)
+    Chest / Upper Back
+    Abdomen / Lower Back
+    Collarbone / Base of Neck
+  Sleeves and Hem use the Textile Form list.
+  No Collar Form on mail.
+  Default Short Sleeves and Short Hem if unsaid.
+  Mail hem and mail chausses may both be worn.
+  AC does not stack. Higher column only.
+  +5 Enc per raised sleeve or hem step. Round to 5.
+
+Legs
+  Riveted chausses  45 sc  Enc 60   4/4/4   Legs 100%
+                                        Slots: Upper Leg,
+                                        Knee, Shin
+                                        Ordinary blows only.
+                                        Called Shot at the
+                                        groin / femoral uses
+                                        Coverage 20%.
+  Butted chausses   30 sc  Enc 55   2/2/2   Legs 100%
+                                        Slots: Upper Leg,
+                                        Knee, Shin
+                                        Same gap rule.
+
+Head
+  Riveted coif      12 sc  Enc 20   4/3/2   Head 80%
+                                        Slots: Skull +
+                                        Occipital
+  Butted coif        8 sc  Enc 18   2/2/2   Head 80%
+                                        Slots: Skull +
+                                        Occipital
+  Muffled: −5 Fellowship while worn.
+
+Hands
+  Butted mittens     6 sc  Enc 5    2/2/2   −20 BS
+  Riveted mittens   10 sc  Enc 6    4/4/4   −20 BS
+
+--------------------------------------------------
+9. MODULAR — SEGMENTED
+--------------------------------------------------
+
+Gaps are the point. Coverage is not 100%.
+Same Modular layer as solid plate. Slots decide mix.
+
+Torso Models (minimum Form: front only)
+
+  Model            Cost Enc    AC      Cov   Slots
+  Coat of Plates   45 sc  60   5/6/4   50%   Chest, Abdomen
+  Laminar          50 sc  55   5/5/4   40%   Chest, Abdomen
+  Cuir Bouilli     40 sc  50   4/4/5   40%   Chest, Abdomen
+  Brigandine       48 sc  58   5/5/4   50%   Chest, Abdomen
+
+  Iron grade (Coat of Plates and Brigandine only).
+  Laminar and Cuir Bouilli do not take this table.
+  Cost is per 5% Coverage and replaces the listed
+  Model cost. Enc and AC are modifiers on the
+  listed Model.
+
+  Grade              Cost/5%   Enc    AC
+  Wrought iron         3 sc     +5    −1/−1/−1
+  Low-carbon steel     4 sc      0     0/ 0/ 0
+  Hardened steel       5 sc     −5    +1/+1/+1
+
+  Example: Coat of Plates, 50% is ten steps.
+  Wrought: 30 sc, Enc 65, AC 4/5/3.
+  Low-carbon: 40 sc, Enc 60, AC 5/6/4.
+  Hardened: 50 sc, Enc 55, AC 6/7/5.
+  Then add Form (Backplate, Pauldrons).
+
+  Form on those Models (does not change AC)
+    Backplate     +20 sc  +30 Enc   +20% Torso   Slot: Back
+    Pauldron      +12 sc  +12 Enc   +10% Torso
+                  (each)            +15% Arms
+                                     Slot: Shoulder
+                                     L or R
+                  Arm soak AC 5/6/4 when the
+                  Location is that Arm.
+                  Two pauldrons: +20% Torso,
+                  +15% each Arm.
+
+  Plackart is not Form on these. Abdomen is
+  already in the Model.
+
+Arm Models (Coverage and Slots only)
+
+  Model       Cov    Slots
+  Bracers     30%    Forearm
+  Rerebrace   30%    Upper Arm
+  Gauntlet    10%    Hand
+
+  Jack chains stay a special Model, not this
+  Material table: 10 sc Enc 10, AC 2/0/1,
+  Cov 30% Cut/Blunt and 0% Pierce, Slots
+  Upper Arm + Forearm. Doublet allowed.
+
+Leg Models (Coverage and Slots only)
+
+  Model       Cov    Slots
+  Cuisses     30%    Upper Leg
+  Greaves     30%    Shin
+  Sabaton     10%    Foot
+
+  Tassets remain a Torso Model on Waist.
+
+Material (segmented). Cost and Enc per 5%
+Coverage. AC is the soak column.
+
+  Material       Cost/5%   Enc/5%   AC
+  Splinted         4 sc      4      3/4/5
+  Cuir bouilli     3 sc      3      2/3/4
+  Laminar          5 sc      4      3/3/3
+
+  Example: Splinted Bracers. 30% is six
+  steps. Cost 24 sc, Enc 24, AC 3/4/5,
+  Slot Forearm.
+
+Helmets (Head cap 95%; empty Eyes = 0 AC)
+  Skullcap            12 sc  Enc 12   4/4/4   70%
+                                        Slot: Skull
+  Nasal spangehelm    25 sc  Enc 22   5/6/4   60%
+                                        Slot: Skull
+  Composite kettle    24 sc  Enc 21   5/6/4   80%
+                                        Slot: Skull
+  Greathelm           42 sc  Enc 38   8/8/7   95%
+                                        Slots: Skull +
+                                        Face + Occipital
+  Enclosed helm       50 sc  Enc 34   8/9/7   90%
+                                        Slots: Skull +
+                                        Face + Occipital
+
+Helmet add-ons
+  Visor         +8 sc  +1 Enc   +1/+1/+0    +5% Head
+                                        Slot: Eyes
+  Full visor   +12 sc  +2 Enc   +1/+1/+0   +10% Head
+                                        Slots: Face + Eyes
+  Ventail      +10 sc  +2 Enc   +1/+1/+0    +5% Head
+                                        Slot: Face
+  Bevor        +15 sc  +3 Enc   +2/+2/+1   +30% Head
+                                        Slot: Face
+  Aventail     +12 sc  +3 Enc   +2/+2/+1   +30% Head
+                                        No plate slot
+One piece per Head slot. Visor + aventail is legal.
+Full visor + bevor is not.
+
+--------------------------------------------------
+10. MODULAR — SOLID PLATE
+--------------------------------------------------
+
+Same Modular layer as section 9. Slots decide mix.
+Cap 90% per combat location (helms 95% with Eyes empty
+until a visor sits).
+
+Limb Material (solid plate). Cost and Enc per
+5% Coverage. AC is the soak column. Torso Plate
+still uses the Model table above until that
+pass uses the same rate.
+
+  Material           Cost/5%   Enc/5%   AC
+  Wrought iron         3 sc      5      4/5/3
+  Low-carbon steel     4 sc      4      5/6/4
+  Hardened steel       5 sc      3      6/7/5
+
+Torso Model (minimum Form: Chest or Abdomen)
+
+  Model    Cost Enc    AC      Cov   Slots
+  Plate    45 sc  45   6/7/5   20%   Chest or
+                                     Abdomen
+                                     (same stats)
+
+  Form on Plate (does not change Model AC)
+    Plackart      +40 sc  +40 Enc   +20% Torso   Slot: the
+                                                 front slot
+                                                 the Model
+                                                 did not take
+    Backplate     +40 sc  +40 Enc   +20% Torso   Slot: Back
+    Pauldron      +12 sc  +12 Enc   +10% Torso
+                  (each)            +15% Arms
+                                     Slot: Shoulder
+                                     L or R
+                  Arm soak AC 5/6/4 when the
+                  Location is that Arm.
+                  Two pauldrons: +20% Torso,
+                  +15% each Arm.
+
+  A cuirass is Plate + Plackart + Backplate:
+  Slots Chest, Abdomen, Back. Torso Coverage 60%.
+  Still one Modular piece, one Model AC (6/7/5).
+  Do not add 7+7+7.
+
+Other torso Models (own entries; not Plate Form)
+  Gorget         15 sc  Enc 15   5/5/4   Head 10%
+                                         (throat)
+  Besagew        12 sc  Enc 12   5/5/4   Arms 5%
+                                         Slot: Armpit
+  Faulds         18 sc  Enc 18   4/4/4   Legs 20%
+                                         Slot: Waist
+  Tassets        20 sc  Enc 20   4/4/5   Legs 20–40%
+                                         Slot: Waist
+                                         May hang from
+                                         Faulds.
+
+Arm Models (Coverage and Slots only)
+
+  Model          Cov    Slots
+  Full Gauntlet  40%    Hand + Forearm
+  Gauntlet       10%    Hand
+  Vambrace       30%    Forearm
+  Couter         10%    Elbow
+  Rerebrace      30%    Upper Arm
+
+  Example: Low-carbon Vambrace. 30% is six
+  steps. Cost 24 sc, Enc 24, AC 5/6/4.
+
+Leg Models (Coverage and Slots only)
+
+  Model          Cov    Slots
+  Full Greaves   40%    Shin
+  Poleyn         10%    Knee
+  Cuisses        30%    Upper Leg
+  Sabaton        10%    Foot
+
+  Example: Hardened Cuisses. 30% is six
+  steps. Cost 30 sc, Enc 18, AC 6/7/5.
+
+Helmets (low-carbon steel band 7/7/6, Enc ~30,
+cost ~30–48 sc; model sets Coverage)
+  Nasal, kettle                            60%  Skull
+  Bascinet                                 60%  Skull
+  Sallet                                   80%  Skull +
+                                                Occipital
+  Armet, barbute                           80%  Skull + Face
+  Great bascinet, frog-mouth,
+  visored great helm                       95%  Skull + Face
+                                                + Occipital
+                                                (Eyes with
+                                                visor down)
+
+Visor tags are cosmetic once the Eyes slot is
+filled. They do not change AC.
+
+--------------------------------------------------
+11. BOOTS
+--------------------------------------------------
+
+Always cover the foot. Leg % is height.
+Soft boots take the Foot slot only as clothing
+weight unless a Modular material is added.
+Cuir bouilli or splinting on a boot is Modular
+(segmented) on Foot. Greaves on a boot are
+Modular (solid) on Shin.
+
+Types
+  Turnshoe           5 sc  Enc 10   1/1/1   Leg 15%
+  Ankle boot         8 sc  Enc 12   2/1/1   Leg 15%
+  Riding / cuffed   12 sc  Enc 15   2/1/2   Leg 40%
+  Poulaine          10 sc  Enc 12   1/1/1   Leg 15%
+  Clog / slipper     4 sc  Enc 10   1/2/2   Leg 15%
+
+Materials (add to type)
+  Leather            +2 sc   +0 Enc   +0/+1/+0
+  Suede              +3 sc   −2 Enc   +0/+0/+0
+  Felt & leather     +1 sc   +3 Enc   +0/+0/+1
+  Padded             +4 sc   +3 Enc   +1/+0/+1
+  Cuir bouilli      +10 sc   +5 Enc   +2/+2/+3   Modular
+  Splinting          +8 sc   +4 Enc   +1/+1/+2   Modular
+  Greaves           +12 sc   +6 Enc   +2/+2/+1   Modular
+
+Layer over Textile legs or under plate greaves.
+If the outer boot/greave applies, inner Textile
+legs apply at full AC (section 3).
+
+--------------------------------------------------
+12. UPGRADES
+--------------------------------------------------
+
+One column is who can take it. A piece that is
+not on that list cannot take the Upgrade.
+
+Field
+  Done after the piece is already made. Knife,
+  pot, brush, spare straps. No workshop.
+
+  Upgrade            Eligible
+  Beeswax / resin    Clothing, Textile
+                     +8 sc  +1 Enc   +1 Cut, weatherproof
+  Insulated          Clothing, Textile
+                     +10 sc +2 Enc   +10 T vs cold
+  Breathable         Clothing, Textile
+                     +9 sc  −1 Enc   +10 T vs heat;
+                                     −1 Blunt in cold
+  Paint / lacquer    Modular Segmented (helmets),
+                     Modular Solid Plate
+                     +12 sc +1 Enc   +5 Fel; weatherproof
+  Blue / black       Modular Segmented (helmets),
+                     Modular Solid Plate
+                     +15 sc +0 Enc   +10 Intimidate
+  Plate / tin        Modular Segmented,
+                     Modular Solid Plate
+                     +20 sc +2 Enc   +1 Cut, +1 Blunt
+  Kraken sinew       Any piece that uses leather
+                     bindings or straps
+                     +18 sc +2 Enc   straps do not part
+  Troll-hide ties    Any piece that uses leather
+                     bindings or straps
+                     +12 sc +2 Enc   +10 T vs cold
+
+Making
+  Done in a proper shop, or while the piece is
+  first made. You cannot beeswax a hauberk into
+  tempered rings.
+
+  Upgrade              Eligible
+  Double mail          Metallic Flexible
+                       (Riveted or Butted only)
+                       +30% cost  +25% Enc   +1/+1/+1
+  Tempered rings
+  / scales             Metallic Flexible
+                       +40%       +0 Enc     +1/+1/+2
+  Sea-serpent scale    Metallic Flexible (Scale),
+                       or Modular Segmented
+                       (Laminar or Brigandine)
+                       +50%       −25% Enc   +3/+3/+3
+                                             +10 Intimidate
+  Dense quilting       Textile
+                       +25%       +3 Enc     +1/+1/+1
+  Spider-silk lining   Clothing, Textile
+                       +40%       −4 Enc     +2/+2/+1
+  Rock troll hide      Cuir Bouilli (the keyword)
+                       +30%       +15% Enc   +1/+1/+2
+  River troll hide     Cuir Bouilli (the keyword)
+                       +25%       +5 Enc     +1/+1/+1
+
+Sea-serpent washers are gone. That job is scale
+or sinew, not a washer list.
+

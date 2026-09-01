@@ -1,0 +1,493 @@
+# Armour_Rules.txt
+# Virath armour — law. How layers, slots, and soak work.
+# Status: DRAFT for Core.
+# Companion files:
+#   Armour.txt                          Models, Forms, stats
+#   Core_Combat.txt                     hitting, damage
+#   Core_Injury.txt                     Wallace + Limb location
+#   Weaponry.txt                        Armour Piercing, type
+#   Core_Characteristics_Skills.txt     Enc Limit, NAC
+
+This file is the playable law. Piece numbers live in Armour.txt.
+
+PURPOSE
+Worn AC is per location and per type. A helm does not cover
+an arm. Mail does not treat a hammer like a sword.
+
+Law only. Layers, Limb locations, Slots, soak.
+A cuirass, pauldrons, and jack chains sit on one man
+because Slots match Limb locations. Stats: Armour.txt.
+
+ASSESS
+
+  Locations
+    After a hit stands, roll 1d100 for Location
+    (Wallace bands, section 1). Slots are wardrobe.
+    Coverage is the chance a layer caught that
+    Location. Location d100 and Coverage d100
+    are two different dice.
+
+  Soak
+    One d100, read down the layers (section 5).
+    Modular catch: 1d(modules on that Location)
+    names the plate. Use that module’s AC, plus
+    Metallic Flexible and Textile on it.
+    Mail catch: mail AC plus Textile.
+    Textile catch: Textile only.
+    Then NAC. Armour Piercing ignores 1 AC after
+    that total (minimum 0).
+
+  Layering
+    Layers: None, Clothing, Textile, Metallic Flexible,
+    Modular.
+    Each slot: one piece per layer. Clothing is 0 AC.
+
+  Not imported
+    Calradia culture tag lists. Cosmetic tags may be
+    written on a piece; they do not change AC.
+    Durability Score. Condition tags (Worn, Ruined)
+    may cut AC later. Enc is points.
+
+--------------------------------------------------
+0. KEYWORDS
+--------------------------------------------------
+
+Where (do not mix them)
+
+  Wallace location
+    The limb the first d100 named after the
+    hit stood. Locked bands (Injury §3):
+    Head, Torso, Right Arm, Left Arm,
+    Right Leg, Left Leg.
+
+  Limb location
+    Where on that limb the second d100 named.
+    Locked bands (Injury §3). This is the
+    combat “where” for soak and for Injury
+    tables. Print it on the sheet next to
+    Wallace location.
+
+      Arm:     Hand, Forearm, Elbow,
+               Upper Arm, Shoulder
+      Leg:     Foot, Shin / Calf, Knee,
+               Thigh, Hip / Buttock
+      Torso:   Chest / Upper Back,
+               Abdomen / Lower Back,
+               Groin / Pelvis
+               (Glutes / Sacrum from behind),
+               Collarbone / Base of Neck
+      Head:    Eyes, Skull / Occipital,
+               Lower face / Back of neck,
+               Throat
+
+    Facing picks the front or back name on
+    a pair (Injury §3).
+
+  Slot
+    The same list as Limb location. L and R
+    are separate Slots on arms and legs.
+    Every Slot may hold one Textile, one
+    Metallic Flexible, and one Modular piece.
+    A piece only answers a hit if it is
+    tagged to that Limb location.
+    A vambrace is Forearm. It does not
+    answer Upper Arm.
+
+  Coverage
+    Chance that piece caught the Limb
+    location the second d100 named. A piece
+    tagged to that Slot is 100% of that Slot
+    unless the piece says otherwise (jack
+    chains Pierce 0, visor Eyes only).
+
+  Short: Wallace is the limb. Limb location
+  is the spot. Slot is that spot on the
+  wardrobe. Coverage is the chance on that
+  spot. The Coverage d100 is a third die.
+
+AC (Cut / Pierce / Blunt)
+  Three soak numbers on a piece. Use the column that
+  matches the declared blow.
+
+Layer
+  None, Clothing, Textile, Metallic Flexible, Modular.
+  Each Slot may hold one Textile, one Metallic Flexible,
+  and one Modular piece. Clothing does not take a Slot.
+
+How a worn piece is named
+
+  Model
+    What it is made as. The listed item.
+    A Model has Coverage, Slots, and (on Textile,
+    mail, and Modular torso) flat AC, Enc, Cost.
+    Modular arms and legs: the Model is shape
+    only — Coverage and Slots. Material supplies
+    AC, and Cost and Enc per 5% Coverage.
+    Textile: Aketon, Gambeson, Arming Doublet,
+    Pourpoint, and the lists in section 7.
+    Metallic Flexible: Riveted Mail, Butted
+    Mail, Scale, and the lists in section 8.
+    Modular torso: Coat of Plates, Laminar,
+    Cuir Bouilli, Brigandine, Plate.
+    A Modular Model lists the Slots it claims
+    at minimum (Plate is Chest or Abdomen,
+    same stats; the segmented coats are
+    Chest + Abdomen).
+
+  Form
+    Added cut on that Model. Does not change
+    the Model’s AC. Changes Slots claimed and
+    modifies Coverage, Enc, and Cost.
+    Textile / mail Form: sleeve length and hem
+    length.
+    Modular torso Form: Backplate, Pauldrons,
+    and the other front plate (Plate only).
+    Example: Plate is the Model, Chest or
+    Abdomen at the same stats. Adding the
+    other front plate, Backplate, and
+    Pauldrons is Form on that Model.
+
+  Upgrade
+    A field or making extra on a finished
+    piece (Armour.txt Upgrades). Applied after Model
+    and Form. May change AC, Enc, Cost, or
+    add a special. Dense quilting, tempered
+    rings, and so on.
+
+  Order: pick Model, apply Form, then Upgrades.
+  Craftsmanship (Good / Best / Poor) sits on
+  the finished piece after those three.
+
+--------------------------------------------------
+1. LOCATIONS
+--------------------------------------------------
+
+Combat location d100 (Wallace bands)
+  01–10   Head          10%
+  11–50   Torso         40%
+  51–60   Right Arm     10%
+  61–70   Left Arm      10%
+  71–85   Right Leg     15%
+  86–100  Left Leg      15%
+
+  85 was written on both legs in the draft.
+  Left Leg starts at 86 so the bands do not
+  overlap and still sum to 100.
+
+A piece lists which of those it covers and at what %.
+Feet are Legs. Hands are Arms. Face and visor are Head.
+Tassets and Faulds hang from the Waist onto Legs.
+
+--------------------------------------------------
+1a. SUB-LOCATIONS
+--------------------------------------------------
+
+Sub-locations are wardrobe slots. Every slot may
+hold three layers: Textile, Metallic Flexible,
+Modular. They do not replace the location d100. They do not
+replace Coverage. Coverage stays on the piece.
+
+Facing (common sense, no extra roll)
+  Face-to-face: sum all Modular Coverage on that
+  Location, including the Backplate. The wrap
+  still counts. The 1dN may name any module that
+  went into that total.
+  Struck from behind: only rear modules count
+  for Coverage and for the 1dN. Chest and
+  Abdomen are not in the way from the back.
+  Flank or scramble: GM names which modules sit
+  in the total.
+
+TORSO Slots (Limb locations)
+
+  Slot                         Typical piece
+  Chest / Upper Back           Breastplate; Backplate
+                               (facing picks the name)
+  Abdomen / Lower Back         Plackart; lower backplate
+  Groin / Pelvis
+  (Glutes / Sacrum behind)     Faulds; tassets hang here
+  Collarbone / Base of Neck    Gorget
+
+  A cuirass is Chest + Abdomen, plus Upper / Lower
+  Back if a backplate Form is on. Facing names
+  which side of the pair is live.
+
+  Faulds sit on Groin / Pelvis (or Glutes / Sacrum
+  from behind). Tassets hang from that Slot onto
+  Thigh. They do not take the Thigh Slot. Cuisses
+  may sit on Thigh under them.
+
+  Shoulder is an Arm Limb location, not Torso.
+  Pauldrons live there.
+
+  Besagew is not a Limb location. It is a Called
+  Shot / armpit extra on Shoulder. Ordinary blows
+  do not land on it.
+
+ARM Slots (Limb locations, L and R separate)
+
+  Slot            Typical piece
+  Hand            Gauntlet
+  Forearm         Vambrace; Bracers; Jack chains
+  Elbow           Couter
+  Upper Arm       Rerebrace; Jack chains
+  Shoulder        Pauldron
+
+  Full Gauntlet claims Hand + Forearm.
+  Jack chains claim Upper Arm + Forearm on that
+  side. They leave Elbow and Hand free. They do
+  not claim a Torso slot.
+
+  L and R are separate wardrobes.
+  One Modular piece per slot per side. A solid
+  vambrace and segmented bracers cannot share a
+  forearm. A cuirass plus pauldrons plus jack
+  chains is legal: different slots.
+
+LEG Slots (Limb locations, L and R separate)
+
+  Slot            Typical piece
+  Foot            Sabaton; boots
+  Shin / Calf     Full greaves; rigid boot greaves
+  Knee            Poleyn
+  Thigh           Cuisses
+  Hip / Buttock   (pair with Groin / Pelvis on
+                  Torso when facing says so)
+
+  Faulds and tassets are Torso Groin / Pelvis,
+  not this list. Tassets still hang coverage
+  onto Thigh. Cuisses and tassets are not
+  exclusive.
+
+  Hem-H Slots use the same Limb location
+  names with H (Thigh-H, Knee-H, Shin-H,
+  Hip-H). Trouser Slots are the plain names.
+  Hem AC and trouser AC do not stack.
+
+  L and R are separate.
+  One Modular piece per slot per side.
+
+HEAD Slots (Limb locations)
+
+  Slot                         Typical piece
+  Eyes                         Visor; full visor
+  Skull / Occipital            Bowl; skullcap; sallet
+                               (facing picks the name)
+  Lower face / Back of neck    Nasal; bevor; ventail;
+                               sallet tail
+  Throat                       Gorget (if worn as Head);
+                               aventail
+
+  Empty Eyes is the visor zone: 0 AC until a
+  visor sits there.
+
+  A helm may claim more than one slot.
+    Skullcap              Skull
+    Nasal / kettle        Skull
+    Sallet                Skull + Occipital
+    Bascinet              Skull
+    Armet / barbute       Skull + Face
+    Great bascinet,
+    frog-mouth,
+    visored great helm    Skull + Face + Occipital
+                          Eyes if a visor is fitted
+    Greathelm / enclosed  Skull + Face + Occipital
+
+  Add-ons
+    Visor                 Eyes
+    Full visor            Face + Eyes
+    Ventail               Face
+    Bevor                 Face
+    Aventail              no plate slot (mail skirt)
+
+  One Modular piece per slot. A nasal and a full
+  visor cannot both take Face. A skullcap cannot
+  sit under a bascinet. Visor tags stay cosmetic
+  once Eyes is filled.
+
+--------------------------------------------------
+2. LAYERS
+--------------------------------------------------
+
+  None               no worn AC
+  Clothing           0 AC. Weather and Fellowship only.
+  Textile            padded, leather, quilt. Soft. Strong
+                     vs Blunt relative to its cost.
+  Metallic Flexible  riveted mail, butted mail, scale.
+  Modular            slot pieces. Segmented coats,
+                     jack chains, solid plate. Uses Slots (section 1a).
+
+Typical band (not a substitute for the piece table)
+
+  Layer                C / P / B     Notes
+  Clothing             0 / 0 / 0
+  Textile              2–3 / 1–2 / 2–3
+  Butted mail          2 / 2 / 2
+  Riveted mail         4 / 4 / 4
+  Scale                4 / 3 / 5
+  Modular (segmented)  4–6 / 4–6 / 4–5
+  Modular (solid)      5–8 / 5–9 / 4–7
+
+--------------------------------------------------
+3. LAYERING
+--------------------------------------------------
+
+Outer to inner. Sum AC from every piece that applies.
+
+  Each slot: one Textile, one Metallic Flexible, one
+  Modular. A torso garment may claim many slots at
+  once (Chest + Abdomen + Back is the default body).
+  Two pieces of the same layer cannot share a slot.
+  Textile under mail under Modular is legal.
+  Mail voiders only fill a gap the outer piece left
+  (Armpit slots).
+
+When the outermost piece on that location applies
+(coverage success), a Textile layer under it applies
+in full with no roll. Other inner layers still roll.
+
+Under-layers
+  Modular on Arms requires an Arming Doublet. Body
+    plate alone does not.
+    Jack chains do not require a Doublet. A Doublet
+    under them is legal.
+  Modular on Body only (no Modular on the Arms) is
+    fine over an Aketon or Pourpoint. No chafing.
+    An Arming Doublet also serves. A Gambeson does
+    not — it is standalone.
+  Modular on Legs requires Arming Hose.
+  Metallic Flexible on Body or Arms requires a Textile
+    torso whose sleeve slots cover at least the mail
+    or scale’s sleeve slots (no sleeves under no
+    sleeves is legal; Short under Long is not).
+
+  Missing the required piece, or sleeves too short:
+    −10 Agility tests and −1 AC on that location
+    (chafing).
+
+Enc: add every worn piece. Round each piece to the
+nearest 5 after mods. Enc Limit is Strength × 10.
+
+Max four Modular pieces on one combat location
+(Body, Arm, or Leg) as a bulk cap. Slots are the
+mix rule. The cap is the weight of iron on one
+limb or the ribs.
+
+--------------------------------------------------
+4. CRAFTSMANSHIP
+--------------------------------------------------
+
+Listed AC is Common.
+
+  Good   +1 to each AC column. Cost ×3.
+  Best   +2 to each AC column. Cost ×10.
+  Poor   −1 to each column. Cost ×½.
+
+--------------------------------------------------
+5. RESOLUTION ON A HIT
+--------------------------------------------------
+
+The hit already stood (WS/BS, then Dodge or Parry).
+Now find where it landed and what caught it.
+
+  1. Location. Two d100s on a biped (Injury §3).
+     First: Wallace limb.
+     Second: Slot on that limb.
+     3+ DoS or Called Shot may name the limb,
+     the Slot, or both. These dice are not the
+     Coverage die.
+
+  2. Type. Slash / Thrust / Bash from the weapon.
+     Incoming = 1d10 + SB + type + DoS (Combat §9).
+
+  3. One coverage die. Roll 1d100 once. Keep it.
+     Attacker DoS: −10 to each layer’s Coverage
+     total per 2 DoS before you compare.
+
+     Standing target. A shot or swing at a man
+     on his feet does not hunt the femoral, the
+     visor slit, or the armpit unless the attacker
+     Called Shot that gap or has 3+ DoS and names
+     it. Padded chausses, arming hose, and mail
+     chausses are 100% Legs against that ordinary
+     blow. The DoS Coverage penalty does not
+     eat that 100%. The holes that still exist
+     on a closed harness are the face (Eyes
+     empty, visor up) and the groin (no fauld
+     or codpiece, or a declared gap). A rondel
+     in the bind may use the old lower Coverage.
+     An arrow at twenty yards may not.
+
+  4. Modular. Only modules tagged to this Slot
+     are in the pool. A cuirass piece tagged
+     Chest does not answer an Abdomen hit.
+     Face-to-face, a Back Slot is read as Chest
+     unless the blow was from behind.
+     A piece tagged to the Slot is Coverage
+     100% of that Slot unless it says otherwise.
+     If several Modular pieces share the Slot
+     (they should not) or Form listed extras
+     on this Slot: 1dN names which AC and which
+     sentence.
+     Soak AC = that module’s matching column,
+     plus Metallic Flexible tagged to this Slot,
+     plus Textile tagged to this Slot.
+     Log the named module (“the blow rings on
+     the vambrace”).
+       Stop. Go to step 7.
+
+  5. Metallic Flexible. If the same d100 is greater
+     than the Modular total, compare it to the mail
+     or scale Coverage on that location.
+     If the d100 ≤ that Coverage:
+       Soak AC = Metallic Flexible AC on that
+       location, plus Textile AC on that location.
+       Stop. Go to step 7.
+
+  6. Textile. If the same d100 is greater than the
+     mail Coverage, compare it to the Textile
+     Coverage on that location.
+     If the d100 ≤ that Coverage:
+       Soak AC = Textile AC on that location.
+     If not: no worn AC. NAC only.
+
+  7. Hem and trousers on Textile or mail do not
+     stack. Use the higher column of the two.
+  8. Armour Piercing: −1 AC after the total
+     (minimum 0).
+  9. Protection = NAC + Soak AC.
+     Incoming − Protection = Wounds.
+
+The same d100 is never rerolled. It is read down
+the layers until one catches or none do.
+
+Which module (do not add plates)
+  Coverage percentages are added to see whether
+  iron caught the blow. Their ACs are not added.
+  The 1dN picks one module from the list that
+  built that total.
+
+  Torso, face-to-face, a Thrust.
+  Breastplate Pierce 7, Coverage 20.
+  Plackart Pierce 7, Coverage 20.
+  Modular total Coverage 40. Two modules.
+  d100 is 31: plate catches.
+  1d2 names the plackart.
+  Plate soak is 7 from the plackart, not 14.
+  Then add mail and quilt on the Torso.
+  Then NAC. Say the spear fetched up on the
+  belly plate.
+
+  Adding 7 and 7 turns two chances to meet
+  iron into a double breastplate. Do not.
+
+--------------------------------------------------
+13. OPEN
+--------------------------------------------------
+
+  — Condition tags cutting AC (Damaged, Ruined)
+  — Full visor Perception / Awareness penalty
+  — Shield AC and when it covers a location
+  — Suit examples priced as a single kit
+  — Durability as a pool, if ever
+  — Catalogue / compiler (data/armour_catalogue)

@@ -1,0 +1,115 @@
+# Fauna_Polar_sea
+# Shortlist for this sea-climate. Not an ecosystem.
+
+Biome: Polar sea
+
+
+STRAND
+
+Ringed seal
+Domain: Marine, Land
+Biome: Polar sea
+Place: Strand, Shelf
+HSI: Temperature: 0–1 | Rainfall: 1–3 | Human Density: 0–2 | Flora: 1–3 | Fauna: 2–4 | Topography: 0–2 | Hydrology: 1–4
+Rarity: 6 | Harm: 2 | Knowledge: 6
+Use: oil, hide, meat | Notes: ice-edge haul-out. Smallest polar seal.
+
+Walrus
+Domain: Marine, Land
+Biome: Polar sea
+Place: Strand, Shelf
+HSI: Temperature: 0–1 | Rainfall: 1–3 | Human Density: 0–2 | Flora: 1–3 | Fauna: 3–5 | Topography: 0–2 | Hydrology: 1–3
+Rarity: 5 | Harm: 4 | Knowledge: 6
+Use: ivory, oil, hide | Notes: shell-eater on the shallows. Hauls on ice and rock.
+
+Polar bear
+Domain: Land, Marine
+Biome: Polar sea
+Place: Strand
+HSI: Temperature: 0–1 | Rainfall: 1–3 | Human Density: 0–1 | Flora: 0–2 | Fauna: 2–4 | Topography: 0–2 | Hydrology: 1–4
+Rarity: 4 | Harm: 5 | Knowledge: 7
+Use: hide, fat | Notes: ice-hunter. Natural. Not a Deepwood animal.
+
+Ivory gull
+Domain: Air, Marine
+Biome: Polar sea
+Place: Strand
+HSI: Temperature: 0–1 | Rainfall: 1–3 | Human Density: 0–2 | Flora: 0–2 | Fauna: 2–4 | Topography: 0–1 | Hydrology: 1–4
+Rarity: 5 | Harm: 1 | Knowledge: 5
+Use: — | Notes: follows the kill and the ice.
+
+
+SHELF
+
+Polar cod
+Domain: Marine
+Biome: Polar sea
+Place: Shelf
+HSI: Temperature: 0–1 | Rainfall: 1–3 | Human Density: 0–2 | Flora: 1–3 | Fauna: 3–5 | Topography: 1–2 | Hydrology: 1–4
+Rarity: 7 | Harm: 1 | Knowledge: 5
+Use: fish | Notes: ice-edge school. Seal-feed.
+
+Capelin
+Domain: Marine
+Biome: Polar sea, Cold sea
+Place: Shelf, Strand
+HSI: Temperature: 0–2 | Rainfall: 1–3 | Human Density: 0–2 | Flora: 1–3 | Fauna: 3–5 | Topography: 0–2 | Hydrology: 1–3
+Rarity: 8 | Harm: 1 | Knowledge: 6
+Use: fish, oil | Notes: runs the shallows to spawn.
+
+Greenland shark
+Domain: Marine
+Biome: Polar sea, Cold sea
+Place: Shelf, Open sea, Abyssal
+HSI: Temperature: 0–2 | Rainfall: 1–3 | Human Density: 0–2 | Flora: 0–2 | Fauna: 2–4 | Topography: 2–5 | Hydrology: 1–4
+Rarity: 5 | Harm: 4 | Knowledge: 4
+Use: oil, skin | Notes: slow, deep, long-lived. Flesh is a gut-hazard raw.
+
+
+GULF
+
+Beluga
+Domain: Marine
+Biome: Polar sea
+Place: Gulf, Shelf
+HSI: Temperature: 0–1 | Rainfall: 1–3 | Human Density: 0–2 | Flora: 1–3 | Fauna: 3–4 | Topography: 1–3 | Hydrology: 1–3
+Rarity: 5 | Harm: 2 | Knowledge: 5
+Use: oil, hide | Notes: white whale of the sound and ice-lead.
+
+
+OPEN SEA
+
+Bowhead
+Domain: Marine
+Biome: Polar sea
+Place: Open sea, Gulf
+HSI: Temperature: 0–1 | Rainfall: 1–3 | Human Density: 0–1 | Flora: 1–3 | Fauna: 3–5 | Topography: 3–4 | Hydrology: 1–4
+Rarity: 4 | Harm: 3 | Knowledge: 6
+Use: oil, baleen, bone | Notes: ice-water whale. Great take.
+
+Narwhal
+Domain: Marine
+Biome: Polar sea
+Place: Open sea, Gulf
+HSI: Temperature: 0–1 | Rainfall: 1–3 | Human Density: 0–1 | Flora: 1–2 | Fauna: 2–4 | Topography: 2–4 | Hydrology: 1–4
+Rarity: 4 | Harm: 2 | Knowledge: 5
+Use: ivory, oil | Notes: tusked. Deep leads.
+
+Orca
+Domain: Marine
+Biome: Polar sea, Cold sea, Temperate sea, Warm sea
+Place: Open sea, Gulf, Shelf
+HSI: Temperature: 0–4 | Rainfall: 1–4 | Human Density: 0–3 | Flora: 1–3 | Fauna: 3–5 | Topography: 1–4 | Hydrology: 1–4
+Rarity: 5 | Harm: 5 | Knowledge: 6
+Use: — | Notes: pack hunter of seal and whale. Follows the food.
+
+
+ABYSSAL
+
+Greenland shark
+Domain: Marine
+Biome: Polar sea, Cold sea
+Place: Shelf, Open sea, Abyssal
+HSI: Temperature: 0–2 | Rainfall: 1–3 | Human Density: 0–2 | Flora: 0–2 | Fauna: 2–4 | Topography: 2–5 | Hydrology: 1–4
+Rarity: 5 | Harm: 4 | Knowledge: 4
+Use: oil, skin | Notes: same fish as SHELF. Lives down as well as out.

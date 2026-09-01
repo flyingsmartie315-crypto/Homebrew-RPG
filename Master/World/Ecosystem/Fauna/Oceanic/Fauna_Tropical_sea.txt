@@ -1,0 +1,149 @@
+# Fauna_Tropical_sea
+# Shortlist for this sea-climate. Not an ecosystem.
+
+Biome: Tropical sea
+
+
+STRAND
+
+Green turtle
+Domain: Marine, Land
+Biome: Tropical sea, Warm sea
+Place: Strand, Shelf
+HSI: Temperature: 5–5 | Rainfall: 3–5 | Human Density: 0–3 | Flora: 4–5 | Fauna: 3–4 | Topography: 0–2 | Hydrology: 1–3
+Rarity: 5 | Harm: 2 | Knowledge: 6
+Use: meat, shell | Notes: grazes weed. Nests on sand.
+
+Loggerhead
+Domain: Marine, Land
+Biome: Warm sea, Tropical sea
+Place: Strand, Shelf, Open sea
+HSI: Temperature: 4–5 | Rainfall: 2–4 | Human Density: 0–3 | Flora: 3–5 | Fauna: 3–4 | Topography: 0–3 | Hydrology: 1–3
+Rarity: 5 | Harm: 2 | Knowledge: 6
+Use: shell, meat | Notes: same traveller.
+
+Frigatebird
+Domain: Air, Marine
+Biome: Tropical sea, Warm sea
+Place: Strand, Open sea
+HSI: Temperature: 4–5 | Rainfall: 3–5 | Human Density: 0–3 | Flora: 2–3 | Fauna: 3–4 | Topography: 0–3 | Hydrology: 2–4
+Rarity: 6 | Harm: 1 | Knowledge: 5
+Use: — | Notes: thief of the air. Does not settle the water.
+
+
+SHELF
+
+Parrotfish
+Domain: Marine
+Biome: Tropical sea
+Place: Shelf
+HSI: Temperature: 5–5 | Rainfall: 3–5 | Human Density: 1–3 | Flora: 4–5 | Fauna: 4–5 | Topography: 1–2 | Hydrology: 1–3
+Rarity: 7 | Harm: 1 | Knowledge: 6
+Use: fish | Notes: grazes the reef. Makes the sand.
+
+Reef shark
+Domain: Marine
+Biome: Tropical sea, Warm sea
+Place: Shelf
+HSI: Temperature: 4–5 | Rainfall: 2–4 | Human Density: 1–3 | Flora: 4–5 | Fauna: 4–5 | Topography: 1–2 | Hydrology: 1–3
+Rarity: 6 | Harm: 4 | Knowledge: 6
+Use: skin, tooth | Notes: reef patrol. Not the open-water tiger.
+
+Moray
+Domain: Marine
+Biome: Tropical sea, Warm sea
+Place: Shelf
+HSI: Temperature: 4–5 | Rainfall: 2–4 | Human Density: 1–3 | Flora: 4–5 | Fauna: 3–4 | Topography: 1–2 | Hydrology: 1–2
+Rarity: 6 | Harm: 3 | Knowledge: 5
+Use: — | Notes: hole in the coral. Bite is the encounter.
+
+Grouper
+Domain: Marine
+Biome: Warm sea, Tropical sea
+Place: Shelf
+HSI: Temperature: 4–5 | Rainfall: 2–4 | Human Density: 1–3 | Flora: 3–5 | Fauna: 3–4 | Topography: 1–2 | Hydrology: 1–3
+Rarity: 6 | Harm: 2 | Knowledge: 6
+Use: fish | Notes: same sit-and-wait.
+
+Octopus
+Domain: Marine
+Biome: Warm sea, Tropical sea, Temperate sea
+Place: Shelf, Strand
+HSI: Temperature: 3–5 | Rainfall: 2–4 | Human Density: 1–3 | Flora: 3–5 | Fauna: 3–4 | Topography: 0–2 | Hydrology: 1–3
+Rarity: 6 | Harm: 2 | Knowledge: 6
+Use: meat, ink | Notes: same den-animal.
+
+Anchovy
+Domain: Marine
+Biome: Warm sea, Tropical sea
+Place: Shelf
+HSI: Temperature: 4–5 | Rainfall: 2–4 | Human Density: 1–3 | Flora: 3–4 | Fauna: 4–5 | Topography: 1–2 | Hydrology: 1–3
+Rarity: 8 | Harm: 1 | Knowledge: 7
+Use: fish, sauce | Notes: same school.
+
+
+GULF
+
+Spinner dolphin
+Domain: Marine
+Biome: Tropical sea, Warm sea
+Place: Gulf, Open sea
+HSI: Temperature: 4–5 | Rainfall: 2–4 | Human Density: 1–3 | Flora: 2–4 | Fauna: 4–5 | Topography: 1–3 | Hydrology: 1–3
+Rarity: 6 | Harm: 1 | Knowledge: 5
+Use: oil | Notes: school in the bight and off it.
+
+
+OPEN SEA
+
+Tuna
+Domain: Marine
+Biome: Warm sea, Tropical sea, Temperate sea
+Place: Open sea, Shelf
+HSI: Temperature: 3–5 | Rainfall: 2–4 | Human Density: 1–3 | Flora: 2–3 | Fauna: 4–5 | Topography: 2–4 | Hydrology: 2–4
+Rarity: 6 | Harm: 2 | Knowledge: 7
+Use: fish | Notes: same fast school.
+
+Swordfish
+Domain: Marine
+Biome: Warm sea, Tropical sea
+Place: Open sea
+HSI: Temperature: 4–5 | Rainfall: 2–4 | Human Density: 0–3 | Flora: 1–3 | Fauna: 3–5 | Topography: 3–4 | Hydrology: 2–4
+Rarity: 5 | Harm: 3 | Knowledge: 6
+Use: fish, bill | Notes: same spear-hunter.
+
+Manta
+Domain: Marine
+Biome: Tropical sea, Warm sea
+Place: Open sea, Shelf
+HSI: Temperature: 4–5 | Rainfall: 2–4 | Human Density: 0–2 | Flora: 3–4 | Fauna: 3–4 | Topography: 1–3 | Hydrology: 1–3
+Rarity: 5 | Harm: 2 | Knowledge: 5
+Use: — | Notes: filter-wing. Harmless unless fouled.
+
+Whale shark
+Domain: Marine
+Biome: Tropical sea, Warm sea
+Place: Open sea, Shelf
+HSI: Temperature: 4–5 | Rainfall: 2–4 | Human Density: 0–2 | Flora: 3–4 | Fauna: 3–4 | Topography: 2–3 | Hydrology: 1–3
+Rarity: 4 | Harm: 2 | Knowledge: 5
+Use: — | Notes: largest fish. Filter only.
+
+Tiger shark
+Domain: Marine
+Biome: Tropical sea, Warm sea
+Place: Open sea, Shelf, Strand
+HSI: Temperature: 4–5 | Rainfall: 2–4 | Human Density: 1–3 | Flora: 2–4 | Fauna: 3–5 | Topography: 1–3 | Hydrology: 1–4
+Rarity: 5 | Harm: 5 | Knowledge: 6
+Use: skin, tooth | Notes: the dangerous one. Comes inshore.
+
+Flying fish
+Domain: Marine
+Biome: Warm sea, Tropical sea
+Place: Open sea
+HSI: Temperature: 4–5 | Rainfall: 2–3 | Human Density: 0–2 | Flora: 1–3 | Fauna: 3–4 | Topography: 2–3 | Hydrology: 1–3
+Rarity: 7 | Harm: 1 | Knowledge: 5
+Use: fish | Notes: same flight.
+
+
+ABYSSAL
+
+— none listed. Leave for a later deep-file if the campaign goes down.

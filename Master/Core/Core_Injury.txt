@@ -1,0 +1,413 @@
+# Core_Injury.txt
+# Virath injury — the finishing blow, conditions, recovery
+# Status: DRAFT for Core.
+# Companion files:
+#   Core_Combat.txt                     how damage is dealt
+#   Core_Characteristics_Skills.txt     Wounds, NAC, AC, Heal, Surgery
+#   Core_Resolution.txt                 tests, Degrees, Fate spends sit on FP
+#   Injury_Tables_Bipedal.txt           Slot tables (Cut / Pierce / Blunt)
+
+PURPOSE
+Combat ticks Wounds. This file says what happens when they run
+out. Boxes above 0 stay glancing. The blow that reaches 0 is
+the one that maims, drops, or kills.
+
+Do not drip crits, bleed tables, or ruined knees across the
+Wounds track. That was locked in Characteristics §3c.
+
+--------------------------------------------------
+0. KEYWORDS
+--------------------------------------------------
+
+Finishing Blow
+  The hit that takes Current Wounds to 0. The only blow
+  that inflicts a real Injury.
+
+Overflow
+  Incoming damage left after Current Wounds are emptied.
+  Overflow sets Severity.
+
+Severity
+  How bad the Finishing Blow is. Equal to Overflow.
+  Minimum 1 (the blow that spends the last Wound exactly).
+
+Wallace location
+  The limb the first d100 named. Locked bands
+  in this section: Head, Torso, Right Arm,
+  Left Arm, Right Leg, Left Leg.
+
+Limb location
+  Where on that limb the second d100 named.
+  Locked bands in this section. This is the
+  “where” Injury tables use. It is the same
+  list as armour Slots (Armour_Rules.txt §0, §1a).
+  Facing picks the front or back name on a
+  pair.
+
+Location
+  Both dice together. The Finishing Blow uses
+  that same pair. Do not roll again.
+
+Down
+  On the ground. Out of the fight unless a rule stands
+  them up. Not necessarily dead.
+
+Helpless
+  Cannot act, Dodge, or Parry.
+  Melee attacks against a Helpless target automatically
+  succeed. No WS test. Damage is SB + weapon. The
+  attacker may roll WS only to add DoS; a fail on that
+  optional roll does not miss.
+  Ranged attacks still roll BS.
+
+Stunned
+  Cannot take Full or Half Actions. Free Actions only
+  if the GM allows a gasp or a drop. Ends when the
+  listed Rounds or a condition says so.
+
+Minor Bleed
+  Blood loss a dressing can hold. Each hour untreated:
+  Toughness or lose 1 Wound (minimum 0). Heal stops it.
+
+Major Bleed
+  A vessel is open. Each Round untreated: Toughness
+  or lose 1 Wound. Heal (or pressure and a kit) is
+  needed to stop it. Fail the first Heal and it stays
+  Major. A messy stump is Difficult to control.
+
+Catastrophic Bleed
+  A trunk vessel. Collapse and death in minutes
+  unless the bleed is controlled now. After three
+  Turns, Toughness to stay conscious. Each Turn
+  after that the test is +10 harder on the d100
+  (Turn 4 vs TB, Turn 5 vs TB −10, Turn 6 vs
+  TB −20, and so on). Fail: unconscious, then
+  dying. Heal or Surgery at once, or they go.
+
+Stable
+  Not dying this hour. Still Down or injured.
+
+Dead
+  The Entity is dead. Fate may have already interrupted
+  this. Nothing else in this file undoes it.
+
+--------------------------------------------------
+1. WHEN INJURY HAPPENS
+--------------------------------------------------
+
+Damage through Protection reduces Current Wounds
+(Combat §9). While Current Wounds remain after the hit,
+describe a dink, a bruise, scored kit, winded breath.
+Stop there.
+
+The hit that reduces Current Wounds to 0 is a Finishing
+Blow. Resolve it in this order:
+
+  1. Note Overflow
+       Overflow = damage through Protection − Wounds
+       the Entity still had before this hit.
+       If the last Wound is spent exactly, Overflow = 1.
+  2. Use the Location already set by the attack
+       (Combat §5). Do not roll Location again.
+  3. If this Limb location has a Slot table
+       (section 4), roll it. Result =
+       1d10 + Overflow − TB. Minimum 1.
+       10 or more uses the 10+ row.
+       1 is best, 10+ is worst.
+       Use the column that matches the blow
+       (Cut / Pierce / Blunt).
+     If no Slot table exists yet, use the
+     old Severity bands (section 2) on the
+     Wallace location.
+  4. Apply conditions and Bleed. The Entity
+     is at 0 Wounds unless the row says a
+     Wound cap.
+
+Further hits on a target already at 0 are not more
+Finishing Blows on a Wounds track. They are blows on a
+Helpless body (section 5).
+
+Fate (Combat §13) may be spent before step 4 to stay at
+1 Wound, Down, out of the fight, no table.
+
+--------------------------------------------------
+2. SEVERITY
+--------------------------------------------------
+
+Overflow is Severity.
+
+  Severity    What it is
+     1–2      Dropped. Hurt. Will walk if treated.
+     3–4      Debilitating. A part fails. Days or weeks.
+     5–6      Maiming. A part is ruined unless Surgery
+              holds it. Dying is close.
+     7–8      Mortal. Bleeding or shock. Toughness or
+              Heal this hour, or death.
+     9+       Dead. Describe it. Fate was the only door.
+
+Overflow does not invent extra corpses behind the first
+one. One Finishing Blow, one result. A later blow on a
+Helpless body may kill (section 5).
+
+--------------------------------------------------
+3. LOCATION
+--------------------------------------------------
+
+Location is rolled on every successful hit (Combat §5),
+not only on the Finishing Blow. The Finishing Blow uses
+that same pair of dice. Do not roll again.
+
+Biped (human, most Entities). Two d100s. Print both
+bands on the character / stat sheet.
+
+First d100 — Wallace (which limb)
+  01–10    Head         10%
+  11–50    Torso        40%
+  51–60    Right Arm    10%
+  61–70    Left Arm     10%
+  71–85    Right Leg    15%
+  86–100   Left Leg     15%
+
+Second d100 — where on that limb (the Slot)
+
+  Arm (locked)
+    01–10    Hand         10%
+    11–35    Forearm      25%
+    36–45    Elbow        10%
+    46–80    Upper Arm    35%
+    81–00    Shoulder     20%
+
+  Leg (locked)
+    01–08    Foot              8%
+    09–47    Shin / Calf       39%
+    48–57    Knee              10%
+    58–95    Thigh             38%
+    96–00    Hip / Buttock     5%
+
+  Head (locked)
+    01–10    Eyes                         10%
+    11–60    Skull / Occipital            50%
+    61–85    Lower face / Back of neck    25%
+    86–00    Throat                       15%
+
+    Facing picks the pair where there is one.
+    Face-to-face: Eyes, Skull, Lower face, Throat.
+    From behind: Eyes read as Occipital; Skull
+    is Occipital; Lower face is Back of neck;
+    Throat is Back of neck.
+    Flank: GM names which of the pair.
+
+  Torso (locked)
+    01–45    Chest / Upper Back           45%
+    46–85    Abdomen / Lower Back         40%
+    86–95    Groin / Pelvis
+             (Glutes / Sacrum from behind) 10%
+    96–00    Collarbone / Base of Neck     5%
+
+    Facing picks the front or back name.
+    Face-to-face: Chest, Abdomen, Groin / Pelvis,
+    Collarbone.
+    From behind: Upper Back, Lower Back,
+    Glutes / Sacrum, Base of Neck.
+    Flank: GM names which of the pair.
+
+Three or more DoS, or Called Shot (Combat §3): name
+the limb, the Slot, or both. Do not roll what was
+named.
+
+A hand hit uses the Hand table, not the Arm table.
+That is the point. A finishing blow on the fingers
+does not become a dead man because the old table
+only knew “Arm.”
+
+Giant or wrong-shaped bodies: pick the analogue
+(wing for arm, coil for leg) or the nearest column.
+The second die may be dropped for a beast if the
+sheet says so.
+
+Armour (Armour_Rules.txt §5) tests Coverage only against
+pieces tagged to the Slot the second die named.
+A vambrace does not answer an Upper Arm hit.
+
+--------------------------------------------------
+4. SLOT TABLES
+--------------------------------------------------
+
+The rows live in Injury_Tables_Bipedal.txt.
+This file only says how to roll them.
+
+  Result = 1d10 + Overflow − TB.
+  Floor 1. 10 or more reads the 10+ row.
+  Column = Cut, Pierce, or Blunt.
+
+“Max N wounds inflicted” means the table does
+not pile the rest of Overflow on as more
+Wounds. The row is the result.
+
+All bipedal Slots are live in
+Injury_Tables_Bipedal.txt. Section 4z
+is only for beasts and odd anatomy.
+
+--------------------------------------------------
+4z. FALLBACK (no Slot table yet)
+--------------------------------------------------
+
+Read Severity across the Wallace location.
+Beasts, wings, coils, and anything that
+is not on the bipedal map still use this.
+
+HEAD
+  1–2  Down. Stunned 1 Round. Ringing skull, split
+       scalp. Stands with a Stand Action after that.
+  3–4  Down. Stunned 1d5 Rounds. Cannot see straight
+       (−10 all tests until treated).
+  5–6  Down and Helpless until Heal. One eye or the
+       jaw is wrong. −20 Perception or Fellowship
+       until Surgery. Toughness test now or also
+       unconscious 1d10 minutes.
+  7–8  Dying. Helpless. Toughness each Round or
+       lose the hour — death at the third fail.
+       Heal (Known+) stops the count.
+  9+   Dead.
+
+ARM
+  1–2  Drops what that hand held (not a strapped
+       shield). −10 tests with that arm for the
+       scene.
+  3–4  Arm useless until Heal. Drops the thing.
+       Cannot wield two-handed on that side.
+  5–6  Arm ruined. Surgery or it is lost below the
+       joint. Bleeds: Toughness each Round until
+       Heal or the third fail is death.
+  7–8  As 5–6, and Dying as Head 7–8.
+  9+   Dead. The blow opened more than the limb.
+
+BODY
+  1–2  Down. Winded. Stand Action to rise. −10
+       physical tests for the scene.
+  3–4  Down. Cannot Stand until Heal. Breathing
+       is work. −20 physical tests.
+  5–6  Helpless. Something inside is wrong.
+       Toughness now or unconscious. Heal to
+       move at all. Travel is a stretcher.
+  7–8  Dying. Helpless. Toughness each Round;
+       third fail is death. Heal (Known+) stops
+       the count.
+  9+   Dead.
+
+LEG
+  1–2  Stumbles. Next Turn is Half Actions only.
+       M halved for the scene.
+  3–4  Down. Cannot Stand until Heal. M = 1
+       crawl. No Dodge.
+  5–6  Leg ruined. Surgery or it is lost below
+       the joint. Down. No Dodge. Bleeds as Arm
+       5–6.
+  7–8  As 5–6, and Dying as Head 7–8.
+  9+   Dead.
+
+Lost parts (after the fight, if they lived)
+  Lost hand     −20 on work that wants two hands.
+                No two-handed weapons. Shield may
+                strap to the stump.
+  Lost arm      As lost hand. No shield strap.
+  Lost foot     M halved. −20 on movement Skills
+                and Dodge.
+  Lost leg      As lost foot. No Dodge Skill.
+  Lost eye      −20 BS and −20 on sight tests.
+  Two eyes      Blind. Those tests are not rolled.
+
+Two permanent losses: write both. If the body cannot
+carry that and live (two legs gone in the wild with
+no aid), the GM says whether they make the next camp.
+
+--------------------------------------------------
+5. HELPLESS AND ALREADY AT ZERO
+--------------------------------------------------
+
+An Entity at 0 Wounds is Down and, unless Severity
+1–2 and they have stood, Helpless.
+
+A new hit on a Helpless body does not roll Location
+again unless the attacker takes time to aim (−20, or
+a Full Action and no other Attack). Otherwise:
+
+  Incoming through Protection 1–4    one step worse
+                                     on the existing
+                                     Injury, or a
+                                     new Dying count
+                                     if there was none
+  Incoming 5+                        Dead, unless Fate
+
+Do not farm a dozen crits on a corpse. One coup and
+the scene moves.
+
+--------------------------------------------------
+6. CONDITIONS
+--------------------------------------------------
+
+Stunned
+  Listed Rounds. No Full or Half Actions. Then gone.
+
+Down
+  On the ground. Stand / Mount (Half) to rise, if
+  the Injury allows standing.
+
+Helpless
+  No Turn, no Dodge, no Parry.
+  Melee attacks automatically succeed (section 0).
+
+Dying
+  Toughness test each Round. Fail count 3 = Dead.
+  Heal at Known or better, taking a Full Action,
+  stops the count and leaves them Stable and
+  Helpless. Surgery is not required for that stop.
+
+Unconscious
+  Helpless. Minutes as listed. Wakes Stunned 1 Round.
+
+Bleeding
+  The same count as Dying when the table says it
+  bleeds. Heal stops it.
+
+These are not Wounds and not Fatigue. They do not
+tick the Wounds track.
+
+--------------------------------------------------
+7. RECOVERY
+--------------------------------------------------
+
+Current Wounds return only after the Entity is not
+Dying.
+
+  Not from 0, night’s rest, no treatment
+    1 Wound at dawn if they can sleep.
+  Not from 0, Heal (Known+) used that day
+    1d5 Wounds, once per day.
+  From 0, after a Finishing Blow
+    No Wound returns until Heal or Surgery has
+    been applied at least once. Then 1 Wound per
+    day of rest, or 1d5 with daily Heal.
+  Surgery (Known+)
+    Required to save a part listed as ruined.
+    One test. Success: the part is kept, useless
+    for 1d10 days, then −10 until a week of rest.
+    Failure: the part is lost. Fumble: Dying
+    starts again.
+
+Travel while at 0 or with a ruined part is a GM
+call. Usually a cart, a stretcher, or they do not
+come.
+
+--------------------------------------------------
+8. OPEN
+--------------------------------------------------
+
+  — Weapon qualities that change Location or Severity
+    (impale, crush, bleed)
+  — Armour AC values by location (Economy / gear)
+  — Infection, fever after a dirty wound
+  — How veil-shock sits beside these conditions
+  — Mount and beast versions of the table
+  — Whether Overflow 9+ can ever be survived without
+    Fate (no, unless a later rule)
