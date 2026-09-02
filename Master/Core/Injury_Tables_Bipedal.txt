@@ -495,6 +495,106 @@ BLUNT (Crush / Fracture)
       Dead unless Fate.
 
 ==================================================
+ARMPIT
+==================================================
+
+Torso Slot. L or R from the blow’s side.
+The axillary lives here. No Wound cap.
+Voiders and Besagews answer this Slot.
+A cuirass does not.
+
+CUT (Slicing / Laceration)
+
+  1   Minor Cut. Crease of the pit.
+      Dress it. No Bleed.
+  2   Skin Laceration. Deep split.
+      −10 that arm until bound.
+  3   Fleshy Flay. To the fascia.
+      Minor Bleed.
+  4   Muscle Opened. Lat or the
+      pit meat. −10 Strength that
+      side. Minor Bleed.
+  5   Deep Flaying. Pit opened.
+      −20 that arm until Heal.
+      Cannot clamp the arm. Minor
+      Bleed.
+  6   Near the Vessel. Close to
+      the axillary. Major Bleed.
+      That arm weak.
+  7   Functional Severance. Pit
+      muscle and a plexus branch
+      gone. Permanent −20 that
+      arm unless Surgery. Major
+      Bleed.
+  8   Axillary Territory. Named
+      vessel. Catastrophic Bleed.
+      Down. Control it this Turn.
+      Difficult. Arm cold.
+  9   Through the Pit. Vessel and
+      plexus together. Catastrophic
+      Bleed. Helpless.
+ 10+  Pit opened into the cage.
+      Dead unless Fate. Catastrophic
+      Bleed.
+
+PIERCE (Puncture / Ballistic)
+
+  1   Minor Puncture. Outer crease.
+      Dress it.
+  2   Grazing Channel. Through the
+      fat of the pit. −10 that arm
+      until bound.
+  3   Flesh Channel. Meat only.
+      Minor Bleed.
+  4   Against the Wall. Point on
+      the rib from below. −10 that
+      arm. Minor Bleed.
+  5   Transfixing Threat. Through
+      the pit, vessel spared.
+      Rooted that Turn. Minor Bleed.
+  6   Through-and-Through. Near
+      the axillary. Major Bleed.
+      Arm weak.
+  7   Plexus Nick. Arm dead or
+      screaming. −20 that side.
+      Major Bleed. Toughness or
+      Down.
+  8   Axillary Breach. Named
+      vessel. Catastrophic Bleed.
+      Down. Control it this Turn.
+  9   Into the Apex. Lung top or
+      the root. Catastrophic Bleed.
+      Helpless.
+ 10+  Through the pit into the
+      cage. Dead unless Fate.
+
+BLUNT (Crush / Fracture)
+
+  1   Banged Pit. Swear. No Bleed.
+  2   Deep Bruise. Cannot clamp
+      the arm. −10 that side until
+      seen to.
+  3   Dead Pit. Numb. Agility or
+      the arm drops that Turn.
+  4   Rib from Below. Hairline.
+      −10 that arm. No Bleed.
+  5   Crushed Crease. −20 that
+      arm. No Charge.
+  6   Joint Shocked. Arm will not
+      lift. Stunned 1 Round.
+  7   Plexus Crush. Permanent −10
+      that arm unless Surgery.
+      Minor Bleed. Stunned.
+  8   Vessel Bruised in a Closed
+      Pit. Major Bleed inside.
+      Helpless on that side.
+  9   Pit Stove In. Catastrophic
+      Bleed. Down, Helpless.
+      Toughness each Turn or die.
+ 10+  Pit and wall destroyed.
+      Dead unless Fate.
+
+==================================================
 ABDOMEN / LOWER BACK
 ==================================================
 

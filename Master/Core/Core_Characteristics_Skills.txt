@@ -732,18 +732,48 @@ Movement (M)
   Difficult ground halves those yards, then rounds up.
 
 Encumbrance Limit
-  Limit = Strength × 10 points.
-  Strength 31 → 310 points. Strength 40 → 400 points.
+  Combat load cap = Strength × 10 points.
+  Strength 30 (ordinary adult) → 300.
+  Strength 40 (trained adult) → 400.
+  Keep this number.
 
   Working bridge to section 3a until Economy weights are
   mapped: 10 points ≈ 1 kg.
-  Then the Limit sits on the Heavy-carry line (about s × 10 kg).
-  Day-carry without penalty is s × 5 kg.
+  Strength × 5 Enc is the Day line (s × 5 kg).
+  Strength × 10 Enc is the Heavy line (s × 10 kg)
+  and the cap.
 
-  Over the Limit: cannot move with it, or only at a crawl
-  after dropping something. Between Day and Heavy: Fatigue
-  rules in section 3a. Combat may add extra penalties for
-  fighting in Heavy kit.
+  Bands (worn kit plus carried load, in Enc)
+
+    Unencumbered    Enc < Strength × 5
+                    Agility tests +5
+    Light Kit       Strength × 5 ≤ Enc < Strength × 10
+                    no modifier
+    Heavy Kit       Enc = Strength × 10
+                    Agility tests −5
+                    Fatigue as section 3a
+    Over the cap    Enc > Strength × 10
+                    cannot fight in it. Drop or crawl.
+
+  The ±5 is Agility tests. It does not rewrite M.
+
+  Human check: Day at Strength 30–50 is 15–25 kg.
+  That is a military march load. Heavy at Strength
+  50 is 50 kg — the combat cap, not the day’s walk.
+
+  Draft and pack quadrupeds
+    Enc Limit is still Strength × 10 Enc.
+    Then multiply that Limit (only the Limit) if
+    the Entity is built to carry on its back:
+      Size 5   ×1.5
+      Size 6   ×2
+      Size 7+  ×2.5
+    A Size 6 destrier at Strength 65: 650 Enc
+    (65 kg) ×2 → 1,300 Enc, 130 kg Heavy.
+    That is the 135 kg draft mark.
+    Bands use the modified Limit. Day is half
+    of it. Press, Lift, and Push do not take
+    this multiplier. Those stay on §3a.
 
 Attacks
   Secondary stat. Default 1.

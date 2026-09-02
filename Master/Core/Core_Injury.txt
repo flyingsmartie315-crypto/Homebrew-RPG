@@ -198,18 +198,24 @@ Second d100 — where on that limb (the Slot)
     Flank: GM names which of the pair.
 
   Torso (locked)
-    01–45    Chest / Upper Back           45%
+    01–40    Chest / Upper Back           40%
+    41–45    Armpit                        5%
     46–85    Abdomen / Lower Back         40%
     86–95    Groin / Pelvis
              (Glutes / Sacrum from behind) 10%
     96–00    Collarbone / Base of Neck     5%
 
-    Facing picks the front or back name.
-    Face-to-face: Chest, Abdomen, Groin / Pelvis,
-    Collarbone.
-    From behind: Upper Back, Lower Back,
-    Glutes / Sacrum, Base of Neck.
-    Flank: GM names which of the pair.
+    Facing picks the front or back name
+    on the paired Slots. Armpit has no
+    back name. L or R is the side the
+    blow came from. If that is unclear,
+    1d2.
+
+    Face-to-face: Chest, Armpit, Abdomen,
+    Groin / Pelvis, Collarbone.
+    From behind: Upper Back, Armpit,
+    Lower Back, Glutes / Sacrum,
+    Base of Neck.
 
 Three or more DoS, or Called Shot (Combat §3): name
 the limb, the Slot, or both. Do not roll what was

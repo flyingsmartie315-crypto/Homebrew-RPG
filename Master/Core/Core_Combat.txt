@@ -282,13 +282,15 @@ Hit location
     96–00    Hip / Buttock     5%
 
     Second d100 (Torso, locked)
-    01–45    Chest / Upper Back           45%
+    01–40    Chest / Upper Back           40%
+    41–45    Armpit                        5%
     46–85    Abdomen / Lower Back         40%
     86–95    Groin / Pelvis
              (Glutes / Sacrum from behind) 10%
     96–00    Collarbone / Base of Neck     5%
     Facing picks the front or back name
-    (Injury §3).
+    (Injury §3). Armpit is L or R from
+    the blow’s side.
 
     Second d100 (Head, locked)
     01–10    Eyes                         10%
@@ -500,11 +502,12 @@ Flying
   Impact weapons: 2d10 keep the higher die.
 
   Protection = NAC + Soak AC from Armour_Rules.txt §5.
-  One d100, read down Modular → mail → Textile.
-  A Modular catch rolls 1d(modules on that Location)
-  to name the plate that was met, uses that module’s
-  AC, and adds mail and quilt. Armour Piercing
-  ignores 1 AC after that total.
+  Wallace die, then Limb location die, then one
+  Coverage die down Modular → Maille → Textile
+  on that Slot. Modular present and Coverage
+  passes: that piece’s AC plus the layers under
+  it. Armour Piercing ignores 1 worn AC after
+  that total.
   Incoming ≤ Protection   →  0 Wounds
   Incoming > Protection   →  Wounds lost = incoming − Protection
 
@@ -650,7 +653,51 @@ in the same scene for the same blow.
 There is no separate Fortune pool in this system.
 
 --------------------------------------------------
-14. ENDING THE FIGHT
+14. REPORTING A BLOW
+--------------------------------------------------
+
+Every resolved attack is told twice. First the
+blow. Then the numbers. Do not mix them.
+
+The prose
+  High velocity. Raw physical image. Grammar
+  stripped until the sentence hits like the
+  steel. No inventory of feelings. No witty
+  aside. Blood, cloth, bone, dust, the sound
+  the iron made. The body does what the dice
+  already decided. Do not invent a second
+  outcome in the adjectives.
+  One swing, one passage. Then stop.
+
+The block
+  After the passage, always this list, in this
+  order. Nothing else in the block except what
+  the blow produced.
+
+    Hit / Miss:
+    DoS:                  (or DoF)
+    Sub location:         Wallace + Limb location
+    Damage / Target AC:   Incoming (dice + SB +
+                          type + DoS) / NAC + worn
+    Wounds inflicted:     through Protection
+
+  If the blow emptied the Wounds track, add:
+
+    Table:                1d10 + Overflow − TB
+                          Column and row title
+                          Bleed, Down, dead, Fate
+
+  Called Shot or 3+ DoS: write the named Slot
+  in Sub location. Do not roll a second map.
+
+  Miss: prose of the miss, then Hit / Miss and
+  DoF only. No location. No damage.
+
+This is the table voice for Structured Time.
+Narrative Time does not owe the block.
+
+--------------------------------------------------
+15. ENDING THE FIGHT
 --------------------------------------------------
 
 The fight ends when no one is still trying to hold
@@ -659,7 +706,7 @@ Then leave Structured Time. Update the Log. Resume
 Narrative Time.
 
 --------------------------------------------------
-15. OPEN
+16. OPEN
 --------------------------------------------------
 
   — Weapon values, reach, qualities, reload times
