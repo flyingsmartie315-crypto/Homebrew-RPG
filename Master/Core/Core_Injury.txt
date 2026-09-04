@@ -174,6 +174,8 @@ Second d100 — where on that limb (the Slot)
     01–10    Hand         10%
     11–35    Forearm      25%
     36–45    Elbow        10%
+             Even = Outer Elbow
+             Odd  = Inner Elbow
     46–80    Upper Arm    35%
     81–00    Shoulder     20%
 
@@ -181,6 +183,8 @@ Second d100 — where on that limb (the Slot)
     01–08    Foot              8%
     09–47    Shin / Calf       39%
     48–57    Knee              10%
+             Face-to-face: Front Knee
+             From behind:  Back Knee
     58–95    Thigh             38%
     96–00    Hip / Buttock     5%
 

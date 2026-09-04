@@ -32,14 +32,15 @@ ASSESS
     d100 Limb location. Then layers on that
     Slot, top down.
     Modular present on this Slot? If no,
-    skip to mail.
-    If yes: roll Coverage. Pass: use that
-    piece’s AC and add every layer under
-    it (mail + Textile). Stop.
-    Fail: mail. Pass: mail AC + Textile.
+    skip to Maille.
+    If yes: Coverage die vs that piece.
+    Pass: that piece’s AC + Maille on the
+    Slot + Textile on the Slot. Stop.
+    Fail: Maille. Pass: Maille + Textile.
     Fail: Textile. Pass: Textile only.
     Fail: NAC only.
     Then NAC. That sum is Protection.
+    Scale is Modular, not Maille.
 
   Injury
     Wounds above 0 are a dink. Stop
@@ -79,9 +80,11 @@ Where (do not mix them)
     tables. Print it on the sheet next to
     Wallace location.
 
-      Arm:     Hand, Forearm, Elbow,
+      Arm:     Hand, Forearm, Elbow
+               (Outer Elbow / Inner Elbow),
                Upper Arm, Shoulder
-      Leg:     Foot, Shin / Calf, Knee,
+      Leg:     Foot, Shin / Calf, Knee
+               (Front Knee / Back Knee),
                Thigh, Hip / Buttock
       Torso:   Chest / Upper Back,
                Armpit,
@@ -103,6 +106,8 @@ Where (do not mix them)
       L Hand    R Hand
       L Forearm R Forearm
       L Elbow   R Elbow
+      L Outer Elbow   R Outer Elbow
+      L Inner Elbow   R Inner Elbow
       L Upper Arm   R Upper Arm
       L Shoulder    R Shoulder
       L Thigh   R Thigh
@@ -129,8 +134,10 @@ Where (do not mix them)
     location the second d100 named.
     A Slot written with no number is 100%
     of that Slot. Write a number only when
-    it is not 100% (Upper Arm 50%, Knee 50%,
-    jack chains Pierce 0).
+    it is not 100% (Upper Arm 50%, Knee 50%).
+    Pierce 0 on a Slot means Coverage 0
+    against Pierce. Cut and Blunt still use
+    the printed %. Jack chains are Pierce 0.
 
   Short: Wallace is the limb. Limb location
   is the spot. Slot is that spot on the
@@ -144,7 +151,9 @@ AC (Cut / Pierce / Blunt)
 Layer
   None, Clothing, Textile, Maille, Modular.
   Each Slot may hold one Textile, one Maille,
-  and one Modular piece. Clothing does not take a Slot.
+  and one Modular piece. Clothing lists dress
+  Slots for weather and sense only. Those
+  marks are not soak and do not fill a layer.
 
 How a worn piece is named
 
@@ -153,19 +162,18 @@ How a worn piece is named
     A Model has Coverage, Slots, and (on Textile,
     mail, and Modular torso) flat AC, Enc, Cost.
     Modular arms and legs: the Model is shape
-    only — Coverage and Slots. Material supplies
-    AC, and Cost and Enc per 5% Coverage.
+    plus listed cost and Enc. Material and
+    Iron Grade apply % and AC (Armour.txt §9).
     Textile: Aketon, Gambeson, Arming Doublet,
     Pourpoint, and the lists in section 7.
     Maille: Mail Models, Material Riveted
     or Butted. Scale is Modular Segmented.
     Lists in Armour.txt §8 and §9.
-    Modular torso: Coat of Plates, Laminar,
-    Cuir Bouilli, Brigandine, Plate.
+    Modular torso: Scale, Coat of Plates,
+    Laminar, Cuir Bouilli, Brigandine, Plate.
     A Modular Model lists the Slots it claims
     at minimum (Plate is Chest or Abdomen,
-    same stats; the segmented coats are
-    Chest + Abdomen).
+    same stats).
 
   Form
     Added cut on that Model. Does not change
@@ -208,7 +216,7 @@ uses Model.
                       L / R if one side. Bare
                       name = both (Textile, mail,
                       hose).
-  Base cost:
+  Base cost:          sc or sc.bc
   Base Enc:
   Note:               special, required-under,
                       layer law, or none
@@ -262,7 +270,8 @@ Combat location d100 (Wallace bands)
 
 A piece lists which of those it covers and at what %.
 Feet are Legs. Hands are Arms. Face and visor are Head.
-Tassets and Faulds hang from the Waist onto Legs.
+Tassets and Faulds hang from Groin / Pelvis
+onto Thigh. They do not take the Thigh Slot.
 
 --------------------------------------------------
 1a. SUB-LOCATIONS
@@ -312,7 +321,9 @@ ARM Slots (Limb locations, L and R separate)
   Slot            Typical piece
   Hand            Gauntlet
   Forearm         Vambrace; Bracers; Jack chains
-  Elbow           Couter
+  Elbow           Couter tags Elbow = both
+                  Outer and Inner at 100%.
+                  Voider tags Inner Elbow only.
   Upper Arm       Rerebrace; Jack chains
   Shoulder        Pauldron
 
@@ -332,7 +343,10 @@ LEG Slots (Limb locations, L and R separate)
   Slot            Typical piece
   Foot            Sabaton; boots
   Shin / Calf     Full greaves; rigid boot greaves
-  Knee            Poleyn
+  Knee            Poleyn tags Front Knee.
+                  Back Knee is facing, from
+                  behind. Mail Knee 50% is
+                  the back of the joint.
   Thigh           Cuisses
   Hip / Buttock   (pair with Groin / Pelvis on
                   Torso when facing says so)
@@ -356,10 +370,10 @@ HEAD Slots (Limb locations)
   Eyes                         Visor; full visor
   Skull / Occipital            Bowl; skullcap; sallet
                                (facing picks the name)
-  Lower face / Back of neck    Nasal; bevor; ventail;
-                               sallet tail
+  Lower face / Back of neck    Nasal; bevor;
+                               sallet tail; coif ventail
   Throat                       Gorget (if worn as Head);
-                               aventail
+                               mail standard
 
   Empty Eyes is the visor zone: 0 AC until a
   visor sits there.
@@ -393,12 +407,18 @@ HEAD Slots (Limb locations)
     Greathelm / enclosed  Skull + Face + Occipital
                                          Closed
 
-  Add-ons
-    Visor                 Eyes
-    Full visor            Face + Eyes
-    Ventail               Face
-    Bevor                 Face
-    Aventail              no plate slot (mail skirt)
+  Helm Form (Armour.txt)
+    Visor shapes          Eyes. Down = Closed
+                          Houndskull, pig face,
+                          bellows, klappvisor,
+                          grotesque, sparrow’s
+                          beak, grill, gryphon,
+                          wolf/dog grill
+    Falling Buffe         Face + Throat.
+                          Open drops Face 75%
+    Bevor                 Face + Throat (own piece)
+    Duckbill              Closed. Fixed mask
+    Burgonet              Open. Buffe-friendly
 
   One Modular piece per slot. A nasal and a full
   visor cannot both take Face. A skullcap cannot
@@ -428,6 +448,24 @@ Typical band (not a substitute for the piece table)
   Modular (segmented)  4–6 / 4–6 / 4–5
   Modular (solid)      5–8 / 5–9 / 4–7
 
+
+Iron Grade
+  Eligible: Coat of Plates, Brigandine,
+  Scale, Splinted (and Jack chains),
+  Laminar, Solid Plate (torso, limbs,
+  iron helmets).
+  Not: Cuir bouilli, Maille, Textile,
+  Clothing, boot leather.
+  Listed stats are Low-carbon.
+  Wrought ×0.80 cost ×1.15 Enc −1 AC.
+  Low-carbon ×1 ×1 +0.
+  Hardened ×1.25 cost ×0.85 Enc +1 AC.
+  After construction Material %
+  (Splinted / Laminar only). Cuir
+  bouilli never takes Grade.
+  Catalogue §9.
+
+
 --------------------------------------------------
 3. LAYERING
 --------------------------------------------------
@@ -453,9 +491,13 @@ Outer to inner. Sum AC from every piece that applies.
   Textile under mail under Modular is legal,
   except on Hand.
   Mail voiders only fill a gap the outer piece left.
-  Armpit voiders sit on Armpit. Elbow voiders sit
-  on the inner crease of Elbow, the half a couter
-  does not cover. They do not add to a couter’s AC.
+  Armpit voiders sit on Armpit.
+  Elbow: the second d100 that landed 36–45 is
+  Outer Elbow if even, Inner Elbow if odd.
+  A piece tagged Elbow covers both at 100%.
+  An Elbow voider tags Inner Elbow only.
+  A couter tagged Elbow answers both. It
+  does not need a second piece for the crease.
 
 When the outermost piece on that location applies
 (coverage success), a Textile layer under it applies
@@ -471,6 +513,25 @@ Under-layers
     An Arming Doublet also serves. A Gambeson does
     not — it is standalone.
   Modular on Legs requires Arming Hose.
+  Chausses that tag Shin / Calf may not
+    share that Slot with a boot that also
+    tags Shin / Calf. Cuffed or riding boots
+    and greaved boots count. Short Chausses
+    exist to leave the shin to the boot.
+    Forced together: −10 Agility tests and
+    −1 AC on Shin / Calf (bulk).
+    Arming hose is exempt. It is thin and
+    cut for boots.
+  Boot Armour Material is legal only on
+    Cuffed boots and Riding boots. Foot-only
+    Models (Turnshoes, Ankle, Poulaine, Clog)
+    cannot take it. Coverage cannot appear
+    on a Slot the Model does not have.
+  Padded on Cuffed or Riding boots is Modular.
+    The Textile word on that line is Upgrade
+    eligibility only. Soak treats it as Modular
+    on Shin / Calf.
+
   Mail coif or a Closed Helmet requires an
     Arming cap.
     A Padded coif may stand in for the cap
@@ -483,17 +544,19 @@ Under-layers
     Helmet. Under a Closed Helmet it is the
     same bulk penalty as the Padded coif.
   Maille on Body or Arms requires a Textile
-    torso whose sleeve slots cover at least the mail
-    or scale’s sleeve slots (no sleeves under no
-    sleeves is legal; Short under Long is not).
+    torso whose sleeve Slots cover at least
+    the mail’s sleeve Slots (no sleeves under
+    no sleeves is legal; Short under Long is
+    not). Scale is Modular. It uses the same
+    sleeve rule against its Textile under-layer.
   Hands
     Textile under mail is wanted on Hand.
-    Modular on Hand is standalone. No Textile
-    and no mail under a gauntlet. It will not
-    fit. The gauntlet occupies Hand on all
-    three layers. No chafing for a naked Hand
-    under plate. Fingerless under mail is
-    legal. Fingerless under a gauntlet is not.
+    A gauntlet is one Modular piece. Textile
+    and Maille tracks on Hand stay empty.
+    Nothing goes under it. No chafing for a
+    naked palm inside plate. Fingerless under
+    mail is legal. Fingerless under a
+    gauntlet is not.
 
   Missing the required piece, or sleeves too short:
     −10 Agility tests and −1 AC on that location
@@ -504,8 +567,10 @@ Enc
   A point cost on a worn piece. Not kilograms
   on the catalogue line. Add every worn piece
   (armour, clothing, and whatever else is on
-  the body). Round each piece to the nearest
-  5 after Form and Upgrades.
+  the body). Do not round Enc. Cost may
+  be listed as sc.bc. Add the numbers as
+  written after Form, Material, Grade,
+  and Upgrades.
 
   Strength 30 is the ordinary adult.
   Strength 40 is the trained adult.
@@ -563,8 +628,10 @@ Now find where it landed and what caught it.
      Incoming = 1d10 + SB + type + DoS (Combat §9).
 
   3. One coverage die. Roll 1d100 once. Keep it.
-     Attacker DoS: −10 to each layer’s Coverage
-     total per 2 DoS before you compare.
+     Attacker DoS: −10 Coverage per 2 DoS,
+     only on a piece whose Coverage on this
+     Slot is less than 100%. A listed 100%
+     is not reduced.
 
      Standing target. A shot or swing at a man
      on his feet does not hunt the femoral or
@@ -575,8 +642,7 @@ Now find where it landed and what caught it.
      chausses and arming hose are 100% on the
      Slots they list against an ordinary blow.
      Mail chausses use the Coverage on their
-     Form. The DoS Coverage penalty does not
-     eat a listed 100%. The holes that still exist
+     Form. The holes that still exist
      on a closed harness are the face (Eyes
      empty, visor up) and the groin (no fauld
      or codpiece, or a declared gap). A rondel
@@ -596,8 +662,8 @@ Now find where it landed and what caught it.
      A Chest plate does not answer Abdomen.
 
   5. Maille. If the same d100 is greater
-     than the Modular catch, compare it to the mail
-     or scale Coverage on this Slot.
+     than the Modular catch, compare it to the
+     Maille Coverage on this Slot.
      If the d100 ≤ that Coverage:
        Soak AC = Maille AC on this Slot,
        plus Textile AC on this Slot.

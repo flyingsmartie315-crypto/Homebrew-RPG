@@ -1,0 +1,123 @@
+# Shield_Rules.txt
+# Virath shields — held cover. Not a Slot. Not a Layer.
+# Status: DRAFT for Core.
+# Companion files:
+#   Core_Combat.txt                     Parry, Actions, shooting
+#   Weaponry.txt                        Defensive, Blunt profiles
+#   Armour_Rules.txt                    soak after overflow
+#   Core_Injury.txt                     overflow lands on the Slot
+
+PURPOSE
+A shield is held. It has an AC rating and a weapon
+profile. It does not use Slots. It does not fill
+Textile, Maille, or Modular.
+
+KEYWORDS
+
+  Held
+    Occupies one hand. That hand cannot hold another
+    weapon or the other end of a two-handed weapon.
+    Drop or sling (Half) to free the hand.
+
+  Defensive(x)
+    While the shield is in a hand:
+      Free Parry once per Round (no Stance).
+      That Parry may be used against shooting.
+      +x to the Parry test.
+    Weapon Defensive without (x) stays +10 Parry
+    and does not catch shots (Weaponry.txt).
+
+  Shield AC
+    Cut / Pierce / Blunt on the shield. Used only
+    when a Parry with that shield succeeds.
+
+  Overflow
+    Incoming minus Shield AC. What remains is a
+    hit on the wielder at the Slot already named
+    by the two location dice. Worn layers and NAC
+    then soak as Armour_Rules §5. If Incoming is
+    ≤ Shield AC, the wielder takes nothing.
+
+  Bash
+    Every shield is a Blunt weapon in that hand.
+    Use the shield’s weapon line. Reach 0.5 unless
+    the line says otherwise.
+
+LAW
+
+  1. A shield requires a hand. No hand, no AC,
+     no Defensive(x), no Bash.
+
+  2. Parry with a shield is Opposed WS + (x)
+     against the attacker’s DoS, Combat §6.
+     Shooting Parry uses the same test against
+     the BS hit’s DoS.
+
+  3. A won shield Parry does not delete the blow.
+     The blow hits the shield. Roll damage as
+     normal (1d10 + SB + type + DoS). Compare to
+     Shield AC on the matching column. Overflow
+     goes to the wielder.
+
+  4. A lost Parry: the blow never met the shield.
+     Soak is worn layers only, Armour_Rules §5.
+
+  5. One Parry per Round still. Shield or weapon,
+     not both on the same blow. Dodge still cannot
+     pair with that Parry.
+
+  6. Enc counts on the kit. Slung on the back is
+     Enc only. No Defensive(x), no AC, no Bash.
+
+  7. Craftsmanship and Iron Grade do not apply
+     unless a later line says so.
+
+CATALOGUE (starter)
+
+Buckler
+  AC: 3/3/4
+  Enc: 15    Cost: 8 sc
+  Defensive(+10)
+  Bash (1/0/3)  Reach 0.5   Fast
+  Note: small. Free Parry vs shooting still
+        applies. Poor against a volley; the
+        (x) is the whole trick.
+
+Round
+  AC: 4/4/5
+  Enc: 30    Cost: 12 sc
+  Defensive(+15)
+  Bash (1/0/4)  Reach 0.5
+  Note: boss and rim. Ordinary war-board.
+
+Heater
+  AC: 5/5/6
+  Enc: 40    Cost: 18 sc
+  Defensive(+20)
+  Bash (1/0/4)  Reach 0.5
+  Note: Jorn’s board. Sits on the back when
+        slung (Enc only).
+
+Kite
+  AC: 5/6/5
+  Enc: 45    Cost: 20 sc
+  Defensive(+20)
+  Bash (1/0/4)  Reach 0.5
+  Note: long. +10 vs shooting Parry on top
+        of (x) when the shot comes from the
+        front.
+
+Pavise
+  AC: 6/6/6
+  Enc: 80    Cost: 25 sc
+  Defensive(+10)
+  Bash (0/0/3)  Reach 0.5   Slow
+  Note: plant (Full Action) to stand it.
+        Planted: no hand required, no Bash,
+        still Defensive(+10) vs shooting
+        from the front. Pick up is a Full
+        Action.
+
+Type on the incoming blow picks the Shield
+AC column. A thrust uses Pierce. A cut uses
+Cut. A bash uses Blunt.

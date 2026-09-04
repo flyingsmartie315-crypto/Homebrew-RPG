@@ -270,14 +270,14 @@ Hit location
     Second d100 (Arm, locked)
     01–10    Hand         10%
     11–35    Forearm      25%
-    36–45    Elbow        10%
+    36–45    Elbow  (even Outer, odd Inner)        10%
     46–80    Upper Arm    35%
     81–00    Shoulder     20%
 
     Second d100 (Leg, locked)
     01–08    Foot              8%
     09–47    Shin / Calf       39%
-    48–57    Knee              10%
+    48–57    Knee   (front face-to-face, back from behind)              10%
     58–95    Thigh             38%
     96–00    Hip / Buttock     5%
 
@@ -350,7 +350,8 @@ Do not reroll the attack. Do not roll damage before the
 defence.
 
 Limits
-  Melee only.
+  Melee only, unless the Parry is a shield
+  with Defensive(x) (Shield_Rules.txt).
   Must be aware of the attack.
   One Parry per Round. One Dodge per Round.
   Never both on the same blow.
@@ -359,8 +360,11 @@ Limits
 
 Parry
   Opposed WS. Ready weapon or shield.
-  Paid for by Parrying Stance, or Free if a weapon or
-  shield is in the off hand.
+  Paid for by Parrying Stance, or Free if a weapon
+  is in the off hand, or Free if a shield is in a
+  hand (Defensive(x), Shield_Rules.txt).
+  A won shield Parry soaks on Shield AC.
+  Overflow hits the wielder on the named Slot.
   Main-hand only and no Stance: no Parry.
 
 Dodge

@@ -3,6 +3,7 @@
 # Status: DRAFT for Core. Numbers from the revised weapon set.
 # Companion files:
 #   Core_Combat.txt                     hitting, Reach, Reload as Actions
+#   Shield_Rules.txt                    boards, Defensive(x)
 #   Core_Characteristics_Skills.txt     Enc Limit, Size, WS, BS
 #   Core_Injury.txt                     finishing blow; type effects later
 #   Economy files                       coin and availability
@@ -182,6 +183,10 @@ Balanced           No penalty for a second weapon in
 Concealable        +20 Concealment to hide it.
                    Enc over 50: quality does not apply.
 Defensive          +10 Parry while wielding it.
+                   Shields use Defensive(x):
+                   Shield_Rules.txt. (x) is the
+                   Parry bonus. Free Parry. May
+                   Parry shooting. Not this +10.
 Experimental       Attack roll 96–00: weapon ruins.
                    Wielder takes 1d10 + SB incoming,
                    NAC only (no worn AC).

@@ -99,8 +99,16 @@ Plaque belt
   Base Enc: 15
   Note: knightly girdle of plaques. Heraldry:
         +10 Charm at court or +10 Intimidate
-        among peers. No soak. Add 15 Enc to
-        the unrounded kit total.
+        among peers. No soak. Enc 15 on the
+        kit total.
+
+Winingas
+  AC: 0/0/0
+  Slots: Shin / Calf —
+  Base cost: 2 sc
+  Base Enc: 2
+  Note: woollen wraps. +5 Toughness vs cold
+        or wet. No soak. Dress layer.
 
 Good / Best clothing: +5 / +10 Fellowship, or +10
 Concealment, not AC.
@@ -204,7 +212,7 @@ Form — Collar (Textile only)
                   Lower face / Back of neck 50%
 Mail has no Collar Form.
 
-Apply % to Base Enc. Round to 5 after all Forms.
+Apply % to Base Enc. Do not round Enc.
 Form never changes AC.
 
 Hem and dedicated legs may both be worn. AC does
@@ -227,6 +235,12 @@ Form — Lengthening (Textile Chausses and Hose)
   Knee-Length         +40% Enc
                       Shin / Calf, Knee 75%
                       (thinner behind the joint)
+  Short Chausses      +80% Enc
+                      Knee 75%, Thigh,
+                      Hip / Buttock
+                      No Shin / Calf. For
+                      boots that already tag
+                      Shin / Calf.
   Full-Length Hose    +100% Enc
                       Shin / Calf, Knee 75%,
                       Thigh, Hip / Buttock
@@ -238,15 +252,8 @@ Arming hose
   Base Enc: 12
   Note: thin. Locked full-leg except Foot.
         No Lengthening Form. Required under
-        Modular on Legs.
-
-Winingas
-  AC: 1/0/1
-  Slots: Shin / Calf
-  Base cost: 2 sc
-  Base Enc: 2
-  Note: woollen wraps. +5 Toughness vs cold
-        or wet.
+        Modular on Legs. Exempt from shin-
+        on-shin bulk with tall boots.
 
 Head
 
@@ -387,8 +394,7 @@ Material (Mail only)
   Riveted     4/4/4   listed      listed
   Butted      2/2/2   listed ×0.6 listed ×1.2
 
-Round cost to 1 sc. Round Enc to 5 after
-Forms, except voiders (round with the kit).
+Cost may be listed as sc.bc. Do not round Enc.
 Riveted is the combat baseline. Butted is
 cheaper, heavier, worse soak.
 
@@ -419,11 +425,12 @@ Armpit voider
   Note: one side (L or R). Gaps only.
 
 Elbow voider
-  Slots: Elbow 50%
+  Slots: Inner Elbow
   Base cost: 7.5 sc
   Base Enc: 1.5
-  Note: one side (L or R). Inner crease,
-        not the couter face. Gaps only.
+  Note: one side (L or R). Inner crease
+        only. A couter tagged Elbow already
+        covers both faces. Gaps only.
 
 Mail standard
   Slots: Collarbone / Base of Neck,
@@ -446,12 +453,20 @@ Form — Lengthening (Mail Chausses only)
                       Shin / Calf
   Knee-Length         +40% Enc
                       Shin / Calf, Knee 50%
+  Short Chausses      +80% Enc
+                      Knee 50%, Thigh 75%
+                      (femoral still a gap)
+                      No Shin / Calf. For
+                      boots that already tag
+                      Shin / Calf.
   Full-Length Hose    +100% Enc
                       Shin / Calf, Knee 50%,
                       Thigh 75%
                       (femoral still a gap)
   Foot (top)          +10% Enc. Optional on
-                      any length.
+                      any length that does
+                      not already fight a boot
+                      on Foot.
                       Foot 50% (upper face,
                       not the sole).
 
@@ -493,6 +508,38 @@ Gaps are the point. Same Modular layer as solid
 plate. A piece tagged to a Slot is 100% of that
 Slot unless the line says otherwise.
 
+Iron Grade
+  One table. Listed cost, Enc, and AC on an
+  eligible Model are Low-carbon.
+  Apply Grade % to listed cost and Enc.
+  Then apply the AC shift to the listed AC.
+
+  Grade              Cost     Enc      AC
+  Wrought iron       ×0.80    ×1.15    −1/−1/−1
+  Low-carbon steel   ×1.00    ×1.00     0/ 0/ 0
+  Hardened steel     ×1.25    ×0.85    +1/+1/+1
+
+  Eligible
+    Coat of Plates
+    Brigandine
+    Scale
+    Splinted (including Jack chains)
+    Laminar
+    Solid Plate (torso Plate and its iron
+    Forms, limb Models, iron helmets)
+
+  Not eligible
+    Cuir bouilli (torso or limb)
+    Maille
+    Textile
+    Clothing
+    Boot Base Material
+
+  Stack order: Model listed → Material %
+  (Splinted / Laminar / Cuir on limbs) →
+  Iron Grade % and AC (if eligible).
+  Cost may be listed as sc.bc. Do not round Enc.
+
 Torso Models (minimum: front)
 
 Scale
@@ -500,64 +547,65 @@ Scale
   Slots: Chest / Upper Back,
          Abdomen / Lower Back,
          Collarbone / Base of Neck,
-         Armpit,
          Shoulder, Upper Arm 50%
   Base cost: 55 sc
   Base Enc: 75
   Note: Modular Segmented. Not Maille.
-        Does not take Riveted / Butted.
-        Takes sleeve and hem Forms.
-        Requires a Textile torso whose
-        sleeves cover the scale’s sleeves.
+        Takes Iron Grade. Listed is
+        Low-carbon. Takes sleeve and hem
+        Forms. Requires a Textile torso
+        whose sleeves cover the scale’s
+        sleeves. Does not tag Armpit.
+        That is intentional.
 
 Coat of Plates
   AC: 5/6/4
-  Slots: Chest / Upper Back 100%,
-         Abdomen / Lower Back 100%
+  Slots: Chest / Upper Back 80%,
+         Abdomen / Lower Back 80%,
+         Collarbone / Base of Neck 80%
   Base cost: 45 sc
   Base Enc: 60
-  Note: takes iron grade. 50% was the old whole-
-        torso figure; soak uses the Slots.
+  Note: takes iron grade.
 
 Laminar
   AC: 5/5/4
-  Slots: Chest / Upper Back 100%,
-         Abdomen / Lower Back 100%
+  Slots: Chest / Upper Back 75%,
+         Abdomen / Lower Back 50%,
+         Collarbone / Base of Neck 75%
   Base cost: 50 sc
   Base Enc: 55
-  Note: no iron grade table.
+  Note: takes Iron Grade. Listed is
+        Low-carbon.
 
 Cuir Bouilli
   AC: 4/4/5
-  Slots: Chest / Upper Back 100%,
-         Abdomen / Lower Back 100%
+  Slots: Chest / Upper Back 80%,
+         Abdomen / Lower Back 80%,
+         Collarbone / Base of Neck 80%
   Base cost: 40 sc
   Base Enc: 50
   Note: keyword Cuir Bouilli. No iron grade table.
 
 Brigandine
   AC: 5/5/4
-  Slots: Chest / Upper Back 100%,
-         Abdomen / Lower Back 100%
+  Slots: Chest / Upper Back,
+         Abdomen / Lower Back,
+         Collarbone / Base of Neck
   Base cost: 48 sc
   Base Enc: 58
   Note: takes iron grade.
 
-Iron grade (Coat of Plates and Brigandine only).
-Cost per 5% is a build rate if you retune Coverage.
-Enc and AC modify the Model.
-
-  Grade              Cost/5%   Enc    AC
-  Wrought iron         3 sc     +5    −1/−1/−1
-  Low-carbon steel     4 sc      0     0/ 0/ 0
-  Hardened steel       5 sc     −5    +1/+1/+1
+Coat of Plates and Brigandine take Iron
+Grade from the head of this section.
+Listed figures are Low-carbon.
 
 Form on those Models (does not change AC)
   Backplate     +20 sc  +30 Enc
                 Slot: Upper Back 100% (facing)
   Pauldron      +12 sc  +12 Enc each
-                Slots: Shoulder 100% that side
-                Arm soak AC 5/6/4 on that Shoulder.
+                Slots: Shoulder that side
+                AC = the parent Model after
+                Iron Grade.
 
 Plackart is not Form here. Abdomen is already
 on the Model.
@@ -566,149 +614,141 @@ Arm Models (shape only; Material supplies AC)
 
 Bracers
   AC: (Material)
-  Slots: Forearm 100%
-  Base cost: Material × 6 steps if using 30% rate
-  Base Enc: Material Enc/5% × 6
-  Note: old 30% was share of the arm.
+  Slots: Forearm 95%
+  Base cost: 24 sc
+  Base Enc: 24
+  Note: listed is Splinted.
 
 Rerebrace
   AC: (Material)
-  Slots: Upper Arm 100%
-  Base cost: Material × 6 steps
-  Base Enc: Material Enc/5% × 6
-  Note: none
+  Slots: Upper Arm 75%
+  Base cost: 24 sc
+  Base Enc: 24
+  Note: listed is Splinted.
 
 Gauntlet
   AC: (Material)
-  Slots: Hand 100%
-  Base cost: Material × 2 steps
-  Base Enc: Material Enc/5% × 2
-  Note: standalone. No layer under.
+  Slots: Hand
+  Base cost: 8 sc
+  Base Enc: 8
+  Note: standalone. Textile and Maille
+        tracks on Hand stay empty. The
+        gauntlet is one Modular piece.
+        Listed is Splinted.
 
 Jack chains
-  AC: 2/0/1
-  Slots: Upper Arm 100% Cut/Blunt (Pierce 0%),
-         Forearm 100% Cut/Blunt (Pierce 0%)
+  AC: (Material)
+  Slots: Upper Arm 75%, Forearm 75%
   Base cost: 10 sc
   Base Enc: 10
-  Note: own Model. Doublet allowed, not required.
-        Leaves Elbow and Hand free.
+  Note: Splinted only. Pierce 0 on both
+        Slots (Coverage 0 vs Pierce).
+        Cut and Blunt use 75%. Doublet
+        allowed, not required. Leaves
+        Elbow and Hand free.
 
 Leg Models (shape only)
 
 Cuisses
   AC: (Material)
-  Slots: Thigh 100%
-  Base cost: Material × 6 steps
-  Base Enc: Material Enc/5% × 6
-  Note: tassets hang from Groin / Pelvis. Not exclusive.
+  Slots: Thigh 75%
+  Base cost: 24 sc
+  Base Enc: 24
+  Note: listed is Splinted. Tassets hang from
+        Groin / Pelvis. Not exclusive.
 
 Greaves
   AC: (Material)
-  Slots: Shin / Calf 100%
-  Base cost: Material × 6 steps
-  Base Enc: Material Enc/5% × 6
-  Note: none
+  Slots: Shin / Calf 95%
+  Base cost: 24 sc
+  Base Enc: 24
+  Note: listed is Splinted.
 
 Sabaton
   AC: (Material)
-  Slots: Foot 100%
-  Base cost: Material × 2 steps
-  Base Enc: Material Enc/5% × 2
-  Note: none
+  Slots: Foot 50%
+  Base cost: 8 sc
+  Base Enc: 8
+  Note: listed is Splinted.
 
-Material (segmented). Cost and Enc per 5%
-if you still build by rate.
+Material (segmented). Listed Model cost and
+Enc are Splinted (Low-carbon). Material
+applies % and AC. Splinted and Laminar then
+may take Iron grade. Cuir may not.
 
-  Material       Cost/5%   Enc/5%   AC
-  Splinted         4 sc      4      3/4/5
-  Cuir bouilli     3 sc      3      2/3/4
-  Laminar          5 sc      4      3/3/3
+  Material       Cost     Enc      AC
+  Cuir bouilli   ×0.70    ×0.70    2/2/3
+  Splinted       ×1.00    ×0.90    3/3/3
+  Laminar        ×1.15    ×1.25    4/4/5
 
-Example: Splinted Bracers. Cost 24 sc, Enc 24,
-AC 3/4/5, Slot Forearm 100%.
+Laminar is overlapping iron bands. Best soak,
+most mass.
+Splinted is iron strips on a foundation.
+Lighter than laminar. Worse blunt (gaps
+between strips). Takes iron grade.
+Cuir bouilli is boiled leather. Lightest.
+Lowest AC. No iron grade.
+
+Example: Splinted Bracers. 24 sc, Enc 22
+(24 × 0.90), AC 3/3/3, Forearm 95%.
+         Hardened Splinted Bracers. Cost 30,
+         Enc 20, AC 4/4/4.
+         Laminar Bracers. 28 sc, Enc 30, AC 4/4/5.
+         Cuir Bracers. 17 sc, Enc 17, AC 2/2/3.
+Jack chains are Splinted only, listed 10 / 10,
+then iron grade if wanted.
 
 Helmets
 
 Skullcap
   AC: 4/4/4
-  Slots: Skull / Occipital 70%
+  Slots: Skull / Occipital
   Base cost: 12 sc
   Base Enc: 12
-  Note: Open Helmet. Eyes empty 0 AC.
+  Note: Open Helmet. Low profile and suitable to wear under layers.
 
-Nasal spangehelm
+Nasal spangenhelm
   AC: 5/6/4
-  Slots: Skull / Occipital 60%
+  Slots: Skull / Occipital, Eyes 10%
   Base cost: 25 sc
   Base Enc: 22
-  Note: Open Helmet.
+  Note: Open Helmet. Takes Iron Grade. Built-in 
+        nasal guard provides minimal frontal eye 
+        protection.
 
 Composite kettle
   AC: 5/6/4
-  Slots: Skull / Occipital 80%
+  Slots: Skull / Occipital
   Base cost: 24 sc
   Base Enc: 21
   Note: Open Helmet.
 
+Duckbill
+  AC: 5/6/4
+  Slots: Skull / Occipital, Lower face / Back of neck 75%, 
+         Eyes 95%, Throat 50%
+  Base cost: 24 sc
+  Base Enc: 30
+  Note: Closed Helmet. Takes Iron Grade. Fixed, 
+        non-pivoting full-face mask with narrow 
+        perforations. Immune to structural hinge failure.
+
 Greathelm
   AC: 8/8/7
-  Slots: Skull / Occipital 95%,
-         Lower face / Back of neck 95%
+  Slots: Skull / Occipital, Lower face / Back of neck, Eyes 95%
   Base cost: 42 sc
   Base Enc: 38
-  Note: Closed Helmet. Cap 95%. Eyes empty
-        until a visor.
+  Note: Closed Helmet. Fixed visor built in. 
 
 Enclosed helm
   AC: 8/9/7
-  Slots: Skull / Occipital 90%,
-         Lower face / Back of neck 90%
+  Slots: Skull / Occipital, Lower face / Back of neck, Eyes 95%
   Base cost: 50 sc
   Base Enc: 34
-  Note: Closed Helmet. Eyes empty until a
-        visor.
+  Note: Closed Helmet. Fixed visor built in. 
 
-Helmet add-ons
-
-Visor
-  AC: +1/+1/+0
-  Slots: Eyes 100%
-  Base cost: +8 sc
-  Base Enc: +1
-  Note: +5% Head was the old blob.
-
-Full visor
-  AC: +1/+1/+0
-  Slots: Lower face / Back of neck 100%, Eyes 100%
-  Base cost: +12 sc
-  Base Enc: +2
-  Note: none
-
-Ventail
-  AC: +1/+1/+0
-  Slots: Lower face / Back of neck 100%
-  Base cost: +10 sc
-  Base Enc: +2
-  Note: none
-
-Bevor
-  AC: +2/+2/+1
-  Slots: Lower face / Back of neck 100%
-  Base cost: +15 sc
-  Base Enc: +3
-  Note: none
-
-Aventail
-  AC: +2/+2/+1
-  Slots: Throat 100%,
-         Lower face / Back of neck —
-  Base cost: +12 sc
-  Base Enc: +3
-  Note: mail skirt. No plate Slot.
-
-One piece per Head Slot. Visor + aventail is legal.
-Full visor + bevor is not.
+One Modular piece per Head Location Slot. Full visor
+and Bevor cannot share Lower face.
 
 --------------------------------------------------
 10. MODULAR — SOLID PLATE
@@ -716,13 +756,9 @@ Full visor + bevor is not.
 
 Same Modular layer as section 9.
 
-Limb Material (solid plate). Cost and Enc per 5%
-if you still build by rate.
-
-  Material           Cost/5%   Enc/5%   AC
-  Wrought iron         3 sc      5      4/5/3
-  Low-carbon steel     4 sc      4      5/6/4
-  Hardened steel       5 sc      3      6/7/5
+Solid Plate uses Iron Grade (section 9).
+Listed cost, Enc, and AC are Low-carbon.
+Do not use a second metal table.
 
 Torso Model (minimum: Chest or Abdomen)
 
@@ -734,6 +770,8 @@ Plate
   Base cost: 45 sc
   Base Enc: 45
   Note: pick one front Slot at minimum.
+        Takes Iron Grade. Listed is
+        Low-carbon.
 
 Form on Plate (does not change Model AC)
   Plackart      +40 sc  +40 Enc
@@ -742,8 +780,9 @@ Form on Plate (does not change Model AC)
   Backplate     +40 sc  +40 Enc
                 Slot: Upper Back 100% (facing)
   Pauldron      +12 sc  +12 Enc each
-                Slot: Shoulder 100% that side
-                Arm soak AC 5/6/4 on that Shoulder.
+                Slot: Shoulder that side
+                AC = the parent Model after
+                Iron Grade.
 
 A cuirass is Plate + Plackart + Backplate:
 Slots Chest, Abdomen, Upper Back. One Model AC
@@ -752,22 +791,21 @@ Slots Chest, Abdomen, Upper Back. One Model AC
 Other torso Models
 
 Gorget
-  AC: 5/5/4
-  Slots: Throat 100%,
-         Collarbone / Base of Neck 100%
+  AC: (Material)
+  Slots: Collarbone / Base of Neck 100%
   Base cost: 15 sc
   Base Enc: 15
   Note: may sit as Head or Torso. One piece.
 
 Besagew
-  AC: 5/5/4
-  Slots: L Armpit 100% or R Armpit 100%
+  AC: (Material)
+  Slots: L Armpit 75% or R Armpit 75%
   Base cost: 12 sc
   Base Enc: 12
   Note: one pit. Pair if both sides.
 
 Faulds
-  AC: 4/4/4
+  AC: (Material)
   Slots: Groin / Pelvis 100%,
          Hip / Buttock 100%
   Base cost: 18 sc
@@ -776,7 +814,7 @@ Faulds
         the Thigh Slot.
 
 Tassets
-  AC: 4/4/5
+  AC: (Material)
   Slots: Groin / Pelvis —,
          Thigh 100% (hang)
   Base cost: 20 sc
@@ -788,177 +826,277 @@ Arm Models (shape only)
 
 Full Gauntlet
   AC: (Material)
-  Slots: Hand 100%, Forearm 100%
-  Base cost: Material × 8 steps
-  Base Enc: Material Enc/5% × 8
-  Note: standalone on Hand. No layer under
-        the Hand. Forearm may still sit over
-        a Doublet sleeve.
+  Slots: Hand, Forearm
+  Base cost: 32 sc
+  Base Enc: 32
+  Note: on Hand, Textile and Maille tracks
+        stay empty. One Modular piece. The
+        Forearm half may sit over a Doublet
+        sleeve.
 
 Gauntlet
   AC: (Material)
-  Slots: Hand 100%
-  Base cost: Material × 2 steps
-  Base Enc: Material Enc/5% × 2
-  Note: standalone. No layer under.
+  Slots: Hand
+  Base cost: 8 sc
+  Base Enc: 8
+  Note: standalone. Textile and Maille
+        tracks on Hand stay empty. The
+        gauntlet is one Modular piece.
+        Listed is Low-carbon.
 
 Vambrace
   AC: (Material)
-  Slots: Forearm 100%
-  Base cost: Material × 6 steps
-  Base Enc: Material Enc/5% × 6
+  Slots: Forearm
+  Base cost: 24 sc
+  Base Enc: 24
   Note: none
 
 Couter
   AC: (Material)
-  Slots: Elbow 100%
-  Base cost: Material × 2 steps
-  Base Enc: Material Enc/5% × 2
-  Note: none
+  Slots: Elbow
+  Base cost: 8 sc
+  Base Enc: 8
+  Note: Elbow means Outer and Inner at 100%.
 
 Rerebrace
   AC: (Material)
-  Slots: Upper Arm 100%
-  Base cost: Material × 6 steps
-  Base Enc: Material Enc/5% × 6
+  Slots: Upper Arm
+  Base cost: 24 sc
+  Base Enc: 24
   Note: none
 
-Example: Low-carbon Vambrace. Cost 24 sc, Enc 24,
-AC 5/6/4, Forearm 100%.
+Example: Low-carbon Vambrace. 24 sc, Enc 24,
+AC 5/6/4, Forearm.
+         Hardened Vambrace. 30 sc, Enc 20, AC 6/7/5.
 
 Leg Models (shape only)
 
 Full Greaves
   AC: (Material)
-  Slots: Shin / Calf 100%
-  Base cost: Material × 8 steps
-  Base Enc: Material Enc/5% × 8
+  Slots: Shin / Calf
+  Base cost: 32 sc
+  Base Enc: 32
   Note: none
 
 Poleyn
   AC: (Material)
-  Slots: Knee 100%
-  Base cost: Material × 2 steps
-  Base Enc: Material Enc/5% × 2
+  Slots: Front Knee
+  Base cost: 8 sc
+  Base Enc: 8
   Note: none
 
 Cuisses
   AC: (Material)
-  Slots: Thigh 100%
-  Base cost: Material × 6 steps
-  Base Enc: Material Enc/5% × 6
+  Slots: Thigh
+  Base cost: 24 sc
+  Base Enc: 24
   Note: none
 
 Sabaton
   AC: (Material)
-  Slots: Foot 100%
-  Base cost: Material × 2 steps
-  Base Enc: Material Enc/5% × 2
+  Slots: Foot
+  Base cost: 8 sc
+  Base Enc: 8
   Note: none
 
-Example: Hardened Cuisses. Cost 30 sc, Enc 18,
-AC 6/7/5, Thigh 100%.
+Example: Hardened Cuisses. 30 sc, Enc 20,
+AC 6/7/5, Thigh.
 
-Helmets (low-carbon band AC 7/7/6 unless a line
-says otherwise)
+Helmets. Listed AC is Low-carbon. Takes
+Iron Grade.
 
-Nasal / kettle
-  AC: 7/7/6
-  Slots: Skull / Occipital 60%
+
+Nasal
+  AC: 5/6/4
+  Slots: Skull / Occipital, Eyes 10%
+  Base cost: 32 sc
+  Base Enc: 30
+  Note: Open Helmet. Rigid one-piece forged skull with 
+        a heavy riveted frontal nasal bar.
+
+Kettle
+  AC: (Material)
+  Slots: Skull / Occipital
   Base cost: 30–36 sc
   Base Enc: ~30
   Note: Open Helmet.
 
 Bascinet
-  AC: 7/7/6
-  Slots: Skull / Occipital 60%
+  AC: (Material)
+  Slots: Skull / Occipital
   Base cost: 30–36 sc
   Base Enc: ~30
-  Note: Open Helmet. Closed while a visor
-        is down.
+  Note: Open Helmet. May use full visors.
 
 Sallet
-  AC: 7/7/6
-  Slots: Skull / Occipital 80%
-  Base cost: 36–42 sc
-  Base Enc: ~30
-  Note: Open Helmet. Tail is Occipital from
-        behind. Closed while a visor is down.
+  AC: 5/6/4
+  Slots: Skull / Occipital
+  Base cost: 38 sc
+  Base Enc: 22
+  Note: Open Helmet. Maximizes back-of-head deflection. 
+        Compatible with Visor Forms and independent Bevor.
 
-Armet / barbute
-  AC: 7/7/6
-  Slots: Skull / Occipital 80%,
-         Lower face / Back of neck 80%
+Armet
+  AC: (Material)
+  Slots: Skull / Occipital, Lower face / Back of neck, Throat 95%, Eyes 95%
   Base cost: 42–48 sc
+  Base Enc: ~38
+  Note: Closed Helmet. Both the visor and the lower jaw protection (called a movable bevor or chin-piece) pivot vertically. They share the exact same pivot points or bolts on the side of the skull. You can swing the visor up for visibility, and then swing the entire lower jaw piece up and back over the forehead. This fully exposes your face, transforming it into an "open helmet" style for breathing or speaking without removing the skull cap.
+
+Barbute
+  AC: 5/6/4
+  Slots: Skull / Occipital, Lower face / Back of neck 75%
+  Base cost: 44 sc
+  Base Enc: 25
+  Note: Closed Helmet despite fixed opening. Deep T-shaped 
+        or Y-shaped face opening wraps around the jaw. 
+        May accept Visor Forms to fully close the face.
+
+Great bascinet
+  AC: (Material)
+  Slots: Skull / Occipital, Lower face / Back of neck, Throat, Eyes 99% with visor down
+  Base cost: 48 sc
+  Base Enc: ~50
+  Note: Closed Helmet. In built visor, may be lowered and raised -(Eyes 99%)
+
+Frog-mouth
+  AC: (Material)
+  Slots: Skull / Occipital, Lower face / Back of neck, Throat, Eyes 99% with visor down
+  Base cost: 48 sc
   Base Enc: ~30
   Note: Closed Helmet.
 
-Great bascinet / frog-mouth / visored great helm
-  AC: 7/7/6
-  Slots: Skull / Occipital 95%,
-         Lower face / Back of neck 95%,
-         Eyes 100% with visor down
+Burgonet
+  AC: 5/6/4
+  Slots: Skull / Occipital, Lower face / Back of neck 75%
   Base cost: 48 sc
-  Base Enc: ~30
-  Note: Closed Helmet. Cap 95%.
+  Base Enc: 25
+  Note: Open Helmet. Integrated comb and protective brow peak. 
+        Leaves face bare; highly compatible with Falling Buffe.
 
-Visor tags are cosmetic once Eyes is filled.
+Bevor
+  AC: (Material)(Iron Grade)
+  Slots: Lower face / Back of neck 75%, Throat
+  Base cost: +15 sc
+  Base Enc: +3
+  Note: none
+
+Falling Buffe
+  AC: (Material)(Iron Grade)
+  Slots: Lower face / Back of neck 75%, Throat
+  Base cost: +15 sc
+  Base Enc: +3
+  Note: Can be closed/opened, looses Lower face / Back of neck 75% when open.
+
+Visors
+Houndskull
+Pig face
+Bellows
+Klappvisor
+Grotesque
+Sparrow's Beak
+Grill
+Gryphon
+"Wolf" or "Dog" Grill Bascinet Visor
+
+
+Visor tags are form options. Added to helmet models.
 They do not change AC.
 
 --------------------------------------------------
 11. BOOTS
 --------------------------------------------------
 
-Always cover the Foot. Height adds Shin.
+A listing is a pair. Enc is the pair.
 
-Turnshoe
-  AC: 1/1/1
-  Slots: Foot 100%
+Models have no AC. Base Material is mandatory
+and is the Textile layer. Its Coverage matches
+the boot’s Slots 1:1. It applies cost, Enc,
+and AC.
+
+Armour Material is optional and only legal on
+Cuffed boots or Riding boots. It is always
+the Modular layer on the listed Slots, even
+when the piece carries the Textile keyword
+for Upgrades. It does not occupy the Textile
+track. The boot’s Base Material already does.
+
+Models
+
+Turnshoes
+  Slots: Foot
   Base cost: 5 sc
-  Base Enc: 10
-  Note: clothing-weight unless a Modular
-        material is added.
+  Base Enc: 5
+  Note: pair.
 
-Ankle boot
-  AC: 2/1/1
-  Slots: Foot 100%
+Ankle boots
+  Slots: Foot
   Base cost: 8 sc
-  Base Enc: 12
-  Note: none
+  Base Enc: 10
+  Note: pair.
 
-Riding / cuffed
-  AC: 2/1/2
-  Slots: Foot 100%, Shin / Calf 40%
+Cuffed boots
+  Slots: Foot, Shin / Calf 75%
   Base cost: 12 sc
   Base Enc: 15
-  Note: none
+  Note: pair. Tags Shin / Calf. Chausses
+        that also tag Shin / Calf take bulk.
+        Arming hose does not.
+
+Riding boots
+  Slots: Foot, Shin / Calf
+  Base cost: 12 sc
+  Base Enc: 25
+  Note: pair. Full shin. Chausses that also
+        tag Shin / Calf take bulk. Arming
+        hose does not.
 
 Poulaine
-  AC: 1/1/1
-  Slots: Foot 100%
+  Slots: Foot
   Base cost: 10 sc
-  Base Enc: 12
-  Note: none
+  Base Enc: 10
+  Note: pair.
 
 Clog / slipper
-  AC: 1/2/2
-  Slots: Foot 100%
+  Slots: Foot
   Base cost: 4 sc
   Base Enc: 10
-  Note: none
+  Note: pair.
 
-Materials (add to type)
-  Leather            +2 sc   +0 Enc   +0/+1/+0
-  Suede              +3 sc   −2 Enc   +0/+0/+0
-  Felt & leather     +1 sc   +3 Enc   +0/+0/+1
-  Padded             +4 sc   +3 Enc   +1/+0/+1
-  Cuir bouilli      +10 sc   +5 Enc   +2/+2/+3   Modular Foot
-  Splinting          +8 sc   +4 Enc   +1/+1/+2   Modular Foot
-  Greaves           +12 sc   +6 Enc   +2/+2/+1   Modular Shin
+Base Material (mandatory). Textile layer.
+Coverage = the boot’s Slots.
 
-Layer over Textile legs or under plate greaves.
-If the outer boot or greave applies, inner Textile
-legs apply at full AC (Armour_Rules §3).
+  Material           Cost    Enc    AC
+  Leather            +2 sc   +0     1/1/1
+  Suede              +3 sc   −2     1/0/1
+  Felt & leather     +1 sc   +3     1/1/2
+
+Armour Material (optional). Modular layer.
+Cuffed boots or Riding boots only.
+
+  Material                 Cost    Enc    AC      Coverage
+  Padded                   +4 sc   +3     2/1/2   Shin / Calf
+                       Modular. Keyword Textile
+                       for Upgrades only
+                       (Dense quilting, beeswax).
+                       Not a second Textile layer.
+  Cuir bouilli            +10 sc   +5     2/3/4   Foot 50%,
+                                                  Shin / Calf 75%
+                       Modular.
+  Splinting                +8 sc   +4     3/4/4   Shin / Calf 75%
+                       Modular.
+  Greaves                 +12 sc   +6     5/6/4   Shin / Calf 50%
+                       Modular.
+
+Armour Material is illegal on Turnshoes,
+Ankle boots, Poulaine, and Clog / slipper.
+Those Models have no Shin / Calf tag. You
+cannot invent tibia Coverage on a Foot-only
+boot. Cuffed and Riding only.
+
+Plate greaves on the shin still sit as
+their own Modular piece. They do not stack
+AC with boot greaves on the same Slot.
 
 --------------------------------------------------
 12. UPGRADES
