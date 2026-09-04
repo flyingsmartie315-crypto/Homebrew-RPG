@@ -1,0 +1,840 @@
+# Injury_Tables_Spider.txt
+# Virath Slot injury tables — spider Entities
+# Status: DRAFT for Core.
+# Wallace and Slots live in this file.
+# Law: Core_Injury.txt (Bleed, Overflow, how to roll)
+# Use for: giant spiders, hunting spiders,
+# trapdoor things, and any eight-legger built
+# on a cephalothorax and an abdomen.
+# Not a crab. Not a scorpion (tail is its own
+# table later).
+
+Roll 1d10 + Overflow − TB.
+Floor 1. 10 or more uses the 10+ row.
+1 is best. 10+ is worst.
+Use the column that matches the blow.
+
+Bleed on this table is hemolymph. Same
+keywords. It looks wrong. It still drops
+them.
+
+One lost leg is not Down. Two legs gone
+on the same side, or three gone anywhere,
+is Down. A ruined Pedicel or opened
+Abdomen venter at 8+ is the kill.
+
+Facing: face-to-face is Eyes, Fangs,
+Pedipalps, Sternum, Abdomen venter.
+From above is Carapace and Abdomen
+dorsum. From behind is Spinnerets.
+
+Order: Cephalothorax, Abdomen, Leg.
+
+WALLACE (first d100)
+  01–16    Cephalothorax     16%
+  17–54    Abdomen           38%
+  55–65    Right Fore pair   11%
+  66–76    Left Fore pair    11%
+  77–88    Right Hind pair   12%
+  89–00    Left Hind pair    12%
+
+  Fore pair = walking legs I and II
+  on that side.
+  Hind pair = walking legs III and IV
+  on that side.
+  Pedipalps live on Cephalothorax, not
+  on a Fore pair.
+
+SLOTS (second d100)
+
+  Cephalothorax
+    01–15    Eyes                         15%
+    16–35    Fangs                        20%
+    36–50    Pedipalps                    15%
+    51–80    Carapace                     30%
+    81–00    Sternum                      20%
+
+  Abdomen
+    01–35    Dorsum                       35%
+    36–55    Venter                       20%
+    56–75    Pedicel                      20%
+    76–00    Spinnerets                   25%
+
+  Leg pair (any)
+    Even result = forward leg of the pair
+    Odd  result = rear leg of the pair
+    Then read the tens as the Slot:
+    01–20    Coxa                         20%
+    21–45    Femur                        25%
+    46–70    Tibia                        25%
+    71–00    Tarsus                       30%
+
+  Read even/odd on the same second die
+  that names the Slot. 44 even + Tibia =
+  forward leg of that pair, Tibia.
+
+##################################################
+# CEPHALOTHORAX
+##################################################
+
+==================================================
+EYES
+==================================================
+
+A cluster, not a pair. 7 ruins the set
+on that face, not one globe.
+
+CUT
+  1   Rim nick. Dress it.
+  2   One lens split. −10 Perception until
+      bound.
+  3   Cluster grazed. Minor Bleed. Most
+      eyes spared.
+  4   Several lenses opened. −20 Perception
+      until Heal. Minor Bleed.
+  5   Front row ruined. No precise strike.
+      Minor Bleed.
+  6   Cluster flayed. Blind on that face.
+      Major Bleed.
+  7   Eyes gone on that face. Permanent.
+      Major Bleed. Hunts by vibration.
+  8   Carapace opened at the eyes.
+      Permanent. Major Bleed. Down unless
+      Toughness.
+  9   Through the cluster into the head.
+      Catastrophic Bleed. Helpless.
+ 10+  Face taken off the carapace.
+      Catastrophic. Toughness or dying.
+
+PIERCE
+  1   Grit in a lens. −10 Perception
+      1 Round.
+  2   One eye transfixed.
+  3   Between lenses. Minor Bleed.
+  4   Into the cluster, brain spared.
+      Stunned. Minor Bleed.
+  5   Several eyes burst. −20 Perception.
+      Minor Bleed.
+  6   Cluster burst. Blind that face.
+      Permanent. Major Bleed.
+  7   Through the eyes into the head.
+      Major Bleed. Toughness or Down.
+  8   Deep into the cephalothorax.
+      Catastrophic. Unconscious.
+  9   Through the head. Dead unless Fate.
+ 10+  Spike through the cluster. Dead.
+
+BLUNT
+  1   Glare bang. Flinch.
+  2   Cluster bruise. −10 Perception.
+  3   Lenses shocked. Agility or it
+      misses the next lunge.
+  4   Rim cracked. No Bleed.
+  5   Cluster crushed, some eyes hold.
+      Stunned. −20 Perception.
+  6   Front row smashed. Permanent −10
+      Perception unless the carapace
+      is left alone.
+  7   Cluster pulp. Blind that face.
+      Permanent.
+  8   Eyes and carapace stove. Down.
+  9   Head crushed from the front.
+      Unconscious.
+ 10+  Face destroyed. Dead unless Fate.
+
+==================================================
+FANGS
+==================================================
+
+Chelicerae. Venom lives here. 7 takes
+the bite and the poison together.
+
+CUT
+  1   Fang nick. Dress it.
+  2   Chelicera split. −10 Bite until bound.
+  3   To the hinge. Minor Bleed. One fang
+      loose.
+  4   Fang scored. Venom drip. Minor Bleed.
+      −10 Bite.
+  5   One fang ruined. Bite at half.
+      Minor Bleed. No envenom from that
+      side.
+  6   Both hinges opened. Major Bleed.
+      Cannot grip prey.
+  7   Fangs off or split. No Bite, no
+      venom, without Surgery. Permanent.
+      Major Bleed.
+  8   Chelicerae and mouth opened.
+      Catastrophic Bleed. Down unless
+      Toughness.
+  9   Front of the head taken. Dead unless
+      Fate. Catastrophic Bleed.
+ 10+  Face through the fangs. Dead.
+
+PIERCE
+  1   Fang prick. It knows the irony.
+  2   Beside a fang.
+  3   Into the chelicera. Minor Bleed.
+  4   Point on the hinge. Stunned.
+  5   Through one fang. Venom wasted that
+      Turn. Minor Bleed.
+  6   Through both hinges. Major Bleed.
+      No Bite this scene.
+  7   Venom bulb opened. No envenom.
+      Permanent unless Heal. Major Bleed.
+  8   Through the mouth into the head.
+      Catastrophic. Down.
+  9   Through the fangs into the brain.
+      Dead unless Fate.
+ 10+  Spike through the bite. Dead.
+
+BLUNT
+  1   Fang bang. Click.
+  2   Chelicera bruise. −10 Bite.
+  3   Hinge shock. Agility or it drops
+      what it held.
+  4   One fang cracked. No Bleed. −10 Bite.
+  5   Both fangs wrenched. No envenom
+      this scene. Stunned.
+  6   One fang broken off. Bite at half.
+      No Bleed.
+  7   Both fangs smashed. No Bite without
+      Surgery.
+  8   Front of the head crushed. Airway /
+      mouth gone. Dying without Fate.
+  9   Chelicerae pulp. Helpless.
+ 10+  Head ruined from the fangs. Dead
+      unless Fate.
+
+==================================================
+PEDIPALPS
+==================================================
+
+Not walking legs. Feel, grip, male
+claspers. Losing both is −20 on grapple
+and fine work, not Down.
+
+CUT
+  1   Palp nick.
+  2   Skin split. −10 Grapple until bound.
+  3   To the fascia. Minor Bleed.
+  4   One palp scored. −10 Perception
+      (touch). Minor Bleed.
+  5   One palp ruined. −10 Grapple.
+      Minor Bleed.
+  6   Both palps opened. Major Bleed.
+      Cannot hold prey in the jaws and
+      a palpal grip together.
+  7   Palps off. Permanent −20 Grapple
+      and touch-Perception unless Surgery.
+      Major Bleed.
+  8   Palps and fang-hinge together.
+      Major Bleed. Down unless Toughness.
+  9   Front limbs of the head taken.
+      Catastrophic Bleed.
+ 10+  Face beside the fangs opened. Dead
+      unless Fate.
+
+PIERCE
+  1   Palp prick.
+  2   Through a tip.
+  3   Into the palp. Minor Bleed.
+  4   Through one palp. −10 Grapple.
+  5   Through the joint. That palp hangs.
+      Minor Bleed.
+  6   Both palps transfixed. Major Bleed.
+  7   Palps ruined. Permanent unless Surgery.
+      Major Bleed.
+  8   Through into the head. Catastrophic.
+  9   Through the palps into the fangs.
+      Dead unless Fate.
+ 10+  Spike through the face-grip. Dead.
+
+BLUNT
+  1   Palp bump.
+  2   Bruise. −10 Grapple.
+  3   Shock. Drop prey on failed Agility.
+  4   Joint cracked. No Bleed. −10 touch.
+  5   One palp smashed. Cannot feel that
+      side. Stunned.
+  6   Both palps broken. No Bleed. −20
+      Grapple.
+  7   Palps pulp. Permanent without Surgery.
+  8   Palps and face stove. Down.
+  9   Front of the head crushed. Dying.
+ 10+  Face-grip destroyed. Dead unless Fate.
+
+==================================================
+CARAPACE
+==================================================
+
+The shield of the cephalothorax. From
+above this is most of the “head.”
+
+CUT
+  1   Scute nick.
+  2   Skin at the rim split. −10 until bound.
+  3   To the fascia under the rim.
+      Minor Bleed.
+  4   Carapace scored. Stunned. Minor Bleed.
+  5   Plate opened. Stunned. Minor Bleed.
+      No Charge.
+  6   Into the cephalothorax. Major Bleed.
+      Down unless Toughness.
+  7   Deep into the nerve mass. Permanent
+      −20 Agility unless Surgery. Major Bleed.
+  8   Head opened from above. Catastrophic.
+      Unconscious.
+  9   Through the carapace into the
+      pedicel. Dead unless Fate.
+ 10+  Cephalothorax split. Dead.
+
+PIERCE
+  1   Scute prick.
+  2   Under the rim.
+  3   Point on the plate. Stunned.
+  4   Through the plate, mass spared.
+      Minor Bleed.
+  5   Into the cephalothorax. Stunned.
+      Minor Bleed.
+  6   Deep. Major Bleed. Down unless
+      Toughness.
+  7   Nerve mass. Permanent unless Surgery.
+      Major Bleed. Down.
+  8   Through the head. Catastrophic.
+      Unconscious.
+  9   Through into the abdomen. Dead
+      unless Fate.
+ 10+  Spike through the shield. Dead.
+
+BLUNT
+  1   Carapace bang. Click.
+  2   Stunned 1 Round.
+  3   Plate shock. Agility or it misses
+      the next step.
+  4   Hairline in the scute. No Bleed.
+  5   Plate cracked. Stunned. No Charge.
+  6   Carapace broken. Down unless Toughness.
+  7   Head crushed from above. Permanent
+      ataxia unless Surgery. Down.
+  8   Cephalothorax stove. Unconscious.
+      Field kill unless Fate.
+  9   Head pulp. Dying.
+ 10+  Shield destroyed. Dead.
+
+==================================================
+STERNUM
+==================================================
+
+Underside of the cephalothorax. Leg
+roots and the mouth behind the fangs.
+A thrust here is a belly-of-the-head.
+
+CUT
+  1   Sternum nick.
+  2   Skin split. −10 Movement until bound.
+  3   To the fascia. Minor Bleed.
+  4   Near a coxa root. −10 Agility.
+      Minor Bleed.
+  5   Deep plate. Cannot lunge. Minor Bleed.
+  6   Into the cephalothorax from below.
+      Major Bleed. Half Move.
+  7   Leg-roots opened. Permanent −20
+      Movement unless Surgery. Major Bleed.
+      Two legs on that face go slack.
+  8   Underside opened. Catastrophic Bleed.
+      Down.
+  9   Through the sternum into the head.
+      Dead unless Fate.
+ 10+  Cephalothorax gutted from below. Dead.
+
+PIERCE
+  1   Skin prick.
+  2   Beside a coxa.
+  3   Point on the plate. Stunned.
+  4   Through the plate, mass spared.
+      Minor Bleed.
+  5   Into the head from below. Minor Bleed.
+      No Charge.
+  6   Deep. Major Bleed. Toughness or Down.
+  7   Nerve mass from below. Permanent
+      unless Surgery. Major Bleed.
+  8   Through the sternum. Catastrophic.
+      Down.
+  9   Through into the abdomen. Dead
+      unless Fate.
+ 10+  Spike up through the head. Dead.
+
+BLUNT
+  1   Underside bump.
+  2   Bruise. −10 Movement.
+  3   Legs on that face numb a beat.
+      Agility or it stumbles.
+  4   Plate cracked. No Bleed.
+  5   Sternum wrenched. No lunge. Stunned.
+  6   Plate broken. Cannot stand on the
+      fores. No Bleed.
+  7   Underside smashed. Permanent −20
+      Movement unless Surgery. Down.
+  8   Head crushed from below. Catastrophic
+      inside.
+  9   Sternum and fangs together. Dying.
+ 10+  Underside destroyed. Dead.
+
+##################################################
+# ABDOMEN
+##################################################
+
+==================================================
+DORSUM
+==================================================
+
+The big target. Soft. Patterned. From
+above this is most hits.
+
+CUT
+  1   Dorsum nick.
+  2   Skin split. −10 until bound.
+  3   To the fat / silk-gland fascia.
+      Minor Bleed.
+  4   Deep wall, cavity holds. Minor Bleed.
+  5   Wall opened, organs not. No Charge.
+      Minor Bleed. Heal this hour.
+  6   Into the abdomen. Major Bleed.
+      Soil / gut clock if the GM smells it.
+  7   Organs showing. Surgery this hour or
+      dying. Major Bleed. Down unless
+      Toughness.
+  8   Abdomen opened from above.
+      Catastrophic. Down.
+  9   Dorsum through. Dead unless Fate.
+ 10+  Abdomen taken off. Dead.
+
+PIERCE
+  1   Skin prick.
+  2   Into the wall.
+  3   Wall holds. Minor Bleed.
+  4   Point in, organs missed. Watch it.
+  5   Gland or gut nick. Heal this hour
+      or Major.
+  6   Into the cavity. Major Bleed.
+  7   Organ opened. Surgery or dying.
+      Major Bleed.
+  8   Deep abdomen. Catastrophic. Down.
+  9   Through the abdomen. Dead unless Fate.
+ 10+  Spike through the bulb. Dead.
+
+BLUNT
+  1   Dorsum bang. Jiggle.
+  2   Bruise. −10 Agility.
+  3   Winded. 1 Round no leap.
+  4   Wall shocked. No Charge.
+  5   Deep bruise. Stunned.
+  6   Organs bruised. Major inside. Down
+      unless Toughness.
+  7   Cavity ruptured inside. Surgery this
+      hour or dying.
+  8   Abdomen mashed. Catastrophic inside.
+  9   Bulb destroyed. Dead unless Fate.
+ 10+  Abdomen crushed. Dead.
+
+==================================================
+VENTER
+==================================================
+
+Book lungs, spiracles, underside.
+A thrust here is breathing and blood
+together.
+
+CUT
+  1   Venter nick.
+  2   Skin split. −10 Movement.
+  3   To the fascia. Minor Bleed.
+  4   Near a lung slit. Winded. Minor Bleed.
+  5   Slit opened. Half Move. Minor Bleed.
+      No Charge.
+  6   Book lung opened. Major Bleed.
+      Toughness or Down.
+  7   Both lungs / deep venter. Permanent
+      −20 Toughness unless Surgery. Major
+      Bleed. Down.
+  8   Underside opened. Catastrophic. Dying.
+  9   Venter through. Dead unless Fate.
+ 10+  Abdomen gutted from below. Dead.
+
+PIERCE
+  1   Skin prick.
+  2   Beside a slit.
+  3   Wall holds. Minor Bleed.
+  4   Point on a lung plate. Stunned.
+  5   Into a book lung. Winded. Minor Bleed.
+  6   Through the venter. Major Bleed.
+      Foam / wet hiss.
+  7   Lungs ruined. Permanent unless Surgery.
+      Major Bleed. Down.
+  8   Through the bulb from below.
+      Catastrophic. Dying.
+  9   Through-and-through. Dead unless Fate.
+ 10+  Spike up through the abdomen. Dead.
+
+BLUNT
+  1   Underside bump.
+  2   Bruise. −10 Movement.
+  3   Winded. 1 Round.
+  4   Slits shocked. Cannot leap.
+  5   Lung bruise. Half Move. Stunned.
+  6   Underside broken. Cannot expand.
+      No Bleed on the skin.
+  7   Lungs smashed. Permanent −20 Toughness
+      unless rest. Down.
+  8   Venter stove. Catastrophic inside.
+  9   Breathing gone. Dying.
+ 10+  Underside destroyed. Dead.
+
+==================================================
+PEDICEL
+==================================================
+
+The waist. All nerves and pipe between
+head and bulb. 7+ is the classic cut.
+
+CUT
+  1   Waist nick.
+  2   Skin split. −10 Agility until bound.
+  3   To the fascia. Minor Bleed.
+  4   Pipe nicked. −10 Movement. Minor Bleed.
+  5   Deep waist. Cannot leap. Minor Bleed.
+      Stunned.
+  6   Pedicel opened. Major Bleed. Half
+      Move. Abdomen hangs wrong.
+  7   Pipe and cord nicked. Permanent −20
+      Agility unless Surgery. Major Bleed.
+      Down. Abdomen is baggage.
+  8   Pedicel cut through. Catastrophic.
+      Two pieces. Dead unless Fate this
+      Turn.
+  9   Waist taken off. Dead.
+ 10+  Head and bulb parted. Dead.
+
+PIERCE
+  1   Waist prick.
+  2   Beside the pipe.
+  3   Muscle channel. Minor Bleed.
+  4   Point on the waist. Stunned.
+  5   Into the pedicel, cord spared.
+      Minor Bleed. No leap.
+  6   Through the pipe. Major Bleed.
+      Abdomen slack.
+  7   Cord nick. Permanent unless Surgery.
+      Major Bleed. Down.
+  8   Through the waist. Catastrophic.
+      Two pieces unless Fate.
+  9   Pedicel burst. Dead unless Fate.
+ 10+  Spike through the join. Dead.
+
+BLUNT
+  1   Waist bang.
+  2   Bruise. −10 Agility.
+  3   Shock. Agility or the abdomen
+      drags that Turn.
+  4   Pedicel wrenched. No leap. No Bleed.
+  5   Waist cracked. Stunned. Half Move.
+  6   Pipe failing. Cannot coordinate
+      the bulb. Down unless Toughness.
+  7   Pedicel broken. Permanent without
+      Surgery. Down. Abdomen is dead weight.
+  8   Waist smashed. Two pieces in
+      function. Field kill unless Fate.
+  9   Join crushed. Dead.
+ 10+  Head and bulb pulped at the waist.
+      Dead.
+
+==================================================
+SPINNERETS
+==================================================
+
+Silk. 7 takes the web. Not a kill unless
+you open the bulb behind them.
+
+CUT
+  1   Spinneret nick.
+  2   Tip split. −10 Web until bound.
+  3   To the fascia. Minor Bleed. Slack
+      silk this Turn.
+  4   One spinneret ruined. −10 Web.
+      Minor Bleed.
+  5   Several ruined. No web this scene.
+      Minor Bleed.
+  6   Cluster opened. Major Bleed. Silk
+      pours useless.
+  7   Spinnerets off. No Web without
+      Surgery. Permanent. Major Bleed.
+  8   Cluster and bulb opened from behind.
+      Catastrophic. Down.
+  9   Through the spinnerets into the
+      abdomen. Dead unless Fate.
+ 10+  Rear of the bulb taken off. Dead.
+
+PIERCE
+  1   Tip prick. A thread goes wrong.
+  2   Beside a spinneret.
+  3   Into one nozzle. Minor Bleed.
+  4   Through a spinneret. −10 Web.
+  5   Through the cluster. No web this
+      scene. Minor Bleed.
+  6   Into the bulb from behind. Major Bleed.
+  7   Glands ruined. No Web without Surgery.
+      Major Bleed.
+  8   Through into the abdomen. Catastrophic.
+  9   Through the rear. Dead unless Fate.
+ 10+  Spike through the silk-end. Dead.
+
+BLUNT
+  1   Spinneret bump. Messy thread.
+  2   Bruise. −10 Web.
+  3   Shock. Agility or the next line fails.
+  4   Cluster cracked. No Bleed. −10 Web.
+  5   Nozzles smashed. No web this scene.
+      Stunned.
+  6   Cluster broken. No Web. No Bleed.
+  7   Glands pulp. Permanent without Surgery.
+  8   Rear of the bulb stove. Catastrophic
+      inside.
+  9   Spinnerets and venter together. Dying.
+ 10+  Silk-end destroyed. Dead unless Fate.
+
+##################################################
+# LEG
+##################################################
+
+Even / odd on the Slot die picks which
+leg of the pair. Tables below are one
+leg.
+
+==================================================
+COXA
+==================================================
+
+Root. Where the leg meets the sternum.
+A 7 here slacks that leg. An 8 may slack
+the neighbour.
+
+CUT
+  1   Coxa nick.
+  2   Skin split. −10 Movement until bound.
+  3   To the fascia. Minor Bleed.
+  4   Joint scored. −10 Agility. Minor Bleed.
+  5   Deep root. That leg limps. Minor Bleed.
+      No Charge.
+  6   Coxa opened. Major Bleed. That leg
+      will not take weight.
+  7   Root divided. That leg is gone in
+      function unless Surgery. Permanent
+      −10 Movement. Major Bleed.
+  8   Root and neighbour. Two legs slack.
+      Catastrophic Bleed. Down.
+  9   Through the coxa into the sternum.
+      Dead unless Fate.
+ 10+  Quarter opened at the root. Dead.
+
+PIERCE
+  1   Skin prick.
+  2   Beside the joint.
+  3   Into the coxa. Minor Bleed.
+  4   Point on the root. Stunned.
+  5   Through the joint. That leg hangs.
+      Minor Bleed.
+  6   Through the coxa. Major Bleed.
+      No weight on it.
+  7   Root ruined. Permanent unless Surgery.
+      Major Bleed. −10 Movement.
+  8   Into the sternum. Catastrophic. Down.
+  9   Through the root into the head.
+      Dead unless Fate.
+ 10+  Spike through the hip of the spider.
+      Dead.
+
+BLUNT
+  1   Root bang.
+  2   Bruise. −10 Movement.
+  3   Shock. Agility or that leg misses
+      a step.
+  4   Joint cracked. No Bleed. Limp.
+  5   Coxa wrenched. No Charge. Stunned.
+  6   Root broken. Cannot stand on that
+      leg. No Bleed.
+  7   Coxa smashed. Permanent without
+      Surgery. −10 Movement.
+  8   Root and plate stove. Two legs slack.
+      Down.
+  9   Quarter crushed at the root. Dying.
+ 10+  Root destroyed. Dead unless Fate.
+
+==================================================
+FEMUR
+==================================================
+
+Long bone of the leg. Common target.
+Losing it is one of eight.
+
+CUT
+  1   Femur nick.
+  2   Skin split. −10 Movement until bound.
+  3   To the fascia. Minor Bleed.
+  4   Muscle / tube scored. −10 Agility.
+      Minor Bleed.
+  5   Deep. That leg limps. Minor Bleed.
+      No Charge.
+  6   Tube opened. Major Bleed. No weight
+      on it.
+  7   Femur divided. That leg gone unless
+      Surgery. Permanent −10 Movement.
+      Major Bleed.
+  8   Leg taken through the femur.
+      Max 1 Wound. Permanent. Major Bleed.
+  9   Messy. Leg hanging. Max 1 Wound.
+      Catastrophic Bleed if the root sprayed.
+ 10+  Leg off at the femur. Max 1 Wound.
+      Catastrophic Bleed.
+
+PIERCE
+  1   Skin prick.
+  2   Beside the tube.
+  3   Into the femur. Minor Bleed.
+  4   Point on the bone. Stunned.
+  5   Through the tube, bone spared.
+      Limp. Minor Bleed.
+  6   Through the femur. Major Bleed.
+      No weight.
+  7   Bone and tube ruined. Permanent
+      unless Surgery. Major Bleed.
+  8   Through-and-through. Max 1 Wound.
+      Permanent.
+  9   Leg burst at mid-femur. Max 1 Wound.
+ 10+  Femur exploded. Max 1 Wound.
+      Catastrophic.
+
+BLUNT
+  1   Femur bang.
+  2   Bruise. −10 Movement.
+  3   Shock. Agility or it knocks that
+      foot.
+  4   Hairline. Limp. No Bleed.
+  5   Bone cracked. Half Move on that
+      corner. No Charge.
+  6   Bone broken. Cannot stand on it.
+      No Bleed.
+  7   Open break. Permanent without Surgery.
+      −10 Movement. Minor Bleed.
+  8   Femur smashed. That leg is over.
+      Field loss of the limb.
+  9   Leg crushed at mid-span. Helpless
+      if a second leg on that side is
+      already gone.
+ 10+  Limb destroyed. Max 1 Wound. Dead
+      unless Fate if the count of legs
+      is already bad.
+
+==================================================
+TIBIA
+==================================================
+
+Includes the patella. Mid-leg hinge.
+
+CUT
+  1   Tibia nick.
+  2   Skin split. −10 Movement.
+  3   To the fascia. Minor Bleed.
+  4   Hinge scored. −10 Agility. Minor Bleed.
+  5   Deep. Limp. Minor Bleed. No Charge.
+  6   Hinge opened. Major Bleed. No weight.
+  7   Tibia divided. That leg gone unless
+      Surgery. Permanent −10 Movement.
+      Major Bleed.
+  8   Leg taken at the hinge. Max 1 Wound.
+      Permanent. Major Bleed.
+  9   Messy disarticulation. Max 1 Wound.
+      Catastrophic if it sprayed.
+ 10+  Leg off at the tibia. Max 1 Wound.
+      Catastrophic.
+
+PIERCE
+  1   Skin prick.
+  2   Beside the hinge.
+  3   Into the tibia. Minor Bleed.
+  4   Point on the joint. Stunned.
+  5   Through the hinge. Limp. Minor Bleed.
+  6   Through the tibia. Major Bleed.
+  7   Joint ruined. Permanent unless Surgery.
+      Major Bleed.
+  8   Through-and-through. Max 1 Wound.
+  9   Hinge burst. Max 1 Wound.
+ 10+  Tibia exploded. Max 1 Wound.
+
+BLUNT
+  1   Tibia bang.
+  2   Bruise. −10 Movement.
+  3   Hinge shock. Agility or it knocks.
+  4   Joint cracked. Limp. No Bleed.
+  5   Bone cracked. No Charge.
+  6   Bone broken. Cannot stand on it.
+  7   Hinge smashed. Permanent without
+      Surgery. −10 Movement.
+  8   Joint powder. That leg is over.
+  9   Mid-leg crushed. Count the other
+      legs.
+ 10+  Limb destroyed at the hinge. Max 1
+      Wound.
+
+==================================================
+TARSUS
+==================================================
+
+Foot. Claws, scopulae, the grip that
+walks a web. 7 takes the climb, not
+the life.
+
+CUT
+  1   Tarsus nick.
+  2   Claw split. −10 Climb / Web-walk
+      until bound.
+  3   To the fascia. Minor Bleed.
+  4   Grip scored. −10 Agility. Minor Bleed.
+  5   Claws ruined on that foot. Cannot
+      hold a thread with it. Minor Bleed.
+  6   Foot opened. Major Bleed. No grip.
+  7   Tarsus off or split. Permanent −10
+      Climb. That foot is a stump unless
+      Surgery. Major Bleed.
+  8   Foot taken. Max 1 Wound. Permanent.
+      Major Bleed.
+  9   Messy. Foot hanging. Max 1 Wound.
+      Catastrophic if it sprayed.
+ 10+  Leg ends at the tibia. Max 1 Wound.
+      Catastrophic.
+
+PIERCE
+  1   Claw prick.
+  2   Through a tip.
+  3   Into the foot. Minor Bleed.
+  4   Through the pad. −10 Climb.
+  5   Through the tarsus. No grip. Minor Bleed.
+  6   Through the foot. Major Bleed.
+  7   Foot ruined. Permanent unless Surgery.
+      Major Bleed.
+  8   Foot burst. Max 1 Wound.
+  9   Off on the point. Max 1 Wound.
+ 10+  Tarsus exploded. Max 1 Wound.
+
+BLUNT
+  1   Foot bang. Misses a thread.
+  2   Bruise. −10 Climb.
+  3   Claws numb. Agility or it slips.
+  4   Claw cracked. No Bleed. −10 Climb.
+  5   Foot wrenched. No Charge. Stunned.
+  6   Tarsus broken. No grip. No Bleed.
+  7   Foot smashed. Permanent −10 Climb
+      without Surgery.
+  8   Foot pulp. That grip is over.
+  9   Distal leg crushed. Count the others.
+ 10+  Foot destroyed. Max 1 Wound.

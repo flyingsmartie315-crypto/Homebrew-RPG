@@ -1,0 +1,915 @@
+# Injury_Tables_Hoofed.txt
+# Virath Slot injury tables — hoofed quadrupeds
+# that are not horse-type.
+# Status: DRAFT for Core.
+# Wallace and Slots live in this file.
+# Law: Core_Injury.txt (Bleed, Overflow, how to roll)
+# Use for: elk, deer, bison, cattle, pig, sheep,
+# goat, and similar. Cloven hoof or pig hoof.
+# Horse, destrier, unicorn: Injury_Tables_Equine.txt.
+# Anything on paws: Injury_Tables_Predator.txt.
+
+Roll 1d10 + Overflow − TB.
+Floor 1. 10 or more uses the 10+ row.
+1 is best. 10+ is worst.
+Use the column that matches the blow.
+
+Head and Body rows do not cap Wounds unless
+a row says otherwise. Hoof amps may cap.
+
+A hoofed beast that cannot stand on three
+legs is Down. Collapse is Helpless.
+8+ on a weight-bearing long bone is field
+loss unless Fate or Surgery.
+
+Horns and antlers are not their own Slot.
+Called Shot names Skull. A broken horn is
+Skull Blunt 4–6 flavour.
+
+Order: Head, Body, Fore, Hind.
+Hoof is shared.
+
+WALLACE (first d100)
+  01–12    Head              12%
+  13–56    Body              44%
+  57–68    Right Fore        12%
+  69–80    Left Fore         12%
+  81–90    Right Hind        10%
+  91–00    Left Hind         10%
+
+  Face-to-face weights Head and Fores.
+  From behind, swap Fore/Hind shares.
+  Horned head-on: GM may treat 01–18 as
+  Head (the rack is a bigger target).
+
+SLOTS (second d100)
+
+  Head
+    01–15    Eyes                         15%
+    16–40    Skull                        25%
+    41–65    Muzzle                       25%
+    66–85    Throat                       20%
+    86–00    Nape                         15%
+
+  Body
+    01–20    Chest                        20%
+    21–35    Back                         15%
+    36–60    Barrel                       25%
+    61–80    Flank / Belly                20%
+    81–00    Rump                         20%
+
+  Fore
+    01–20    Shoulder                     20%
+    21–45    Foreleg                      25%
+    46–65    Knee                         20%
+    66–00    Hoof                         35%
+
+  Hind
+    01–20    Hip                          20%
+    21–40    Thigh                        20%
+    41–60    Hock                         20%
+    61–00    Hoof                         40%
+
+##################################################
+# HEAD
+##################################################
+
+==================================================
+EYES
+==================================================
+
+CUT
+  1   Lid nick.
+  2   Lid split. −10 Perception until bound.
+  3   Canthus opened. Minor Bleed. Globe spared.
+  4   Globe grazed. −20 Perception that side
+      until Heal. Minor Bleed.
+  5   Cornea laid open. Blind that side until
+      Surgery. Minor Bleed.
+  6   Lid flayed. Eye shut. Major Bleed.
+  7   Globe sliced. That eye gone unless
+      Surgery this hour. Permanent. Major Bleed.
+      Panic: Toughness or bolt.
+  8   Orbit opened. Blind that side. Permanent.
+      Major Bleed. Down unless held.
+  9   Both orbits. Blind. Catastrophic Bleed.
+ 10+  Face through the sockets. Catastrophic.
+      Toughness or dying.
+
+PIERCE
+  1   Grit in the eye. −10 Perception 1 Round.
+  2   Lid transfixed.
+  3   Beside the globe. Minor Bleed.
+  4   Orbit, globe intact. Stunned. Minor Bleed.
+  5   Into the white. Heal this hour or gone.
+  6   Globe burst. Blind that side. Permanent.
+      Major Bleed. Bolts unless held.
+  7   Through the orbit. Blind that side.
+      Major Bleed.
+  8   Deep orbit. Toughness or unconscious.
+      Major Bleed.
+  9   Into the cranium. Catastrophic. Down.
+ 10+  Both sockets. Dead unless Fate.
+
+BLUNT
+  1   Brow bang.
+  2   Lid hematoma. −10 Perception.
+  3   Globe shocked. Agility or it shies.
+  4   Orbital rim cracked. No Bleed.
+  5   Globe contused. Blind that side 1d10
+      hours. Stunned.
+  6   Orbit smashed. Permanent −10 Perception
+      unless Surgery.
+  7   Globe burst in the socket. Blind that
+      side. Permanent.
+  8   Both rims gone. Down.
+  9   Skull and orbit together. Unconscious.
+ 10+  Head staved at the eye. Dead unless Fate.
+
+==================================================
+SKULL
+==================================================
+
+Poll, brainpan, horn boss. A blow that
+only snaps a tine is 4–5, not a dead elk.
+
+CUT
+  1   Scalp nick.
+  2   Skin split. −10 until bound.
+  3   To the fascia. Minor Bleed.
+  4   Crest or boss nicked. Stunned.
+      Minor Bleed.
+  5   Table opened. Stunned. Minor Bleed.
+  6   Skull opened. Major Bleed. Down unless
+      Toughness.
+  7   Into the canal. Permanent −20 Agility
+      unless Surgery. Major Bleed.
+  8   Brainpan. Catastrophic. Unconscious.
+  9   Through the skull. Dead unless Fate.
+ 10+  Head taken. Dead.
+
+PIERCE
+  1   Scalp prick.
+  2   Under the skin.
+  3   Beside the boss. Minor Bleed.
+  4   Point on the table. Stunned.
+  5   Through the table, canal spared.
+  6   Toward the brain. Major Bleed. Down
+      unless Toughness.
+  7   Canal. Permanent unless Surgery. Down.
+  8   Brain. Catastrophic. Unconscious.
+  9   Through the skull. Dead unless Fate.
+ 10+  Spike through the head. Dead.
+
+BLUNT
+  1   Head bang. Tosses the rack.
+  2   Stunned 1 Round.
+  3   Horn / poll shock. Agility or the
+      head drops.
+  4   Tine or boss cracked. −10 Intimidate.
+      No Bleed. The skull holds.
+  5   Boss wrenched. One horn loose. Stunned.
+  6   Skull cracked. Down unless Toughness.
+  7   Canal threatened. Permanent ataxia
+      unless Surgery. Down.
+  8   Skull stove. Unconscious. Field kill
+      unless Fate.
+  9   Head crushed. Dying.
+ 10+  Skull destroyed. Dead.
+
+==================================================
+MUZZLE
+==================================================
+
+Snout, lips, dental pad / tusks. A boar’s
+tusk lives here. Ruin 7 and the gore is gone.
+
+CUT
+  1   Whisker / snout nick.
+  2   Lip split. −10 until bound.
+  3   Nostril opened. Minor Bleed.
+  4   Cheek to the pad. Minor Bleed. −10
+      on gore / bite until Heal.
+  5   Muzzle flayed. Cannot root or graze
+      this Turn. Minor Bleed.
+  6   Into the nasal bone. Major Bleed.
+  7   Teeth, tusks, or pad ruined. Gore /
+      bite gone without Surgery. Permanent.
+      Major Bleed.
+  8   Face opened. Catastrophic. Down unless
+      Toughness.
+  9   Muzzle off. Cannot drink. Catastrophic.
+ 10+  Face taken. Dead unless Fate.
+
+PIERCE
+  1   Lip prick.
+  2   Through the flews / snout.
+  3   Beside the jaw. Minor Bleed.
+  4   Point on the mandible. Stunned.
+  5   Into the sinus. Minor Bleed.
+  6   Through the cheek. Major Bleed.
+      −20 gore / bite.
+  7   Jaw joint. Weapon-mouth gone unless
+      Surgery. Major Bleed.
+  8   Deep face vessel. Catastrophic. Down.
+  9   Through the palate. Dying.
+ 10+  Spike through the muzzle. Dead.
+
+BLUNT
+  1   Soft nose.
+  2   Lip mash.
+  3   Teeth loosened. Drop the bit / grip
+      on failed Agility.
+  4   Nasal bone cracked. No Bleed.
+  5   Jaw wrenched. Cannot gore this Turn.
+      Stunned.
+  6   Jaw cracked. Gore at half. No Bleed.
+  7   Jaw broken. No gore / bite without
+      Surgery.
+  8   Muzzle crushed. Airway threat.
+      Toughness each Turn or choke.
+  9   Face and teeth gone. Helpless.
+ 10+  Head ruined from the front. Dead
+      unless Fate.
+
+==================================================
+THROAT
+==================================================
+
+CUT
+  1   Throat nick.
+  2   Skin split. −10 until bound.
+  3   To the muscle. Minor Bleed.
+  4   Vessel nicked. Minor Bleed. Pressure
+      or Major next Turn.
+  5   Vessel opened. Major Bleed. Hold it
+      this Turn.
+  6   Deep throat. Major Bleed. Difficult.
+      Half Move.
+  7   Windpipe or carotid threatened.
+      Catastrophic if opened; else Major
+      and Down.
+  8   Carotid or trachea opened.
+      Catastrophic. Dead in minutes unless
+      held now.
+  9   Airway and vessel together. Dead
+      unless Fate.
+ 10+  Throat taken through. Dead.
+
+PIERCE
+  1   Skin prick.
+  2   Beside the pipe.
+  3   Muscle channel. Minor Bleed.
+  4   Against the vessel, wall holds.
+  5   Vessel transfixed. Major Bleed.
+  6   Deep throat. Major Bleed.
+  7   Carotid nick. Catastrophic unless
+      Toughness this Turn (then Major).
+  8   Carotid through. Catastrophic. Dying.
+  9   Through the throat into the chest.
+      Dead unless Fate.
+ 10+  Spike through the neck. Dead.
+
+BLUNT
+  1   Throat bump. Cough.
+  2   Bruise. −10 on call.
+  3   Winded. 1 Round.
+  4   Larynx shocked. Cannot call.
+  5   Airway bruised. Toughness or choke
+      1 Round.
+  6   Larynx smashed. Permanent silence
+      unless Surgery.
+  7   Trachea failing. No charge. Stunned.
+  8   Airway crushed. Dying without an
+      opening.
+  9   Throat and nape together. Unconscious.
+ 10+  Neck root destroyed. Dead.
+
+==================================================
+NAPE
+==================================================
+
+CUT
+  1   Nape nick.
+  2   Skin split. −10 until bound.
+  3   To the fascia. Minor Bleed.
+  4   Nuchal nicked. Head hangs. Minor Bleed.
+  5   Deep. Stunned. Minor Bleed.
+  6   Toward the canal. Major Bleed.
+      Ataxic that Turn.
+  7   Cervical opened. Permanent ataxia
+      unless Surgery. Major Bleed. Down.
+  8   Canal. Catastrophic. Cannot rise.
+  9   Through the nape. Dead unless Fate.
+ 10+  Head off in function. Dead.
+
+PIERCE
+  1   Skin prick.
+  2   Under the skin.
+  3   Muscle channel. Minor Bleed.
+  4   Point on a cervical. Stunned.
+  5   Between vertebrae, cord spared.
+      Ataxic 1 Round.
+  6   Toward the cord. Major Bleed. Down
+      unless Toughness.
+  7   Cord nick. Permanent ataxia. Major
+      Bleed. Helpless on the feet.
+  8   Cord through. Dead or Helpless.
+  9   Through into the chest inlet.
+      Catastrophic Bleed.
+ 10+  Spike through the column. Dead.
+
+BLUNT
+  1   Nape bang.
+  2   Stiff neck. −10 Agility.
+  3   Whiplash. Agility or the fores buckle.
+  4   Cervical wrenched. Cannot turn.
+  5   Crack. Ataxic. Stunned.
+  6   Vertebra broken, cord spared. Down.
+  7   Cord threatened. Permanent unless
+      Surgery. Down.
+  8   Neck snapped. Dead or Helpless.
+  9   Nape crushed. Dead.
+ 10+  Head and neck parted. Dead.
+
+##################################################
+# BODY
+##################################################
+
+==================================================
+CHEST
+==================================================
+
+CUT
+  1   Chest nick.
+  2   Skin split. −10 Movement.
+  3   To the fascia. Minor Bleed.
+  4   Deep brisket. Minor Bleed.
+  5   Toward the girth. Winded. Minor Bleed.
+  6   Into the chest. Major Bleed. No charge.
+  7   Lung. Major Bleed. Heal this hour or
+      it stays Major.
+  8   Heart-girth opened. Catastrophic. Down.
+  9   Heart or vessel. Dead unless Fate.
+ 10+  Chest through. Dead.
+
+PIERCE
+  1   Skin prick.
+  2   Muscle channel.
+  3   Between ribs, chest closed. Minor Bleed.
+  4   Point on the sternum. Stunned.
+  5   Into the chest. Winded. Minor Bleed.
+  6   Lung. Major Bleed. Foam. Toughness
+      or Down.
+  7   Deep chest. Major Bleed. No charge.
+  8   Heart or vessel. Catastrophic. Dying.
+  9   Through-and-through. Dead unless Fate.
+ 10+  Spike through the chest. Dead.
+
+BLUNT
+  1   Chest bang.
+  2   Bruise. −10 Movement.
+  3   Winded. 1 Round no Charge.
+  4   Rib cracked. No Bleed.
+  5   Several ribs. Half Move. Stunned.
+  6   Broken wall. No charge.
+  7   Flail. Permanent −10 Toughness unless
+      rest. Minor Bleed inside.
+  8   Chest stove. Down. Major inside.
+  9   Heart contused. Dying.
+ 10+  Chest crushed. Dead.
+
+==================================================
+BACK
+==================================================
+
+CUT
+  1   Back nick.
+  2   Skin split. −10 until bound.
+  3   To the fascia. Minor Bleed.
+  4   To a spine. Stunned. Minor Bleed.
+  5   Deep. Cannot buck. Minor Bleed.
+  6   Spine opened. Major Bleed. Down unless
+      Toughness.
+  7   Canal threatened. Permanent −20 Agility
+      unless Surgery. Major Bleed.
+  8   Canal. Paralysis behind. Catastrophic.
+  9   Back split. Helpless.
+ 10+  Back through the chest. Dead unless Fate.
+
+PIERCE
+  1   Skin prick.
+  2   Beside a spine.
+  3   Muscle channel. Minor Bleed.
+  4   Point on a process. Stunned.
+  5   Between ribs at the top. Winded.
+  6   Toward the canal. Major Bleed. Down
+      unless Toughness.
+  7   Canal. Paralysis behind. Major Bleed.
+  8   Through into the chest. Catastrophic.
+  9   Through the back. Dead unless Fate.
+ 10+  Spike down the column. Dead.
+
+BLUNT
+  1   Back bang.
+  2   Sore. −10 Agility.
+  3   Winded from above.
+  4   Process cracked. No Bleed.
+  5   Back wrenched. No buck. Stunned.
+  6   Several processes. Permanent −10
+      Agility unless rest.
+  7   Fracture into the canal. Down. Ataxic
+      behind.
+  8   Broken back. Helpless behind.
+  9   Back and chest stove. Dying.
+ 10+  Back destroyed. Dead.
+
+==================================================
+BARREL
+==================================================
+
+The main mass. Cattle and bison live here.
+
+CUT
+  1   Barrel nick.
+  2   Skin split. −10 Ride / Movement.
+  3   To the intercostal. Minor Bleed.
+  4   Between ribs, cavity closed. Minor Bleed.
+  5   Deep. Winded. Minor Bleed. No Charge.
+  6   Into the chest. Major Bleed. Foam.
+  7   Lung opened. Major Bleed. Half Move.
+  8   Barrel opened. Catastrophic. Down.
+  9   Through the barrel. Dead unless Fate.
+ 10+  Side taken out. Dead.
+
+PIERCE
+  1   Skin prick.
+  2   Muscle channel.
+  3   On a rib. Point stops. Minor Bleed.
+  4   Intercostal. Winded. Minor Bleed.
+  5   Into the chest. Minor Bleed. Half Move.
+  6   Lung. Major Bleed. Foam. Toughness
+      or Down.
+  7   Deep chest. Major Bleed. No charge.
+  8   Heart, liver, or vessel by facing.
+      Catastrophic. Down.
+  9   Through-and-through. Dead unless Fate.
+ 10+  Spike through the barrel. Dead.
+
+BLUNT
+  1   Barrel bang.
+  2   Rib bruise. −10 Movement.
+  3   Winded. 1 Round.
+  4   One rib cracked. No Bleed.
+  5   Several ribs. Half Move. Stunned.
+  6   Broken wall. Cannot expand. No charge.
+  7   Flail. Permanent −10 Movement unless
+      rest. Minor Bleed inside.
+  8   Barrel stove. Down. Major inside.
+  9   Organs mashed. Dying.
+ 10+  Side crushed. Dead.
+
+==================================================
+FLANK / BELLY
+==================================================
+
+Thin wall behind the last rib. Gut.
+Same soil clock as other bellies.
+
+CUT
+  1   Flank nick.
+  2   Skin split. −10 Movement.
+  3   To the oblique. Minor Bleed.
+  4   Wall opened, gut not. Minor Bleed.
+  5   Peritoneum threatened. No Charge.
+      Heal this hour.
+  6   Into the belly. Major Bleed. Soil
+      clock starts.
+  7   Gut showing. Surgery this hour or
+      dying of soil. Major Bleed.
+  8   Belly opened. Catastrophic. Down.
+  9   Viscera out. Dead unless Fate.
+ 10+  Flank through. Dead.
+
+PIERCE
+  1   Skin prick.
+  2   Muscle channel.
+  3   Wall holds. Minor Bleed.
+  4   Point in, gut missed. Watch it.
+  5   Gut nick. Heal this hour or Major
+      (soil).
+  6   Belly. Major Bleed.
+  7   Viscus opened. Surgery or dying.
+  8   Deep abdomen. Catastrophic. Down.
+  9   Through the flank. Dead unless Fate.
+ 10+  Spike through. Dead.
+
+BLUNT
+  1   Flank bang.
+  2   Soft bruise. −10 Movement.
+  3   Hunches. Agility or it curls.
+  4   Wall shocked. No Charge.
+  5   Deep bruise. Stunned.
+  6   Organs bruised. Major inside. Down
+      unless Toughness.
+  7   Gut ruptured inside. Surgery this
+      hour or dying.
+  8   Belly mashed. Catastrophic inside.
+  9   Viscera destroyed. Dead unless Fate.
+ 10+  Midsection crushed. Dead.
+
+==================================================
+RUMP
+==================================================
+
+CUT
+  1   Rump nick.
+  2   Skin split. −10 Movement.
+  3   To the fascia. Minor Bleed.
+  4   Glute nicked. −10 Agility. Minor Bleed.
+  5   Deep. Cannot kick. Minor Bleed.
+  6   Toward the pelvis. Major Bleed.
+      Half Move.
+  7   Spine or hip from behind. Permanent
+      −20 Movement unless Surgery. Major Bleed.
+  8   Pelvis from above. Catastrophic. Down.
+  9   Rump through to the belly. Dead unless
+      Fate.
+ 10+  Hindquarters opened. Dead.
+
+PIERCE
+  1   Skin prick.
+  2   Muscle channel.
+  3   Beside the pelvis. Minor Bleed.
+  4   Point on the bone. Stunned.
+  5   Deep rump. Minor Bleed. No kick.
+  6   Toward the sacrum. Major Bleed.
+  7   Canal. Permanent behind unless Surgery.
+      Major Bleed. Down.
+  8   Pelvis / belly from above. Catastrophic.
+  9   Through the rump. Dead unless Fate.
+ 10+  Spike down the croup. Dead.
+
+BLUNT
+  1   Rump bang.
+  2   Sore. −10 Movement.
+  3   Hind numb a beat. Agility or the
+      hocks fail.
+  4   Hip point cracked. No Bleed.
+  5   Pelvis wrenched. No kick. Stunned.
+  6   Pelvic wing broken. Cannot stand on
+      that hind.
+  7   Ring failing. Permanent −10 Movement
+      unless Surgery. Down.
+  8   Pelvis smashed. Catastrophic inside.
+      Helpless behind.
+  9   Rump destroyed. Dying.
+ 10+  Hindquarters crushed. Dead.
+
+##################################################
+# FORE
+##################################################
+
+==================================================
+SHOULDER
+==================================================
+
+CUT
+  1   Shoulder nick.
+  2   Skin split. −10 Movement.
+  3   To the fascia. Minor Bleed.
+  4   Muscle nicked. −10 Agility. Minor Bleed.
+  5   Deep. Cannot strike with that fore.
+      Minor Bleed. No Charge.
+  6   Toward the joint. Major Bleed.
+      Half Move.
+  7   Joint opened. Permanent −20 Movement
+      unless Surgery. Major Bleed.
+  8   Into the chest from the shoulder.
+      Catastrophic. Down.
+  9   Forequarter opened. Catastrophic.
+ 10+  Shoulder taken off. Dead unless Fate.
+
+PIERCE
+  1   Skin prick.
+  2   Muscle channel.
+  3   Beside the joint. Minor Bleed.
+  4   Point on the scapula. Stunned.
+  5   Into the pouch. Lame. Minor Bleed.
+  6   Deep shoulder. Major Bleed. No Charge.
+  7   Into the chest through the blade.
+      Major Bleed. Toughness or Down.
+  8   Vessel or chest. Catastrophic.
+  9   Through the shoulder. Dead unless Fate.
+ 10+  Spike through into the chest. Dead.
+
+BLUNT
+  1   Shoulder bump.
+  2   Sore. −10 Movement.
+  3   Dead fore a beat. Agility or it knocks.
+  4   Blade cracked. No Bleed.
+  5   Joint wrenched. No Charge. Stunned.
+  6   Scapula or humerus cracked. Cannot
+      stand on it.
+  7   Bone broken. Permanent without Surgery.
+      Down. Do not drive the herd on it.
+  8   Bone smashed. Catastrophic inside.
+  9   Shoulder and chest stove. Dying.
+ 10+  Forequarter destroyed. Dead.
+
+==================================================
+FORELEG
+==================================================
+
+CUT
+  1   Leg nick.
+  2   Skin split. −10 Movement.
+  3   To the fascia. Minor Bleed.
+  4   Muscle nicked. −10 Agility. Minor Bleed.
+  5   Deep. Cannot strike. Minor Bleed.
+      No Charge.
+  6   Toward the bone. Major Bleed. Half Move.
+  7   Tendon or muscle divided. Permanent
+      −20 Movement unless Surgery. Major Bleed.
+  8   Bone opened. Catastrophic. Down.
+  9   Foreleg taken through. Max 1 Wound.
+      Permanent. Catastrophic Bleed.
+ 10+  Messy. Limb hanging. Max 1 Wound.
+
+PIERCE
+  1   Skin prick.
+  2   Muscle channel.
+  3   Beside the bone. Minor Bleed.
+  4   Point on the bone. Stunned.
+  5   Through meat, bone spared. Minor Bleed.
+  6   Through the leg. Major Bleed.
+  7   Joint or tendon. Permanent unless
+      Surgery. Major Bleed.
+  8   Vessel. Catastrophic. Down.
+  9   Through-and-through. Permanent.
+ 10+  Leg burst. Max 1 Wound. Catastrophic.
+
+BLUNT
+  1   Leg bang.
+  2   Bruise. −10 Movement.
+  3   Nerve shock. Agility or it knocks.
+  4   Bone hairline. No Bleed. No Charge.
+  5   Bone cracked. Half Move.
+  6   Bone broken. Cannot stand on it.
+  7   Open break. Permanent without Surgery.
+      Down. Minor Bleed.
+  8   Bone smashed. Field loss unless Fate.
+  9   Leg crushed. Helpless on that corner.
+ 10+  Limb destroyed. Dead unless Fate.
+
+==================================================
+KNEE
+==================================================
+
+Carpus. Not the stifle.
+
+CUT
+  1   Knee nick.
+  2   Skin split. −10 Movement.
+  3   To the capsule, not in. Minor Bleed.
+  4   Capsule nicked. Lame. Minor Bleed.
+  5   Joint open. No Charge. Soil if dirty.
+  6   Through the front. Major Bleed.
+      Down unless Toughness.
+  7   Carpus deranged. Permanent −20
+      Movement unless Surgery. Major Bleed.
+  8   Joint destroyed. Catastrophic. Cannot
+      stand on it.
+  9   Knee taken off. Max 1 Wound. Permanent.
+ 10+  Messy disarticulation. Max 1 Wound.
+
+PIERCE
+  1   Skin prick.
+  2   Beside the joint.
+  3   Capsule holds. Minor Bleed.
+  4   Into the pouch. Lame. Minor Bleed.
+  5   Through the joint. Soil clock.
+  6   Transfixed. Major Bleed.
+  7   Joint ruined. Permanent unless Surgery.
+  8   Through the knee. Catastrophic. Down.
+  9   Disarticulated. Max 1 Wound.
+ 10+  Knee burst. Max 1 Wound.
+
+BLUNT
+  1   Knee bang.
+  2   Sprain. −10 Movement.
+  3   Joint shocked. Agility or it knocks.
+  4   Chip. Lame. No Bleed.
+  5   Several chips. Half Move. No Charge.
+  6   Broken, aligned. Cannot stand on it.
+  7   Smashed. Permanent without Surgery. Down.
+  8   Powder. Field loss unless Fate / Surgery.
+  9   Knee crushed. Helpless on that corner.
+ 10+  Fore ends at the chest in function.
+      Dead unless Fate.
+
+##################################################
+# SHARED HOOF
+##################################################
+
+==================================================
+HOOF
+==================================================
+
+Cloven (elk, cattle, sheep) or pig hoof.
+Two weight-bearing claws. Dewclaw is
+flavour on 1–3. Losing one claw is 7.
+Losing the box is 9–10.
+Not a horse pastern. No single coffin
+bone story.
+
+CUT
+  1   Coronet nick.
+  2   Heel or dewclaw split. −10 Movement
+      until bound.
+  3   One claw wall opened. Minor Bleed.
+      That claw will scar.
+  4   Coronet to the quick. Lame. Minor Bleed.
+  5   Deep to a claw joint. No Charge.
+      Minor Bleed.
+  6   Through the cleft. Major Bleed.
+      Half Move.
+  7   One claw ruined or hanging.
+      Permanent −20 Movement unless Surgery.
+      Major Bleed. Walks on the other claw.
+  8   Both claws opened. Catastrophic Bleed.
+      Cannot stand on it.
+  9   Foot hanging on skin. Max 1 Wound.
+      Permanent. Catastrophic Bleed.
+ 10+  Foot off. Max 1 Wound. Permanent.
+      Catastrophic. Field loss unless Fate.
+
+PIERCE
+  1   Sole prick. The beast knows.
+  2   White line / cleft grit. −10 Movement
+      until it is out.
+  3   Into the sole, bone spared. Minor Bleed.
+  4   Toward a claw bone. Lame. Minor Bleed.
+  5   Into a claw joint. Minor Bleed. No Charge.
+      Heal this hour.
+  6   Through the cleft. Major Bleed.
+  7   Joint soil. Permanent unless Surgery.
+      Major Bleed.
+  8   Through the foot. Catastrophic. Down.
+  9   Foot burst. Max 1 Wound.
+ 10+  Foot exploded. Max 1 Wound. Catastrophic.
+
+BLUNT
+  1   Rapped hoof. Stamp.
+  2   Sole bruise. −10 Movement.
+  3   Coronet hematoma. Short step.
+  4   Wall crack / hairline claw. Lame.
+      No Bleed.
+  5   One claw cracked. Half Move. No Charge.
+  6   Claw bone broken, hoof closed.
+      Cannot stand on it. No Bleed.
+  7   Open break or torn laminae in one
+      claw. Permanent without Surgery. Down.
+  8   Foot smashed. Field loss unless Fate /
+      Surgery.
+  9   Both claws crushed. Helpless on that
+      corner.
+ 10+  Foot destroyed. Max 1 Wound. Dead
+      unless Fate.
+
+##################################################
+# HIND
+##################################################
+
+==================================================
+HIP
+==================================================
+
+CUT
+  1   Hip nick.
+  2   Skin split. −10 Movement.
+  3   To the fascia. Minor Bleed.
+  4   Muscle nicked. −10 Agility. Minor Bleed.
+  5   Deep. Cannot kick. Minor Bleed. No Charge.
+  6   Toward the joint. Major Bleed. Half Move.
+  7   Origin or joint. Permanent −20 Movement
+      unless Surgery. Cannot Charge. Major Bleed.
+  8   Pelvic rim or vessel. Catastrophic. Down.
+  9   Through the hip into the belly.
+      Dead unless Fate.
+ 10+  Hindquarter opened. Dead.
+
+PIERCE
+  1   Skin prick.
+  2   Muscle channel.
+  3   Beside the joint. Minor Bleed.
+  4   Point on the pelvis. Stunned.
+  5   Deep hip. Minor Bleed. No kick.
+  6   Toward the joint. Major Bleed.
+  7   Joint. Permanent unless Surgery.
+      Major Bleed. Down unless Toughness.
+  8   Pelvis / vessel. Catastrophic.
+  9   Through the hip. Dead unless Fate.
+ 10+  Spike through the quarter. Dead.
+
+BLUNT
+  1   Hip bang.
+  2   Dead hip. −10 Movement.
+  3   Hind shock. Agility or it sits.
+  4   Point cracked. No Bleed. No kick.
+  5   Joint wrenched. No Charge. Stunned.
+  6   Hip or pelvis cracked. Cannot stand
+      on that hind.
+  7   Joint or origin gone. Permanent −20
+      Movement unless Surgery. Down.
+  8   Femur smashed. Catastrophic inside.
+      Do not move the beast.
+  9   Pelvis and hip destroyed. Dying.
+ 10+  Hindquarter crushed. Dead.
+
+==================================================
+THIGH
+==================================================
+
+CUT
+  1   Thigh nick.
+  2   Skin split. −10 Movement.
+  3   To the fascia. Minor Bleed.
+  4   Ham nicked. −10 Agility. Minor Bleed.
+  5   Deep belly. No kick. Minor Bleed.
+  6   Near the vessel. Major Bleed. Half Move.
+  7   Muscle divided. Permanent −20 Movement
+      unless Surgery. Cannot Charge. Major Bleed.
+  8   Named vessel. Catastrophic. Down.
+  9   Thigh taken through. Max 1 Wound.
+      Permanent. Catastrophic Bleed.
+ 10+  Messy. Max 1 Wound. Catastrophic.
+
+PIERCE
+  1   Skin prick.
+  2   Muscle channel.
+  3   Deep meat, vessel spared. Minor Bleed.
+  4   Point on the bone. Stunned.
+  5   Through the belly. Minor Bleed. No kick.
+  6   Near the vessel. Major Bleed.
+  7   Vessel nick. Major Bleed. Down unless
+      Toughness.
+  8   Vessel through. Catastrophic. Down.
+  9   Through-and-through. Permanent.
+ 10+  Thigh burst. Max 1 Wound. Catastrophic.
+
+BLUNT
+  1   Thigh bang.
+  2   Dead muscle. −10 Movement.
+  3   Nerve shock. Agility or it buckles.
+  4   Bone hairline. No Bleed. No Charge.
+  5   Bone cracked. Half Move.
+  6   Bone broken. Cannot stand on it.
+  7   Open break. Permanent without Surgery.
+      Down.
+  8   Bone smashed. Catastrophic inside.
+  9   Thigh crushed. Helpless on that corner.
+ 10+  Limb destroyed. Dead unless Fate.
+
+==================================================
+HOCK
+==================================================
+
+CUT
+  1   Hock nick.
+  2   Skin split. −10 Movement.
+  3   To the capsule, not in. Minor Bleed.
+  4   Capsule nicked. Lame. Minor Bleed.
+  5   Joint or tendon scored. No Charge.
+  6   Through the point. Major Bleed.
+  7   Tendon divided. Hock drops. Permanent
+      −20 Movement unless Surgery. Major Bleed.
+  8   Hock destroyed. Catastrophic. Down.
+  9   Hock taken off. Max 1 Wound. Permanent.
+ 10+  Messy disarticulation. Max 1 Wound.
+
+PIERCE
+  1   Skin prick.
+  2   Beside the point.
+  3   Capsule holds. Minor Bleed.
+  4   Into the pouch. Lame. Minor Bleed.
+  5   Through the joint. Soil clock.
+  6   Transfixed. Major Bleed.
+  7   Tendon and joint. Permanent unless
+      Surgery. Hock drops.
+  8   Through the hock. Catastrophic. Down.
+  9   Disarticulated. Max 1 Wound.
+ 10+  Hock burst. Max 1 Wound.
+
+BLUNT
+  1   Hock bang.
+  2   Sprain. −10 Movement.
+  3   Joint shocked. Agility or it knocks.
+  4   Chip. Lame. No Bleed.
+  5   Wrenched point. Half Move. No Charge.
+  6   Broken, aligned. Cannot stand on it.
+  7   Smashed. Permanent without Surgery. Down.
+  8   Powder. Field loss unless Fate / Surgery.
+  9   Hock crushed. Helpless on that corner.
+ 10+  Hind ends at the hip in function.
+      Dead unless Fate.

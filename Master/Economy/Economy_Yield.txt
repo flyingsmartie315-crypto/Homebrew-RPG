@@ -1,0 +1,624 @@
+# Economy_Yield.txt
+# How much a settlement takes in a year.
+# Crops: Economy_Agriculture.txt
+# Beasts: Economy_Livestock.txt
+# Site scores: Geography_Rules.txt and Bestiary_Rules.txt
+# Prices: Economy_Primary_Goods.txt
+
+This file does not invent hectares.
+
+Field take uses the people and the ground they work.
+Margins sit beside the field. They are not a second plough.
+
+Margins in this file
+- Burgage garden (house plot)
+- Forage and trap (wood, fringe, custom)
+- Water take (fish, and named sea-work)
+- Yard and herd (poultry, pig, sheep, goat, cattle)
+
+Do not mash them into one “food” number.
+A lake town can be short of barley and still eat.
+
+
+--------------------------------------------------
+ORDER
+--------------------------------------------------
+
+Field crop
+1. Domain
+2. Biome
+3. Site scores
+4. HSI match → Suitability S
+5. S → Yield factor Y
+6. Who is on the land → field-hands F
+7. What they plant → hand-share
+8. Take = F × share × class yield × Y
+
+Stop a crop at the first failed gate. Failed Domain or Biome → that crop is 0.
+
+Margins (after the field, every year)
+9. Burgage
+10. Forage and trap
+11. Water take
+12. Yard and herd
+
+Hands used for forage, nets, and stock are not taken out of F.
+They come from the household share that is not behind a plough.
+
+
+--------------------------------------------------
+1. DOMAIN
+--------------------------------------------------
+
+Read Domain from the crop.
+Almost all entries in Economy_Agriculture.txt are Domain: Land.
+
+If the worked ground is not that Domain, take is 0.
+Do not run the rest.
+
+
+--------------------------------------------------
+2. BIOME
+--------------------------------------------------
+
+Read Biome tags from the crop.
+Read the Biome of the ground the fields sit on, not the water the docks sit on.
+
+- Settlement names a Linked Feature where the fields are → use that feature’s Biome
+- Else use the Local Region Biome
+- A matching Sub-biome allows the crop only on those features, not on the whole country
+
+No overlap → take 0.
+Do not run HSI.
+
+
+--------------------------------------------------
+3. SITE SCORES
+--------------------------------------------------
+
+Settlements do not yet print a seven-number line.
+Build one.
+
+Start from:
+- the Linked Feature the fields sit on, if named
+- else the Local Region Harvest line
+
+Harvest is the printed score. Annual yield uses Harvest.
+Do not apply a seasonal template to the year’s bushels.
+Use a seasonal template only when asked if a crop is in the ground, failing, or being lifted in a named season.
+
+Then replace Human Density with the settlement’s own figure.
+Region Human Density averages empty wood and water. Crops need the people who live here.
+
+Settlement Human Density
+- Ruin / empty site: 0
+- Hamlet, or fewer than 200 people: 2
+- Village, or 200–1,500: 3
+- Town, or 1,500–8,000: 4
+- City, or more than 8,000: 5
+- Castle / Order seat with working fields: 3
+- Castle / Order seat with no fields: 2
+
+If the settlement file later prints its own score line, use that line and do not derive.
+
+Population figure is the midpoint of the printed range.
+About 4,000–6,000 → 5,000.
+
+
+--------------------------------------------------
+4. HSI MATCH
+--------------------------------------------------
+
+Same method as Bestiary_Rules.txt.
+Compare the crop HSI to the site scores from step 3.
+
+For each axis the crop actually uses:
+- Site score inside the crop range = 1
+- 1 step outside = 0.5
+- 2 or more steps outside = 0
+- Dash (—) on the crop = omit that axis from the sum
+
+S = total points ÷ axes used.
+
+Human Density on a crop line means cleared, worked land and standing people.
+Flora is cover on the worked ground.
+Fauna is pest and graze pressure around the crop, not the crop itself.
+A site Fauna above the crop range is bite and trampling, not “rich country.”
+
+
+--------------------------------------------------
+5. YIELD FACTOR
+--------------------------------------------------
+
+Wildlife can persist at a thin match. A field cannot.
+Do not use the creature presence bands as bushels.
+
+S          Y     Meaning
+< 0.30     0     Not a field crop here
+0.30–0.49  0.35  Thin. Catch crop or desperate row
+0.50–0.69  0.60  Poor floor. Hard year is normal
+0.70–0.84  0.85  Ordinary take
+≥ 0.85     1.00  Full take for this crop on this ground
+
+Kitchen-garden exception:
+If 0.20 ≤ S < 0.30 and the crop is ROOT, COLE, SOFT FRUIT, or a bulb, a house may still grow a little on the burgage.
+That take is not field yield. Do not add it here.
+
+
+--------------------------------------------------
+6. FIELD-HANDS
+--------------------------------------------------
+
+Not everyone in the count holds a plough.
+
+Field fraction (share of the population tied to worked land)
+
+Type                         Fraction
+Hamlet                       0.85
+Village                      0.75
+Town                         0.30
+City                         0.12
+Castle / Order seat          0.45
+Ruin / hazard                0
+
+Read the Economy block and adjust. Stack. Floor 0.05, cap 0.90.
+
+- Mining, kiln, timber-hub, dock-first, “food imported”: −0.20
+- “Not a grain capital” / hardier foodstuffs only: −0.10
+- Named self-supply, vale fields, market-garden hinterland: +0.10
+- Siege, plague, or a logged flight of hands: set by the Campaign Log
+
+Field-hands F = Population midpoint × field fraction × 0.40
+
+The 0.40 is the working share inside those households.
+Children, the old, house-work, and by-work are the rest.
+
+F is the hands that can be put on fields, orchards, and dye-rows this year.
+It is not soldiers and it is not the dock.
+
+
+--------------------------------------------------
+7. WHAT THEY PLANT
+--------------------------------------------------
+
+Do not put every passing crop on every acre.
+
+First, drop any crop with Y = 0.
+
+Then:
+
+Rarity 7–10
+Grown if Y ≥ 0.35. These are the staple candidates.
+
+Rarity 5–6
+Grown if Y ≥ 0.60, or if the Economy block names them.
+
+Rarity 1–4
+Grown only if the Economy block names them (estate, order garden, specialist row).
+
+Among the crops that remain, split F:
+
+Default hand-share (farming village or hamlet)
+- Best staple grain or, if no grain passes, best ROOT: 0.60
+- Pulse: 0.10
+- ROOT / COLE not already used as the staple: 0.15
+- OIL AND FIBRE: 0.10 if any such crop has Y ≥ 0.60; else 0
+- ORCHARD / VINE / SOFT FRUIT: 0.05 if any has Y ≥ 0.70; else 0
+
+Town or city
+Same shape, fewer hands. Do not raise orchard share just because the market wants fruit.
+If the Economy block names one crop as the point of the place (hops, grapes, flax, dye), give that crop 0.30–0.50 of F and shrink the staple.
+
+Castle / Order seat
+Follow the Economy block. Eyrenal-style vale: staple + garden + hay. No dye estates unless written.
+
+If several crops share a class, give the land to the one with the higher Y.
+Tie → the one with the higher Rarity (more commonly kept).
+
+Shares must sum to 1.00 of F, or less if the Economy block says the rest of the hands are hay, fallow, or woodland.
+
+
+--------------------------------------------------
+8. CLASS YIELD
+--------------------------------------------------
+
+Kilograms per field-hand per year at Y = 1.00.
+That hand’s year is on this class. Split hands before you multiply.
+
+Class                         kg / hand / year
+GRAIN                         600
+PULSE                         280
+ROOT                          900
+COLE                          700
+OIL AND FIBRE                 160
+ORCHARD fruit / nut           350
+SOFT FRUIT                    220
+VINE (grape, hop as bine)     400
+SPICE                         12
+DYE                           40
+Mulberry / Raw Silk           8
+
+GRAIN and PULSE figures are barn take after ordinary seed is held back.
+ROOT and COLE are wet weight at lift.
+ORCHARD assumes standing trees, not a first-year whip.
+
+A hop bine uses the VINE line for cone-weight, not for ale.
+Silk is cocoons, not leaves.
+
+Hay and woodland graze are not a crop class.
+They show up as the pasture factor under Yard and herd.
+
+
+--------------------------------------------------
+TAKE
+--------------------------------------------------
+
+Take (kg / year) = F × hand-share × class yield × Y
+
+Report by crop, not as one mashed “food” number.
+Convert to sacks, crates, and cart-loads only when a price or a road is needed.
+Those pack figures are on Economy_Primary_Goods.txt.
+
+
+--------------------------------------------------
+WORKED: KOLBY-ON-VATN, BARLEY AND WHEAT
+--------------------------------------------------
+
+Population midpoint: 5,000
+Type: Town
+Economy: timber hub, docks, forges; hardier foodstuffs only; not a grain capital
+
+Field fraction: 0.30 − 0.20 − 0.10 = 0.05 → floor 0.05
+F = 5,000 × 0.05 × 0.40 = 100 hands
+
+Site
+Local Region Kannavald Deepwood, Harvest, fields on the forest-edge floor not the lake.
+Biome: Boreal
+Printed region: Temperature 2 | Rainfall 4 | Human Density 2 | Flora 4 | Fauna 2 | Topography 3 | Hydrology 3
+Settlement Human Density for a town of 5,000: 4
+Site line used: Temperature 2 | Rainfall 4 | Human Density 4 | Flora 4 | Fauna 2 | Topography 3 | Hydrology 3
+
+Wheat
+Biome: Temperate, Mediterranean, Steppe
+No Boreal → stop. Take 0.
+Kolby does not grow wheat.
+
+Barley
+Biome: Temperate, Boreal, Oceanic, Steppe → pass
+HSI: Temperature 1–4 | Rainfall 2–4 | Human Density 3–5 | Flora 3–4 | Fauna 2–3 | Topography 0–2 | Hydrology 2–3
+
+Temperature 2 inside → 1
+Rainfall 4 inside → 1
+Human Density 4 inside → 1
+Flora 4 inside → 1
+Fauna 2 inside → 1
+Topography 3 is 1 outside 0–2 → 0.5
+Hydrology 3 inside → 1
+
+S = 6.5 ÷ 7 ≈ 0.93 → Y = 1.00
+
+Rarity 9 → staple candidate.
+Town with “hardier foodstuffs only”: barley (or rye/oats) takes the staple share 0.60.
+
+Barley take = 100 × 0.60 × 600 × 1.00 = 36,000 kg / year
+= 900 sacks of 40 kg
+= 45 standard cart-loads by weight
+
+Five thousand people cannot live on 36 tonnes of barley.
+The margins below are why Kolby is still a town.
+
+
+--------------------------------------------------
+WORKED: ASKGRUV, POTATO
+--------------------------------------------------
+
+Population midpoint: 550
+Type: Village
+Economy: hard-rock mine; food mostly imported; thin soil
+
+Field fraction: 0.75 − 0.20 = 0.55
+F = 550 × 0.55 × 0.40 = 121 hands
+
+Same Kannavald floor scores as above, settlement HD 3 (village).
+Site: Temperature 2 | Rainfall 4 | Human Density 3 | Flora 4 | Fauna 2 | Topography 3 | Hydrology 3
+
+Potato
+Biome: Temperate, Boreal, Oceanic, Alpine → pass
+HSI: Temperature 1–3 | Rainfall 3–4 | Human Density 3–5 | Flora 3–4 | Fauna 2–3 | Topography 0–3 | Hydrology 2–3
+
+All seven inside → S = 1.00 → Y = 1.00
+
+Economy says imported food and thin soil. Do not give potato the 0.60 staple share.
+Give ROOT 0.15 as garden-and-row, not as a potato basin.
+
+Potato take = 121 × 0.15 × 900 × 1.00 ≈ 16,000 kg / year
+Useful. Not a store for the pits.
+
+
+--------------------------------------------------
+9. BURGAGE
+--------------------------------------------------
+
+Every living household may keep a plot.
+Households H = Population midpoint ÷ 5
+
+Burgage grows ROOT, COLE, bulbs, and a little SOFT FRUIT only.
+It does not grow market grain.
+
+Burgage factor
+- Hamlet / village: 1.00
+- Town: 0.70
+- City: 0.35
+- Castle with named gardens: 0.80
+- Ruin: 0
+- Walled town with no outskirts written: 0.50
+
+If the best ROOT or COLE crop at this site has Y ≥ 0.35, burgage uses that Y.
+If no such crop passes the field gate but S ≥ 0.20, use Y = 0.35.
+Otherwise burgage = 0.
+
+Take = H × 100 kg × burgage factor × Y
+
+This is house food. Do not cart it unless the Economy block names market-garden.
+
+
+--------------------------------------------------
+10. FORAGE AND TRAP
+--------------------------------------------------
+
+Use the Local Region scores, not the settlement Human Density.
+Forage is the empty wood and fringe. A town HD of 4 does not make the Deepwood a garden, and it does not empty it either.
+
+Region Human Density is the pressure on the wild take.
+Customs, Forest Law, taboo, and “Never Alone” are lids. If a culture file closes the wood, apply the law cut.
+
+Plant forage (nuts, berries, greens, fungi, mast)
+Base: 25 kg per person per year at full factor.
+
+Flora factor
+0–1 → 0
+2 → 0.35
+3 → 0.70
+4–5 → 1.00
+
+Pressure cut (region Human Density)
+0–1 → ×1.00
+2 → ×0.85
+3 → ×0.55
+4 → ×0.25
+5 → ×0.05
+
+Law cut
+- Open common / no written limit: ×1.00
+- Forest Law, licence, or watched wood: ×0.70
+- Taboo or closed season most of the year: ×0.40
+
+Plant take = Population × 25 × Flora factor × pressure × law
+
+Trap and small-hunt (meat; hide follows the carcase)
+Base: 8 kg meat per person per year at full factor.
+
+Fauna factor
+0–1 → 0
+2 → 0.50
+3 → 0.80
+4–5 → 1.00
+
+Pressure cut (region Human Density)
+0–1 → ×1.00
+2 → ×0.75
+3 → ×0.40
+4 → ×0.10
+5 → ×0
+
+Same law cut as plant forage.
+
+Trap take = Population × 8 × Fauna factor × pressure × law
+
+Fur and hide from this take follow Economy_Livestock.txt slaughter parts on GAME, in rough proportion to the meat.
+Do not run a second hunt on top for the same mouths.
+
+This margin is house food and a little trade-fur.
+Named commercial hunting (a warrener, a fur post) exists only if the Economy block says so. Then raise trap take ×1.5 and send a third of it off-site.
+
+
+--------------------------------------------------
+11. WATER TAKE
+--------------------------------------------------
+
+Fish is not a field crop.
+Read the water feature the settlement actually works: lake, river, strand, harbour.
+If none is linked and Hydrology on the land line is 0–1, water take is 0.
+
+Water factor
+Hydrology (or the water feature’s Hydrology)
+0–1 → 0
+2 → 0.35
+3 → 0.70
+4–5 → 1.00
+
+Fauna on that same water feature
+0–1 → ×0.20
+2 → ×0.60
+3 → ×0.85
+4–5 → ×1.00
+
+Use one method, not both:
+
+Household nets
+When the Economy block does not name docks, fleets, or fishers as work.
+Take = Population × 15 kg × water factor
+
+Working fishery
+When the Economy block names fishing, docks, smoke-houses, or a fleet.
+Fish fraction
+- Hamlet / village: 0.15
+- Town: 0.10
+- Named fishing port or fish-staple place: 0.20
+Fish-hands = Population × fish fraction × 0.40
+Take = fish-hands × 800 kg × water factor
+
+800 kg is mixed catch per working fisher-year, lake or river.
+Named ocean work: 1,200 kg per hand, same factor, using the oceanic feature.
+A whale or a leviathan is a voyage. Do not fold it into this annual line.
+
+Do not add household nets on top of a working fishery for the same water.
+The working number already feeds the town and leaves a surplus.
+
+
+--------------------------------------------------
+12. YARD AND HERD
+--------------------------------------------------
+
+Stock numbers come from households and ground, not from a hidden census.
+H = Population midpoint ÷ 5
+
+Read live output and slaughter weights from Economy_Livestock.txt when you need a part-by-part split.
+This section only needs yearly offtake.
+
+Pasture factor (large stock)
+Flora 0–1 → 0.15
+Flora 2 → 0.60
+Flora 3 → 1.00
+Flora 4 → 0.70 sheep and goat, 0.40 cattle, 1.00 pannage pig
+Flora 5 → 0.40 sheep and goat, 0.20 cattle, 1.00 pannage pig
+
+Then:
+- Topography 4–5: cattle ×0.50, goat unchanged, sheep ×0.70
+- Rainfall 0–1 with no irrigation written: all graze-stock ×0.40
+- Economy names sheepwalk, cattle, or dairy: large stock ×1.50, requires pasture factor ≥ 0.60
+- Economy names mine, kiln, or “food imported”: large stock ×0.60
+- Town / city already use the thinner head-counts below. Do not stack a second town cut.
+
+Head-count per household before pasture factor
+
+                 Chicken   Pig   Sheep or goat   Cattle
+Hamlet/village   6         1     4               0.40
+Town             3         0.5   0.5             0.05
+City             1         0.2   0               0
+Castle / vale    4         0.8   2               0.25
+
+Pick sheep on open or mixed floor (Flora 2–3, Topography 0–2).
+Pick goat on steep, thin, or browse-wood (Topography 3–5, or Flora 4–5).
+A place may keep a little of both. Do not give every house 4 sheep and 4 goats.
+
+Chickens ignore pasture factor.
+Pigs use pannage (Flora 4–5) or scraps (town). Pasture factor for pigs is 1.00 unless Flora is 0–1 (then 0.50).
+
+Yearly take per head kept
+Figures are midpoints from Economy_Livestock.txt, as offtake, not a slaughter of the whole herd.
+
+Chicken: 100 eggs + 1.0 kg meat
+Duck or goose: only if Economy or a water feature names them. Duck 80 eggs + 1.5 kg; goose 20 eggs + 3 kg
+Pig: 30 kg pork (herd turning, not every pig killed)
+Sheep: 2.0 kg wool + 30 kg milk + 8 kg mutton
+Goat: 180 kg milk + 6 kg meat
+Cattle: 170 kg milk + 20 kg beef
+  (about one in three head is a milker; oxen are labour, not a meat crop)
+
+Draft horses, mules, and donkeys are labour. Do not harvest them.
+
+Take = H × heads per household × pasture factor × yearly take per head
+
+Report milk, eggs, wool, and meat separately.
+Slaughter by-parts (hide, tallow, bone) only when a craft or a cart needs them. Pull those weights from Economy_Livestock.txt against the meat offtake, not against the live herd.
+
+
+--------------------------------------------------
+WORKED MARGINS: KOLBY-ON-VATN
+--------------------------------------------------
+
+Population 5,000. H = 1,000.
+Region (forage): Temperature 2 | Rainfall 4 | Human Density 2 | Flora 4 | Fauna 2 | Topography 3 | Hydrology 3
+Lake Kolvatn feature (water): Hydrology 4 | Fauna 4 | Human Density 3
+Customs: Forest Law / watched wood → law cut 0.70
+Economy: fishing docks; timber hub; not a grain capital
+
+Burgage
+Town factor 0.70. Best hardy ROOT/COLE Y ≈ 1.00 (cabbage, turnip, potato all pass Boreal).
+Take = 1,000 × 100 × 0.70 × 1.00 = 70,000 kg garden stuff
+
+Plant forage
+Flora 4 → 1.00. Pressure HD 2 → 0.85. Law 0.70.
+Take = 5,000 × 25 × 1.00 × 0.85 × 0.70 ≈ 74,000 kg
+Mostly nuts, berries, fungi. House food.
+
+Trap
+Fauna 2 → 0.50. Pressure HD 2 → 0.75. Law 0.70.
+Take = 5,000 × 8 × 0.50 × 0.75 × 0.70 ≈ 21,000 kg meat
+Thin game. The wood is watched and not teeming.
+
+Water
+Working fishery. Town fish fraction 0.10.
+Fish-hands = 5,000 × 0.10 × 0.40 = 200
+Water factor = 1.00 × 1.00 = 1.00
+Take = 200 × 800 × 1.00 = 160,000 kg fish
+This is the calorie that is not in the barley.
+
+Yard and herd
+Town heads. Flora 4 → pigs 1.00, sheep/goat 0.70, cattle 0.40. Topography 3 → goat country more than sheep-floor; use goat for the small-stock line.
+Chickens: 1,000 × 3 = 3,000 → 300,000 eggs + 3,000 kg meat
+Pigs: 1,000 × 0.5 × 1.00 = 500 → 15,000 kg pork
+Goats: 1,000 × 0.5 × 0.70 = 350 → 63,000 kg milk + 2,100 kg meat
+Cattle: 1,000 × 0.05 × 0.40 = 20 → 3,400 kg milk + 400 kg beef
+
+Kolby plate, rough
+- Field barley: 36,000 kg
+- Burgage: 70,000 kg
+- Forage plants: 74,000 kg
+- Trap: 21,000 kg
+- Fish: 160,000 kg
+- Yard meat: ~20,000 kg
+- Milk: ~66,000 kg
+- Eggs: 300,000 (about 15,000 kg)
+
+Grain is still short. Fish, garden, mast, and the yard close the year.
+Lake-trade grain still matters in Longnight.
+
+
+--------------------------------------------------
+WORKED MARGINS: ASKGRUV
+--------------------------------------------------
+
+Population 550. H = 110.
+Same region forage scores. No fishing named. Thin soil. Food imported. Steep rock.
+
+Burgage
+Village 1.00. ROOT Y = 1.00.
+Take = 110 × 100 × 1.00 × 1.00 = 11,000 kg
+
+Plant forage
+Same factors as Kolby.
+Take = 550 × 25 × 1.00 × 0.85 × 0.70 ≈ 8,000 kg
+
+Trap
+Take = 550 × 8 × 0.50 × 0.75 × 0.70 ≈ 2,300 kg
+
+Water
+Household nets on the Askflow (Hydrology 3, Fauna thin → use 0.70 × 0.60 = 0.42).
+Take = 550 × 15 × 0.42 ≈ 3,500 kg
+Not a dock.
+
+Yard and herd
+Village heads × 0.60 imported-food cut. Flora 4 / Topography 4–5: goat not cattle.
+Chickens: 110 × 6 = 660 → 66,000 eggs + 660 kg meat
+Pigs: 110 × 1 × 1.00 × 0.60 = 66 → 2,000 kg pork
+Goats: 110 × 4 × 0.70 × 0.60 ≈ 185 → 33,000 kg milk + 1,100 kg meat
+Cattle: 110 × 0.40 × 0.20 × 0.60 ≈ 5 → 850 kg milk + 100 kg beef
+
+Askgruv eats garden, goat, and a little wood-take.
+The potato row helps. The pits still buy grain.
+
+
+--------------------------------------------------
+WHAT THIS FILE DOES NOT DO
+--------------------------------------------------
+
+- It does not price the take. Use Economy_Primary_Goods.txt.
+- It does not assign tithe, rent, or who owns the barn. That is Economy_Rules.
+- It does not grow a crop that failed Domain or Biome because the market wants it.
+- It does not use region Human Density for a town’s fields.
+- It does not use town Human Density for forage.
+- It does not turn Rarity into kilograms. Rarity only decides if the crop is planted.
+- It does not slaughter the live herd to book a year’s meat.
+- It does not count a whale, a gryphon, or a royal hunt as annual yield.

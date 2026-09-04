@@ -18,6 +18,51 @@ Core_Injury.txt §4z.
 
 Order: Head, Torso, Arm, Leg.
 
+WALLACE (first d100)
+  01–10    Head         10%
+  11–50    Torso        40%
+  51–60    Right Arm    10%
+  61–70    Left Arm     10%
+  71–85    Right Leg    15%
+  86–100   Left Leg     15%
+
+SLOTS (second d100)
+
+  Arm
+    01–10    Hand         10%
+    11–35    Forearm      25%
+    36–45    Elbow        10%
+             Even = Outer Elbow
+             Odd  = Inner Elbow
+    46–80    Upper Arm    35%
+    81–00    Shoulder     20%
+
+  Leg
+    01–08    Foot              8%
+    09–47    Shin / Calf       39%
+    48–57    Knee              10%
+             Face-to-face: Front Knee
+             From behind:  Back Knee
+    58–95    Thigh             38%
+    96–00    Hip / Buttock     5%
+
+  Head
+    01–10    Eyes                         10%
+    11–60    Skull / Occipital            50%
+    61–85    Lower face / Back of neck    25%
+    86–00    Throat                       15%
+
+  Torso
+    01–40    Chest / Upper Back           40%
+    41–45    Armpit                        5%
+    46–85    Abdomen / Lower Back         40%
+    86–95    Groin / Pelvis
+             (Glutes / Sacrum from behind) 10%
+    96–00    Collarbone / Base of Neck     5%
+
+Facing: Core_Injury.txt and the pair names
+on each page.
+
 ##################################################
 # HEAD
 ##################################################

@@ -244,60 +244,60 @@ Versatile          Choose type each attack. Some
 --------------------------------------------------
 
 Small
-  Dagger *                 7 sc   Enc 10   Ord
+  Dagger *                 7 sc   Enc 3   Ord
     (3/5/1)  Reach 0.5   Fast
-  Misericordia             9 sc   Enc 10   Ord
+  Misericordia             9 sc   Enc 4   Ord
     (2/6/1)  Reach 0.5   Fast, Armour Piercing
-  Main Gauche              8 sc   Enc 15   Parrying
+  Main Gauche              8 sc   Enc 5   Parrying
     (2/4/1)  Reach 0.5   Fast, Defensive, Balanced
-  Utility Axe (Hatchet) *  8 sc   Enc 15   Ord
+  Utility Axe (Hatchet) *  8 sc   Enc 5   Ord
     (5/1/3)  Reach 0.5   Impact, Throwing
 
 Axes
-  One-Handed Axe *        14 sc   Enc 40   Ord
+  One-Handed Axe *        14 sc   Enc 8   Ord
     (5/2/3)  Reach 1     Impact, Versatile
-  Two-Handed Axe *     1 gc 6 sc  Enc 150  Two-handed
+  Two-Handed Axe *     1 gc 6 sc  Enc 22  Two-handed
     (6/2/4)  Reach 1.5   Impact, Slow, Versatile
                          (Hulking only)
 
 Maces / hammers
-  One-Handed Mace *       14 sc   Enc 50   Ord
+  One-Handed Mace *       14 sc   Enc 10   Ord
     (2/3/5)  Reach 1     Armour Piercing, Pummelling
-  Two-Handed Mace *    1 gc 6 sc  Enc 150  Two-handed
+  Two-Handed Mace *    1 gc 6 sc  Enc 28  Two-handed
     (1/3/6)  Reach 1.5   AP, Impact, Pummelling, Slow
-  Staff                    6 sc   Enc 50   Two-handed
+  Staff                    6 sc   Enc 8   Two-handed
     (0/1/4)  Reach 2     Defensive, Fast, Concealable,
                          Inconspicuous
 
 Swords
-  Double-edged straight   14 sc   Enc 50   Ord
+  Double-edged straight   14 sc   Enc 11   Ord
     (4/4/2)  Reach 1     Balanced, Precise
-  Single-edged curved     14 sc   Enc 50   Ord
+  Single-edged curved     14 sc   Enc 12   Ord
     (5/2/2)  Reach 1     Balanced, Impact
-  H&H double-edged *   1 gc 3 sc  Enc 75   Ord / Two-hand
+  H&H double-edged *   1 gc 3 sc  Enc 16   Ord / Two-hand
     (5/4/2)  Reach 1.5   Balanced, Versatile
-  H&H single-edged *   1 gc 3 sc  Enc 80   Ord / Two-hand
+  H&H single-edged *   1 gc 3 sc  Enc 17   Ord / Two-hand
     (6/2/3)  Reach 1.5   Balanced, Impact, Versatile
-  Great double-edged * 1 gc 8 sc  Enc 200  Two-handed
+  Great double-edged * 1 gc 8 sc  Enc 30  Two-handed
     (7/4/3)  Reach 2     Impact, Slow, Versatile
                          (Hulking only)
-  Great single-edged * 1 gc 8 sc  Enc 220  Two-handed
+  Great single-edged * 1 gc 8 sc  Enc 32  Two-handed
     (8/2/3)  Reach 2     Impact, Slow, Versatile
                          (Hulking only)
 
 Polearms
-  Spear (1H polearm) *    16 sc   Enc 50   Ord
+  Spear (1H polearm) *    16 sc   Enc 12   Ord
     (2/5/1)  Reach 2     Fast, Versatile
-  Lance (cavalry) *    1 gc 2 sc  Enc 100  Cavalry
+  Lance (cavalry) *    1 gc 2 sc  Enc 24  Cavalry
     (2/7/1)  Reach 3     Fast, Impact, Tiring,
                          Mounted Specialist
-  2H polearm Short *   1 gc 5 sc  Enc 150  Two-handed
+  2H polearm Short *   1 gc 5 sc  Enc 20  Two-handed
     (5/5/4)  Reach 2     AP, Impact, Versatile
                          (Hulking only)
-  2H polearm Long *    1 gc 6 sc  Enc 175  Two-handed
+  2H polearm Long *    1 gc 6 sc  Enc 25  Two-handed
     (5/5/3)  Reach 2.5   AP, Snare, Slow, Versatile
                          (Hulking only)
-  2H polearm Very Long * 1 gc 4 sc Enc 125 Two-handed
+  2H polearm Very Long * 1 gc 4 sc Enc 28 Two-handed
     (1/6/1)  Reach 3.5   AP, Slow, Formation Specialist
 
 --------------------------------------------------
@@ -307,52 +307,52 @@ Polearms
 Range is short / long yards. Reload is Actions.
 
 Bows                                          Min S
-  Light (hunting)     16 sc  Enc 60  Ord
+  Light (hunting)     16 sc  Enc 5  Ord
     (2/3/1)  18/36   Reload Half    Fast
     Draw 20–40 lb.  Min S 20
-  Medium              20 sc  Enc 75  Ord
+  Medium              20 sc  Enc 6  Ord
     (3/4/1)  24/48   Reload Half
     Draw 40–70 lb.  Min S 25
-  Heavy               24 sc  Enc 90  Ord
+  Heavy               24 sc  Enc 8  Ord
     (3/5/1)  30/60   Reload Full    Tiring, AP
     Draw 70–100 lb. Min S 30
-  Longbow *           26 sc  Enc 90  Longbow
+  Longbow *           26 sc  Enc 10  Longbow
     (4/5/1)  36/72   Reload Full    Tiring, AP, Impact
     Draw 100–180 lb. Min S 35
 
 Crossbows
-  Pistol           1 gc 4 sc  Enc 25  Crossbow
+  Pistol           1 gc 4 sc  Enc 15  Crossbow
     (1/3/1)  8/16    Reload Half    Fast, Concealable
-  Light            1 gc 8 sc  Enc 80  Ord
+  Light            1 gc 8 sc  Enc 45  Ord
     (1/4/1)  20/40   Reload Half    Pre-Loaded
-  Medium           2 gc       Enc 120 Ord
+  Medium           2 gc       Enc 60 Ord
     (1/5/1)  30/60   Reload Full    AP, Pre-Loaded
-  Heavy (Arbalest) 2 gc 8 sc  Enc 150 Crossbow
+  Heavy (Arbalest) 2 gc 8 sc  Enc 85 Crossbow
     (1/6/1)  40/80   Reload Ext×2   AP, Impact, Slow,
                                     Pre-Loaded
-  Repeater *       3 gc 4 sc  Enc 150 Crossbow
+  Repeater *       3 gc 4 sc  Enc 70 Crossbow
     (1/4/1)  16/32   Reload Ext×2   Experimental,
                                     Special: 3 shots
                                     in the magazine,
                                     Pre-Loaded
 
 Slings
-  Pouch               8 sc   Enc 10  Ord
+  Pouch               8 sc   Enc 1  Ord
     (0/1/4)  16/32   Reload Half    Concealable,
                                     Inconspicuous
-  Staff Sling *      16 sc   Enc 50  Sling
+  Staff Sling *      16 sc   Enc 4  Sling
     (0/1/5)  24/48   Reload Half    Impact
 
 Thrown (ready + throw is one Half; Group Throwing
 unless noted Ordinary)
   Improvised          —      Enc var  Ord
     profile by size  4/8 or as §8
-  Javelin             5 gc   Enc 30  Throwing
+  Javelin             5 gc   Enc 12  Throwing
     (1/4/2)  8/16    Fast
     Melee as short spear, Reach 1.5
-  Throwing Axe        5 gc   Enc 40  Throwing
+  Throwing Axe        5 gc   Enc 15  Throwing
     (4/1/3)  6/12    Impact, Throwing (returns)
-  Throwing Dagger     2 gc   Enc 10  Throwing
+  Throwing Dagger     2 gc   Enc 2  Throwing
     (2/4/1)  6/12    Fast, Concealable
                      +15 Concealment hidden
 

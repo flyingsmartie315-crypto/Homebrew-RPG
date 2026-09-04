@@ -1,6 +1,21 @@
 # Economy_Agriculture.txt
 # Sown and planted take. Economy and yields read this.
 # How to place a crop is in Bestiary_Rules.txt. Biome tags from Geography_Rules.txt.
+# Prices sit on Economy_Primary_Goods.txt under the heading named after Use.
+#
+# Primary Goods heading → this file
+# Grain → GRAIN
+# Root Vegetables → ROOT, COLE, and Field pea
+# Apples → Apple
+# Citrus Fruit → Citrus
+# Berries (cultivated) → SOFT FRUIT (Cherry stays under ORCHARD)
+# Olives → Olive
+# Grapes → Grape
+# Date Fruit (dried) → Date palm
+# Flax → Flax
+# Raw Silk → Mulberry
+# Spice → SPICE
+# Dyes → DYE
 
 GRAIN
 
@@ -100,6 +115,20 @@ Biome: Temperate
 HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
 Rarity: 6
 Use: tuber | Notes: sown stand. Wild form is on Flora_Temperate.
+
+Beet
+Domain: Land
+Biome: Temperate, Boreal, Oceanic
+HSI: Temperature: 1–3 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 8
+Use: Root Vegetables | Notes: leaf and root. Keeps in sand. Fodder in a hard year.
+
+Potato
+Domain: Land
+Biome: Temperate, Oceanic, Alpine
+HSI: Temperature: 1–3 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–3 | Hydrology: 2–3
+Rarity: 7
+Use: Root Vegetables | Notes: loose ground. Cool-country bulk. Rots in wet store. Not a wheat-floor crop.
 
 
 COLE
@@ -215,6 +244,34 @@ HSI: Temperature: 3–4 | Rainfall: 3–4 | Human Density: 2–4 | Flora: 3–5 
 Rarity: 6
 Use: nut, flour | Notes: bread-tree on warmer slopes. Dry and mill.
 
+Citrus
+Domain: Land
+Biome: Mediterranean, Tropical wet-dry
+HSI: Temperature: 4–5 | Rainfall: 2–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 5
+Use: Citrus Fruit | Notes: orange, lemon, lime, and their like. Frost kills the wood. North of the warm fringe it is an import.
+
+Olive
+Domain: Land
+Biome: Mediterranean
+HSI: Temperature: 3–4 | Rainfall: 1–3 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 1–3 | Hydrology: 1–2
+Rarity: 6
+Use: Olives | Notes: dry-summer slope tree. Fruit for the press more than the plate. Fails a wet cool vale.
+
+Date palm
+Domain: Land
+Biome: Arid, Mediterranean
+HSI: Temperature: 4–5 | Rainfall: 0–2 | Human Density: 3–5 | Flora: 2–3 | Fauna: 2–3 | Topography: 0–1 | Hydrology: 2–4
+Rarity: 5
+Use: Date Fruit (dried) | Notes: oasis and irrigated hot floor. The traded good is the dried fruit. No rain-farm on a temperate vale.
+
+Mulberry
+Domain: Land
+Biome: Temperate, Mediterranean
+HSI: Temperature: 3–4 | Rainfall: 2–4 | Human Density: 4–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 4
+Use: Raw Silk | Notes: the leaf feeds the worm; the good is the cocoon. Labour-heavy. Needs settled hands and a warm-enough year. Not a field staple.
+
 
 VINE
 
@@ -238,3 +295,89 @@ Biome: Temperate
 HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
 Rarity: 4
 Use: fruit | Notes: hairless grape-sized vine. Cut if you do not want it on Virath.
+
+
+SOFT FRUIT
+
+Strawberry
+Domain: Land
+Biome: Temperate, Oceanic
+HSI: Temperature: 2–4 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 6
+Use: Berries (cultivated) | Notes: garden bed. Highsun flush. Does not keep. Basket good.
+
+Currant and gooseberry
+Domain: Land
+Biome: Temperate, Boreal, Oceanic
+HSI: Temperature: 1–3 | Rainfall: 3–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 7
+Use: Berries (cultivated) | Notes: bush fruit of cool gardens. Jelly, dry, and a little wine. The local berry where strawberry is thin.
+
+
+SPICE
+
+Black pepper
+Domain: Land
+Biome: Tropical wet, Tropical wet-dry
+HSI: Temperature: 5 | Rainfall: 3–5 | Human Density: 3–5 | Flora: 3–5 | Fauna: 2–4 | Topography: 0–2 | Hydrology: 3–4
+Rarity: 3
+Use: Spice | Notes: vine of hot wet country. The long-haul spice. Temperate land buys it; it does not grow there.
+
+Ginger
+Domain: Land
+Biome: Tropical wet, Tropical wet-dry
+HSI: Temperature: 4–5 | Rainfall: 3–5 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 3–4
+Rarity: 4
+Use: Spice | Notes: hot-country rhizome. Fresh near the field; dried for the road.
+
+Cinnamon
+Domain: Land
+Biome: Tropical wet
+HSI: Temperature: 5 | Rainfall: 4–5 | Human Density: 3–4 | Flora: 4–5 | Fauna: 2–4 | Topography: 1–3 | Hydrology: 3–4
+Rarity: 3
+Use: Spice | Notes: inner bark of wet-hot woodland. Estate take, not a cottage crop.
+
+Saffron
+Domain: Land
+Biome: Mediterranean, Steppe
+HSI: Temperature: 3–4 | Rainfall: 1–3 | Human Density: 3–5 | Flora: 2–3 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 1–2
+Rarity: 3
+Use: Spice | Notes: crocus thread. Huge labour for a pinch. The dear temperate spice.
+
+Cumin
+Domain: Land
+Biome: Mediterranean, Steppe, Arid
+HSI: Temperature: 3–5 | Rainfall: 1–3 | Human Density: 3–5 | Flora: 2–3 | Fauna: 2–3 | Topography: 0–1 | Hydrology: 1–2
+Rarity: 5
+Use: Spice | Notes: dry-field seed. Cheaper at the farm than the Spice chest price, which is the mixed long-haul rate.
+
+
+DYE
+
+Woad
+Domain: Land
+Biome: Temperate, Oceanic, Steppe
+HSI: Temperature: 2–4 | Rainfall: 2–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 6
+Use: Dyes | Notes: blue of cool country. Leaf fermented. Stinks. Common dye-field.
+
+Madder
+Domain: Land
+Biome: Temperate, Mediterranean
+HSI: Temperature: 2–4 | Rainfall: 2–4 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 2–3
+Rarity: 6
+Use: Dyes | Notes: red from the root. Wants two or three years in the ground.
+
+Weld
+Domain: Land
+Biome: Temperate, Mediterranean, Steppe
+HSI: Temperature: 2–4 | Rainfall: 2–3 | Human Density: 3–5 | Flora: 2–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 1–3
+Rarity: 5
+Use: Dyes | Notes: yellow from the stalk. Poor-ground plant. Mixes with woad for green.
+
+Indigo
+Domain: Land
+Biome: Tropical wet-dry, Tropical wet
+HSI: Temperature: 4–5 | Rainfall: 3–5 | Human Density: 3–5 | Flora: 3–4 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 3–4
+Rarity: 4
+Use: Dyes | Notes: hot-country blue. Out-prices woad on the long road. Does not take a Kannavald year.

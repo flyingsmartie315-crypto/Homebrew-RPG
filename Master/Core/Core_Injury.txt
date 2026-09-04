@@ -5,7 +5,10 @@
 #   Core_Combat.txt                     how damage is dealt
 #   Core_Characteristics_Skills.txt     Wounds, NAC, AC, Heal, Surgery
 #   Core_Resolution.txt                 tests, Degrees, Fate spends sit on FP
-#   Injury_Tables_Bipedal.txt           Slot tables (Cut / Pierce / Blunt)
+#   Injury_Tables_Bipedal.txt           man-shaped
+#   Injury_Tables_Equine.txt            horse-type (single hoof)
+#   Injury_Tables_Predator.txt          paws
+#   Injury_Tables_Hoofed.txt            cloven / pig hoof
 
 PURPOSE
 Combat ticks Wounds. This file says what happens when they run
@@ -32,9 +35,9 @@ Severity
   Minimum 1 (the blow that spends the last Wound exactly).
 
 Wallace location
-  The limb the first d100 named. Locked bands
-  in this section: Head, Torso, Right Arm,
-  Left Arm, Right Leg, Left Leg.
+  The limb the first d100 named. The band
+  list is not universal. Use the list on
+  the Injury Table named on the Entity.
 
 Limb location
   Where on that limb the second d100 named.
@@ -157,69 +160,45 @@ Location is rolled on every successful hit (Combat §5),
 not only on the Finishing Blow. The Finishing Blow uses
 that same pair of dice. Do not roll again.
 
-Biped (human, most Entities). Two d100s. Print both
-bands on the character / stat sheet.
+Injury Tables live in their own files. This
+section only says which file to open. Wallace
+bands and Slot bands live at the top of that
+file.
 
-First d100 — Wallace (which limb)
-  01–10    Head         10%
-  11–50    Torso        40%
-  51–60    Right Arm    10%
-  61–70    Left Arm     10%
-  71–85    Right Leg    15%
-  86–100   Left Leg     15%
+  Injury_Tables_Bipedal.txt      man, elf, dwarf,
+                                 most speaking folk
+  Injury_Tables_Equine.txt       horse, destrier,
+                                 unicorn — one toe,
+                                 no muscle below
+                                 knee or hock
+  Injury_Tables_Predator.txt     anything on paws:
+                                 wolf, hound, great
+                                 cat, gryphon
+  Injury_Tables_Hoofed.txt       four-leggers on
+                                 hooves that are not
+                                 horse-type: elk,
+                                 bison, cattle, pig,
+                                 sheep, goat
 
-Second d100 — where on that limb (the Slot)
+The Entity says which file to open.
 
-  Arm (locked)
-    01–10    Hand         10%
-    11–35    Forearm      25%
-    36–45    Elbow        10%
-             Even = Outer Elbow
-             Odd  = Inner Elbow
-    46–80    Upper Arm    35%
-    81–00    Shoulder     20%
+  entity_(name).txt              general NPCs,
+                                 bestiary entries
+  character_sheet_(name).txt     PCs and complex NPCs
 
-  Leg (locked)
-    01–08    Foot              8%
-    09–47    Shin / Calf       39%
-    48–57    Knee              10%
-             Face-to-face: Front Knee
-             From behind:  Back Knee
-    58–95    Thigh             38%
-    96–00    Hip / Buttock     5%
+Required line on that sheet:
 
-  Head (locked)
-    01–10    Eyes                         10%
-    11–60    Skull / Occipital            50%
-    61–85    Lower face / Back of neck    25%
-    86–00    Throat                       15%
+  Injury Table: Injury_Tables_X.txt
 
-    Facing picks the pair where there is one.
-    Face-to-face: Eyes, Skull, Lower face, Throat.
-    From behind: Eyes read as Occipital; Skull
-    is Occipital; Lower face is Back of neck;
-    Throat is Back of neck.
-    Flank: GM names which of the pair.
+If the line is missing, use Bipedal. Do not guess
+from Size. A Size 7 ogre is Bipedal. A Size 3
+wolf is Predator. A Size 8 bison is Hoofed.
+A Size 6 destrier is Equine, not Hoofed.
 
-  Torso (locked)
-    01–40    Chest / Upper Back           40%
-    41–45    Armpit                        5%
-    46–85    Abdomen / Lower Back         40%
-    86–95    Groin / Pelvis
-             (Glutes / Sacrum from behind) 10%
-    96–00    Collarbone / Base of Neck     5%
-
-    Facing picks the front or back name
-    on the paired Slots. Armpit has no
-    back name. L or R is the side the
-    blow came from. If that is unclear,
-    1d2.
-
-    Face-to-face: Chest, Armpit, Abdomen,
-    Groin / Pelvis, Collarbone.
-    From behind: Upper Back, Armpit,
-    Lower Back, Glutes / Sacrum,
-    Base of Neck.
+Open the named file. Roll the first d100 on
+its Wallace list. Roll the second d100 on its
+Slot list. Armour Slots on that Entity use
+the same names.
 
 Three or more DoS, or Called Shot (Combat §3): name
 the limb, the Slot, or both. Do not roll what was
