@@ -1,0 +1,65 @@
+# Bestiary_Orb_Wright
+
+Type: Unveiling
+Domain: Land
+Biome: Boreal, Temperate
+
+HSI
+Temperature: 1–3 | Rainfall: 3–5 | Human Density: 0–2 | Flora: 3–5 | Fauna: 2–4 | Topography: 1–4 | Hydrology: 2–4
+
+RHK
+Rarity: 5
+Individual Harm: 5
+Collective Harm: 4
+Knowledge: 6
+
+Properties
+Height: — (sits the hub, the bole, or the den-mouth)
+Leg-span: female 7–10 ft; male 4–6 ft
+Weight: female 40–90 kg; male 15–30 kg
+Lifespan: 8–15 years
+Clutch: egg-sac in the female’s den. Most young die on silk or on the walk.
+Maturity: two to three years
+Dimorphism: sharp. Females take the span, the killing-orb, and the burrow. Males are smaller and do not sit a forty-foot web.
+
+Stats
+Entity_Orb_Wright.txt
+
+Overview
+Orb-wrights came thick when the Unveiling thinned the old woods. They breed true now. They are not in every copse. They hang in stretches — a ride, a ravine, a stand of ancient bole — and those stretches go quiet. The female strings a thirty-to-forty-foot orb and keeps a burrow at the root or the rock behind it. The male wanders the canopy and lays lesser silk. Venom drops a deer or a man in seconds. They wrap living and hang the bundle. They are not the water-hang and they are not the cave-sheet.
+
+Signs
+- A span of orb across a ride, ravine, or between two oaks, easy to miss until the dew is on it
+- Sap-sticky silk; moth-husk and small game in the lower lines
+- A wrapped shape turning in the dark, still breathing
+- Grey-brown bulk flush to a trunk above the hub
+- A dark hole at the root-plate or the bank behind the web, silk at the lip
+- Thin canopy-lines and a smaller bird moving high, no great orb
+- On a False Moon, the big orb takes a faint light
+- A path the deer have learned to go around
+
+Behaviour
+They infest a stretch. They do not garden the canopy. Under the orb the small game goes. Deer and boar learn the ride and leave it. That can sit a country at Fauna 2 without a blight.
+
+The female hunts the orb. She sits the hub or the bark above it. When the silk kicks she drops or runs the line. She does not burst from the earth. The burrow is den and sac-house: she retreats there, she lays there, she waits out light there. Prey is moth, bat, hare, roe, the odd young boar, and the walker on the night path. A full deer is a good year.
+
+The male does not build the killing-circle. He wanders. He fashions travel-lines and small snares in the canopy, takes moth and bird, and comes to a female’s stretch to mate or to die on her silk. A canopy-tangle without a forty-foot orb is a male, or last year’s ruin.
+
+Destroy the orb and the female goes to the burrow or climbs. She will not stand a prepared line in the open. She will throw another span in days if the boles still stand.
+
+False Moon puts light in the great web and hunger in the sit. Ordinary nights the orb is the only engine.
+
+Encounter
+One great orb, one female. The burrow is behind it, not a second monster.
+A smaller bird in the leaves, silk in the high branches, is a male.
+Walking the big silk is the start (Harm 5). Fire and cutting poles drop the trap.
+False Moon: the orb shows from a long way, and so do you.
+Infested stretch, not every wood. Kannavald floor can hold them. Ebon Spire sheet is Pale Lurker. Kolvatn hang is Old Eight-Lines.
+
+Notes
+- Locked name: Orb-wright. Spoken: the circle, the hanging-oak.
+- Unveiling-thinned woods. Breed true. Infestation is local, not a worldwide plague.
+- They thin the path. They do not shape the forest.
+- Female: orb and burrow. Male: canopy silk. Do not give the male a forty-foot web. Do not give the female a burrow-charge.
+- Weber-Fisher: water, 4–7 ft, eight lines. Pale Lurker: cave, 10–16 ft, sheet. This: closed wood, orb.
+- Economy: silk is strong cord if boiled off the stick. Not a stall-common. No livestock price.

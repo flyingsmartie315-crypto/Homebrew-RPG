@@ -1,0 +1,60 @@
+# Bestiary_Earth_Eater
+
+Type: Unveiling
+Domain: Land
+Biome: Temperate, Mediterranean, Steppe, Tropical wet-dry
+
+HSI
+Temperature: 3–5 | Rainfall: 2–4 | Human Density: 1–4 | Flora: 3–5 | Fauna: 2–3 | Topography: 0–3 | Hydrology: 2–3
+
+RHK
+Rarity: 6
+Individual Harm: 6
+Collective Harm: 4
+Knowledge: 7
+
+Properties
+Height: 1.4–1.7 m at the back
+Length: 2.2–2.8 m without the horns
+Weight: 400–700 kg
+Lifespan: 15–25 years
+Clutch: eggs in the warm gallery. Larvae need a winter that does not bite. A hard Longnight empties a northern hole.
+Maturity: three to five years
+Dimorphism: broad-shear mandibles on most. Stag-horn mandibles on the other strain (or the big males): longer, branched, same bite-weight. Folk say ground-stag for those.
+
+Stats
+Entity_Earth_Eater.txt
+
+Overview
+Earth-eaters came with the Unveiling into warm vale, plain, and wooded hill. Horse-high at the back, plates like wet bronze or oil-black mail, mandibles that take a beam or a shield-rim. They eat root, fallen timber, fungus, and carrion when it is easy. They do not hunt men for preference. They mine the field. The road falls in. The barn stands on a hollow. Southern farmers call them earth-eaters and live with the tilth they cannot stop. Cold country kills the young.
+
+Signs
+- A round mouth in a bank, orchard, or verge, spoil-heap beside it
+- Thunder under the road, then a sag
+- Iridescent shard of plate in the furrow
+- Clack of mandibles in the dark under the floor
+- Stock gone where the ground opened, not where a wolf ran
+- Ground-stag: shed horn-chitin like a broken antler, heavier than deer-bone
+
+Behaviour
+They hold a gallery. The soil above it is their roof. Leave the door and they feed. Cut the door, drive a cart over a thin roof, or take a spade to the mouth, and the beetle comes up: a short charge, plates first, shears working. That is a siege-ram, not a chase across a field.
+
+They are territorial about the hole, not about a horizon. Two galleries may share a hill if the doors stay apart. They do not swarm a wall like skitterlings.
+
+Food is root, rotten wood, fungus, the odd carcass. A sheep that falls in is meat. A man that falls in is meat. They do not stalk the high street.
+
+North of the warm line they are few and small, and only in a sheltered fold. Boreal and Polar are a skip. False Moon makes them restless at the mouth. It does not walk them into frost.
+
+Folk tolerate them when the field still stands. They aerate and they turn up pests. They also eat the road. Fire-oil and a bolt in the joint drive one down. Filling the gallery is the real work.
+
+Encounter
+One beetle at one door (Harm 6). The collapse is the other enemy.
+A ground-stag is the same fight with longer reach at the face.
+A prepared line with fire can push it home. A lone walker on a sagging road can vanish with the cart.
+Kannavald Deepwood is the wrong temperature. Southern vale and hill are home.
+
+Notes
+- Locked name: Earth-eater. Spoken: earth-eater; ground-stag for the horned.
+- Temperature 3–5 is the gate. Cold larvae die.
+- Deepwight is the mountain clicker. Ghoul is the grave. This is the field under the plough.
+- Economy: plate and horn are trophy-armour and curiosity. Not livestock. A collapsed mile of road is the true price.

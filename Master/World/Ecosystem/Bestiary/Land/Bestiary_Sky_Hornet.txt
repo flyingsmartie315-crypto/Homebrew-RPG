@@ -1,0 +1,59 @@
+# Bestiary_Sky_Hornet
+
+Type: Unveiling
+Domain: Air, Land
+Biome: Temperate, Mediterranean, Steppe, Tropical wet-dry
+
+HSI
+Temperature: 3–5 | Rainfall: 2–4 | Human Density: 1–4 | Flora: 3–5 | Fauna: 2–4 | Topography: 1–4 | Hydrology: 2–3
+
+RHK
+Rarity: 6
+Individual Harm: 3
+Collective Harm: 6
+Knowledge: 7
+
+Properties
+Worker: body ~1 ft; wingspan 2–3 ft. 1–2 kg.
+Guard: wingspan up to 3–4 ft. The sting that starts a rout.
+Queen: larger abdomen late Highsun. Nest-bound.
+Lifespan: workers a season or two; nest as long as the queen lasts
+Clutch: paper cells. Frost kills the shallow brood.
+Maturity: weeks in warm air
+
+Stats
+Entity_Sky_Hornet.txt
+
+Overview
+Sky-hornets are the Unveiling wasps of warm vale, plain, and wooded hill. Black-and-yellow or amber bands, a sting like a short hooked knife. One sting is swelling and a fever that can last days. A nest-defence is a cloud. They paper a grey globe in a high bole, a cliff, or an overhang — cart-sized, sometimes hut-sized — and they forage nectar and sap unless the comb needs meat. They do not stay where Longnight kills the brood. They are not Hill-hosts and they are not Orb-wrights.
+
+Signs
+- A grey paper globe in a crown, on a face of rock, or under a lip of stone
+- Drone you feel in the teeth before you see the banded body
+- Bird- or squirrel-husk under the nest-tree
+- A limb blown huge, hot, and useless after one hit
+- Sugar-crock or sap-pail left at a known tree
+- False Moon: wider patrol, more drone at dusk
+
+Behaviour
+Leave the nest and they feed the flowers and the sap-wounds. They take small flying things and a squirrel if the brood is hungry. They do not raid granaries in a stream. That is the Hill-host.
+
+Strike a worker on the path and you may live with a bad arm. Strike the globe and the cloud comes. Dozens, not hundreds. Stings stack: shock, swell, fever. Twenty is a grave for an unready patrol. Smoke, fire-oil, and a wet cloth on the skin are the known answers. Burning the nest ends the year if the queen dies. Survivors circle for days.
+
+They sleep a cold winter inside the paper. Southern nests may run the year. Boreal and Polar are a skip.
+
+False Moon: extra eggs, longer beats, patrols off the home tree. It does not put a nest on a northern massif.
+
+Southern folk curse them and still leave sugar-water at a known globe so the swarm stays on nectar. Children and stock are the worry, not the plough-horse.
+
+Encounter
+One on the road is Harm 3: dodge or take the limb.
+The nest-cloud is Collective 6. Retreat is the first skill.
+Do not crush them under a boot. That line is for flies.
+Hill-host is the grain-line on the ground. Orb-wright is the silk in the ride. This is the drone in the crown.
+
+Notes
+- Locked name: Sky-hornet. Spoken: sky-hornet.
+- Worker 2–3 ft span. Guard/queen to 3–4. Nest of dozens.
+- Temperature 3–5. Air and Land. A sealed cellar without a crown-nest is a skip.
+- Economy: no livestock price. Paper-nest ash and a week of fever are the cost. Some pay in sugar to keep the peace.

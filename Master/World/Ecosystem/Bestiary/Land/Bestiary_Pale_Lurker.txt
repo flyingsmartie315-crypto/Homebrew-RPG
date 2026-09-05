@@ -1,0 +1,62 @@
+# Bestiary_Pale_Lurker
+
+Type: Natural
+Domain: Land
+Biome: Alpine, Boreal, Polar
+
+HSI
+Temperature: 0–2 | Rainfall: — | Human Density: 0–2 | Flora: 0–2 | Fauna: 2–4 | Topography: 4–5 | Hydrology: 1–3
+
+RHK
+Rarity: 4
+Individual Harm: 6
+Collective Harm: 3
+Knowledge: 5
+
+Properties
+Height: — (hangs and spreads; not a standing beast)
+Leg-span: 10–16 ft
+Weight: 160–320 kg
+Lifespan: 20–40 years
+Clutch: egg-sac in the rear of the web. Few young reach a second year.
+Maturity: four to six years
+Dimorphism: females hold the sheet and the span. Males smaller, shorter-lived.
+
+Stats
+Entity_Pale_Lurker.txt
+
+Overview
+Pale Lurkers are the great cave-spiders of cold stone. Thick grey-white fur, a span of ten to sixteen feet, eyes poor in sun. They sheet a cave-mouth or a tunnel with heavy silk and wait. Venom does not drop a man in a breath; it steals heat until the body goes the way of the cave. They are not Old Eight-Lines. They are not Deepwights. They are the hole’s ambush.
+
+Signs
+- Thick sheet-silk across a shaft, adit, or rift, pale as limestone
+- Fur-rub on wet stone, grey-white
+- Bats, goat, or a man drawn in and wrapped, cold to the touch
+- Slow drag-marks into the dark
+- A working that the clickers will not use
+- On a False Moon, a pale bulk at a cave-mouth after dusk
+
+Behaviour
+One sheet, one female. She sits the web and the first bend of dark behind it. Movement is slow until the silk pulls, then the reach is long and the haul is into the black. Prey is bat, stray stock, the explorer, and — if a bear dens in her mouth — the sleeper, wrapped and waited on. She does not run a bear on open ground.
+
+They do not hunt the wood. Bright light ruins them: they lumber, miss footing, and go for the nearest hole. False Moon hunger is what puts one on the scree below a mine-mouth. Dawn puts it back, or kills it.
+
+Venom is slow. Bite, then cold, then stillness. Fire and a hard fight in the first minutes are the chance. A man left in the sheet is already the cave’s.
+
+Young scatter down side-rifts. Most die on a Deepwight, a fall, or each other. A second adult on the same mouth is a fight, not a pair.
+
+Encounter
+One. The sheet is the encounter, not a duel in a hall.
+Cutting silk or pushing past it starts the haul (Harm 6).
+Outside the hole it is slow and half-blind. Do not give it the Deepwood floor.
+False Moon: a mouth-watch on the scree. Same Harm, worse nerve.
+Deepwights in the same hill use other rifts or lose people to the sheet. Not a pack.
+
+Notes
+- Locked name: Pale Lurker. Spoken: sheet-white, mouth-weaver.
+- Domain is Land. The cave is a feature. Alpine, Boreal, Polar are the gate.
+- Rainfall is indifferent (—). They do not score weather on the surface.
+- Weber-Fisher is the 4–7 ft water-hang. This is the 10–16 ft cave-sheet. Do not mix them.
+- Deepwight is the clicker in the same stone. Different file, different fight.
+- Kannavald: Svarthorn workings, Ebon Spire rifts. Not Kolmire. Not Underwood Shores.
+- Economy: silk and venom are ugly trophies, not a stall-good. No livestock price.

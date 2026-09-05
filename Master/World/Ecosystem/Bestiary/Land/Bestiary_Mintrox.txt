@@ -1,0 +1,61 @@
+# Bestiary_Mintrox
+
+Type: Unveiling
+Domain: Land
+Biome: Temperate, Mediterranean, Steppe, Arid, Tropical wet-dry
+
+HSI
+Temperature: 2–5 | Rainfall: 1–4 | Human Density: 1–4 | Flora: 1–4 | Fauna: 2–4 | Topography: 0–4 | Hydrology: 1–3
+
+RHK
+Rarity: 8
+Individual Harm: 3
+Collective Harm: 6
+Knowledge: 7
+
+Properties
+Height: 3–5 ft in the slouch
+Weight: 25–45 kg
+Lifespan: 20–35 years
+Clutch: live young in the scrape. Fast replacement.
+Maturity: a few years
+Dimorphism: little. The largest or the slyest heads the pack.
+
+Stats
+Entity_Mintrox.txt
+
+Overview
+Mintrox came through the Unveiling with the great bugs. Men say goblin. They are small, hunched, long-armed, short-legged: built to throw and to bolt, not to march. Scrap-flint, bone, stolen iron. They do not forge. They do not stand a shield-wall. They set a pit, a silk trip, a smeared thorn, and they put a dart into the man who looks down. The spiders and the lesser crawlers are their home-game, not a miracle. Humans first took spider-silk as a craft from watching them.
+
+Signs
+- A scrape under a ruin-floor, bank, or fallen wall
+- Flint flakes, sinew-wrap, stolen nails
+- Trip-silk at shin-height that is not an Orb-wright’s circle
+- Stone-scatter and dart-holes in a wagon-tilt
+- Skitterling lines denser than a cellar should hold
+- A small rider on a 2–4 ft spider, if you are unlucky
+- False Moon: more scrap-fires, more joined packs
+
+Behaviour
+Loose packs. A few dozen on most ground; a hundred is a bad year and a fat ruin. The head is the biggest arm or the best liar. They squabble. They do not keep a crown.
+
+They scavenge and they raid the isolated: a lone farm, a slow cart, a straggler. They read ground and weather better than they read a book. Tools are crooked. The throw is not. Stones, darts, short javelins. Then they are gone.
+
+Husbandry is the difference from a Ghoul-pack. They keep Skitterlings the way men keep dogs: trip-lines, corner-nests, the odd ride. They steal silk from an Orb-wright stretch when they can and they die on that silk when they cannot. Sky-hornets they bribe with sweet-water, same as a southern farmer. They do not stable a Pale Lurker. They do not plough with an Earth-eater. They do not own a Hill-host.
+
+They use the bugs because those bugs are *theirs* — same crack in the world. Men came later to that trick.
+
+False Moon joins packs and makes the traps thicker. It does not make a host for a king.
+
+Encounter
+Six to twenty in a ruin-edge or a cut-bank is the usual (Harm 3 each, Collective 6 for the ground).
+One in a fair fight against steel is a short fight. The pit and the silk are the fight.
+A spider-rider is a Skitterling, not a Lurker.
+Boreal floor only as a thin waste-pack on the warm edge. Polar and high Alpine are a skip until a strain-file exists.
+
+Notes
+- Locked name: Mintrox. Spoken by men: goblin. Do not write a second species per climate yet.
+- Peoples_Mintrox.txt is where dress, speech, and pack-law go if you want them. This file is the pest and the hunt.
+- Tame: Skitterling. Silk-take: Orb-wright, at cost. Bribe: Sky-hornet. No: Pale Lurker, Earth-eater, Hill-host, Weber-Fisher mount.
+- Fenwight and Deepwight are not cousins. Different files, no trade.
+- Economy: scrap and stolen cloth. Silk they harvest is how men learned the fibre. No livestock price on a Mintrox.

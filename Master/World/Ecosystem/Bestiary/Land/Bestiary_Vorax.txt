@@ -1,0 +1,61 @@
+# Bestiary_Vorax
+
+Type: Unveiling
+Domain: Land
+Biome: Temperate, Mediterranean, Steppe, Tropical wet-dry
+
+HSI
+Temperature: 3–5 | Rainfall: 2–4 | Human Density: 2–5 | Flora: 3–5 | Fauna: 2–4 | Topography: 0–2 | Hydrology: 2–3
+
+RHK
+Rarity: 7
+Individual Harm: 4
+Collective Harm: 7
+Knowledge: 8
+
+Properties
+Worker: 2–3 ft long, 8–15 kg. Cut, carry, dig.
+Soldier: 4–5 ft long, 25–45 kg. Mandible and acid. The fight.
+Queen: 6–8 ft, nest-bound. Not a surface encounter.
+Lifespan: workers months to a few years; queen a decade if the nest stands
+Clutch: constant in warm ground. A hard Longnight kills the shallow brood.
+Maturity: weeks to a worker
+
+Stats
+Entity_Hill_Host.txt
+
+Overview
+Hill-hosts are the Unveiling nest-ants of warm soil. Dull black or red-brown plate, serrated shears, a spray that blisters skin and eyes. Workers take the grain. Soldiers take the door. They raid larders, granaries, and a cart left on their ground. They do not hunt men for sport. They take food and they kill what stands on the nest. Northern frost drives them deep and thins them. They are not Earth-eaters. The beetle opens the road. This opens the barrel.
+
+Signs
+- A black or red line on the packed earth, moving as one
+- Grain-husks and torn sacking in a trail to a hole
+- Fine spoil-cones at a yard-edge or under a floor
+- Acid-burn on wood, leather, and grass
+- A barn that went quiet of mice and then of meal
+- False Moon: the line on the open street
+
+Behaviour
+A nest is a city of dumb labour. No speech. No chief a man can parley with. Scout-lines go out in step. They find grain, dried meat, a carcass, a rival hole. They cut it up and they carry it. A sheep that falls in is dismembered. It is not swallowed whole.
+
+Leave the nest and they ignore the road. Strike the line, the store, or the door, and soldiers come: waves, clack, acid in the face. Fire and a hard wall hold until the wave breaks. Dawn often ends the raid. The next night they are under the same flagstones.
+
+They are thickest where the ground stays soft and the winter is short. On the cool edge of Temperate they run smaller, fewer, and sleep the Longnight deep. Boreal and Polar are a skip.
+
+False Moon makes the scouts bold and the spray ready. Whole nests have come up in a hunger-year. That is still a raid, not a march on a capital.
+
+Folk manage them. Pitchfork, broom, boiling water, fire at the door. Pouring the nest is the only end, and the ground may already be a gallery. They are a tax, not a dragon.
+
+Encounter
+A line on the road is a warning (workers, Harm low).
+A granary night is Collective 7: numbers, acid, bad footing, the floor going.
+A soldier in a door is Individual 4.
+Do not run a queen on the surface unless the party has opened the heart.
+Earth-eater country can overlap in the warm vale. Different hole, different fight. Beetle is one ram. This is the stream.
+
+Notes
+- Locked name: Hill-host. Spoken: the stream, grain-thief. Do not write Giant Ant.
+- Earth-eater keeps the sinkhole-road. Hill-host keeps the store.
+- Temperature 3–5. Human Density is a lure (stores), not a repellent.
+- Skitterling is the cellar spider. This is the grain-line.
+- Economy: no livestock price. Lost grain and a ruined floor are the cost. Acid-burnt hide is spoiled, not a trophy-line.

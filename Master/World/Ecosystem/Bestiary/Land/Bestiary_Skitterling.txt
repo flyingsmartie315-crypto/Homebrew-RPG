@@ -1,0 +1,60 @@
+# Bestiary_Skitterling
+
+Type: Natural
+Domain: Land
+Biome: Any
+
+HSI
+Temperature: 2–4 | Rainfall: — | Human Density: 2–5 | Flora: 0–4 | Fauna: 2–4 | Topography: 0–4 | Hydrology: 1–3
+
+RHK
+Rarity: 8
+Individual Harm: 3
+Collective Harm: 5
+Knowledge: 8
+
+Properties
+Height: — (corner and ceiling)
+Leg-span: 2–4 ft
+Weight: 3–8 kg
+Lifespan: 2–5 years
+Clutch: many. A cellar can fill in a season.
+Maturity: months
+Dimorphism: little. Females sit the better corner.
+
+Stats
+Entity_Skitterling.txt
+
+Overview
+Skitterlings are the small pest-spiders of ruin, cellar, sewer, tower-stair, and the cracked edge of town. Mottled to the local dust. Trip-lines in doorways and corners. Venom is a paralytic that takes a limb or a child, not a stag. One is a fright. A nest in an old keep is a clearing job. They eat rat and insect and then they eat the store. They are not Old Eight-Lines, not Orb-wrights, not Pale Lurkers.
+
+Signs
+- Fine trip-silk across a jamb, stair, or drain-mouth
+- Dust-coloured bulk in a high corner
+- Rat-husks and fly-wrap in the same turn
+- Many small lines, no thirty-foot orb, no cave-sheet
+- A cellar that goes quiet of mice and then of men
+
+Behaviour
+Opportunistic. They sit a corner or string a knee-high line and wait. Prey is rat, beetle, pigeon, the reaching hand. They scavenge what the dark already holds.
+
+Mostly one to a room. In a long-empty ruin they stack: lines on lines, a swarm if you kick the nest. That is numbers, not a hunt-pack with a chief.
+
+They follow warmth and food. Warmer sewers and southern cellars take them first. Cold alpine dark without people or rats is poor ground; that hole belongs to the Pale Lurker if it belongs to a spider at all.
+
+Light and a ready blade end one. Fire in a nest ends the stretch. They flee a prepared group. They do not stand a door-fight.
+
+False Moon makes them bolder on the stair and the yard-drain. It does not put an orb across the high street.
+
+Encounter
+One in a cellar is Harm 3: trip, bite, panic.
+A ruin-nest is Collective 5: many lines, bad footing, more than you see.
+They will be where men store grain and dump slops. Deepwood floor without a hut is a skip unless the ruin is there.
+Do not run a 2–4 ft bird as a 10 ft cave-sheet.
+
+Notes
+- Locked name: Skitterling.
+- Span is 2–4 ft. Do not write 7 ft. That size is another file.
+- Biome Any. Human Density is the real gate. Rainfall indifferent.
+- Weber-Fisher: water-hang. Orb-wright: forest orb. Pale Lurker: cave-sheet. This: human-adjacent pest.
+- Economy: no price. A cleared cellar is the cost.
