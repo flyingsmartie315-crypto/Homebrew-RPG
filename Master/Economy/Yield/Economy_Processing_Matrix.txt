@@ -1,0 +1,786 @@
+# Economy_Processing_Matrix.txt
+# How a processed good is made.
+# Prices stay on Economy_Processed_Goods.txt.
+# Regional hands and places: Economy_Product_Yield.txt.
+# Wage bands: Economy_Labour.txt.
+# Piece objects (swords, axes): Finished Goods recipes, not this file.
+
+This file does not sell anything.
+It sets the floor under the listed price and the plant that must exist before the first honest batch.
+
+Unit is 1 kg or 1 L of output unless a batch is named.
+Labour days are at the listed Tech. Apply the tech table before you cost a year.
+
+
+--------------------------------------------------
+TECH LEVELS
+--------------------------------------------------
+
+Virath’s ceiling is early-modern. It is not even.
+
+T0  House
+Hand tools, open fire, family labour. Quern, kettle, crock, smoke-rack.
+
+T1  Craft
+Dedicated shed. Journeyman kit. Village oven, pot-kiln, hand-press, single bloomery.
+
+T2  Mill
+Water, wind, or a large standing team. Millstones, saw-pit, fulling-stocks, proper tan-pits.
+
+T3  Works
+Concentrated early-modern plant. Ropewalk, dye-house, battery of hearths, ship-yard try-works.
+
+T4  Rare
+Restricted specialist. Crucible steel, fine silk city-work, lens and clockwork shops.
+Not a regional default. Exists only where a file names it.
+
+Default
+Hamlet / village: T0–T1
+Town: T1, T2 if a mill-race or saw-pit is written
+City / rich coast: T2–T3
+Frontier and deep wood: T0–T1 unless a named works says otherwise
+T4: written or not at all
+
+A place cannot skip a level for that process.
+A place cannot work above the world ceiling.
+Gunpowder shops and plate-armour works are T3 and uncommon. They do not unlock T4.
+
+What a level changes (from the row’s listed Tech)
+
+                 Labour days    Waste     Year throughput    Plant cost
+T0 → T1          ×0.75          ×0.90     ×1.3               ×2
+T1 → T2          ×0.65          ×0.80     ×2.0               ×3
+T2 → T3          ×0.70          ×0.85     ×1.8               ×3
+T3 → T4          ×0.80          ×0.75     ×1.2               ×5  and specialist labour
+
+If the row says Min T2, T0 and T1 cannot make a market lot.
+House use may still exist one level below Min, at worse waste, and not as product.
+
+Below Min: no product line.
+Above listed Tech: apply the multipliers; do not invent a new good.
+
+
+--------------------------------------------------
+HOW TO READ A ROW
+--------------------------------------------------
+
+[Good]
+From: inputs as named on Primary or Processed lists
+Input: qty to make 1 kg or 1 L
+Fuel / store: charcoal, wood, salt, honey, tannin
+Labour: band × days per batch (batch size named)
+Facility: the shed-word Product Yield should use
+Tech: listed / min / max
+Time: hands-on + wait
+Waste: mass lost
+Capital:
+  Kit: journeyman tools (sc)
+  Plant: building and fixed works
+  Plant cost: order of magnitude at listed Tech
+  Life: years
+Output: 1 kg or 1 L
+Floor: holds / house-labour / bottleneck
+
+Floor means:
+input + fuel + (days × wage) + wear ≲ listed price at listed Tech.
+Wear = plant cost ÷ (life-years × honest annual kg).
+House-labour = the listed price only works if family time is not fully cashed.
+Bottleneck = price sits well above floor; skill, rarity, or a T4 gate.
+
+
+Wage midpoints for costing
+Rural common 3 bc
+Urban common 5 bc
+Basic skilled 30 bc
+Higher skilled 65 bc
+Hazardous skilled 50 bc
+
+
+--------------------------------------------------
+MEALS AND MALT
+--------------------------------------------------
+
+Common flour
+From: Grain
+Input: 1.25 kg Grain
+Fuel: none at T0; mill-race at T2
+Labour: Basic skilled (miller) × 0.05 day per 40 kg sack  [T1]
+Facility: quern (T0) / mill (T2)
+Tech: listed T1 / min T0 / max T2
+Time: hands-on only
+Waste: 0.20 of the grain (bran, if not eaten)
+Capital: Kit 4 sc (quern) | Plant T2 water-mill 8–15 gc | Life 30
+Floor: holds at T1–T2. T0 house-labour.
+
+Wheat flour
+From: Grain (wheat only)
+Input: 1.20 kg wheat
+Labour: miller × 0.05 day / 40 kg  [T1]
+Facility: mill preferred
+Tech: listed T1 / min T0 / max T2
+Waste: 0.17
+Capital: as Common flour
+Floor: holds. Cannot be milled where wheat does not grow unless the grain was imported.
+
+Rye flour / Barley meal / Oatmeal / Buckwheat meal / Pulse meal
+From: the named grain or pulse
+Input: 1.25 kg
+Labour: miller or house × 0.05 day / 40 kg  [T1]
+Facility: quern or mill
+Tech: listed T1 / min T0 / max T2
+Waste: 0.20
+Capital: as Common flour
+Floor: holds. Oatmeal and barley meal are T0-honest.
+
+Chestnut flour
+From: Sweet chestnut (dried)
+Input: 1.4 kg dried nut
+Labour: rural common × 0.2 day / 10 kg  [T0]
+Facility: house dry-rack and quern
+Tech: listed T0 / min T0 / max T1
+Waste: 0.25
+Capital: Kit 2 sc | Plant none
+Floor: house-labour.
+
+Malt
+From: Grain (barley first)
+Input: 1.15 kg Grain
+Fuel: 0.3 kg wood / kg malt
+Labour: Basic skilled × 0.3 day / 40 kg  [T1]
+Facility: malt-floor and kiln
+Tech: listed T1 / min T1 / max T3
+Time: 8–12 days wet and kiln
+Waste: 0.13
+Capital: Kit 8 sc | Plant village malt-kiln 2–4 gc | Life 20
+Floor: holds.
+
+
+--------------------------------------------------
+BREAD
+--------------------------------------------------
+
+Bread
+From: Common flour or Wheat flour
+Input: 0.75 kg flour + water
+Fuel: 0.2 kg wood / kg loaf
+Labour: Basic skilled (baker) × 0.15 day / 10 kg  [T1]
+Facility: oven
+Tech: listed T1 / min T0 / max T2
+Time: same day
+Waste: 0.05
+Capital: Kit 6 sc | Plant bake-oven 1–3 gc | Life 25
+Floor: holds. T0 hearth-loaf is house-labour.
+
+Rye bread
+From: Rye flour
+Input: 0.80 kg rye flour
+Fuel: 0.2 kg wood / kg
+Labour: baker × 0.15 day / 10 kg  [T1]
+Facility: oven
+Tech: listed T1 / min T0 / max T2
+Waste: 0.05
+Capital: as Bread
+Floor: holds. The keep-loaf of a cold vale.
+
+
+--------------------------------------------------
+DRINK
+--------------------------------------------------
+
+Beer
+From: Malt, water. Hop if grown.
+Input: 0.20 kg Malt + 1 L water per 1 L beer. Hop a pinch when present.
+Fuel: 0.15 kg wood / L
+Labour: Basic skilled × 0.4 day / 50 L  [T1]
+Facility: brew-house, casks
+Tech: listed T1 / min T0 / max T3
+Time: 7–14 days
+Waste: 0.10
+Capital: Kit 15 sc | Plant brew-house 2–6 gc | Life 20
+Floor: holds at T1. T0 small-beer is house-labour.
+
+Wine
+From: Grapes
+Input: 1.5 kg Grapes / L
+Labour: rural common + basic skilled × 1 day / 100 L at crush  [T1]
+Facility: press, casks, cellar
+Tech: listed T1 / min T1 / max T3
+Time: crush in days; cellar months
+Waste: 0.15
+Capital: Kit 20 sc | Plant press-house 3–8 gc | Life 25
+Floor: holds where grapes pass biome. Else import.
+
+Cider
+From: Apples
+Input: 1.6 kg Apples / L
+Labour: rural common × 0.8 day / 50 L  [T1]
+Facility: mill-stone or trough and press
+Tech: listed T1 / min T0 / max T2
+Time: weeks
+Waste: 0.15
+Capital: Kit 10 sc | Plant press 1–3 gc | Life 20
+Floor: holds.
+
+Perry
+From: Pears
+Input: 1.6 kg Pears / L
+Labour / facility / tech: as Cider
+Floor: holds. Thinner trade than cider.
+
+Vinegar
+From: Wine or Cider
+Input: 1.05 L wine or cider / L
+Labour: rural common × 0.1 day / 20 L  [T0]
+Facility: cask and air
+Tech: listed T0 / min T0 / max T1
+Time: months
+Waste: 0.05
+Capital: Kit 2 sc | Plant none
+Floor: holds. Time is the capital.
+
+
+--------------------------------------------------
+OILS
+--------------------------------------------------
+
+Oil (olive)
+From: Olives
+Input: 5 kg Olives / L
+Labour: basic skilled × 0.5 day / 20 L  [T1]
+Facility: mill and press
+Tech: listed T1 / min T1 / max T3
+Waste: 0.80 of fruit mass (cake remains)
+Capital: Kit 25 sc | Plant press-works 4–12 gc | Life 25
+Floor: holds on a Mediterranean floor only.
+
+Linseed oil
+From: Flax seed (after fibre, or a seed crop)
+Input: 3 kg seed / L
+Labour: basic skilled × 0.4 day / 20 L  [T1]
+Facility: seed-press
+Tech: listed T1 / min T1 / max T2
+Waste: 0.65
+Capital: Kit 15 sc | Plant 2–5 gc | Life 20
+Floor: holds.
+
+Poppy oil
+From: Poppy seed
+Input: 3 kg seed / L
+Labour: basic skilled × 0.4 day / 10 L  [T1]
+Facility: small press
+Tech: listed T1 / min T1 / max T2
+Waste: 0.65
+Capital: Kit 12 sc | Plant 1–3 gc | Life 15
+Floor: holds. Watched crop.
+
+Whale Oil
+From: whale (voyage take, Economy_Livestock sea-take)
+Input: one voyage, not a farm lot
+Fuel: try-works fire
+Labour: Hazardous skilled + common seamen, weeks  [T2]
+Facility: ship and try-works (T3 if a standing shore-works)
+Tech: listed T2 / min T2 / max T3
+Waste: high; the meat is a side take
+Capital: Plant = a ship. Not a village press.
+Floor: bottleneck. Do not cost as olive-press.
+
+
+--------------------------------------------------
+PRESERVE
+--------------------------------------------------
+
+Sauerkraut
+From: Cabbage, salt
+Input: 1.1 kg cabbage + 0.02 kg salt / kg
+Labour: rural common × 0.2 day / 20 kg  [T0]
+Facility: cask
+Tech: listed T0 / min T0 / max T1
+Time: weeks
+Waste: 0.10
+Capital: Kit 3 sc | Plant none
+Floor: house-labour.
+
+Dried fruit
+From: Apples, Plum, Grapes, or Date Fruit
+Input: 3 kg fresh / kg dried (date already dry: 1.05 kg)
+Fuel: sun or 0.3 kg wood / kg
+Labour: rural common × 0.3 day / 10 kg  [T0]
+Facility: rack or slow oven
+Tech: listed T0 / min T0 / max T1
+Waste: water-weight
+Capital: Kit 2 sc
+Floor: house-labour.
+
+Fruit preserve
+From: Berries (cultivated) or orchard soft fruit + Honey
+Input: 0.7 kg fruit + 0.4 kg Honey / kg
+Fuel: 0.2 kg wood / kg
+Labour: basic skilled or house × 0.3 day / 5 kg  [T1]
+Facility: kettle
+Tech: listed T1 / min T0 / max T1
+Waste: 0.10
+Capital: Kit 5 sc
+Floor: holds if honey is local. Bottleneck if honey is dear.
+
+Quince paste
+From: Quince + Honey
+Input: 1.2 kg quince + 0.3 kg Honey / kg
+Labour: house or cook × 0.4 day / 5 kg  [T1]
+Facility: pan
+Tech: listed T1 / min T0 / max T1
+Waste: 0.20
+Capital: Kit 4 sc
+Floor: holds.
+
+Ground spice
+From: Spice
+Input: 1.02 kg Spice / kg
+Labour: basic skilled × 0.1 day / 5 kg  [T1]
+Facility: mortar or small mill
+Tech: listed T1 / min T0 / max T2
+Waste: 0.02
+Capital: Kit 8 sc
+Floor: holds. The price is the spice, not the grinding.
+
+
+--------------------------------------------------
+CLOTH AND FIBRE
+--------------------------------------------------
+
+Wool Cloth
+From: Wool
+Input: 1.3 kg Wool / kg cloth
+Labour: Basic skilled (spinner + weaver) × 8 days / 10 kg bolt  [T1]
+Facility: wheel, loom. Fulling-mill at T2
+Tech: listed T1 / min T1 / max T3
+Time: weeks
+Waste: 0.20
+Capital: Kit 20 sc | Plant loom-shed 2 gc; T2 fulling-mill 8–15 gc | Life 20
+Floor: holds at T1 if labour is village-skilled. T2 cuts days hard.
+
+Silk Cloth
+From: Raw Silk
+Input: 1.15 kg Raw Silk / kg
+Labour: Higher skilled (silk weaver) × 12 days / 5 kg bolt  [T3]
+Facility: silk-loom, city work
+Tech: listed T3 / min T2 / max T4
+Waste: 0.10
+Capital: Kit 1 gc | Plant silk-shop 10–30 gc | Life 20
+Floor: bottleneck. Skill and Raw Silk, not the loom-wood.
+
+Linen
+From: Flax
+Input: 4 kg Flax / kg cloth (retting and scutching eat mass)
+Labour: rural common (ret, scutch) + weaver × 10 days / 10 kg  [T1]
+Facility: retting-water, brake, loom
+Tech: listed T1 / min T1 / max T3
+Time: retting weeks
+Waste: 0.70 of the raw flax
+Capital: Kit 15 sc | Plant 2–6 gc | Life 20
+Floor: holds. Needs water for retting.
+
+Felt
+From: Wool
+Input: 1.2 kg Wool / kg
+Labour: Basic skilled (felt maker) × 2 days / 15 kg  [T1]
+Facility: vat and beat
+Tech: listed T1 / min T0 / max T2
+Waste: 0.15
+Capital: Kit 8 sc | Plant 1 gc | Life 15
+Floor: holds.
+
+Velvet
+From: Wool Cloth or Silk Cloth + Dyes
+Input: 1.1 kg fine cloth + 0.05 kg Prepared dye
+Labour: Higher skilled × 10 days / 5 kg  [T3]
+Facility: pile-loom
+Tech: listed T3 / min T3 / max T4
+Waste: 0.10
+Capital: Kit 2 gc | Plant 15–40 gc | Life 20
+Floor: bottleneck.
+
+Rope
+From: Flax or Hemp
+Input: 1.4 kg fibre / kg rope
+Labour: Basic skilled (rope maker) × 1 day / 10 kg  [T1]
+Facility: rope-shed. Ropewalk at T3
+Tech: listed T1 / min T1 / max T3
+Waste: 0.15
+Capital: Kit 12 sc | Plant shed 2 gc; T3 walk 10–25 gc | Life 25
+Floor: holds.
+
+Hemp cloth
+From: Hemp
+Input: 3.5 kg Hemp / kg
+Labour: as Linen × 0.8  [T1]
+Facility: as Linen
+Tech: listed T1 / min T1 / max T3
+Waste: 0.65
+Capital: as Linen
+Floor: holds.
+
+Canvas
+From: Hemp or coarse Flax
+Input: 3.8 kg fibre / kg
+Labour: weaver × 6 days / 15 kg  [T2]
+Facility: wide loom. Works at T3 for sail-lots
+Tech: listed T2 / min T1 / max T3
+Waste: 0.60
+Capital: Kit 25 sc | Plant 5–15 gc | Life 20
+Floor: holds at T2. T1 makes patches, not a sail-loft.
+
+
+--------------------------------------------------
+PREPARED DYE
+--------------------------------------------------
+
+Woad balls
+From: Woad
+Input: 8 kg fresh leaf / kg balls
+Labour: Basic skilled (dyer) × 2 days / 10 kg  [T1]
+Facility: ferment-vat and drying
+Tech: listed T1 / min T1 / max T2
+Time: ferment days
+Waste: most of the leaf
+Capital: Kit 10 sc | Plant 2–5 gc | Life 15
+Floor: holds.
+
+Madder extract
+From: Madder (root)
+Input: 3 kg dried root / kg
+Labour: dyer × 1.5 days / 5 kg  [T1]
+Facility: dye-house
+Tech: listed T1 / min T1 / max T3
+Time: the field already waited two or three years
+Waste: 0.40 of root
+Capital: Kit 12 sc | Plant 3–8 gc | Life 20
+Floor: holds. Capital was time in the ground.
+
+Weld cake
+From: Weld
+Input: 5 kg stalk / kg
+Labour: dyer × 1 day / 10 kg  [T1]
+Facility: dry-yard
+Tech: listed T1 / min T0 / max T2
+Waste: 0.50
+Capital: Kit 6 sc | Plant 1 gc
+Floor: holds.
+
+Indigo cake
+From: Indigo
+Input: 6 kg leaf / kg cake
+Labour: Higher skilled (master dyer) × 3 days / 5 kg  [T2]
+Facility: hot-country vats
+Tech: listed T2 / min T2 / max T3
+Waste: high
+Capital: Kit 20 sc | Plant 8–20 gc | Life 15
+Floor: bottleneck. Place and skill.
+
+
+--------------------------------------------------
+LIGHTS
+--------------------------------------------------
+
+Tallow Candles
+From: Tallow
+Input: 1.05 kg Tallow + a little wick
+Labour: Basic skilled (chandler) × 0.4 day / 10 kg  [T1]
+Facility: melt-shop
+Tech: listed T1 / min T0 / max T2
+Waste: 0.05
+Capital: Kit 8 sc | Plant 1–3 gc | Life 15
+Floor: holds.
+
+Beeswax Candles
+From: Beeswax
+Input: 1.05 kg Beeswax
+Labour: chandler × 0.5 day / 10 kg  [T1]
+Facility: as tallow
+Tech: listed T1 / min T1 / max T2
+Waste: 0.05
+Capital: as tallow
+Floor: holds. Price is the wax.
+
+
+--------------------------------------------------
+LEATHER
+--------------------------------------------------
+
+Leather
+From: Hides (raw)
+Input: 1.6 kg raw hide / kg
+Store: tannin (bark, oak, or named tan)
+Labour: Basic skilled (tanner) × 3 days hands-on / 20 kg, stretched over months  [T1]
+Facility: tan-pits. Works at T2–T3
+Tech: listed T1 / min T1 / max T3
+Time: months in the pit
+Waste: 0.35
+Capital: Kit 15 sc | Plant tannery 8–25 gc | Life 25
+Floor: holds. Stink and water are the site-limit, not the wage.
+
+
+--------------------------------------------------
+CERAMIC
+--------------------------------------------------
+
+Pottery
+From: clay (primary / local bed)
+Input: 1.2 kg clay / kg ware
+Fuel: 0.8 kg wood / kg
+Labour: Basic skilled (potter) × 0.4 day / 10 kg  [T1]
+Facility: wheel and pot-kiln
+Tech: listed T1 / min T0 / max T2
+Waste: 0.15 (breakage)
+Capital: Kit 10 sc | Plant kiln 2–6 gc | Life 15
+Floor: holds.
+
+Brick
+From: clay
+Input: 1.1 kg clay / kg
+Fuel: 0.5 kg wood / kg
+Labour: rural or urban common + tile maker × 0.2 day / 40 kg  [T1]
+Facility: clamp or brick-kiln
+Tech: listed T1 / min T1 / max T3
+Waste: 0.10
+Capital: Kit 8 sc | Plant clamp 1 gc; T2 kiln 5–12 gc | Life 20
+Floor: holds.
+
+
+--------------------------------------------------
+WOOD FORMS
+--------------------------------------------------
+
+Species does not change the labour row.
+The input log is that species. Price follows Economy_Processed_Goods species tables.
+Waste of the log: 0.35–0.50 to slab, bark, and sawdust at T1. T2 saw-pit toward 0.35. T0 hewing worse than 0.50.
+
+Planks / Boards
+From: Forestry log
+Input: ~1.7 kg log / kg plank  [T1]
+Labour: Basic skilled (sawyer) + common × 1 day / 200 kg  [T2 saw-pit]
+Facility: saw-pit (T2) or whip-saw shed (T1)
+Tech: listed T2 / min T1 / max T3
+Capital: Kit 15 sc | Plant saw-pit 5–12 gc | Life 20
+Floor: holds.
+
+Roof shingles
+From: straight-grained log
+Input: 2.0 kg log / kg
+Labour: rural common × 1 day / 40 kg  [T1]
+Facility: froe-yard
+Tech: listed T1 / min T0 / max T2
+Capital: Kit 5 sc
+Floor: holds.
+
+Spar / pole blank
+From: young pine or fir
+Input: the stick
+Labour: rural common × 0.3 day / spar  [T0]
+Facility: wood
+Tech: listed T0 / min T0 / max T1
+Capital: Kit 2 sc
+Floor: house / wood-hand labour.
+
+Hewn beam
+From: large log
+Input: ~1.8 kg log / kg beam
+Labour: rural common + carpenter × 1 day / 100 kg  [T1]
+Facility: yard
+Tech: listed T1 / min T0 / max T2
+Capital: Kit 8 sc
+Floor: holds.
+
+Turning blanks
+From: birch or beech
+Input: 1.5 kg log / kg
+Labour: carpenter × 0.2 day / 10 kg  [T1]
+Facility: yard
+Tech: listed T1 / min T1 / max T2
+Capital: Kit 6 sc
+Floor: holds.
+
+Wet-work blanks
+From: alder
+Input: 1.5 kg / kg
+Labour: rural common × 0.2 day / 10 kg  [T0]
+Facility: wet wood
+Tech: listed T0 / min T0 / max T1
+Capital: Kit 3 sc
+Floor: holds.
+
+Hub / pipe blanks
+From: elm heart
+Input: selected log
+Labour: Higher skilled or wheelwright × 0.5 day to select and cut  [T1]
+Facility: yard
+Tech: listed T1 / min T1 / max T2
+Capital: Kit 10 sc
+Floor: holds. The scarcity is the tree.
+
+Shaft / oar / handle blanks
+From: straight ash
+Input: one stick
+Labour: carpenter × 0.3 day to select and season-cut  [T1]
+Facility: yard
+Tech: listed T1 / min T1 / max T2
+Capital: Kit 8 sc
+Floor: holds. A board will not substitute. Finished hafting is Tools / Arms.
+
+Cooper’s staves
+From: oak, split
+Input: 1.8 kg oak / kg staves
+Labour: Basic skilled (cooper) × 1 day / 30 kg  [T1]
+Facility: cooper’s shed
+Tech: listed T1 / min T1 / max T2
+Capital: Kit 20 sc | Plant 2–5 gc | Life 20
+Floor: holds.
+
+Knee / compass-timber blank
+From: oak that grew a bend
+Input: the grown curve
+Labour: found more than made. Wood-hand × 1 day to take  [T0]
+Facility: the wood
+Tech: listed T0 / min T0 / max T1
+Capital: none
+Floor: bottleneck is finding it.
+
+
+--------------------------------------------------
+METAL LADDER
+--------------------------------------------------
+
+Each step eats the step below.
+Charcoal is the usual fuel. A works may burn other fuel if written.
+
+Crude Iron
+From: iron ore or bog-iron
+Input: 6 kg ore + 8 kg charcoal / kg bloom  [T1]
+Labour: Hazardous skilled + common × 2 days / 50 kg  [T1]
+Facility: bloomery. T3 may concentrate hearths
+Tech: listed T1 / min T1 / max T3
+Waste: slag; most of the ore
+Capital: Kit 30 sc | Plant bloomery and charcoal-shed 15–40 gc | Life 15
+Floor: holds if charcoal is local. Fuel is the limiter.
+
+Wrought Iron
+From: Crude Iron
+Input: 1.25 kg Crude Iron + 2 kg charcoal / kg
+Labour: Higher skilled (smith) × 1 day / 10 kg  [T1]
+Facility: smithy
+Tech: listed T1 / min T1 / max T3
+Waste: 0.20
+Capital: Kit 1 gc | Plant smithy 5–15 gc | Life 20
+Floor: holds.
+
+Steel
+From: Wrought Iron
+Input: 1.3 kg Wrought Iron + 3 kg charcoal / kg
+Labour: Higher skilled × 2 days / 5 kg  [T2]
+Facility: smithy with the right fire
+Tech: listed T2 / min T1 / max T3
+Waste: 0.20
+Capital: Kit 2 gc | Plant 8–20 gc | Life 20
+Floor: holds at T2. T1 makes a little, slow.
+
+Fine Steel
+From: Steel
+Input: 1.2 kg Steel
+Labour: Higher skilled / swordsmith × 3 days / 3 kg  [T3]
+Facility: specialist smithy
+Tech: listed T3 / min T2 / max T4
+Waste: 0.15
+Capital: Kit 3 gc | Plant 15–40 gc | Life 20
+Floor: bottleneck.
+
+Crucible Steel
+From: Fine Steel or selected wrought + rare earths as written
+Input: 1.3 kg Fine Steel
+Labour: Higher skilled specialist × 5 days / 1 kg  [T4]
+Facility: crucible works
+Tech: listed T4 / min T4 / max T4
+Waste: 0.20
+Capital: Plant estate or city only, 50 gc+
+Floor: bottleneck. No T3 substitute.
+
+Copper
+From: copper ore
+Input: 8 kg ore + 10 kg charcoal / kg  [T1]
+Labour: Hazardous + smith × 2 days / 30 kg
+Facility: smelt-hearth
+Tech: listed T1 / min T1 / max T3
+Capital: Plant 15–35 gc
+Floor: holds at a named pit (Askgruv-style).
+
+Tin
+From: tin ore
+Input: 6 kg ore / kg
+Labour: as copper
+Facility: smelt-hearth
+Tech: listed T1 / min T1 / max T3
+Floor: holds where the ore is written. Otherwise import.
+
+Bronze
+From: Copper + Tin
+Input: 0.90 kg Copper + 0.12 kg Tin / kg
+Fuel: 1 kg charcoal / kg
+Labour: Higher skilled (founder) × 0.5 day / 10 kg  [T2]
+Facility: foundry
+Tech: listed T2 / min T1 / max T3
+Waste: 0.05
+Capital: Kit 2 gc | Plant 8–20 gc
+Floor: holds.
+
+Lead
+From: lead ore
+Input: 5 kg ore / kg
+Labour: hazardous + common × 1 day / 40 kg  [T1]
+Facility: smelt
+Tech: listed T1 / min T1 / max T3
+Capital: Plant 8–20 gc
+Floor: holds. Poison is the site-limit.
+
+Silver (refined)
+From: silver ore
+Input: large mass of ore / kg fine
+Labour: Higher skilled × days, not hamlet work  [T3]
+Facility: cupel-works
+Tech: listed T3 / min T2 / max T4
+Capital: Plant 20–60 gc
+Floor: bottleneck. The ore body is the gate.
+
+Gold (refined)
+From: gold ore or wash
+Input: wash or ore as written
+Labour: specialist  [T3]
+Facility: wash or cupel
+Tech: listed T3 / min T2 / max T4
+Capital: Plant 20–80 gc
+Floor: bottleneck.
+
+Scrap
+Not a process row.
+Price scrap as Economy_Processed_Goods.txt already states.
+
+
+--------------------------------------------------
+USING THIS WITH A REGION
+--------------------------------------------------
+
+1. Read the settlement or region Economy block for the plant words (mill, saw-pit, bloomery, tannery).
+2. Assign Tech from that plant and the table at the top.
+3. If Tech < Min, that good is house-only or absent.
+4. Apply labour and waste multipliers from the starting listed Tech.
+5. Book hands from W (Economy_Yield.txt). Do not invent a second workforce.
+6. Fuel (charcoal, wood) must exist on the product sheet or as an import.
+7. Finished Arms and Tools then take Wrought Iron, Steel, and shaft-blanks from this ladder. They do not remake the bloomery.
+
+
+--------------------------------------------------
+WHAT THIS FILE DOES NOT DO
+--------------------------------------------------
+
+- It does not change the listed sale price by itself.
+- It does not place a water-mill on a dry ridge.
+- It does not let T4 appear because a player wants cheap fine steel.
+- It does not cost a sword. That is Economy_Finished_Arms.txt.
+- It does not replace Local_Region product ledgers.

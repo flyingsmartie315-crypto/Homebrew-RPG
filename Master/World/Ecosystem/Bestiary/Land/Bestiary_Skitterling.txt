@@ -1,6 +1,6 @@
 # Bestiary_Skitterling
 
-Type: Natural
+Type: Unveiling
 Domain: Land
 Biome: Any
 

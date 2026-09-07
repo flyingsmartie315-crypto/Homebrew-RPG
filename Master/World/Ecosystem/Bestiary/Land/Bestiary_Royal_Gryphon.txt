@@ -1,6 +1,6 @@
 # Bestiary_Royal_Gryphon
 
-Type: Unveiling
+Type: Wonder
 Domain: Land, Air
 Biome: Alpine, Polar, Boreal
 

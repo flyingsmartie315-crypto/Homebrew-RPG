@@ -1,9 +1,24 @@
-# Economy_Yield.txt
-# How much a settlement takes in a year.
+# Economy_Agri_Yield.txt
+# How to write food take for a Local Region.
+# Router: Economy_Yield.txt
+# Product (non-food): Economy_Product_Yield.txt
 # Crops: Economy_Agriculture.txt
 # Beasts: Economy_Livestock.txt
 # Site scores: Geography_Rules.txt and Bestiary_Rules.txt
 # Prices: Economy_Primary_Goods.txt
+
+This is the agri method. It is not a region ledger.
+Filled ledgers live beside the parent Local Region file:
+
+Local_Region_[Name].txt
+Local_Region_[Name]_Agri_Yield.txt
+Local_Region_[Name]_Product_Yield.txt
+
+If those instance files do not exist, use this method on the parent Local Region and its settlements. Do not invent a basin ledger.
+
+Agri = what goes into a mouth or a byre this year.
+Product = goods. A surplus fish or hide may be listed again on the product sheet.
+Do not invent product-grain that agri did not grow.
 
 This file does not invent hectares.
 
@@ -13,11 +28,16 @@ Margins sit beside the field. They are not a second plough.
 Margins in this file
 - Burgage garden (house plot)
 - Forage and trap (wood, fringe, custom)
-- Water take (fish, and named sea-work)
+- Water take (fish as food)
 - Yard and herd (poultry, pig, sheep, goat, cattle)
 
 Do not mash them into one “food” number.
 A lake town can be short of barley and still eat.
+
+Regional baseline first. Settlement files modify the basin (a mine eats grain; a dock smokes fish). They do not reprint the country.
+
+Working examples below are method. They are not Local_Region_Kannavald_Deepwood_Agri_Yield.txt.
+The farm-hamlet split on Kolvatn is not locked. Do not treat the Kolby town-only sheet as the basin.
 
 
 --------------------------------------------------
@@ -42,8 +62,10 @@ Margins (after the field, every year)
 11. Water take
 12. Yard and herd
 
-Hands used for forage, nets, and stock are not taken out of F.
-They come from the household share that is not behind a plough.
+Burgage, forage, and yard-herd care come from the household share that is not a full working hand.
+Named working fishers, plough-hands, colliers, and pit-hands share one regional labour pool.
+See Economy_Yield.txt and Economy_Product_Yield.txt.
+A body cannot be booked twice as a full field-hand and a full collier.
 
 
 --------------------------------------------------
@@ -175,6 +197,7 @@ Children, the old, house-work, and by-work are the rest.
 
 F is the hands that can be put on fields, orchards, and dye-rows this year.
 It is not soldiers and it is not the dock.
+F is drawn from the regional working pool (Population midpoint × 0.40), not added on top of product hands.
 
 
 --------------------------------------------------
@@ -622,3 +645,5 @@ WHAT THIS FILE DOES NOT DO
 - It does not turn Rarity into kilograms. Rarity only decides if the crop is planted.
 - It does not slaughter the live herd to book a year’s meat.
 - It does not count a whale, a gryphon, or a royal hunt as annual yield.
+- It does not print timber, ore, charcoal, or finished goods. That is Economy_Product_Yield.txt.
+- It is not the Kannavald basin ledger. That file is not written yet.

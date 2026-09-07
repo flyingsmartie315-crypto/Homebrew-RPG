@@ -6,8 +6,15 @@ All prices use the universal currency (1 gc = 20 sc = 240 bc).
 Arms are sold by the piece.
 The metal in the weapon is never cheaper than the grade named in the inputs.
 Hafts and shafts use selected blanks, not boards.
+Waste is in the bought mass, not a second ticket.
+
+Wait is not labour.
+Seasoning, loft-years, and drying sit as storage and a small premium on the stave.
+They are not bowyer-days and they are not smith-days.
+Same rule as tan-pits in Economy_Processing_Matrix.txt.
 
 Stay inside the categories below. Named examples are types within a category, not separate files.
+Core/Weaponry.txt Common cost is the mid of the band.
 
 --------------------------------------------------
 BLADES
@@ -180,40 +187,65 @@ Base price: 10–25 sc
 BOWS
 --------------------------------------------------
 
+Seasoning is not labour.
+A stave sits in a loft for years. That is secure storage and a little tied coin.
+It is not a bowyer standing over the stick.
+
+Floor
+  stave (already dry) + loft premium (1–8 sc) + string/nocks + tiller-days × wage.
+Do not multiply bowyer-days by the years in the rack.
+Yew costs more because the stick is scarce, not because someone watched it for three years.
+
 Low-Poundage Bow
 Type: Low-Poundage Bow
-Examples: light bow, self bow
+Examples: light bow, hunting self-bow
 Inputs:
-  - 1 selected bow-stave (ash, elm, or lesser yew)
-Labour: Bowyer, several days
+  - 1 selected bow-stave (ash, elm, or lesser yew), already dry
+  - loft premium 1–3 sc
+  - string
+Labour: Bowyer, two to four days on the tiller
+Time: loft years behind the stave; not booked as days
 Modifiers:
   - Fine: better stave and tiller
 Output: 1 piece
-Base price: 15–30 sc
+Base price: 12–25 sc
+Core Common: 18 sc
 
 Medium-Poundage Bow
 Type: Medium-Poundage Bow
-Examples: cavalry bow, skirmish bow
+Examples: cavalry bow, skirmish self-bow
 Inputs:
-  - 1 selected bow-stave
-  - sinew / glue / horn if composite
-Labour: Bowyer, a week or more
+  - 1 selected bow-stave, already dry
+  - loft premium 2–5 sc
+  - string
+  - sinew / glue / horn only if composite
+Labour: Bowyer, the best part of a week on the tiller
+Time: loft years on the stave, not on the man
 Modifiers:
-  - Composite: extra materials and time
+  - Self-bow: the band below
+  - Composite: extra materials and time; push toward 1–3 gc
 Output: 1 piece
-Base price: 2–5 gc
+Base price: 25–50 sc (self). Composite 1–3 gc.
+Core Common (self): 38 sc
 
 High-Poundage Bow
 Type: High-Poundage Bow
-Examples: longbow, warbow
+Examples: heavy self-bow (70–100 lb); longbow / warbow
 Inputs:
-  - 1 selected yew stave (5 kg class) or lesser substitute
-Labour: Bowyer, skilled, long seasoning before the tiller
+  - 1 selected yew stave (or lesser substitute), already dry
+  - loft premium 4–8 sc
+  - string, nocks
+Labour: Bowyer, skilled, several days to a week on the tiller
+Time: loft years. Yew scarcity is the stave price, not extra weeks.
 Modifiers:
-  - Yew: as Forestry yew stave
+  - Heavy self (Weaponry Heavy): lower end of the band
+  - Longbow / warbow: mid of the band
+  - Yew: as Forestry yew stave (dearer stick, same tiller-days)
   - Substitute stave: cheaper, worse
 Output: 1 piece
-Base price: 5–12 gc
+Base price: 1–3 gc
+Fine selected yew: 3–5 gc. Not a harness.
+Core Common: Heavy 1 gc 10 sc. Longbow 2 gc.
 
 --------------------------------------------------
 CROSSBOWS

@@ -44,13 +44,14 @@ ASSESS (locked here, not left as contradictions)
     The −20 untrained chip is not used. Halve is the law.
 
   Currency and Enc
-    Costs stay as written (bc / sc / gc) until Economy
-    maps them. Enc is points. 10 points ≈ 1 kg.
-
-  Outliers left as written, flagged
-    Javelin at 5 gc against a 14 sc axe. Revisit in
-    Economy. Siege engines are narrative, not Turn
-    weapons.
+    Listed costs are Common shop prices, taken from
+    the Economy_Finished_Arms.txt band for that type.
+    Poor / Good / Best still use §2 (×½ / ×3 / ×10).
+    Enc is points. 10 points ≈ 1 kg.
+    Bow tickets cost the tiller and the dry stave.
+    Loft-years are not bowyer-days.
+    Siege engines stay narrative. They are not
+    Finished Arms rows.
 
 --------------------------------------------------
 0. KEYWORDS
@@ -244,60 +245,60 @@ Versatile          Choose type each attack. Some
 --------------------------------------------------
 
 Small
-  Dagger *                 7 sc   Enc 3   Ord
+  Dagger *                12 sc   Enc 3   Ord
     (3/5/1)  Reach 0.5   Fast
-  Misericordia             9 sc   Enc 4   Ord
+  Misericordia            18 sc   Enc 4   Ord
     (2/6/1)  Reach 0.5   Fast, Armour Piercing
-  Main Gauche              8 sc   Enc 5   Parrying
+  Main Gauche             16 sc   Enc 5   Parrying
     (2/4/1)  Reach 0.5   Fast, Defensive, Balanced
-  Utility Axe (Hatchet) *  8 sc   Enc 5   Ord
+  Utility Axe (Hatchet) * 18 sc   Enc 5   Ord
     (5/1/3)  Reach 0.5   Impact, Throwing
 
 Axes
-  One-Handed Axe *        14 sc   Enc 8   Ord
+  One-Handed Axe *        25 sc   Enc 8   Ord
     (5/2/3)  Reach 1     Impact, Versatile
-  Two-Handed Axe *     1 gc 6 sc  Enc 22  Two-handed
+  Two-Handed Axe *        3 gc    Enc 22  Two-handed
     (6/2/4)  Reach 1.5   Impact, Slow, Versatile
                          (Hulking only)
 
 Maces / hammers
-  One-Handed Mace *       14 sc   Enc 10   Ord
+  One-Handed Mace *       22 sc   Enc 10   Ord
     (2/3/5)  Reach 1     Armour Piercing, Pummelling
-  Two-Handed Mace *    1 gc 6 sc  Enc 28  Two-handed
+  Two-Handed Mace *       3 gc    Enc 28  Two-handed
     (1/3/6)  Reach 1.5   AP, Impact, Pummelling, Slow
   Staff                    6 sc   Enc 8   Two-handed
     (0/1/4)  Reach 2     Defensive, Fast, Concealable,
                          Inconspicuous
 
 Swords
-  Double-edged straight   14 sc   Enc 11   Ord
+  Double-edged straight    3 gc   Enc 11   Ord
     (4/4/2)  Reach 1     Balanced, Precise
-  Single-edged curved     14 sc   Enc 12   Ord
+  Single-edged curved      3 gc   Enc 12   Ord
     (5/2/2)  Reach 1     Balanced, Impact
-  H&H double-edged *   1 gc 3 sc  Enc 16   Ord / Two-hand
+  H&H double-edged *       6 gc   Enc 16   Ord / Two-hand
     (5/4/2)  Reach 1.5   Balanced, Versatile
-  H&H single-edged *   1 gc 3 sc  Enc 17   Ord / Two-hand
+  H&H single-edged *       6 gc   Enc 17   Ord / Two-hand
     (6/2/3)  Reach 1.5   Balanced, Impact, Versatile
-  Great double-edged * 1 gc 8 sc  Enc 30  Two-handed
+  Great double-edged *    12 gc   Enc 30  Two-handed
     (7/4/3)  Reach 2     Impact, Slow, Versatile
                          (Hulking only)
-  Great single-edged * 1 gc 8 sc  Enc 32  Two-handed
+  Great single-edged *    12 gc   Enc 32  Two-handed
     (8/2/3)  Reach 2     Impact, Slow, Versatile
                          (Hulking only)
 
 Polearms
-  Spear (1H polearm) *    16 sc   Enc 12   Ord
+  Spear (1H polearm) *    18 sc   Enc 12   Ord
     (2/5/1)  Reach 2     Fast, Versatile
-  Lance (cavalry) *    1 gc 2 sc  Enc 24  Cavalry
+  Lance (cavalry) *        4 gc   Enc 24  Cavalry
     (2/7/1)  Reach 3     Fast, Impact, Tiring,
                          Mounted Specialist
-  2H polearm Short *   1 gc 5 sc  Enc 20  Two-handed
+  2H polearm Short *       4 gc   Enc 20  Two-handed
     (5/5/4)  Reach 2     AP, Impact, Versatile
                          (Hulking only)
-  2H polearm Long *    1 gc 6 sc  Enc 25  Two-handed
+  2H polearm Long *        5 gc   Enc 25  Two-handed
     (5/5/3)  Reach 2.5   AP, Snare, Slow, Versatile
                          (Hulking only)
-  2H polearm Very Long * 1 gc 4 sc Enc 28 Two-handed
+  2H polearm Very Long *   4 gc   Enc 28  Two-handed
     (1/6/1)  Reach 3.5   AP, Slow, Formation Specialist
 
 --------------------------------------------------
@@ -307,30 +308,30 @@ Polearms
 Range is short / long yards. Reload is Actions.
 
 Bows                                          Min S
-  Light (hunting)     16 sc  Enc 5  Ord
+  Light (hunting)     18 sc  Enc 5  Ord
     (2/3/1)  18/36   Reload Half    Fast
     Draw 20–40 lb.  Min S 20
-  Medium              20 sc  Enc 6  Ord
+  Medium              38 sc  Enc 6  Ord
     (3/4/1)  24/48   Reload Half
     Draw 40–70 lb.  Min S 25
-  Heavy               24 sc  Enc 8  Ord
+  Heavy            1 gc 10 sc Enc 8  Ord
     (3/5/1)  30/60   Reload Full    Tiring, AP
     Draw 70–100 lb. Min S 30
-  Longbow *           26 sc  Enc 10  Longbow
+  Longbow *            2 gc  Enc 10  Longbow
     (4/5/1)  36/72   Reload Full    Tiring, AP, Impact
     Draw 100–180 lb. Min S 35
 
 Crossbows
-  Pistol           1 gc 4 sc  Enc 15  Crossbow
+  Pistol               3 gc  Enc 15  Crossbow
     (1/3/1)  8/16    Reload Half    Fast, Concealable
-  Light            1 gc 8 sc  Enc 45  Ord
+  Light                3 gc  Enc 45  Ord
     (1/4/1)  20/40   Reload Half    Pre-Loaded
-  Medium           2 gc       Enc 60 Ord
+  Medium               7 gc  Enc 60  Ord
     (1/5/1)  30/60   Reload Full    AP, Pre-Loaded
-  Heavy (Arbalest) 2 gc 8 sc  Enc 85 Crossbow
+  Heavy (Arbalest)    16 gc  Enc 85  Crossbow
     (1/6/1)  40/80   Reload Ext×2   AP, Impact, Slow,
                                     Pre-Loaded
-  Repeater *       3 gc 4 sc  Enc 70 Crossbow
+  Repeater *          20 gc  Enc 70  Crossbow
     (1/4/1)  16/32   Reload Ext×2   Experimental,
                                     Special: 3 shots
                                     in the magazine,
@@ -347,12 +348,12 @@ Thrown (ready + throw is one Half; Group Throwing
 unless noted Ordinary)
   Improvised          —      Enc var  Ord
     profile by size  4/8 or as §8
-  Javelin             5 gc   Enc 12  Throwing
+  Javelin             16 sc  Enc 12  Throwing
     (1/4/2)  8/16    Fast
     Melee as short spear, Reach 1.5
-  Throwing Axe        5 gc   Enc 15  Throwing
+  Throwing Axe        22 sc  Enc 15  Throwing
     (4/1/3)  6/12    Impact, Throwing (returns)
-  Throwing Dagger     2 gc   Enc 2  Throwing
+  Throwing Dagger     14 sc  Enc 2  Throwing
     (2/4/1)  6/12    Fast, Concealable
                      +15 Concealment hidden
 
@@ -456,7 +457,8 @@ uses the same incoming, new location.
   — Strike to Stun as an Action
   — Armour AC by location and by Cut / Pierce / Blunt
   — Type-specific finishing effects (bleed, stun)
-  — Javelin / throwing-axe gold cost vs sidearm silver
+  — (closed) Thrown costs now sit on the melee twin,
+    not a gold tax
   — Arrow count vs Enc 10 bundles
   — Repeater magazine as three Standard Attacks
     before the Extended reload

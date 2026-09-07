@@ -1,0 +1,123 @@
+# Economy_Yield.txt
+# Router for yearly take.
+# Agri method: Economy_Agri_Yield.txt
+# Product method: Economy_Product_Yield.txt
+# Prices: Economy_Primary_Goods.txt and Economy_Processed_Goods.txt
+# Site scores: Geography_Rules.txt and Bestiary_Rules.txt
+
+This file does not calculate bushels or boards.
+It says which file to open and who owns the baseline.
+
+
+--------------------------------------------------
+LOAD ORDER
+--------------------------------------------------
+
+1. Roleplay_AI_Loader.txt if this is a live scene.
+2. The Local Region file for the place.
+3. Local_Region_[Name]_Agri_Yield.txt if it exists.
+4. Local_Region_[Name]_Product_Yield.txt if it exists.
+5. Settlement files only as modifiers (a mine, a kiln, a dock, a gate).
+6. Campaign_Log.txt if the year has already changed.
+
+If an instance yield file does not exist, say so.
+Then run the matching method file against the parent Local Region.
+Do not invent a finished basin ledger.
+
+
+--------------------------------------------------
+WHERE INSTANCE FILES LIVE
+--------------------------------------------------
+
+Same folder as the parent Local Region.
+
+Master/Geography/Geographic_Regions/[Geographic Region]/
+  Local_Region_[Name].txt
+  Local_Region_[Name]_Agri_Yield.txt
+  Local_Region_[Name]_Product_Yield.txt
+
+Do not put yield sheets under Settlements/.
+Do not write empty yield files for regions that have not been ledged.
+Missing file means “no baseline yet,” not “take is zero.”
+
+
+--------------------------------------------------
+WHAT EACH SHEET OWNS
+--------------------------------------------------
+
+Agri
+What goes into a mouth or a byre this year.
+Crops, burgage, forage, trap-meat, fish-as-food, yard, herd.
+Method: Economy_Agri_Yield.txt
+
+Product
+What is counted as a good: raw, processed, or finished.
+Timber, charcoal, peat, ore, bog-iron, stone, trade-hide, pitch, boards, bars.
+Method: Economy_Product_Yield.txt
+
+Same physical thing may appear twice.
+- Fish eaten → agri. Fish smoked and sent through a gate → product, surplus only.
+- Hide on a hamlet wall → agri by-part. Hide in a warehouse → product.
+- Grain eaten → agri. Grain in a barge → product, and agri must already show that surplus.
+
+Never invent a product food line that agri did not grow.
+
+
+--------------------------------------------------
+BASELINE IS THE LOCAL REGION
+--------------------------------------------------
+
+The basin is the ledger.
+Settlements are taps and workshops.
+
+A settlement Economy block may say:
+- Takes one-third of regional charcoal.
+- Grows no grain.
+- Smelts the Askflow ore.
+
+It does not reprint the country’s totals.
+
+
+--------------------------------------------------
+ONE LABOUR POOL
+--------------------------------------------------
+
+Regional working hands W = Population midpoint × 0.40
+
+W is the full-time working share of the basin.
+Children, the old, house-work, burgage, forage, and ordinary yard-herd are the rest.
+They are not booked as full hands.
+
+Split W. Do not add a second Kannavald.
+
+Typical claims on W
+- Agri field-hands F
+- Named working fishers (if the Economy block names docks or a fleet)
+- Product wood-hands, pit-hands, colliers, peat-cutters
+- Product process-hands (saw, kiln, bloomery, dock-yard)
+- Garrison, toll, and service when those are the point of a place
+
+A body cannot be a full plough-hand and a full collier.
+If agri and product would together exceed W, cut product first unless the parent Economy block says the place is a pit, kiln, or timber-hub first.
+
+Field-hands F inside agri are a share of W, not Population × field fraction × 0.40 stacked on top of W.
+
+
+--------------------------------------------------
+KANNAVALD
+--------------------------------------------------
+
+No instance sheets yet.
+The farm-hamlet split on the Kolvatn bench is not locked.
+Do not treat the worked Kolby example in Economy_Agri_Yield.txt as the basin ledger.
+
+
+--------------------------------------------------
+WHAT THIS FILE DOES NOT DO
+--------------------------------------------------
+
+- It does not price goods.
+- It does not assign tithe, rent, or who owns the barn or the dock.
+- It does not grow wheat on Boreal ground.
+- It does not run crop HSI on a copper vein.
+- It does not print settlement-level full ledgers.

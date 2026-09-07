@@ -1,6 +1,6 @@
 # Bestiary_Weber_Fisher
 
-Type: Natural
+Type: Unveiling
 Domain: Land, Freshwater
 Biome: River, Wetland, Lake, Pond
 

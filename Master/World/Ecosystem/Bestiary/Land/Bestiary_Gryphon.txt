@@ -1,6 +1,6 @@
 # Bestiary_Gryphon
 
-Type: Unveiling
+Type: Wonder
 Domain: Land
 Biome: Alpine, Polar, Boreal
 
@@ -25,7 +25,7 @@ Stats
 Entity_Gryphon.txt
 
 Overview
-Earthbound gryphons came into Virath’s mountains after the Unveiling. They stand a destrier’s height at the shoulder and outweigh one: eagle head and beak, golden eyes, lion’s body, tawny hide. Shoulder feathers give a killing leap, not flight. They are proud, long-memoried, and will fight to the death for a rider who has stood the trials. They are not the winged Royal Gryphon.
+Earthbound gryphons are a Wonder of the first men: made, not born of the veil. After the landing they took the mountains and kept them. They stand a destrier’s height at the shoulder and outweigh one — eagle head and beak, golden eyes, lion’s body, tawny hide. Shoulder feathers give a killing leap, not flight. They are proud, long-memoried, and will fight to the death for a rider who has stood the trials. They are not the winged Royal Gryphon.
 
 Signs
 - Talon-scored stone on ledges and nest-crags
@@ -44,7 +44,7 @@ They hunt at first light and last light. The leap from a standing start will cle
 
 They pair for life, including the years after they have stopped breeding. Courtship is Thaw: shared hunts, exchanged kills, and long standing on the same rock. They do not keep a pride. Once the territory is taken they keep it until they are expelled. They are fierce on the boundary. Expulsion is by a stronger pair, not by wandering off.
 
-A range without a mate is a young bird still roaming, or a widow. Widows do not nest. If there are still young on the crag, the remaining adult keeps the territory and finishes the rearing. If there are no young, the widow or widower does not hold the rock. It leaves and roams, far beyond the old boundary, sometimes for the rest of its life. Those birds turn up on roads, in vale pasture, and on the roofs of places that have never seen a nest.
+A range without a mate is a young bird still roaming, or a widow. Widow means the surviving bird, male or female. Widows do not nest. If there are still young on the crag, the remaining adult keeps the territory and finishes the rearing. If there are no young, the widow does not hold the rock. It leaves and roams, far beyond the old boundary, sometimes for the rest of its life. Those birds turn up on roads, in vale pasture, and on the roofs of places that have never seen a nest.
 
 They grieve. A slain mate or a slain chick is not eaten and is not abandoned at once. The survivor will stay by the body, then hunt the killers. That hunt does not respect the old boundary. Bands that took a mate have been followed off the mountain, through the steep wood, and onto roads the pair never used. The stalking may last days.
 
@@ -54,24 +54,22 @@ Folk still blame every lone gryphon in the low country. The meat-left-behind is 
 
 The nest is built, not scraped. Timber and stone are wedged into an inset cliff with rock or tree-cover overhead. One egg, sometimes two. Both sit. Both kill anything that comes up the face. The young are raised on the nest and on the home faces until young adulthood, then they leave of their own will. They roam, sometimes for years, until they pair and take a territory of their own. Most die in that interval. A bird that has taken a crag is already a full hunter. They breed at four to six.
 
-Knights Gryphon take the egg, not the adult. The pair treats that as the killing of young and will come down the mountain. Hand-reared birds bond as a mate-substitute: one rider, for life. A broken bond — death, cruelty, abandonment — does not make a safe beast. Wild adults do not take a master.
+Knights Gryphon take the egg, not the adult. The pair treats that as the killing of young and will come down the mountain. Hand-reared birds bond as a mate-substitute: one rider, for life. A broken bond — death, cruelty, abandonment — does not make a safe beast. Wild adults do not take a master. In rare cases a widow has bonded to an exceptional living soul. That bond is real. It is not the Knight’s training. The bird is a partner, not a mount you school.
 
 Encounter
 Usually one hunting, or the pair on the nest-crag. Two eggs is a bad year to climb.
-
 A lone adult well below the massif, matching a party’s route, is likely vengeance, not a stray.
 A lone adult on the vale, taking one head from a herd and moving on, is likely a widow without young, hunting.
 A lone adult that wrecks a fold and leaves the meat is likely a widow that men already wronged.
-
 A bonded mount is a charge on the ground, not a stoop from the air.
-
-Quantity stays low (Rarity 4). Unveiling weather raises likelihood and how far they descend.
+Quantity stays low (Rarity 4). False Moon and thin veil still move them down-slope. Wonder is origin, not a weather-proofing.
 
 Notes
+- Type is Wonder: first men’s work. Name the Founding people when that file exists. Not Unveiling-born.
 - Domain is Land. Do not tag Air.
 - Alpine and Polar are nest-country. Boreal is the high massif and the steep wood under it, then HSI. Kannavald: Ebon Spire, Svarthorn, and the hanging forest on those faces — not the Deepwood floor, not Underwood Shores.
 - A hunt-trail in steep wood is not a change of biome. The nest still wants Topography 4–5 and overhead cover.
 - A roaming widow is the exception to Human Density 0–2. HSI still applies; the bird is not nesting, it is passing.
-- Economy: Economy_Unveiling_Beasts.txt. Not livestock. Possession without authority is a provocation.
-- Widow/Widower means the surviving bird, male or female.
-- Royal Gryphon is a separate file. One egg in a thousand. Do not mix the two at the table.
+- Widow means the surviving bird, male or female.
+- Economy: Economy_Unveiling_Beasts.txt until that file is renamed. Not livestock. Possession without authority is a provocation.
+- Royal Gryphon is a separate file. One egg in a thousand — a rare throw of the same making, not a veil-hatch. Do not mix the two at the table.

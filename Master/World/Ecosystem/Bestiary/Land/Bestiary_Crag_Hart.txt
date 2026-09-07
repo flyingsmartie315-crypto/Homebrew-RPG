@@ -1,0 +1,67 @@
+# Bestiary_Crag_Hart
+
+Type: Natural
+Domain: Land
+Biome: Alpine, Polar, Boreal
+
+HSI
+Temperature: 0–2 | Rainfall: 2–4 | Human Density: 0–2 | Flora: 1–3 | Fauna: 2–3 | Topography: 4–5 | Hydrology: 1–3
+
+RHK
+Rarity: 6
+Individual Harm: 3
+Collective Harm: 4
+Knowledge: 7
+
+Properties
+Height: 1.3–1.5 m at the shoulder
+Weight: 180–280 kg
+Horns: both sexes, ridged, 1.0–1.4 m
+Lifespan: 15–20 years
+Clutch: one kid, rarely two. Dropped on a shelf in Thaw.
+Maturity: three years to the skyline
+Dimorphism: males heavier in the neck and horn. Females hold the herd.
+
+Stats
+Entity_Crag_Hart.txt
+
+Overview
+Crag-harts are the great ibex of Virath’s faces. Men say spire-goat or scree-goat. Slate in Highsun, dirty cream in Longnight. They take a drop a man would not, and they keep a ledge a horse cannot. They are the massif’s meat: what a gryphon pair eats when the hunting is honest. They are not vale-goat and they are not a Wonder. The veil did not invent a hoof.
+
+Signs
+- Ridged horn-scuff on wet basalt
+- Pellets on a shelf no sheep could reach
+- A skyline buck, still, watching the path
+- Hair slate or winter-cream in a talon-cache on a gryphon ledge
+- A blocked col: herd packed on the only tread
+- Kid-bleat under an overhang in Thaw
+
+Behaviour
+A herd of eight to twenty holds a face: the ewes and the year-stock, one old male on the highest rock. They do not migrate between countries. They move up and down the same mountain. Highsun they take the snow-edge and the lichen. Longnight they drop to the last open shelves and the heads of hanging valleys. Deepskaard Col is a crossing in hard weather, not a home.
+
+They eat lichen, juniper, rowan-browse, and the grass that hangs on a step. They drink melt and drip. They do not use the Deepwood floor or the lake-strand.
+
+The hoof is the weapon and the road. They drop a man’s height as a habit. Cornered on a ledge they charge *up* into the problem — horn first, the drop behind you. A single hart is a knock and a gore. A herd on a narrow tread is a fall.
+
+Rut is late Harvest into the first cold. Horns ring on the face. Kids come in Thaw on a shelf the fox cannot walk. The young stay a year. Then the bucks are driven to the skyline or they die on the next massif.
+
+Gryphons and harts keep the same rock in a hard peace. The pair takes the slow and the stray. If the hart-count fails, the gryphon comes down to the vale fold. That is hunger, not a new range.
+
+False Moon makes them still and tight to the wall, or it sends a panic across a face. It does not put them in Kolby.
+
+Men of Skaardhold and Askgruv take a kid and school it to pack. That is a rope-beast, not a destrier. The wild herd is not livestock. A hold-strain, if the Pionari ever set one, is a later Economy line. This file is the face.
+
+Encounter
+A skyline buck watching is a warning, not a fight.
+A herd on the only tread is Collective 4: horns and the drop.
+One animal in a choke is Harm 3.
+Gryphon-sign on the same face means the hart are food, not allies.
+Kannavald: Ebon Spire, Svarthorn, Brocken, Stetbjorg, Deepskaard as a pass. Not Kolmire. Not Underwood Shores. Not the Hornwood floor.
+
+Notes
+- Locked name: Crag-hart. Spoken: spire-goat, scree-goat.
+- Type is Natural. Do not tag Unveiling or Wonder on the wild herd.
+- Domain is Land. Alpine and Polar are home. Boreal is the high massif only, then HSI.
+- Vale goat is Fauna stock. This is not that animal.
+- Gryphon is the mouth above them. Thin the hart and the Wonder comes to the fold.
+- Economy: pack-kid at a mountain hold. No open-market herd. Hide, horn, and meat are a climb-tax, not a stall-staple.

@@ -1,6 +1,6 @@
 # Bestiary_Pale_Lurker
 
-Type: Natural
+Type: Unveiling
 Domain: Land
 Biome: Alpine, Boreal, Polar
 

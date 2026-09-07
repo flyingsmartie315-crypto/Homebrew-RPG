@@ -1,0 +1,160 @@
+# Economy_Product_Yield.txt
+# How to write non-food take for a Local Region.
+# Router and labour pool: Economy_Yield.txt
+# Agri (food): Economy_Agri_Yield.txt
+# Raw prices: Economy_Primary_Goods.txt
+# Processed prices: Economy_Processed_Goods.txt
+# Finished recipes: Economy/Finished_Goods/
+# Site scores: Geography_Rules.txt
+
+This is the product method. It is not a region ledger.
+Filled ledgers live beside the parent Local Region file:
+
+Local_Region_[Name]_Product_Yield.txt
+
+If that file does not exist, use this method on the parent Local Region and its settlements.
+Do not invent a basin ledger.
+Do not write empty product sheets for regions that have not been ledged.
+
+
+--------------------------------------------------
+WHAT PRODUCT IS
+--------------------------------------------------
+
+Product is a good: raw, processed, or finished.
+It is not a calorie.
+
+Extractive
+Timber, charcoal-wood, peat, stone, ore, bog-iron, clay, salt, trade-hide, pitch-wood.
+
+Processed
+Boards, charcoal, bloom or bar, dressed stone, tanned hide as a workshop take, pitch.
+
+Finished
+Only where a named workshop exists and a recipe in Finished_Goods can be filled.
+A region product sheet lists capacity and place. It does not reprint every hammer.
+
+Food that leaves the basin as a good (smoked fish, surplus grain, wool sacks) may be listed here.
+Agri must already show that surplus. Do not grow it twice.
+
+
+--------------------------------------------------
+DO NOT USE CROP HSI ON A VEIN
+--------------------------------------------------
+
+Gates by class
+
+Timber / charcoal-wood / pitch-wood
+- Domain: Land
+- Needs standing Flora 3–5 on the worked feature
+- Needs a float or a road (Hydrology 3+ or a named trail)
+- Law and Forest Law cut the take the same way agri forage does
+- Wood-hands come from W, not from F
+
+Peat
+- Needs a Wetland feature and an edict or Economy line
+- No edict → household hearths only, not a product line
+
+Ore / bog-iron / stone
+- Geology is a fact on a named feature or settlement
+- No HSI range. Either the vein is written or it is not
+- Pit-hands come from W
+- Output is limited by hands and by the place, not by Flora
+
+Salt / clay
+- Named pan, pit, or bed. Same rule as ore: written or not
+
+Trade-hide / fur
+- Starts from agri trap and slaughter offtake
+- Only the share that leaves the house is product
+
+Processing
+- Needs a named place (saw-yard, kiln, bloomery, tannery, dock-yard)
+- Needs fuel. Charcoal cannot exceed the wood given to the pits
+- Conversion wastes matter. Use Economy_Processed_Goods.txt (about a third to half of a log is lost to slab and sawdust; metals follow that file)
+
+Finished goods
+- Recipe + workshop + labour from W
+- If Architecture, Armour, Clothing, Household, or Transport files are empty, do not invent a finished line beyond Tools and Arms already written
+
+
+--------------------------------------------------
+LABOUR POOL
+--------------------------------------------------
+
+Same W as Economy_Yield.txt.
+
+W = Population midpoint × 0.40
+
+Book product hands out of W after agri field-hands and named working fishers.
+If the parent Economy block says timber-hub, mine, or kiln first, book those product hands before extra field-hands.
+
+Do not create a second working population for the woods.
+
+A collier is not also a full plough-hand.
+A pit village (Askgruv-style) spends most of its W on product. Its agri sheet should show thin fields and imported grain, not a second labour census.
+
+
+--------------------------------------------------
+OUTPUT SHAPE (for a future instance file)
+--------------------------------------------------
+
+1. Region and year-basis (Harvest, unless the Log says otherwise)
+2. Labour pool W, then the split already taken by agri
+3. Extractive list
+   - Good
+   - Feature or settlement
+   - Hands
+   - Raw take
+4. Processing nodes
+   - Place
+   - Input (must exist on the extractive list)
+   - Output
+   - Fuel
+   - Waste
+5. What leaves the region (gate, road, shore)
+6. What is burned in-country (Kolby forges, hearths, yards)
+7. Unveiling goods only if a site actually yields them
+
+Report weights in kg, then cart / barge lots only when a road is in question.
+
+
+--------------------------------------------------
+ROUGH HAND YIELDS (stub)
+--------------------------------------------------
+
+Use these until a region sheet replaces them.
+They are order-of-magnitude, not a census.
+
+Good                         kg / hand / year     Notes
+Timber, raw log              8,000–12,000         Needs float or sled
+Sawn board from those logs   ~ half the log mass  Saw-yard place required
+Charcoal                     1,500–2,500          From wood allocated to pits
+Peat                         6,000–10,000         Wetland + edict
+Bog-iron ore                 1,000–2,000          Named fen-work, guarded
+Hard-rock ore                800–1,500            Named pit
+Bloom / bar iron             from ore as processed file
+Trade-hide                   agri offtake × share that leaves
+
+Do not run these numbers into a Kannavald total until the instance sheet exists.
+
+
+--------------------------------------------------
+KANNAVALD
+--------------------------------------------------
+
+No instance sheet yet.
+Likely product spine when written: Westwood and lake-road timber, Oldfort charcoal, Askgruv ore, Kolmire bog-iron under edict, peat under edict, Kolby as saw / forge / dock.
+Do not fill those tonnes here.
+
+
+--------------------------------------------------
+WHAT THIS FILE DOES NOT DO
+--------------------------------------------------
+
+- It does not feed anyone. That is agri.
+- It does not price the take.
+- It does not assign who owns the pit or the barge.
+- It does not treat region Human Density as a copper grade.
+- It does not let processing exceed the raw take or the fuel.
+- It does not count a veil-drop fall as annual yield.
