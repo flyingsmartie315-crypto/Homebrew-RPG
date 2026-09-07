@@ -1,267 +1,517 @@
 # Roleplay AI Loader File
 # Always read this document first
+# Repo: https://github.com/flyingsmartie315-crypto/Homebrew-RPG
+# Indexed against main (115 blobs). Update this file when the tree changes.
 
-This is the mandatory starting point for every session and every query.  
-Before loading any other file or generating a response, the AI must consult this Loader File to determine which repository documents are required.
+This is the mandatory starting point for every session and every query.
+Before loading any other file or generating a response, the AI must consult
+this Loader File to determine which repository documents are required.
 
-=== EXTERNAL STORAGE & AUTO-INFERENCE PROTOCOL (GitHub Bypass) ===
+=== EXTERNAL STORAGE & AUTO-INFERENCE PROTOCOL ===
 
-All TXT files are stored externally on the public GitHub repository:  
+All files live on the public GitHub repository:
 https://github.com/flyingsmartie315-crypto/Homebrew-RPG
 
-Auto-Inference Rule:  
-The AI should automatically detect which TXT files are needed from plain-language user queries. The user does not need to mention filenames. The AI fetches the full exact text of relevant files using available tools (primarily browse_page on raw GitHub links).
+Raw URL (spaces as %20):
+https://raw.githubusercontent.com/flyingsmartie315-crypto/Homebrew-RPG/main/[path]
 
-Load only relevant files at a time for token efficiency. Chain additional files if the scene requires it.
+Example:
+https://raw.githubusercontent.com/flyingsmartie315-crypto/Homebrew-RPG/main/Master/Core/Armour.txt
+https://raw.githubusercontent.com/flyingsmartie315-crypto/Homebrew-RPG/main/Master/Economy/Finished%20Goods/Economy_Finished_Armour.txt
+
+Auto-Inference Rule:
+Detect which files are needed from plain-language queries. The user does
+not need to name files. Fetch full exact text with browse_page on the raw
+link. Load only what the current query needs. Chain if the scene widens.
 
 === CORE RULES REFERENCE PROTOCOL ===
 
-When the query involves rules, resolution, character creation, combat, injury, advancement, company management, or similar mechanical topics, the AI should first load the relevant core rule file(s) before other content.
+Mechanics first when the query is rules, dice, characters, combat, injury,
+armour, weapons, shields, size, encumbrance, time, or company play.
+
+Load order for a swing:
+  Core_Resolution.txt
+  Core_Characteristics_Skills.txt
+  Core_Combat.txt
+  Weaponry.txt and/or Shield_Rules.txt
+  Armour_Rules.txt then Armour.txt
+  Core_Injury.txt then the Entity's Injury Table file
+
+The Entity sheet names the injury table:
+  Injury Table: Injury_Tables_X.txt
+Missing line defaults to Bipedal. Do not guess from Size.
 
 RULES FOR FILE ACCESS AND INFERENCE:
-1. You may freely reference any .txt file in the repository at any time without the user explicitly naming it.
-2. When the player mentions a person, place, faction, creature, event, or concept, check relevant files automatically.
-3. Infer and cross-reference where useful.
-4. When in doubt, consult the Master File Index below first, then pull the most relevant file(s).
-5. Maintain high continuity: avoid contradicting established lore from any loaded file.
-6. When creating new content, stay consistent with the tone of grim, grounded medieval realism and low-to-mid supernatural horror of the setting.
-
-This protocol takes priority for determining which files to load. Core rule files are foundational and should be referenced early when accuracy is required.
+1. You may reference any file in the index without the user naming it.
+2. When the player mentions a person, place, faction, creature, event,
+   or concept, check the matching files.
+3. Infer and cross-reference.
+4. When in doubt, use this index, then pull the fewest files that answer.
+5. Do not contradict loaded lore. Campaign_Log.txt wins on world state.
+6. New content stays grim, grounded, low-to-mid supernatural horror.
 
 === REVISION & CONSISTENCY PROTOCOL ===
 
-When the user asks to revise, update, expand, or replace content in an existing document, the AI should first load the original file containing that content, then load any supporting files. Merge new information while preserving established tone, characters, family details, and lore unless the user specifically requests a full rewrite or tone change.
+Revising a document: load the original, then supporting files. Merge.
+Preserve tone, names, and lore unless the user asks for a rewrite.
 
 === FALLBACK & MISSING FILES ===
 
-If a needed file does not yet exist in the repository, or cannot be retrieved:
-- Inform the user clearly that the file is missing.
-- Proceed using the Core RP Guidelines, any already-loaded files, and the established tone of the setting.
-- Do not invent major new lore, rules, or setting details that would conflict with future official files.
-- Offer to draft the missing file if appropriate.
+If a file is not in the index or will not fetch:
+- Say it is missing.
+- Use Core_RP_Guidelines.txt, already-loaded files, and tone.
+- Do not invent major lore or rules that would fight a future official file.
+- Offer to draft the missing file.
 
-=== PURPOSE & OPERATION ===
+=== PURPOSE ===
 
-This is the entry-point file for the RP system. The AI always starts here to obtain scenario parameters and directions to relevant files.
+Parse the query. Match it to the index. Load what is needed. Do not load
+the whole repository.
 
-Purpose: Parse the user’s query or scenario, then load only the necessary TXT files to keep context efficient and token-light.
+==================================================
+REPOSITORY TREE
+==================================================
 
-How it Works:  
-Read the user’s input. Match keywords or topics to file categories. Load relevant files. Avoid loading everything — focus on what is needed for the current scene or action. For complex scenarios (e.g. travel with encounters), load multiple relevant files sequentially or in combination.
-
-GM INFERENCE PROTOCOL:  
-You are encouraged to combine information from multiple files in a single response without being prompted.
-
-This loader gives you autonomous access to the repository. Use it intelligently to maintain immersion and continuity.
-
-Repository Structure Summary
 Master/
-├── Characters/
-├── Core/
-├── Economy/
-│   └── Finished Goods/
-├── Entities/
-├── Geography/
-│   ├── Geographic_Regions/
-│   │   ├── Appolasian Plateau/
-│   │   └── Ebon Peninsula/
-│   ├── Geography_Maps/
-│   └── Settlements/
-│       ├── Ebormark/
-│       └── Kannavald Deepwoods/
-├── Log/
 ├── Roleplay_AI_Loader.txt
+├── Characters/
+│   ├── Character_Generation_Protocol.txt
+│   ├── Major/Major_Purpose.txt
+│   ├── Minor/Minor_Purpose.txt
+│   └── PCs/PC_Purpose.txt
+├── Core/
+│   ├── Core_RP_Guidelines.txt
+│   ├── Core_Resolution.txt
+│   ├── Core_Characteristics_Skills.txt
+│   ├── Core_Combat.txt
+│   ├── Core_Injury.txt
+│   ├── Injury_Tables_Bipedal.txt
+│   ├── Injury_Tables_Equine.txt
+│   ├── Injury_Tables_Predator.txt
+│   ├── Injury_Tables_Hoofed.txt
+│   ├── Injury_Tables_Spider.txt
+│   ├── Armour_Rules.txt
+│   ├── Armour.txt
+│   ├── Weaponry.txt
+│   └── Shield_Rules.txt
+├── Economy/
+│   ├── Economy_Rules.txt
+│   ├── Economy_Primary_Goods.txt
+│   ├── Economy_Processed_Goods.txt
+│   ├── Economy_Labour.txt
+│   ├── Economy_Livestock.txt
+│   ├── Economy_Agriculture.txt
+│   ├── Economy_Unveiling_Goods.txt
+│   ├── Economy_Unveiling_Beasts.txt
+│   ├── Finished Goods/
+│   │   ├── Economy_Finished_Goods_Index.txt
+│   │   ├── Economy_Finished_Architecture.txt
+│   │   ├── Economy_Finished_Armour.txt
+│   │   ├── Economy_Finished_Arms.txt
+│   │   ├── Economy_Finished_Clothing.txt
+│   │   ├── Economy_Finished_Household.txt
+│   │   ├── Economy_Finished_Tools.txt
+│   │   └── Economy_Finished_Transport.txt
+│   └── Yield/
+│       ├── Economy_Yield.txt
+│       ├── Economy_Agri_Yield.txt
+│       ├── Economy_Product_Yield.txt
+│       └── Economy_Processing_Matrix.txt
+├── Entities/
+│   ├── Entities_Purpose.txt
+│   ├── Man/Man_Purpose.txt
+│   ├── Beast/Beast_Purpose.txt
+│   └── Abominations/Abominations.txt
+├── Geography/
+│   ├── Geography_Purpose.txt
+│   ├── Geography_Rules.txt
+│   ├── Geographic_Region_Format.txt
+│   ├── Local_Region_Format.txt
+│   ├── Settlement_Format.txt
+│   ├── Geographic_Regions/
+│   │   ├── Appolasian Plateau/Geographic_Region_Appolasian_Plateau.txt
+│   │   ├── Coritania/Geographic_Region_Coritanian_Heartlands.txt
+│   │   ├── Valenidia/Geographic_Region_Valenidia.txt
+│   │   └── Ebon Peninsula/
+│   │       ├── Local_Region_Ebormark.txt
+│   │       ├── Local_Region_Highmarch.txt
+│   │       ├── Local_Region_Kannavald_Deepwood.txt
+│   │       ├── Local_Region_Rhennod_Marches.txt
+│   │       └── Local_Region_Westmark.txt
+│   ├── Settlements/
+│   │   ├── Ebormark/Settlement_Eyrenal.txt
+│   │   └── Kannavald Deepwoods/
+│   │       ├── Settlement_Askgruv.txt
+│   │       ├── Settlement_Burnford.txt
+│   │       ├── Settlement_Hornby.txt
+│   │       ├── Settlement_Kolby-on-Vatn.txt
+│   │       ├── Settlement_Oldfort_Kilnstead.txt
+│   │       ├── Settlement_The_Twaford_Twins.txt
+│   │       └── Hazards/Settlement_Kolholm.txt
+│   └── Geography_Maps/
+│       ├── Worldmap.wonderdraft_map
+│       ├── Brett.wonderdraft_map
+│       ├── Ebormark.wonderdraft_map
+│       ├── Map_Local_Region_Kannavald_Deepwoods.jpg
+│       └── wip2.png
+├── Log/
+│   └── Campaign_Log.txt
 └── World/
+    ├── World_Fundamentals.txt
+    ├── World_Calander.txt
+    ├── The_Unveiling.txt
+    ├── Prehistoric_Megastructures.txt
     ├── Cultures/
-    │   ├── Geographic Region/
+    │   ├── Cultures_Purpose.txt
+    │   ├── Geographic Region/Svar/Kannavald Deepwood/Customs_Kannavald.txt
     │   └── Peoples/
-    │       ├── Early/
-    │       └── Founders/
+    │       ├── World_History_Matrix.txt
+    │       ├── Founders/
+    │       │   ├── Peoples_Pionari.txt
+    │       │   ├── Peoples_Ingenari.txt
+    │       │   ├── Peoples_Novari.txt
+    │       │   ├── Peoples_Ordinari.txt
+    │       │   └── Peoples_Aperti.txt
+    │       └── Early/
+    │           ├── Peoples_Isernvolk.txt
+    │           └── Peoples_Syllvani.txt
     └── Ecosystem/
-        ├── Bestiary/
-        └── Fauna/
+        ├── Bestiary_Rules.txt
+        ├── Bestiary_Format.txt
+        ├── Fauna_Format.txt
+        ├── Fauna_Oceanic_Format.txt
+        ├── Flora_Format.txt
+        ├── Flora_Oceanic_Format.txt
+        ├── Bestiary/Land/          (15 entries)
+        ├── Bestiary/Oceanic/       (Scylla)
+        ├── Fauna/Land/
+        ├── Fauna/Oceanic/
+        └── Flora/
 
-=== MASTER FILE INDEX (Full Repository) ===
+==================================================
+MASTER FILE INDEX
+==================================================
 
 --------------------------------------------------
-CORE
+CORE  (mechanics — this chat's law)
 --------------------------------------------------
+
 Core_RP_Guidelines.txt
-Primary GM directive. Tone, reactivity, agency, dice transparency, immersion rules, and how to handle uncertainty. Takes precedence on tone and dramatic adjudication.
+  Tone, agency, dice transparency, immersion. Wins on dramatic call.
 
---------------------------------------------------
-WORLD
---------------------------------------------------
-World_Fundamentals.txt
-Basic planetary and civilisational overview of Virath (atmosphere, technology level, dominant species, high-level history).
+Core_Resolution.txt
+  d100, success/fail, DoS/DoF, opposed tests, bonuses, narrative vs
+  structured time, keywords (Entity).
 
-The_Unveiling.txt
-The central historical fracture of the world. False Moon, Immaterium, nature of the barrier, and GM meta on how entities and miracles work.
+Core_Characteristics_Skills.txt
+  Characteristics, bonuses, skills (known / *advanced), Size, Movement,
+  Enc bands (S×5 unencumbered, S×10 combat load), Wounds, NAC, Initiative,
+  Attacks, IP, FP, lift/press/push.
 
-Prehistoric_Megastructures.txt
-Ancient cyclopean remnants (dark porous stone, grey ash, False Moon activation). Pre-date recorded peoples.
+Core_Combat.txt
+  Rounds (10 seconds), initiative (Ag+1d10, reroll each round),
+  action economy, basic actions, movement yards, Called Shot,
+  opposed Dodge/Parry, hit procedure, prose format.
 
-World_Calander.txt
-The common reckoning of the year (Thaw, Highsun, Harvest, Longnight) and seasonal structure.
+Core_Injury.txt
+  When injury happens. 2d100: Wallace then Slot. Points at the table
+  file named on the Entity sheet. Bleed, Overflow, Fate.
 
---------------------------------------------------
-WORLD / CULTURES / PEOPLES / FOUNDERS
---------------------------------------------------
-Peoples_Pionari.txt
-Wave 1 – First Blood. The original colonists who shaped the biosphere. Stewardship claim and Appulse origin.
+Injury_Tables_Bipedal.txt
+  Man-shaped. Head, torso (incl. Armpit), arms, legs.
 
-Peoples_Ingenari.txt
-Wave 2 – Second Blood / Raisers. Engineers, city-builders, and the guards who protected the works. Lift and craft memory.
+Injury_Tables_Equine.txt
+  Horse-type. One toe. No muscle below knee/hock.
 
-Peoples_Novari.txt
-Wave 3 – The Multitude. Mass settlement wave. Demographic floor of most of Virath; forced into harder and more equatorial lands.
+Injury_Tables_Predator.txt
+  Paws: wolf, hound, great cat, gryphon.
 
-Peoples_Ordinari.txt
-Seal-Blood. Administrative and elite charter-holders who arrived with the Multitude. Thin demographically but outsized in law-myth and hidden influence.
+Injury_Tables_Hoofed.txt
+  Cloven / pig hoof: elk, bison, cattle, pig, sheep, goat.
+  Not horse.
 
-Peoples_Aperti.txt
-The Openers. Tiny specialist group who probed the thinning. Survive mainly as myth, curse, and rare bloodlines.
+Injury_Tables_Spider.txt
+  Eight legs. Cephalothorax and abdomen. Pedicel 8 is two pieces.
 
---------------------------------------------------
-WORLD / CULTURES / PEOPLES / EARLY
---------------------------------------------------
-Peoples_Isernvolk.txt
-Ingenari-descended people of the Northwestern continent. Anglo-Germanic-Scandi base. Iron, frontier, and western-sea identity. One of the two core “fantasy Europe” stocks.
+Armour_Rules.txt
+  Layers, Slots, Coverage, soak cascade, Enc, Forms, Iron Grade,
+  Natural Armour, pairing / bulk / closed helm.
 
-Peoples_Syllvani.txt
-Pionari-descended people of the Northwestern continent. Softened Romance + Welsh-flavoured naming. Holders of the Appolasian Plateau. Isolationist, long historical memory, long-term outlook.
+Armour.txt
+  Catalogue. Models, Forms, AC, Enc, Common cost (mid of
+  Economy_Finished_Armour). Iron Grade shared with Weaponry.
 
---------------------------------------------------
-WORLD / CULTURES
---------------------------------------------------
-Cultures_Purpose.txt
-Placeholder for cultural organisation.
+Weaponry.txt
+  Profiles Cut/Pierce/Blunt, Reach, Range, qualities, craft,
+  Iron Grade, ammunition, siege as narrative.
 
-Customs_Kannavald.txt
-Living customs of Kannavald Deepwood (Woods-Bells, Never Alone / Skinwight test, Forest Law, livestock practice, Still Stones taboo).
-
---------------------------------------------------
-WORLD / ECOSYSTEM
---------------------------------------------------
-Bestiary_Rules.txt
-Rules for creature Habitat Suitability Index (HSI) and comparison against regional environmental scores.
-
-Bestiary_Format.txt
-Template for writing individual bestiary entries.
-
-Fauna_Format.txt
-Template for natural fauna entries.
-
-Flora_Format.txt
-Template for flora entries.
-
-Fauna_Temperate.txt
-Natural temperate-zone fauna reference.
-
-Bestiary_Gryphon.txt
-Earthbound gryphons – origin, behaviour, bonding, and campaign use.
-
-Bestiary_Royal_Gryphon.txt
-Winged ultra-rare apex variant.
-
-Bestiary_Deepwight.txt / Bestiary_Fenwight.txt / Bestiary_Skinwight.txt / Bestiary_Ghoul.txt / Bestiary_Weber_Fisher.txt / Bestiary_Scylla.txt
-Individual Unveiling and natural threat entries.
+Shield_Rules.txt
+  Held, not slotted. Defensive(x), free Parry including shot,
+  overflow through the shield AC onto the wearer.
 
 --------------------------------------------------
 ECONOMY
 --------------------------------------------------
+
 Economy_Rules.txt
-Core economic framework and currency system (gc / sc / bc).
+  Currency (1 gc = 20 sc = 240 bc) and the market frame.
 
 Economy_Primary_Goods.txt
-Raw and extracted goods with weights, volumes, packing rules, and base prices.
+  Ore, grain, timber, stone. 1 kg base.
 
 Economy_Processed_Goods.txt
-Processed materials (metals, woodwork forms, etc.).
+  Metals: Crude Iron (feedstock), Wrought Iron, Steel,
+  Fine Steel, Crucible Steel. Wood, cloth, hide.
 
 Economy_Labour.txt
-Daily wage bands for Common Labour, Skilled Trades, Skilled Hazardous Labour, and Specialists, with rural/urban distinction and in-kind notes.
+  Day-wages. Ring-hand 16 bc, Basic 30, Higher armourer 65,
+  Master 155.
 
 Economy_Livestock.txt
-Live animals, slaughter yields, and annual household outputs (milk, eggs, wool, etc.).
+  Live stock, slaughter, household yield.
 
 Economy_Agriculture.txt
-Crop and farming reference.
+  Crops and farm practice.
 
 Economy_Unveiling_Goods.txt
-High-value materials harvested from Unveiling sources.
+  Rare harvested matter. Sits on top of the shop floor.
 
 Economy_Unveiling_Beasts.txt
-Economic and logistical treatment of rare/intelligent mounts and creatures (Gryphons, Pegasus, etc.).
+  Gryphon and other priced living rarities.
 
 Economy_Finished_Goods_Index.txt
-Pointer index to the finished-goods family.
+  Pointer into Finished Goods/.
 
-Economy_Finished_Tools.txt / Arms.txt / Armour.txt / Clothing.txt / Household.txt / Transport.txt / Architecture.txt
-Finished manufactured goods by category.
+Economy_Finished_Architecture.txt
+  Built work.
+
+Economy_Finished_Armour.txt
+  Shop bands and three shops (mail sweatshop, segmented bench,
+  plate academy). Core Common column is Armour.txt Base cost.
+  Waste factors. Do not stack AC here.
+
+Economy_Finished_Arms.txt
+  Finished weapons as goods.
+
+Economy_Finished_Clothing.txt
+  Dress. Not soak.
+
+Economy_Finished_Household.txt
+  Domestic goods.
+
+Economy_Finished_Tools.txt
+  Tools.
+
+Economy_Finished_Transport.txt
+  Carts, tack, hulls.
+
+Economy_Yield.txt
+  Yield law.
+
+Economy_Agri_Yield.txt
+  Field yields.
+
+Economy_Product_Yield.txt
+  Workshop yields.
+
+Economy_Processing_Matrix.txt
+  How primary becomes processed becomes finished.
+  Shop inputs for armour sit here and in Finished_Armour.
+
+--------------------------------------------------
+WORLD
+--------------------------------------------------
+
+World_Fundamentals.txt
+  Virath: air, tech, folk, high history.
+
+World_Calander.txt
+  Thaw, Highsun, Harvest, Longnight.
+
+The_Unveiling.txt
+  False Moon, Immaterium, barrier, GM meta on miracles.
+
+Prehistoric_Megastructures.txt
+  Cyclopean stone, grey ash, False Moon wake.
+
+World_History_Matrix.txt
+  Wave chronology against peoples.
+
+--------------------------------------------------
+WORLD / CULTURES / PEOPLES
+--------------------------------------------------
+
+Peoples_Pionari.txt
+  Wave 1 First Blood. Biosphere stewards. Appulse.
+
+Peoples_Ingenari.txt
+  Wave 2 Raisers. Lift and craft.
+
+Peoples_Novari.txt
+  Wave 3 Multitude. Demographic floor.
+
+Peoples_Ordinari.txt
+  Seal-Blood. Law-myth, thin numbers.
+
+Peoples_Aperti.txt
+  Openers. Myth and rare blood.
+
+Peoples_Isernvolk.txt
+  Ingenari-descended northwest. Iron and western sea.
+
+Peoples_Syllvani.txt
+  Pionari-descended. Appolasian Plateau.
+
+Cultures_Purpose.txt
+  Culture folder note.
+
+Customs_Kannavald.txt
+  Woods-Bells, Skinwight test, Forest Law, Still Stones.
+
+--------------------------------------------------
+WORLD / ECOSYSTEM
+--------------------------------------------------
+
+Bestiary_Rules.txt
+  HSI against regional scores.
+
+Bestiary_Format.txt
+  How a bestiary entry is written. Injury Table line lives
+  on the Entity sheet, not only here.
+
+Fauna_Format.txt / Fauna_Oceanic_Format.txt
+  Natural fauna templates.
+
+Flora_Format.txt / Flora_Oceanic_Format.txt
+  Flora templates.
+
+Fauna_Boreal.txt / Fauna_Temperate.txt
+  Land fauna.
+
+Fauna_Cold_sea.txt / Fauna_Polar_sea.txt /
+Fauna_Temperate_sea.txt / Fauna_Tropical_sea.txt /
+Fauna_Warm_sea.txt
+  Sea fauna by water.
+
+Flora_Boreal.txt / Flora_Temperate.txt
+  Land flora.
+
+Bestiary Land
+  Bestiary_Crag_Hart.txt
+  Bestiary_Deepwight.txt
+  Bestiary_Earth_Eater.txt
+  Bestiary_Fenwight.txt
+  Bestiary_Ghoul.txt
+  Bestiary_Gryphon.txt
+  Bestiary_Mintrox.txt
+  Bestiary_Orb_Wright.txt
+  Bestiary_Pale_Lurker.txt
+  Bestiary_Royal_Gryphon.txt
+  Bestiary_Skinwight.txt
+  Bestiary_Skitterling.txt
+  Bestiary_Sky_Hornet.txt
+  Bestiary_Vorax.txt
+  Bestiary_Weber_Fisher.txt
+
+Bestiary Oceanic
+  Bestiary_Scylla.txt
+
+Load Bestiary_Rules + the named entry. Stats and Injury Table
+come from Entities/ when that sheet exists.
 
 --------------------------------------------------
 GEOGRAPHY
 --------------------------------------------------
-Geography_Rules.txt
-How to read the seven environmental scores, biomes, height terms, and seasonal modifiers.
 
-Local_Region_Format.txt
-Mandatory template for writing Local Region files.
+Geography_Rules.txt
+  Seven scores, biomes, height, season.
 
 Geographic_Region_Format.txt
-Template for Geographic Region files.
-
+Local_Region_Format.txt
 Settlement_Format.txt
-Template for settlements and hazard/dungeon sites.
-
 Geography_Purpose.txt
-Placeholder for geography organisation notes.
+  How those files are written.
 
 Geographic_Region_Appolasian_Plateau.txt
-The Syllvani heartland – mountain-ringed impact basin and natural fortress.
+  Syllvani heartland. Mountain-ringed basin.
 
-Local_Region_Kannavald_Deepwood.txt
-Highland boreal basin of dense forest, black volcanic rock, and Lake Kolvatn. Sparse, wet, and quietly wrong.
+Geographic_Region_Coritanian_Heartlands.txt
+  Coritania.
+
+Geographic_Region_Valenidia.txt
+  Valenidia.
 
 Local_Region_Ebormark.txt
-Lower southern country beneath Ebon Spire. Rivers, Leeshore, Hornwood, and the seat of the Knights Gryphon at Eyrenhorst.
+  South under Ebon Spire. Knights Gryphon at Eyrenhorst.
 
-Settlement files (Kannavald):
-Settlement_Kolby-on-Vatn.txt, Settlement_Askgruv.txt, Settlement_Burnford.txt, Settlement_Hornby.txt, Settlement_Oldfort_Kilnstead.txt, Settlement_The_Twaford_Twins.txt, Settlement_Kolholm.txt (hazard).
+Local_Region_Highmarch.txt
+Local_Region_Kannavald_Deepwood.txt
+Local_Region_Rhennod_Marches.txt
+Local_Region_Westmark.txt
+  Ebon Peninsula locals.
 
-Settlement files (Ebormark):
-Settlement_Eyrenal.txt (and further stubs as added).
+Settlement_Eyrenal.txt
+  Ebormark seat.
+
+Kannavald settlements
+  Settlement_Kolby-on-Vatn.txt
+  Settlement_Askgruv.txt
+  Settlement_Burnford.txt
+  Settlement_Hornby.txt
+  Settlement_Oldfort_Kilnstead.txt
+  Settlement_The_Twaford_Twins.txt
+  Settlement_Kolholm.txt          hazard
+
+Maps (not text law)
+  Worldmap.wonderdraft_map
+  Brett.wonderdraft_map
+  Ebormark.wonderdraft_map
+  Map_Local_Region_Kannavald_Deepwoods.jpg
+  wip2.png
 
 --------------------------------------------------
-CHARACTERS
+CHARACTERS / ENTITIES / LOG
 --------------------------------------------------
+
 Character_Generation_Protocol.txt
-How background NPCs become fully realised characters through play.
+  How a background face becomes a sheet through play.
 
 Major_Purpose.txt / Minor_Purpose.txt / PC_Purpose.txt
-Placeholders for character storage.
+  Storage notes. Named sheets go here when written.
 
---------------------------------------------------
-ENTITIES
---------------------------------------------------
 Entities_Purpose.txt
-Gameplay stats storage for PCs and NPCs.
+  Gameplay stats for PCs and NPCs.
+  Required line: Injury Table: Injury_Tables_X.txt
 
 Man_Purpose.txt / Beast_Purpose.txt / Abominations.txt
-Placeholders for entity categories.
+  Category notes. Natural Armour lives on the Entity
+  (Armour_Rules).
 
---------------------------------------------------
-LOG
---------------------------------------------------
 Campaign_Log.txt
-Living world state and GM memory. Records permanent changes, temporary conditions, reputation, key NPCs, and major events. Takes precedence over base lore when conflicts arise.
+  Living world. Date, place, lasting change. Wins vs
+  static lore when they fight.
 
---------------------------------------------------
-ROOT
---------------------------------------------------
 Roleplay_AI_Loader.txt
-This file. Mandatory entry point and master index for the entire system.
---------------------------------------------------
-Roleplay_AI_Loader.txt
-This file. Entry point and master index for the entire system.
+  This file.
+
+==================================================
+QUERY ROUTING (short)
+==================================================
+
+Dice, tests, time                 Core_Resolution
+Stats, skills, size, Enc, wounds  Core_Characteristics_Skills
+A fight                           Core_Combat + Weaponry + Shield_Rules
+A hit landing                     Armour_Rules + Armour + Core_Injury
+  + the named Injury_Tables_*
+Kit price / who can make it       Economy_Finished_Armour + Labour
+  + Processed_Goods + Processing_Matrix
+A creature on screen              Bestiary_* + Bestiary_Rules
+  + matching Injury table
+A place                           Geography_Rules + that region
+  + settlements + Customs if Kannavald
+What year / season it is          World_Calander + Campaign_Log
+Tone fight                        Core_RP_Guidelines
+
+Do not load Economy when the query is only a swing.
+Do not load every bestiary when the query is one beast.
+}

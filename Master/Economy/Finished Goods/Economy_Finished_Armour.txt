@@ -4,44 +4,109 @@
 # Metal grades: Economy_Processed_Goods.txt
 # How the shop works: Economy_Processing_Matrix.txt
 # Law of wear and soak: Core/Armour_Rules.txt
+# Labour bands: Economy_Labour.txt
 
 HEADER NOTE
 All prices use the universal currency (1 gc = 20 sc = 240 bc).
 Armour is sold by the piece. A pair is one listing where Armour.txt says pair.
 
-Enc 10 H 1 kg. Finished mass is Base Enc ÷ 10 after Forms.
+Enc 10 = 1 kg. Finished mass is Base Enc / 10 after Forms.
 The metal, cloth, or hide bought is never the finished mass.
 Waste is in the input line.
 
 Listed prices here are Common, low-carbon steel (or riveted mail).
 Core Iron Grade then multiplies a plate/segmented ticket:
-  Wrought iron ×0.80    (Wrought Iron)
-  Low-carbon   ×1.00    (Steel)
-  Hardened     ×1.25    (Fine Steel)
-  Crucible     ×2.50    (Crucible Steel)
-Butted mail is not a grade. It is a worse join: ×0.6 cost, ×1.2 Enc, AC 2/2/2.
+  Wrought iron   x0.80    (Wrought Iron)
+  Low-carbon     x1.00    (Steel)
+  Hardened       x1.25    (Fine Steel)
+  Crucible       x2.50    (Crucible Steel)
+Butted mail is not a grade. It is a worse join: x0.6 cost, x1.2 Enc, AC 2/2/2.
 
 Stay inside the categories. Named Models in Armour.txt are types, not separate files.
 
 
 --------------------------------------------------
-WASTE AND LABOUR
+WASTE
 --------------------------------------------------
 
 Waste on the bought input (mass in / finished mass)
 
-Cloth, quilted           1.30
-Hide, leather, cuir      1.40
-Mail (drawn, cut, rivet) 1.80
-Segmented plates         1.50
-Solid plate, helms       1.40
-Boots, turned            1.30
+Cloth, quilted            1.30
+Hide, leather, cuir       1.40
+Mail (drawn, cut, rivet)  1.80
+Segmented plates          1.50
+Solid plate, helms        1.40
+Boots, turned             1.30
 
-Labour bands from Economy_Labour.txt
-Tailor / leatherworker / weaver   Basic skilled   30 bc/day
-Armourer / experienced smith      Higher skilled  65 bc/day
 
-A household can quilt an aketon. A household cannot rivet a hauberk.
+--------------------------------------------------
+THREE SHOPS
+--------------------------------------------------
+
+Mail, segmented, and plate are not the same trade with a different ticket.
+They are three ways of spending days.
+
+Wages used here
+  Ring-hand / apprentice     16 bc/day    (0.25 x Higher skilled 65)
+  Basic skilled              30 bc/day    tailor, leatherworker
+  Higher skilled armourer    65 bc/day
+  Master armourer           155 bc/day    (mid of 130-180)
+
+1. MAIL -- the sweatshop
+  Modular, repetitive, low-risk once the wire exists.
+  An experienced smith draws the wire, cuts the rings, and forges
+  collar, latches, and any solid bits.
+  Weaving and riveting go to a circle of apprentices.
+
+  Split of booked days:
+    10% Higher skilled armourer
+    90% apprentice / ring-hand
+
+  Mail stays dear because the calendar is long and the bar is heavy
+  (waste 1.80), not because every hour is an armourer's hour.
+
+  Where: any decent town or castle garrison that keeps a few
+  apprentices and a smith who can draw wire.
+  Repair: a garrison can close rings. It cannot start from bloom
+  without that smith.
+
+2. PLATE -- the art academy
+  A breast is geometry, heat, and a sheet you can ruin.
+  Dishing a uniform curve without thin spots is not apprentice work.
+  If the lad overheats the plate, the steel is lost.
+
+  Split of booked days:
+    100% Higher skilled armourer on Common work
+    Master armourer on Fine / closed / fitted work
+    Apprentice may pump bellows and hold. Not on the hammer line.
+
+  Plate looks "cheap per kilo" because it is fewer days than
+  30,000 rings. The premium is the brain, not the hours.
+
+  Where: capital, great foundry-town, or a named armourer's hall.
+  A hamlet cannot buy or truly repair solid plate.
+  A market town may straighten a ding. It may not re-dish a breast.
+
+3. SEGMENTED -- the middle bench
+  Shears, holes, rivets, and a foundation coat.
+  The smith cuts and shapes the plates. Hands can punch, rivet,
+  and stitch the coat.
+
+  Split of booked days (default):
+    40% Higher skilled armourer
+    60% apprentice or basic skilled (leather / rivet)
+
+  Coat of plates leans toward the smith (50 / 50).
+  Brigandine and scale lean toward the hands (30 / 70) once the
+  plates exist.
+  Laminar sits with the smith (50 / 50): the bands have to fit.
+
+  Where: a market town with an armourer and a bench.
+  Not every garrison. Not only the capital.
+
+
+Textile and leather stay Basic skilled. A household can quilt an
+aketon. A household cannot rivet a hauberk or dish a breast.
 
 
 --------------------------------------------------
@@ -68,249 +133,284 @@ TEXTILE ARMOUR
 Quilted torso
 Type: Aketon, Gambeson, Arming Doublet, Pourpoint
 Inputs:
-  - finished mass × 1.30 in Linen and/or Wool Cloth
+  - finished mass x 1.30 in Linen and/or Wool Cloth
   - stuffing of scrap cloth or raw wool
-Labour: Tailor, several days to a week (gambeson toward the week)
-Modifiers:
-  - Aketon / doublet: thinner, under-layer
-  - Gambeson: standalone, not a plate under-layer
-  - Pourpoint: tailored points, dearer
+Labour: Basic skilled tailor. Several days to a week (gambeson toward the week).
+Shop: household or any town.
 Output: 1 piece
 Base price:
-  Aketon            1830 sc
-  Arming Doublet    2035 sc
-  Gambeson          2850 sc
-  Pourpoint         3055 sc
+  Aketon            18-30 sc
+  Arming Doublet    20-35 sc
+  Gambeson          28-50 sc
+  Pourpoint         30-55 sc
 
 Quilted legs / head
 Type: Padded chausses, Arming hose, Arming cap, Padded coif
-Inputs:
-  - finished mass × 1.30 cloth
 Labour: Tailor, a day to three
 Output: 1 piece (chausses are a pair)
 Base price:
-  Arming cap         610 sc
-  Padded coif        1018 sc
-  Padded chausses    1020 sc   (shin pair; lengthening adds cloth and coin)
-  Arming hose        1222 sc
+  Arming cap         6-10 sc
+  Padded coif        10-18 sc
+  Padded chausses    10-20 sc   (shin pair; lengthening adds cloth and coin)
+  Arming hose        12-22 sc
 
 Soft helms
 Type: Malakhai, Padded turban
-Inputs:
-  - hide and/or quilt as the Model
 Labour: Leatherworker or tailor, a day or two
-Output: 1 piece
-Base price: 1225 sc
+Base price: 12-25 sc
 
 Hands (textile)
 Type: Fingerless / Gloves / Mittens
-Inputs:
-  - hide, felt, quilt, or cuir as the Material table
 Labour: Leatherworker, part of a day to a day
-Output: 1 pair
-Base price: as Armour.txt Material × steps (212 sc). Holds.
+Base price: as Armour.txt Material x steps (2-12 sc). Holds.
 
 
 --------------------------------------------------
 MAILLE
 --------------------------------------------------
 
-Riveted is the shop baseline.
-Bought mass is finished mass × 1.80 in Wrought Iron or Steel.
+Sweatshop. Riveted is the shop baseline.
+Bought mass is finished mass x 1.80 in Wrought Iron or Steel.
 Wire is drawn from the bar. Rings are cut, overlapped, riveted.
+
+Labour on every mail row:
+  10% Higher skilled (wire, cut, collar, latches)
+  90% apprentice ring-hand
+Calendar is still four to eight weeks on a hauberk.
+Do not book those weeks at 65 bc/day.
+
+Worked floor, short/short riveted hauberk, 6 weeks (36 days):
+  Steel 13.5 kg x 6 sc                 81 sc
+  Armourer 3.6 days x 65 bc            19 sc 5 bc
+  Ring-hands 32.4 days x 16 bc         43 sc 2 bc
+  Charcoal, rivets, shop               a few sc
+  Floor                                about 7-8 gc
+Band above that is overhead, long sleeves/hem, and a tighter shop.
 
 Mail torso (hauberk)
 Type: Mail
-Finished: Enc 75 ’ 7.5 kg short/short
+Finished: Enc 75 = 7.5 kg short/short
 Inputs:
-  - 1314 kg Wrought Iron or Steel
-Labour: Armourer, four to eight weeks
+  - 13-14 kg Wrought Iron or Steel
+Labour: 4-8 weeks calendar. 10 / 90 split.
+Shop: town or garrison.
 Modifiers:
   - Long Sleeves / Long Hem: more rings, more weeks, Enc % from Armour.txt
-  - Butted: labour about half; do not call it riveted
+  - Butted: calendar about half; still 10 / 90; do not call it riveted
   - Double mail / Tempered rings: Making upgrades, not this row
 Output: 1 hauberk
 Base price:
-  Riveted     816 gc
-  Butted      48 gc
+  Riveted     8-14 gc
+  Butted      4-8 gc
+Core Common: Riveted 12 gc
 
 Mail coif
-Finished: Enc 22 ’ 2.2 kg
+Finished: Enc 22 = 2.2 kg
 Inputs: 4 kg bar
-Labour: Armourer, one to two weeks
-Base price: Riveted 24 gc    Butted 12 gc
+Labour: 1-2 weeks, 10 / 90
+Shop: town or garrison
+Base price: Riveted 2-4 gc    Butted 1-2 gc
+Core Common: 3 gc
 
 Mail chausses (pair, shin default)
-Finished: Enc 20 ’ 2.0 kg
-Inputs: 3.54 kg bar
-Labour: Armourer, one to two weeks
-Base price: Riveted 25 gc    Butted 13 gc
+Finished: Enc 20 = 2.0 kg
+Inputs: 3.5-4 kg bar
+Labour: 1-2 weeks, 10 / 90
+Base price: Riveted 2-5 gc    Butted 1-3 gc
+Core Common: 3 gc 10 sc
 Full-length hose doubles rings and coin.
 
 Mail standard
-Finished: Enc 10 ’ 1.0 kg
+Finished: Enc 10 = 1.0 kg
 Inputs: 1.8 kg bar
-Labour: several days
-Base price: Riveted 1835 sc   Butted 1020 sc
+Labour: several days, 10 / 90
+Base price: Riveted 18-35 sc   Butted 10-20 sc
+Core Common: 26 sc
 
 Voiders / mittens
-Armpit voider (one side)   Riveted 1220 sc
-Elbow voider (one side)    Riveted 816 sc
-Mail mittens               Riveted 1835 sc
+Armpit voider (one side)   Riveted 12-20 sc
+Elbow voider (one side)    Riveted 8-16 sc
+Mail mittens               Riveted 18-35 sc
+Core Common: 16 / 12 / 26 sc
 
 
 --------------------------------------------------
 SEGMENTED
 --------------------------------------------------
 
-Plates or scales on a foundation.
-Bought mass is finished mass × 1.50 in Steel (listed) plus cloth or hide for the coat.
-Labour is shears, holes, rivets, and the foundation  not a season of rings.
+Middle bench.
+Bought mass is finished mass x 1.50 in Steel (listed) plus cloth or hide.
+Labour is shears, holes, rivets, and the foundation -- not a season of rings.
+
+Default split: 40% Higher skilled / 60% hands.
+Coat of plates and laminar: 50 / 50.
+Brigandine and scale, once plates are cut: 30 / 70.
+
+Shop: market town with an armourer and a bench.
 
 Scale torso
-Finished: Enc 100 ’ 10 kg
+Finished: Enc 100 = 10 kg
 Inputs:
   - 15 kg Steel
-  - 12 kg Linen or Leather foundation
-Labour: Armourer + leatherworker, two to three weeks
+  - 1-2 kg Linen or Leather foundation
+Labour: 2-3 weeks, 30 / 70 after the plates exist
 Output: 1 coat
-Base price: 59 gc
+Base price: 5-9 gc
+Core Common: 7 gc
 
 Coat of plates
-Finished: Enc 42 ’ 4.2 kg (front)
+Finished: Enc 42 = 4.2 kg (front)
 Inputs:
-  - 67 kg Steel
+  - 6-7 kg Steel
   - foundation cloth or hide
-Labour: one to two weeks
+Labour: 1-2 weeks, 50 / 50
 Output: 1 coat
-Base price: 36 gc
-Backplate Form: add 12 gc and the extra plates.
+Base price: 3-6 gc
+Core Common: 4 gc 10 sc
+Backplate Form: add 1-2 gc and the extra plates.
 
 Brigandine
-Finished: Enc 40 ’ 4.0 kg (front)
+Finished: Enc 40 = 4.0 kg (front)
 Inputs:
   - 6 kg Steel
-  - 12 kg Leather (the coat is the point)
-Labour: two weeks (more rivets than a coat of plates)
+  - 1-2 kg Leather (the coat is the point)
+Labour: 2 weeks, 30 / 70 (more rivets than a coat of plates)
 Output: 1 coat
-Base price: 47 gc
+Base price: 4-7 gc
+Core Common: 5 gc 10 sc
 
 Laminar torso
-Finished: Enc 48 ’ 4.8 kg
+Finished: Enc 48 = 4.8 kg
 Inputs:
   - 7 kg Steel
-Labour: two weeks
+Labour: 2 weeks, 50 / 50
 Output: 1 torso
-Base price: 47 gc
+Base price: 4-7 gc
+Core Common: 5 gc 10 sc
 
 Cuir bouilli torso
-Finished: Enc 32 ’ 3.2 kg
+Finished: Enc 32 = 3.2 kg
 Inputs:
   - 4.5 kg Leather
   - wax, oil, and a pot
-Labour: Leatherworker, several days
+Labour: Basic skilled leatherworker, several days. Not the plate shop.
 Output: 1 torso
-Base price: 3055 sc
+Base price: 30-55 sc
+Core Common: 42 sc
 No Iron Grade.
 
 Segmented limbs (listed Splinted)
 Type: Bracers, Rerebrace, Cuisses, Greaves, Gauntlet, Sabaton, Jack chains
-Finished mass = Enc ÷ 10
+Finished mass = Enc / 10
 Inputs:
-  - finished mass × 1.50 Steel (or Leather if Cuir)
+  - finished mass x 1.50 Steel (or Leather if Cuir)
   - foundation
-Labour: days, not weeks
+Labour: days, 40 / 60
+Shop: market town
 Output: 1 piece (or pair where the Model is a pair)
 Base price (Splinted, low-carbon, one piece unless noted):
-  Jack chains           1628 sc
-  Gauntlet              1222 sc
-  Sabaton (pair)        1424 sc
-  Bracers / Rerebrace   2845 sc   (one side; pair ×2)
-  Cuisses / Greaves     2845 sc   (one side; pair ×2)
-Laminar on a limb: ×1.15 coin, more mass.
-Cuir on a limb: ×0.70 coin, no grade.
+  Jack chains           16-28 sc     Core 22 sc
+  Gauntlet              12-22 sc     Core 17 sc
+  Sabaton (pair)        14-24 sc     Core 19 sc
+  Bracers / Rerebrace   28-45 sc     Core 36 sc  (one side; pair x2)
+  Cuisses / Greaves     28-45 sc     Core 36 sc  (one side; pair x2)
+Laminar on a limb: x1.15 coin, more mass.
+Cuir on a limb: x0.70 coin, no grade.
 
 
 --------------------------------------------------
 SOLID PLATE
 --------------------------------------------------
 
-Dishes and welds. Bought mass is finished mass × 1.40 in Steel.
-Listed Enc is the new catalogue.
+Art academy.
+Bought mass is finished mass x 1.40 in Steel.
+Every fabrication day is Higher skilled. Fine / closed / fitted pulls Master.
+
+Shop: capital, foundry-town, or a named hall.
+Repair of a crack or a re-dish: same door. A garrison may strap and pad.
 
 Plate (one front slot)
-Finished: Enc 25 ’ 2.5 kg
+Finished: Enc 25 = 2.5 kg
 Inputs: 3.5 kg Steel
-Labour: Armourer, several days to a week
+Labour: Higher skilled, several days to a week
 Output: 1 breast or 1 plackart-alone
-Base price: 24 gc
+Base price: 2-4 gc
+Core Common: 3 gc
 
 Cuirass (Plate + Plackart + Backplate)
-Finished: 2.5 + 1.6 + 1.8 kg H 5.9 kg
-Inputs: 89 kg Steel
-Labour: two weeks
+Finished: 2.5 + 1.6 + 1.8 kg = 5.9 kg
+Inputs: 8-9 kg Steel
+Labour: Higher skilled, two weeks. Fitted / Fine: Master on the lines.
 Output: 1 cuirass
-Base price: 612 gc
+Base price: 6-12 gc
+Core Common: 9 gc as three Forms (3 + 3 + 3)
 Do not add three AC columns.
 
 Other plate torso
-Gorget          Enc 8   1835 sc
-Besagew (one)   Enc 3   1425 sc
-Faulds          Enc 12  2850 sc
-Tassets         Enc 12  3055 sc
-Pauldron (one)  Enc 12  1835 sc
+Gorget          Enc 8   18-35 sc     Core 26 sc
+Besagew (one)   Enc 3   14-25 sc     Core 20 sc
+Faulds          Enc 12  28-50 sc     Core 39 sc
+Tassets         Enc 12  30-55 sc     Core 42 sc
+Pauldron (one)  Enc 12  18-35 sc     Core 26 sc
 
 Plate arms
-Gauntlet            Enc 6    1425 sc
-Full Gauntlet       Enc 10   24 gc
-Vambrace (one)      Enc 12   2850 sc
-Couter (one)        Enc 3    1222 sc
-Rerebrace (one)     Enc 12   2850 sc
+Gauntlet            Enc 6    14-25 sc    Core 20 sc
+Full Gauntlet       Enc 10   2-4 gc      Core 3 gc
+Vambrace (one)      Enc 12   28-50 sc    Core 39 sc
+Couter (one)        Enc 3    12-22 sc    Core 17 sc
+Rerebrace (one)     Enc 12   28-50 sc    Core 39 sc
 
 Plate legs
-Cuisses (one)       Enc 12   2850 sc
-Poleyn (one)        Enc 3    1222 sc
-Full Greaves (one)  Enc 14   3255 sc
-Sabaton (pair)      Enc 6    1425 sc
+Cuisses (one)       Enc 12   28-50 sc    Core 39 sc
+Poleyn (one)        Enc 3    12-22 sc    Core 17 sc
+Full Greaves (one)  Enc 14   32-55 sc    Core 44 sc
+Sabaton (pair)      Enc 6    14-25 sc    Core 20 sc
 
-A full low-carbon harness (cuirass, arms, legs, open helm) sits about 2035 gc in this book before grade.
-Hardened ×1.25. Crucible ×2.50 and T4.
+A full low-carbon harness (cuirass, arms, legs, open helm) sits about 20-35 gc in this book before grade.
+Hardened x1.25. Crucible x2.50 and T4.
+Master days on a fitted white harness push the top of that band, they do not double it.
 
 
 --------------------------------------------------
 HELMETS
 --------------------------------------------------
 
+Skullcap may come off a town bench (segmented shop).
+Open kettle / nasal: market-town armourer.
+Closed, armet, frog-mouth: plate shop. Master if visored and fitted.
+
 Open shop skulls
 Type: Skullcap, Composite kettle, Nasal spangenhelm
-Inputs: finished mass × 1.40 Steel
-Labour: days
+Inputs: finished mass x 1.40 Steel
+Labour: days. Skullcap 40 / 60. Kettle and nasal 100% Higher skilled.
 Base price:
-  Skullcap                 1830 sc
-  Composite kettle         24 gc
-  Nasal spangenhelm        24 gc
+  Skullcap                 18-30 sc     Core 24 sc
+  Composite kettle         2-4 gc       Core 3 gc
+  Nasal spangenhelm        2-4 gc       Core 3 gc
 
 Closed and heavy
 Type: Duckbill, Greathelm, Enclosed helm
-Inputs: 46 kg Steel
-Labour: one to two weeks
+Inputs: 4-6 kg Steel
+Labour: one to two weeks, 100% Higher skilled. Fine: Master.
 Base price:
-  Duckbill                 24 gc
-  Greathelm                48 gc
-  Enclosed helm            59 gc
+  Duckbill                 2-4 gc       Core 3 gc
+  Greathelm                4-8 gc       Core 6 gc
+  Enclosed helm            5-9 gc       Core 7 gc
 
 Solid-plate head (section 10)
 Type: Nasal, Kettle, Bascinet, Sallet, Armet, Barbute, Great bascinet, Frog-mouth, Burgonet
-Inputs: finished mass × 1.40 Steel
-Labour: a week to two; frog-mouth and armet toward the long end
+Inputs: finished mass x 1.40 Steel
+Labour: a week to two, 100% Higher skilled.
+        Frog-mouth and armet toward the long end, and toward Master.
 Base price:
-  Nasal / Kettle / Bascinet     36 gc
-  Sallet / Barbute / Burgonet   48 gc
-  Armet / Great bascinet        510 gc
-  Frog-mouth                    612 gc
+  Nasal / Kettle / Bascinet     3-6 gc      Core 4 gc 10 sc
+  Sallet / Barbute / Burgonet   4-8 gc      Core 6 gc
+  Armet / Great bascinet        5-10 gc     Core 7 gc 10 sc
+  Frog-mouth                    6-12 gc     Core 9 gc
 
 Bevor / Falling Buffe
-Add 1830 sc and Enc +3 to the helm that takes them.
+Add 18-30 sc and Enc +3 to the helm that takes them.
+Core Common: +24 sc
 Visor tags are form. They do not add a second AC and they do not add a second helm price beyond a few sc of extra work.
 
 
@@ -321,6 +421,7 @@ BOOTS
 A listing is a pair.
 Base Material is mandatory (Textile layer).
 Armour Material is optional and only on Cuffed or Riding.
+Cobbler is Basic skilled. Splint or greave add-on uses the segmented or plate shop for that add-on only.
 
 Type: Turnshoes, Ankle, Cuffed, Riding, Poulaine, Clog
 Inputs:
@@ -329,31 +430,30 @@ Inputs:
 Labour: Cobbler, a day to three
 Output: 1 pair
 Base price (leather base, Common):
-  Clog / slipper     610 sc
-  Turnshoes          814 sc
-  Poulaine           1218 sc
-  Ankle boots        1220 sc
-  Cuffed boots       1628 sc
-  Riding boots       1832 sc
+  Clog / slipper     6-10 sc     Core 8 sc
+  Turnshoes          8-14 sc     Core 11 sc
+  Poulaine           12-18 sc    Core 15 sc
+  Ankle boots        12-20 sc    Core 16 sc
+  Cuffed boots       16-28 sc    Core 22 sc
+  Riding boots       18-32 sc    Core 25 sc
 
 Armour Material on Cuffed or Riding only, added:
-  Padded         +610 sc
-  Cuir bouilli   +1422 sc
-  Splinting      +1220 sc
-  Greaves        +1830 sc
+  Padded         +6-10 sc     Core +8 sc
+  Cuir bouilli   +14-22 sc    Core +18 sc
+  Splinting      +12-20 sc    Core +16 sc
+  Greaves        +18-30 sc    Core +24 sc
 
 Plate greaves on the shin are their own Modular piece.
 They do not stack AC with boot greaves.
 
 
 --------------------------------------------------
-WHAT CORE STILL SHOWS
+CORE
 --------------------------------------------------
 
-Armour.txt Base cost lines are the old cheap stall.
-This file is the shop that pays for steel, waste, and weeks.
-When Core is remapped, use the mid of each band above as Common.
-Poor / Good / Best, if Core ever copies Weaponry §2, sit on that Common ticket.
+Armour.txt Base cost is Common, mid of the band above.
+Poor / Good / Best, if Core copies Weaponry craft, sit on that ticket.
+Do not apply Iron Grade to mail. Butted is the mail discount.
 
 
 --------------------------------------------------
@@ -362,6 +462,7 @@ WHAT THIS FILE DOES NOT DO
 
 - It does not stack AC.
 - It does not price a shield (not in the armour catalogue).
-- It does not let T0 rivet mail.
+- It does not let T0 rivet mail or dish plate.
+- It does not let an apprentice dish a breast.
 - It does not apply Iron Grade twice.
 - It does not recost Sea-serpent or troll-hide upgrades. Those are Unveiling goods on top of this floor.
