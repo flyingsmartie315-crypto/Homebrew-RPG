@@ -8,6 +8,12 @@ The metal in the weapon is never cheaper than the grade named in the inputs.
 Hafts and shafts use selected blanks, not boards.
 Waste is in the bought mass, not a second ticket.
 
+Cost by trade-rate, not by hat.
+If one craftsman does two trades under one roof, book each block
+at that trade's wage. Do not invent extra men. Do not pay the
+higher wage for the lower trade. Parallel days shorten the calendar.
+They do not cheapen the sum.
+
 Wait is not labour.
 Seasoning, loft-years, and drying sit as storage and a small premium on the stave.
 They are not bowyer-days and they are not smith-days.
@@ -26,7 +32,9 @@ Examples: knife, dagger, rondel dagger
 Inputs:
   - 0.3–0.6 kg steel
   - small fittings as needed
-Labour: Smith, part of a day to a day
+Labour Component Split (Total ~1 man-day):
+  - Blade and tang:     0.8 day Higher skilled smith           @ 65 bc
+  - Grip / sheath:      0.2 day Basic skilled leather          @ 30 bc
 Modifiers:
   - Poor: wrought iron
   - Fine: fine steel
@@ -39,7 +47,9 @@ Examples: arming sword, sabre, scimitar
 Inputs:
   - 1.0–1.4 kg steel
   - grip, guard, and scabbard fittings
-Labour: Smith, several days
+Labour Component Split (Total ~5 man-days):
+  - Blade, guard, pommel: 4 days Higher skilled smith          @ 65 bc
+  - Grip and scabbard:    1 day Basic skilled leather          @ 30 bc
 Modifiers:
   - Poor: wrought iron / low steel
   - Fine: fine steel
@@ -52,7 +62,9 @@ Examples: longsword, bastard sword
 Inputs:
   - 1.4–1.8 kg steel
   - longer grip and fittings
-Labour: Smith, a week or more
+Labour Component Split (Total ~8 man-days):
+  - Blade and fittings: 6 days Higher skilled smith            @ 65 bc
+  - Grip and scabbard:  2 days Basic skilled leather           @ 30 bc
 Modifiers:
   - Poor: common steel
   - Fine: fine steel or better
@@ -65,7 +77,9 @@ Examples: zweihander, claymore
 Inputs:
   - 2.0–3.0 kg steel
   - long grip, substantial fittings
-Labour: Smith, specialised, two weeks or more
+Labour Component Split (Total ~14 man-days):
+  - Blade and fittings: 12 days Higher skilled / swordsmith    @ 65 bc
+  - Grip and scabbard:   2 days Basic skilled leather          @ 30 bc
 Modifiers:
   - Fine: fine or crucible steel
 Output: 1 piece
@@ -81,7 +95,9 @@ Examples: fighting axe, horseman’s axe
 Inputs:
   - 1.0–1.5 kg steel
   - 2–3 kg ash shaft-blank
-Labour: Smith, a day or two, plus hafting
+Labour Component Split (Total ~2 man-days):
+  - Head:               1.5 days Higher skilled smith          @ 65 bc
+  - Haft from ash blank: 0.5 day Basic skilled carpenter       @ 30 bc
 Modifiers:
   - Poor: wrought iron head
   - Fine: steel bit, selected ash
@@ -94,7 +110,9 @@ Examples: long fighting axe, two-handed field axe
 Inputs:
   - 1.5–2.2 kg steel
   - 3–4 kg ash shaft-blank
-Labour: Smith, several days, plus hafting
+Labour Component Split (Total ~4 man-days):
+  - Head:               3 days Higher skilled smith            @ 65 bc
+  - Haft from ash blank: 1 day Basic skilled carpenter         @ 30 bc
 Modifiers:
   - Poor: wrought iron head
   - Fine: steel head, selected ash
@@ -107,7 +125,9 @@ Examples: great axe, pollaxe
 Inputs:
   - 2.0–3.5 kg steel
   - 3 kg selected ash shaft-blank
-Labour: Smith, specialised, plus careful hafting
+Labour Component Split (Total ~8 man-days):
+  - Head:               6 days Higher skilled smith            @ 65 bc
+  - Langets and haft:   2 days Basic skilled carpenter         @ 30 bc
 Modifiers:
   - Fine: fine steel head; weapon-grade ash
 Output: 1 piece
@@ -123,7 +143,9 @@ Examples: mace, horseman’s hammer
 Inputs:
   - 1.2–2.0 kg wrought iron or steel
   - 2 kg ash handle-blank
-Labour: Smith, a day or two
+Labour Component Split (Total ~2 man-days):
+  - Head:               1.5 days Higher skilled smith          @ 65 bc
+  - Haft from ash blank: 0.5 day Basic skilled carpenter       @ 30 bc
 Modifiers:
   - Fine: steel flanges or pick
 Output: 1 piece
@@ -135,7 +157,9 @@ Examples: two-handed mace, long hammer
 Inputs:
   - 2.0–3.0 kg wrought iron or steel
   - 3 kg ash shaft-blank
-Labour: Smith, several days
+Labour Component Split (Total ~4 man-days):
+  - Head:               3 days Higher skilled smith            @ 65 bc
+  - Haft from ash blank: 1 day Basic skilled carpenter         @ 30 bc
 Modifiers:
   - Fine: steel working-faces
 Output: 1 piece
@@ -147,7 +171,9 @@ Examples: maul, great hammer
 Inputs:
   - 3.0–5.0 kg wrought iron or steel
   - 3–4 kg ash shaft-blank
-Labour: Smith, heavy work, plus hafting
+Labour Component Split (Total ~6 man-days):
+  - Head:               5 days Higher skilled smith            @ 65 bc
+  - Haft from ash blank: 1 day Basic skilled carpenter         @ 30 bc
 Modifiers:
   - Fine: steel face
 Output: 1 piece
@@ -163,7 +189,9 @@ Examples: halberd, bill, glaive
 Inputs:
   - 1.5–2.5 kg steel
   - 3–4 kg ash shaft-blank
-Labour: Smith, several days, plus hafting
+Labour Component Split (Total ~6 man-days):
+  - Head and langets:   4 days Higher skilled smith            @ 65 bc
+  - Shaft from ash blank: 2 days Basic skilled carpenter       @ 30 bc
 Modifiers:
   - Poor: wrought iron head
   - Fine: steel head, selected ash
@@ -176,7 +204,9 @@ Examples: common spear, war spear, winged spear
 Inputs:
   - 0.4–0.8 kg steel
   - 2–3 kg ash shaft-blank
-Labour: Smith, part of a day to a day, plus hafting
+Labour Component Split (Total ~1.5 man-days):
+  - Head and socket:    1 day Higher skilled smith             @ 65 bc
+  - Shaft from ash blank: 0.5 day Basic skilled carpenter      @ 30 bc
 Modifiers:
   - Poor: wrought iron head; mixed-timber shaft
   - Fine: steel head, selected ash
@@ -203,7 +233,8 @@ Inputs:
   - 1 selected bow-stave (ash, elm, or lesser yew), already dry
   - loft premium 1–3 sc
   - string
-Labour: Bowyer, two to four days on the tiller
+Labour Component Split (Total 2–4 man-days):
+  - Tiller:             2-4 days Basic skilled bowyer          @ 30 bc
 Time: loft years behind the stave; not booked as days
 Modifiers:
   - Fine: better stave and tiller
@@ -219,7 +250,9 @@ Inputs:
   - loft premium 2–5 sc
   - string
   - sinew / glue / horn only if composite
-Labour: Bowyer, the best part of a week on the tiller
+Labour Component Split (Total ~5 man-days):
+  - Tiller:             5 days Basic skilled bowyer            @ 30 bc
+  - Composite only:     +3 days Higher skilled + sinew work    @ 65 bc
 Time: loft years on the stave, not on the man
 Modifiers:
   - Self-bow: the band below
@@ -232,20 +265,36 @@ High-Poundage Bow
 Type: High-Poundage Bow
 Examples: heavy self-bow (70–100 lb); longbow / warbow
 Inputs:
-  - 1 selected yew stave (or lesser substitute), already dry
+  - 1 selected stave, already dry
+      Yew stave ~5 kg as Forestry (about 12 sc 6 bc)
+      Substitute ash / elm stave, cheaper
   - loft premium 4–8 sc
   - string, nocks
-Labour: Bowyer, skilled, several days to a week on the tiller
+Labour Component Split (Total ~5 man-days):
+  - Tiller:             5 days Higher skilled bowyer           @ 65 bc
+        5 days x 65 bc = 27 sc 1 bc
 Time: loft years. Yew scarcity is the stave price, not extra weeks.
+
+Check (yew longbow, 5 tiller-days)
+  Yew stave                 12 sc 6 bc
+  Loft premium              4-8 sc
+  Tiller                    27 sc
+  String / nocks            a few sc
+  Floor                     about 2 gc 5 sc to 2 gc 10 sc
+Do not retail yew under that floor.
+
 Modifiers:
-  - Heavy self (Weaponry Heavy): lower end of the band
-  - Longbow / warbow: mid of the band
-  - Yew: as Forestry yew stave (dearer stick, same tiller-days)
-  - Substitute stave: cheaper, worse
+  - Substitute stave (ash, elm): the 1-2 gc band
+  - Yew longbow / warbow: starts at 2 gc 10 sc
+  - Fine selected yew: 3-5 gc. Not a harness.
 Output: 1 piece
-Base price: 1–3 gc
-Fine selected yew: 3–5 gc. Not a harness.
-Core Common: Heavy 1 gc 10 sc. Longbow 2 gc.
+Base price:
+  Substitute heavy self     1-2 gc
+  Yew longbow               2 gc 10 sc - 4 gc
+  Fine selected yew         3-5 gc
+Core Common:
+  Heavy (substitute)        1 gc 10 sc
+  Longbow (yew)             2 gc 10 sc
 
 --------------------------------------------------
 CROSSBOWS
@@ -258,7 +307,10 @@ Inputs:
   - steel or horn prod
   - tiller of hardwood
   - lock and simple fittings
-Labour: Bowyer / smith together, several days
+Labour Component Split (Total ~5 man-days):
+  - Prod and lock:      2 days Higher skilled smith            @ 65 bc
+  - Tiller and tiller-work: 2 days Basic skilled bowyer / carpenter @ 30 bc
+  - Assembly:           1 day either trade under one roof
 Modifiers:
   - Poor: iron prod, mixed-timber tiller
 Output: 1 piece
@@ -271,7 +323,9 @@ Inputs:
   - heavier steel prod
   - hardwood tiller
   - lock, stirrup, and lever
-Labour: Specialist, a week or more
+Labour Component Split (Total ~8 man-days):
+  - Prod, lock, lever:  5 days Higher skilled smith            @ 65 bc
+  - Tiller:             3 days Basic skilled carpenter         @ 30 bc
 Modifiers:
   - Fine: better lock and prod
 Output: 1 piece
@@ -284,7 +338,10 @@ Inputs:
   - heavy steel prod
   - hardwood tiller
   - lock and winding gear
-Labour: Specialist, two weeks or more
+Labour Component Split (Total ~16 man-days):
+  - Prod and winding gear: 10 days Higher skilled smith        @ 65 bc
+  - Tiller:              4 days Basic skilled carpenter        @ 30 bc
+  - Lock fit:            2 days Higher skilled                 @ 65 bc
 Modifiers:
   - Windlass or cranequin counted in the fittings
 Output: 1 piece

@@ -11,9 +11,11 @@
 #   Economy_Processed_Goods.txt         metal names
 #   Economy                             coin, availability
 #
-# Base cost is Common, Low-carbon / Riveted.
+# Base cost is Common, Low-carbon / Riveted, munitions.
 # Mid of the Economy_Finished_Armour band.
 # Iron Grade and Butted then multiply that ticket.
+# Commissioned plate is a premium on that ticket, not a
+# second Model (see Iron Grade block).
 
 Lists only. How to wear and soak: Armour_Rules.txt.
 Line format: Armour_Rules.txt §0b.
@@ -568,6 +570,18 @@ Iron Grade
   (Splinted / Laminar / Cuir on limbs) →
   Iron Grade % and AC (if eligible).
   Cost may be listed as sc.bc. Do not round Enc.
+
+Munitions and commission (plate and closed helms)
+  Listed Base cost is munitions: stock size,
+  Low-carbon, off the rack.
+  Enc is mass. Commission is fit, not Enc.
+  On the munitions ticket, before Iron Grade:
+    Made to measure           ×1.5
+    Fitted white              ×1.75
+    Master / named hall       ×2.0
+  A garrison issues munitions. It does not
+  commission. Mail and textile have no
+  commission column.
 
 Torso Models (minimum: front)
 

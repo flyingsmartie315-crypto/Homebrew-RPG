@@ -1,0 +1,77 @@
+# Nid-Skiff Asset Profile
+Historical Analogue: Prehistoric Log-Boats / Medieval Skiffs / Pesse Dugout derivatives
+Domain: Freshwater / Amphibious
+Structural Weight: 127 kg | Operational Load: Up to 350 kg (Size 4 equivalent)
+
+Operational Stats:
+- Crew: 1 oarsman
+- Propulsion: Paired ash oar blanks
+- Seaworthiness: Restricted strictly to Lake Kolvatn strands, quiet burns, and river inlets. Halves movement yards if caught in a rough surface state (Hydrology 3+).
+
+Narrative Footnote:
+The standard, utility work-boat of the Kannavald water-ring. Requires minimal tools and can be thrown together by a single village carpenter with an apprentice helper in less than half a week. Its lightness makes it easily portaged around river rapids.
+
+# Zille-Flat Asset Profile
+Historical Analogue: Medieval Danube Zille / Rhine Prams / Flat-Bottomed Punts
+Domain: Freshwater / Littoreal
+Structural Weight: 1,255 kg | Operational Load: Up to 4,000 kg bulk cargo
+
+Operational Stats:
+- Crew: 2–4 pole-hands / oarsmen
+- Propulsion: Long ash push-staves or crude square steering oars
+- Seaworthiness: Flat-bottomed profile. Immune to grounding damage on shallow sandbars (Topography 1). Capsizes instantly if subjected to open oceanic swells (Hydrology 4+).
+
+Narrative Footnote:
+While the carpentry is basic, building a Zille requires cooperative sealing labour. Common labourers haul the heavy pine planks while pit-hands boil the resin. A village smith must fashion the thick iron bands that bind the steering oar to the flat transom.
+
+# Kalak-Barge Asset Profile
+Historical Analogue: Ancient Mesopotamian Kalakku / Medieval Box-Barges / Thames Lighters
+Domain: Freshwater
+Structural Weight: 6,290 kg | Operational Load: 12,000 kg cargo cap (Standard Barge-Load)
+
+Operational Stats:
+- Crew: 6–10 river-drivers / line-hands
+- Propulsion: Sweeps, river-current drift, or land-based tow-lines
+- Seaworthiness: Zero sailing capacity. Entirely dependent on river hydrology gradients. Requires a dedicated river pilot (Hazardous Skilled) to navigate narrow mountain rifts without splitting the hull.
+
+Narrative Footnote:
+Heavy, un-decked box constructions requiring an organized shipyard pool. Under the direction of a Higher Skilled Shipwright, sawyers pit-saw the massive timber sides while experienced smiths rivet the corner braces. Their vast consumption of common rural labour makes them institutional village projects.
+
+# Kogge-Trader Asset Profile
+Historical Analogue: High-Medieval Hanseatic Cog / Northern European Hulks
+Domain: Marine / Gulf / Shelf
+Structural Weight: ~25,000 kg | Operational Load: 40 to 90 tons displacement
+
+Operational Stats:
+- Crew: 15–25 professional seamen
+- Propulsion: Single massive square Atlantic-type sail mounted on a central mast
+- Seaworthiness: Clinker-built sides with a flush-planked flat bottom. Can beach cleanly on tidal flats (Strand) for low-tide loading without tilting over.
+
+Narrative Footnote:
+The masterwork of town-based maritime guilds. Construction demands specialized clinker-fasteners and a heavy influx of urban dock-hands to move the raw tonnage. Sailmakers and ropemakers coordinate for weeks in adjacent lofts to outfit its single, massive mast.
+
+# Caravela Asset Profile
+Historical Analogue: 15th/16th-Century Portuguese Caravel (Caravela Latina/Redonda)
+Domain: Marine / Open Sea
+Structural Weight: ~48,000 kg | Operational Load: 50 to 160 tons displacement
+
+Operational Stats:
+- Crew: 30–40 sailors
+- Propulsion: 2–3 masts carrying lateen triangular sails, allowing the vessel to beat cleanly into the wind
+- Seaworthiness: Carvel-built edge-to-edge smooth hull planks. Possesses an unprecedented level of maneuverability and a shallow draft.
+
+Narrative Footnote:
+Requires T3 Works infrastructure. The smooth carvel skin requires master joiners to meticulously shave and shape each oak plank under the architect's direct eye, while professional caulkers drive oakum flax deep into every structural seam to ensure ocean tightness.
+
+# Great_Nau Asset Profile
+Historical Analogue: 16th-Century Portuguese Ocean-Going Carrack (Nau) / English Great Ship (Mary Rose / Great Michael class)
+Domain: Marine / Deep Ocean
+Structural Weight: ~110,000 kg | Operational Load: 400 to 1,000 tons displacement (King's Ransom capability)
+
+Operational Stats:
+- Crew: 120 gunners / 300 sailors / up to 500 standing marines
+- Propulsion: 3–4 masts mixing massive square mainsails with a lateen mizzen rig
+- Seaworthiness: High, towering forecastles and sterncastles engineered for naval defense and archer deployment. Highly stable in heavy open-sea waves.
+
+Narrative Footnote:
+A massive, multi-tiered industrial endeavor consuming nearly 2,000 total man-days of labor across all sectors of society. Master anchor-smiths, sail-loft networks, and hundreds of common yard-hands work simultaneously under the overarching dictation of a Master Shipwright.

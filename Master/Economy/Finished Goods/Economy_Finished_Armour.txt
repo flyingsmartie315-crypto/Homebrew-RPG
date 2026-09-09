@@ -24,6 +24,12 @@ Butted mail is not a grade. It is a worse join: x0.6 cost, x1.2 Enc, AC 2/2/2.
 
 Stay inside the categories. Named Models in Armour.txt are types, not separate files.
 
+Cost by trade-rate, not by hat.
+If one craftsman does two trades under one roof, book each block
+at that trade's wage. Do not invent extra men. Do not pay the
+higher wage for the lower trade. Parallel days shorten the calendar.
+They do not cheapen the sum.
+
 
 --------------------------------------------------
 WASTE
@@ -135,7 +141,10 @@ Type: Aketon, Gambeson, Arming Doublet, Pourpoint
 Inputs:
   - finished mass x 1.30 in Linen and/or Wool Cloth
   - stuffing of scrap cloth or raw wool
-Labour: Basic skilled tailor. Several days to a week (gambeson toward the week).
+Labour Component Split:
+  - Cut and quilt:        3-6 days Basic skilled tailor        @ 30 bc
+    (gambeson toward 6; aketon toward 3)
+  - Points / eyelets:     0.5 day same tailor under one roof
 Shop: household or any town.
 Output: 1 piece
 Base price:
@@ -146,7 +155,8 @@ Base price:
 
 Quilted legs / head
 Type: Padded chausses, Arming hose, Arming cap, Padded coif
-Labour: Tailor, a day to three
+Labour Component Split (Total 1-3 man-days):
+  - Quilt and stitch:     1-3 days Basic skilled tailor        @ 30 bc
 Output: 1 piece (chausses are a pair)
 Base price:
   Arming cap         6-10 sc
@@ -156,12 +166,14 @@ Base price:
 
 Soft helms
 Type: Malakhai, Padded turban
-Labour: Leatherworker or tailor, a day or two
+Labour Component Split (Total 1-2 man-days):
+  - Hide or quilt:        1-2 days Basic skilled leather / tailor @ 30 bc
 Base price: 12-25 sc
 
 Hands (textile)
 Type: Fingerless / Gloves / Mittens
-Labour: Leatherworker, part of a day to a day
+Labour Component Split (Total part-day to 1 man-day):
+  - Cut and stitch:       Basic skilled leather                @ 30 bc
 Base price: as Armour.txt Material x steps (2-12 sc). Holds.
 
 
@@ -192,7 +204,10 @@ Type: Mail
 Finished: Enc 75 = 7.5 kg short/short
 Inputs:
   - 13-14 kg Wrought Iron or Steel
-Labour: 4-8 weeks calendar. 10 / 90 split.
+Labour Component Split (6-week Common, 36 man-days):
+  - Wire, cut, collar:    3.6 days Higher skilled armourer     @ 65 bc
+  - Weave and rivet:     32.4 days apprentice ring-hand        @ 16 bc
+Calendar: 4-8 weeks. 10 / 90 split. Do not book the weeks at 65.
 Shop: town or garrison.
 Modifiers:
   - Long Sleeves / Long Hem: more rings, more weeks, Enc % from Armour.txt
@@ -207,7 +222,9 @@ Core Common: Riveted 12 gc
 Mail coif
 Finished: Enc 22 = 2.2 kg
 Inputs: 4 kg bar
-Labour: 1-2 weeks, 10 / 90
+Labour Component Split (8 man-days Common):
+  - Wire and shape:       0.8 day Higher skilled armourer      @ 65 bc
+  - Weave and rivet:      7.2 days apprentice ring-hand        @ 16 bc
 Shop: town or garrison
 Base price: Riveted 2-4 gc    Butted 1-2 gc
 Core Common: 3 gc
@@ -215,7 +232,9 @@ Core Common: 3 gc
 Mail chausses (pair, shin default)
 Finished: Enc 20 = 2.0 kg
 Inputs: 3.5-4 kg bar
-Labour: 1-2 weeks, 10 / 90
+Labour Component Split (8 man-days Common):
+  - Wire and shape:       0.8 day Higher skilled armourer      @ 65 bc
+  - Weave and rivet:      7.2 days apprentice ring-hand        @ 16 bc
 Base price: Riveted 2-5 gc    Butted 1-3 gc
 Core Common: 3 gc 10 sc
 Full-length hose doubles rings and coin.
@@ -223,7 +242,9 @@ Full-length hose doubles rings and coin.
 Mail standard
 Finished: Enc 10 = 1.0 kg
 Inputs: 1.8 kg bar
-Labour: several days, 10 / 90
+Labour Component Split (4 man-days Common):
+  - Wire and shape:       0.4 day Higher skilled armourer      @ 65 bc
+  - Weave and rivet:      3.6 days apprentice ring-hand        @ 16 bc
 Base price: Riveted 18-35 sc   Butted 10-20 sc
 Core Common: 26 sc
 
@@ -253,7 +274,10 @@ Finished: Enc 100 = 10 kg
 Inputs:
   - 15 kg Steel
   - 1-2 kg Linen or Leather foundation
-Labour: 2-3 weeks, 30 / 70 after the plates exist
+Labour Component Split (15 man-days Common):
+  - Cut and shape plates: 4.5 days Higher skilled armourer     @ 65 bc
+  - Rivet onto foundation: 10.5 days apprentice / leather      @ 16-30 bc
+    30 / 70 after the plates exist
 Output: 1 coat
 Base price: 5-9 gc
 Core Common: 7 gc
@@ -263,7 +287,10 @@ Finished: Enc 42 = 4.2 kg (front)
 Inputs:
   - 6-7 kg Steel
   - foundation cloth or hide
-Labour: 1-2 weeks, 50 / 50
+Labour Component Split (8 man-days Common):
+  - Plates:               4 days Higher skilled armourer       @ 65 bc
+  - Foundation and rivets: 4 days Basic skilled leather        @ 30 bc
+    50 / 50
 Output: 1 coat
 Base price: 3-6 gc
 Core Common: 4 gc 10 sc
@@ -274,7 +301,10 @@ Finished: Enc 40 = 4.0 kg (front)
 Inputs:
   - 6 kg Steel
   - 1-2 kg Leather (the coat is the point)
-Labour: 2 weeks, 30 / 70 (more rivets than a coat of plates)
+Labour Component Split (12 man-days Common):
+  - Plates:               3.6 days Higher skilled armourer     @ 65 bc
+  - Coat and rivets:      8.4 days Basic skilled leather       @ 30 bc
+    30 / 70 (more rivets than a coat of plates)
 Output: 1 coat
 Base price: 4-7 gc
 Core Common: 5 gc 10 sc
@@ -283,7 +313,10 @@ Laminar torso
 Finished: Enc 48 = 4.8 kg
 Inputs:
   - 7 kg Steel
-Labour: 2 weeks, 50 / 50
+Labour Component Split (12 man-days Common):
+  - Bands:                6 days Higher skilled armourer       @ 65 bc
+  - Lacing and fit:       6 days Basic skilled leather / hand  @ 30 bc
+    50 / 50
 Output: 1 torso
 Base price: 4-7 gc
 Core Common: 5 gc 10 sc
@@ -293,7 +326,9 @@ Finished: Enc 32 = 3.2 kg
 Inputs:
   - 4.5 kg Leather
   - wax, oil, and a pot
-Labour: Basic skilled leatherworker, several days. Not the plate shop.
+Labour Component Split (Total several man-days):
+  - Boil, shape, stitch:  Basic skilled leather                @ 30 bc
+    Not the plate shop.
 Output: 1 torso
 Base price: 30-55 sc
 Core Common: 42 sc
@@ -305,7 +340,9 @@ Finished mass = Enc / 10
 Inputs:
   - finished mass x 1.50 Steel (or Leather if Cuir)
   - foundation
-Labour: days, 40 / 60
+Labour Component Split (2-4 man-days per piece):
+  - Iron strips:          40% Higher skilled armourer          @ 65 bc
+  - Foundation and rivets: 60% Basic skilled leather / hand    @ 30 bc
 Shop: market town
 Output: 1 piece (or pair where the Model is a pair)
 Base price (Splinted, low-carbon, one piece unless noted):
@@ -354,7 +391,10 @@ Munitions and commission
 Plate (one front slot)
 Finished: Enc 25 = 2.5 kg
 Inputs: 3.5 kg Steel
-Labour: Higher skilled, several days to a week
+Labour Component Split (5 man-days Common munitions):
+  - Dish and finish:      5 days Higher skilled armourer       @ 65 bc
+    100% armourer. Apprentice pumps; does not dish.
+  - Commissioned / Fine:  same days at Master                  @ 155 bc
 Output: 1 breast or 1 plackart-alone
 Base price (munitions): 2-4 gc
 Core Common (munitions): 3 gc
@@ -363,7 +403,10 @@ Commissioned: 4.5-8 gc
 Cuirass (Plate + Plackart + Backplate)
 Finished: 2.5 + 1.6 + 1.8 kg = 5.9 kg
 Inputs: 8-9 kg Steel
-Labour: Higher skilled, two weeks. Fitted / Fine: Master on the lines.
+Labour Component Split (12 man-days Common munitions):
+  - Dish, weld, fit:     12 days Higher skilled armourer       @ 65 bc
+    100% armourer.
+  - Fitted / Fine:       those days at Master                  @ 155 bc
 Output: 1 cuirass
 Base price (munitions): 6-12 gc
 Core Common (munitions): 9 gc as three Forms (3 + 3 + 3)
@@ -409,7 +452,10 @@ A helm dished to the wearer uses the plate commission premium.
 Open shop skulls
 Type: Skullcap, Composite kettle, Nasal spangenhelm
 Inputs: finished mass x 1.40 Steel
-Labour: days. Skullcap 40 / 60. Kettle and nasal 100% Higher skilled.
+Labour Component Split:
+  - Skullcap:             40% Higher skilled / 60% hand
+  - Kettle / nasal:       3-5 days Higher skilled armourer     @ 65 bc
+    100% armourer.
 Base price:
   Skullcap                 18-30 sc     Core 24 sc
   Composite kettle         2-4 gc       Core 3 gc
@@ -418,7 +464,9 @@ Base price:
 Closed and heavy
 Type: Duckbill, Greathelm, Enclosed helm
 Inputs: 4-6 kg Steel
-Labour: one to two weeks, 100% Higher skilled. Fine: Master.
+Labour Component Split (8-12 man-days):
+  - Dish and visor:       8-12 days Higher skilled armourer    @ 65 bc
+    100% armourer. Fine: Master @ 155 bc.
 Base price:
   Duckbill                 2-4 gc       Core 3 gc
   Greathelm                4-8 gc       Core 6 gc
@@ -427,8 +475,9 @@ Base price:
 Solid-plate head (section 10)
 Type: Nasal, Kettle, Bascinet, Sallet, Armet, Barbute, Great bascinet, Frog-mouth, Burgonet
 Inputs: finished mass x 1.40 Steel
-Labour: a week to two, 100% Higher skilled.
-        Frog-mouth and armet toward the long end, and toward Master.
+Labour Component Split (8-14 man-days):
+  - Skull and visor:      8-14 days Higher skilled armourer    @ 65 bc
+    100% armourer. Frog-mouth and armet toward 14 and toward Master.
 Base price:
   Nasal / Kettle / Bascinet     3-6 gc      Core 4 gc 10 sc
   Sallet / Barbute / Burgonet   4-8 gc      Core 6 gc
@@ -454,7 +503,10 @@ Type: Turnshoes, Ankle, Cuffed, Riding, Poulaine, Clog
 Inputs:
   - Leather, Suede, or Felt & leather as the Base table
   - last, thread, tallow
-Labour: Cobbler, a day to three
+Labour Component Split (Total 1-3 man-days):
+  - Last and stitch:      1-3 days Basic skilled cobbler       @ 30 bc
+  - Optional greave / splint add-on: use segmented or plate split
+    for that add-on only
 Output: 1 pair
 Base price (leather base, Common):
   Clog / slipper     6-10 sc     Core 8 sc

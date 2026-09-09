@@ -1,0 +1,609 @@
+# Economy_Finished_Architecture.txt
+# Engine for built works. Not a stall catalogue.
+# Instances live as Blueprints under the Geographic Region.
+# Plant inside a [Process] shell: Economy_Processing_Matrix.txt
+# Materials: Economy_Processed_Goods.txt
+# Wages: Economy_Labour.txt
+
+HEADER NOTE
+A building is a recipe: mass, labour split, calendar, ticket, then MCI.
+It is not a dagger. Do not sell a keep by the piece on a market stall.
+
+1 MU = 1,000 kg of structural mass before biome translation.
+Every recipe also prints kg so it talks to Processed Goods.
+
+Cost by trade-rate, not by hat.
+If one crew does two trades under one roof, book each block at that
+trade's wage. Parallel days shorten the calendar. They do not cheapen
+the sum.
+
+Yard calendar. Not shipyard calendar.
+
+Craft cap on every recipe in this file:
+  Poor x0.8 / Good x1.25 / Best x2
+Best is commission (named master, named scantlings).
+Do not use Weaponry x10 on a house.
+
+
+--------------------------------------------------
+FORMULA
+--------------------------------------------------
+
+  (Scale MU + tag add-on MU) x Tier factor
+        --biome default-->  local purchased kg
+        --labour table-->   split days
+        --culture tag-->    skin and modifiers
+        --MCI-->            yearly upkeep
+
+Haulage for imported mass is extra. It is not inside the factor.
+
+
+--------------------------------------------------
+FAMILY
+--------------------------------------------------
+
+Buildings
+  Envelope plus rooms.
+  Tags legal: Domestic, Storage, Process, Animal Shelter, Military.
+  Military here means rooms on a building (slit, bar, guard-room),
+  not a curtain wall.
+
+Works
+  Linear or spanning pieces.
+  Tags legal: Infrastructure, Civic-as-work, Sacred-as-work,
+  and Military as a work (wall, tower, gate) when it is not a
+  room on a house.
+  Priced per rod or per span. Do not stack Works MU onto a cottage
+  as if a mill-race were a loft.
+
+Monument
+  A Building or a Work that is Palace-scale or larger, or a Work
+  whose total MU is 200+.
+  Same formula. Same biome defaults. It must be phased.
+
+
+--------------------------------------------------
+SCALE (Buildings)
+--------------------------------------------------
+
+Scale is the envelope. Tags add function. Tags do not reprint the house.
+
+| Scale            | Base MU | What it is                         |
+|------------------|---------|------------------------------------|
+| Booth / shed     | 0.5     | lean-to, barrow-shed, watch-hut    |
+| Cottage          | 3       | one-hearth dwelling                |
+| House / workshop | 10      | urban plot, smithy shell, inn      |
+| Hall / barn      | 25      | longhouse, tithe barn, small hall  |
+| Works / keep     | 60      | mill-house, gatehouse, small keep  |
+| Palace / temple  | 200     | seat, great temple, small cathedral|
+| Cathedral /      | 500     | city cathedral, royal palace,      |
+|  citadel         |         | fortress-palace                    |
+| Monument         | write it| anything above 500 MU. Name the kg.|
+
+Pick one Scale per blueprint.
+Palace / temple and above are multi-year by default.
+See MULTI-YEAR. Do not pretend a cathedral is a 60 MU keep.
+
+
+--------------------------------------------------
+FUNCTIONAL TAGS
+--------------------------------------------------
+
+Add-on MU is added once per tag unless the blueprint says a second
+loft, a second stall-range, or a second plant.
+
+Buildings
+
+  [Domestic]           +2 MU
+    Quarters, hearth, light kitchen draught.
+    A Cottage or Hall that is already a dwelling still takes this
+    tag if people sleep in it. The add-on is the fit-out, not a
+    second house.
+
+  [Storage]            +3 MU
+    Loft, cellar, toll-bin, granary floor.
+
+  [Process]            +2 MU shell only
+    The walls around a plant.
+    The plant itself is the matching row in Economy_Processing_Matrix.txt
+    (bloomery, kiln, saw-pit, millstones, tan-pits, ropewalk).
+    Architecture does not invent a second kiln recipe.
+    If the matrix plant does not exist at this site's Tech, the
+    tag is illegal.
+
+  [Animal Shelter]     +4 MU
+    Stalls, pens, byre. Not a barn Scale by itself unless the
+    envelope is Hall / barn.
+
+  [Military]           +3 MU
+    Arrow-slit, iron bar, guard-room on this envelope.
+    Not a tower. A tower is Works.
+
+  [Sacred]             +8 MU
+    Sanctum, choir, shrine-fit. Not the whole cathedral.
+    The envelope is Scale. This tag is the cult fit-out.
+    Culture tag still supplies the skin.
+
+  [Civic]              +6 MU
+    Audience, chancery, court, archive. A palace without this
+    tag is only a large [Domestic].
+
+Works extra
+
+  [Infrastructure] also, at monument length:
+    aqueduct arcade            12 MU / rod  (channel + piers)
+    canal cut (navigable)      15 MU / rod  (cut, bank, lock extra)
+    lock chamber               25 MU each
+    city sewer main            8 MU / rod   (vaulted)
+    sewer branch               3 MU / rod
+    water-castle / header      40 MU each
+
+  [Sacred] as a work
+    precinct wall, cloister walk: use Infrastructure rod rates.
+    The church itself is a Building at Palace or Cathedral scale.
+
+Works
+
+  [Infrastructure]
+    Priced per rod (3 m) or per span, not as a house tag.
+    Default MU per rod:
+      road paving / causeway     2 MU / rod
+      retaining wall / quay      4 MU / rod
+      mill-race / sluice         3 MU / rod
+      bridge span (timber)       8 MU / span
+      bridge span (stone)       20 MU / span
+    Write the length on the blueprint.
+
+  [Military] as a work
+    curtain / bailey wall        6 MU / rod
+    gatehouse                    use Scale Works / keep
+    watch-tower                  15 MU each
+
+
+--------------------------------------------------
+MATERIAL TIERS
+--------------------------------------------------
+
+Tier is wealth and instruction. It is not a biome.
+
+| Tier            | Factor | Who must be on the split                         |
+|-----------------|--------|--------------------------------------------------|
+| Utilitarian     | 0.7    | Rural common. Neighbour days. No guild.          |
+| Freeholder      | 1.0    | Basic skilled carpenter or village builder.      |
+| Standardised    | 1.3    | Higher skilled mason / carpenter + smith ties.   |
+| Fortified       | 2.0    | Master architect / engineer on direction days.   |
+
+Factor multiplies (Scale + tags) before biome translation.
+
+Utilitarian is not 0 gc.
+Turf, willow, fieldstone, and thatch may be unpurchased (ticket 0
+on those lines). Labour still exists. Book family and neighbour
+days at rural common (3 bc) even when the settlement does not pay
+them in coin. MCI still eats thatch and days.
+If you print 0 gc and 0 days, neglect cannot happen.
+
+Fortified may import mass the biome does not grow.
+That is the point of the tier. Charge haulage. Do not forbid
+ashlar in pine country.
+
+
+--------------------------------------------------
+BIOME DEFAULTS
+--------------------------------------------------
+
+Read the site line from Geography (same seven scores yield uses):
+  Temperature | Rainfall | Human Density | Flora | Fauna |
+  Topography  | Hydrology
+
+Translation sets the primary structural mass. It does not ban the
+rest. A minority of other material is always legal.
+
+Default primary (about 75-85% of structural kg)
+
+  Boreal / Alpine
+    Flora 4-5 and Topography 3-5
+    Primary: pine / spruce / fir rounds and hewn timber.
+    Footings may be fieldstone.
+    Horizontal log or stave jointing is the default skin.
+
+  Lowland / Riverine
+    Flora 0-2 and Topography 0-2 and Hydrology 3-5
+    Primary: brick, adobe, pise, reed thatch.
+    Timber is roof-shoring and openings, not the wall.
+
+  Arid mountain
+    Rainfall 0-2 and Flora 0-2 and Topography 3-5
+    Primary: dry-stone, cleaved basalt, mortarless sandstone.
+    Dome or stone-slab roof is the default skin.
+    Timber is an import.
+
+Everywhere else
+    Mixed. Use the higher of Flora (timber share) and Topography
+    (stone share). Hydrology 4-5 pulls brick / earth if Flora is
+    low. Write the split on the blueprint.
+
+Minority (15-25%)
+    Always allowed from local odds: stone in timber country,
+    a roof-tree in brick country, a timber lintel in stone country.
+
+Import
+    Legal at Freeholder+ if the road exists.
+    Required for Fortified when the default cannot cut ashlar,
+    fired brick, or long beams.
+    Haulage is a separate line. It is not hidden in the tier factor.
+
+
+--------------------------------------------------
+CULTURE TAGS (stubs)
+--------------------------------------------------
+
+The culture tag is the skin. It does not change Scale.
+It may change jointing, roof, openings, and a small modifier.
+Name one on every blueprint. Invent no fifth until these four
+have instances.
+
+  Kannavald stave
+    Stave or horizontal log. Steep birch-bark or shingle roof.
+    Small openings. Smoke-bay or gable-vent.
+    Modifier: +10% timber kg. -10% heating labour in winter
+    if Flora 4+ (wood is cheap). Wet-rot MCI +1% if Hydrology 4+.
+
+  Westmark close-stud
+    Close-stud timber on a brick or stone plinth. Tile or
+    shingle. Jetty legal in town.
+    Modifier: iron ties required at Standardised+. +10% iron kg.
+
+  Riverine pise
+    Rammed earth or brick. Deep eaves. Reed or tile.
+    Modifier: illegal as Fortified unless imported facing-stone.
+    Hydro 4+: +2% MCI (splash and salt).
+
+  Ashlar seat
+    Dressed stone. Lead or stone-flag roof. Narrow lights.
+    Modifier: Fortified default. Direction days must include
+    Master architect. Haulage almost always on the ticket.
+
+
+--------------------------------------------------
+LABOUR SPLIT
+--------------------------------------------------
+
+Book from purchased-and-foraged kg, not from a vibe.
+
+Direction
+  Utilitarian: none, or a neighbour who has raised a roof before.
+  Freeholder: Basic skilled x 5-10% of assembly days.
+  Standardised: Higher skilled x 10-15% of assembly days.
+  Fortified: Master architect / engineer x 10% of assembly days
+             plus Higher skilled under them.
+
+Assembly
+  Utilitarian: rural common.
+  Freeholder: Basic skilled carpenter / builder + common haul.
+  Standardised: Basic skilled + Higher skilled mason / carpenter
+                + smith for ties.
+  Fortified: Higher skilled mason majority + smith + common haul.
+
+Excavation and haulage
+  Rural common on a village site. Urban common in a town yard.
+  Hazardous skilled only for height, pit, or coffer.
+
+Wages (same bands as Transport)
+  Rural common              3 bc/day
+  Urban common              5 bc/day
+  Basic skilled            30 bc/day
+  Hazardous skilled        50 bc/day
+  Higher skilled           65 bc/day
+  Master architect /
+  Master engineer         130-200 bc/day   (Labour.txt)
+
+A [Process] shell uses this split for the building.
+The matrix row owns the days to make the first honest batch
+once the shell stands.
+
+
+--------------------------------------------------
+TICKET
+--------------------------------------------------
+
+Sum of:
+  purchased kg x catalogue rate
+  + imported kg x catalogue rate
+  + haulage (if any)
+  + labour days x wage
+  + unpurchased mass listed at 0 gc but with its days booked
+
+Utilitarian purchased ticket may be 0 gc. Days are not 0.
+
+Yard cap applies to the labour-and-skill part, not to the iron
+in the gate.
+
+
+--------------------------------------------------
+EXTRACTION
+--------------------------------------------------
+
+A mine is not a crop. The vein is a Product Yield fact
+(written feature, or not). Architecture does not create ore.
+It creates the hole that can take it, and the plant that keeps
+the hole open.
+
+Family
+  Headworks          Building. Scale Booth to House.
+                     Tags: [Process] + optional [Storage] [Domestic].
+                     [Process] plant is the winding / wash / first
+                     roast. Matrix owns the bloomery. Architecture
+                     owns the house over the hole.
+  Shafts and levels  Works. Linear. Not a loft on the cottage.
+  Quarry face        Works. Open cut. Cheaper than a shaft.
+                     No air plant. Water still matters.
+
+Works rates (timbered unless the blueprint says stone lining)
+
+  Adit / drift / level     4 MU / rod
+  Vertical shaft           8 MU / rod of depth
+  Open quarry bench        2 MU / rod of face
+  Sump                     3 MU each
+
+Timber is structural, not firewood. Boreal default helps.
+Arid stone country may line in dry-stone and cut the timber
+share. It does not cut MCI to cottage levels. Ground still moves.
+
+Optional plant
+  None of these are required to declare a pit.
+  Depth, water, and length make them required to work.
+
+  Crane / whim / horse-gin     +2 MU on the headworks
+    T1+. Iron and rope. Raises ore and men.
+    Without it, a deep shaft is common-labour backs and a winch.
+
+  Water pump / rag-and-chain   +3 MU  (T2)
+    T3 works: chain-pump or water-wheel pump +6 MU.
+    Required if Hydrology 3+ at the workings, or the shaft
+    is below the local water-table written on the site.
+    Without it the sump fills. Output goes to zero.
+
+  Air pump / bellows-vent / furnace-draught
+                               +1 MU  (T1) or +3 MU furnace (T2)
+    Required if a level runs more than 2 rods from free air.
+    Without it the face is a short shift and a death.
+
+  Each optional plant is a [Process] shell. Days to run it
+  come from W every year, not from the build split.
+
+Audit
+  A working mine takes a yearly survey (Higher skilled or
+  Hazardous pit-captain, days in the MCI labour).
+  The audit is how the GM learns flood, crush, and fire-damp
+  before Decay hits the gate.
+  No audit booked = treat as missed MCI labour that year.
+
+Extraction MCI (overrides the tier table for shafts and levels)
+  Headworks use the ordinary tier table.
+  Underground Works use this, because props die faster than roofs:
+
+    Structural timber / year     12% of timber kg in the Works
+    Tools / rope / tar / year    5% of that purchased line
+    Pump and gin labour          the days to run the plant
+    Audit                        included in those days
+
+  Fortified stone lining may drop timber MCI to 6%. It does not
+  drop to 2%. A keep-roof and a wet adit are not the same job.
+
+Decay underground
+  Same 3 / 5 / 10 gates, with these names:
+    3   props gone to rot. Tier drop. Output halved.
+    5   Unsafe. Flood, crush, or gas. [Process] off.
+        Recovery is 2x MCI plus a season the pit stands idle.
+    10  Lost workings. Hazard / Dungeon. Vein still exists
+        on the map. The hole does not.
+
+W
+  Pit-hands come from Product Yield's W rule.
+  Building the shaft is Architecture days from the same W.
+  You cannot raise a new level and keep full offtake in the
+  same season unless W is written large enough for both.
+
+
+--------------------------------------------------
+MULTI-YEAR
+--------------------------------------------------
+
+The engine already has days. Multi-year is how those days meet
+the settlement's labour pool.
+
+When this fires
+  Scale Palace / temple or larger.
+  Any Work whose total MU is 200 or more.
+  Any blueprint that writes Time in years.
+
+W
+  Same pool yield uses: W = population x 0.40.
+  Architecture draws from W. So do fields and the yard.
+  A cathedral that takes every mason-day starves the mill
+  and the harvest. Write the draw.
+
+Phases
+  Split the structural MU into named phases. Each phase is one
+  season or one year of booked days that W can actually spare.
+
+  Typical cuts:
+    1  Foundation / cut / coffer
+    2  Envelope / arcade / cut of canal
+    3  Roof / vault / water-tight
+    4  Fit-out (Sacred, Civic, plant, lead, glass)
+
+  A phase has its own inputs, split, and calendar.
+  Sum of phases = the blueprint total. Do not invent extra mass.
+
+Utility while unfinished
+  No phase complete:         footprint only. No tag utility.
+  Foundation only:           no [Domestic], [Sacred], [Process].
+  Envelope up, no roof:      [Storage] at half if dry enough.
+  Roof on, fit-out undone:   [Domestic] / [Sacred] / [Civic]
+                             at half. [Process] still off.
+  Aqueduct / canal / sewer:  water or boats only when that
+                             reach is open end to end.
+  A cathedral without a roof is not a temple.
+
+Lead times that are not labour
+  Foundation settle, stone seasoning, lime slake: wait.
+  Same law as loft and tan-pit. Do not book masons to watch it.
+
+Tech
+  Palace / temple: min T2.
+  Cathedral / citadel / city sewer / navigable canal: min T3.
+  Monument aqueduct across a valley: T3, Master engineer on
+  direction, Fortified or Standardised facing.
+  T0-T1 settlements do not start these. They can haul for someone
+  else's project.
+
+Abandoned works
+  If a year passes with no phase days and no MCI on what stands,
+  the unfinished mass takes Decay as if it were a building of
+  its current tier.
+  At 5 points the works is unsafe to continue without a recovery
+  season. At 10 the scaffolding is a Hazard site.
+
+MCI on a monument
+  Charge MCI only on completed phases.
+  A half-built nave does not pay 2% of the finished cathedral.
+  It pays 2% (or the unfinished-works rule above) of what is up.
+
+Coin
+  The ticket may be paid across years. That is a treasury problem,
+  not a second formula.
+
+
+--------------------------------------------------
+MCI
+--------------------------------------------------
+
+Annual upkeep if the settlement wants the building to stay at tier.
+
+| Tier            | Material / year      | Labour / year        |
+|-----------------|----------------------|----------------------|
+| Utilitarian     | 10% of structural kg | 8% of original days  |
+| Freeholder      | 5%                   | 5%                   |
+| Standardised    | 3%                   | 3%                   |
+| Fortified       | 2%                   | 2%                   |
+
+Culture modifiers add on top (Kannavald wet-rot, riverine splash).
+
+Material upkeep is in the same goods the blueprint used
+(thatch, shingle, lime, tar, iron ties), not a mystery "repair kit."
+
+
+--------------------------------------------------
+DECAY
+--------------------------------------------------
+
+If the year's MCI material or days are not allocated:
+  +1 Decay Point that year.
+
+  3 points   Tier decline. Drop one Material Tier.
+             Standardised loses tile and ties and is booked as
+             Freeholder until recovered. Fortified becomes
+             Standardised masonry with a bad roof. Freeholder
+             becomes Utilitarian. Utilitarian has no lower tier;
+             go to the Unsafe gate at 5.
+
+  5 points   Unsafe gate. The building loses its primary
+             [Domestic] or [Process] utility. People move out.
+             The plant cannot run. Storage and Animal may limp
+             at half.
+
+  10 points  Collapse. Struck from the census. The footprint
+             becomes a Hazard / Dungeon site and takes local
+             pests or worse.
+
+Recovery
+  One Decay Point costs 2 x that building's annual MCI
+  (material and days) spent in a single season.
+  You cannot skip from 9 to 0 in a week of hand-waving.
+
+
+--------------------------------------------------
+BLUEPRINT TEMPLATE
+--------------------------------------------------
+
+Instances live at:
+  Master/Geography/Architecture/Blueprints/[Name].txt
+or under the Geographic Region that owns the site.
+
+Do not paste the engine into every instance.
+
+
+# [Blueprint Name]
+
+Family: Building / Work
+Functional Tags: [ ... ]
+Material Tier: Utilitarian / Freeholder / Standardised / Fortified
+Scale: Booth / Cottage / House / Hall / Works-keep /
+       Palace-temple / Cathedral-citadel / Monument
+Culture Tag: Kannavald stave / Westmark close-stud /
+             Riverine pise / Ashlar seat
+Years / Phases: [1] ... [N]   (required if Palace+ or Works 200+ MU)
+
+Local Region:
+Geographic Region:
+Site Biome:
+Harvest Scores:
+  Temp: X | Rain: X | Density: X | Flora: X | Fauna: X |
+  Topo: X | Hydro: X
+
+1. BIOME TRANSLATION
+Primary mass and the minority. Imports and haulage if any.
+Process plant named from the matrix if [Process] is on.
+
+2. CULTURE
+Skin and the modifier that fired.
+
+Scale MU: X
+Tag add-on MU: X
+Tier factor: X
+Structural MU after factor: X
+Structural kg: X,000
+
+Inputs:
+  - [qty] [good]     structural
+  - [qty] [good]     fasteners / ties
+  - [qty] [good]     roof and seal
+  - [qty] [good]     import + haulage
+
+Labour Component Split:
+  - Direction:     N days  [trade] @ bc
+  - Assembly:      N days  [trade] @ bc
+  - Excavation / haul: N days  [trade] @ bc
+
+Time: N weeks, seasons, or years (yard calendar)
+      Phase list if multi-year. W draw per year.
+Output: 1 structure, or 1 reach of a Work
+Finished mass: kg
+Base cost: gc / sc / bc
+  (purchased lines only; list unpurchased mass at 0)
+  Multi-year: cost per phase, then the sum.
+
+MCI
+  Material / year:
+  Labour / year:
+  Culture modifier:
+  Neglect: tier drop at 3, unsafe at 5, collapse at 10.
+
+
+--------------------------------------------------
+WHAT THIS FILE DOES NOT DO
+--------------------------------------------------
+
+- It does not list every cottage in Virath.
+- It does not let [Process] exist without a matrix plant.
+- It does not treat a mill-race as a bedroom.
+- It does not ban stone in timber country.
+- It does not print Utilitarian as 0 days.
+- It does not apply Weaponry Best x10 to a keep.
+- It does not run HSI as a crop. Scores here pick materials, not yield.
+- It does not finish a cathedral in a season.
+- It does not let a hamlet start an aqueduct.
+- It does not charge full MCI on a roofless nave.
+- It does not create a vein. Product Yield writes the ore.
+- It does not let a deep wet shaft work without a pump.

@@ -1,0 +1,66 @@
+# Grip-Barrow Asset Profile
+Historical Analogue: High-Medieval One-Wheeled Barrows / 13th-Century Construction Hand-Barrows
+Domain: Land / Urban / Rural
+Structural Weight: 24 kg | Operational Load: Up to 120 kg (Day-carry helper)
+
+Operational Stats:
+- Crew: 1 hand-pusher
+- Steering: Controlled directly via the handles. Agility tests receive +5 inside narrow corridors.
+- Terrain: Restricted to flat paving or dry, hard-packed yard mud. Suffers a total immobilization failure if forced onto open marsh or wetland features (Hydrology 4+).
+
+Narrative Footnote:
+A piece of basic T0 household infrastructure. It can be thrown together out of workspace scrap without complex plans. It does not occupy a full hand’s labor cycle for tracking, representing an incremental chore tool rather than a major transit asset.
+
+# Hand-Hand-Cart Asset Profile
+Historical Analogue: Medieval Hand-Carts / 14th-Century Urban Push-Carts / Two-Wheeled Tumbrels
+Domain: Land / Urban
+Structural Weight: 74 kg | Operational Load: Up to 300 kg bulk cargo
+
+Operational Stats:
+- Crew: 1–2 men (one pulling the shafts, one pushing the tail)
+- Steering: Highly nimble. Can negotiate tight town-gates and narrow 1-yard alleys without WS penalties if used as cover.
+- Terrain: Hampered Overland speed chart defaults to half if muddy.
+
+Narrative Footnote:
+The standard vehicle of the urban common lot. It allows water-carriers and camp followers to transport bulk commodities without owning draft stock. If used during an active street fight or peasant riot, it provides partial cover (Size 5 object rating) against incoming Ballistic Skill tests.
+
+
+# Standard_Farm_Cart Asset Profile
+Historical Analogue: Medieval Two-Wheeled Farm Carts / English Long-Carts / French Charrette
+Domain: Land / Rural / High-Road
+Structural Weight: 225 kg | Operational Load: 800 kg cargo cap (Standard Cart-Load)
+
+Operational Stats:
+- Crew: 1 carter / driver
+- Propulsion: 1 draft horse, 2 mules, or a pair of work oxen
+- Seaworthiness: Fully landbound. Its two dished wheels allow it to tilt and pivot over undulating hill country (Topography 2) without structural rolling failure, provided the axle-sleeves are greased.
+
+Narrative Footnote:
+The core engine of Virath’s regional trade. Every field-harvest, coal-haul, and timber-run maps its tonnes around this specific vehicle frame. Its construction demands a proper Higher Skilled Wheelwright to dish the wheels correctly—an un-dished flat wheel will instantly snap its spokes when hitting a deep rut on a rain-soaked Rhennod Marches road.
+
+# Heavy_Four_Wain Asset Profile
+Historical Analogue: 16th-Century Heavy Continental Freight Wagons / German Rollwain / Flemish Four-Wheeled Wagons
+Domain: Land / High-Road
+Structural Weight: 530 kg | Operational Load: 1,500 kg cargo cap (Heavy Cart-Load)
+
+Operational Stats:
+- Crew: 1–2 carters, plus team drivers
+- Propulsion: 4–6 horses or 6–8 oxen harnessed in paired files
+- Seaworthiness: Requires a pivoting front-bogie assembly. Turning radius is wide; suffers an automatic -10 Agility modifier if forced to turn inside narrow mountain pass choke-points.
+
+Narrative Footnote:
+The massive merchant-freighter of the High-Roads. It connects Westmark's deep-water ports directly to the Highmarch pass gates. Because its heavy iron strakes and lock-chains consume a massive amount of valuable wrought iron, constructing one requires an established town workshop and significant capital investment from the local bourgeoisie.
+
+# Grand_Siege_Tumbrel Asset Profile
+Historical Analogue: Medieval Siege-Train Block Cars / Renaissance Heavy Cannon Tills / Colossal Quarry Sleds
+Domain: Land / Heavy-Freight
+Structural Weight: 1,320 kg | Operational Load: Up to 4,000 kg monumental mass
+
+Operational Stats:
+- Crew: 4–6 team masters and line-hands
+- Propulsion: 12–20 oxen yoked in a continuous train
+- Seaworthiness: Low-slung, ultra-thick solid block wheels turned from interlocked elm hearts to prevent splitting under immense compression. Moves exclusively at a crawl on the Hampered Overland speed chart (0.5 miles per hour).
+
+Narrative Footnote:
+A monumental architectural engine constructed only when an elite foundry or order seat must move heavy ordnance, large oak masts, or raw granite blocks. Its immense draft requirement means its deployment halts all local agricultural activity, as multiple village farming teams must be stripped of their working oxen to assemble the colossal team line.
+

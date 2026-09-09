@@ -60,6 +60,10 @@ Ore / bog-iron / stone
 - No HSI range. Either the vein is written or it is not
 - Pit-hands come from W
 - Output is limited by hands and by the place, not by Flora
+- The hole is Architecture EXTRACTION: headworks, shafts, optional
+  crane / pump / air, and a timber-heavy MCI
+- No shaft, adit, or quarry face on the blueprint → household
+  scratch only, not a product line
 
 Salt / clay
 - Named pan, pit, or bed. Same rule as ore: written or not

@@ -1,0 +1,51 @@
+# Ebon Peninsula
+
+Visual Reference
+maps/Map_Geographic_Region_Ebon_Peninsula.jpeg
+
+Overview
+A west-facing peninsula of temperate marks, highland marches, and one remaining deepwood. The west opens to productive low country and a major river-mouth. The north and northeast rise into the Marchwall Range, which sits on the Rivenstrand Walls — sea-cliffs that cut the peninsula off from easy northern landfall. Centre-east the ground lifts through Highmarch toward the inactive Ebon Spire and the Svarthorn Massif. The east wall is the forested Rhennod Mountains, western lip of the Appolasian Plateau. The south is river country: Rhonmere at the Rhennod foot, the Ader running out as the live border with Coritania.
+
+Location & Borders
+Northwestern continent. West of the Appolasian Plateau. North of Coritania. Open sea to the west and along the Rivenstrand.
+
+borders:
+- North: open sea beyond the Rivenstrand Walls
+- Northeast: Marchwall Range on the Rivenstrand Walls
+- East: Rhennod Mountains / Appolasian Plateau
+- Southeast: Rhennod foot, Rhonmere, upper Ader
+- South: the Ader; Coritania beyond
+- Southwest: river-mouth lowlands and western sea
+- West: western sea
+- Northwest: western sea and the north-coast cliffs
+
+Shared / Border Local Regions
+- Rhennod Mountains — eastern wall of the peninsula; western lip of the Appolasian Plateau. One file. Listed here as shared border, not as a primary peninsula region.
+- Ader line / Rhonmere country — live southern border with Coritania. The river is the division in the modern era. South-bank halls are Coritanian; north-bank works (Adergate and the waystations) sit on the peninsula side.
+
+Local Regions
+- Westmark — open western heartland. Iron, grain, livestock, sea trade. Capital port at the mouth of the great west-flowing river. Seat of Isernvolk power and of first-landing memory.
+- Ebormark — southern / vale country under the Spire massif. Eyrenal and the Eyrenhost. South face of Ebon Spire / Svarthorn.
+- Kannavald Deepwood — remaining dense forest. Northern face of Ebon Spire / Svarthorn. Westwood Heights. Kannavi majority in the woods; Isern law on lake-shore and pits.
+- Highmarch — elevated middle country between the eastern flanks of Ebon Spire / Svarthorn and the rising Marchwall Range. Passes, watch, highland herd.
+- Rhennod Marches — working name for the eastern hill country: rolling ground between the heartland river and the Rhennod wall, Ader on its south. Confirm or replace when the pink / magenta local-region file is locked.
+
+Notable Features
+- Ebon Spire — inactive volcano. Shared landform; faces fall into Kannavald, Ebormark, and Highmarch.
+- Svarthorn Massif — adjacent high massif. Same shared rule as the Spire.
+- Marchwall Range — long northeastern range. Sits atop the Rivenstrand Walls.
+- Rivenstrand Walls — northern / northeastern sea-cliffs.
+- Rhennod Mountains — east wall. Highest peak: Rhön / Mount Rhön.
+- Rhonmere — lake at the Rhennod foot. Tale-name: Giant’s Pool. Outflow: the Ader.
+- The Ader — southern border river with Coritania.
+- Great west-flowing river of Westmark — unnamed here; mouth holds the peninsula capital.
+- Kannavald Deepwood — last large canopy of a once-forested peninsula.
+- Western sea-board — iron, grain, livestock, and sea trade concentrated in Westmark.
+
+Notes
+Travel is easy on the Westmark floors and river, harder in Highmarch, and slow in Kannavald. The Marchwall / Rivenstrand side is a wall more than a road. The Rhennod is the Plateau’s lip, not a peninsula range to be crossed lightly.
+The peninsula was tamed from near-continuous forest after the Isern landing. Kannavald is what the taming did not finish.
+Culture on this geography is Isernvolk marks with a Kannavi wood-minority (majority only in the Deepwood). East of the Rhennod the modern division is the Appolasian Plateau. South of the Ader is Coritania.
+
+A Geographic Region does not take a Biome line or Environmental Scores.
+It inherits the biomes of its Local Regions.

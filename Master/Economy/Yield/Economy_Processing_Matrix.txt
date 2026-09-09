@@ -263,6 +263,17 @@ Waste: 0.65
 Capital: Kit 15 sc | Plant 2–5 gc | Life 20
 Floor: holds.
 
+Tar
+From: Pine fatwood, kiln-smoke, or pit-wood
+Input: 6 kg fatwood or equivalent / kg tar
+Labour: Hazardous skilled × 0.3 day / 50 kg barrel  [T1]
+Facility: tar-pit or try-works kettle
+Tech: listed T1 / min T1 / max T3 (ship-yard try-works)
+Time: days of fire, not loft-years
+Waste: most of the wood is smoke and charcoal
+Capital: Kit 8 sc | Plant pit 1–3 gc; T3 try-works with the yard
+Floor: 8 bc/kg holds if the wood is cheap pine country.
+
 Poppy oil
 From: Poppy seed
 Input: 3 kg seed / L

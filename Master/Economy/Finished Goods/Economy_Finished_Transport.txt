@@ -1,0 +1,416 @@
+# Economy_Finished_Transport.txt
+# Things that move people or goods.
+# Two categories: Land and Water.
+# Law: Economy_Processing_Matrix.txt
+# Tickets: Economy_Processed_Goods.txt
+# Wages: Economy_Labour.txt
+
+HEADER NOTE
+All prices use the universal currency (1 gc = 20 sc = 240 bc).
+A listing is one finished piece (one hull, one cart, one saddle).
+
+Cost by trade-rate, not by hat.
+If one craftsman does two trades under one roof, book each block
+at that trade's wage. Do not invent extra men. Do not pay the
+higher wage for the lower trade. Parallel days shorten the calendar.
+They do not cheapen the sum.
+
+Listed kg is purchased kg.
+Shipyard and wheelwright offcuts go back as firewood. They are not
+a second timber debit and they are not extra waste on the ticket.
+
+Wages used here
+  Rural common              3 bc/day
+  Urban common / yard-hand  5 bc/day
+  Basic skilled            30 bc/day
+  Hazardous skilled        50 bc/day    tar-pit, caulk, pitch-boil
+  Higher skilled           65 bc/day    smith, shipwright, wheelwright
+  Master shipwright /
+  Master wheelwright      130 bc/day
+
+A vehicle is full at whichever comes first: weight or volume.
+That is the same law as Economy_Processed_Goods.txt.
+
+Craft
+  Small stock (barrow, hand-cart, Nid, Zille):
+    Poor / Good / Best as Weaponry  x0.5 / x3 / x10
+  Architecture-scale (farm-cart is the edge; wain, tumbrel,
+  Kalak, and every sea hull):
+    Yard cap  Poor x0.8 / Good x1.25 / Best x2
+    Best is commission, not Weaponry x10.
+
+
+--------------------------------------------------
+LAND
+--------------------------------------------------
+
+Do not hide iron tyres inside "wood."
+Do not hide harness inside "the cart."
+Elm hub blanks (5 bc/kg) are not ash spokes.
+Oak hewn beams (4 bc/kg) are not oak planks.
+
+Unbooked (tack and winter)
+  Pack saddle
+  Riding saddle and bridle
+  Sledge / winter slide
+  Travois
+
+
+--------------------------------------------------
+1. MAN-POWERED (T0-T1)
+--------------------------------------------------
+
+Grip-Barrow
+Type: Single-wheel hand barrow
+Inputs:
+  - 25 kg Pine planks
+  - 4 kg Ash shaft blanks          (handles and axle)
+  - 2 kg Wrought Iron hoops, pins, nails
+Labour Component Split (Total 1.5 man-days):
+  - Frame and wheel:      1 day Basic skilled carpenter / wheelwright  @ 30 bc
+  - Axle-pin:             0.5 day Higher skilled smith                 @ 65 bc
+Time: 1 day hands-on
+Tech: T0 House / T1 Craft
+Output: 1 barrow
+Finished mass: ~24 kg
+Load: 120 kg or 0.25 m³, whichever first
+Crew: 1
+Terrain: paving or dry packed yard. Fails on marsh (Hydrology 4+).
+Base price: 18 sc
+Note: Household chore tool. Not a transit asset.
+Floor: 153 bc material + 62 bc labour = 215 bc.
+
+Hand-Cart
+Type: Two-wheel hand cart
+Inputs:
+  - 80 kg Pine planks
+  - 12 kg Ash shaft blanks         (shafts and spokes)
+  - 8 kg Wrought Iron tyres, linchpins, brackets
+Labour Component Split (Total 5.5 man-days):
+  - Axle and frame:       2 days Basic skilled wheelwright             @ 30 bc
+  - Tyre and hub:         1 day Higher skilled smith                   @ 65 bc
+  - Dressing:             0.5 day Basic skilled carpenter              @ 30 bc
+  - Muscle and carry:     2 days Rural common                          @ 3 bc
+Time: 3 days hands-on
+Tech: T1 Craft
+Output: 1 hand-cart
+Finished mass: ~74 kg
+Load: 300 kg or 0.8 m³, whichever first
+Crew: 1-2
+Terrain: town lane. Half overland speed if muddy.
+Base price: 2 gc 19 sc
+Note: Urban porter cart. No draft stock.
+Floor: 564 bc material + 146 bc labour = 710 bc. Iron alone is 400 bc.
+
+
+--------------------------------------------------
+2. DRAFT AND HEAVY FREIGHT (T1-T4)
+--------------------------------------------------
+
+Standard-Farm-Cart
+Type: Two-wheel single-team cart
+Inputs:
+  - 220 kg Pine planks             (bed and sides)
+  - 45 kg Ash shaft blanks         (shafts, spokes)
+  - 30 kg Wrought Iron tyres, axle-sleeves, draft hooks
+  - 3 kg Leather                   (traces and wraps)
+  - 2 kg Tar                       (seams and tyre-set)
+Labour Component Split (Total 19 man-days):
+  - Dished wheels:        4 days Higher skilled wheelwright            @ 65 bc
+  - Frame:                3 days Basic skilled carpenter               @ 30 bc
+  - Tyre-set and binding: 2 days Higher skilled smith                  @ 65 bc
+  - Assembly and tack:    2 days Basic skilled harness / cooper        @ 30 bc
+  - Rough sawn work:      8 days Rural common                          @ 3 bc
+Time: 6 days hands-on
+Tech: T1 Craft / T2 Mill
+Yard cap applies (edge).
+Output: 1 standard cart
+Finished mass: ~225 kg
+Load: 800 kg or 2.5 m³, whichever first
+        This is the Standard Cart-Load in Processed Goods.
+Crew: 1 carter
+Draft: 1 horse, 2 mules, or a pair of oxen
+Terrain: high-road and field. Dished wheels required for rut country.
+Base price: 11 gc
+Note: Rural backbone. Undished wheels fail in a deep rut.
+Floor: wood and ash 535 bc, iron 1,500, leather 120, tar 16, labour 564.
+       Sum 2,735 bc = 11 gc 7 sc 7 bc. Ticket 11 gc.
+
+Heavy-Four-Wain
+Type: Four-wheel heavy freight wagon
+Inputs:
+  - 550 kg Oak planks              (bed and drops)
+  - 55 kg Ash shaft blanks         (shafts and spokes)
+  - 40 kg Elm hub / pipe blanks
+  - 75 kg Wrought Iron strakes, linchpins, lock-chains, sway-bars
+  - 6 kg Leather
+  - 4 kg Tar
+Labour Component Split (Total 54 man-days):
+  - Four wheels and hubs: 8 days Master wheelwright                    @ 130 bc
+  - Under-carriage / bogie: 6 days Higher skilled joiner               @ 65 bc
+  - Heavy bed:            8 days Basic skilled carpenter               @ 30 bc
+  - Strakes and iron:     4 days Higher skilled smith                  @ 65 bc
+  - Grease and tack:      2 days Basic skilled leather / tack          @ 30 bc
+  - Pit-saw and haul:    13 days Urban common                          @ 5 bc
+                         13 days Rural common                          @ 3 bc
+Time: 3 weeks yard calendar
+Tech: Min T2 Mill / T3 Works
+Yard cap applies.
+Output: 1 heavy wagon
+Finished mass: ~530 kg
+Load: 1,500 kg or 4 m³, whichever first
+        This is the Heavy Cart-Load in Processed Goods.
+Crew: 1-2 carters
+Draft: 4-6 horses or 6-8 oxen
+Terrain: high-road. Wide lock. -10 Agility in a mountain choke.
+Base price: 33 gc
+Note: Merchant high-road freighter. Iron strakes are the capital.
+Floor: about 33 gc.
+
+Grand-Siege-Tumbrel
+Type: Monumental ox-drawn block wagon
+Inputs:
+  - 700 kg Oak hewn beams
+  - 700 kg Oak planks
+  - 110 kg Elm hub blanks          (block wheels)
+  - 110 kg Ash shaft blanks
+  - 180 kg Wrought Iron thick tyres, grid-plates, pintles
+  - 8 kg Leather
+  - 8 kg Tar
+Labour Component Split (Total 165 man-days):
+  - Engineering and laying: 20 days Master wheelwright                 @ 130 bc
+  - Block-wheels:          35 days Higher skilled joiner / wheelwright @ 65 bc
+  - Frame iron:            15 days Higher skilled smith                @ 65 bc
+  - Bed and chains:        25 days Basic skilled carpenter             @ 30 bc
+  - High fitting:          10 days Hazardous skilled scaffold          @ 50 bc
+  - Yard sledding:         60 days Urban common                        @ 5 bc
+Time: 3 months yard calendar
+Tech: Min T3 Works / T4 Rare
+Yard cap applies. Never munitions.
+Output: 1 siege tumbrel
+Finished mass: ~1,320 kg
+Load: 4,000 kg or 8 m³, whichever first
+        Stone hits kg first. A mast hits m³ first.
+Crew: 4-6 team-masters
+Draft: 12-20 oxen
+Terrain: crawl. Hampered overland (~0.5 mile / hour).
+Base price: 93 gc
+Note: Moves stone, masts, or counterweights. Strips village oxen to hitch.
+Floor: about 93 gc. Commissioned already.
+
+
+--------------------------------------------------
+WATER
+--------------------------------------------------
+
+Stock tickets are munitions hulls: a last, a scantling, sold off the yard.
+Anything not munitions is commissioned to the owner.
+Commission premium on the munitions ticket:
+  Made to measure           x1.5
+  Named master on the lines x2.0
+A Great Nau is never munitions. Its ticket is already a commissioned hull.
+
+Oars and sweeps use Ash shaft / oar / handle blanks at 7 bc/kg.
+They are not pine planks.
+T2+ frames use Oak knee / compass-timber blanks at 6 bc/kg.
+They are not oak planks.
+Seams use Tar at 8 bc/kg.
+Masts and yards use Pine spar / pole blanks at 1.2 bc/kg unless named otherwise.
+
+Pine plank 1 bc/kg. Oak plank 2.6 bc/kg. Wrought iron 50 bc/kg.
+Rope 18 bc/kg. Canvas 16 bc/kg.
+
+
+--------------------------------------------------
+1. INLAND AND WATER-RING (T0-T2)
+--------------------------------------------------
+
+Nid-Skiff
+Type: Single-manned rowboat
+Inputs:
+  - 110 kg Pine planks
+  - 16 kg Ash oar blanks          (pair)
+  - 5 kg Wrought Iron fittings
+  - 2 kg Hemp Rope
+  - 3 kg Tar
+Labour Component Split (Total 5 man-days):
+  - Hull and seating:     3 days Basic skilled carpenter      @ 30 bc
+  - Fastenings:           1 day Higher skilled smith          @ 65 bc
+  - Muscle and carry:     1 day Rural common                  @ 3 bc
+Time: 3 days hands-on
+Tech: T0 House / T1 Craft
+Output: 1 hull
+Finished mass: ~136 kg
+Load: 350 kg or 0.8 m³, whichever first
+Crew: 1
+Waters: lake-strand, quiet burn. Halves yards at Hydrology 3+.
+Base price: 2 gc 18 sc
+Note: One-manned rowboat. Lake-strand netters and short ferrying.
+Floor: timber and oars 222 bc, iron 250, rope 36, tar 24, labour 158.
+       Sum 690 bc. Ticket sits on that floor.
+
+Zille-Flat
+Type: Lake and river ferry flat
+Inputs:
+  - 1,160 kg Pine planks
+  - 40 kg Ash oar / pole blanks
+  - 45 kg Wrought Iron nails and bands
+  - 10 kg Hemp Rope
+  - 15 kg Tar
+Labour Component Split (Total 26 man-days):
+  - Design and laying:    3 days Higher skilled carpenter     @ 65 bc
+  - Hull planking:       12 days Basic skilled carpenters     @ 30 bc
+  - Rigging and fittings: 3 days Basic skilled rope / harness @ 30 bc
+  - Caulking and pitch:   2 days Hazardous skilled pit-hands  @ 50 bc
+  - Heavy haulage:        6 days Rural common                 @ 3 bc
+Time: 12 days hands-on
+Tech: T1 Craft / T2 Mill
+Output: 1 flat punt
+Finished mass: ~1,270 kg
+Load: 4,000 kg or 10 m³, whichever first
+Crew: 2-4
+Waters: lake basin, sandbar-safe. Capsizes at Hydrology 4+.
+Base price: 20 gc
+Note: Flat-bottomed punt or pram. No compass-knees. T1 hull.
+Floor: about 19 gc 16 sc. Ticket rounded to 20 gc.
+
+Kalak-Barge
+Type: Standard river box-barge
+Inputs:
+  - 5,600 kg Pine planks (barge-stock)
+  - 400 kg Oak knee / compass-timber blanks
+  - 80 kg Ash pole blanks
+  - 250 kg Wrought Iron braces and rivets
+  - 40 kg Heavy Rope
+  - 80 kg Tar
+Labour Component Split (Total 115 man-days):
+  - Shipyard direction:  15 days Higher skilled shipwright    @ 65 bc
+  - Flat and side frame: 40 days Basic skilled carpenter      @ 30 bc
+  - Braces and clamps:   15 days Higher skilled smith         @ 65 bc
+  - Tow-lines:           10 days Basic skilled ropemaker      @ 30 bc
+  - Seam-sealing:        10 days Hazardous skilled caulker    @ 50 bc
+  - Mass haulage:        25 days Rural common                 @ 3 bc
+Time: 40 days hands-on
+Tech: Min T2 Mill
+Yard craft cap applies.
+Output: 1 barge
+Finished mass: ~6,450 kg
+Load: 12,000 kg or 30 m³, whichever first
+        This is the Barge-Load in Processed Goods.
+Crew: 6-10
+Waters: river only. Needs a river pilot in a rift. Not open sea.
+Base price: 110 gc 4 sc
+Note: Box river barge. Knees are on the ticket. Offcuts leave as firewood.
+
+
+--------------------------------------------------
+2. LITTOREAL AND DEEP-WATER (T2-T4)
+--------------------------------------------------
+
+Yard craft cap on every hull in this section.
+Munitions last unless the line says commissioned.
+
+Kogge-Trader
+Type: Littoreal merchant cog
+Inputs:
+  - 20,000 kg Oak planks (clinker hull and decks)
+  - 2,000 kg Oak knee / compass-timber blanks
+  - 400 kg Pine spar / pole blanks
+  - 80 kg Ash oar / sweep blanks
+  - 900 kg Wrought Iron rivets, bolts, anchors
+  - 200 kg Heavy Rope
+  - 150 kg Canvas
+  - 250 kg Tar
+Labour Component Split (Total 335 man-days):
+  - Shipyard direction:  40 days Higher skilled shipwright    @ 65 bc
+  - Hull and framing:    85 days Basic skilled carpenter      @ 30 bc
+  - Ironwork and anchors: 30 days Higher skilled smith        @ 65 bc
+  - Rigging and sails:   40 days Basic skilled rope / sail    @ 30 bc
+  - Caulking and tarring: 20 days Hazardous skilled caulker   @ 50 bc
+  - Mass haulage:       120 days Urban common yard-hands      @ 5 bc
+Time: 4 months calendar
+Tech: Min T2 Mill / T3 Works
+Output: 1 merchant vessel
+Finished mass: ~24,000 kg
+Load: 40,000 kg or 80 m³, whichever first
+        Profile displacement 40-90 t is the ship's class, not the hold.
+Crew: 15-25
+Waters: littoral and known sea-lanes. Can beach on a strand.
+Base price: 535 gc
+Note: Deep-hulled stock cog. Knees and spars are not "more oak plank."
+Floor: about 533 gc. Ticket 535 gc munitions.
+Commissioned cog: apply the water premium.
+
+Caravela
+Type: Exploratory ocean caravel
+Inputs:
+  - 40,000 kg Oak planks (carvel)
+  - 5,000 kg Oak knee / compass-timber blanks
+  - 800 kg Pine spar / pole blanks
+  - 100 kg Ash sweep blanks
+  - 2,200 kg Wrought Iron fittings and pins
+  - 400 kg Rope
+  - 400 kg Canvas
+  - 500 kg Tar
+Labour Component Split (Total 830 man-days):
+  - Shipyard direction:  90 days Master shipwright            @ 130 bc
+  - Hull and framing:   180 days Higher skilled carpenter     @ 65 bc
+  - Ironwork and anchors: 60 days Higher skilled smith        @ 65 bc
+  - Rigging and sails:  100 days Basic skilled rope / sail    @ 30 bc
+  - Caulking:            40 days Hazardous skilled caulker    @ 50 bc
+  - Mass haulage:       360 days Urban common yard-hands      @ 5 bc
+Time: 9-10 months calendar
+Tech: Min T3 Works
+Output: 1 deep-water caravel
+Finished mass: ~49,500 kg
+Load: 60,000 kg or 120 m³, whichever first
+        Profile displacement 50-160 t is class, not the hold.
+Crew: 30-40
+Waters: ocean shelf and open water.
+Base price: 1,239 gc
+Note: Lateen exploratory hull. Iron is Wrought, not Steel.
+Stock last. Commission if the owner names the scantlings.
+
+Great Nau
+Type: Armed war carrack
+Inputs:
+  - 85,000 kg Oak planks (monumental framing)
+  - 10,000 kg Oak knee / compass-timber blanks
+  - 1,500 kg Pine spar / pole blanks
+  - 150 kg Ash sweep blanks
+  - 5,500 kg Wrought Iron brackets and hinges
+  - 1,200 kg Heavy Rope
+  - 1,000 kg Canvas
+  - 1,200 kg Tar
+Labour Component Split (Total 1,940 man-days):
+  - Shipyard direction: 180 days Master shipwright            @ 130 bc
+  - Hull and framing:   420 days Higher skilled carpenter     @ 65 bc
+  - Ironwork and castles: 140 days Higher skilled smith       @ 65 bc
+  - Rigging and sails:  240 days Basic skilled sail-loft      @ 30 bc
+  - Caulking and pitch: 110 days Hazardous skilled pit-boil   @ 50 bc
+  - Mass haulage:       850 days Urban common / apprentices   @ 5 bc
+Time: 2 years shipyard calendar
+Tech: Min T3 Works / T4 Rare
+Output: 1 great carrack
+Finished mass: ~106,000 kg
+Load: 150,000 kg or 250 m³, whichever first
+        Profile 400-1,000 t is a great-ship class rating.
+        This hull does not carry a thousand tons. That number is
+        displacement of a larger historical nau, not this ticket.
+Crew: hundreds if armed; tens if a merchant fit
+Waters: open sea.
+Base price: 2,845 gc
+Note: Never munitions. Ticket is already commissioned.
+Yard cap still applies. Do not put Weaponry Best x10 on this hull.
+
+
+--------------------------------------------------
+WHAT THIS FILE DOES NOT DO
+--------------------------------------------------
+
+- It does not stack a second waste factor on listed kg.
+- It does not let T0 lay a barge or a cog.
+- It does not price a saddle, sledge, or travois yet.
+- It does not treat compass-timber as plank.
+- It does not treat oars as pine.
+- It does not apply Weaponry x10 to a season-built hull.
