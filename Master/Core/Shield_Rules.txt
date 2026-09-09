@@ -48,8 +48,10 @@ LAW
   1. A shield requires a hand. No hand, no AC,
      no Defensive(x), no Bash.
 
-  2. Parry with a shield is Opposed WS + (x)
+  2. Parry with a shield is Opposed Parry * + (x)
      against the attacker’s DoS, Combat §6.
+     No Parry * Skill: no test. The board is
+     carried, not used.
      Shooting Parry uses the same test against
      the BS hit’s DoS.
 
@@ -62,8 +64,9 @@ LAW
   4. A lost Parry: the blow never met the shield.
      Soak is worn layers only, Armour_Rules §5.
 
-  5. One Parry per Round still. Shield or weapon,
-     not both on the same blow. Dodge still cannot
+  5. A shield in hand adds one Parry reaction to
+     the pool (Combat §6). Shield or weapon, not
+     both on the same blow. Dodge still cannot
      pair with that Parry.
 
   6. Enc counts on the kit. Slung on the back is

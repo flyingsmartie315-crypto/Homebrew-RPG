@@ -1,0 +1,491 @@
+# Wars_of_the_Whitmarks
+
+What this file is
+Broad strokes of the long wars between the Adernvolk (Isernvolk occupying elite) and the Cortani host in Coritania.
+Not a year-by-year chronicle. Doctrine, kit by tier, and how the fighting taught both sides the country they later shared.
+The peace is the fusion. The wars are why the towns are white and the lists still matter.
+
+Related files
+Peoples_Cortani.txt
+Peoples_Adernvolk.txt
+Peoples_Isernvolk.txt
+Peoples_Kannavi.txt
+Peoples_Syllvani.txt
+Peoples_Coritanian.txt — not yet written
+
+Name
+Whitmarks is the look-name: pale keeps and pale rings raised on old Cortani hall-hills.
+The wars are remembered as the Wars of the Whitmarks even in places where no tower was ever washed white.
+
+--------------------------------------------------
+LOCKED NAMES
+--------------------------------------------------
+Border river: the Ader. Outflow of Rhonmere.
+Lake at the Rhennod foot: Rhonmere. Tale-name: Giant’s Pool. Isern rolls: Adersee. Old Syllvani: Llyn Rhön.
+Highway river: the Virelle (old Cortani). the Audava (contemporary).
+Capital: Vayrac (old). Audecourt (contemporary).
+First town taken: Aderhall, on the Ader.
+Second objective: Berthall — the Giant’s Hearth / Giant’s Hall. Hilly wooded country on the Ader, 165 miles upriver from the crossing-reach before the water narrows.
+
+Isern king of the first host: Harthold.
+Slain border lord: Aymon of Aderhall.
+Son, main figure of the first war: Evran of the Ader.
+
+Independent horselords in the first war (no high king):
+- Audovald of Vayrac — Lord of Vayrac. Richest hall, slowest to ride.
+- Rolund of Berthall — Giant’s Hearth. Name-link to the pool and the hall.
+- Loher of Chevalac — neighbour of Aderhall. Commits around the fall of Berthall. Opportunistic. Not close with Evran and Rolund.
+- Sellis of Elaynac
+Aymon of Aderhall was the fifth seat. After his death the seat rides in Evran.
+
+Kannavi in the first host: paid stave-companies citing Osric’s compact. The hamlets stay home. Not a nation marching.
+Contingent lord: Hallvard Ask of Westwood — second son of the Westwood ruling house.
+Eyrenhost: not present in the first war.
+
+--------------------------------------------------
+PERSONS OF INTEREST — ACT 1
+--------------------------------------------------
+Isern / Kannavi
+- Harthold — king of the first host. Dies at Folly. Barrow on the hill.
+- Hallvard Ask of Westwood — Kannavi contingent lord. Second son. Holds the Ader after Berthall. Relinquishes when Harthold falls. Carries lessons north.
+
+Cortani
+- Aymon of Aderhall — slain at the threshold.
+- Evran of the Ader — son of Aymon. Guerrilla. Last stand. Raises the barrow.
+- Rolund of Berthall — Giant’s Hearth. Evacuates, breaks out, last stand.
+- Audovald of Vayrac — richest hall, slowest to ride. Commits late. Takes the ransom-bounty.
+- Loher of Chevalac — opportunist. Commits around Berthall’s fall.
+- Sellis of Elaynac — independent hall. Present so a rival cannot claim the prize alone.
+
+--------------------------------------------------
+ISERNVOLK — HOW THEY STAND
+--------------------------------------------------
+Cavalry limited to elite availability. They do not become Cortani in the first generation.
+Answer to horse: longer spears, rear-rank poles, Spikoar, pavise, iron coverage.
+Crossbows are a signature, not the whole host.
+
+Levy
+Can count on a good pair of shoes and hard-wearing clothing that feels scratchy.
+Long gambeson as standard, often under a simple coloured waffenrock for identification.
+Mittens favoured on the front — padded cloth, not mail.
+Padded coif and some form of wide-brimmed kettle hat.
+Sidearms: hatchet, club, dagger, whatever is to hand.
+Main pair: long-tipped spear and a boarded kite.
+Crossbow rare at this tier. The device is complex.
+Thrown weapons and slings always an option.
+Spear lengths increase after Cortani contact. Pre-war levy spears were ordinary.
+
+Standing soldiers
+Mail shirts appear, and coifs; mittens where they matter.
+Padded chausses and cuffed boots.
+Front rank still trusts the kite as primary cover.
+Rear ranks fight over them with longer polearms.
+Those long poles are a wartime answer to cavalry. Pre-war standing kit was a standard-length spear or a one-handed arm.
+Nasal helms and kettle hats still the look of this class.
+Dedicated crossbows more common. They shoot from behind pavise.
+
+High end
+Career soldiers, noble retainers, the few who can be spared as horse.
+Full visored helms. Segmented rigid layers over a mailed torso.
+Longer mail hems and sleeves. Mail to the limbs, with rigid elbows and knees or splinted work.
+Pre-war fashion: shield slung on the back, two-handed axe; greatsword for the wealthiest.
+Wartime fashion: spiked polearms favoured. Forearm shields worn; they trust the armour.
+Higher-poundage crossbows with mechanical advantage appear and stay rare.
+This rung is small. If it is not small, the occupation becomes an iron tide and the long war dies.
+
+--------------------------------------------------
+CORTANI — HOW THEY RIDE
+--------------------------------------------------
+Herd-people at war. Horse is wealth and movement.
+Syllvani longbow memory remains. They favour the shorter compound for the saddle.
+The warrior caste is the trump. It is not the average rider.
+
+Below levy
+Walkers and poor herders. Not the war-host. They exist so “every Cortani is mounted” does not leak into settlement files.
+
+Levy — freemen
+Owns one or more horses. No warhorse.
+Simple light saddle for riding, not for couching a lance.
+Long textile coverage, thinner than Isern work: aketon, not the heavy gambeson.
+Good outdoor clothing and high boots.
+A helmet is heavily favoured but not standardised. A thick hat is the floor.
+Shield essential. Spear essential. Hand weapon desirable.
+Thrown weapons common.
+They ride to the best ground, then often dismount into a shieldwall.
+
+Soldier
+Multiple mounts; one may be a warhorse.
+Saddle with stirrups. Lance.
+Sword, or horseman’s axe, or hammer.
+Kite shield — used in the saddle and after a dismount.
+Mail on torso and head/neck.
+Nasal helm or spangenhelm with side neck flaps.
+Compound bow on foot or mounted, javelins, better thrown weapons.
+May strip to a lighter load for far-ranging rides.
+This class forces Isernvolk to lengthen poles and keep Spikoars in the line.
+Bows here matter. They are not so common that every soldier is a horse-archer.
+
+Elite — warrior caste
+The soldier’s grammar, more iron and more horse.
+Scale and laminar layered on, skirts or tassets, full mail chausses.
+Bigger warhorses and fastest coursers as choices, not one beast for all work.
+Longer lances, heavier-poundage bows — either or, not both in the same pass.
+They may swap if they regain their own side and have time.
+Mail ventail under a crested nasal helm. Colour and crest stay the look.
+Horses in fabric often; horse-mail rare.
+Full stirrups, lance, and mounted archery live here. This caste is small and expensive.
+A man who couches a heavy lance is not also drawing a heavy bow in the same charge.
+
+--------------------------------------------------
+HOW THE RUNGS MEET
+--------------------------------------------------
+Cortani levy vs Isern levy
+Cortani choose the hill and often dismount. Isern bring thicker textile and a more standard helm. Bloody and local.
+
+Cortani levy vs Isern standing
+Isern want this. Pavise and long poles punish a wall that has already spent its horses.
+
+Cortani soldier vs Isern standing
+The real field war. Lance and movement against kite-front and long rear poles. Neither owns this by default.
+
+Cortani elite vs Isern elite
+First contact in the open favours the Cortani. A wrestle in iron favours the Isern.
+Funerals and stories. Not the occupation by itself.
+
+Cortani horse vs Isern levy on the march
+Cortani hunt. This is why Isern stop moving in packets.
+
+Siege and winter
+Isern work. Camps, palisades, brick and whitewash, stored grain.
+Cortani ride the roads at dusk and starve what they cannot break.
+
+Kannavi longbows
+They lengthen the Isern killing-ground in front of a standing line and on a wall.
+They do not make Isernvolk into a horse-people.
+They will not be spent like levy.
+
+Eyrenhost
+A gryphon over a riding-green is a battle turning.
+A gryphon cannot sit every hedge. The host that comes east is few.
+They are the Eyrenhost, not Knights Gryphon. Knight-custom has not yet travelled west, let alone back again.
+
+Plateau Syllvani
+Petitioned by the Cortani as First-Blood cousins.
+Stingy. Isolationist. Aid is late, thin, or priced in taboos and limits the halls cannot keep.
+Cortani learn they will win or lose this country themselves.
+
+--------------------------------------------------
+ALLIES
+--------------------------------------------------
+Kannavi — Isern side, ancient landing-alliance
+Not a nation marching. Companies of longbows, stave-men who remember Unveiling woods and do not love open occupation.
+They honour Osric’s compact. They resent how Isernvolk grew and consumed.
+They go east as allies, not as subjects. They remind careless Adern captains that Kannavald has borders, even here.
+Most like: longbows on the flank of a standing line, or on a new white wall.
+
+The Eyrenhost — Isern side, vale-elite
+Few. Bonded. Older than knighthood.
+They make selected fields and selected sieges possible that Isern foot alone could not finish.
+They do not replace the missing Isern cavalry mass.
+
+Plateau Syllvani — Cortani side, stingy cousins
+Official aid is thin: a sealed blessing, a refusal dressed as counsel, or help that arrives after a hall is already white.
+Unofficial woodland bands are another matter. They join Rolund of Berthall during the siege and take pay from raided river transports.
+Kannavi are not these woodsmen. Kannavi remain Isern allies.
+
+--------------------------------------------------
+PHASE I — THE FIELDS
+--------------------------------------------------
+Cortani win the opening years.
+They arrive first. Isolated Isern columns are eaten on the move.
+Open-helm colour and lance-and-bow make levy afraid of skyline dust.
+Isernvolk learn in public. Spears get longer. Spikoars appear in the standing line. March-discipline tightens. Packets stop.
+
+The first war belongs here as the opening movement. See FIRST WAR below.
+Later years of this phase bring Kannavi bows in more than mercenary strength, and the first Eyrenhost flights. They do not reverse the opening. They stop later columns becoming meat.
+
+The lesson Isern write down: the river is a road; open riding-green is not. Harthold’s Ader-lift is taught as the competent opening. His later road-march off the water is taught as the defeat.
+
+--------------------------------------------------
+FIRST WAR — HARTHOLD OVER THE ADER
+--------------------------------------------------
+Isernvolk look south and see rich farmland, lightly peopled.
+The land is already claimed. Unlike the Kannavi at the landing, the Cortani are sovereign here. They will not relinquish it.
+
+Harthold assembles a host. No Eyrenhost. Kannavi mercenaries present — longbow companies paid in silver and in the old compact.
+They march south over the Ader.
+
+The Cortani are not surprised.
+There is no unified ruler. Five halls compete: Aderhall, Vayrac, Berthall, Chevalac, Elaynac.
+Token resistance at the threshold. They do not try to stop the host on the border road. Aderhall was never meant to be the war.
+
+Aderhall is breached quickly and occupied.
+Aymon of Aderhall dies in the defence.
+His son, Evran of the Ader, cannot fight Harthold’s column in the open. He petitions the neighbouring lords and does not trust the answer.
+He gathers the surviving men and goes north — onto Isern supply lines and holdings.
+Rolund’s riders go with him. The lord of Berthall keeps the hearth; the riders work the roads.
+Audovald stays slow. Sellis keeps Elaynac’s counsel.
+Loher of Chevalac, neighbour to Aderhall, waits. He commits only after the raids prove they can bleed a host.
+
+Harthold orders every bridge on the Ader thrown down except the crossing north of Aderhall.
+There he raises a fortified crossing — later the site of a major castle. Working name: Adergate.
+Along the Ader he plants fortified waystations.
+
+He keeps to the water. Momentum stays with him.
+From the crossing-reach the Ader carries the host 165 miles before it narrows toward Berthall.
+Berthall is picked because it is hilly wooded country, not open riding-green: foot, barge, and bows against a raised hillfort.
+
+The siege of Berthall is long.
+Evran and Rolund’s riders sting the siege lines and the Ader logi-chain without pause.
+River vessels sink. Waystations are razed. The river is blocked.
+Syllvani woodsmen join Rolund of Berthall against the besiegers. They take payment in spoils from raided river transports.
+This is not official Plateau aid. The Plateau remains stingy. These are woodland bands claiming cousin-right and taking their pay from Isern barges.
+The Kannavi are instrumental in this phase of defending the Ader route.
+They are in their element on the wooded banks: protecting waystations and barges, shooting from cover, and fighting the small war the river demands.
+
+Berthall is a raised hillfort ringed in stone and timber bulwarks.
+Isern siegecraft burns the timber battlements. The stone must be taken with blood. In time it is.
+Rolund of Berthall and Evran expected this.
+Before the siege closed, Rolund had already sent the populace far and wide. Herd-people move faster than a purely agrarian town.
+After he had bled the Isernvolk as far as the hold would allow, he and the remaining defenders break out and leave Harthold the bloody prize.
+
+Berthall is empty of spoils. Rolund’s people took what a mobile hall can take.
+When the siege ends and river traffic slacks, the Syllvani raids all but stop. Those who were committed take their spoils back to the Plateau.
+
+Harthold charges the Kannavi with garrisoning the captured stretch. Hallvard Ask of Westwood — second son of the Westwood ruling house — holds that charge.
+They see the prize as poor recompense. Quietly they commit to the bare minimum that still honours the compact.
+They do not march on Vayrac. Their compact is the Ader, not the open heartland.
+When they learn Harthold’s fate they relinquish the holdings without a fight and carry the river-lessons north.
+Harthold’s own vassals and host are in poor morale. He is pressed either to cut losses and leave, or to commit harder and win them the spoils they came south to take.
+
+Evran and Rolund are hard-worn. The long guerrilla has spent them. Their people are scattered but intact.
+They resent three hosts on their ground: Isernvolk on the river, Kannavi garrisoning the captured stretch, and Loher of Chevalac roaming as an opportunist. Technically three. The Syllvani bands have already taken their spoils home.
+
+Loher of Chevalac starts committing as Berthall falls. His warbands pick their battles opportunistically. They are not working closely with Evran and Rolund.
+
+The first Spikoar appears on the Ader.
+During barge-defence against mounted riding parties, Kannavi and river bargemen drive metal spikes into their oars. The thing works. It catches on quickly along the river. The form is refined and keeps the harsh name: Spikoar.
+
+--------------------------------------------------
+HARTHOLD’S FOLLY
+--------------------------------------------------
+The victory at Berthall is Pyrrhic. Empty stone. No cattle, no gold. The hinge that turns a competent river war into a named disaster.
+
+Kannavi sit the captured stretch and the wooded banks. They will not walk inland for an ash-ring. Their compact is the Ader.
+Harthold’s vassals funded iron and tenants on a promise of southern plunder. Berthall yielded none. Morale craters.
+Ultimatum: leave the water and take the wealth of Vayrac, or the host disbands.
+He abandons the secure Ader line to keep his political base. That is the folly.
+He does not sail the Virelle / Audava. That highway-water is Vayrac’s. This campaign lives on the Ader until he steps off it.
+
+The moment the heavy columns leave Berthall’s wooded hills for the open riding-greens, they lose their anchors.
+Audovald of Vayrac has been waiting for exactly this. He commits the largest fresh cavalry reserve of the capital-seat.
+Evran’s veteran road-riders close the rear and cut Harthold off from the river berths.
+Loher picks at the edges. He is not in their plan.
+
+On the open plain the Isern levy still carry spears not yet lengthened against true heavy lance. This is the first time they meet full Cortani heavy horse in the open. Spikoars remain barge and river tools here, not yet standing-line doctrine. Doctrine is what they write after Folly.
+The levy is flanked, broken, and run down.
+
+Harthold rallies fragments of host and baggage onto higher ground. Seasoned soldiers and men-at-arms hold against repeated charges.
+Audovald, sensing the hour, offers ransom terms. Some in the host argue to take them.
+In the lulls Evran rides the Isern line: yield; then threat; then promise of trophies from their bodies.
+Harthold answers that he will fight the Cortani lordlings one after another himself, if his men walk and the ransom is guaranteed.
+While he speaks he sees his own vassals going down to accept terms of their own volition.
+He reads the wall. He charges with closest retainers and men-at-arms.
+
+Evran and Rolund take that last stand.
+Audovald sweeps the bounty of captured Isern vassals.
+Harthold’s remaining host is annihilated. They do not surrender.
+
+Lost ground is recaptured in weeks. Kannavi river-garrisons relinquish the holdings without a fight when they learn Harthold’s fate.
+The field is remembered in modern Coritania as Harthold’s Folly.
+
+Taught Isern lesson: the Ader is a road; a riding-green is not. Do not leave the water to buy a vassal’s purse.
+Levy spears are lengthened after Folly. Spikoar becomes standing-line doctrine after Folly, not during it.
+
+End Act 1.
+
+--------------------------------------------------
+HARTHOLD’S BARROW
+--------------------------------------------------
+After the last stand Evran and Rolund’s remaining host bury the dead on the hill.
+A small army lies there. The ground is blood-soaked. The place does not go quiet.
+
+Cortani burial custom
+The ordinary dead go into communal underground catacombs.
+Persons of note take individual barrows.
+On this hill both are used. Catacombs for the host. A barrow for the king and his inner circle, minus the valuables already stripped.
+
+The complex grows on the battle-hill and persists into the contemporary age.
+Modern name: Harthold’s Barrow.
+It is a no-go zone. Haunted. Witnesses say wraiths fight the doomed last stand every night.
+
+--------------------------------------------------
+THE INTERIM GENERATION — THE BLACK MARKET POLES
+--------------------------------------------------
+Thirty years between Folly and the Second Host.
+Official border locked. Contact banned.
+
+The Black Market
+Isern iron and quarry tools leak south across the Ader.
+Cortani horses and stirruped saddles leak north.
+Smuggling cultures form in river coves and high burns.
+This trade is how the Isern raise their first mounted tradition: the iron-riders.
+
+The Southern Turmoil
+Cortani blood-feuds boil.
+Loher of Chevalac’s house, Audovald of Vayrac, and Elaynac cannibalise their own fields.
+They practise cavalry on each other. The lance is refined. The veteran pool is drained.
+Evran of Aderhall stays alive and active. He and Rolund’s successors keep absolute neutrality and fortify the Ader line.
+
+The Northern Succession Crisis
+The peninsula king dies. Civil war across the Ebon Peninsula.
+A cunning victor takes the throne: Thormund of Westmark.
+Vaults drained. Vassals suspicious. He needs legitimacy, a common enemy, and plunder.
+
+--------------------------------------------------
+PERSONS OF INTEREST — ACT 2
+--------------------------------------------------
+Isern
+- Thormund of Westmark — early thirties. Victor of the peninsula succession. King of the Second Host. Unproven to his vassals.
+- Aldric of Adergate — Lord of the Rhennod Marches. Southern border is the Ader.
+- Sigvard of Highmarch — Lord of High March.
+- Grandmaster Gorst — Eyrenhost. Holds Ebormark in this generation. Marches with fifteen gryphon-riders.
+
+Kannavi
+- Hallvard Ask of Westwood — now sovereign of Kannavald Deepwood. Must answer Thormund’s summons.
+- Askel Hallvardson of Westwood — firstborn. Leads the Kannavi longbow company.
+- Ketil Stavn — captain. Veteran of the first war. Advises Askel.
+
+Cortani
+- Evran of Aderhall — about sixty. Sharp, experienced, respected. Neutral on the Ader line.
+- Hearthwin of Berthall — Rolund’s successor. Late-to-early thirties.
+- Audovald of Vayrac — old, decrepit. Five sons arguing inheritance:
+  Chlodomer (eldest), Theuderic, Maurel, Riann, Giselher.
+- Loheric of Chevalac — Loher’s eldest. Splitting image of his father. Loher died in a hunting accident not long after the first war and did not keep his spoils long.
+- Aurel of Elaynac — Sellis’s fourth-born. Survivor of Elaynac’s own succession crisis. Now head of house.
+
+--------------------------------------------------
+PHASE IA — THE DETONATION (THE SECOND WAR)
+--------------------------------------------------
+Thormund maps the Coritanian heartland for years through spy-merchants.
+He plays horselord feuds so there is zero coordination.
+
+Lightning strategy
+One massive thrust from the Ader straight at Vayrac.
+No garrisons held. No outposts built. No land kept.
+The host marches, razes, and salts. The point is to destroy Cortani wealth and force a premature field battle before Isern provisions fail.
+
+Host kit
+Standardised long spears and polearms own the infantry front.
+Crossbows held at a premium, concentrated in the elite vanguard.
+Iron-riders protect the flanks — first Isern mounted tradition, born of smuggled Cortani saddles.
+Eyrenhost marches for the first time: Grandmaster Gorst and fifteen gryphon-riders.
+Horses fear the gryphon. Where the Eyrenhost is present, Cortani are denied their favourite ambush.
+
+Vassal constraint
+Thormund is unproven. Junior vassals watch every grain-sack.
+He must win fast and hard or the host disbands under him.
+
+Kannavi
+Hallvard Ask answers the summons and stays sovereign at home.
+Askel Hallvardson leads the longbow company. Ketil Stavn advises.
+
+The second war is in motion. The thrust at Vayrac is not yet written.
+
+--------------------------------------------------
+PHASE II — THE HOLDS
+--------------------------------------------------
+Adernvolk win the middle years by refusing the Cortani’s favourite war.
+They plant a tower on the hall-hill.
+Where stone can be cut, they raise it. Where it cannot, they fashion clay brick and wash it white.
+Crossbows sit on the ring. Spear-front and pole-rear dare the Cortani to break an ordered line.
+
+When Cortani dismount into shieldwall, Isern armour and poles grind.
+When Cortani stay mounted, hats-and-spears and Spikoars make the charge expensive.
+Hall after hall becomes a Whitmark: pale keep, pale wall, town packing against the ring instead of pasture-to-the-palisade.
+
+The land is catalogued. Hedge, tree-line, and road mark the bounds.
+Crops go in at scale to feed the new towns and the river-cities.
+Kannavi longbows on the rings make mounted approaches expensive.
+An Eyrenhost beast over a stubborn hall is a story the Cortani tell for a generation.
+Plateau help, if it comes at all, does not lift those sieges.
+
+This is occupation, not a single victory.
+
+--------------------------------------------------
+PHASE III — THE LONG WAR
+--------------------------------------------------
+Neither people dies.
+Cortani still own grass and dusk-roads.
+Adernvolk still own river, store, and white wall.
+Levy Cortani still ride to a hedge and fight on foot.
+Isern standing troops still hate open pasture.
+
+Tourney-custom starts here. Rank is argued in the lists when a pitched battle costs too much for what it buys.
+The first knights are not a fashion. They are Cortani saddle plus Isern iron, worn by men who have to live in both wars.
+
+The host stays unruly for near centuries.
+Hedges are cut. Isolated Whitmarks go hungry. Adern charters are obeyed in the counting-house and ignored in the riding-green.
+
+--------------------------------------------------
+PHASE IV — ABSORPTION
+--------------------------------------------------
+Not a treaty that ends an army.
+House by house, strategic marriages do what the last wars cannot.
+Adernvolk cannot govern grass without Cortani riders.
+Cortani cannot pull down every white tower.
+
+The occupier stock becomes a blood-claim inside the country.
+“I carry Adern blood” is how the later upper caste talks about right.
+The living people are Coritanian.
+The towns keep the Whitmark face: white wall, dark swept timber roof, horse at the gate.
+Coritania becomes the land of the tourney because that is how the fusion stays visible.
+
+--------------------------------------------------
+WHAT EACH SIDE STOLE
+--------------------------------------------------
+Isernvolk took
+The saddle, when they could get horses.
+The hall-site, and built a keep on it.
+The need to look like a people who understand a riding-green.
+
+Cortani took
+Iron coverage they could not have made in the same volume.
+The white tower as a fact of the skyline.
+Charter and hedge as the language of the river.
+
+Together they made
+The mounted knight as caste and method of war.
+High swept roofs and spires on pale towers.
+A countryside of fields that still keeps room to ride.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+Suggested path:
+Master/World/Cultures/ or Master/Log/ or a Wars folder under World.
+Working path: Master/World/Cultures/Peoples/Early/Wars_of_the_Whitmarks.txt
+Move later if a Wars / History shelf is locked.
+
+Do not write a Roman legion into the Isernvolk.
+Do not write every Cortani as a lancer.
+Do not let levy crossbows or horse-mail become common or the long war has no air.
+
+Campaign hooks
+- A Spikoar line that breaks at the first real lance-pass, and the standing captain who has to spike another oar by morning
+- A Whitmark whose brick-yard has no lime, and the keep showing raw clay
+- Cortani levy who will ride to the hedge but will not dismount for an Adeling’s charter
+- An elite who brings both heavy bow and heavy lance to the same field and dies in the swap
+- The first tourney held in the shadow of a new white wall, billed as sport, used as census
+- A marriage contract that includes a riding-green the hedges have already eaten
+- Kannavi longbows leaving a siege because an Adern captain spoke as if Kannavald were his
+- An Eyrenhost rider who will burn a hall-ring and will not stay to hold it
+- A Plateau blessing that arrives with so many taboos the Cortani send it home
+- Evran of the Ader riding past Adergate, raised on the one crossing Harthold left standing
+- Loher of Chevalac picking a rich fight and riding off before Evran can claim it
+- Hallvard Ask of Westwood holding empty Berthall and calling the compact honoured, just
+- A night watch on Harthold’s Barrow that swears the last stand is still being fought
+- Evran naming three hosts on his ground: Isern, Kannavi, Loher
+- Rolund of Berthall coming down from the Giant’s Hearth when the barges enter his water
+- Aymon of Aderhall’s death used later as a blood-price argument at Vayrac
+- Audovald of Vayrac arriving after the spoils are already argued

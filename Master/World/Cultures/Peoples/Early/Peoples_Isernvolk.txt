@@ -34,6 +34,11 @@ SHARED CLAIM
 RELATION TO OTHER WAVES
 --------------------------------------------------
 Pionari / Syllvani: elder stewards of the green. Respected as first blood; tension when stewardship limits extraction or settlement.
+Kannavi: peninsula wood-Syllvani. Ancient allies from the landing, when both were small scattered groups carving a home out of a terrifying wood.
+Isernvolk view them as distant, slightly odd outsiders — harsh, aloof, honest to a fault.
+The alliance is still honoured. Kannavi will also mark a border and mean it.
+Detail in Peoples_Kannavi.txt.
+Cortani: horse-hall Syllvani of Coritania. Later war and occupation, then absorption of the Adernvolk elite.
 Ordinari: Seal and elite who came with the Multitude. Useful when they bring order and charters; resented when they command without craft.
 Novari: the Multitude. Labour and numbers that filled the marks. Some Isernvolk stocks absorbed or ruled over Novari-descended locals; others clashed with them.
 Aperti: small, ill-omened. The Openers who probed the thinning. Rarely central to Isernvolk myth.
@@ -47,15 +52,72 @@ Customs shaped by dense forest, lake-and-burn country, and the need to hold grou
 Will form one of the two main linguistic-cultural poles of the “fantasy Europe” layer alongside the Syllvani.
 
 --------------------------------------------------
+MARK HISTORIES — EBON PENINSULA
+--------------------------------------------------
+The Ebon Peninsula was once nearly as densely forested as Kannavald Deepwood still is.
+The Kannavi were already there: small, scattered, in constant struggle against Unveiling perils in the woods.
+
+Isernvolk landed at the western shore and aided their fellow man.
+First king in this history: Osric.
+Landing-seat: Osricford. Common and older shore-name: Ocs Landing.
+There a hundred skinwights were hanged. That hanging is told as a founding of the tamed peninsula.
+
+Over centuries the peninsula was opened. Floors, strands, and pits became Isern work. The Deepwood is what the taming did not finish.
+The Kannavi — Hollow-folk, cousins in custom to the Still Stones — were raised into alliance and standing. They were not erased. Outside the Deepwood they became a distinct minority. Inside it they remain the majority.
+The first years were amicable: two small peoples against a bad wood.
+Later the Kannavi resented how Isernvolk grew and consumed. They still honour the ancient alliance. They became isolationist and fiercely independent. Careless Isern are reminded where Kannavald’s borders are.
+Isernvolk, for their part, call them harsh and aloof, a little odd, and honest to a fault — outsiders who remain allies.
+
+Eyrenal was already a remnant megastructure. Isernvolk colonised the hanging vale.
+There an Isern lord bonded a gryphon and became the first rider. That bond is the seed of the Order.
+Early riders were the Eyrenhost, not knights. That name predates Knights Gryphon and is still used in contemporary speech for the vale-host.
+The knightly tradition comes later, from Coritania. Knights Gryphon is the later style. Eyrenhost remains the older and living name.
+
+Detail lives in Peoples_Kannavi.txt and the Eyrenal / Order files when those are written.
+
+--------------------------------------------------
+MARK HISTORIES — CORITANIA
+--------------------------------------------------
+Later incursion. Not a second landing-feast. War.
+
+A small Isern ruling class — the Adernvolk, Adelings by rank, Whitmarks by the look of their towers — fought the Cortani host.
+Isernvolk brought ordered foot, iron coverage, pavise and crossbow, and the long pole and godendag learned against horse.
+Cortani brought the saddle, the hill-hall, and a warrior caste of lance and bow.
+
+Opening years: Cortani win the fields.
+Middle years: Adernvolk win the holds. White keeps on old hall-hills. Land partitioned. Crops at scale.
+Long war: neither people dies. Near centuries of an unruly host.
+End: strategic marriages. The Cortani absorb the occupier. The living people become Coritanian.
+Adern blood remains a right-to-rule claim in the upper caste.
+The knight and the tourney — Cortani saddle plus Isern iron — travel back west. The Eyrenhost learn knightly custom from that influence, not the other way around. Knights Gryphon is the later style-name. Eyrenhost is still said.
+
+Detail lives in Peoples_Cortani.txt, Peoples_Adernvolk.txt, and Wars_of_the_Whitmarks.txt.
+Peoples_Coritanian.txt is the fusion file, not yet written.
+
+--------------------------------------------------
 BRANCHES
 --------------------------------------------------
 List locked ethnic groups below as they are written.
-Each gets Peoples_Isernvolk_[Name].txt
+Early offshoots may live as their own Peoples_[Name].txt under Early when they are a full stock, not only a local mark-flavour.
 
-- [Branch] — [seat / one-line character]
+- Adernvolk / Adelings — Coritania occupying elite; Whitmarks by look; later absorbed by the Cortani. File: Peoples_Adernvolk.txt
+- Peninsula Isernvolk — Ebon Peninsula marks; landing-king Osric of Osricford / Ocs Landing; the Eyrenhost at Eyrenal. No separate people-file yet.
 - [Branch] — [seat / one-line character]
 
 Branches differ by which mark or shore they hold and how strongly they lean on iron vs sea vs frontier identity.
+
+--------------------------------------------------
+PERSONS OF NOTE
+--------------------------------------------------
+- Osric — first Isernvolk king in peninsula memory. Seat: Osricford / Ocs Landing. Hanged a hundred skinwights. Landing compact with the Kannavi.
+- Harthold — king of the first host into Coritania. Took Aderhall and Berthall. Died at Harthold’s Folly. Buried in Harthold’s Barrow.
+Act 2
+- Thormund of Westmark — early thirties. Victor of the peninsula succession. King of the Second Host.
+- Aldric of Adergate — Lord of the Rhennod Marches. Southern border is the Ader.
+- Sigvard of Highmarch — Lord of High March.
+- Grandmaster Gorst — Eyrenhost. Holds Ebormark. Marches with fifteen gryphon-riders.
+
+Kannavi compact names live in Peoples_Kannavi.txt.
 
 --------------------------------------------------
 NOTES

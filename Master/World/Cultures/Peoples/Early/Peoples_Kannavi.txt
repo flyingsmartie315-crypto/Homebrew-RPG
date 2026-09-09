@@ -1,0 +1,202 @@
+# Peoples_Kannavi
+
+Umbrella / parent
+Syllvani offshoot. Early category. Ebon Peninsula stock. Not the Plateau. Not the Cortani.
+
+Formal name
+Kannavi (locked).
+
+Common names
+Kannavs / Kannavsfolk (Isern and local speech).
+Hollow-folk (nickname — allowed, common, not the formal name).
+Deep Syllvs / wood-Syllvs (foreign shorthand).
+
+What this file is
+The Syllvani branch of the Ebon Peninsula.
+Scattered across the peninsula at large as a distinct minority.
+Still the majority in the Kannavald Deepwood local region.
+Largely absorbed elsewhere into Isernvolk farm, town, and pit country.
+Wood-edge trades remain their tell: lumber, trapping, charcoal, bowyery.
+Linguistic base: Syllvani under a Nordic layer.
+
+Coedani was a working proposal. Do not use it now.
+
+--------------------------------------------------
+GM META — ORIGIN
+--------------------------------------------------
+Wave 1 — Pionari / Syllvani line.
+Never the fortress-people of the Appolasian Plateau. Never the horse-hall Cortani.
+They held the peninsula’s woods, burns, and mountain-edges.
+Isernvolk took the floors, strands, and pits. Absorption was the rule on open ground.
+Under the Deepwood canopy they remained the people of the place.
+Kannavald is their country-name as the Isern marks later wrote it. Kannavi is the folk-name that still matches the land in the woods.
+
+Once the whole Ebon Peninsula was nearly as densely forested as the Deepwood still is.
+The Kannavi were small, scattered, and in constant struggle against Unveiling perils in the woods.
+When the Isernvolk landed they aided their fellow man. Over centuries the peninsula was tamed.
+The Hollow-folk — cousins in custom to the Still Stones — were raised from that struggle into alliance and standing. The stone-law was kept: do not approach.
+At Osricford (common: Ocs Landing) a hundred skinwights were hanged. Osric is locked as the first Isernvolk king in this people’s history.
+Eyrenal was already a remnant megastructure. Isernvolk colonised the hanging vale. There an Isern lord bonded a gryphon and became the first rider — the seed of the Order. Early name: the Eyrenhost. Not knights. Knights Gryphon is later Coritanian-influenced style. Eyrenhost is still said.
+
+Plateau Syllvani kept the basin and the record.
+Cortani kept the horse and the hill-hall.
+Kannavi kept the wood.
+
+--------------------------------------------------
+DEEP NAME VS SURFACE NAME
+--------------------------------------------------
+Deep / formal: Kannavi.
+Surface: Kannavs, Deepwood folk.
+Nickname: Hollow-folk.
+Use Hollow-folk in common talk, stories, and Isern mouths. Do not put it on the people-file header as the only name.
+The nickname touches the Still Stones / Hollows / Quiet Watchers without making the whole people the stones. They know the law: do not approach. Others call them Hollow-folk because they live nearest that law.
+
+--------------------------------------------------
+SHARED CLAIM
+--------------------------------------------------
+- Descent from First Blood who took the peninsula woods
+- Right to the canopy trades: timber, trap, charcoal, bow
+- Majority-right in the Deepwood even when the mark-law is Isern
+- Suspicion of pit and plough when those eat stave-wood and trap-ground
+- Quiet, local stewardship — not Plateau doctrine
+- Memory that the Deepwood was a country before it was a mark
+
+--------------------------------------------------
+NUMBERS AND RANGE
+--------------------------------------------------
+Ebon Peninsula at large: scattered minority. Present in Hornwood edges, Westwood, high burns, leftover groves. Not the people of Ostbruck, the Leeshore farms, or the Lowstacks pits.
+Kannavald Deepwood: still the majority. Lake-towns and named water-settlements lean Isern in law and look; the woods around them lean Kannavi.
+Blood is mixed on the lake-shore. Affiliation is the year a household keeps.
+
+--------------------------------------------------
+ABSORPTION AND THE DIVIDE
+--------------------------------------------------
+What went Isern
+- Farm
+- Urban trade and quay
+- Mining and quarrying
+
+What stayed Kannavi
+- Nearer the mountain
+- In the woods
+- Lumber
+- Trapping
+- Charcoal-burning
+- Bowyery
+
+Kolby’s yards can be Isern and still buy Kannavi timber.
+Oldfort kilns, trap hamlets, stave-camps, and houses that will not live on the open shore sit Kannavi.
+A pit-reeve counts Isern. A wood-right counts Kannavi.
+
+--------------------------------------------------
+LINGUISTIC BASE
+--------------------------------------------------
+Under-speech: Syllvani — Romance, melodic, light old grove-words.
+Surface layer: Nordic. This is the Kannavi tell, and why Kannavald already sounds more like Kolvatn, Askflow, and Svarthorn than like Rhennod or a Plateau grove.
+
+How to name
+- Wood, water, burn, and hamlet names may sit on Nordic roots over a Syllvani sense.
+- Soft Syllvani vowels can remain inside those names.
+- Do not write them as Jarnfolk. The Nordic layer is contact and long dwelling in cold forest, not a separate Isern branch.
+- Plateau ll / dd / rh is rare here. Hollow, vatn, beck, holm, and stave-words are common.
+
+Speech in practice
+Town and mark-law: Isern.
+Wood-hamlet: mixed. Nordic layer on Syllvani base, Isern creeping in from Kolby.
+
+--------------------------------------------------
+CULTURE — LIVING MAJORITY IN THE DEEPWOOD
+--------------------------------------------------
+Small hamlets, seasonal camps, kiln-rows, traplines.
+No white keeps as a people. No horse-halls as a people.
+Rank: a good bow, a clean kiln, a winter the house survives.
+Longbow memory is stronger here than among the Cortani. Bowyers are the loudest craft-pride.
+The Still Stones are local law, not a temple. Hollow-folk is a nickname earned by living near that law, not by serving it.
+
+--------------------------------------------------
+RELATION TO OTHER PEOPLES
+--------------------------------------------------
+Isernvolk of the peninsula: ancient allies. Both were small scattered groups who carved a home out of a terrifying country.
+The alliance still holds. Kannavi honour it.
+Resentment came later, when Isernvolk grew and consumed floor, strand, and pit, and would consume the last woods if left to it.
+Kannavi are more isolationist and fiercely independent than the landing-tale suggests.
+They will not hesitate to remind a careless Isern where Kannavald’s borders are.
+They sell timber. They do not surrender the canopy.
+Cortani / Adernvolk: another country’s war.
+Plateau Syllvani: elder cousins. Stewardship as record there; as this year’s grove here.
+Novari: labour in pits and on quays. Little claim in the deep hamlets.
+Aperti: omen. The Deepwood already feels quietly wrong.
+
+--------------------------------------------------
+GEOGRAPHY
+--------------------------------------------------
+Scattered remnant: Ebon Peninsula woods and mountain-edges.
+Living majority: Kannavald Deepwood — Westwood Heights, upper burns, charcoal belt, trap country, stave-woods, the country around the Still Stones.
+Lake Kolvatn’s named towns are Isern-facing. The canopy between them is Kannavi.
+
+--------------------------------------------------
+BRANCHES / LOCAL STOCKS
+--------------------------------------------------
+- Deepwood hamlets — charcoal, trap, stave; majority
+- Mountain-edge camps — lumber under Spire and Westwood
+- Peninsula scatter — Hornwood and other leftover groves; minority
+
+Ruling house
+Westwood Heights.
+Contingent-lord of the first Whitmark war: Hallvard Ask of Westwood — second son of the ruling house.
+Heir stays. Spare honours the compact. He carries the Ader lessons north after Berthall.
+
+--------------------------------------------------
+LANDING HISTORY — ISERNVOLK AND THE TAMING
+--------------------------------------------------
+Once the entire Ebon Peninsula was nearly as densely forested as the Deepwood remains.
+The Kannavi were small and scattered. The woods were not empty of Unveiling perils. Their year was a struggle to stay human in canopy that did not always stay a wood.
+
+The Isernvolk landed and aided their fellow man.
+They did not land to a Whitmark war. They landed to a green country that needed iron, fire, and numbers.
+Over centuries the peninsula was tamed. Floors opened. Shores worked. Pits cut. The Deepwood is what the taming did not finish.
+
+The Hollow-folk — cousins in custom to the Still Stones — were raised. Alliance, standing, and the keeping of the stone-law. They were not made into Isern. They were no longer left alone with the perils.
+
+Osric is locked as the first Isernvolk king in Kannavi memory.
+His landing-seat: Osricford. Common and older shore-name: Ocs Landing.
+There a hundred skinwights were hanged. That hanging is a founding story of the tamed peninsula, told on both sides of the divide.
+
+Eyrenal
+Already a remnant megastructure. Isernvolk colonised the hanging vale.
+There an Isern lord bonded a gryphon and became the first rider. That bond is the seed of the Order.
+Early and living name: the Eyrenhost. Not knights.
+Knights Gryphon is the later style-name, after Coritanian influence.
+Eyrenhost predates that style and remains correct in contemporary speech for the vale-host.
+
+--------------------------------------------------
+PERSONS OF NOTE
+--------------------------------------------------
+- Hallvard Ask of Westwood — second son of the Westwood ruling house. Leads the Kannavi contingent in the first war into Coritania. Holds the Ader stretch after Berthall. Relinquishes without a fight when Harthold falls. Carries the river-lessons north.
+- Ketil Stavn — captain. First-war veteran of the Ader banks.
+
+Act 2
+- Hallvard Ask of Westwood — now sovereign of Kannavald Deepwood. Answers Thormund’s summons.
+- Askel Hallvardson of Westwood — firstborn. Leads the second-war longbow company.
+- Ketil Stavn — advises Askel.
+
+Osric — Isern landing-king. Compact partner. Full entry: Peoples_Isernvolk.txt.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+File path when committed:
+Master/World/Cultures/Peoples/Early/Peoples_Kannavi.txt
+
+Branch line now sits in Peoples_Syllvani.txt.
+
+Add under Local_Region_Kannavald_Deepwood.txt Notes when next edited:
+Kannavi are the majority in the woods. Lake-shore law and the pits lean Isernvolk. Hollow-folk is a common nickname, not a cult-name.
+
+Campaign hooks
+- A stave-grove marked for Kolby, a Kannavi hamlet that will not yield
+- Kilns sitting quiet because the wood is wrong, forges in Kolby waiting
+- A guide called Hollow-folk who will take a party near the Stones, and a hamlet that shuns him after
+- An Isern reeve counting houses that do not live in one place
+- Mixed children asked whether this year is pit-road or charcoal-row
+- A peninsula village far from Kannavald that still burns charcoal the Kannavi way and is treated as leftover kin

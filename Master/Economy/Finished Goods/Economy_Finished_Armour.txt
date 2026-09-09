@@ -329,21 +329,45 @@ Every fabrication day is Higher skilled. Fine / closed / fitted pulls Master.
 Shop: capital, foundry-town, or a named hall.
 Repair of a crack or a re-dish: same door. A garrison may strap and pad.
 
+Munitions and commission
+  Munitions plate is made to a last: a few stock sizes, low-carbon,
+  sold off the rack. The bands and Core Common tickets below are
+  munitions.
+
+  Anything that is not munitions is commissioned to the wearer.
+  The armourer measures the man, dishes to that body, and cuts
+  straps to that kit. It is not a second Model. It is the same
+  piece with a wearer attached.
+
+  Commission premium (on the munitions ticket):
+    Made to measure           x1.5
+    Fitted white (points, sliding rivets, a real wearing)
+                              x1.75
+    Master / named hall       x2.0   and Master days on the line
+
+  Hardened and Crucible still use Iron Grade on top.
+  Do not call a commissioned breast "munitions" because it is
+  the same Enc. Enc is mass. Commission is the brain and the fit.
+
+  A garrison can issue munitions. It cannot commission.
+
 Plate (one front slot)
 Finished: Enc 25 = 2.5 kg
 Inputs: 3.5 kg Steel
 Labour: Higher skilled, several days to a week
 Output: 1 breast or 1 plackart-alone
-Base price: 2-4 gc
-Core Common: 3 gc
+Base price (munitions): 2-4 gc
+Core Common (munitions): 3 gc
+Commissioned: 4.5-8 gc
 
 Cuirass (Plate + Plackart + Backplate)
 Finished: 2.5 + 1.6 + 1.8 kg = 5.9 kg
 Inputs: 8-9 kg Steel
 Labour: Higher skilled, two weeks. Fitted / Fine: Master on the lines.
 Output: 1 cuirass
-Base price: 6-12 gc
-Core Common: 9 gc as three Forms (3 + 3 + 3)
+Base price (munitions): 6-12 gc
+Core Common (munitions): 9 gc as three Forms (3 + 3 + 3)
+Commissioned harness torso: 9-24 gc
 Do not add three AC columns.
 
 Other plate torso
@@ -366,9 +390,10 @@ Poleyn (one)        Enc 3    12-22 sc    Core 17 sc
 Full Greaves (one)  Enc 14   32-55 sc    Core 44 sc
 Sabaton (pair)      Enc 6    14-25 sc    Core 20 sc
 
-A full low-carbon harness (cuirass, arms, legs, open helm) sits about 20-35 gc in this book before grade.
+A full low-carbon munitions harness (cuirass, arms, legs, open helm) sits about 20-35 gc in this book before grade.
 Hardened x1.25. Crucible x2.50 and T4.
-Master days on a fitted white harness push the top of that band, they do not double it.
+Commissioned to the wearer: apply the premium to the munitions sum.
+A fitted white harness is 35-70 gc before grade, not a second catalogue.
 
 
 --------------------------------------------------
@@ -378,6 +403,8 @@ HELMETS
 Skullcap may come off a town bench (segmented shop).
 Open kettle / nasal: market-town armourer.
 Closed, armet, frog-mouth: plate shop. Master if visored and fitted.
+Listed helm tickets are munitions / stock skulls.
+A helm dished to the wearer uses the plate commission premium.
 
 Open shop skulls
 Type: Skullcap, Composite kettle, Nasal spangenhelm

@@ -317,9 +317,10 @@ Bows                                          Min S
   Heavy            1 gc 10 sc Enc 8  Ord
     (3/5/1)  30/60   Reload Full    Tiring, AP
     Draw 70–100 lb. Min S 30
-  Longbow *            2 gc  Enc 10  Longbow
+  Longbow *        2 gc 10 sc Enc 10  Longbow
     (4/5/1)  36/72   Reload Full    Tiring, AP, Impact
     Draw 100–180 lb. Min S 35
+    Yew stave. Ash or elm substitute uses the Heavy ticket.
 
 Crossbows
   Pistol               3 gc  Enc 15  Crossbow

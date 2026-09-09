@@ -73,12 +73,13 @@ Will form one of the two main linguistic-cultural poles of the fantasy Europe la
 BRANCHES
 --------------------------------------------------
 List locked ethnic groups below as they are written.
-Each gets Peoples_Syllvani_[Name].txt
+Early offshoots may live as their own Peoples_[Name].txt under Early when they are a full stock off the Plateau.
 
-- [Branch] — [one-line seat and character]
+- Cortani — Coritania; horse-hall Syllvani offshoot, host people of the open hills; later absorb the Adernvolk. File: Peoples_Cortani.txt
+- Kannavi — Ebon Peninsula wood-Syllvani; Hollow-folk by nickname; majority in Kannavald Deepwood; Nordic layer on Syllvani speech. File: Peoples_Kannavi.txt
 - [Branch] — [one-line seat and character]
 
-Branches differ by which part of the Plateau or its immediate rim they hold and how strictly they keep the old taboos.
+Branches differ by which part of the Plateau or its immediate rim they hold and how strictly they keep the old taboos. Offshoot stocks off the fortress-heartland are listed here and filed under Early.
 
 --------------------------------------------------
 NOTES

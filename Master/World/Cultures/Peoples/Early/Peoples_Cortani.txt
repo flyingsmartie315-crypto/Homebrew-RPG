@@ -1,0 +1,179 @@
+# Peoples_Cortani
+
+Umbrella / parent
+Syllvani offshoot. Early category. Not the Plateau stock.
+
+Formal name
+Cortani (locked file-name and folk-name).
+
+Common names
+Cortans / Corites (Isern and Frankish speech).
+Coritani (older / ceremonial; still used when blood and custom are meant, not the tax-district).
+The horse-hall people (foreign shorthand).
+
+What this file is
+A Pionari-descended Syllvani branch that held the open temperate hills of Coritania before the Isernvolk marks were planted there.
+Equestrian and herd-first. Hill-halls inside walled towns. Timber work as rank.
+Their land-name became the country: Coritania.
+Modern Coritanian culture is an Isernvolk–Cortani fusion on a Frankish linguistic base. This file holds the Cortani claim, not the fused modern state.
+
+--------------------------------------------------
+GM META — ORIGIN
+--------------------------------------------------
+Wave 1 — Pionari stock, Syllvani line, off the Appolasian fortress-people.
+They did not keep the Plateau. They came down (or were always down) into rolling hill-and-river country and made a life of herd, horse, and hall.
+The Plateau Syllvani remember stewardship and long record. The Cortani remember the circuit of pastures and the roof-tree of the hall.
+Isernvolk arrived later as the Adernvolk: a small occupying elite. War first. Then white towers on the old hall-hills, partitioned fields, and Frankish law on the river. The Cortani remained the host and the majority. After near centuries of an unruly populace, strategic marriages did what the last wars could not. The host absorbed the occupier. The living people after that are Coritanian — not written in this file.
+
+Working origin lock (change only if the Plateau relationship is rewritten):
+The Cortani are a detached Syllvani branch. Cousins to the Plateau folk, not the same people. They call the Plateau stewards kin who kept the trees and forgot the horse. The Plateau calls them kin who left the fortress for grass.
+
+--------------------------------------------------
+DEEP NAME VS SURFACE NAME
+--------------------------------------------------
+Deep / mythic: Cortani. Horse, hall, and the old hill-ring.
+Surface / contemporary: Cortans, Corites, people of Coritania.
+Land-name: Coritania — kept after the Isern crossing. The country is older than the mark-law.
+
+Do not write them as generic “hill Syllvs”. The horse and the hall are the distinction.
+
+--------------------------------------------------
+SHARED CLAIM
+--------------------------------------------------
+- Descent from First Blood who took the open hills, not the basin-fortress
+- The horse as living wealth: gift, fine, dowry, apology, and rank
+- The grand timber hall on a hill as the true seat of a people
+- The walled town as a ring around herd-wealth and winter folk, not a street-grid
+- Workmanship in timber as honour — joinery, roof-tree, carved post, gate
+- Herd-right before plough-right
+- Suspicion of anyone who claims a country by charter alone, without hall or horse
+
+--------------------------------------------------
+CULTURE — OLD PATTERN
+--------------------------------------------------
+Economy
+Herd first, crop second. Horses and cattle were the measure. Fields existed; they did not make a town.
+
+Settlement
+Towns were small. A high timber hall, then a walled circuit of houses, yards, and stables. Pasture came up to the palisade. You smelled stock before you smelled bread.
+The hall was the political object: roof-tree, horse-gift, oath-bench.
+
+Craft
+Timber work was the pride-skill — not rustic log-work. Long halls, high roofs, tight galleries, gates that are statements.
+This tradition persists in modern Coritania. Stone is used where flood and Isern law demand it. Rank in the hills is still shown in oak before iron.
+
+Year
+The old year was a circuit of pastures and hill-halls.
+The new year is the river highway.
+Both calendars are still kept.
+
+--------------------------------------------------
+EQUESTRIAN CORE
+--------------------------------------------------
+Children are judged first by seat and herd-sense, then by letters.
+Gift and grievance still move in horses as easily as in coin.
+War-flavour: mounted people who can also sit a hall. Not Plateau isolation. Not Deepwood pit-work.
+A town without a riding-green is only a warehouse.
+
+--------------------------------------------------
+FUSION WITH ISERNVOLK
+--------------------------------------------------
+What the Cortani kept
+- Hill-hall + wall as the true town-shape outside the river capital
+- Horse as living wealth
+- Timber hall as masterpiece
+- Soft Syllvani names in the parishes
+- Herd-right and riding custom
+
+What the Isernvolk shifted
+- River capital as the legal seat
+- Grain and barge as tax-wealth
+- Stone quay, store, and keep on the highway-water
+- Frankish compounds on the river
+- Written charter and mark-law
+
+A Coritanian magnate speaks Frankish in the counting-house, rides like a Cortani, and rebuilds his roof in the old timber manner when he wants the country to take him seriously.
+
+--------------------------------------------------
+LINGUISTIC LAYER
+--------------------------------------------------
+Parent speech: Syllvani (Romance base, melodic, light Welsh-flavoured surface in old grove and hall names).
+Contact speech: Isernvolk.
+Living fusion: Frankish — Germanic roots long-seated on Romance soil.
+
+Hill and parish names leak Cortani / Syllvani.
+River-towns and law-houses speak Frankish compounds (-burg, -court, -furt, -heim, -ac).
+Do not default to Deepwood pit-names or Plateau names (Rhennod, Rhön) unless the feature actually belongs there.
+
+--------------------------------------------------
+RELATION TO OTHER PEOPLES
+--------------------------------------------------
+Plateau Syllvani: cousins. Shared First Blood. Different work. Tension over what stewardship means when the land is grass, not fortress-forest.
+Adernvolk / Adelings: Isern occupier elite. Enemy, then spouse. Whitmarks by the look of their keeps. Absorbed into the host; their blood remains a right-to-rule claim in the later Coritanian upper caste.
+Isernvolk (wider): parent sea-and-iron stock across the western marks. Not the same as the Adern houses.
+Ordinari: charter-folk. Useful when they recognise hall-right; resented when they allot pasture as empty paper.
+Novari: numbers on the river and the lower farms. Some absorbed into hall-country as labour and riders; the herd-families keep blood-rules tighter than the quays do.
+Aperti: omen-story. Rarely a living neighbour.
+
+--------------------------------------------------
+GEOGRAPHY
+--------------------------------------------------
+Heartland: Coritania — temperate rolling hills, lush fields, rivers, some lakes, plentiful woodland.
+The largest river runs east–west as a highway. The Isern-facing capital sits on it.
+Cortani pattern still owns the hills: hall on the rise, wall, riding-green, timber roof.
+The river-towns are the fusion’s face. The hills are the Cortani’s memory.
+
+--------------------------------------------------
+BRANCHES / LOCAL STOCKS
+--------------------------------------------------
+List only if a distinct hill-stock or river-stock is locked.
+Each would get Peoples_Cortani_[Name].txt
+
+- [River halls] — [one-line]
+- [Hill circuits] — [one-line]
+
+Until then, treat Cortani as one people with a river face and a hill face.
+
+--------------------------------------------------
+PERSONS OF NOTE
+--------------------------------------------------
+First war — no high king. Five halls.
+
+- Aymon of Aderhall — slain defending the threshold hall. Father of Evran.
+- Evran of the Ader — son of Aymon. Guerrilla of the first war. Takes the last stand at Harthold’s Folly. Raises the barrow on the hill. Later fortifies the south bank of the Ader with Berthall.
+- Rolund of Berthall — Giant’s Hearth. Evacuates his people before the siege. Breaks out. Fights the last stand with Evran.
+- Audovald of Vayrac — Lord of Vayrac. Richest hall, slowest to ride. Commits the capital cavalry on the open green. Takes the ransom-bounty of captured Isern vassals.
+- Loher of Chevalac — neighbour of Aderhall. Opportunist. Commits around the fall of Berthall. Not close with Evran and Rolund.
+- Sellis of Elaynac — independent hall. Present on the last field so a rival cannot claim the prize alone. Dies before Act 2.
+- Loher of Chevalac dies in a hunting accident not long after the first war.
+
+Act 2
+- Evran of Aderhall — about sixty. Sharp. Neutral on the Ader line with Berthall.
+- Hearthwin of Berthall — Rolund’s successor. Late-to-early thirties.
+- Audovald of Vayrac — old, decrepit. Five sons: Chlodomer (eldest), Theuderic, Maurel, Riann, Giselher.
+- Loheric of Chevalac — Loher’s eldest. Splitting image of his father.
+- Aurel of Elaynac — Sellis’s fourth-born. Survivor of Elaynac’s succession crisis. Head of house.
+
+Landmark: Harthold’s Barrow — battle-hill catacombs and king-barrow. Contemporary no-go. Haunted last stand.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+File path when committed:
+Master/World/Cultures/Peoples/Early/Peoples_Cortani.txt
+
+Also add a branch line under Peoples_Syllvani.txt:
+- Cortani — Coritania; horse-hall Syllvani offshoot, now fused with Isernvolk
+
+Spelling lock for this file: Cortani.
+Country lock: Coritania.
+Ceremonial plural / old form: Coritani — allowed in rite and deep speech.
+
+Do not write them as vanished. They are the older half of the living country.
+
+Campaign hooks
+- A hall-roof raised without horse-gift, and the hills will not come to market
+- A river charter that fences a riding-green
+- Plateau envoys who speak stewardship and are answered with a saddle
+- Timber-wrights called to the capital to make an Isern keep look like a hall
+- A blood-fine paid in horses that the quay-law tries to commute to coin

@@ -194,10 +194,14 @@ All Out Attack (Full) — Attack Action
   Until the start of this Entity’s next Turn: no Dodge,
   no Parry.
 
-Defensive Stance (Half)
+Defensive Stance (Full)
   No Attack Action this Turn.
   Until the start of this Entity’s next Turn: melee
   attacks against this Entity take −20 WS.
+  Until the start of this Entity’s next Turn: +10 on
+  Dodge and Parry tests.
+  Adds one Parry reaction to this Entity’s reaction
+  pool (section 6).
 
 Delay (Half)
   Turn ends. One Half is held and may be spent any
@@ -225,8 +229,10 @@ Manoeuvre (Half)
   Cannot force into another Entity or a solid thing.
 
 Parrying Stance (Half)
-  Ready a Parry at +10. Ends at the start of the next
-  Turn whether used or not.
+  Ready a Parry reaction. Adds one Parry reaction
+  to this Entity’s reaction pool (section 6).
+  Ends at the start of the next Turn whether the
+  reaction is spent or not.
 
 Run (Full)
   Move the Run yards. Cannot Run while engaged —
@@ -340,8 +346,10 @@ is an Opposed Test against the Degrees already on that
 hit. This is not a flat test.
 
   Attacker keeps the Degrees from the WS roll.
-  Defender rolls Parry (WS) or Dodge (Dodge Skill).
-  Compare as Resolution §5.
+  Defender rolls Parry * (Parents: WS) or Dodge
+  (Dodge Skill). Compare as Resolution §5.
+  No Parry * Rank: no Parry test. Dodge may still
+  be attempted Unknown.
 
   Defender wins: the blow is beaten or slipped. No damage.
   Attacker wins: the blow lands. Damage, section 9.
@@ -349,27 +357,51 @@ hit. This is not a flat test.
 Do not reroll the attack. Do not roll damage before the
 defence.
 
+One reaction per attack
+  Each incoming blow may spend one reaction from
+  the pool. One Dodge or one Parry. Not both.
+  Not two Parries. Not two Dodges.
+  The test is made once. Fail and the blow stands.
+  The rest of the pool is for other attacks this
+  Round, not a second shot at this one.
+
+  Fate is the only reroll. One FP, Combat §13,
+  declared before the fiction moves on. That
+  rerolls this defence or this attack. It does
+  not spend a second reaction.
+
 Limits
   Melee only, unless the Parry is a shield
   with Defensive(x) (Shield_Rules.txt).
   Must be aware of the attack.
-  One Parry per Round. One Dodge per Round.
-  Never both on the same blow.
   Surprise, blind, bound, All Out Attack: neither.
   A won Feint’s following Standard Attack: neither.
 
+Reaction pool
+  Refreshes at the start of this Entity’s Turn.
+  Default: one Dodge reaction. Zero Parry reactions.
+  Add one Parry reaction from each of these that
+  is true this Round:
+    Parrying Stance
+    Defensive Stance
+    a ready weapon in the off hand
+    a shield in a hand (Defensive(x))
+  Later Talents may add Dodge or Parry reactions.
+  They still obey one reaction per attack.
+  Empty pool: the blow is not opposed.
+
 Parry
-  Opposed WS. Ready weapon or shield.
-  Paid for by Parrying Stance, or Free if a weapon
-  is in the off hand, or Free if a shield is in a
-  hand (Defensive(x), Shield_Rules.txt).
+  Opposed Parry * Skill. Ready weapon or shield.
+  Costs one Parry reaction.
+  Advanced. No Unknown roll. A levy with a spear
+  and no teacher does not Parry. They Dodge or
+  they take it.
   A won shield Parry soaks on Shield AC.
   Overflow hits the wielder on the named Slot.
-  Main-hand only and no Stance: no Parry.
 
 Dodge
-  Opposed Dodge Skill. Free. Ordinary Skill — Unknown
-  is Skill Base ÷ 2. Not an Advanced closed trick.
+  Opposed Dodge Skill. Costs one Dodge reaction.
+  Ordinary. Unknown is Skill Base ÷ 2.
 
 --------------------------------------------------
 7. COMBAT MOVEMENT (YARDS)

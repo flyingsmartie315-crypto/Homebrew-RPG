@@ -1,0 +1,152 @@
+# Peoples_Adernvolk
+
+Umbrella / parent
+Isernvolk offshoot. Early category. Occupying elite in Coritania, not the host people.
+
+Formal name
+Adernvolk (locked folk-name and file-name).
+
+Common names
+Adelings (noble / caste speech — “those of rank”).
+Whitmarks (nickname — from the whitewashed towers and walls).
+Adern (short). The Tower-Iserns (foreign shorthand).
+
+Blood-claim
+“I carry Adern blood.”
+Spoken by anyone asserting closeness to the old occupying lines. In the later Coritanian age this is a claim of right, not a proof of separate nationhood.
+
+What this file is
+The Isernvolk stock that fought, partitioned, and ruled Coritania as a small Norman-like upper class.
+They remain a distinct Early people until the Cortani absorb them by time, custom, and strategic marriage.
+This file is the occupier claim. It is not modern Coritania.
+Modern Coritanians are the fusion; they get their own file when that age is written.
+
+--------------------------------------------------
+GM META — ORIGIN
+--------------------------------------------------
+Isernvolk mark-stock. Iron, stone (or brick), charter, and a ruling minority.
+They entered Coritania by war, not by empty-shore landing.
+They were never the people of the grass. They were the people of the keep, the roll of land, and the white wall.
+They copied Cortani custom where it gave an edge — the saddle first.
+They built where they could command: river, hill-hall site, road.
+
+Spelling lock
+Adernvolk / Adern blood / Adelings / Whitmarks.
+Do not write Adenvolk. Do not write Adernvolk and Adelings as two nations. Adelings is the rank-name inside the same stock.
+
+--------------------------------------------------
+DEEP NAME VS SURFACE NAME
+--------------------------------------------------
+Deep / mythic: Adernvolk. Iron-blood that sat the Cortani halls.
+Surface / caste: Adelings.
+Look-name: Whitmarks — pale keeps, pale rings, dark swept roofs.
+Later Coritanian usage: Adern blood as pedigree, not as a living separate folk.
+
+--------------------------------------------------
+SHARED CLAIM
+--------------------------------------------------
+- Descent from Isernvolk who took Coritania by war and held it by tower and roll
+- Right to partition land: hedge, tree-line, road, and charter
+- The white keep on the old hall-hill as the proper seat
+- Rank shown in stone or whitewashed brick, then in horse and lists
+- Suspicion of hall-right that will not answer to written bound
+- Pride in having learned the Cortani saddle without laying the lance aside
+
+--------------------------------------------------
+HOW THEY RULED
+--------------------------------------------------
+Small class. Loud in law. Few in the field compared with the host.
+Like the Normans in England: they took the high seats, married when they had to, and spoke their own compounds in the counting-house while the country went on being Cortani underneath.
+
+They catalogued the land. Hedgerows, tree-lines, and roads marked every bound.
+Crops went in at scale to feed towns and river-cities.
+Population rose because the occupier needed surplus, not because the hills asked for it.
+
+Where stone could be cut, they raised towers.
+Where it could not, they fashioned clay brick and whitewashed it.
+The Cortani hall-on-a-hill became a gleaming white keep inside white walls, with a bustling town against the ring.
+
+They adopted what won:
+- Cortani horse and riding-green
+- Hall-gift and tourney-custom, turned into a caste tool
+- Timber craft, lifted onto the new towers as swept roofs and spires
+
+They did not become Cortani in the first generations. They remained Adernvolk on purpose. That is why the Early files stay separate.
+
+--------------------------------------------------
+WAR AND CASTE
+--------------------------------------------------
+Cortani cavalry plus Isernvolk metallurgy.
+The first Virath iterations of the mounted knight — lance, iron, horse — as a social caste and a method of war.
+The lists become how an Adeling proves he still deserves the white tower.
+Coritania is already becoming the land of the tourney while the two peoples are still named apart.
+
+--------------------------------------------------
+ABSORPTION
+--------------------------------------------------
+Not a treaty. A long grind.
+
+Near centuries of an unruly host. The Cortani do not vanish. They outlast the posture of occupation.
+Strategic marriages of noble lines do the work the last wars could not.
+House by house the Adeling pedigree sits down inside Cortani halls until the occupier stock is a blood-claim inside the country, not a people beside it.
+
+After that the living folk are Coritanian.
+Adernvolk remains as:
+- old house names
+- Whitmark look of the towns
+- “I carry Adern blood” in the upper caste
+- a right-to-rule argument, not a census category
+
+--------------------------------------------------
+RELATION TO OTHER PEOPLES
+--------------------------------------------------
+Cortani: the host. Enemy, then spouse, then the mouth that swallows the occupier.
+Isernvolk (wider): parent sea-and-iron stock. Kin across the marks; not the same as the Coritanian Adeling houses.
+Plateau Syllvani: distant elder cousins of the host, not of the occupier. Useful to blame or to bargain with; not family.
+Ordinari: liked when they bless partition and pedigree. Useless in a riding-green.
+Novari: labour on the new fields and quays. The Adernvolk counted them. The Cortani absorbed some as riders and hall-folk.
+Aperti: omen only.
+
+--------------------------------------------------
+GEOGRAPHY
+--------------------------------------------------
+Seat of rule: the river highway and the white keeps raised on old Cortani hall-hills.
+Look of their country: pale ring, pale tower, dark high timber roof, hedged fields, riding-green kept on purpose.
+They do not own the Deepwood or the Plateau. Coritania is the only land this file cares about.
+
+--------------------------------------------------
+BRANCHES / HOUSES
+--------------------------------------------------
+List locked Adeling houses here when written.
+Each house file is not a people-file unless a house becomes a lasting separate stock.
+
+- [House] — [seat / one-line]
+- [House] — [seat / one-line]
+
+--------------------------------------------------
+PERSONS OF NOTE
+--------------------------------------------------
+First-war Isern names live in Peoples_Isernvolk.txt. Harthold is a peninsula king, not yet an Adeling house-father.
+Adeling houses of the later occupation: not yet named.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+File path when committed:
+Master/World/Cultures/Peoples/Early/Peoples_Adernvolk.txt
+
+Keep Early files separate:
+- Peoples_Cortani.txt — host
+- Peoples_Adernvolk.txt — occupier elite
+- Peoples_Coritanian.txt — later fusion (not yet written)
+
+Also add under Peoples_Isernvolk.txt branches:
+- Adernvolk / Adelings — Coritania occupying elite; Whitmarks by look; later absorbed
+
+Campaign hooks
+- An Adeling who will not marry Cortani and is left with a white tower and no riders
+- A forged Adern pedigree used to take a riding-green
+- Whitmark brick-yards striking, and the keep showing raw clay
+- A tourney where the lists are Cortani custom and the prize is an Isern charter
+- Unruly hill-circuits cutting hedges the occupier planted
+- The first house that stops saying Adernvolk and starts saying Coritanian on purpose
