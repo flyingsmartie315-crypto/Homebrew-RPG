@@ -1,0 +1,76 @@
+# Flora_Polar
+# Shortlist for this biome. Not an ecosystem.
+
+Biome: Polar
+Agriculture is in Economy_Agriculture.txt. Do not repeat sown crops here.
+
+Svart-Viðr (Svartwood) is hard-locked to Dauðavík fault-ground. Do not place it on other polar floors.
+
+--------------------------------------------------
+COVER
+--------------------------------------------------
+
+Svart-Viðr
+Working name: Svartwood
+Domain: Land
+Biome: Polar
+HSI: Temperature: 0–2 | Rainfall: 2–4 | Human Density: 0–2 | Flora: 3–5 | Fauna: 2–3 | Topography: 3–5 | Hydrology: 3–5
+Rarity: 2
+Use: timber (hard, slow), limited fuel (burns foul) | Notes: Dauðavík only. Midnight-dark conifer. Grows in ribbons along live geothermal faults, not as a blanket forest. Inside a stand the air is damp and about 10°C while the blizzard runs outside. Needles take low-angle light and ground-heat. Deep roots drink hot ground without cooking. Bark holds vent-metals. Pre-collapse engineered shield-wood; inhabitants know a fault-wood, not a machine. Better ship-timber if a plank can be taken. Not a super-material.
+
+Tundra sedge
+Domain: Land
+Biome: Polar, Alpine
+HSI: Temperature: 0–2 | Rainfall: 2–4 | Human Density: 0–2 | Flora: 2–4 | Fauna: 2–3 | Topography: 1–3 | Hydrology: 2–4
+Rarity: 8
+Use: poor fodder, thatch | Notes: the white floor between the ribbons.
+
+Reindeer lichen
+Domain: Land
+Biome: Polar, Alpine, Boreal
+HSI: Temperature: 0–2 | Rainfall: 2–3 | Human Density: 0–1 | Flora: 2–3 | Fauna: 2–3 | Topography: 1–4 | Hydrology: 1–3
+Rarity: 7
+Use: winter graze | Notes: slow. Does not live in the hot ribbons.
+
+Fault-moss
+Domain: Land
+Biome: Polar
+HSI: Temperature: 1–2 | Rainfall: 3–4 | Human Density: 0–2 | Flora: 3–5 | Fauna: 2–3 | Topography: 3–5 | Hydrology: 3–5
+Rarity: 3
+Use: wrap, packing, trench-seal | Notes: Dauðavík fault-stands. Lives in the greenhouse aisle under Svart-Viðr. Jarn wrap hydrothermal logs in it.
+
+--------------------------------------------------
+FORAGE
+--------------------------------------------------
+
+Lingonberry
+Domain: Land
+Biome: Boreal, Alpine, Polar
+HSI: Temperature: 0–2 | Rainfall: 3–4 | Human Density: 0–2 | Flora: 2–4 | Fauna: 2–3 | Topography: 1–4 | Hydrology: 2–3
+Rarity: 7
+Use: berry, keep | Notes: low evergreen. Stores through Longnight. Same plant as Flora_Boreal.
+
+Cloudberry
+Domain: Land
+Biome: Polar, Boreal, Wetland
+HSI: Temperature: 0–2 | Rainfall: 3–5 | Human Density: 0–1 | Flora: 2–3 | Fauna: 2–3 | Topography: 0–2 | Hydrology: 3–5
+Rarity: 5
+Use: berry | Notes: wet tundra pockets. Not in the hot ribbons.
+
+--------------------------------------------------
+HAZARD
+--------------------------------------------------
+
+Svart-bark
+Domain: Land
+Biome: Polar
+HSI: Temperature: 0–2 | Rainfall: 2–4 | Human Density: 0–2 | Flora: 3–5 | Fauna: 1–2 | Topography: 3–5 | Hydrology: 3–5
+Rarity: 2
+Use: none until worked by people who know the cost | Notes: Dauðavík only. The same tree as COVER. Bark and sawdust carry what the vents put in the ground. Working it without wet-wrap and patience sickens. This is one bottleneck on the wonder-wood.
+
+Fumarole ground
+Domain: Land
+Biome: Polar
+HSI: Temperature: 1–3 | Rainfall: 2–4 | Human Density: 0–1 | Flora: 1–3 | Fauna: 0–1 | Topography: 3–5 | Hydrology: 4–5
+Rarity: 4
+Use: none | Notes: Dauðavík vents and thin crust. Soft snow over boiling water. The ribbons grow here because the ground is alive. Men die here when they leave the marked paths.

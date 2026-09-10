@@ -19,7 +19,7 @@ DEEP NAME VS SURFACE NAME
 --------------------------------------------------
 Deep / mythic lean: Isernvolk / Isernmen (iron-people, iron-men).
 Surface / contemporary: Vestrings / Westmen / Markings (western sea, western men, the mark).
-Jarns / Jarnfolk noted as seed for a future related but distinct branch (purer Scandi-iron feel).
+Jarnvolk — first offshoot. Locked. File: Peoples_Jarnvolk.txt. Polar stock of Dauðavík. Not a second Isernvolk.
 
 --------------------------------------------------
 SHARED CLAIM
@@ -50,6 +50,27 @@ Western shores and marks of the Northwestern continent.
 Iron-working, shipcraft, and frontier settlement are core skills.
 Customs shaped by dense forest, lake-and-burn country, and the need to hold ground against older or denser neighbours.
 Will form one of the two main linguistic-cultural poles of the “fantasy Europe” layer alongside the Syllvani.
+
+--------------------------------------------------
+THE TRANS-OCEANIC SCHISM
+--------------------------------------------------
+The Isern crossing of the Atlantic-scale ocean is the first fracture of the blood.
+The fleet tracked the Ebon Latitude Line — cool temperate maritime corridor.
+A multi-week polar storm and a north-setting current took the rear wing off that line.
+Jarnvard, younger brother of High King Osric, commanded that wing.
+They did not recover the heading. They were spent onto the ice-rim, some 2,400 miles north of the intended track.
+
+Jarnvard put ashore. Masts gone. Winter on them. The ships would not live on the open current.
+Osric kept the vanguard on the easterly path. He would not turn into unmapped arctic mist.
+Osric’s hulls grounded on the Ebon Peninsula. Landing-seat: Osricford / Ocs Landing.
+
+The distance and the unmapped grid did the rest.
+Osric’s people counted Jarnvard’s fleet dead in the ice. They mourned them as ghosts.
+Jarnvard trusted Osric to have led the remaining hulls to a better future than the ice-rim. That trust turns, generation by generation, into resentment of the soft southerners on the mainland.
+
+Two civilizations from one fleet. Neither is a failed copy of the other.
+Jarnvolk detail: Peoples_Jarnvolk.txt.
+Island lock: Dauðavík — the Dead-Bight / the Killing Gulf. Where the ice dies. From the sea it reads as a grave. From the shore it is dead-rock walls and killing-hot water under the fields.
 
 --------------------------------------------------
 MARK HISTORIES — EBON PENINSULA
@@ -100,16 +121,17 @@ BRANCHES
 List locked ethnic groups below as they are written.
 Early offshoots may live as their own Peoples_[Name].txt under Early when they are a full stock, not only a local mark-flavour.
 
+- Jarnvolk — first offshoot. Dauðavík. Polar, raid-and-trade. Scandi-heavy speech. File: Peoples_Jarnvolk.txt
 - Adernvolk / Adelings — Coritania occupying elite; Whitmarks by look; later absorbed by the Cortani. File: Peoples_Adernvolk.txt
 - Peninsula Isernvolk — Ebon Peninsula marks; landing-king Osric of Osricford / Ocs Landing; the Eyrenhost at Eyrenal. No separate people-file yet.
-- [Branch] — [seat / one-line character]
 
 Branches differ by which mark or shore they hold and how strongly they lean on iron vs sea vs frontier identity.
 
 --------------------------------------------------
 PERSONS OF NOTE
 --------------------------------------------------
-- Osric — first Isernvolk king in peninsula memory. Seat: Osricford / Ocs Landing. Hanged a hundred skinwights. Landing compact with the Kannavi.
+- Osric — High King of the crossing. Holds the Ebon line. First Isernvolk king in peninsula memory. Seat: Osricford / Ocs Landing. Hanged a hundred skinwights. Landing compact with the Kannavi. Counts Jarnvard’s wing dead.
+- Jarnvard — Osric’s younger brother. Rear wing of the crossing. Puts ashore at Dauðavík. Full entry: Peoples_Jarnvolk.txt.
 - Harthold — king of the first host into Coritania. Took Aderhall and Berthall. Died at Harthold’s Folly. Buried in Harthold’s Barrow.
 Act 2
 - Thormund of Westmark — early thirties. Victor of the peninsula succession. King of the Second Host.
@@ -122,5 +144,5 @@ Kannavi compact names live in Peoples_Kannavi.txt.
 --------------------------------------------------
 NOTES
 --------------------------------------------------
-Jarns / Jarnfolk held for a future branch.
+Jarnvolk is the first offshoot, not a pending seed.
 Vestrings remains the working surface name in conversation and settlement files until a deeper formal name is locked.

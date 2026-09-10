@@ -1,0 +1,120 @@
+# Peoples_Jarnvolk
+
+Umbrella / parent
+Isernvolk offshoot. Early category. Polar stock. Not peninsula Isern. Not Adernvolk.
+
+Formal name
+Jarnvolk (locked).
+
+Common names
+Jarns / Jarnfolk (Isern and southern speech).
+The lost wing (old Isern mourning-name; they do not know it still lives).
+
+What this file is
+The first Isern offshoot. Jarnvard’s rear wing of the trans-oceanic crossing, spent onto Dauðavík and forced into a polar life the Ebon line never had to learn.
+Same root stock as the Isernvolk. Speech leans harder into the Scandi base; Anglo-Germanic is the quieter cousin, not the house-voice.
+They make a better ship, not a super one.
+
+--------------------------------------------------
+GM META — ORIGIN
+--------------------------------------------------
+Same Second Wave Ingenari stock as the Isernvolk.
+The split is not blood-law. It is a storm, a current, and a brother who put ashore.
+Osric held the Ebon Latitude Line and landed the peninsula.
+Jarnvard could not recover the heading. About 2,400 miles north of the intended track he took the ice-rim rather than die on broken spars.
+
+Osric’s people counted Jarnvard’s fleet dead in the ice and mourned them.
+Jarnvard trusted his brother to have taken the remaining hulls to a better shore than the bight.
+That trust sours. Generation by generation it becomes resentment of the soft southerners on the mainland — men who kept the temperate line and, in Jarn telling, left them to the ice.
+First contact, when it comes, is not a reunion. It is a ghost that learned to speak.
+
+--------------------------------------------------
+DEEP NAME VS SURFACE NAME
+--------------------------------------------------
+Deep / mythic: Jarnvolk.
+Surface: Jarns, Jarnfolk, men of Dauðavík.
+Speech: Scandi-heavy. Names, holds, and ship-words sit on the Norse side of the old Isern mix. Anglo-Germanic remains intelligible at a stretch, not the tongue of the bight.
+Land-name: Dauðavík — the Dead-Bight / the Killing Gulf.
+From the sea: a graveyard in the northern mist. Ice will grind you.
+From the shore: dead volcanic rock walls that kill the gale, and killing-hot water under the fields. Where the ice dies.
+
+--------------------------------------------------
+GEOGRAPHY AND CULTURE
+--------------------------------------------------
+Seat: Dauðavík. Polar / near-polar island. Working size: about 1,400 miles by 600, irregular, roughly 420,000 square miles of tundra, basalt cliff, fault-wood, and hydrothermal ground.
+Climate: long night, low sun, hard wind. Not a world without day. Winters are the test.
+
+Culture of shortage.
+Population is capped by what the warmed soil will grow — kail, turnip, what a trench-field will hold.
+Wonder-timber exists and is hard to take, hard to work, slow to yield a hull.
+Most textiles and many minerals are scarce. The answer is not a finished store at home. The answer is a ship south: raid or trade.
+
+They dig in or sit behind stacked basalt. Early linings are oil-cured gut and bladder from whale and seal. Later windows are mica (Muscovy glass) where the rock gives it. Blown glass is late, if at all.
+
+--------------------------------------------------
+BOTTLENECKS (LOCKED)
+--------------------------------------------------
+1. Agriculture. Geothermal trenches keep soil soft. They do not make a fat country. Heads of household are few.
+2. The wonder-wood. Better ship-timber. Not a super-material. Hard to harvest, hard to shape, limited stands. A hull is a generation-argument, not a dockyard habit.
+3. Cloth, many ores, ordinary comforts. Sourced abroad. This is why they appear on southern lanes at all.
+
+A Jarn hull is heavier, cleaner in worm-water, slower to rot, ugly to burn. It still needs men, food, and a reason to leave the bight. They do not own the ocean.
+
+--------------------------------------------------
+THE FAULT-WOOD
+--------------------------------------------------
+Locked name: Svart-Viðr.
+Working name: Svartwood.
+Flora file: Flora_Polar.txt. Dauðavík only.
+Pre-collapse engineered conifer on the volcanic arc. Inhabitants do not know it as a machine. They know a dark-rib forest that follows the hot ground, stands that are warmer inside than the blizzard, timber that works like stubborn iron-wood.
+
+Jobs the grove is allowed to do:
+- Trace the faults. Warm, humid stands in a hard climate.
+- Take up foulness from the vents in bark and sap.
+- Yield heavy, unfriendly timber that makes a better ship if you can get a plank off it.
+
+It does not make them fireproof, reef-proof, or a law of the sea.
+Tap-root warmth under a house is a local trick where a stump sits on live ground. Not central heating for the island.
+
+--------------------------------------------------
+SHARED CLAIM
+--------------------------------------------------
+- They are Isern blood that the ice did not finish
+- Jarnvard chose the shore and the living over the true line
+- A hull is wealth
+- What the island will not grow, the sea must bring
+- Osric sailed away. That story is a wound, not a footnote
+
+--------------------------------------------------
+RELATION TO OTHER STOCKS
+--------------------------------------------------
+Isernvolk of the Ebon Peninsula: lost brothers.
+Isern song: the rear wing died in the ice. They mourn.
+Jarn song: Osric found the better shore. First it is trust. Later it is spite for soft southerners.
+Until contact, Isern mourning and Jarn resentment do not know they are aimed at living men.
+Kannavi, Cortani, Adernvolk: not this people’s war. Southern names arrive as cargo, captives, or rumour.
+Plateau Syllvani: distant First-Blood cousins at most. No compact.
+
+--------------------------------------------------
+BRANCHES / LOCAL STOCKS
+--------------------------------------------------
+One people. Hold-by-hold flavour along the bight and the fault-ribbons.
+House files later if a lasting seat is locked.
+
+--------------------------------------------------
+PERSONS OF NOTE
+--------------------------------------------------
+- Jarnvard — younger brother of High King Osric. Commands the rear wing. Puts ashore at Dauðavík. Founder in Jarn memory.
+- Osric — kept the easterly line. Full entry: Peoples_Isernvolk.txt.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+File path when committed:
+Master/World/Cultures/Peoples/Early/Peoples_Jarnvolk.txt
+
+Branch line now sits in Peoples_Isernvolk.txt.
+
+Island name locked: Dauðavík.
+Tree name locked: Svart-Viðr / Svartwood. Flora_Polar.txt.
+First meeting of Jarnvolk and peninsula Isernvolk is not yet written.
