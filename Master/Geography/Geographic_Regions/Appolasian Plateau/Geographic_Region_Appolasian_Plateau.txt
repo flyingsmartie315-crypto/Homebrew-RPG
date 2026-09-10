@@ -1,4 +1,50 @@
-Appolasian Plateau
-From the Latin appulsus — “the striking of a ship upon the shore” or “the landing.”
-In-world, the name refers to the mountain-ringed impact basin where the First Men’s vessel first touched Virath. Over thousands of years the word softened and drifted in Syllvani speech into Appolasian, keeping the sense of origin and first contact while losing the hard technical edge of the original Latin.
-It is both a geographic name and a quiet statement of primacy: this is the place of the Landing.
+# Appolasian Plateau
+
+Visual Reference
+maps/Map_Geographic_Region_Appolasian_Plateau.jpeg
+
+Overview
+A mountain-ringed impact basin on the Northwestern continent: the Appulse basin. High rim-ranges close the horizon. Inside the ring the floor is dense old forest around a central lake. The climate on the rim is alpine and hard. The basin floor is cooler and wetter than the open marks west and south of it, sheltered from maritime fetch and from the polar wind that owns Dauðavík. This is the most natural fortress in the north-west — not by wall-building, but by the ring, the forest, and the single hard approaches.
+
+Location & Borders
+East of the Ebon Peninsula and the Coritanian Heartlands. The live western lip is the Rhennod Mountains. The modern division with the peninsula is that lip.
+
+borders:
+- North: rim; unnamed highland and the great northern gulf beyond
+- Northeast: rim; unnamed east-continent
+- East: rim stepping down onto unnamed east-continent
+- Southeast: Sauronia
+- South: Valacidia
+- Southwest: Coritanian Heartlands; Rhennod foot; Rhonmere / Giant’s Pool on the lip; the Ader runs west into Coritania, not across the basin
+- West: Rhennod Mountains — western lip; Ebon Peninsula north of the Heartlands
+- Northwest: Rhennod / rim join; Highmarch and Marchwall of the peninsula west of the wall
+
+Shared / Border Local Regions
+- Rhennod Mountains — western lip of the Plateau; eastern wall of the Ebon Peninsula. Highest peak: Rhön / Mount Rhön. One file. Listed here as shared border, not as a primary inner-basin region.
+
+Local Regions
+Working names only. No Local_Region file locked yet.
+
+- The Rim — the mountain ring of the impact basin. Alpine, short thaw, the fortress wall.
+- Rhennod face (inner) — Plateau side of the shared Rhennod wall. Forested, towering. Peak: Rhön.
+- Basin Forest — dense old growth on the basin floor. Steward-ground. The living interior.
+- Central Lake — the basin lake. Working name only. Old Syllvani water-name not yet locked.
+- South Descent — where the ring steps down toward Valacidia and the Coritanian Heartlands. Off the fortress, not on it.
+
+Notable Features
+- The Appulse basin — impact origin of the Plateau. Sacred in Syllvani claim; here it is the hole in the ring.
+- Mountain ring — continuous high wall. Makes the basin a fortress.
+- Rhennod Mountains — west lip. Shared with the Ebon Peninsula. Peak: Rhön / Mount Rhön.
+- Rhonmere / Giant’s Pool / Llyn Rhön — lake at the Rhennod foot, on the lip, not in the basin heart. Outflow: the Ader.
+- Central Lake — unnamed. Forest-bound water at the basin centre.
+- Basin Forest — dense, mapped poorly from outside, held from inside.
+- Hard approaches — few. West over Rhennod. South down the descent. Other quarters are rim.
+
+Notes
+Travel onto the Plateau is a climb and a permission. Travel inside is forest and lake, not open riding-green.
+The Ader is not a Plateau river. It is the lip-lake’s outflow into Coritania.
+Rhennod is the shared wall with the Ebon Peninsula. Do not list it as an inner Local Region on both files.
+People of this geography: Plateau Syllvani. Offshoots (Cortani, Kannavi) left the fortress. File: Peoples_Syllvani.txt.
+
+A Geographic Region does not take a Biome line or Environmental Scores.
+It inherits the biomes of its Local Regions.

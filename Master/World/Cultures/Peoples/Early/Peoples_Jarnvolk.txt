@@ -55,10 +55,13 @@ They dig in or sit behind stacked basalt. Early linings are oil-cured gut and bl
 BOTTLENECKS (LOCKED)
 --------------------------------------------------
 1. Agriculture. Geothermal trenches keep soil soft. They do not make a fat country. Heads of household are few.
-2. The wonder-wood. Better ship-timber. Not a super-material. Hard to harvest, hard to shape, limited stands. A hull is a generation-argument, not a dockyard habit.
+2. The wood. Svart-Viðr is what grows. Ordinary timber will not. On Dauðavík the rare good is southern oak and pine; in the south the rare good is Svartwood. Hard to harvest, hard to shape, limited stands. Every Jarn hull is Svartwood because there is nothing else to plank a ship with. That hull is heavy and cumbersome. A better ship. Not a super one. A keel is still a generation-argument.
 3. Cloth, many ores, ordinary comforts. Sourced abroad. This is why they appear on southern lanes at all.
 
-A Jarn hull is heavier, cleaner in worm-water, slower to rot, ugly to burn. It still needs men, food, and a reason to leave the bight. They do not own the ocean.
+Every Jarn hull is Svart-Viðr. Flagship and snekkjur alike. There is no mixed oak-and-black fleet on the bight.
+The cost is weight. The ships are heavy. They do not sail like a pine cog.
+That is why two Osricford cogs are a prize: ordinary timber, deep holds, the wood Dauðavík cannot grow.
+They still need men, food, and a reason to leave the bight. They do not own the ocean.
 
 --------------------------------------------------
 THE FAULT-WOOD
@@ -91,7 +94,8 @@ RELATION TO OTHER STOCKS
 Isernvolk of the Ebon Peninsula: lost brothers.
 Isern song: the rear wing died in the ice. They mourn.
 Jarn song: Osric found the better shore. First it is trust. Later it is spite for soft southerners.
-Until contact, Isern mourning and Jarn resentment do not know they are aimed at living men.
+Until the second war they do not know they are aimed at living men.
+Second-war contact: pathfinders and west-board probes, then Sindri at the Vayrac berths. Still not a reunion. A ghost with a pay-chest.
 Kannavi, Cortani, Adernvolk: not this people’s war. Southern names arrive as cargo, captives, or rumour.
 Plateau Syllvani: distant First-Blood cousins at most. No compact.
 
@@ -106,6 +110,7 @@ PERSONS OF NOTE
 --------------------------------------------------
 - Jarnvard — younger brother of High King Osric. Commands the rear wing. Puts ashore at Dauðavík. Founder in Jarn memory.
 - Osric — kept the easterly line. Full entry: Peoples_Isernvolk.txt.
+- Sindri Vindvari — Windcaller. Second-war warlord. Sails past the intended peninsula diversion and burns the Vayrac berths. Takes two Osricford cogs. The Three Hundred are his chronicle-count. This is first loud contact with the living Isern south.
 
 --------------------------------------------------
 NOTES
@@ -117,4 +122,5 @@ Branch line now sits in Peoples_Isernvolk.txt.
 
 Island name locked: Dauðavík.
 Tree name locked: Svart-Viðr / Svartwood. Flora_Polar.txt.
-First meeting of Jarnvolk and peninsula Isernvolk is not yet written.
+First loud meeting with the living Isern south: Sindri Vindvari at the Vayrac berths, and the probes on the Ebon shore, second war.
+Until then they were rumour on the west-board. The crown did not treat them as Osric’s lost wing.

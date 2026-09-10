@@ -58,29 +58,32 @@ Cortani
 - Sellis of Elaynac — independent hall. Present so a rival cannot claim the prize alone.
 
 --------------------------------------------------
-ISERNVOLK — HOW THEY STAND
+ISERNVOLK — HOW THEY STAND (FIRST WAR)
 --------------------------------------------------
-Cavalry limited to elite availability. They do not become Cortani in the first generation.
-Answer to horse: longer spears, rear-rank poles, Spikoar, pavise, iron coverage.
+This kit is Harthold’s host only. Not Thormund. Not the later iron-riders.
+Cavalry is scarce and elite. They are not a horse-people yet.
 Crossbows are a signature, not the whole host.
 
+What they have not learned yet
+Levy spears are still ordinary length. They have not met full Cortani heavy horse in the open.
+Spikoar is born on the Ader as a barge tool during this war. It is not standing-line doctrine yet.
+Lengthened poles and Spikoar-in-the-line are written after Folly.
+
 Levy
-Can count on a good pair of shoes and hard-wearing clothing that feels scratchy.
+Good shoes. Hard-wearing clothing that feels scratchy.
 Long gambeson as standard, often under a simple coloured waffenrock for identification.
 Mittens favoured on the front — padded cloth, not mail.
 Padded coif and some form of wide-brimmed kettle hat.
 Sidearms: hatchet, club, dagger, whatever is to hand.
-Main pair: long-tipped spear and a boarded kite.
+Main pair: ordinary-length spear and a round shield.
 Crossbow rare at this tier. The device is complex.
 Thrown weapons and slings always an option.
-Spear lengths increase after Cortani contact. Pre-war levy spears were ordinary.
 
 Standing soldiers
 Mail shirts appear, and coifs; mittens where they matter.
 Padded chausses and cuffed boots.
-Front rank still trusts the kite as primary cover.
-Rear ranks fight over them with longer polearms.
-Those long poles are a wartime answer to cavalry. Pre-war standing kit was a standard-length spear or a one-handed arm.
+Front rank still trusts the round shield as primary cover.
+Rear ranks fight over them with standard-length spears or one-handed arms.
 Nasal helms and kettle hats still the look of this class.
 Dedicated crossbows more common. They shoot from behind pavise.
 
@@ -88,17 +91,19 @@ High end
 Career soldiers, noble retainers, the few who can be spared as horse.
 Full visored helms. Segmented rigid layers over a mailed torso.
 Longer mail hems and sleeves. Mail to the limbs, with rigid elbows and knees or splinted work.
-Pre-war fashion: shield slung on the back, two-handed axe; greatsword for the wealthiest.
-Wartime fashion: spiked polearms favoured. Forearm shields worn; they trust the armour.
+Fashion of this generation: round shield slung on the back, two-handed axe; greatsword for the wealthiest.
+Some take spiked polearms and forearm shields and trust the armour.
 Higher-poundage crossbows with mechanical advantage appear and stay rare.
-This rung is small. If it is not small, the occupation becomes an iron tide and the long war dies.
+This rung is small.
 
 --------------------------------------------------
-CORTANI — HOW THEY RIDE
+CORTANI — HOW THEY RIDE (FIRST WAR)
 --------------------------------------------------
+This kit is the five halls of Harthold’s war. Not the unified North-facing host after Evran’s death.
 Herd-people at war. Horse is wealth and movement.
 Syllvani longbow memory remains. They favour the shorter compound for the saddle.
 The warrior caste is the trump. It is not the average rider.
+Full heavy horse in the open is rare until Folly. That is Audovald’s late commitment, not the everyday war.
 
 Below levy
 Walkers and poor herders. Not the war-host. They exist so “every Cortani is mounted” does not leak into settlement files.
@@ -109,7 +114,7 @@ Simple light saddle for riding, not for couching a lance.
 Long textile coverage, thinner than Isern work: aketon, not the heavy gambeson.
 Good outdoor clothing and high boots.
 A helmet is heavily favoured but not standardised. A thick hat is the floor.
-Shield essential. Spear essential. Hand weapon desirable.
+Kite shield essential. Spear essential. Hand weapon desirable.
 Thrown weapons common.
 They ride to the best ground, then often dismount into a shieldwall.
 
@@ -122,7 +127,7 @@ Mail on torso and head/neck.
 Nasal helm or spangenhelm with side neck flaps.
 Compound bow on foot or mounted, javelins, better thrown weapons.
 May strip to a lighter load for far-ranging rides.
-This class forces Isernvolk to lengthen poles and keep Spikoars in the line.
+This class is why Isernvolk will later lengthen poles. In the first war they still meet it with round shield and ordinary spear.
 Bows here matter. They are not so common that every soldier is a horse-archer.
 
 Elite — warrior caste
@@ -137,42 +142,37 @@ Full stirrups, lance, and mounted archery live here. This caste is small and exp
 A man who couches a heavy lance is not also drawing a heavy bow in the same charge.
 
 --------------------------------------------------
-HOW THE RUNGS MEET
+KANNAVI — HOW THEY DRAW (FIRST WAR)
 --------------------------------------------------
-Cortani levy vs Isern levy
-Cortani choose the hill and often dismount. Isern bring thicker textile and a more standard helm. Bloody and local.
+Hallvard Ask’s contingent only. Paid combatants. Not a draft. Not a nation marching.
+Those who come east sit mid-to-upper in Kannavi kit and training. The hamlets stay home.
 
-Cortani levy vs Isern standing
-Isern want this. Pavise and long poles punish a wall that has already spent its horses.
+Feet and legs
+High-cuffed boots and Windiglas are the norm — often the envy of other foot.
+Waxed Deepwood last, cuff above the mud-line, made for wet banks and not for parade.
+Light padded chausses or simple hosen.
 
-Cortani soldier vs Isern standing
-The real field war. Lance and movement against kite-front and long rear poles. Neither owns this by default.
+Body
+Long-sleeved aketon, hem to knee or mid-thigh, most common.
+Some take a thicker gambeson of the same length.
+Many layer a mail vest over.
+Mail jack-chains sewn into the sleeves when they can get the strips.
+Something goes over the mail: a dull waffenrock of textile or hide.
+Green ribbons are the field-mark. Worn when identification matters. Stowed when it does not.
 
-Cortani elite vs Isern elite
-First contact in the open favours the Cortani. A wrestle in iron favours the Isern.
-Funerals and stories. Not the occupation by itself.
+Head
+Felt or fur hats. Arming cap or coif under a skull cap or nasal.
+Kettle brims are refused — they obstruct the draw.
+Draped hoods, pulled up when weather warrants.
 
-Cortani horse vs Isern levy on the march
-Cortani hunt. This is why Isern stop moving in packets.
+Arms
+Signature: powerful longbow. Bodkin is the war-arrow. A few broadheads ride in the same quiver for horse and hide.
+Six-foot stave — walking stick on the march, club or spear in a pinch.
+Typical sidearm: one-handed bearded axe, or a single-edged cutter (falchion, hunting sword).
+Most men carry bow, stave, and one sidearm.
+Two-handed axes and mauls are camp and work tools. They come out when the bank-fight turns to timber or a barge-crew.
 
-Siege and winter
-Isern work. Camps, palisades, brick and whitewash, stored grain.
-Cortani ride the roads at dusk and starve what they cannot break.
-
-Kannavi longbows
-They lengthen the Isern killing-ground in front of a standing line and on a wall.
-They do not make Isernvolk into a horse-people.
-They will not be spent like levy.
-
-Eyrenhost
-A gryphon over a riding-green is a battle turning.
-A gryphon cannot sit every hedge. The host that comes east is few.
-They are the Eyrenhost, not Knights Gryphon. Knight-custom has not yet travelled west, let alone back again.
-
-Plateau Syllvani
-Petitioned by the Cortani as First-Blood cousins.
-Stingy. Isolationist. Aid is late, thin, or priced in taboos and limits the halls cannot keep.
-Cortani learn they will win or lose this country themselves.
+They are in their element on wooded river-banks. They are not spent as levy in the open green.
 
 --------------------------------------------------
 ALLIES
@@ -192,19 +192,6 @@ Plateau Syllvani — Cortani side, stingy cousins
 Official aid is thin: a sealed blessing, a refusal dressed as counsel, or help that arrives after a hall is already white.
 Unofficial woodland bands are another matter. They join Rolund of Berthall during the siege and take pay from raided river transports.
 Kannavi are not these woodsmen. Kannavi remain Isern allies.
-
---------------------------------------------------
-PHASE I — THE FIELDS
---------------------------------------------------
-Cortani win the opening years.
-They arrive first. Isolated Isern columns are eaten on the move.
-Open-helm colour and lance-and-bow make levy afraid of skyline dust.
-Isernvolk learn in public. Spears get longer. Spikoars appear in the standing line. March-discipline tightens. Packets stop.
-
-The first war belongs here as the opening movement. See FIRST WAR below.
-Later years of this phase bring Kannavi bows in more than mercenary strength, and the first Eyrenhost flights. They do not reverse the opening. They stop later columns becoming meat.
-
-The lesson Isern write down: the river is a road; open riding-green is not. Harthold’s Ader-lift is taught as the competent opening. His later road-march off the water is taught as the defeat.
 
 --------------------------------------------------
 FIRST WAR — HARTHOLD OVER THE ADER
@@ -335,7 +322,9 @@ The Southern Turmoil
 Cortani blood-feuds boil.
 Loher of Chevalac’s house, Audovald of Vayrac, and Elaynac cannibalise their own fields.
 They practise cavalry on each other. The lance is refined. The veteran pool is drained.
-Evran of Aderhall stays alive and active. He and Rolund’s successors keep absolute neutrality and fortify the Ader line.
+Evran of Aderhall stays alive and active. He marries Viviane, sister of Rolund of Berthall.
+Hearthwin of Berthall grows up with Evran as family: father’s comrade, and uncle by that marriage.
+The Aderhall–Berthall alliance is strong. They keep absolute neutrality in the southern feuds and fortify the Ader line.
 
 The Northern Succession Crisis
 The peninsula king dies. Civil war across the Ebon Peninsula.
@@ -357,8 +346,9 @@ Kannavi
 - Ketil Stavn — captain. Veteran of the first war. Advises Askel.
 
 Cortani
-- Evran of Aderhall — about sixty. Sharp, experienced, respected. Neutral on the Ader line.
-- Hearthwin of Berthall — Rolund’s successor. Late-to-early thirties.
+- Evran of Aderhall — about sixty at the opening. Sharp, experienced, respected. Neutral on the Ader line until the second war. Married Viviane of Berthall. Falls in the fighting. Becomes Coritania’s defender-legend.
+- Viviane of Berthall — sister of Rolund. Wife of Evran. The marriage that binds Aderhall to Berthall in the interim.
+- Hearthwin of Berthall — Rolund’s successor. Late-to-early thirties. Sees Evran as uncle and as his father’s comrade.
 - Audovald of Vayrac — old, decrepit. Five sons arguing inheritance:
   Chlodomer (eldest), Theuderic, Maurel, Riann, Giselher.
 - Loheric of Chevalac — Loher’s eldest. Splitting image of his father. Loher died in a hunting accident not long after the first war and did not keep his spoils long.
@@ -376,11 +366,8 @@ No garrisons held. No outposts built. No land kept.
 The host marches, razes, and salts. The point is to destroy Cortani wealth and force a premature field battle before Isern provisions fail.
 
 Host kit
-Standardised long spears and polearms own the infantry front.
-Crossbows held at a premium, concentrated in the elite vanguard.
-Iron-riders protect the flanks — first Isern mounted tradition, born of smuggled Cortani saddles.
-Eyrenhost marches for the first time: Grandmaster Gorst and fifteen gryphon-riders.
-Horses fear the gryphon. Where the Eyrenhost is present, Cortani are denied their favourite ambush.
+See SECOND WAR doctrine below.
+Lengthened poles. Kite shields widely adopted. Iron-riders on the flanks. Eyrenhost present for the first time.
 
 Vassal constraint
 Thormund is unproven. Junior vassals watch every grain-sack.
@@ -390,56 +377,125 @@ Kannavi
 Hallvard Ask answers the summons and stays sovereign at home.
 Askel Hallvardson leads the longbow company. Ketil Stavn advises.
 
-The second war is in motion. The thrust at Vayrac is not yet written.
+--------------------------------------------------
+ISERNVOLK — HOW THEY STAND (SECOND WAR)
+--------------------------------------------------
+Thormund’s host. Folly has been taught.
+
+Shields
+Kite shields widely adopted by cavalry and infantry alike. Round shields persist, especially among older men and poor levy.
+
+Poles
+Spears and polearms used by standing and levy alike are lengthened.
+Levy: simple long spear or Spikoar.
+Standing and elite: polearms. Many heads are multi-use — spike, cutting axe, hook to pull a man from the saddle.
+
+Armour
+Does not change much. Cosmetic and stylistic only. The first-war harness still fits.
+
+Crossbows remain premium and sit in the elite vanguard.
 
 --------------------------------------------------
-PHASE II — THE HOLDS
+ISERNVOLK — HOW THEY RIDE (SECOND WAR)
 --------------------------------------------------
-Adernvolk win the middle years by refusing the Cortani’s favourite war.
-They plant a tower on the hall-hill.
-Where stone can be cut, they raise it. Where it cannot, they fashion clay brick and wash it white.
-Crossbows sit on the ring. Spear-front and pole-rear dare the Cortani to break an ordered line.
+Iron-riders. First Isern mounted tradition. Born of smuggled Cortani saddles in the interim.
+Not true warhorses. Light screening horse.
+Mounts: rouncey and hobby. Some rarer palfreys.
+They fight in the style Cortani guerrillas used against Harthold: sting, screen, cut a rear, do not stand a charge against real horse.
 
-When Cortani dismount into shieldwall, Isern armour and poles grind.
-When Cortani stay mounted, hats-and-spears and Spikoars make the charge expensive.
-Hall after hall becomes a Whitmark: pale keep, pale wall, town packing against the ring instead of pasture-to-the-palisade.
+Arms
+Light lances. Single-edged sabres, picks, or axes.
+Mounted crossbows are experimented with. They need mechanical advantage to draw from the saddle. Rare.
 
-The land is catalogued. Hedge, tree-line, and road mark the bounds.
-Crops go in at scale to feed the new towns and the river-cities.
-Kannavi longbows on the rings make mounted approaches expensive.
-An Eyrenhost beast over a stubborn hall is a story the Cortani tell for a generation.
-Plateau help, if it comes at all, does not lift those sieges.
-
-This is occupation, not a single victory.
+They do not replace Cortani heavy horse. They keep the column from being eaten on the move.
 
 --------------------------------------------------
-PHASE III — THE LONG WAR
+KANNAVI — HOW THEY DRAW (SECOND WAR)
 --------------------------------------------------
-Neither people dies.
-Cortani still own grass and dusk-roads.
-Adernvolk still own river, store, and white wall.
-Levy Cortani still ride to a hedge and fight on foot.
-Isern standing troops still hate open pasture.
+Askel Hallvardson’s company. Ketil Stavn advises.
+Mostly cosmetic change from the first war.
 
-Tourney-custom starts here. Rank is argued in the lists when a pitched battle costs too much for what it buys.
-The first knights are not a fashion. They are Cortani saddle plus Isern iron, worn by men who have to live in both wars.
+Some higher-poundage bows.
+Spikoars are popular and often replace the old six-foot stave, even though they weigh more. That is the Ader lesson walking north.
 
-The host stays unruly for near centuries.
-Hedges are cut. Isolated Whitmarks go hungry. Adern charters are obeyed in the counting-house and ignored in the riding-green.
+Logistics
+Hobby and rouncey bred and trained in Kannavald Deepwood. A valuable buffer. Pack, remount, and path-finding — not a Kannavi cavalry arm.
 
 --------------------------------------------------
-PHASE IV — ABSORPTION
+CORTANI — HOW THEY RIDE (SECOND WAR)
 --------------------------------------------------
-Not a treaty that ends an army.
-House by house, strategic marriages do what the last wars cannot.
-Adernvolk cannot govern grass without Cortani riders.
-Cortani cannot pull down every white tower.
+Thirty years of closed border, black-market iron, and hall-feud.
+Holdings fortified. Industry grew. Trade expanded.
 
-The occupier stock becomes a blood-claim inside the country.
-“I carry Adern blood” is how the later upper caste talks about right.
-The living people are Coritanian.
-The towns keep the Whitmark face: white wall, dark swept timber roof, horse at the gate.
-Coritania becomes the land of the tourney because that is how the fusion stays visible.
+Armour
+Isern enclosed helms become popular among the better-off.
+Crested open helms persist on men who would rather be seen than take the kettle-brim lesson.
+Coat of plates catches on and starts to replace scale as the more protective option. Scale fashion persists.
+Armour is more available. Iron is a premium the horselords willingly pay.
+
+Mercenary work
+Cortani horse proves valuable abroad. A tradition of paid service starts.
+In the closed-border thirty years this is leaky-ban work or off-map work — Plateau fringe, sea towns.
+It is not half the warrior caste gone when Thormund comes.
+
+Arms
+More emphasis on tools that defeat armour. War hammers and maces rise over blades.
+Lances lengthen so a rider can skirt a wall of spears.
+Standing class favour higher-poundage bows out of necessity.
+They close the gap on the crossbow. They do not erase pavise.
+Kannavi bodkin heads are copied and start to fill Cortani quivers.
+
+Horse
+Quilted and mail trappers more available — mainly quilted.
+Flax and hemp become major crops in Cortani holdings to feed that demand.
+Plate-mail barding is hall-wealth. A few beasts at Vayrac. Not a field of armoured horses.
+
+Freemen
+The old dismount-to-shieldwall doctrine has to adapt.
+Lords mandate harder martial standards. Freemen are expected to fight competently from the saddle as light screening and harassing horse.
+A standard of arms and armour is now part of a freeman’s obligation.
+
+They are still not Isern foot. They are still not all warrior-caste. The levy can sting from the saddle. The elite still own the heavy charge.
+
+--------------------------------------------------
+EYRENHOST — HOW THEY STRIKE (SECOND WAR)
+--------------------------------------------------
+First time the vale-host marches east.
+Grandmaster Gorst and fifteen bonded riders.
+The gryphon is the weapon. It can leap and kill a warhorse in seconds. The thrown rider is speared by the bonded man.
+Horses fear the beast. Where the Eyrenhost is present, Cortani are denied their favourite ambush. They are not present on every road.
+
+The rider is adorned like a king.
+Full-length mail hauberk, full sleeves.
+Cuirass coat of plates. Pauldrons, rerebraces, couters, vambraces. Articulated gauntlets.
+Head is rider’s choice: visored great helm with proud wings over arming cap, mail coif, and skull cap — the heavy helm can come off; or the new fashion, bascinet and aventail with a raisable visor.
+Legs: splinted cuisses, poleyns, splinted riding boots with sabatons.
+
+From the saddle of a living weapon: great lance.
+Sidearms: long-hafted flanged maces and hammers with spiked tips. Reach is the point.
+Arming sword is for the ground only.
+Gryphon saddles carry more than a horse-saddle.
+The pauldron of the throwing arm is often discarded so bundled javelins can be thrown.
+
+This harness is vale-wealth. It is not the Isern foot’s kit. Do not leak sabatons onto levy.
+
+--------------------------------------------------
+OUTCOME OF THE SECOND WAR
+--------------------------------------------------
+Not a season. Multiple years. Brutal. Indecisive.
+The host is sustained by plunder and spoils, not by a secure rear.
+Thormund never gets the single field that ends the country. The horselords never get the single field that ends him.
+
+Evran of Aderhall falls in the fighting.
+He becomes a legend of Coritania: the noble defender of the Ader and the halls.
+The other Cortani lords limp home and rebuild.
+They are now unified against the North. Evran’s death does what the first war could not.
+
+Thormund has to return to the Peninsula to address dire domestic concerns.
+He leaves a war unfinished. That is the shape of Act 2.
+
+The thrust at Vayrac and the years of fighting are not yet written beat by beat.
+The end-state is locked.
 
 --------------------------------------------------
 WHAT EACH SIDE STOLE

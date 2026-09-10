@@ -7,14 +7,14 @@ Overview
 A west-facing peninsula of temperate marks, highland marches, and one remaining deepwood. The west opens to productive low country and a major river-mouth. The north and northeast rise into the Marchwall Range, which sits on the Rivenstrand Walls — sea-cliffs that cut the peninsula off from easy northern landfall. Centre-east the ground lifts through Highmarch toward the inactive Ebon Spire and the Svarthorn Massif. The east wall is the forested Rhennod Mountains, western lip of the Appolasian Plateau. The south is river country: Rhonmere at the Rhennod foot, the Ader running out as the live border with Coritania.
 
 Location & Borders
-Northwestern continent. West of the Appolasian Plateau. North of Coritania. Open sea to the west and along the Rivenstrand.
+Northwestern continent. West of the Appolasian Plateau. North of the Coritanian Heartlands. Open sea to the west and along the Rivenstrand.
 
 borders:
 - North: open sea beyond the Rivenstrand Walls
-- Northeast: Marchwall Range on the Rivenstrand Walls
+- Northeast: Marchwall Range on the Rivenstrand Walls; sea-channel toward unnamed north land
 - East: Rhennod Mountains / Appolasian Plateau
-- Southeast: Rhennod foot, Rhonmere, upper Ader
-- South: the Ader; Coritania beyond
+- Southeast: Rhennod foot, Rhonmere, upper Ader; Plateau and Heartlands meet
+- South: the Ader; Coritanian Heartlands beyond
 - Southwest: river-mouth lowlands and western sea
 - West: western sea
 - Northwest: western sea and the north-coast cliffs
