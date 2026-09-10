@@ -16,7 +16,7 @@ Domain: Land
 Biome: Polar
 HSI: Temperature: 0–2 | Rainfall: 2–4 | Human Density: 0–2 | Flora: 3–5 | Fauna: 2–3 | Topography: 3–5 | Hydrology: 3–5
 Rarity: 2
-Use: timber (hard, slow), limited fuel (burns foul) | Notes: Dauðavík only. Midnight-dark conifer. Grows in ribbons along live geothermal faults, not as a blanket forest. Inside a stand the air is damp and about 10°C while the blizzard runs outside. Needles take low-angle light and ground-heat. Deep roots drink hot ground without cooking. Bark holds vent-metals. Pre-collapse engineered shield-wood; inhabitants know a fault-wood, not a machine. Better ship-timber if a plank can be taken. Not a super-material.
+Use: timber (hard, slow), limited fuel (burns foul) | Notes: Dauðavík only. Midnight-dark conifer. Grows in ribbons along live geothermal faults, not as a blanket forest. Inside a stand the air is damp and about 10°C while the blizzard runs outside. Needles take low-angle light and ground-heat. Deep roots drink hot ground without cooking. Bark holds vent-metals. Pre-collapse engineered shield-wood; inhabitants know a fault-wood, not a machine. Better ship-timber if a plank can be taken. Too heavy for a whole hull. Strategic members only: keel, waterline, stem and stern. Not a super-material.
 
 Tundra sedge
 Domain: Land

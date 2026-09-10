@@ -321,6 +321,24 @@ Wilderness Foraging
   Packing: basket
   Basket (20 kg) → 6 sc 8 bc
   Cart load (200 kg, volume) → 66 sc 8 bc
+  Reindeer lichen uses this ticket. Winter graze. Slow. Not in the hot ribbons.
+
+  Fault-moss
+  Dauðavík greenhouse aisle under Svart-Viðr.
+  Wrap, packing, trench-seal. Not generic moss.
+  Base: 8 bc per kg
+  Bulk: 80 kg/m³
+  Packing: basket / wet-wrap
+  Basket (10 kg) → 6 sc 8 bc
+  Cart load (200 kg, volume) → 133 sc 4 bc
+
+  Tundra sedge
+  White floor between the ribbons. Poor fodder and thatch.
+  Base: 1 bc per kg
+  Bulk: 80 kg/m³
+  Packing: bundle
+  Bundle (15 kg) → 1 sc 3 bc
+  Cart load (200 kg, volume) → 16 sc 8 bc
 
   Bog Berries
   Base: 8 bc per kg
@@ -328,6 +346,16 @@ Wilderness Foraging
   Packing: basket
   Basket (5 kg) → 3 sc 4 bc
   Cart load (800 kg) → 533 sc 4 bc
+  Cloudberry uses this ticket. Wet tundra pockets. Not in the hot ribbons.
+
+  Lingonberry
+  Low evergreen. Stores through Longnight. Polar / boreal / alpine forage.
+  Same plant as Flora_Boreal. Not a garden strawberry.
+  Base: 6 bc per kg
+  Bulk: 400 kg/m³
+  Packing: basket
+  Basket (5 kg) → 2 sc 6 bc
+  Cart load (800 kg) → 400 sc
 
   Forest Berries
   Base: 5 bc per kg
@@ -438,6 +466,29 @@ Forestry
   Packing: wrapped / loose
   5 kg bow-stave → 12 sc 6 bc
   20 kg workshop lot → 50 sc
+
+  Svart-Viðr / Svartwood
+  Dauðavík fault-ribbons only. Not a blanket forest.
+  Midnight-dark conifer on live geothermal ground.
+  Heavy. Slow. Bark and sawdust sicken unless wet-wrapped.
+  Strategic members: keel, waterline, stem, stern. Not a whole hull.
+  Burns foul. Do not book it as charcoal-wood.
+  Base: 5 bc per kg (log, barked under wrap)
+  Bulk: 850 kg/m³
+  Packing: loose pile / wrapped members
+  Cart load (800 kg) → 333 sc 4 bc
+  Heavy-cart load (1,500 kg) → 625 sc
+  Selected member blank (200 kg at 2×) → 166 sc 8 bc
+  No barge-lot on the island unless a Jarn hull is already in the water.
+
+  Svart-bark (unworked)
+  Same tree. Vent-metals in the skin.
+  Not a timber. Not a dye until someone who knows the cost works it.
+  Base: 2 bc per kg
+  Bulk: 300 kg/m³
+  Packing: wet-wrap / basket
+  Basket (10 kg) → 1 sc 8 bc
+  Working it dry is a Hazard, not a workshop day.
 
   Charcoal
   Base: 6 bc per kg
