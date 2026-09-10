@@ -22,6 +22,9 @@ Same rule as tan-pits in Economy_Processing_Matrix.txt.
 Stay inside the categories below. Named examples are types within a category, not separate files.
 Core/Weaponry.txt Common cost is the mid of the band.
 
+Svartwood is structure, not spring. See PREMIUM: SVARTWOOD below.
+Do not tiller a bow-limb from it. Do not replace a steel prod with it.
+
 --------------------------------------------------
 BLADES
 --------------------------------------------------
@@ -333,16 +336,61 @@ Base price: 5–10 gc
 
 High-Poundage Crossbow
 Type: High-Poundage Crossbow
-Examples: windlass or cranequin
+Examples: windlass or cranequin; Jarn heavy / siege tiller-bow
 Inputs:
-  - heavy steel prod
-  - hardwood tiller
+  - heavy spring-steel prod
+  - hardwood tiller, or Svartwood tiller (Dauðavík)
   - lock and winding gear
-Labour Component Split (Total ~16 man-days):
+Labour Component Split (Total ~16 man-days; Jarn hybrid ~20):
   - Prod and winding gear: 10 days Higher skilled smith        @ 65 bc
   - Tiller:              4 days Basic skilled carpenter        @ 30 bc
+      Svartwood tiller:  6 days Hazardous + carpenter          @ 50 / 30
   - Lock fit:            2 days Higher skilled                 @ 65 bc
 Modifiers:
   - Windlass or cranequin counted in the fittings
+  - Svartwood tiller: finest frame. Spring-steel prod only.
+    Withstands repeated heavy bolts. Not a marching bow.
+    Add the tiller at processed Svartwood plank / member rates
+    and the extra Hazardous days. Band becomes 20-40 gc.
 Output: 1 piece
-Base price: 12–25 gc
+Base price: 12–25 gc (oak / ash tiller)
+            20–40 gc (Svartwood tiller, steel prod)
+
+
+--------------------------------------------------
+PREMIUM: SVARTWOOD
+--------------------------------------------------
+
+Dauðavík only. Structure, not spring.
+Processed tickets: Economy_Processed_Goods.txt (plank 20 bc/kg;
+selected member 6 sc/kg). Wet-wrap. Hazardous dust.
+
+Locked geometry for hand-weapon hafts
+  5-10% slimmer than the ash pattern. Not more.
+  Diameter x0.90 to x0.95. Mass still about x1.3 to x1.45 vs ash.
+  Enc tax stays. Do not pencil the shaft to kill the density.
+
+What it is for
+  Short stiff staffs that live in spray, ice, or fire-pots:
+  pollaxe, boarding-axe, mace, short war-spear.
+  Weather and rot are the reason you paid.
+  Langets remain iron.
+
+What it is not for
+  Bow-limbs. Crossbow prods. Glaive or bill that should live a little.
+  A marching field-haft you expect to ruin and replace.
+
+Haft modifier (on the ash-shaft weapon)
+  Replace the ash blank with Svartwood at the processed rate.
+  Add Hazardous shaping days.
+  Coin: about +1 to +3 gc on a Common pollaxe / mace, more if the
+  blank is a selected member.
+  Still a named piece, not a rack weapon.
+
+Tiller (locked hybrid)
+  Svartwood makes the finest crossbow tiller in the book.
+  Pair it only with a spring-steel prod.
+  The frame takes repeated heavy bolts without the tiller
+  opening. The spring is still steel.
+  High-Poundage / siege: 20-40 gc band above.
+  Ship and shore weapon. Not a goat's-foot for the road.
