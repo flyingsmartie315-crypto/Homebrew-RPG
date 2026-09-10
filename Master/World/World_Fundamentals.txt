@@ -10,8 +10,19 @@ Lorn (the true moon)
 SECONDARY CELESTIAL BODY
 The False Moon (appears irregularly; see The_Unveiling.txt)
 
+SIZE
+Pole-to-pole distance (surface meridian): 15,360 miles.
+Equator circumference: 27,300 miles.
+Larger than Earth, still a human-habitable terrestrial world.
+Pole-to-pole here is the surface run from pole to pole, not the through-axis diameter.
+
+AXIAL TILT
+24.5 degrees.
+Engineered in the deep past by a Pionari terraforming branch (see Peoples_Syllvani.txt). Inhabitants do not know this.
+Seasons are a little sharper than Earth's 23.4° tilt. Still four seasons: Thaw, Highsun, Harvest, Longnight.
+
 PLANETARY CHARACTER
-Virath is a terrestrial world broadly comparable to Earth in size, gravity, atmosphere, and temperature range. Humans can live and thrive across most of its surface without extraordinary aid. Seasons, weather, and day length function in familiar ways.
+Virath is a terrestrial world broadly comparable to Earth in gravity, atmosphere, and temperature range. Humans can live and thrive across most of its surface without extraordinary aid. Seasons, weather, and day length function in familiar ways.
 
 Despite this familiarity, Virath contains far more extreme topography and climate zones than a typical settled world:
 - Vast, near-endless tundras and polar wastes
@@ -23,8 +34,8 @@ Despite this familiarity, Virath contains far more extreme topography and climat
 These extremes shape culture, trade routes, warfare, and the practical limits of empire.
 
 DOMINANT SPECIES
-Humanity is the dominant and most widespread intelligent species on Virath. 
-Other fully sapient races exist, though they are generally fewer in number, more geographically limited, or less politically central than humans. 
+Humanity is the dominant and most widespread intelligent species on Virath.
+Other fully sapient races exist, though they are generally fewer in number, more geographically limited, or less politically central than humans.
 Their exact natures, origins, and relations with humanity vary widely by region and culture.
 Mutants, beastmen, and other abominations also appear, but these are regarded as corruptions or curses rather than natural peoples.
 
