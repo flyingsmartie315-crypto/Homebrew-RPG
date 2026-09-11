@@ -26,7 +26,10 @@ Shared / Border Local Regions
 Local Regions
 Working names only. No Local_Region file locked yet.
 - North Face / Spine country — alpine wall, Coritanian-facing wet side lives on the Heartlands file.
+- The Clypeo-Barra — western cluster. Cortani-named shield-bar.
 - Rain-shadow basins — central Valenidian river country. Sun-baked. Snowmelt rivers off the Spine.
+- Le Conche Verdi — inhabited hollows of the middle Spine. Green, insulated, low-altitude alpine valleys.
+- Valle Nevale — snow-washed floor south of Macigno Serrata. Wine and grape capital.
 - South coast — unnamed. Sea-board of the region.
 
 Notable Features
@@ -34,6 +37,26 @@ Notable Features
   Thermal wall. Traps northwestern prevailing ocean moisture and dumps it on the Coritanian border to the north.
   Leaves the central Valenidian river basins behind it sun-baked and dry.
   South-face water is snowmelt and whatever the shadow lets through, not a second Coritania.
+- The Clypeo-Barra — western cluster of the Orosian Spine.
+  Cortani offshoot in the northern shadow took softened Latin Monte-Clypeo (Shield Mountain) and smashed it against Barra — their word for a fence, barrier, blockade.
+  Vowels clipped. Blunt military compound. The shield that is also the bar.
+  West end of the wall, toward the sea and the Heartlands’ south-west.
+- Le Conche Verdi (the Inhabited Hollows) — heart of the middle Spine.
+  A sun-warmed network of interconnected, low-altitude alpine valleys, insulated from the outside world.
+  The green exception in a rain-shadow country. Settlement sits here, not on the wet Coritanian face and not on the baked open basins.
+- Macigno Serrata — eastern end of the Orosian Spine. The name is joined: a jagged monolith.
+  Macigno is the unyielding dark-stone mass. Serrata is the saw-notch and the lock.
+  One object. Closed gate toward Sauronia / the Plateau join.
+  The eastern spine runs about 170 miles. Black jagged basalt. High peaks hold a heavy winter pack.
+- Valle Nevale — the Snow-Washed Valley / Valley of the Glacial Melt.
+  Floor region at the southern base of Macigno Serrata.
+  Contemporary country: terrace farms on the volcanic foot. Man-made channels that trickle in Longnight and run in Thaw and Highsun.
+  Neat rows of planted trees hold the riverbanks.
+  All of it is led to a dammed lake on the valley floor. Aqueducts and cuts take the overflow when the water reaches a set margin. The live outflow runs toward the sea.
+  Older ground: a swamp. Melt came down the fissures and sat. A people cut the races, drained the stand, and planted.
+  Wine and grape capital. Mercantile powerhouse on the drained benches, trade down the outflow and out the east gate.
+  Waterworks sit inside Virath’s 16th-century ceiling. The type is older: Roman dams and leads, alpine bisses, Andalusí acequias. Living maintenance, not a relic machine.
+  People-file not yet written.
 
 Notes
 Rain-shadow is the character of the interior. Do not write lush Heartlands climate south of the crest.
