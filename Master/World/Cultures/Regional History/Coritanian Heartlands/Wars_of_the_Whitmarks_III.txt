@@ -1,0 +1,48 @@
+# Wars_of_the_Whitmarks_III
+
+Third war of the Whitmark cycle.
+Working names — pick later:
+- The Whitmark Wars (narrow sense: the pale-tower occupation)
+- Wars of the Pale Towers
+- The Long Host
+
+Not yet written.
+This is the century-fight after Thormund leaves an unfinished war: holds, white rings, hedges, tourney, absorption.
+Do not dump that spine back onto War 1 or War 2.
+
+Related
+Peoples_Adernvolk.txt
+Peoples_Cortani.txt
+Peoples_Coritanian.txt — not yet written
+Wars_of_the_Whitmarks.txt — cycle index
+
+WHAT EACH SIDE STOLE
+--------------------------------------------------
+Isernvolk took
+The saddle, when they could get horses.
+The hall-site, and built a keep on it.
+The need to look like a people who understand a riding-green.
+
+Cortani took
+Iron coverage they could not have made in the same volume.
+The white tower as a fact of the skyline.
+Charter and hedge as the language of the river.
+
+Together they made
+The mounted knight as caste and method of war.
+High swept roofs and spires on pale towers.
+A countryside of fields that still keeps room to ride.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+Suggested path:
+Master/World/Cultures/ or Master/Log/ or a Wars folder under World.
+Working path: Master/World/Cultures/Peoples/Early/Wars_of_the_Whitmarks.txt
+Move later if a Wars / History shelf is locked.
+
+Do not write a Roman legion into the Isernvolk.
+Do not write every Cortani as a lancer.
+Do not let levy crossbows or horse-mail become common or the long war has no air.
+
+Campaign hooks

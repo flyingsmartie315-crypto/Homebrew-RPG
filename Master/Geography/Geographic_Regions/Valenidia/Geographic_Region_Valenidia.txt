@@ -1,40 +1,44 @@
-# Geographic_Region_Valenidia
+# Valenidia
 
 Visual Reference
 maps/Map_Geographic_Region_Valenidia.jpeg
-Tile west / centre / east if labels fail.
+Neighbour context: maps show the south-coast land under the Coritanian Heartlands. Older sheet-label Valacidia is discarded. Name locked: Valenidia.
 
 Overview
-A large southern block of the north-west continent, bigger than a single Iberian analogue and carrying a serious mountain spine. Low country and long coasts sit against a highland core that behaves like an alpine wall. The climate splits: milder or hotter open land on the floors and shores, cold and steep country on the ranges. A major river on the northern edge divides Valenidia from the Coritanian Heartlands. This is the first big southward step of the continent: more light, more heat, and a harder upland than the heartlands above it.
+A south-of-Heartlands country defined by one wall. The Orosian Spine runs some 690 miles along the northern edge and separates Valenidia from the Coritanian Heartlands. It is an alpine thermal wall. Northwestern ocean wind hits the north face first; rain dumps on the Coritanian border. South of the crest the central river basins sit in rain-shadow: sun-baked, drier, fed more by snowmelt off the Spine than by local storm. The south coast is the other edge of the region, toward open sea.
 
 Location & Borders
-Valenidia occupies the large southern body of the mapped north-west: south of the Coritanian Heartlands, west of Saturnia, and open to the southern and western seas.
+South of the Coritanian Heartlands. Southwest of the Appolasian Plateau. West of Sauronia. Sea on the south.
 
 borders:
-- North: Coritanian Heartlands
-- Northeast: Appolasian Plateau / Saturnia
-- East: Saturnia
-- Southeast: [open / further east not yet locked]
-- South: Southern sea
-- Southwest: Southern / western sea
-- West: Western sea
-- Northwest: Coritanian Heartlands / western gulf
+- North: the Orosian Spine; Coritanian Heartlands beyond
+- Northeast: Spine / Plateau join; Appolasian south descent
+- East: Sauronia
+- Southeast: Sauronia / sea
+- South: sea
+- Southwest: sea
+- West: sea / western approaches
+- Northwest: Spine meeting the Heartlands’ south-west
 
 Shared / Border Local Regions
-- [The hinge river corridor] — shared with Coritanian Heartlands
-- [Eastern highland contact] — shared with Saturnia
-- [Northern alpine approaches toward the Plateau] — shared with Appolasian Plateau if the ranges connect
+- The Orosian Spine — 690-mile alpine wall. Shared with the Coritanian Heartlands. One file when written. Listed here as shared border, not as an inner-basin region.
 
 Local Regions
-- [Not yet defined]
-- [Not yet defined]
+Working names only. No Local_Region file locked yet.
+- North Face / Spine country — alpine wall, Coritanian-facing wet side lives on the Heartlands file.
+- Rain-shadow basins — central Valenidian river country. Sun-baked. Snowmelt rivers off the Spine.
+- South coast — unnamed. Sea-board of the region.
 
 Notable Features
-- A substantial internal mountain spine (the “Swiss Alps” element of the template)
-- Long southern and western coasts
-- The northern hinge river against Coritania
-- A climate split between hot or dry floors and high alpine country
-- Larger land area than Spain proper (about 359,000 square miles)
+- The Orosian Spine — 690-mile alpine wall separating Valenidia from the Coritanian Heartlands.
+  Thermal wall. Traps northwestern prevailing ocean moisture and dumps it on the Coritanian border to the north.
+  Leaves the central Valenidian river basins behind it sun-baked and dry.
+  South-face water is snowmelt and whatever the shadow lets through, not a second Coritania.
 
 Notes
-Treat Valenidia as Iberian in the lowlands and alpine in the high spine, not as a single uniform climate. Travel is easy on the floors and coasts, hard across the ranges. Local Regions should be split on that line: coastal/lowland blocks versus highland blocks, with the northern river as the contact with Coritania.
+Rain-shadow is the character of the interior. Do not write lush Heartlands climate south of the crest.
+Rivers in the dry basins should rise on the Spine if they run in Highsun.
+People of this geography: not yet filed.
+
+A Geographic Region does not take a Biome line or Environmental Scores.
+It inherits the biomes of its Local Regions.

@@ -1,0 +1,374 @@
+# War_of_the_First_Coronation
+
+Interim generation and second war of the Whitmark cycle.
+Isern chronicle-name: Thormund’s March to the Virelle.
+Cortani song: the First Coronation — Evran honoured as the unifying King of Coritania.
+Jarnvolk: Windcaller’s Surprise.
+Raid-legend: the Three Hundred. Not the war’s name.
+
+The March is the lightning road: Ostbruck, Ader mouth, Chevalac burned, the field, Vayrac on the river-highway. Wealth stripped on the way to the water. The Virelle is the sea he is marching to.
+
+See Wars_of_the_Whitmarks.txt for the cycle index.
+
+THE INTERIM GENERATION — THE BLACK MARKET POLES
+--------------------------------------------------
+Thirty years between Folly and the Second Host.
+Official border locked. Contact banned.
+
+The Black Market
+Isern iron and quarry tools leak south across the Ader.
+Cortani horses and stirruped saddles leak north.
+Smuggling cultures form in river coves and high burns.
+This trade is how the Isern raise their first mounted tradition: the iron-riders.
+
+The Southern Turmoil
+Cortani blood-feuds boil.
+Loher of Chevalac’s house, Audovald of Vayrac, and Elaynac cannibalise their own fields.
+They practise cavalry on each other. The lance is refined. The veteran pool is drained.
+Evran of Aderhall stays alive and active. He marries Viviane, sister of Rolund of Berthall.
+Hearthwin of Berthall grows up with Evran as family: father’s comrade, and uncle by that marriage.
+The Aderhall–Berthall alliance is strong. They keep absolute neutrality in the southern feuds and fortify the Ader line.
+
+The Northern Succession Crisis
+The peninsula king dies. Civil war across the Ebon Peninsula.
+A cunning victor takes the throne: Thormund of Westmark.
+Vaults drained. Vassals suspicious. He needs legitimacy, a common enemy, and plunder.
+
+--------------------------------------------------
+PERSONS OF INTEREST — ACT 2
+--------------------------------------------------
+Isern
+- Thormund of Westmark — early thirties. Victor of the peninsula succession. King of the Second Host. Unproven to his vassals.
+- Aldric of Adergate — Lord of the Rhennod Marches. Southern border is the Ader.
+- Sigvard of Highmarch — Lord of High March.
+- Grandmaster Gorst — Eyrenhost. Holds Ebormark in this generation. Marches with fifteen gryphon-riders.
+- Sindri Vindvari — Windcaller. Jarn warlord. Takes two cogs at the Vayrac berths. Full entry: Peoples_Jarnvolk.txt.
+
+Kannavi
+- Hallvard Ask of Westwood — now sovereign of Kannavald Deepwood. Must answer Thormund’s summons.
+- Askel Hallvardson of Westwood — firstborn. Leads the Kannavi longbow company.
+- Ketil Stavn — captain. Veteran of the first war. Advises Askel.
+
+Cortani
+- Evran of Aderhall — about sixty at the opening. Sharp, experienced, respected. Neutral on the Ader line until the second war. Married Viviane of Berthall. Falls in the fighting. Honoured as unifying King of Coritania. War-name in Cortani song: the First Coronation.
+- Viviane of Berthall — sister of Rolund. Wife of Evran. The marriage that binds Aderhall to Berthall in the interim.
+- Hearthwin of Berthall — Rolund’s successor. Late-to-early thirties. Sees Evran as uncle and as his father’s comrade.
+- Audovald of Vayrac — old, decrepit. Five sons arguing inheritance:
+  Chlodomer (eldest), Theuderic, Maurel — field-host smashed after Rillwash. Chlodomer committed too early.
+  Riann — holds Vayrac with the remnants.
+  Giselher — fifteen. Not on that field.
+- Loheric of Chevalac — Loher’s eldest. Splitting image of his father. First hold flattened after the Ader-mouth landing. About 60 miles west of the beach. Five to six days’ march plus a short storm on the hall.
+- Aurel of Elaynac — Sellis’s fourth-born. Survivor of Elaynac’s own succession crisis. Now head of house.
+
+--------------------------------------------------
+PHASE IA — THE DETONATION (THE SECOND WAR)
+--------------------------------------------------
+Thormund maps the Coritanian heartland for years through spy-merchants.
+He plays horselord feuds so there is zero coordination.
+
+Strategy
+Not a thrust over the Ader bridges. Evran spent thirty years closing those.
+Sea-hook: Ostbruck to the Ader mouth, then west at Chevalac, then the Vayrac field.
+Lightning is the tempo, not the road. No garrisons held. No outposts built. No land kept.
+The host lands, marches, razes, and salts. The point is to destroy Cortani wealth and force a premature field battle before Isern provisions fail.
+The March to the Virelle is this hook, not a river-road from Adergate.
+
+Operational spine (locked)
+Lightning manoeuvre → quick siege → lightning manoeuvre (harried) → started second siege → raided → quagmire.
+
+1. Lightning manoeuvre — Ostbruck, Ader-mouth landing, ferry, west toward Chevalac. Smoke on the road.
+2. Quick siege — Chevalac. Short storm. Hold burns.
+3. Lightning manoeuvre, harried — on from Chevalac. Villages raised on the highway-river corridor. Chlodomer commits after Rillwash. Field-host smashed there. Evran and Hearthwin arrive late and sting the rest of the road.
+4. Started second siege — ring under Vayrac.
+5. Raided — Windcaller’s Surprise at the berths. Two Osricford cogs.
+6. Quagmire — blitz dead. Years remain.
+
+--------------------------------------------------
+OSTBRUCK TO THE ADER MOUTH
+--------------------------------------------------
+Thormund and the vanguard sail from Ostbruck and make an amphibious landing near the mouth of the Ader.
+Once that beach is held, the fleet ferries the remainder of the host.
+That remainder has been sitting in the woodlands on the south of the Hornwood range, peninsula side.
+The mouth-span here is ten miles. Water is calm and smooth.
+
+Commute (working numbers; Isern cogs and barges, calm water)
+- Loaded one-way at 3–4 mph: about 3 hours.
+- Empty return: about 2½ hours.
+- Beach load or unload of men: 2–4 hours. Horses and wagons longer.
+- One hull-cycle: 9–12 hours.
+- Long-day working: one sure shuttle per hull, two if they carry men and not the train.
+
+The vanguard is on the far bank the day they land.
+The rest of the host is a matter of days, not weeks — if the sea stays flat and Evran is not on that beach.
+This is how the south-bank forts get skipped. They were built for a river road. He did not take the river road.
+
+Then west. Loheric of Chevalac’s holding. About 60 miles.
+A landed host with a train: 10–12 miles a day. Five to six days’ march.
+Smaller settlements and holdings on that road are raised as they go. Columns of smoke mark the passage.
+A hall, not Vayrac. Flattened. Time on the hold: a short storm of a day or two if Loheric is not ready for a sea-hook at his door.
+Then the road toward Vayrac. More smoke. Evran and Hearthwin will find a country already burning.
+
+Loheric is in the war from this moment. His house takes the first blow of the second host.
+
+--------------------------------------------------
+THE SMOKE OF THE MARCH
+--------------------------------------------------
+Smaller settlements are raised between the sieges. Columns of smoke mark the passage of the army.
+
+Before Chevalac — coastal strand and lowland marches
+Hit in the first week off the mud-flats onto the coastal road.
+- Strandwike — fishing and salt-pans on the landing reach. First smoke. The interior reads that the North has crossed the water.
+- Mirefoot — thatch cattle-hamlet on the reed-fringe. Vanguard runs the herders down before the stock can be driven inland.
+
+Between Chevalac and Vayrac — cultivated hill and vale
+After the two-day storm on Chevalac the column takes the highway-river corridor. Five to six days. Looted, razed, salted. The point is to drag Vayrac’s field-host out early.
+- Aethelgard — horse-breeding village on an old stone wellhouse. Stables burned with the breeding stock inside.
+- Claybalk — pottery and tile. Clay-pits choked with house-debris. Kilns used to melt local copper to ingot.
+- Oakhaven — timber for the downstream river-wrights. Seasoned oak taken for ladders and engine-frames. The rest burned to the stump.
+- Rillwash — watermills on a tributary. Wheels broken. Grain split into the water. Races jammed with stone.
+  Chlodomer’s blunder sits here. Each village up the road has been pressure. After Rillwash he commits too early.
+- Thorn-in-the-Plains — herding hamlet at a crossroads. Pens stripped to feed the host. Commons salted.
+- Grange-le-Moor — stone-paved grain-collection. Granaries burned until the ground bakes.
+- Barrow-edge — hamlet under a pre-migration mound. Emptied. Houses night-fire for the column.
+- Sweetburn — orchard, cider, bee-keeps. Trees felled to deny forage and cover to Evran’s trailing riders.
+- High-Cross — liturgical village, timber wayside shrine. Shrine thrown down. Square used as a muster.
+- Low-Water Line — barge landing. Wharves torched. Three loaded grain-barges scuttled in the shallows.
+- Virelle-Gate (the Smokes) — outermost market, three miles outside the Vayrac ring. Leveled.
+
+Host kit
+See SECOND WAR doctrine below.
+Lengthened poles. Kite shields widely adopted. Iron-riders on the flanks. Eyrenhost present for the first time.
+
+Vassal constraint
+Thormund is unproven. Junior vassals watch every grain-sack.
+He must win fast and hard or the host disbands under him.
+
+Kannavi
+Hallvard Ask answers the summons and stays sovereign at home.
+Askel Hallvardson leads the longbow company. Ketil Stavn advises.
+
+--------------------------------------------------
+ISERNVOLK — HOW THEY STAND (SECOND WAR)
+--------------------------------------------------
+Thormund’s host. Folly has been taught.
+
+Shields
+Kite shields widely adopted by cavalry and infantry alike. Round shields persist, especially among older men and poor levy.
+
+Poles
+Spears and polearms used by standing and levy alike are lengthened.
+Levy: simple long spear or Spikoar.
+Standing and elite: polearms. Many heads are multi-use — spike, cutting axe, hook to pull a man from the saddle.
+
+Armour
+Does not change much. Cosmetic and stylistic only. The first-war harness still fits.
+
+Crossbows remain premium and sit in the elite vanguard.
+
+--------------------------------------------------
+ISERNVOLK — HOW THEY RIDE (SECOND WAR)
+--------------------------------------------------
+Iron-riders. First Isern mounted tradition. Born of smuggled Cortani saddles in the interim.
+Not true warhorses. Light screening horse.
+Mounts: rouncey and hobby. Some rarer palfreys.
+They fight in the style Cortani guerrillas used against Harthold: sting, screen, cut a rear, do not stand a charge against real horse.
+
+Arms
+Light lances. Single-edged sabres, picks, or axes.
+Mounted crossbows are experimented with. They need mechanical advantage to draw from the saddle. Rare.
+
+They do not replace Cortani heavy horse. They keep the column from being eaten on the move.
+
+--------------------------------------------------
+KANNAVI — HOW THEY DRAW (SECOND WAR)
+--------------------------------------------------
+Askel Hallvardson’s company. Ketil Stavn advises.
+Mostly cosmetic change from the first war.
+
+Some higher-poundage bows.
+Spikoars are popular and often replace the old six-foot stave, even though they weigh more. That is the Ader lesson walking north.
+
+Logistics
+Hobby and rouncey bred and trained in Kannavald Deepwood. A valuable buffer. Pack, remount, and path-finding — not a Kannavi cavalry arm.
+
+--------------------------------------------------
+CORTANI — HOW THEY RIDE (SECOND WAR)
+--------------------------------------------------
+Thirty years of closed border, black-market iron, and hall-feud.
+Holdings fortified. Industry grew. Trade expanded.
+
+Armour
+Isern enclosed helms become popular among the better-off.
+Crested open helms persist on men who would rather be seen than take the kettle-brim lesson.
+Coat of plates catches on and starts to replace scale as the more protective option. Scale fashion persists.
+Armour is more available. Iron is a premium the horselords willingly pay.
+
+Mercenary work
+Cortani horse proves valuable abroad. A tradition of paid service starts.
+In the closed-border thirty years this is leaky-ban work or off-map work — Plateau fringe, sea towns.
+It is not half the warrior caste gone when Thormund comes.
+
+Arms
+More emphasis on tools that defeat armour. War hammers and maces rise over blades.
+Lances lengthen so a rider can skirt a wall of spears.
+Standing class favour higher-poundage bows out of necessity.
+They close the gap on the crossbow. They do not erase pavise.
+Kannavi bodkin heads are copied and start to fill Cortani quivers.
+
+Horse
+Quilted and mail trappers more available — mainly quilted.
+Flax and hemp become major crops in Cortani holdings to feed that demand.
+Plate-mail barding is hall-wealth. A few beasts at Vayrac. Not a field of armoured horses.
+
+Freemen
+The old dismount-to-shieldwall doctrine has to adapt.
+Lords mandate harder martial standards. Freemen are expected to fight competently from the saddle as light screening and harassing horse.
+A standard of arms and armour is now part of a freeman’s obligation.
+
+They are still not Isern foot. They are still not all warrior-caste. The levy can sting from the saddle. The elite still own the heavy charge.
+
+--------------------------------------------------
+EYRENHOST — HOW THEY STRIKE (SECOND WAR)
+--------------------------------------------------
+First time the vale-host marches east.
+Grandmaster Gorst and fifteen bonded riders.
+Gryphons are earthbound. They do not fly the field. They do not hold a sky.
+The gryphon is a leaping shock-beast. It can take a warhorse in seconds. The thrown rider is speared by the bonded man.
+Horses fear the beast. Where the Eyrenhost is present on a road or a green, Cortani are denied their favourite ambush.
+They are not present on every road. They cannot cover a berth from the air. There is no air-guard.
+
+The rider is adorned like a king.
+Full-length mail hauberk, full sleeves.
+Cuirass coat of plates. Pauldrons, rerebraces, couters, vambraces. Articulated gauntlets.
+Head is rider’s choice: visored great helm with proud wings over arming cap, mail coif, and skull cap — the heavy helm can come off; or the new fashion, bascinet and aventail with a raisable visor.
+Legs: splinted cuisses, poleyns, splinted riding boots with sabatons.
+
+From the saddle of a living weapon: great lance.
+Sidearms: long-hafted flanged maces and hammers with spiked tips. Reach is the point.
+Arming sword is for the ground only.
+Gryphon saddles carry more than a horse-saddle.
+The pauldron of the throwing arm is often discarded so bundled javelins can be thrown.
+
+This harness is vale-wealth. It is not the Isern foot’s kit. Do not leak sabatons onto levy.
+
+--------------------------------------------------
+RILLWASH FIELD, THEN THE VAYRAC RING
+--------------------------------------------------
+Chevalac falls. The hold smokes. The column goes on.
+Aethelgard, Claybalk, Oakhaven, then Rillwash.
+Each burn is pressure on Chlodomer. After Rillwash he commits too early.
+Vayrac’s host comes out under the three elder sons: Chlodomer, Theuderic, Maurel.
+The field-host is smashed in that country, not at Chevalac’s gate.
+Remnants fall back on Vayrac under Riann.
+The road still burns: Thorn-in-the-Plains through Virelle-Gate. Evran and Hearthwin arrive late onto a country already marked in smoke.
+Giselher is fifteen. He is not on that field. His absence is age, not policy.
+
+Vayrac is still a Cortani hall-city. Timber, hill, river. Not a Whitmark white ring.
+
+A joint host of Evran of Aderhall and Hearthwin of Berthall arrives in the aftermath.
+Too late for the field. They do not try to win the green Thormund already won.
+They sting the marching host and the camp that settles under Vayrac.
+This time iron-riders and the Eyrenhost make the old Ader guerrilla expensive.
+Evran and Hearthwin keep the pressure anyway.
+
+That is why the earthworks exist.
+Not Alesia. Not a mathematical close.
+Open riding-country, horsemen on the rim, a city still shut.
+The quickest protection a foot-host can throw up: trench and palisade around the siege camp, enough inner work to keep Vayrac in, enough outer work to keep Evran’s riders off the tents and the berths.
+Labour spent on surviving the night, not on owning Coritania.
+
+The ring is warranted. It is not victory.
+
+Gorst that night
+Inland. Horse-side of the ring. Fifteen earthbound beasts watching Evran and Hearthwin, which is the job they were marched east to do.
+They are not a sky-guard over the wharves. They cannot be. The berths are a different edge of the camp, behind trench and palisade, on the river. By the time fire and smoke sit on that edge, Gorst is still a ground-ride away.
+
+--------------------------------------------------
+THE VINVARI INTERRUPTION
+--------------------------------------------------
+Fulcrum of the second war.
+Sindri Vindvari’s raid on the Vayrac berths, and Jarn probes on the Ebon shore, are what turn Thormund’s lightning thrust into the quagmire.
+The war does not end here. The blitz does.
+
+How the Jarnvolk enter
+In the interim, Jarn pathfinders have been on the western sea-boards: tool-staves and scarce goods for southern cloth and charts.
+Sea-ghost raiders are known. Isolated. Small. A burned boat, a missing coaster, a story in a strand-house.
+The crown does not treat them as Osric’s lost wing. Not until the probes and the two cogs.
+Evran of Aderhall uses that channel.
+He sees the smoke of Thormund’s march and knows Vayrac’s fall would break the south.
+He sends harbour-layouts and a request: hit the unprotected peninsula ports. Make the king go home.
+That part works. Jarn warlords probe the Ebon shore. Mass calls reach Thormund’s tent: return and defend the strand.
+
+Sindri Vindvari — Windcaller — does not take the intended target.
+Young. Eccentric. Ambitious.
+He reads weather the way other men read a coast. Crews already trust that. It is not prophecy on the page.
+He sails past the peninsula and rides a hard northern gale down the ocean corridor to the Virelle mouth.
+
+His task force
+- Flagship: Svart-Skeið — sixty oars. All Svart-Viðr. That is the only ship-timber on Dauðavík.
+- Four Svart-Snekkjur — thirty oars each. Same wood. Same weight-cost.
+Ordinary timber is the polar prize. The two Osricford cogs matter because they are oak.
+- About 240 marine raiders.
+Later chronicles call them the Three Hundred of the Windcaller.
+
+The berth-raid
+Late, dying moon.
+Two of Thormund’s Osricford cogs, bound for the siege camp as scheduled resupply, are taken in the foggy coastal channels at the Virelle mouth.
+The captured cogs tie up at the improvised timber wharves. Watchmen expect Isern stores. No alarm.
+The longships sling in behind them and ground in the soft river berths.
+
+Jarn raiders go over the side with axes and pitch.
+They kill on the boards. They soak shoreward food-depots, winter forage, and palisade-timber in tar, oil, and resin, and put fire through it.
+The grain and dry camp-stores go up as a wall. Heat and smoke sit on the earthworks. Landward captains think Evran has broken the ring. Men grab long-poles in the dark and cannot cross their own trench to the wharves.
+
+Behind that fire Sindri’s crews work the boards.
+They do not load grain. They take:
+- royal pay-chests
+- finished munitions: steel heads, horseshoes, replacement shafts
+- Cortani silk, tapestry, and silver-inlaid barding already stripped from the field-take and stowed for the peninsula
+- arms and harness meant for the Eyrenhost and the king’s retainers
+
+Two cogs. That is the hull-take. Locked.
+The rest of the river-shipping is left burning, stove, or useless. 240 men do not crew a merchant squadron.
+
+When the fire falls and the vanguard finds a way around the ring, the lines are cut.
+Sindri does not burn the two prizes. Deep oak hulls are maritime capital.
+Longships and the two cogs take the falling current down-channel into autumn sea-fog.
+
+What it does
+The siege-math breaks.
+Pay-silver, shafts, and the story Thormund sold his junior vassals are on two hulls heading north.
+Shore food is ash.
+Vassals will not throw another spade. Within days the ring under Vayrac is abandoned. The host begins a hungry move north.
+That is the end of the lightning war.
+It is not the end of the war.
+
+The two cogs go to hidden northern-cliff caches and are shuttled toward Dauðavík over the season.
+They enlarge Jarn cargo. They do not make a naval monopoly.
+
+On the peninsula the probes continue. That is the domestic fire Thormund cannot ignore forever.
+At Vayrac, Riann still holds the hall. Evran and Hearthwin are still in the country. Evran invited a third host onto Cortani water. That bill comes later.
+
+--------------------------------------------------
+OUTCOME OF THE SECOND WAR
+--------------------------------------------------
+Not a season. Multiple years. Brutal. Indecisive.
+The host is sustained by plunder and spoils, not by a secure rear.
+Thormund never gets the single field that ends the country. The horselords never get the single field that ends him.
+
+Rillwash is the field. The Vindvari Interruption is the fulcrum.
+After the berths burn, there is no more lightning. What remains is quagmire: sting, forage, half-sieges, Jarn rumour on the home strand.
+
+Evran of Aderhall falls later in that fighting.
+He becomes a legend of Coritania: the noble defender of the Ader and the halls.
+Cortani song names this war the First Coronation. Evran is honoured as the unifying King of Coritania — the first high king the halls would not give the first war.
+The other Cortani lords limp home and rebuild.
+They are now unified against the North. Evran’s kingship and death do what the first war could not.
+
+Thormund has to return to the Peninsula to address dire domestic concerns — Jarn on the west-board among them.
+He leaves a war unfinished. That is the shape of Act 2.
+
+Years after the ring are not yet written beat by beat.
+The end-state is locked. The fulcrum is locked.
+
+--------------------------------------------------
