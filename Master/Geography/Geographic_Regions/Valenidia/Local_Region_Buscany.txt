@@ -1,0 +1,69 @@
+# Local_Region_Buscany
+
+Overview
+The wooded north-west foot of the Clypeo-Barra. Open pasture between timber-clusters. Sea to the west. A river on the east. Boscan country: herds on the green, halls only in the heart of a grove.
+About 21,600 square miles on the working sheet.
+
+Biome: Temperate / Wood-pasture
+Sub-biomes: Forest cluster, Pasture, Coast, River
+Wet face of the shield-bar. Not rain-shadow basin. Not Le Conche Verdi.
+
+Environmental Scores
+Temperature: 3 | Rainfall: 4 | Human Density: 2 | Flora: 4 | Fauna: 3 | Topography: 2–3 | Hydrology: 3
+Harvest aggregates of the land-cover features below.
+Point sites are not averaged in.
+
+Height: foot / low hill
+
+Seasonal modifiers: Temperate (wetter than Valenidia south of the Spine)
+
+Visual Reference
+maps/Map_Local_Region_Buscany.jpeg
+
+--------------------------------------------------
+NOTABLE FEATURES
+--------------------------------------------------
+
+Clypeo-Barra (north face)
+The wet, timbered foot of the western cluster. Shared wall; full mountain write-up lives on Geographic_Region_Valenidia.txt and the Heartlands file when written.
+Biome: Temperate / Highland foot
+Temperature: 2–3 | Rainfall: 4 | Human Density: 1–2 | Flora: 4 | Fauna: 3 | Topography: 3–4 | Hydrology: 3
+
+Grove-clusters
+Managed timber stands. Every Boscan hall sits inside one. The trees are the palisade.
+Biome: Forest
+Temperature: 3 | Rainfall: 4 | Human Density: 2–3 | Flora: 5 | Fauna: 3 | Topography: 2 | Hydrology: 3
+
+Open pasture
+Fields between the groves. Herd country. No hall on the naked green.
+Biome: Temperate
+Temperature: 3 | Rainfall: 3–4 | Human Density: 1–2 | Flora: 3 | Fauna: 3 | Topography: 2 | Hydrology: 2–3
+
+West strand
+Sea-board of Buscany.
+Biome: Strand / Temperate
+Temperature: 3 | Rainfall: 4 | Human Density: 1–2 | Flora: 2 | Fauna: 3 | Topography: 1 | Hydrology: 4
+
+East river
+The water that bounds the country on the east. Name not locked.
+Biome: River
+Temperature: 3 | Rainfall: 4 | Human Density: 2 | Flora: 3 | Fauna: 3 | Topography: 2 | Hydrology: 4
+
+--------------------------------------------------
+LINKED SETTLEMENTS
+--------------------------------------------------
+- [Grove-halls — to be named]
+
+--------------------------------------------------
+LESSER / SCATTERED / SEASONAL
+--------------------------------------------------
+Herding camps on the open between stands.
+Strand workings and timber-takes at the grove-edge.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+People: Boscan / Buscan. File: Peoples_Boscan.txt.
+Cortani offshoot. Northern cousins ride the Heartlands. The grove is the answer to the charge.
+Parent Geographic Region: Valenidia.
+When no (bracketed detail) is included in a notable feature, assume the feature is wholly within this local region’s borders.

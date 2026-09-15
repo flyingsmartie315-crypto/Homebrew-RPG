@@ -1,0 +1,69 @@
+# Local_Region_Holtwald
+
+Overview
+The jagged western stone buttress of Valenidia. Intensely hilly throughout. No open plain. The limestone bulk of the Clypeo-Barra stands on the southern horizon and breaks north and west into knolls, ridges, flagstone crests, and narrow rock-gills. The land takes the full western ocean fetch and holds it. About 14,700 square miles on the working sheet.
+
+Biome: Temperate / Wet hill-wood
+Sub-biomes: Alpine foot, Forest, Wetland, Strand, River
+Milder than the polar north. Wetter than Valle Nevale. Not a dry rain-shadow floor. Atlantic-wet temperate, not Provençal dry.
+
+Environmental Scores
+Temperature: 3 | Rainfall: 5 | Human Density: 2 | Flora: 4 | Fauna: 3 | Topography: 4 | Hydrology: 5
+Harvest aggregates of the land-cover features below.
+Point sites are not averaged in.
+
+Height: hill / knoll / mountain-foot
+
+Seasonal modifiers: Temperate, ocean-wet. Highsun gales on the strand.
+
+Visual Reference
+maps/Map_Local_Region_Holtwald.jpeg
+
+--------------------------------------------------
+NOTABLE FEATURES
+--------------------------------------------------
+
+Clypeo-Barra (west / north-west foot)
+Limestone shield on the southern horizon of this region. Shared wall.
+Biome: Highland / Temperate
+Temperature: 2–3 | Rainfall: 5 | Human Density: 1 | Flora: 3–4 | Fauna: 2 | Topography: 5 | Hydrology: 4–5
+
+Hill-woods
+Every hill carries trees. Oak, sweet chestnut, maritime pine on the inner rises. Wind-stunted on the seaward crests. Solid drained rock above the flooded bottoms.
+Biome: Forest
+Temperature: 3 | Rainfall: 4–5 | Human Density: 2–3 | Flora: 5 | Fauna: 3 | Topography: 3–4 | Hydrology: 3
+
+Rock-gills
+Deep-cut mountain chasms and roaring burns at the peak-foot. Sharp limestone scree. Fast water.
+Biome: River / Highland
+Temperature: 2–3 | Rainfall: 5 | Human Density: 0–1 | Flora: 2 | Fauna: 2 | Topography: 5 | Hydrology: 5
+
+Midland Mire
+Valley bottoms between the knolls. No river-highway. Runoff sits. Peat-bog, mud, reed. Barrier to heavy transport.
+Biome: Wetland
+Temperature: 3 | Rainfall: 5 | Human Density: 1 | Flora: 3 | Fauna: 2–3 | Topography: 1–2 | Hydrology: 5
+
+Fjord-coast and skerries
+Jagged limestone inlets. Exposed reefs. Violent coastal current.
+Biome: Strand / Temperate sea
+Temperature: 3 | Rainfall: 5 | Human Density: 1–2 | Flora: 2 | Fauna: 3 | Topography: 3–4 | Hydrology: 5
+
+--------------------------------------------------
+LINKED SETTLEMENTS
+--------------------------------------------------
+- [Ridge-steads on wooded knolls — to be named]
+- [Mire log-holds and strand-havens — to be named]
+
+--------------------------------------------------
+LESSER / SCATTERED / SEASONAL
+--------------------------------------------------
+Corduroy roads and timber revetments across the mire.
+Cliff-quarries. Seasonal netting camps on the fjord-fingers.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+People: Hyrstwoods (endonym). Holtfenns to Boscan neighbours. File: Peoples_Hyrstwoods.txt.
+Parent Geographic Region: Valenidia.
+East of this pocket is Buscany. Do not merge the two woods.
+When no (bracketed detail) is included in a notable feature, assume the feature is wholly within this local region’s borders.

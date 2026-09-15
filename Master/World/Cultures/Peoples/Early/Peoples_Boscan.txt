@@ -1,0 +1,60 @@
+# Peoples_Boscan
+
+Umbrella / parent
+Cortani offshoot. Syllvani line under that.
+Valenidia. Frontier wood-kings of the Clypeo-Barra’s north-west foot.
+
+Formal name
+Boscan (locked).
+
+Common names
+Buscan (rugged / frontier mouth).
+Grove-Lords. Timber-Shield. Wood-Kings.
+
+What this file is
+The people of the timber-clusters on the open country north of the Clypeo-Barra, between the western sea and the river that runs the east of that foot.
+They live in the open for the herds. They will not plant a hall in the open. Every fortified stead sits inside a wood-cluster. The trees are the palisade.
+
+--------------------------------------------------
+GM META — ORIGIN
+--------------------------------------------------
+Cortani offshoot. Horse-hall people who took the timber-foot and stopped building on the naked green.
+The name is an old grove-word (bosco) hardened by Cortani outdoor speech. Boscan / Buscan.
+In-world meaning: Masters of the Groves. Those of the Timber-Shield.
+Not Palatini. Not Idraulici. Northern cousins are the Heartlands Cortani — same stock, different law. The charge is why the hall sits in the wood.
+
+--------------------------------------------------
+DEEP NAME VS SURFACE NAME
+--------------------------------------------------
+Deep: Boscan.
+Surface: Buscan, Grove-Lords, Timber-Shield.
+Place-anchor: the wooded foot north of the Clypeo-Barra. Working map-area about 21,600 square miles.
+
+--------------------------------------------------
+GEOGRAPHY AND CULTURE
+--------------------------------------------------
+Sea to the west. Clypeo-Barra to the south. A river on the east of the country. Timber in clusters, not one Deepwood.
+Open fields between the groves are for herds.
+Halls go in the heart of a wood-cluster. The stand is the wall against the massive cavalry of their northern cousins, the Cortani.
+They refuse a hall on the naked plain. That is the law of the stead.
+
+--------------------------------------------------
+RELATION
+--------------------------------------------------
+Cortani of the Heartlands: parent stock and northern cousins. Horse and charge. The reason the hall sits in timber. Still kin. Not the same people.
+Palatini: Spine-lords in Le Conche Verdi. Charter-kin at a distance. Not grove-law.
+Idraulici: valley wrights east and south of the wall. Water-people. Trade, not a shared house.
+Clypeo-Barra Cortani offshoot (the namers of the shield-bar): nearest mountain-shadow neighbours.
+
+--------------------------------------------------
+PERSONS OF NOTE
+--------------------------------------------------
+None locked.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+File path when committed:
+Master/World/Cultures/Peoples/Early/Peoples_Boscan.txt
+
+The grove is a shield. The field is a pasture. Do not give them a city on the open green.

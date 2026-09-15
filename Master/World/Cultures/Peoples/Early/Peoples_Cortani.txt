@@ -129,10 +129,12 @@ BRANCHES / LOCAL STOCKS
 List only if a distinct hill-stock or river-stock is locked.
 Each would get Peoples_Cortani_[Name].txt
 
+- Boscan / Buscan — Cortani offshoot. Grove-halls on the north-west foot of the Clypeo-Barra. File: Peoples_Boscan.txt
 - [River halls] — [one-line]
 - [Hill circuits] — [one-line]
 
-Until then, treat Cortani as one people with a river face and a hill face.
+Heartlands Cortani remain one people with a river face and a hill face.
+Boscan are a locked offshoot, not a hill-circuit of Vayrac.
 
 --------------------------------------------------
 PERSONS OF NOTE
@@ -148,9 +150,10 @@ First war — no high king. Five halls.
 - Loher of Chevalac dies in a hunting accident not long after the first war.
 
 Act 2
-- Evran of Aderhall — about sixty. Sharp. Neutral on the Ader line with Berthall.
-- Hearthwin of Berthall — Rolund’s successor. Late-to-early thirties.
-- Audovald of Vayrac — old, decrepit. Five sons: Chlodomer (eldest), Theuderic, Maurel, Riann, Giselher.
+- Evran of Aderhall — about sixty at the opening of the second war. Married Viviane of Berthall. Falls in the fighting. Honoured as unifying King of Coritania. Cortani name the second war the First Coronation. Whether he is crowned in life or only in the song is not yet written. The living lords unify against the North.
+- Viviane of Berthall — sister of Rolund. Wife of Evran. Binds Aderhall to Berthall.
+- Hearthwin of Berthall — Rolund’s successor. Late-to-early thirties. Treats Evran as uncle and as his father’s comrade.
+- Audovald of Vayrac — old, decrepit. Five sons: Chlodomer, Theuderic, Maurel (field-host smashed after Rillwash); Riann (holds Vayrac); Giselher (fifteen; not on that field).
 - Loheric of Chevalac — Loher’s eldest. Splitting image of his father.
 - Aurel of Elaynac — Sellis’s fourth-born. Survivor of Elaynac’s succession crisis. Head of house.
 

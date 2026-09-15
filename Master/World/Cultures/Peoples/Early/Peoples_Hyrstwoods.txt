@@ -1,0 +1,67 @@
+# Peoples_Hyrstwoods
+
+Umbrella / parent
+Isernvolk offshoot. Early category. Not peninsula Isern. Not Jarnvolk. Not Adernvolk.
+
+Formal name
+Hyrstwoods (locked).
+Hyrst-Wudas in the oldest mouth.
+
+Common names
+Holtfenns / Holt-Fennas — Boscan and other eastern neighbours. Dwellers of the wooded mires.
+Keepers of the Wooded Knolls (their own gloss).
+
+What this file is
+A forgotten south-running fragment of the Isern crossing, shoved into the wet western buttress of Valenidia when the dry floor was already held.
+Ridge-steads on oak-and-chestnut knolls. Log-roads on the mire. Oak dories through the skerries.
+
+--------------------------------------------------
+GM META — ORIGIN
+--------------------------------------------------
+Same Second Wave Ingenari stock as the Isernvolk.
+Not Jarnvard’s wing. Not Osric’s vanguard.
+A smaller splinter tracked too far south down the western coast while the main host held the Ebon line.
+The fertile dry lowlands of Valenidia were already locked by Idraulici masonry. They would not bend the knee to Ordinari charter.
+They took the rain-pocket no one else wanted: Holtwald.
+
+--------------------------------------------------
+DEEP NAME VS SURFACE NAME
+--------------------------------------------------
+Deep / own: Hyrstwoods — hyrst (wooded hillock) + wudu (standing timber). Keepers of the Wooded Knolls.
+Neighbour-name: Holtfenns — holt + fenn. What a Boscan horseman sees: grove and bog.
+Land-name: Holtwald — holt + weald. The thick wooded hill-country. Local_Region_Holtwald.txt.
+
+--------------------------------------------------
+GEOGRAPHY AND CULTURE
+--------------------------------------------------
+Seat: Holtwald. About 14,700 square miles. Intensely hilly. No plain.
+Stone-flagged longhouses on the crested knolls. The grove on the high drained rock is sovereign ground.
+They abandoned open-field farming. The bottoms are mire.
+Holtfenn work: oak from the holts, revetments, log-bridges, corduroy roads so the silt does not eat the country.
+Hill work: iron and lead tunneled from limestone crags. Not a fat ore-mark. Enough to arm and to trade.
+Sea work: deep-netting, cliff-quarry, coastal haul. Wide oak-ribbed dories through skerries and Highsun gale.
+They smuggle northern iron-work down the coast to southern city-states for grain and Valle Nevale wine.
+
+--------------------------------------------------
+RELATION
+--------------------------------------------------
+Isernvolk of the Ebon Peninsula: lost main-host. This splinter is not in Osric’s landing-song. Not Jarnvolk.
+Jarnvolk: another lost piece of the same crossing, polar where these went wet-south. No compact written.
+Boscan of Buscany: eastern neighbours. Grove-halls and herds. They coined Holtfenns. Kinship of timber, not of blood.
+Idraulici: the masonry that closed the dry floor. Trade partners. Not lords.
+Palatini / Ordinari charter-houses: refused. The reason this people is in the rain.
+Cortani of the Heartlands: horse to the north of the Spine. The mire and the knoll are the answer to a charge.
+
+--------------------------------------------------
+PERSONS OF NOTE
+--------------------------------------------------
+None locked.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+File path when committed:
+Master/World/Cultures/Peoples/Early/Peoples_Hyrstwoods.txt
+
+A third Isern piece, not a third king-brother.
+Osric and Jarnvard remain the schism of the fleet. This is a forgotten boat that missed both shores.

@@ -1,0 +1,73 @@
+# Peoples_Idraulici
+
+Umbrella / parent
+Pionari stock. Valenidia. Water-wrights of the lowlands.
+Ordinari influence is thin and practical, not a palace line.
+
+Formal name
+Idraulici (locked).
+The Engineers. Master-Wrights.
+
+Common names
+Wrights. Race-men. Ditch-lords ( Palatini insult that stuck).
+
+What this file is
+The pragmatic Pionari who stayed on the valley floor when the Palatini climbed.
+They fought the malaria swamp. They cut the races. Valle Nevale’s making is their work.
+
+--------------------------------------------------
+GM META — ORIGIN
+--------------------------------------------------
+Wave 1 Pionari, kept closer to the craft than to the charter.
+Working blood-claim: about 99% Pionari, 1% fragmentary Ordinari root.
+Treat 99% as a purity-story the wrights tell. It is a banner, not a count.
+Pre-collapse they were the hands on the premium country the Palatini administered.
+Name: the hydraulic engineers. Master-wrights of water, masonry, and the dam.
+
+--------------------------------------------------
+DEEP NAME VS SURFACE NAME
+--------------------------------------------------
+Deep: Idraulici.
+Surface: Wrights, Engineers.
+Place-anchor: the drained lowlands. Valle Nevale first among them.
+
+--------------------------------------------------
+GEOGRAPHY AND CULTURE
+--------------------------------------------------
+They live where the water sits if no one moves it.
+Terraces, channels that trickle in Longnight and run in Highsun, bank-trees, the dammed lake, the margin-outflow.
+Culture of maintenance. A race that is not cleaned is a swamp coming back.
+They did not flee the Unveiling. They lost people to it and kept the work.
+
+--------------------------------------------------
+THE BREAK
+--------------------------------------------------
+Unveiling.
+Valley becomes swamp and war.
+Idraulici factions stay. Centuries of tribal fight to a city-state floor.
+Walled cities rise on the drained ground.
+Some lingering Ordinari descendants use legal pedigree to sit as sovereign elite of those city-states.
+The Idraulici remain the reason the cities do not drown. That is leverage. It is not always a crown.
+Novari inflow is not this people’s story. Held for later peoples.
+
+--------------------------------------------------
+RELATION
+--------------------------------------------------
+Palatini: old partners who left. First-Seat claims over water they do not stand in. Useful charters. Bad neighbours in a dry year.
+City-state Ordinari elites: pay the wrights or the lake rises. Pedigree does not lift a sluice.
+Novari: not in this file. Later peoples.
+Cortani of the Clypeo-Barra shadow: horse-neighbours on the wet north face. Trade and raid, not kin.
+
+--------------------------------------------------
+PERSONS OF NOTE
+--------------------------------------------------
+None locked.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+File path when committed:
+Master/World/Cultures/Peoples/Early/Peoples_Idraulici.txt
+
+Valle Nevale’s swamp-to-vintage story is this people.
+They are not the Palatini with dirt on their hands. They stayed.

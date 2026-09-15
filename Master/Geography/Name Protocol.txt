@@ -1,0 +1,76 @@
+# ==============================================================================
+# VIRATH DEVELOPMENT SYSTEM: COGNITIVE DIRECTIVE FOR CONTEXTUAL NOMENCLATURE
+# PROTOCOL: GEN NAME ()
+# ==============================================================================
+
+[SYSTEM CONTEXT]
+The `GEN NAME ()` protocol is a universal world-building engine. It dynamically generates faction, culture, and societal names by analyzing the interplay between two foundational drivers:
+1. THE ETHNIC LINGUISTIC BASE – The historical or ancestral language structure of the population group (e.g., Old Anglo-Saxon, Softened Vulgar Latin, High Imperial Ordinari).
+2. THE PHYSICAL ENVIRONMENT – The immutable geographical rules, climate parameters, and hydrological features of the territory they occupy.
+
+[INSTRUCTIONS FOR PROCESSING QUERIES]
+When executing this protocol, the engine must break down each suggestion into three highly scannable sub-components to verify systemic and narrative logic:
+- ETYMDLOGICAL BREAKDOWN: The literal linguistic fragments, compound roots, and historical shifts used to synthesize the name.
+- IN-UNIVERSE MEANING: The straightforward translation or conceptual title of the name within the setting's common high-tongue.
+- THE VIBE / THE CULTURE: A punchy qualitative analysis detailing how the group's everyday survival, architecture, warfare, or historical trauma is visually and behaviorally manifested by this title.
+
+--------------------------------------------------------------------------------
+CORE PARADIGM EXAMPLE: ANGLO-SERN HIGH-MOISTURE PENINSULA MATRIX
+--------------------------------------------------------------------------------
+Input Constraints:
+- Linguistic Base: Archaic Old English / Anglo-Saxon.
+- Environmental Baseline: Intensely hilly throughout; tree-line locked to ridges; milder temperate climate with massive, saturated water runoff and midland valley mires.
+
+1. The Hyrst-Sætan
+- Etymological Breakdown: Compound of "Hyrst" (the ancient architectural marker for a prominent, steep hillock covered entirely in trees) and the suffix "-sætan" (the settlers/dwellers).
+- In-Universe Meaning: "The Wooded-Hill Settlers."
+- The Vibe: This name explicitly satisfies both landscape rules in one word. It treats the stock as a proud highland populace whose entire civil existence is elevated on the tree-capped knolls.
+
+2. The Clif-Weardas
+- Etymological Breakdown: Compound of "Clif" (the sheer rock spurs and limestone coastal cliffs) and "-weardas" (the guardians/wardens/keepers).
+- In-Universe Meaning: "The Cliff-Guardians."
+- The Vibe: A martial, unyielding title. It highlights their strategic position guarding the coastal fjord-fingers and the rocky northern nose of the mountain shield.
+
+3. The Clof-Acis
+- Etymological Breakdown: Smashing together "Clōh" (the narrow mountain fissures/ravines) and "Ac" (the ancestral, broad-leaf temperate oaks thriving on the slopes).
+- In-Universe Meaning: "The Ravine-Oaks."
+- The Culture: A deeply environmental name. It frames the people as stubborn and deep-rooted as the massive oaks that anchor the shifting limestone ravines against the mountain runoff.
+
+4. The Sclōh-Ditchers
+- Etymological Breakdown: A functional frontier compound using "Sclōh" (the waterlogged valley bottoms) and the occupational marker "Ditcher" (from Dician, to dig cuts/trenches).
+- In-Universe Meaning: "The Mire-Drainers."
+- The Culture: The grimy, practical labor core of the faction. It represents the master log-wrights who build the timber dikes and corduroy roads across the marshy midlands.
+
+5. The Cnoll-Ware
+- Etymological Breakdown: Built from "Cnoll" (the sharp, closely packed rock-knobs and hills) and the suffix "-ware" (the citizens/protectors/folk of a region).
+- In-Universe Meaning: "The People of the Knolls."
+- The Vibe: Punchy, ancient, and highly scannable on a map directory. It focuses entirely on the erratic, undulating topography of their 14,700 square mile home.
+
+6. The Berg-Holtas
+- Etymological Breakdown: A smooth geological compound of "Berg" (the rounded hills/mounds) and "Holt" (the abundant broad-leaf temperate groves).
+- In-Universe Meaning: "The Grove-Hills."
+- The Culture: The land-owners and herders. This name highlights the mild, Southern France-style warmth where the hills are completely crowned with lush copses of sweet chestnut and oak.
+
+7. The Fen-Riders
+- Etymological Breakdown: Ironically titled by their neighbors. A compound of "Fenn" (the wet midland bogs) and "Rider" (skirmisher/traveler).
+- In-Universe Meaning: "The Bog-Skirmishers."
+- The Vibe: A cynical, outdoor name. While they lack the massive warhorses of Buscany, this title marks them as infantry who are terrifyingly adept at wading through the midland mires to ambush trespassers.
+
+8. The Shaw-Men
+- Etymological Breakdown: Derived from "Shaw" (a small, thick, defensive grove of trees anchoring a steep slope) combined with "Man".
+- In-Universe Meaning: "The Men of the Slope-Groves."
+- The Vibe: This captures their domestic layout. They don't live in the open; their stone longhouses are tucked directly inside the hanging hillside groves for protection against the ocean gales.
+
+9. The Ghyll-Barons
+- Etymological Breakdown: A blended frontier title using "Ghyll" (the deep, narrow, torrent-cut mountain fissures) and the early English status marker "Baron" (the free-holding hall-lord).
+- In-Universe Meaning: "The Lords of the Mountain Gorges."
+- The Culture: The high-born elite who build their stone-flagged longhouses across the narrow gorges to control the floating mountain timber.
+
+10. The Weald-Exiles
+- Etymological Breakdown: Combining "Weald" (the high, rolling forest hill-country) with the political status of "Exile".
+- In-Universe Meaning: "The Outcasts of the Forest Hills."
+- The Vibe: A name heavy with historical trauma. It records the exact moment they were pushed out of the premium lowlands by the Idraulici and had to "make do" with the wet, wooded rocks.
+
+# ==============================================================================
+# END OF SYSTEM SPECIFICATION DIRECTIVE
+# ==============================================================================

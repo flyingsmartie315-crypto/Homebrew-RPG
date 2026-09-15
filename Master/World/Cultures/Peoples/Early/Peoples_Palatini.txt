@@ -1,0 +1,70 @@
+# Peoples_Palatini
+
+Umbrella / parent
+Pionari stock with an Ordinari admin line. Valenidia. High-seat people of the Spine.
+
+Formal name
+Palatini (locked).
+
+Common names
+First-Seat. True Heirs (their mouth).
+Spine-lords / hollow-lords (lowland mouth).
+
+What this file is
+The conservative Pionari–Ordinari house that fled the valley in the Unveiling and holds Le Conche Verdi.
+They claim all Valenidia by ancient charter and by hydrological right they no longer operate.
+
+--------------------------------------------------
+GM META — ORIGIN
+--------------------------------------------------
+Wave 1 Pionari core with a Wave-of-order Ordinari administrative line.
+Working blood-claim: about 80% Pionari, 20% Ordinari admin lineage.
+Treat those numbers as identity and marriage-book, not as a lab.
+Pre-collapse, the Spine and Valenidia were premium living space. A portion of the first Ordinari sat here. Pionari engineered the water and the green.
+Palatini meaning: from Palatinus — the palace / the founding hill — softened. In-world: the First-Seat bloodlines, the True Heirs.
+High-born bureaucrat-engineers. Charter first. The ditch second.
+
+--------------------------------------------------
+DEEP NAME VS SURFACE NAME
+--------------------------------------------------
+Deep: Palatini.
+Surface: First-Seat, True Heirs.
+Place-anchor: Le Conche Verdi.
+
+--------------------------------------------------
+GEOGRAPHY AND CULTURE
+--------------------------------------------------
+Seat: Le Conche Verdi — the inhabited hollows of the middle Orosian Spine.
+Insulated, sun-warmed, low alpine valleys. They did not stay to fight the malaria floor.
+Culture of charter, pedigree, memory of the Golden Age when Palatini and Idraulici ran Valenidia together.
+Look down on the valley city-states as squatters, even when those states still quote Ordinari law.
+
+--------------------------------------------------
+THE BREAK
+--------------------------------------------------
+Unveiling.
+The engineered valley failed. Malaria swamp. Warring tribes.
+Conservative Palatini went up the Spine into Le Conche Verdi.
+They kept the books. They lost the races.
+
+--------------------------------------------------
+RELATION
+--------------------------------------------------
+Idraulici: old partners. Pragmatists who stayed in the wet. Respected as wrights. Resented as people who would not climb.
+Valley city-state elites: lingering Ordinari pedigree. Legal cousins who stole the chairs.
+Novari: not in this file. Later peoples.
+Syllvani of the Plateau: elder Pionari cousins over Macigno Serrata. Isolationists. Not a compact yet.
+
+--------------------------------------------------
+PERSONS OF NOTE
+--------------------------------------------------
+None locked.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+File path when committed:
+Master/World/Cultures/Peoples/Early/Peoples_Palatini.txt
+
+They claim the valley. They live in the hollows.
+Whether any city-state still pays them a charter-tithe is not written.
