@@ -38,8 +38,8 @@ Vaults drained. Vassals suspicious. He needs legitimacy, a common enemy, and plu
 PERSONS OF INTEREST — ACT 2
 --------------------------------------------------
 Isern
-- Thormund of Westmark — early thirties. Victor of the peninsula succession. King of the Second Host. Unproven to his vassals.
-- Aldric of Adergate — Lord of the Rhennod Marches. Southern border is the Ader.
+- Thormund of Westmark — early thirties. Victor of the peninsula succession. Dar Emait of the Second Host. Unproven to his vassals.
+- Aldric of Brückenburg — Lord of the Rhennod Marches. Southern border is the Ader.
 - Sigvard of Highmarch — Lord of High March.
 - Grandmaster Gorst — Eyrenhost. Holds Ebormark in this generation. Marches with fifteen gryphon-riders.
 - Sindri Vindvari — Windcaller. Jarn warlord. Takes two cogs at the Vayrac berths. Full entry: Peoples_Jarnvolk.txt.
@@ -71,7 +71,7 @@ Not a thrust over the Ader bridges. Evran spent thirty years closing those.
 Sea-hook: Ostbruck to the Ader mouth, then west at Chevalac, then the Vayrac field.
 Lightning is the tempo, not the road. No garrisons held. No outposts built. No land kept.
 The host lands, marches, razes, and salts. The point is to destroy Cortani wealth and force a premature field battle before Isern provisions fail.
-The March to the Virelle is this hook, not a river-road from Adergate.
+The March to the Virelle is this hook, not a river-road from Brückenburg.
 
 Operational spine (locked)
 Lightning manoeuvre → quick siege → lightning manoeuvre (harried) → started second siege → raided → quagmire.

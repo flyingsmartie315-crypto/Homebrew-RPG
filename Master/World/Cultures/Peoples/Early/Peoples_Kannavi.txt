@@ -143,7 +143,8 @@ BRANCHES / LOCAL STOCKS
 
 Ruling house
 Westwood Heights.
-Contingent-lord of the first Whitmark war: Hallvard Ask of Westwood — second son of the ruling house.
+Title of the Deepwood house: Dar Waldward (The Wood-Warden). Hereditary. Exempt from the Isern Zonarch system by Osric’s Landing Compact. File: Peoples_Isernvolk.txt POLITY.
+Contingent-lord of the first Whitmark war: Hallvard Ask of Westwood — second son of the ruling house. Later Dar Waldward.
 Heir stays. Spare honours the compact. He carries the Ader lessons north after Berthall.
 
 --------------------------------------------------

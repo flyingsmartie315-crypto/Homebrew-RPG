@@ -79,8 +79,14 @@ The Ebon Peninsula was once nearly as densely forested as Kannavald Deepwood sti
 The Kannavi were already there: small, scattered, in constant struggle against Unveiling perils in the woods.
 
 Isernvolk landed at the western shore and aided their fellow man.
-First king in this history: Osric.
+First Dar Emait in this history: Osric.
 Landing-seat: Osricford. Common and older shore-name: Ocs Landing.
+
+First sight of the settled land: the Ebon Spire, black, with the white sun on its crown in the east.
+The fleet came from the western ocean. The continent lay ahead, eastward. Dawn stood behind the mountain. That is Earth-normal sky. Do not reverse the sun for this image — a west-rising sun would crown the sea behind the hulls, not the Spire.
+Osric took that sight as his arms: black shield-mountain, white sun in the east. Isern heraldry of the peninsula still carries it.
+The colours stay in the cloth. Even when dyes are cheap, Isern dress on the peninsula runs black and white — direct, unambiguous, harsh contrast. The people like the look because it is the look.
+
 There a hundred skinwights were hanged. That hanging is told as a founding of the tamed peninsula.
 
 Over centuries the peninsula was opened. Floors, strands, and pits became Isern work. The Deepwood is what the taming did not finish.
@@ -91,6 +97,7 @@ Isernvolk, for their part, call them harsh and aloof, a little odd, and honest t
 
 Eyrenal was already a remnant megastructure. Isernvolk colonised the hanging vale.
 There an Isern lord bonded a gryphon and became the first rider. That bond is the seed of the Order.
+Gryphons are earthbound. Leap and shock. Not royal flight. Not a sky-host.
 Early riders were the Eyrenhost, not knights. That name predates Knights Gryphon and is still used in contemporary speech for the vale-host.
 The knightly tradition comes later, from Coritania. Knights Gryphon is the later style. Eyrenhost remains the older and living name.
 
@@ -116,12 +123,47 @@ Detail lives in Peoples_Cortani.txt, Peoples_Adernvolk.txt, and Wars_of_the_Whit
 Peoples_Coritanian.txt is the fusion file, not yet written.
 
 --------------------------------------------------
+POLITY — EBON PENINSULA
+--------------------------------------------------
+Two titles for the one crown. War-files use Dar Emait for the landing-line rulers (Osric, Harthold, Thormund). Dar Kaiserarch is the later imperial style, after the marks are pulled under one appointment-system.
+
+Dar Emait (The Iron Lord / Catalyst)
+Ancestral title. Contraction of Eisen-Meister / Element-Macht.
+Authority rooted in the foundries, metal-pits, and Ingenari ruins. Osric is remembered as the first Dar Emait of the landing. Osric held it. Harthold and Thormund hold it in the war-files. Dar Kaiserarch is later.
+
+Dar Kaiserarch (The Kaiser-Archon)
+Contemporary imperial title. Kaiser plus Archon.
+Taken after the local regions of the Ebon Peninsula were pulled under one crown. Signals the shift from a loose forge-lord confederation to a central empire — on paper. In the yard a Kaiserarch still commands only from strength.
+
+The marks sit on two legitimacies.
+
+1. Crown appointments — standard regions
+Der Zonarch (The Zone-Archon). Spoken: Arch [Name].
+Imperial magistrate over a designated sector. Ordinari “zone” plus Archon.
+Non-hereditary. Serves at the Kaiserarch’s pleasure. Taxes, resource grids, white keeps.
+A failed quota can end a Zonarch. Replacement or the axe.
+In fact each Zonarch is a power: own resources, own spears, own vassals. Noble houses compete for the chair. The Kaiserarch who treats them as clerks loses the chair himself.
+
+Westmark, Ebormark, Highmarch, and the Rhennod Marches sit under this system unless a later lock says otherwise. Eyrenal / the Eyrenhost is an order-seat inside Ebormark, not a second crown.
+
+2. Hereditary exception — the Deepwood
+Dar Waldward (The Wood-Warden). Wald + ward / warda.
+Held only by the ruling house of Kannavald Deepwood.
+By the Ancient Landing Compact with Osric: hereditary, outside the Zonarch list, outside the Kaiserarch’s gift.
+Duty: keep the canopy against Unveiling things. Autonomy at the forest border.
+The compact is still honoured. Careless Isern are still shown the line.
+Detail: Peoples_Kannavi.txt.
+
+Osricford is the Kaiserarch’s port. The Waldward does not keep a banner on that quay.
+
+--------------------------------------------------
 BRANCHES
 --------------------------------------------------
 List locked ethnic groups below as they are written.
 Early offshoots may live as their own Peoples_[Name].txt under Early when they are a full stock, not only a local mark-flavour.
 
 - Jarnvolk — first offshoot. Dauðavík. Polar, raid-and-trade. Scandi-heavy speech. File: Peoples_Jarnvolk.txt
+- Hyrstwoods — wet-south splinter. Holtwald. File: Peoples_Hyrstwoods.txt
 - Adernvolk / Adelings — Coritania occupying elite; Whitmarks by look; later absorbed by the Cortani. File: Peoples_Adernvolk.txt
 - Peninsula Isernvolk — Ebon Peninsula marks; landing-king Osric of Osricford / Ocs Landing; the Eyrenhost at Eyrenal. No separate people-file yet.
 
@@ -130,12 +172,12 @@ Branches differ by which mark or shore they hold and how strongly they lean on i
 --------------------------------------------------
 PERSONS OF NOTE
 --------------------------------------------------
-- Osric — High King of the crossing. Holds the Ebon line. First Isernvolk king in peninsula memory. Seat: Osricford / Ocs Landing. Hanged a hundred skinwights. Landing compact with the Kannavi. Counts Jarnvard’s wing dead.
+- Osric — High King of the crossing. First Dar Emait of the landing. Holds the Ebon line. First Isernvolk king in peninsula memory. Seat: Osricford / Ocs Landing. Hanged a hundred skinwights. Landing compact with the Kannavi. Counts Jarnvard’s wing dead.
 - Jarnvard — Osric’s younger brother. Rear wing of the crossing. Puts ashore at Dauðavík. Full entry: Peoples_Jarnvolk.txt.
-- Harthold — king of the first host into Coritania. Took Aderhall and Berthall. Died at Harthold’s Folly. Buried in Harthold’s Barrow.
+- Harthold — Dar Emait of the first host into Coritania. Took Aderhall and Berthall. Died at Harthold’s Folly. Buried in Harthold’s Barrow.
 Act 2
-- Thormund of Westmark — early thirties. Victor of the peninsula succession. King of the Second Host.
-- Aldric of Adergate — Lord of the Rhennod Marches. Southern border is the Ader.
+- Thormund of Westmark — early thirties. Victor of the peninsula succession. Dar Emait of the Second Host.
+- Aldric of Brückenburg — Lord of the Rhennod Marches. Southern border is the Ader.
 - Sigvard of Highmarch — Lord of High March.
 - Grandmaster Gorst — Eyrenhost. Holds Ebormark. Marches with fifteen gryphon-riders.
 

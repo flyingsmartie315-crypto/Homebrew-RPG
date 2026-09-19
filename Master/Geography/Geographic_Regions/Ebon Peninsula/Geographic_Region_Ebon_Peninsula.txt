@@ -21,7 +21,7 @@ borders:
 
 Shared / Border Local Regions
 - Rhennod Mountains — eastern wall of the peninsula; western lip of the Appolasian Plateau. One file. Listed here as shared border, not as a primary peninsula region.
-- Ader line / Rhonmere country — live southern border with Coritania. The river is the division in the modern era. South-bank halls are Coritanian; north-bank works (Adergate and the waystations) sit on the peninsula side.
+- Ader line / Rhonmere country — live southern border with Coritania. The river is the division in the modern era. South-bank halls are Coritanian; north-bank works (Brückenburg and the waystations) sit on the peninsula side.
 
 Local Regions
 - Westmark — open western heartland. Iron, grain, livestock, sea trade. Capital port at the mouth of the great west-flowing river. Seat of Isernvolk power and of first-landing memory.
@@ -31,16 +31,36 @@ Local Regions
 - Rhennod Marches — working name for the eastern hill country: rolling ground between the heartland river and the Rhennod wall, Ader on its south. Confirm or replace when the pink / magenta local-region file is locked.
 
 Notable Features
-- Ebon Spire — inactive volcano. Shared landform; faces fall into Kannavald, Ebormark, and Highmarch.
-- Svarthorn Massif — adjacent high massif. Same shared rule as the Spire.
+- Ebon Spire — tallest peak on Virath. Inactive shield volcano. Black rock. Shared faces: Kannavald (north), Ebormark (south), Highmarch (east). Full write-up in Notes.
+- Svarthorn Massif — adjacent high massif. Lower than the Spire. Same shared-face rule.
 - Marchwall Range — long northeastern range. Sits atop the Rivenstrand Walls.
 - Rivenstrand Walls — northern / northeastern sea-cliffs.
 - Rhennod Mountains — east wall. Highest peak: Rhön / Mount Rhön.
-- Rhonmere — lake at the Rhennod foot. Tale-name: Giant’s Pool. Outflow: the Ader.
+- Rhônweill — lake at the Rhennod foot. Local Frankish. Wider Coritania: le Rhônel. Syllvani: Llyn Rhön. Tale: Giant’s Pool. Outflow: the Ader.
 - The Ader — southern border river with Coritania.
 - Great west-flowing river of Westmark — unnamed here; mouth holds the peninsula capital.
+- Die Schulter — named mass of Ebormark (the Shoulder). Local_Region_Ebormark when written.
+- Zackenkar — working name. Bowl-peak south-east of Die Schulter. Holds glacial ice. Seasonal melt swells the Zackenbeck.
+  A cirque, not a caldera. Other name-options: Eiskar, Schulterkar, Kesselhorn.
 - Kannavald Deepwood — last large canopy of a once-forested peninsula.
 - Western sea-board — iron, grain, livestock, and sea trade concentrated in Westmark.
+
+
+Ebon Spire (locked)
+Tallest peak on Virath. Peer in bulk to an Olympus-class shield: a black mountain that owns the horizon, not a needle.
+Inactive volcano. Black rock — basalt and scorched glass. No live fire. No plume. The Ebon name is the colour and the memory of fire, not a present furnace.
+A shield this high on an Earth-like gravity world must be vast in footprint. The “Spire” is what it reads as from the marks. Close-to, it is a black country of its own: long rising ramps, old lava benches, a dead caldera-crown.
+Shared landform. Detailed face-scores live in the local files when written:
+- North — Kannavald Deepwood
+- South — Ebormark (Eyrenal / Eyrenhost country; Die Schulter and Zackenkar sit on this mass, not above the Spire)
+- East — Highmarch approaches
+Do not give the Spire to one local region. Svarthorn is the neighbouring massif and is lower.
+The cave-nets under the peninsula include old tubes in this rock. They are fossil. This cone does not feed Dauðavík’s live heat.
+Climb: men will try. They have tried for centuries in its shadow.
+Olympus-class here is bulk and blackness — a shield-country — not a 22-mile needle in thin air. Virath’s air is Earth-like at the marks. A true Olympus Mons summit (twenty kilometres and change) sits above any lung. No 16th-century host carries a breath that high.
+What is climbable: the ramps, the benches, a false crown. Death-zone stone. Most turn back or stay. A few names enter the songs. The dead caldera-crown remains a claim, not a road.
+Do not give bottled air to make the summit ordinary.
+
 
 Notes
 Travel is easy on the Westmark floors and river, harder in Highmarch, and slow in Kannavald. The Marchwall / Rivenstrand side is a wall more than a road. The Rhennod is the Plateau’s lip, not a peninsula range to be crossed lightly.

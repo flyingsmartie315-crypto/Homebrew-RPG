@@ -18,7 +18,7 @@ Pole-to-pole here is the surface run from pole to pole, not the through-axis dia
 
 AXIAL TILT
 24.5 degrees.
-Engineered in the deep past by a Pionari terraforming branch (see Peoples_Syllvani.txt). Inhabitants do not know this.
+Engineered in the deep past by Ingenari machines in collaboration with the Pionari (see THE DEEPER PAST). Inhabitants do not know this.
 Seasons are a little sharper than Earth's 23.4° tilt. Still four seasons: Thaw, Highsun, Harvest, Longnight.
 
 PLANETARY CHARACTER
@@ -32,6 +32,20 @@ Despite this familiarity, Virath contains far more extreme topography and climat
 - Deep, cold oceans with abyssal trenches
 
 These extremes shape culture, trade routes, warfare, and the practical limits of empire.
+
+GEOLOGY
+Virath is a cooling crust. In the deep past it was violently active: rifting, stacking, magma, and a sky that still threw stone. That age carved the cave-nets (old lava tubes, emptied chambers, karst) and raised the extreme fault-walls. When the Pionari first worked the world, most continents had already settled. Isolated arcs remain live. Dauðavík is one. The Ebon Spire is not. The Bowls leak; they do not erupt.
+The Ebon Spire is the tallest peak on Virath: an inactive black shield volcano, Olympus-class in bulk. Footprint is huge. Fire is dead. See Geographic_Region_Ebon_Peninsula.txt.
+
+Human chronicles do not reach this. Recorded history is a few thousand years. Mountain-time is not hall-time.
+
+Age of landforms (north-west, oldest first)
+- The Appulse. A giant impact. The Appolasian Plateau is its basin. The ring-hills and crags are the oldest standing topography in this quarter of the world. A structure this large can steer mountains, rivers, and climate for hundreds of millions of years. It stops looking like a fresh wound long before it stops existing. The Plateau is worn, stubborn, and first.
+- The volatile tectonic age. Fault-scarps, the Rivenstrand Walls, the Marchwall, the Orosian Spine and its clusters. Younger than the Appulse. Sharper. The “upstart” ranges. Most of this fire is dead. The walls remain.
+- Quiet continents. Caves are fossil plumbing. Heat is local.
+- Late small falls. The Bowls on the Rhennod foot. Young pits on an old lip. Cousin of the Appulse or a later stone — not locked.
+
+A giant impact does not need to stay sharp to stay in charge. Vredefort-scale wounds on a wet world still own the map after the knife-ridges of a later orogeny have grown up beside them. The Appolasian crags are old bone. The Spine and the Marchwall are the new argument.
 
 DOMINANT SPECIES
 Humanity is the dominant and most widespread intelligent species on Virath.
@@ -50,7 +64,42 @@ HISTORY (KNOWN)
 Recorded history stretches back only a few thousand years at most, and even the oldest chronicles are fragmentary. All cultures share a distant memory of a great fracture known as the Unveiling (see The_Unveiling.txt). Before that event, knowledge dissolves into myth.
 
 THE DEEPER PAST (UNKNOWN TO INHABITANTS)
-Thousands of years before the Unveiling, humanity arrived on Virath as a space-faring colony. A single colony ship delivered between five and ten thousand settlers. Advanced civilisation briefly took root. The Unveiling and its associated cataclysm destroyed technological and social cohesion so completely that every practical record was lost. Only the vast, ash-choked megastructures remain as silent evidence. This origin is entirely unknown to the peoples of Virath and appears, if at all, only as confused and contradictory legend.
+This sequence is GM-only. Living peoples have myth, not this order.
+
+Pionari first. An explorator vessel found Virath already fit for habitation — promising, almost ready, only light work needed. They lacked the mass and the kit to finish a world. They sent home for it.
+
+Those who answered were the Ingenari: heavy engineers and the military sent to secure the claim. Years in transit.
+
+While they waited, the Pionari put down on the Appolasian Plateau and began seeding Terran life.
+
+The Ingenari arrived. With the Pionari they turned the axial tilt to widen the temperate belts. With their machines they raised the first true cities and the first infrastructure. Lesser Terran administrators came with them: the Ordinari.
+
+In that first century the Unveiling was already present. The human count was still a thin specialist contingent. Manifestations were subtle. Men found rational names for them.
+
+Then the Multitude came — Novari in the later books — millions fleeing calamity on the homeworld. That weight of souls fed the Unveiling. What can fairly be called demons first took form.
+
+By then the entrenched first-comers — Pionari, Ingenari, and the first Ordinari — had laboured near a century on a home they would not hand to Terran overreach and a horde of interlopers. They were ready to hold it.
+
+The Aperti watched with cold detachment.
+In that same span they mapped what they took to be the mechanics of the Unveiling. They measured that the old-world religions carried by the Multitude were leaving a print on Virath — visible only to those who knew the signs.
+Aperti working count of the Multitude’s inherited faith-mass (not a living census):
+- The Nazarene creed (later halls will not know the word Christianity) — about 29–31%
+- The Submission (later halls will not know the word Islam) — about 24–26%
+- The Middle Path (later halls will not know the word Buddhism) — about 15%
+- The Eternal Law (later halls will not know the word Hinduism) — about 6–7%
+Other affiliations, in their reading, never reached the mass needed to steer the Immaterium.
+Those four currents are a foundation under many contemporary cults and churches. The living forms are near-unrecognisable. Names, law, and rite have been broken by the Dark Age and rebuilt from scraps. Do not print Earth-names in a 16th-century hall-book.
+This is Aperti observation, not a proof offered to the marks. The Aperti file, when written, holds the cold version. The_Unveiling.txt holds the phenomenon.
+
+
+The Multitude and later Ordinari forced a place in the less desirable country. Low hostility remained. A cold war. Then an uneasy peace.
+
+Then the False Moon first eclipsed the sun.
+
+Records from that hour grow sparse, then broken, then gone. The human count falls. Fewer souls, and the Unveiling recedes. A remnant on the order of ten thousand is left, scattered across the globe.
+
+The old “one colony ship, five to ten thousand settlers” line is retired. That number is the *aftermath*, not the landing.
+Megastructures and ash-choked works remain. No present people operate them. This origin is unknown to the halls. It survives, if at all, as quarreling legend.
 
 CULTURAL DEVELOPMENT
 Enough time has passed since the collapse for distinct ethnic groups, languages, religions, and cultures to form and diverge widely. Regional identities are strong. Universal institutions are rare.
