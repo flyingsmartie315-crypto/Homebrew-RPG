@@ -1,0 +1,35 @@
+# Hügelweid
+
+Type
+Village
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: 15 miles south of Vardgaard by the road. 13 miles inland from the western coast. Attached village of Vardgaard. Light rolling hills. Herding ground first.
+
+Overview
+Open hill-pasture behind Little Oc. Sheep and cattle on the rises. A modest keep on a knuckle of ground. Grain is secondary. The wind off the west sea gets here without becoming the Rivenstrand’s punch.
+
+Control
+Village lord in the keep, under Vardgaard. Not contested.
+
+Population
+Working figure: 260–340.
+Herders, a few plough-teams in the folds, keep-garrison small.
+
+Economy
+Stock first. Cheese, hides, live beasts to Vardgaard and the mouth. Some field-crop in the lee of the hills.
+
+Defences / Access
+Modest keep. Wide views. Hard to sneak a herd-theft past it in good weather.
+Road 15 miles north to Vardgaard. 13 miles west to the sea-board. Holtward and Waidwald lie further south along the same road.
+
+Linked Features
+- Vardgaard — Settlement_Vardgaard.txt
+- Western sea-board — 13 miles
+- Holtward / Waidwald — further south on the road
+
+Notes
+Working name Hügelweid. File stem Settlement_Huegelweid.txt.
+Herding village, not a hunt-village. That is Holtward.

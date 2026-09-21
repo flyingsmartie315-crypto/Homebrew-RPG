@@ -1,0 +1,36 @@
+# Holtward
+
+Type
+Village
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: 25 miles south of Vardgaard by the road. Attached village of Vardgaard. Sits by Waidwald.
+
+Overview
+Agri village and forest-gate. Modest keep. The rows feed Vardgaard. The wardens keep Waidwald. Wealth hunts here if the village lord says they may. If he does not, the wood is only trees.
+
+Control
+Village lord in the keep, under Vardgaard. The hunt-right is his to grant. That right is worth more than the plough.
+
+Population
+Working figure: 300–380.
+Agri workers and forestry wardens. Keep-garrison small.
+
+Economy
+Ordinary fields.
+Warden-labour and hunt-leave are the political crop. Poaching is a feud, not a sport.
+
+Defences / Access
+Modest keep. Handsome enough that a guest-lord will sleep there.
+Road 25 miles north to Vardgaard. Tracks into Waidwald.
+
+Linked Features
+- Vardgaard — Settlement_Vardgaard.txt
+- Waidwald — 494 square miles. Noble / wealthy hunting reserve. Entry by leave of Holtward’s lord.
+- Hügelweid — Settlement_Huegelweid.txt (closer to the coast road)
+
+Notes
+Waidwald is the 494-square-mile stand. South edge is the Kannavald border. A 29-mile road runs west–east through the middle. Named hunting-weald. Worked woodland in the Ardairn tally, not Kannavald wild.
+Working names.

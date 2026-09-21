@@ -1,0 +1,53 @@
+# Osricford
+
+Type
+City
+
+Location
+Local Region: Westmark
+Geographic Region: Ebon Peninsula
+Position: North bank of the Värdå at the mouth. Western shore. First-landing ground. Older shore-name: Ocs Landing.
+The mouth is two miles across. South bank is a second settlement: Vardgaard / Little Oc — Settlement_Vardgaard.txt.
+
+Overview
+Capital of the Ebon Peninsula and of Westmark. The north-bank city: crown, counting-house, and the yards. Black stone and whitewash, black cloth and white — Osric’s first sight still sits on the gates: the Ebon Spire and the white sun in the east. It is one landing in law and two towns in the water. Nothing spans the mouth but barge. The king of the marks holds the north bank. Little Oc feeds, houses, and argues from the south.
+
+Control
+Isern crown of Westmark / the peninsula. Not contested in the contemporary age. Kannavi alliance is honoured and does not sit a second banner on the quay.
+
+Population
+Working figure: 50,000 for the mouth as a whole (Osricford and Vardgaard together).
+Osricford north bank, working share: 32,000–35,000.
+Isern majority. Mark-men, rivermen, smiths, shipwrights, a thin Kannavi minority on the timber-quay. Seasonal swell at harvest and when a host is called.
+
+Economy
+River-mouth and sea gate of the productive west.
+The north bank holds the vast shipyards and drydocks. Keels are laid here. Cogs, barges, and mark-hulls come out of this mud.
+Out: grain, livestock, iron, worked metal, Westmark hides, hulls, some black-stone and basalt from inland marks.
+In: salt, southern wine and cloth, horses and stirrup-gear from the old Ader trade, long timber the peninsula still wants.
+Two deep-hulled cogs stolen from these berths in the Second Host are still a harbour lesson.
+
+Defences / Access
+Stone river-gate and a walled inner town on the first landing-rise.
+Outer strand, yards, and drydocks are a second city of timber, whitewash, and slipways — harder to wall than the rise.
+Harbour open to the western sea. The river is the road inland.
+Crossing to Vardgaard: river barge only. Two miles of mouth. No standing bridge.
+Sea-watch exists. It has failed before. Jarn hulls have taken prizes off this strand; the memory is kept in standing orders, not in songs for strangers.
+Land access: Westmark roads on the north bank and the Värdå.
+
+Linked Features
+- Värdå — two-mile mouth
+- Vardgaard / Little Oc — south-bank twin. Settlement_Vardgaard.txt
+- Western sea-board — fetch, trade, and raid
+- Ebon Spire — arms and horizon; not in the street
+- First-landing strand / Ocs Landing — the north-bank ground
+
+Notes
+Osric hanged a hundred skinwights here. The trees are gone. The story is not.
+Heraldry of the peninsula: black shield-mountain, white sun in the east. Cloth follows it even when dyes are cheap.
+Do not merge this file with Eyrenal. Eyrenal is the Eyrenhost seat under the south face.
+Do not treat the mouth as one wall. Two miles of water is the civic fact. A host that cannot hire barges cannot join its own capital.
+Contemporary king is not named in this file. Thormund of Westmark is a Whitmark-era name, not the living crown unless a later lock says so.
+Sindri Vindvari’s lift of two cogs belongs to War_of_the_First_Coronation.txt. The north berths were the target. The city was not burned.
+Campaign hooks: a barge-strike that splits the capital for a day; sea-raid on yards that cannot hide; a skinwight tale that will not stay in the founding-year; Little Oc refusing a north-bank levy until the barges run.
+If Local_Region_Ardairn_Valley is written, point it here and at Vardgaard. The river still needs a name.

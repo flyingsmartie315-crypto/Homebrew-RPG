@@ -1,0 +1,36 @@
+# Mühlreih
+
+Type
+Village
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Heckengau. 7 miles east of Kornberg along the Värdå road. Attached to Kornberg.
+
+Overview
+The mill-row of Heckengau. Wheels before the town wheels. Agri first, grinding second. Modest keep.
+
+Control
+Village lord under Kornberg. Mill-right argued with the town.
+
+Population
+Working figure: 260–340.
+
+Economy
+Fields and lesser mills. Sends meal and grain into Kornberg.
+
+Defences / Access
+Modest village keep. An estate and small castle sit in proximity (working: Aumühlhof). The house looks at the river-road.
+Lanes through Heckengau. Does not own the town quays.
+
+Linked Features
+- Kornberg — Settlement_Kornberg.txt (7 miles west along the Värdå road)
+- Heckengau
+- Aumühlhof — estate and small castle in proximity
+- Speicherstatt — Settlement_Speicherstatt.txt
+- Heckenfeld — Settlement_Heckenfeld.txt
+
+Notes
+Working name. File stem Settlement_Muehlreih.txt.
+Do not confuse with Mühlstatt on Vardgaard’s Värdå.

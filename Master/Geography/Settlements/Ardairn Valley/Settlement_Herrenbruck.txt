@@ -1,0 +1,42 @@
+# Herrenbruck
+
+Type
+Town
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: North bank of the Värdå at the Herrenau join. Small castle town on the north side of the bridge that crosses the Herrenau. 15 path-miles up the Värdå from Osricford.
+
+Overview
+The first hub out of the capital. A castle-town at the mouth of villa-water. The Kaiserarch’s city is half a day’s barge behind. Ahead is Herrenau country: estates, white cloth, and men who do not live in Osricford though they rule from it. Herrenbruck takes their tolls, their grain, and their complaints. It does not pretend to be the mouth.
+
+Control
+Local castle-house under the Ardairn Zonarch. Not contested. The estate-lords on the Herrenau outrank the town in money and talk. They do not hold the bridge.
+
+Population
+Working figure: 2,400–2,800.
+Isern mark-folk, barge-hands, a garrison, crafts for the estates. Seasonal swell when a house comes down from the Horns-shelf.
+
+Economy
+Bridge-toll and river-join market.
+Takes estate grain, stock, and orchard-tribute from Hofstatt and Pomeranzenholt. Sends it down the Värdå to Osricford.
+Does not grow the citrus. It sells the boxes and the rumours.
+
+Defences / Access
+Small stone castle on the north rise of the Herrenau bridge. Town wall enough for a raid, not for a host.
+Access: Värdå barge 15 path-miles from Osricford. Road on the north bank. Bridge over the Herrenau only. South bank of the Värdå is not this town’s street.
+
+Linked Features
+- Värdå — 15 path-miles from the mouth
+- Herrenau — villa-water. Join is here.
+- Hofstatt — Settlement_Hofstatt.txt
+- Pomeranzenholt — Settlement_Pomeranzenholt.txt
+- Osricford — Settlement_Osricford.txt
+
+Notes
+Herrenau join is locked at 15 path-miles from the sea (amended from 20).
+Attached villages sit on this same north side. They are agri and servant-country for the Herrenau estates.
+The glass-houses are in Pomeranzenholt, not in the castle yard.
+Campaign hooks: an estate that will not pay the bridge; a crate of fruit that should not ripen this far north; a servant from Hofstatt who heard the house-talk.
+Working names. Say if Herrenbruck stays.

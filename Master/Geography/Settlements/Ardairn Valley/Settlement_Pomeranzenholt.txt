@@ -1,0 +1,41 @@
+# Pomeranzenholt
+
+Type
+Village
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: North of the Värdå, on Herrenbruck’s side. Attached village of Herrenbruck. Agri village and glass-house ground for the Herrenau estates.
+
+Overview
+A village that should not be able to smell of orange-rind this far north. The wonder is the glass: long houses of dear panes and stoves, where citrus and estate-grapes are forced for tables in Ebenheim. Men come from Osricford to look. They do not eat. The fruit is not a crop. It is a boast.
+
+Control
+Estate glass-wrights and a Herrenbruck reeve. The houses that paid for the glass treat the village as a yard of their own. Not a second town.
+
+Population
+Working figure: 250–320.
+Gardeners, stove-men, glass-menders, tied agri folk. A few specialists worth more than the reeve.
+
+Economy
+Ordinary fields on the edge.
+The money is the glass-houses: bitter orange, lemon, forced grape, herbs the estates want in Longnight.
+Nothing here feeds the peninsula. It feeds pride. Broken glass is a disaster. A cold snap with dead stoves is a feud.
+
+Defences / Access
+Modest, well-made stone walls. Kept pretty. The estates look down on this village the same as Hofstatt; no one wants a slum under the glass.
+The glass is still the thing that must not burn or shatter.
+Road to Herrenbruck and Hofstatt. Estate tracks up the Herrenau. Visitors come to stare and are moved on.
+
+Linked Features
+- Herrenbruck — Settlement_Herrenbruck.txt
+- Hofstatt — Settlement_Hofstatt.txt
+- Herrenau estates
+- Glass-houses — 16th-century orangery work. Wonder of the modern mark. Not a factory.
+
+Notes
+Pomeranze = the bitter orange the old world already knew. Holt because the first houses sat in a stand they did not fully clear.
+Viable at this tech: brick stoves, painted walls, expensive glass, summer wheels into yard, winter shut. Isern iron and craft make it plausible. Do not give them sheet-glass acres.
+Campaign hooks: a pane from Spire-country that is too clear; a gardener who can keep trees alive and wants a name; frost the night a Kaiserarch is due to dine.
+Working name.

@@ -1,0 +1,36 @@
+# Speicherstatt
+
+Type
+Village
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: 14 miles north of Kornberg, on the southern bank of the Herrenau. Attached to Kornberg. Agri village tied to the town granaries.
+
+Overview
+Store-village of the hedge-country. Grain leaves the fields here and becomes Kornberg’s warehouse problem. Modest keep. Hedges and pasture on every lane.
+
+Control
+Village lord under Kornberg.
+
+Population
+Working figure: 280–360.
+
+Economy
+Grain, some stock. Labour for the town stores.
+
+Defences / Access
+Modest village keep. An estate and small castle sit in proximity (working: Speicherhof), on this same south bank of the Herrenau.
+Heckengau lanes to Kornberg and the other two attached villages.
+
+Linked Features
+- Kornberg — Settlement_Kornberg.txt (14 miles south)
+- Herrenau — south bank
+- Speicherhof — estate and small castle in proximity
+- Heckengau
+- Mühlreih — Settlement_Muehlreih.txt
+- Heckenfeld — Settlement_Heckenfeld.txt
+
+Notes
+Working name. Attached village, not a hub.

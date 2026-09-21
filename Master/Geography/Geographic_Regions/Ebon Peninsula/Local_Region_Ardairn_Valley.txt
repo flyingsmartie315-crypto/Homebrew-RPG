@@ -1,0 +1,239 @@
+# Local_Region_Ardairn_Valley
+# Modern name: the Ardairn Valley. Common offhand: Westmark.
+
+Overview
+The open, productive west of the Ebon Peninsula. Iron, grain, livestock, and the sea. First-landing memory and the Isern crown sit at a two-mile river-mouth: Osricford on the north bank, Vardgaard / Little Oc on the south. Barge only. Most people live on the plough-and-stock floor. Worked woodland feeds the yards. The Isernhorns and the Little Massif are a rim. The Rivenstrand reach is gale-coast — watch-posts, not farms.
+
+Biome: Temperate
+Sub-biomes: River, Coast, Highland, Forest
+The floor is temperate mark-country. Forest is the eleven worked stands. Highland is the Horns, the Little Massif, and the cliff-reach.
+
+Environmental Scores
+Temperature: 3 | Rainfall: 3 | Human Density: 2 | Flora: 2 | Fauna: 2 | Topography: 3 | Hydrology: 3
+Harvest aggregates of the land-cover features below.
+Point sites are not averaged in.
+The floor itself is Human Density 3–4. The cliff and horns pull the region mean down.
+
+Height: lowland / coastal plain (highland on the mountain parcels and the Walls)
+
+Seasonal modifiers: Temperate
+
+Visual Reference
+maps/Map_Local_Region_Ardairn_Valley.jpeg
+Tile west / centre / east if labels fail.
+
+--------------------------------------------------
+LAND AREA
+--------------------------------------------------
+Total: 49,626 square miles.
+
+- Isernhorns: 6,603
+- Little Massif (placeholder name): 1,996
+- Rivenstrand Walls (Westmark reach): 10,362
+- Temperate / boreal woodland: 4,119
+  Stands: 204 + 205 + 124 + 146 + 173 + 88 + 245 + 703 + 192 + 1,362 + 494
+- Laed-Crags: 190
+- Heckengau: 467
+- Sanftgau: 496
+- Open productive floor (remainder): 25,393
+
+--------------------------------------------------
+NOTABLE FEATURES
+--------------------------------------------------
+
+Westmark floor
+Open productive country. Fields, stock, roads, iron-pits inland of the strand. 25,393 square miles. The work of the peninsula.
+Temperature: 3 | Rainfall: 3 | Human Density: 3–4 | Flora: 3 | Fauna: 2 | Topography: 2 | Hydrology: 3
+
+Värdå
+The highway of Westmark and Highmarch. Old name Färdå; Värdå by drift. Glacial melt first, sea-moisture only a partial feed.
+Mouth two miles across. Osricford north, Vardgaard south. Barge only at the mouth. No standing bridge.
+Miles from the sea are Värdå path-miles (meander length), not a straight shot from the coast.
+From the sea, notable joins in Westmark:
+- 15 mi: Herrenau — Isernhorns south-shelf. Villa-country of the capital. Town at the join: Herrenbruck.
+- +79 mi (99 from sea): the Sund
+- +19 mi (118): River Íså
+- +57 mi (175): the Glasau (Brocken Peak / Svarthorn)
+- +8 mi (183): the Hornlein
+- +33 mi (216): Westmark / Highmarch border
+Upper course, lake, Spireflow: Local_Region_Highmarch.txt.
+Biome: River
+Temperature: 3 | Rainfall: 3 | Human Density: 4 | Flora: 3 | Fauna: 3 | Topography: 1–2 | Hydrology: 5
+
+Western Sea-Board
+114 miles north–south along the wriggle of every cove, not a straight ruler.
+Shallow cliffs and beaches. Rolling hills above. Fetch, trade, and raid. Osricford’s yards face the north of this board.
+Biome: Coast
+Temperature: 3 | Rainfall: 3 | Human Density: 3 | Flora: 2 | Fauna: 3 | Topography: 1–2 | Hydrology: 4
+
+Kappvic
+Misty sheltered bight under the Mistcap Crags. 103 square miles of coastal water. Not land. Not in the 49,626.
+Closed by the Mistcap tail-peninsula. Village: Kappstrand.
+Biome: Coast
+Temperature: 3 | Rainfall: 3–4 | Human Density: 2 | Flora: 2 | Fauna: 3 | Topography: 1–2 | Hydrology: 5
+
+Mistcap tail-peninsula (Kannavald)
+Shared feature; the land is inside Kannavald, not Ardairn.
+29 square miles. Sharp tail of the Mistcap Crags. The arm that makes Kappvic a shelter.
+Do not count these 29 miles in the Ardairn 49,626.
+Full write-up: Local_Region_Kannavald_Deepwood.txt.
+Biome: Coast
+Temperature: 2–3 | Rainfall: 4 | Human Density: 1 | Flora: 3 | Fauna: 2 | Topography: 3 | Hydrology: 3
+
+Isernhorns
+Westmark mountain range. 6,603 square miles. Name locked. Not the Marchwall.
+Biome: Highland
+Temperature: 2 | Rainfall: 3 | Human Density: 1 | Flora: 2 | Fauna: 2 | Topography: 4 | Hydrology: 3
+
+Little Massif (placeholder)
+1,996 square miles of highland inside Westmark. Working name only.
+Biome: Highland
+Temperature: 2 | Rainfall: 3 | Human Density: 1 | Flora: 2 | Fauna: 2 | Topography: 4 | Hydrology: 3
+
+Rivenstrand Walls (Westmark reach)
+Shared feature; the Walls are the cliff-coast. Marchwall sits on them further east, in Highmarch.
+This file scores only the Westmark reach: 10,362 square miles of cliff, gale-strand, and bare headland.
+Tiny sparse hamlets and watch-posts. Northern sea and wind. Little shelter. Not farm country.
+Biome: Coast
+Temperature: 2 | Rainfall: 4 | Human Density: 0–1 | Flora: 1 | Fauna: 2 | Topography: 4–5 | Hydrology: 3
+
+Westmark woodland
+Eleven stands. Temperate to boreal. Canopy density 3–5. Worked woods: timber for the yards, charcoal, swine, village-edge.
+Not Kannavald. These stands have roads and axes in them.
+Mileages: 204, 205, 124, 146, 173, 88, 245, 703, 192, 1,362, 494 (Waidwald), 183 (Kohlholt). Remaining stands unnamed.
+Waidwald: 494 square miles. See notable feature.
+Biome: Forest
+Temperature: 2–3 | Rainfall: 3–4 | Human Density: 3 | Flora: 4 | Fauna: 3 | Topography: 2 | Hydrology: 3
+
+Kohlholt
+183 square miles. North bank of the Värdå, path-miles 70 to 90.
+The twenty-mile gap between Heckengau and the start of Sanftgau’s opposite reach.
+Managed woodland: hilly, lumber, charcoal, game. Not Waidwald (that is Vardgaard’s hunt-reserve). Not Kannavald.
+Working name: Kohlholt.
+Biome: Forest
+Temperature: 2–3 | Rainfall: 3 | Human Density: 2 | Flora: 4 | Fauna: 3 | Topography: 3 | Hydrology: 3
+
+Sanftgau
+496 square miles. South bank of the Värdå from 90 path-miles above Osricford to 155 (a 65-mile reach).
+Cultivated gentle hills, pasture, river-bank woodland. Not Heckengau (that sits north, between Herrenau and Värdå).
+Working name: Sanftgau — the gentle gau.
+Temperature: 3 | Rainfall: 3 | Human Density: 3 | Flora: 3 | Fauna: 2 | Topography: 2 | Hydrology: 3
+
+Heckengau
+467 square miles between the Herrenau (north) and the Värdå (south).
+Along the Värdå: path-miles 30 to 70.
+Hedgerows, pasture, cultivated fields.
+Starts just above Kornberg (29). Wagenbruck / Herrenbruck (15) sit downstream of this gau.
+Not Sanftgau (that is the south bank, 90–155). Not villa-glass.
+Temperature: 3 | Rainfall: 3 | Human Density: 3 | Flora: 3 | Fauna: 2 | Topography: 2 | Hydrology: 3
+
+Laed-Crags
+190 square miles. Rugged pocket of steep cliffs and sheer hills. Name from lēad — lead.
+Ore: galena and cerussite (lead). Stibnite (antimony). Vitriol (sulfate salts — the old green and blue vitriols).
+Not villa-country. Not Herrenau. A hard bite of ground that pays in metal and in ruined lungs.
+Wholly inside Ardairn unless later split.
+Biome: Highland
+Temperature: 2 | Rainfall: 3 | Human Density: 1–2 | Flora: 2 | Fauna: 2 | Topography: 4–5 | Hydrology: 2
+
+Waidwald
+494 square miles of temperate / boreal woodland. Hunting reserve. Southern reach ends at the Kannavald border.
+A 29-mile road runs west–east through its middle.
+Entry and hunt-leave sit with Holtward’s lord. Attached to Vardgaard, not to Osricford.
+Not Kannavald Deepwood. The border is the fact.
+Biome: Forest
+Temperature: 2–3 | Rainfall: 3–4 | Human Density: 1–2 | Flora: 4 | Fauna: 3–4 | Topography: 2 | Hydrology: 3
+
+Ebon Spire
+Point site only. Not scored. Shared by Kannavald, Ebormark, and Highmarch. Westmark sees it on the sky and on the arms.
+
+--------------------------------------------------
+LINKED SETTLEMENTS
+--------------------------------------------------
+- Osricford — Settlement_Osricford.txt
+- Vardgaard / Little Oc — Settlement_Vardgaard.txt
+- Herrenbruck — Settlement_Herrenbruck.txt
+- Hofstatt — Settlement_Hofstatt.txt
+- Pomeranzenholt — Settlement_Pomeranzenholt.txt
+- Kornberg — Settlement_Kornberg.txt
+- Speicherstatt — Settlement_Speicherstatt.txt
+- Mühlreih — Settlement_Muehlreih.txt
+- Heckenfeld — Settlement_Heckenfeld.txt
+- Mühlstatt — Settlement_Muehlstatt.txt
+- Holtward — Settlement_Holtward.txt
+- Hügelweid — Settlement_Huegelweid.txt
+- Kappstrand — Settlement_Kappstrand.txt
+
+--------------------------------------------------
+LESSER / SCATTERED / SEASONAL
+--------------------------------------------------
+River landings and mill-towns on the Värdå.
+Iron-pits and charcoal belts inland.
+Stock hamlets on the open floor.
+Wood-hamlets: charcoal, stave, swine.
+Rivenstrand watch-posts and cliff-holds.
+Seasonal yard-labour on the north-bank slips.
+Pass-watches on the Isernhorns and the Little Massif.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+Access
+Sea into the two-mile mouth. The Värdå inland. Roads on both banks; the banks do not join except by barge at the mouth.
+Highmarch and the Spire lie inland and up. Kannavald is not this floor.
+The Rivenstrand reach is entered by cliff-paths and is left the same way, if the wind allows.
+
+Goods
+Out: grain, stock, iron, worked metal, hides, hulls.
+In: salt, southern wine and cloth, horses, long timber.
+The north-bank drydocks eat woodland timber and throw ships.
+
+Population
+Mouth locked: 50,000 (Osricford + Vardgaard).
+Region working total: ~975,000 (range 850,000–1,100,000). Not locked.
+
+Working density
+- Open floor 27,071 × ~32 / sq mi → ~870,000 (includes the mouth)
+- Woodland 3,594 × ~22 / sq mi → ~80,000
+- Horns + Little Massif + Rivenstrand → ~25,000
+
+Working split
+- Capital, two banks: 50,000 locked. Own orbit. Not one of the 16–20.
+- Market / pit / river towns: 16–20. Typical 2,000–5,000. ~70,000.
+  Each town is a hub. Villages of consequence attach to a town — mill-right, market-day, tax, and levy all run through that hub.
+  Working load: about 5–7 attached villages per town (~90–110 villages across the mark, plus ~10–15 wood villages on the timber towns).
+- Attached villages: typical 200–400. Named on the town file until a village needs its own Settlement_ file.
+- Lesser hamlets and pit-rows: still ~720,000 open + ~70,000 wood. They attach even more loosely — a market-day and a reeve, not a charter.
+- Horns / Massif / Rivenstrand: ~25,000. Posts. They answer a keep or a Zonarch, not a market town.
+
+Castles / keeps (working)
+- Major white keeps / Zonarch seats / river-gates / crown forts: 10–12, including the Osricford rise
+- Lesser towers on the open floor: ~25 — often the same site as a hub-town, or the attached village that holds the tower
+- Wood-edge towers: a few on the 1,362-mile stand
+- Rivenstrand: watch-posts, not castles
+- Mountain parcels: pass-watches
+
+Settlement filing
+Write Settlement_ files for the capital pair and for the 16–20 hub towns.
+List attached villages on the hub file under Notes / Linked Features.
+A village gets its own file when play sits there, or when it has a keep, a pit, or a fight worth a page.
+Do not open a hundred village files to start the mark.
+
+Control
+Settlement control lives on the settlement files.
+Westmark as a sector sits under a Zonarch. The Dar Kaiserarch’s port is Osricford.
+See Peoples_Isernvolk.txt POLITY.
+War-era rulers of this line are styled Dar Emait.
+
+When no (bracketed detail) is included, the feature is wholly within this region.
+Isernhorns name locked. Little Massif is a placeholder. Marchwall is not the 6,603.
+River name locked: Värdå (from Färdå). Íså, the Sund, Spireflow, and the lake are not this name.
+
+
+Naming
+Modern name: the Ardairn Valley. Said (ard)(dern).
+From *aiwin- (ever / lasting). Sharpened to Ard + dair; -n for the mouth.
+Common offhand: Westmark.
+Early canopy-names still sit under it: Scatodal, Untarscato, Ēwald, Langwald, Thakscato, Hulisterwald, Deop-untar-Eben.
+Do not use Ebonmark.
+Clash to watch: Ardairn sits near Ader / Adernvolk in the ear. Different thing. Different river.
+See Peoples_Isernvolk.txt NAMING — SHADOW AND CANOPY.

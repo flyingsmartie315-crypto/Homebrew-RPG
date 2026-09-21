@@ -1,0 +1,34 @@
+# Mühlstatt
+
+Type
+Village
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: South bank of the Värdå, upstream of Vardgaard. Attached village of Vardgaard. Agri village with a watermill on the river.
+
+Overview
+The mill-village of Little Oc’s hinterland. Grain comes in by cart and river. Flour goes down to Vardgaard and across the mouth when the barges run. A modest keep watches the wheel and the road. No one writes songs about it. The city eats because it turns.
+
+Control
+Village lord in the keep, under Vardgaard. Not contested.
+
+Population
+Working figure: 280–360.
+Mill-hands, plough-folk, a small keep-garrison.
+
+Economy
+Agriculture and the mill. Toll on the wheel is the living.
+
+Defences / Access
+Modest keep. Village wall enough for thieves, not for a host.
+Access: south-bank Värdå road and the river itself, up from Vardgaard.
+
+Linked Features
+- Vardgaard — Settlement_Vardgaard.txt
+- Värdå — south bank, above the mouth
+
+Notes
+Working name Mühlstatt. File stem Settlement_Muehlstatt.txt (no umlaut in the filename).
+Attached to Vardgaard, not to Osricford.

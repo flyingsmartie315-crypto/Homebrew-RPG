@@ -1,0 +1,35 @@
+# Heckenfeld
+
+Type
+Village
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Centre of Heckengau. 22 miles north-east of Kornberg. Attached to Kornberg. Hedgerows and pasture.
+
+Overview
+The hedge-village. Fields cut into small closes. Stock in the lanes. Modest keep. Looks like the country it is named for.
+
+Control
+Village lord under Kornberg.
+
+Population
+Working figure: 250–330.
+
+Economy
+Mixed agri and herd inside the 467. No mill-right worth a war.
+
+Defences / Access
+Modest village keep. An estate and small castle sit in proximity (working: Heckensitz). The house sits in the hedges, not in the village street.
+Heckengau lanes only.
+
+Linked Features
+- Kornberg — Settlement_Kornberg.txt (22 miles south-west)
+- Heckensitz — estate and small castle in proximity
+- Heckengau
+- Speicherstatt — Settlement_Speicherstatt.txt
+- Mühlreih — Settlement_Muehlreih.txt
+
+Notes
+Working name. The vale is the point, not the keep.

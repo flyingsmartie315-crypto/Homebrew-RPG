@@ -1,0 +1,37 @@
+# Hofstatt
+
+Type
+Village
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: North of the Värdå, on Herrenbruck’s side. Attached village of Herrenbruck. Agri-rows and servant-housing for the Herrenau estates.
+
+Overview
+A working village that feeds halls it does not enter except by the back stair. Fields, byres, bakehouse, and long rows of tied cottages. Most of the hands that keep the Herrenau estates looking effortless sleep here. Herrenbruck is the market. Osricford is a rumour with a barge-fare.
+
+Control
+Reeve under Herrenbruck. Estate stewards have more day-to-day power than the reeve when a house is in residence. Not contested. Resented.
+
+Population
+Working figure: 320–400.
+Tied folk, plough-teams, dairy, a few free cottars. The nobles do not live in the cottages. Their estates stand on both sides of the Herrenau.
+
+Economy
+Grain, cheese, stock, garden-stuff for the estates and for Herrenbruck market.
+Labour is the other export. Hands walk out at dawn toward the shelf-houses and the glass.
+
+Defences / Access
+Modest stone walls, well made and kept handsome. A barred gate. No keep. The village is idyllic on purpose: a blemish here is a blemish in the estate windows.
+Road to Herrenbruck. Field-tracks to the estates on both sides of the Herrenau, and to Pomeranzenholt. Does not need the Värdå; the town has the river.
+
+Linked Features
+- Herrenbruck — Settlement_Herrenbruck.txt
+- Pomeranzenholt — Settlement_Pomeranzenholt.txt
+- Herrenau estates — villa-country upstream of the join
+
+Notes
+Attached to Herrenbruck. Do not file it as a hub.
+Servant-country. If a plot needs a listener in a great house, the listener lives here.
+Working name. Hofstatt = the hall-place that is not a hall.

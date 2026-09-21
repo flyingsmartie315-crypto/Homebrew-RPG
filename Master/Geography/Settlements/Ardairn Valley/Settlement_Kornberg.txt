@@ -1,0 +1,40 @@
+# Kornberg
+
+Type
+Town
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: North bank of the Värdå, 14 path-miles upriver from Herrenbruck (29 from Osricford). Keep on a hill over the river. Town on the water.
+
+Overview
+The second hub on the Värdå after Herrenbruck. A small town under a prominent keep. Mills on the current. Warehouses and granaries on the bank. Behind it lies Heckengau: hedges, pasture, and cultivated fields pinched between the Herrenau to the north and the Värdå to the south. This is not villa-glass country. This is where the estates’ grain becomes freight.
+
+Control
+Keep-lord under the Ardairn Zonarch. Not contested. Lives off mill-right and store-right.
+
+Population
+Working figure: 2,200–2,700.
+Millers, warehousemen, barge-hands, keep-garrison, market folk.
+
+Economy
+Watermills. Granaries. Warehouse on the Värdå.
+Takes Heckengau grain and stock. Sends it down to Herrenbruck and Osricford.
+
+Defences / Access
+Prominent keep on the hill. Town wall modest.
+Access: Värdå barge. North-bank road. 14 path-miles down to Herrenbruck across Wagenbruck’s country. Heckengau lanes to the three attached villages.
+
+Linked Features
+- Värdå — 29 path-miles from the sea
+- Heckengau — 467 sq mi hedge-and-field country between Herrenau (north) and Värdå (south)
+- Wagenbruck — the wide Herrenau bridge at Herrenbruck
+- Speicherstatt — Settlement_Speicherstatt.txt
+- Mühlreih — Settlement_Muehlreih.txt
+- Heckenfeld — Settlement_Heckenfeld.txt
+- Herrenbruck — Settlement_Herrenbruck.txt
+
+Notes
+Working names. Kornberg = grain-hill.
+The keep looks at the river, not at Osricford.

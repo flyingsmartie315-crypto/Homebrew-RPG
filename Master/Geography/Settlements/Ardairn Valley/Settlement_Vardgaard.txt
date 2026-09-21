@@ -1,0 +1,43 @@
+# Vardgaard
+
+Type
+Town
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: South bank of the Värdå at the mouth. Two miles across the water from Osricford. Common name: Little Oc.
+
+Overview
+The south-bank half of the landing-mouth. Not the crown. Not the yards. Little Oc is houses, byres, lesser quays, and the people who wait on a barge. In law it answers to Osricford. In the street it is its own town — cheaper rents, more stock in the yards, a shorter temper when the north bank hoards hulls or news. Transit is the river. There is no bridge.
+
+Control
+Isern crown of Westmark, administered from Osricford. Local reeves and quay-masters run the day. Not contested. Periodic sulk, not revolt.
+
+Population
+Working share of the 50,000-mouth: 15,000–18,000.
+Isern mark-folk, drovers, barge-hands, small craft. Fewer shipwrights than the north. More mouths that live off the crossing.
+
+Economy
+South-bank service to the capital: food, lodgings, stock-pens, small repair, ferry labour.
+Takes overflow when the north yards are full. Does not lay the great keels. Those stay on Osricford’s drydocks.
+Lives or starves by the barge-run. A closed mouth is a closed town.
+
+Defences / Access
+Lighter wall than the north rise. Quay-stakes, a river-gate, watch toward the sea and toward the two-mile crossing.
+Access: Westmark south-bank roads, the river inland, and barge to Osricford. No standing bridge.
+
+Linked Features
+- Värdå — two-mile mouth
+- Osricford — north-bank capital, yards, and crown. Settlement_Osricford.txt
+- Western sea-board
+- Mühlstatt — Settlement_Muehlstatt.txt
+- Holtward — Settlement_Holtward.txt
+- Hügelweid — Settlement_Huegelweid.txt
+- Waidwald — 494 sq mi hunting-weald, reached via Holtward. South to the Kannavald border. 29-mile west–east road through the middle.
+
+Notes
+Little Oc is the name used on the strand. Vardgaard is the charter name.
+Do not give it a second king. Do give it a reason to delay a barge.
+Campaign hooks: a ferry-guild with more power than its rank; south-bank men who saw a Jarn sail first; a levy that cannot cross in a blow.
+The 50,000 figure is the mouth. Do not add Osricford and Vardgaard as if they were two capitals.

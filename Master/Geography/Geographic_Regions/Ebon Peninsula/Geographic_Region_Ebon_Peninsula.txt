@@ -24,7 +24,7 @@ Shared / Border Local Regions
 - Ader line / Rhonmere country — live southern border with Coritania. The river is the division in the modern era. South-bank halls are Coritanian; north-bank works (Brückenburg and the waystations) sit on the peninsula side.
 
 Local Regions
-- Westmark — open western heartland. Iron, grain, livestock, sea trade. Capital port at the mouth of the great west-flowing river. Seat of Isernvolk power and of first-landing memory.
+- Westmark — open western heartland. Iron, grain, livestock, sea trade. Capital port at the mouth of the Värdå. Seat of Isernvolk power and of first-landing memory.
 - Ebormark — southern / vale country under the Spire massif. Eyrenal and the Eyrenhost. South face of Ebon Spire / Svarthorn.
 - Kannavald Deepwood — remaining dense forest. Northern face of Ebon Spire / Svarthorn. Westwood Heights. Kannavi majority in the woods; Isern law on lake-shore and pits.
 - Highmarch — elevated middle country between the eastern flanks of Ebon Spire / Svarthorn and the rising Marchwall Range. Passes, watch, highland herd.
@@ -38,7 +38,17 @@ Notable Features
 - Rhennod Mountains — east wall. Highest peak: Rhön / Mount Rhön.
 - Rhônweill — lake at the Rhennod foot. Local Frankish. Wider Coritania: le Rhônel. Syllvani: Llyn Rhön. Tale: Giant’s Pool. Outflow: the Ader.
 - The Ader — southern border river with Coritania.
-- Great west-flowing river of Westmark — unnamed here; mouth holds the peninsula capital.
+- Värdå — great west-flowing river. Old Färdå. Mouth at Osricford / Ocsgaard. Glacial melt; sea moisture only a partial trap. Sea to Holtau ~377 path-miles on the listed joins (meander length of the Värdå, not a straight shot from the coast).
+- Herrenau — first join, 20 miles up. Isernhorns south-shelf. Villa-country of the capital.
+- Íså — tributary of the Värdå in Westmark.
+- The Sund — tributary of the Värdå in Westmark.
+- Spireflow — tributary of the Värdå in Highmarch.
+- Dreiau — three strands from boreal forest at the Marchwall base. Joins the Värdå at 305. Then 72 miles to Holtau.
+- Erzau — joins the Appolasian Plateau river; that trunk enters Holtau on the east. Not the Spire NE burn. Not a Värdå join.
+- Brocken Peak — with Svarthorn; the Glasau runs off it to the Värdå.
+- Hornlein — Little Horn water to the Värdå in Westmark (183 from sea). Not the Little Massif until so locked.
+- Ebonclock — working range-name for the mountains attached to the Ebon Spire (Kannavald mountains), excluding Lowstacks, Westwood Peaks, Westwood Heights, Watchers Peak, and Mistcap Crags.
+- Holtau — 187 square miles on the upper Värdå. Second hub of the peninsula. Lake name locked. Takes Ostglas from the south; from the east, Avenhir after Erzau has joined it.
 - Die Schulter — named mass of Ebormark (the Shoulder). Local_Region_Ebormark when written.
 - Zackenkar — working name. Bowl-peak south-east of Die Schulter. Holds glacial ice. Seasonal melt swells the Zackenbeck.
   A cirque, not a caldera. Other name-options: Eiskar, Schulterkar, Kesselhorn.

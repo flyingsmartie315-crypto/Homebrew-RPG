@@ -1,11 +1,11 @@
 # Local_Region_Highmarch
 
 Overview
-The elevated middle country of the Ebon Peninsula, lying between the eastern flanks of Ebon Spire / Svarthorn Massif and the rising Marchwall Range. A broken highland of ridges, high valleys, and passes. Settlement is thinner and harder than in Westmark; the land serves as both shield and corridor toward the Syllvani frontier. Watch-posts, herding holds, and pass-tolls matter more than open fields.
+The elevated middle country of the Ebon Peninsula, between the eastern flanks of Ebon Spire / Svarthorn / Ebonclock and the rising Marchwall Range. A broken highland of ridges, high valleys, and passes. The Värdå is the through-road. Settlement is thinner than Westmark; watch, herd, and river-hub matter more than open fields.
 
 Biome: Temperate / Highland
-Sub-biomes: Alpine, River, Highland
-The high ground is cold and steep. The deeper valleys are milder but still elevated.
+Sub-biomes: Alpine, River, Highland, Forest
+The high ground is cold and steep. The Värdå valleys are milder but still elevated.
 
 Environmental Scores
 Temperature: 2 | Rainfall: 3 | Human Density: 2 | Flora: 3 | Fauna: 2 | Topography: 4 | Hydrology: 3
@@ -21,46 +21,118 @@ maps/Map_Local_Region_Highmarch.jpeg
 Tile west / centre / east if labels fail.
 
 --------------------------------------------------
+VÄRDÅ (HIGHMARCH REACH)
+--------------------------------------------------
+Miles from the sea are Värdå path-miles (meander length along the river), not a straight shot from the coast.
+Main stem enters from Westmark 216 path-miles above Osricford.
+From the Westmark / Highmarch border, notable joins:
+
+- +20 mi (236 path-miles from the sea): Rimenau — first Marchwall burn
+- +45 mi (281 path-miles from the sea): the Spireflow
+- +24 mi (305 path-miles from the sea): Dreiau — three-strand Marchwall foot-woods river
+- +72 mi (377 path-miles from the sea): Holtau
+
+Sea to lake on this listed chain: about 377 path-miles.
+Westmark file holds the lower five joins.
+
+--------------------------------------------------
 NOTABLE FEATURES
 --------------------------------------------------
 
-Ebon Spire (northern face)
-The high northern slopes and ridges of the inactive volcano. Cold, steep, and sparsely held. Shared feature; full write-up lives in Kannavald Deepwood. Highmarch scores only the northern face and its immediate approaches.
+Värdå (Highmarch reach)
+The same river as Westmark. Journey-water. Glacial first.
+Biome: River
+Temperature: 2 | Rainfall: 3 | Human Density: 2–3 | Flora: 3 | Fauna: 2 | Topography: 3 | Hydrology: 4
+
+Spireflow
+Melt and run-off off the Spire / Ebonclock side. Joins the Värdå 281 path-miles from the sea.
+Biome: River
+Temperature: 2 | Rainfall: 3 | Human Density: 1–2 | Flora: 2 | Fauna: 2 | Topography: 3–4 | Hydrology: 4
+
+Rimenau
+First Marchwall burn. Joins the Värdå 20 miles inside Highmarch (236 path-miles from the sea). Rim-water of the wall. Not Herrenau.
+Biome: River
+Temperature: 2 | Rainfall: 3 | Human Density: 1–2 | Flora: 2 | Fauna: 2 | Topography: 3–4 | Hydrology: 4
+
+Avenhir
+Syllvani Afon Hir, Isern worn form. Rises on the Appolasian Plateau. Erzau joins it. Enters Holtau on the eastern side.
+Shared with the Plateau. This file scores only the Highmarch reach.
+Biome: River
+Temperature: 2 | Rainfall: 3 | Human Density: 2 | Flora: 3 | Fauna: 2 | Topography: 3 | Hydrology: 4
+
+Erzau
+Joins Avenhir. That combined trunk enters Holtau on the eastern side.
+Not the Spire NE burn. Not a Värdå join. Not Marchwall water.
+Biome: River
+Temperature: 2 | Rainfall: 3 | Human Density: 2 | Flora: 2 | Fauna: 2 | Topography: 3 | Hydrology: 4
+
+Ostglas
+Fast, clear water off the north-east face of the Ebon Spire. Southern feed of Holtau. Name locked.
+Biome: River
+Temperature: 2 | Rainfall: 3 | Human Density: 1 | Flora: 2 | Fauna: 2 | Topography: 4 | Hydrology: 4
+
+Dreiau
+Three strands out of hilly boreal forest hugging the Marchwall base. Joins the Värdå at 305 path-miles from the sea. Then 72 miles of Värdå to Holtau.
+Not Erzau.
+Biome: River
+Temperature: 2 | Rainfall: 3 | Human Density: 1–2 | Flora: 4 | Fauna: 3 | Topography: 3 | Hydrology: 4
+
+Marchwall Range (Highmarch faces)
+Shared wall. Sits on the Rivenstrand Walls. Listed Marchwall water to the Värdå: Rimenau (236) and Dreiau (305). Erzau joins the Plateau river, then Holtau east.
+Biome: Alpine
+Temperature: 1 | Rainfall: 3–4 | Human Density: 1 | Flora: 2 | Fauna: 2 | Topography: 5 | Hydrology: 3
+
+Ebon Spire (eastern face)
+Shared. Full write-up: Geographic_Region_Ebon_Peninsula.txt. Highmarch scores the east face and the approaches only.
 Biome: Alpine
 Temperature: 1 | Rainfall: 4 | Human Density: 0–1 | Flora: 2 | Fauna: 1–2 | Topography: 5 | Hydrology: 2
 
-Svarthorn Massif (eastern flanks)
-The black-rock highland mass surrounding Ebon Spire. Craggy, volcanic in origin, and higher than the coastal hills. Shared feature; full write-up lives in Kannavald Deepwood. Highmarch scores the eastern flanks that fall into the marches.
+Ebonclock (Highmarch / Kannavald attach)
+Working range-name for mountains attached to the Spire, excluding Lowstacks, Westwood Peaks, Westwood Heights, Watchers Peak, and Mistcap Crags.
+Shared with Kannavald. Waters from this mass feed the lake from the east with Marchwall water.
 Biome: Alpine
-Temperature: 1 | Rainfall: 4 | Human Density: 1 | Flora: 2–3 | Fauna: 2 | Topography: 5 | Hydrology: 2–3
+Temperature: 1–2 | Rainfall: 3–4 | Human Density: 1 | Flora: 2 | Fauna: 2 | Topography: 5 | Hydrology: 3
 
-Marchwall Range
-The rising wall that forms the northern border against the Northern Seas. High, continuous, and strategically critical.
+Holtau
+187 square miles. The Värdå joins it 377 path-miles from the sea.
+Second hub of the peninsula. Second-largest population centre after the Osricford mouth. Settlement name not locked.
+Southern / Spire feed: Ostglas — NE face of the Ebon Spire. Fast, clear.
+Eastern feed: Avenhir, joined by Erzau, then into Holtau’s east shore. Avenhir locked.
+
+Biome: Lake
+Temperature: 2 | Rainfall: 3 | Human Density: 3 | Flora: 3 | Fauna: 3 | Topography: 2 | Hydrology: 5
+
+Svarthorn Massif (eastern / north-east approaches)
+Shared. Brocken Peak sits with it; the Glasau has already joined the Värdå in Westmark (175 path-miles from the sea).
 Biome: Alpine
-Temperature: 1–2 | Rainfall: 3 | Human Density: 1 | Flora: 2 | Fauna: 2 | Topography: 5 | Hydrology: 2
+Temperature: 1–2 | Rainfall: 3 | Human Density: 1 | Flora: 2 | Fauna: 2 | Topography: 4–5 | Hydrology: 3
 
-High Valleys and Pass Country
-The network of elevated valleys, cols, and through-routes that cross the region. Primary settlement and travel corridors.
+High valleys and pass country
+Elevated corridors. Primary settlement and travel besides the Värdå.
 Temperature: 2 | Rainfall: 3 | Human Density: 2–3 | Flora: 3 | Fauna: 2 | Topography: 3–4 | Hydrology: 3
 
 --------------------------------------------------
 LINKED SETTLEMENTS
 --------------------------------------------------
+- [Holtau hub — second population centre of the peninsula. Town name not locked]
 - [Watch holds and pass settlements — to be defined]
-- [Herding and valley villages — to be defined]
 
 --------------------------------------------------
 LESSER / SCATTERED / SEASONAL
 --------------------------------------------------
 High pastures and seasonal herding camps.
-Isolated watch-posts and signal stations along the Marchwall approaches.
-Small timber and charcoal workings in the lower valleys.
+Watch-posts on the Marchwall approaches.
+Timber and charcoal in the lower valleys.
 
 --------------------------------------------------
 NOTES
 --------------------------------------------------
-Access is by the high passes from Westmark, by routes descending from the Spire country, and by the limited corridors that cross toward the Rhennod / Plateau frontier.
-The region is the shield of the peninsula — thinner in people, heavier in watch and toll.
-Economy rests on highland herding, limited mining, timber, and control of the through-roads.
-Culturally Isernvolk, but harder and more frontier-minded than the green heartland.
-Ebon Spire and Svarthorn Massif are shared landforms; detailed scores and full descriptions live in Kannavald Deepwood (and the south face in Ebormark). Highmarch only records the northern faces that fall into this region.
+Access
+From Westmark up the Värdå. From the Spire country down the Spireflow and the NE burn. From the Plateau by the unnamed eastern river. From the Marchwall by the listed burns only.
+
+Holtau is the Highmarch hinge. The mouth at Osricford is the Westmark hinge. Do not give this lake Westmark’s 50,000. It is second, not equal.
+
+Ebon Spire and Svarthorn are shared; this file only scores the faces that fall here.
+Marchwall spelling stays Marchwall, not Marchwell.
+
+When no (bracketed detail) is included, the feature is wholly within this region.
