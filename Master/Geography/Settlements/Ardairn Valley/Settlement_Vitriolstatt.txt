@@ -1,0 +1,37 @@
+# Vitriolstatt
+
+Type
+Village
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Inside the Laed-Crags. 7 miles east of Laedburg. 2 miles north of the village to the Värdå.
+
+Overview
+Palisade faces in. The air is the punishment. Indebted labour is thick here — bound years in the acid-yards — with a convict core on the worst vats. Harsher than a street. Better than Kesselgrube if “better” means you might leave when the debt is paid.
+
+Control
+Warden out of Laedburg. Free-miner foremen on the vats.
+
+Population
+Working unfree: 400–650 (convicts plus indebted).
+Convict share sits in the lower half of that band. Indebted fill the rest.
+Warders and foremen extra.
+
+Economy
+Vitriol, some antimony. Barrels down to Laedburg. Do not store them in the town if the wind is wrong.
+
+Defences / Access
+Inward palisade. The smell is a wall of its own.
+Tracks to Laedburg and to the other two clusters.
+
+Linked Features
+- Laed-Crags
+- Laedburg — Settlement_Laedburg.txt
+- Kesselgrube — Settlement_Kesselgrube.txt
+- Stallreihe — Settlement_Stallreihe.txt
+
+Notes
+Indebted tier lives here more than at Kesselgrube. Still not free.
+Working name.

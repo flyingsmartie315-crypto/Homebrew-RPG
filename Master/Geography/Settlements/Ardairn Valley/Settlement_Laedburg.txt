@@ -1,0 +1,47 @@
+# Laedburg
+
+Type
+Town
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: South bank of the Värdå, 98 path-miles from Osricford. East of the Sund join (99). Immediate east and south-east: the Laed-Crags. Smelter-town.
+
+Overview
+New money in a stone keep. The town exists because the Crags pay. Smelter-rows on the downwind side. Ore comes in from the cliffs. Barges go out laden for Osricford — raw and refined. Gentle Sanftgau is next door and pretends not to smell it. No one in Herrenau would build this on purpose. Someone did, and bought a castle.
+
+Control
+Castle-house under the Ardairn Zonarch. Wealth is pit-wealth, not old landing-blood. Resented upstream and downstream. Not contested in arms.
+
+Population
+Working figure: 3,000–3,800 in the town and smelter-rows.
+Free miners come in to sell and to drink. Convicts do not live in the streets. They live in the Crags.
+
+Economy
+Smelt and ship.
+Lead, antimony-work, vitriol. Barges down the Värdå to the capital. Food and timber in the other direction.
+The town eats the Crags. If the veins quiet, the keep is just a house on a bad river-bend.
+
+Defences / Access
+Castle-town wall. Keep raised on pit-silver, not on Osric’s landing.
+Access: Värdå barge (98 path-miles). South-bank road. Tracks east and south-east into the Laed-Crags. Sund mouth a mile down-channel.
+
+Linked Features
+- Värdå — 98 path-miles from the sea. East of the Sund
+- Laed-Crags — 190 sq mi. Immediate E / SE
+- Sanftgau — south-bank cultivated reach; this town sits on its inner lip
+- Osricford — ore-market and the barges’ end. Settlement_Osricford.txt
+- Vitriolstatt — 7 miles east; 2 miles north to the Värdå. Settlement_Vitriolstatt.txt
+- Stallreihe — 8 miles south then east. Settlement_Stallreihe.txt
+- Kesselgrube — 5 miles south-east, centre of the Crags. Settlement_Kesselgrube.txt
+
+Notes
+Working name. Laedburg from the same lēad as the Crags.
+New money. Do not give them an old compact.
+Campaign hooks: a barge of vitriol that should have been lead; a free miner who will not send men back to the stalls; a Zonarch who wants the castle and cannot buy the smell off his cloak.
+---
+Labour in the Crags (lives on the Laed-Crags feature, not in this street)
+1. Convicts — egregious sentences. Barrack-pits. Worst ground.
+2. Indebted labour — tier above, still harsh. Bound years, not a noose commuted.
+3. Free miners — overseers and foremen of the vein. Old stall-right. They run the work. They are not kind.

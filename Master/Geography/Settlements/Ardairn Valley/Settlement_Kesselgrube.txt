@@ -1,0 +1,36 @@
+# Kesselgrube
+
+Type
+Village
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Dead centre of the Laed-Crags. 5 miles south-east of Laedburg. Deepest cluster. Worst veins.
+
+Overview
+A “village” whose palisade faces in. The basin-pit. Most of the Crags’ convicts sit here. Egregious sentences. The houses are barracks. The street is a yard. Free miners come as foremen and leave. No one pretends this is Hofstatt.
+
+Control
+Warden appointed out of Laedburg / the Zonarch. Free-miner foremen run the vein day to day.
+
+Population
+Working convicts: 500–850 (share of the Crags’ 1,200–2,000).
+Warders and free-miner overseers: a few hundred who do not sleep in the yard if they can help it.
+
+Economy
+Worst lead and the work no stall-holder wants. Ore to Laedburg.
+
+Defences / Access
+Palisade faces inward. Towers look at the yard first, the cliffs second.
+Access: tracks to Laedburg. No market road worth the name.
+
+Linked Features
+- Laed-Crags
+- Laedburg — Settlement_Laedburg.txt
+- Vitriolstatt — Settlement_Vitriolstatt.txt
+- Stallreihe — Settlement_Stallreihe.txt
+
+Notes
+Not a village in the Heckengau sense. Count it as one because men eat and die in one place.
+Campaign hooks: a man who should have gone to Stallreihe; a palisade gate that opens the wrong way in a panic.

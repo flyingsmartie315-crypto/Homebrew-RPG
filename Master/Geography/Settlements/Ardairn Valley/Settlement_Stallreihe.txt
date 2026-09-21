@@ -1,0 +1,37 @@
+# Stallreihe
+
+Type
+Village
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Inside the Laed-Crags. 8 miles from Laedburg by the south-then-east track. Free-miner stalls. Smaller convict yard attached.
+
+Overview
+The row of stalls. Free miners live here like a real village until you see the inner palisade on the attached yard. They are overseers and foremen for the other two clusters. They keep the better rock for themselves. Convicts here are fewer and watched harder — a man sent to Stallreihe’s yard has skills, or enemies among the free.
+
+Control
+Stall-right first. Warden second. This is the cluster that can make a Laedburg keep wait.
+
+Population
+Free miners and households: the largest free population of the three clusters.
+Working convicts: 300–500.
+Indebted: a thin band under the free, not the main mass.
+
+Economy
+Best stalls. Ore that pays. Foreman-labour sold to Kesselgrube and Vitriolstatt.
+They will riot if convict gangs are put on good rock.
+
+Defences / Access
+Outer face looks like a pit-village. The yard palisade faces in.
+Tracks to Laedburg. The free use them. The yard does not.
+
+Linked Features
+- Laed-Crags
+- Laedburg — Settlement_Laedburg.txt
+- Kesselgrube — Settlement_Kesselgrube.txt
+- Vitriolstatt — Settlement_Vitriolstatt.txt
+
+Notes
+Free miners are not kind. They are not convicts. Do not flatten the three clusters into one camp.
