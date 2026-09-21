@@ -27,7 +27,7 @@ LAND AREA
 --------------------------------------------------
 Total: 49,626 square miles.
 
-- Isernhorns: 6,603
+- Isernhorns: 6,603 (includes Arnmont 550; Shattered Seawall is the drowned west-north teeth, not extra land)
 - Little Massif (placeholder name): 1,996
 - Rivenstrand Walls (Westmark reach): 10,362
 - Temperate / boreal woodland: 4,119
@@ -66,6 +66,14 @@ Shallow cliffs and beaches. Rolling hills above. Fetch, trade, and raid. Osricfo
 Biome: Coast
 Temperature: 3 | Rainfall: 3 | Human Density: 3 | Flora: 2 | Fauna: 3 | Topography: 1–2 | Hydrology: 4
 
+The Shattered Seawall
+Fifteen miles north-west of Osricford. Granite spires rising from coastal water like spikes for nearly 13 miles.
+Shelters the city and port from the northern wind. In rough water it shreds any hull that enters the spikes.
+Part of the Isernhorns umbrella: drowned granite teeth of the same range. Not Tahrfall’s weeping wall. Not Rivenstrand. Not Kappvic.
+Isern mouth (optional): Skardweall.
+Biome: Coast
+Temperature: 3 | Rainfall: 3 | Human Density: 0 | Flora: 1 | Fauna: 2 | Topography: 4 | Hydrology: 5
+
 Kappvic
 Misty sheltered bight under the Mistcap Crags. 103 square miles of coastal water. Not land. Not in the 49,626.
 Closed by the Mistcap tail-peninsula. Village: Kappstrand.
@@ -82,8 +90,36 @@ Temperature: 2–3 | Rainfall: 4 | Human Density: 1 | Flora: 3 | Fauna: 2 | Topo
 
 Isernhorns
 Westmark mountain range. 6,603 square miles. Name locked. Not the Marchwall.
+Umbrella: north trio, Bergon Massif, Tahrfall, Arnmont, and the Shattered Seawall all sit under this name.
+Second-tallest peak on the Ebon Peninsula (Ebon Spire is first, and tallest on Virath).
+Inactive volcano. Distinctive silhouette: a pale head and two horns. From the Ardairn floor it reads as a crowned thing, not a black shield.
+The head is the old plug / ice-crown: Īshoubit.
+The horns are the flanking ridges of the broken rim: Westarīs (west), Āustarīs (east).
+Lower southern shelf feeds the Herrenau.
+Centre of the range: Bergon Massif (from *bergō). Cluster of higher peaks with glacial reserves between them. Not the north trio.
+West face to the sea: Tahrfall (*tahrą + *fallaną). Common: the Weeping Walls. 54-mile sheer cliff-line. Bergon ice goes over the edge into the sea. Not the shallow Western Sea-Board.
+Named heights (locked, metres above sea)
+- Īshoubit: 9,845. North head. Second peak of the peninsula; only the Ebon Spire stands higher.
+- Westarīs: 7,055
+- Āustarīs: 6,897
+- Bergon Massif high point: Mount Vaterberg, 6,123. “Father of the massif.”
+Tahrfall wall
+- Lowest sea-cliff: Tahskar, 1,250 m
+- Tallest sea-cliff: Sanderstīg, 2,026 m. Alexander (mad, famous steeplejack) + *stīganą (to climb).
+9,845 m is a death-zone stone. Men will try. Most will not stand on Īshoubit. The Weeping Walls are a climb of a different kind — Sanderstīg is a name earned, not a road.
+
+Arnmont
+From *īsarną (iron) + mont. Worn: Arnmont.
+The hollow mountain — dual sense: mined-out veins and ancient vast cave-channels.
+550 square miles. South of Tahrfall, over Osricford. High point 1,569 m.
+Ancient dark volcanic rock. South faces: empty veins, long dug out. North faces: still worked (copper, leftover silver, iron).
+Fossil lava-tubes and cave-net. Same under-stone family as the peninsula; not Dauðavík live heat.
+Not Īshoubit’s pale ice-cone. Part of the Isernhorns umbrella — the south dark body of the same range.
+
+
+No live fire. Glacial melt off this mass is a Värdå diet, not a plume.
 Biome: Highland
-Temperature: 2 | Rainfall: 3 | Human Density: 1 | Flora: 2 | Fauna: 2 | Topography: 4 | Hydrology: 3
+Temperature: 2 | Rainfall: 3 | Human Density: 1 | Flora: 2 | Fauna: 2 | Topography: 4–5 | Hydrology: 3
 
 Little Massif (placeholder)
 1,996 square miles of highland inside Westmark. Working name only.
@@ -116,7 +152,7 @@ Temperature: 2–3 | Rainfall: 3 | Human Density: 2 | Flora: 4 | Fauna: 3 | Topo
 Sanftgau
 496 square miles. South bank of the Värdå from 90 path-miles above Osricford to 155 (a 65-mile reach).
 Cultivated gentle hills, pasture, river-bank woodland. Not Heckengau (that sits north, between Herrenau and Värdå).
-Working name: Sanftgau — the gentle gau.
+Working name: Sanftgau — the gentle gau. Laedburg sits on the inner lip at path-mile 98.
 Temperature: 3 | Rainfall: 3 | Human Density: 3 | Flora: 3 | Fauna: 2 | Topography: 2 | Hydrology: 3
 
 Heckengau
@@ -132,6 +168,26 @@ Laed-Crags
 Ore: galena and cerussite (lead). Stibnite (antimony). Vitriol (sulfate salts — the old green and blue vitriols).
 Not villa-country. Not Herrenau. A hard bite of ground that pays in metal and in ruined lungs.
 Wholly inside Ardairn unless later split.
+
+Prison-industrial working figures (not locked)
+Standing convicts in the Crags: 1,200–2,000.
+War-surge: up to ~3,000.
+Do not park 8,000 here.
+
+Three tiers
+1. Convict labour — egregious criminals serving sentence. Barrack-pits inside the Crags. Worst veins.
+2. Indebted labour — tier above, still harsh. Bound years. Not the noose, not freedom.
+3. Free miners — overseers / foremen. Stall-right. They run the work and keep the convicts off the good rock when they can.
+
+Three inward-facing clusters (palisade faces the yard)
+- Kesselgrube — worst veins. Convicts 500–850. Settlement_Kesselgrube.txt
+- Vitriolstatt — vats and bound years. Unfree 400–650 mixed. Settlement_Vitriolstatt.txt
+- Stallreihe — free stalls plus a smaller yard. Convicts 300–500. Settlement_Stallreihe.txt
+Bands scale together inside the Crags’ 1,200–2,000.
+
+Smelter-town: Laedburg, south bank, 98 path-miles up the Värdå, east of the Sund. Immediate west of the Crags. Settlement_Laedburg.txt.
+Ore into Laedburg. Barges of ore and metal down to Osricford.
+Free and half-free pit-folk plus Laedburg streets: 5,000–7,000 outside the chains.
 Biome: Highland
 Temperature: 2 | Rainfall: 3 | Human Density: 1–2 | Flora: 2 | Fauna: 2 | Topography: 4–5 | Hydrology: 2
 
