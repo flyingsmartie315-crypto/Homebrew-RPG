@@ -1,0 +1,36 @@
+# Sundbruck
+
+Type
+Village
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: West of Laedburg, across the bridge over the Sund mouth into the Värdå. 8 miles from Laedburg as the crow flies. Far eastern corner of Sanftgau. South bank.
+
+Overview
+Agri village that feeds the smelter-town. The keep is prominent — a fork-watch on the west side of the Sund, same as Laedburg is the east. Grain and stock go over the bridge. Smoke comes back. Sanftgau ends here. The Crags do not.
+
+Control
+Village lord in the keep, attached to Laedburg. Not the dam. Not Herrenbruck.
+
+Population
+Working figure: 320–420.
+Plough and herd. Keep-garrison larger than a hedge-village.
+
+Economy
+Feeds Laedburg. Does not smelt. Does not keep convicts.
+
+Defences / Access
+Prominent keep on the far-east corner of Sanftgau. Bridge over the Sund mouth.
+Access: Sund-bridge to Laedburg (8 miles crow). Värdå south-bank road. Sanftgau lanes west.
+
+Linked Features
+- Laedburg — Settlement_Laedburg.txt
+- Sund — mouth into the Värdå
+- Sanftgau — eastern lip
+- Värdå — south bank
+
+Notes
+Working name: Sundbruck. Kill it if the bridge-word is too cheap.
+Attached to Laedburg, not to Osricford and not to Kornberg.

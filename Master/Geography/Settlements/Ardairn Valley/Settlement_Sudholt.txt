@@ -1,0 +1,34 @@
+# Sūdholt
+
+Type
+Village
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Kohlholt. 1.5 miles south of Nistburg.
+
+Overview
+South-holt. The village under the nest. Wood-edge agri and charcoal-row for Nistburg. Nistau is already past, running SE to Holtbeck.
+
+Control
+Under Nistburg.
+
+Population
+Working figure: 250–330.
+
+Economy
+Small fields at the wood-foot. Charcoal and timber-labour. Game when the keep allows.
+
+Defences / Access
+Modest keep or stockade. The castle is 1.5 miles north in the stone.
+Tracks to Nistburg and down-holt toward Holtbeck / the Värdå.
+
+Linked Features
+- Nistburg — Settlement_Nistburg.txt
+- Kohlholt
+- Lūtaberg
+- Nistau / Holtbeck
+
+Notes
+Locked name Sūdholt. File stem Settlement_Sudholt.txt.

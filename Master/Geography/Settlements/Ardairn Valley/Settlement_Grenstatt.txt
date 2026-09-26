@@ -1,0 +1,34 @@
+# Grenstatt
+
+Type
+Village
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Markholt. One mile up Grenbek from Littmere. South of Lārifenn. West-water of the mere.
+
+Overview
+Beck-village on the Kannavald inflow. Boat-country. The fen is next door.
+
+Control
+Bound to Tjarnborg.
+
+Population
+Working figure: 240–320.
+
+Economy
+Mere-fish, small fields, wood-edge.
+
+Defences / Access
+From Tjarnborg: 6 miles by boat across Littmere, then 1 mile up Grenbek.
+Or by rim: 4.5 miles north around Littmere, cross the Tjarn, then 7 miles around the east rim and the swamp — the long wet way.
+Working name. The “east bank of Littmere” line in the first note is Tjarnborg’s bank, not this village.
+
+Linked Features
+- Tjarnborg — Settlement_Tjarnborg.txt
+- Grenbek
+- Littmere / Lārifenn
+
+Notes
+Working name Grenstatt.

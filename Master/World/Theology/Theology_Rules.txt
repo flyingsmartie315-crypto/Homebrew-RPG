@@ -1,0 +1,89 @@
+# Theology_Rules.txt
+# Table-facing rules for faith, miracle, and the Immaterium.
+# Phenomenon remains The_Unveiling.txt. This file only says how to run consequence.
+
+PRINCIPLE
+Most scenes are harvest, debt, weather, and honour.
+Faith is loaded when a taboo is crossed, a False Moon hangs, a grave is wrong, a grove is cut, an oath is spoken, or a player asks what the hall believes.
+
+--------------------------------------------------
+FAITH-MASS (GM ONLY)
+--------------------------------------------------
+An entity, saint-form, or lasting miracle requires three things in combination:
+- Number: many minds, not a lone enthusiast.
+- Duration: years of the same heat, not a night’s panic.
+- Discipline or intensity: liturgy, terror, or both.
+
+A village curse can be real and small.
+A named god of a continent is a locked decision in that Faith file, not an improvisation.
+
+Positive heat tends toward protection, closure of leaks, clean light, held oaths, healed land.
+Negative heat tends toward appetite, contagion, wrong faces, thinning, and the wish to be fed again.
+
+The four inherited substrates bias the *shape* of what forms. They do not force Earth doctrine.
+
+--------------------------------------------------
+MIRACLE AT THE TABLE
+--------------------------------------------------
+Miracle is not a skill.
+When a rite is performed under fitting conditions (right faith, right heat, right night or place), the GM may allow an intervention.
+Interventions are narrow: a leak stills, a wound closes, a watch holds, an animal returns to true behaviour, a lie tastes of ash.
+Interventions that flatten a war or raise the dead as policy are setting-breaking unless a Faith file has locked that Power as coalesced and costly.
+
+Cost is the point. Blood, silence, years, sterility of a grove, a name given up, a night without fire.
+If there is no cost, it was luck or craft.
+
+False-Moon nights make both protection and predation easier. They do not make priests into artillery.
+
+--------------------------------------------------
+THE DEAD
+--------------------------------------------------
+Each Faith file states a working hall-answer.
+Common risks if the local answer is ignored:
+- Uncommitted bodies become doors.
+- Loud, prolonged heat at a grave feeds the wrong attention.
+- Naming the dead too often, or not at all, both have local prices.
+
+This is not a unified afterlife. It is a unified danger: the veil is thin around death.
+
+--------------------------------------------------
+ABOMINATIONS AND SKINWIGHTS
+--------------------------------------------------
+Treat them as theological categories in hall speech, not as a separate religion.
+Iron Oath and Kept Wound tend to hang or burn.
+Green Trust tends to unname and refuse the floor.
+Still Walk tends to withdraw and cool the site.
+Single Measure tends to deny them any face, including a martyr’s.
+
+Do not give them a church unless Campaign_Log records one, and then treat it as a negative-heat cult, not a peer faith.
+
+--------------------------------------------------
+HERESY AND SCHISM
+--------------------------------------------------
+Useful quarrels, already seeded:
+- Keepers of the Wound versus Sealers of the Wound.
+- Measure versus any use of faces, icons, grove-offices, or saint-forms.
+- Trust versus extraction.
+- Walk versus watch.
+- Listeners of the Ash versus wardens of the Deeps.
+
+A schism should change a custom (who may marry, who may cut, who eats first, who keeps the False-Moon house) or it is only an argument in a loft.
+
+--------------------------------------------------
+CALENDAR
+--------------------------------------------------
+Holy time attaches to the four seasons and to Lorn, never to the False Moon as a feast.
+Suggested attachments, to be locked per Faith file:
+- Thaw / Budmoon: first-cut, return of true green, oath-renewal.
+- Highsun: watch, craft-offering, measure of weights and bounds.
+- Harvest / Reaping: debt, bread, the body’s share, enrolment of the year’s dead.
+- Longnight / Deepcold: vigil, silence, kept fire, no new bargains.
+
+False-Moon nights are dated on the ordinary calendar and treated as closures, not festivals.
+
+--------------------------------------------------
+WHAT PLAYERS KNOW
+--------------------------------------------------
+A character knows the house-rules of their stock and the insults of their neighbours.
+A character does not know substrates, faith-mass percentages, or that gods are condensates.
+Learned Syllvani may have a longer memory of First Blood and a colder theory of the tear. That is still myth, not Aperti mechanics.

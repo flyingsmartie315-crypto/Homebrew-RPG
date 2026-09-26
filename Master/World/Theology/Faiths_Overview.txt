@@ -1,0 +1,88 @@
+# Faiths_Overview.txt
+# Living religions of Virath — hall map, not Earth map.
+
+WHAT THIS FILE IS
+The working index of faiths a Peoples or Customs file may point to.
+Each entry is a seed. Full rite, offices, calendar, and heresies live in Faith_[Name].txt when that file is locked.
+Until a Faith file exists, this overview is the crutch.
+
+--------------------------------------------------
+GM META — HOW THE FOUR CURRENTS SURVIVE
+--------------------------------------------------
+They do not survive as four churches.
+They survive as habits the Immaterium still answers:
+
+- Wound-current (Nazarene stain): meaning in suffering; a body that stands for many; blood and bread as bond; a tear that saves by remaining open or by being kept.
+- Measure-current (Submission stain): the Real admits no partner; image and second face are danger; law is the worship; community of the bound.
+- Still-current (Middle Path stain): heat of wanting feeds what hangs in the night; holiness is cooling; attention is a tool; withdrawal can be piety.
+- Station-current (Eternal Law stain): the world is a Work with offices; a man out of station sours the floor; many local faces are functions of one order, not a parliament of gods.
+
+A living church usually braids two currents with one wave-myth and one Unveiling answer.
+That braid is why a reader cannot point and name the Earth source.
+
+No culture knows the stain. Priests argue from miracle, custom, and old words.
+
+--------------------------------------------------
+THE UNVEILING PROBLEM EVERY FAITH MUST ANSWER
+--------------------------------------------------
+On a windless night a second moon rose. The world did not end. It became less certain.
+Every serious faith answers four hall-questions:
+
+1. What is the False Moon?
+2. What may be done on the nights it hangs?
+3. What are the things that walk when the veil is thin — enemy, test, hungry kin, or leak?
+4. What happens to the dead, and what must the living do so the dead do not become a leak?
+
+If a draft faith cannot answer those four in one page, it is not ready for a Peoples file.
+
+--------------------------------------------------
+MAJOR LIVING FAITHS
+--------------------------------------------------
+Cleared.
+Do not lock offshoot churches until each founder current has its core virtue and Dark Age ending settled.
+List Faith_[Name].txt here only after that lock.
+
+(none)
+
+--------------------------------------------------
+LESSER AND LOCAL FORMS
+--------------------------------------------------
+
+LORNSWARD / TRUE-MOON WATCH
+Not a church. A practice layer almost every northern hall keeps.
+Lorn is the proper light. The False Moon is not dated and not feasted.
+House-rules on False-Moon nights (iron, salt, covered wells, no midwifery if it can wait) sit in Customs files.
+Do not promote Lorn to a sun-god. It is the true satellite and a clean light.
+
+ASH AND THE DEEPS
+Megastructure cults and anti-cults.
+The Deeps, Ash Pits, and Silence Below feel alive. Ash clings. Nightmares speak in unused tongues. On False-Moon nights the ash climbs.
+Two opposed local answers:
+- Sealers and wardens: the Deeps are a wound-mouth. No descent without leave. Ash is buried, not worn.
+- Listeners: the ash is speech. A few Aperti-scented cells treat descent as the old Question.
+Neither is a world-religion. Both generate disappearances, banned relics, and settlement law.
+
+OPENER CELLS
+Tiny. Hunted, hidden, or misnamed.
+Three postures, not three churches:
+- Closers — the tear can be shut if the old readings are recovered.
+- Witnesses — the Question is still owed; looking is piety.
+- Reverents — the tear is the true event; to heal it is to starve the world of miracle.
+Most halls meet these as rumour, a household, or a diagram that does not behave.
+
+FOLK TRUSTS
+Household spirits, field-wards, drowned-name offerings, first-cut bread, hanging-trees.
+These are not “the fourth current.” They are how a floor stays livable.
+When folk practice hardens and draws miracle, decide whether it has joined a major faith or become a named local face of the Work / the Wound / the Measure.
+
+--------------------------------------------------
+NORTH-WEST WORKING MAP (PRESENT DOCUMENTED STOCKS)
+--------------------------------------------------
+Cleared pending founder-current locks.
+Peoples files may still carry False-Moon house-rules and folk practice without a named offshoot church.
+
+--------------------------------------------------
+WHAT TO WRITE NEXT
+--------------------------------------------------
+Finish founder currents first: virtue, Dark Age ending, residue, forbidden tells.
+Then name living offshoots and return them to MAJOR LIVING FAITHS.

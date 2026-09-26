@@ -1,0 +1,102 @@
+# Theology_Purpose.txt
+# How religion is written for Virath, and how it is kept from becoming a costume of Earth.
+
+WHAT THIS FILE IS
+The lock for all later Faith_ and Rite files.
+Peoples files describe who a stock is. Geographic and Customs files describe how they live on a given floor.
+Theology files describe what they hold the world to be, what they owe it, and what they do when the veil thins.
+Do not copy liturgy into a Peoples file. Point to a Faith_ file and keep only the local colour in Customs.
+
+--------------------------------------------------
+THE PROBLEM THIS LAYER SOLVES
+--------------------------------------------------
+Peoples documents stall without a working account of rite, taboo, afterlife, and the False Moon.
+They also stall if that account is a renamed Earth church. A reader who can name the source will stop believing the hall.
+
+The Immaterium does not require clerical correctness.
+It requires mass, duration, and heat.
+Four inherited currents left a print in the Multitude. Those prints are GM-only substrates.
+Living churches are Dark-Age rebuilds: scraps of law, scraps of miracle, scraps of wave-myth, and the night the second moon rose.
+Names, offices, and ethics have been broken and reset. Do not print Earth-names in a hall-book.
+
+--------------------------------------------------
+FOUR TESTS FOR EVERY LIVING FAITH
+--------------------------------------------------
+1. Internal consistency
+   Cosmology, ethics, taboo, and rite must answer one another. A people who hold that desire feeds the Night Face cannot also run a feast of excess as a high holy act without calling it a controlled burn or a heresy.
+
+2. Authenticity of use
+   Faith must do work. It must decide who may cut a grove, who may hang a skinwight, who may speak over a grave, who keeps the house on a False-Moon night, who is owed hospitality, who is clean after childbirth, who may marry across stock.
+   If a doctrine never reaches the door-latch, it is flavour text. Cut it or ground it.
+
+3. Cultural consequence
+   Each major faith must generate at least one custom, one conflict, and one institution that would still exist if the GM meta were deleted.
+   Stewardship versus extraction, image versus measure, cooling versus ordering, wound-keeping versus sealing — these are usable quarrels.
+
+4. Unrecognisability without meta
+   A reader who has never seen World_Fundamentals.txt should not be able to point at a rite and say the Earth name.
+   Forbidden tells: a crucified-and-risen saviour; a single named last prophet with a closed book; a wheel of rebirth ending in extinguishment; a caste-dharma with recognisable avatars.
+   Permitted residues: blood as bond; law as worship; cooling of appetite; stations of a Work. These are human, not proprietary.
+
+--------------------------------------------------
+GM META VERSUS HALL SPEECH
+--------------------------------------------------
+GM META (never spoken in a 16th-century hall)
+- The Immaterium is reactive. Thought, fear, desire, and disciplined belief take form.
+- Negative heat (fear, hatred, despair, cruelty) coalesces into entities that feed by spreading the same heat and thinning the barrier.
+- Positive heat (disciplined faith, collective devout belief) can raise protective entities, interventions, and forms the faithful name as gods or saints.
+- The Multitude carried four faith-masses large enough to stain the Immaterium. Aperti count, not a living census:
+  Nazarene current ~29–31%
+  Submission current ~24–26%
+  Middle Path current ~15%
+  Eternal Law current ~6–7%
+- Those currents are substrates. They colour how miracles tend to look. They are not churches.
+- The Unveiling was a partial barrier failure. The False Moon is a symptom. No living culture knows this mechanism.
+- Entities recognised as gods can form. Whether a named Power in a Faith_ file has coalesced is a locked GM decision in that file.
+
+HALL SPEECH
+Speak only in the faith’s own terms: Work, Measure, Wound, Stillness, Seal, Trust, Night Face, True Moon, Openers, First Blood, Raisers.
+Miracle is rare, feared when it is not institutional, and argued over when it is.
+Most people live by custom and weather. Theology is for priests, oath-takers, and nights when the second moon hangs.
+
+--------------------------------------------------
+FILE MAP
+--------------------------------------------------
+World/Theology_Purpose.txt          this file
+World/Theology_Rules.txt            how faith-mass, miracle, and entity-formation are handled at the table
+World/Faiths_Overview.txt           the living map: major churches, folk trusts, banned cells
+World/Faith_[Name].txt              one locked faith
+World/Rite_[People_or_Region].txt   optional local colour when a Customs file is not enough
+
+Peoples_[Name].txt may carry a short block:
+
+  FAITH AND RITE
+  Dominant: [Faith_Name]
+  Minority / tolerated: [list]
+  Taboo overlap: [grove / iron / image / measure / ash]
+  False-Moon house-rule: [one line]
+  Detail: Faith_[Name].txt and the local Customs file.
+
+Do not invent a fifth world-religion to cover a gap. First ask whether an existing faith takes a local face.
+
+--------------------------------------------------
+NAMING LOCK
+--------------------------------------------------
+In-world names are locked once a Faith_ file is written.
+GM substrate names (Nazarene, Submission, Middle Path, Eternal Law, and any Earth word) stay in GM META blocks only.
+Liturgical high-tongue may use worn Latin fragments where Pionari or Ordinari stocks keep them. That is ruin-speech, not Church-Latin as a tell.
+
+--------------------------------------------------
+WHAT THEOLOGY IS NOT
+--------------------------------------------------
+Not a complete afterlife atlas. Most halls have a working answer, not a proof.
+Not a spell list. Miracle is not a skill tree.
+Not a morality score for player characters. A faith judges; the table records what the hall would say.
+Not an excuse to reprint Earth catechism with the serial numbers filed off.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+Write Faith files in the same voice as Peoples files: locked names, shared claim, relations, branches, GM META separated.
+Campaign_Log records schisms, condemned rites, and whether a named Power has been seen to act in the present age.
+The_Unveiling.txt remains the phenomenon file. Theology interprets it. It does not replace it.

@@ -1,0 +1,48 @@
+# Stígarborg
+
+Type
+Town
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Dam-castle at the head of Daelsteig Valley. 30 miles north-east of Osricford as the crow flies. Between Arnmont (west) and the Dalhamar foothills (east).
+
+Overview
+The keep sits on the dam. That is the point.
+Melt off Bergon Massif above — not the Keldau as such — plus the moisture-trap of the Horns is stopped here, held as Laufirn, and sent down the Flōdweg — a 45-mile aqueduct — into Osricford. The valley below the wall is 175 square miles. The castle is inhabited because if this stone fails, the capital drinks the Värdå and the Värdå is not a well.
+Names locked. Vale: Daelsteig (Dæl-Steig). Mere: Laufirn (hlūtr/lauter + firn). Keep: Stígarborg.
+
+Control
+Crown / Zonarch water-wrights and a resident keep-lord. More vital than pretty. Not a villa. Not Laedburg’s new money. An old watch that became a dam.
+
+Population
+Working figure: 400–600 in the keep and dam-works.
+The 175-square-mile vale below holds scattered hamlets that are not this file.
+
+Economy
+Water. Toll on the Flōdweg is political, not a market.
+Some timber and hunt from the vale. The keep does not live off grain.
+
+Defences / Access
+The dam is the wall. The keep is the house on the wall. Destroy the dam and you murder a city; that is the defence and the hostage.
+Access: vale-road 30 miles toward Osricford; the Flōdweg itself (service path); tracks into Dalhamar and onto Arnmont.
+
+Linked Features
+- Daelsteig — 175 sq mi vale below the dam
+- Keldau — NE head-tributary of the Herrenau. 16 miles SE to the merge that forms Herrenau
+- Laufirn — artificial reservoir behind the dam
+- Flōdweg — 45-mile aqueduct to Osricford
+- Herrenau — formed at the merge below this vale
+- Osricford — Settlement_Osricford.txt
+- Bergon Massif — the melt that fills Laufirn
+- Arnmont (west) — live north veins use this vale as the kinder road
+- Dalhamar foothills (east)
+
+Notes
+Aqueduct length is the route, 45 miles. Crow-flight to the city is 30. Same rule as Värdå path-miles.
+Second Herrenau head-stream is not named.
+Keldau is the vale’s running water to the Herrenau merge. The mere’s wealth is Bergon ice coming down off the centre of the range.
+Daelsteig / the Keldau road is also the transit for Arnmont’s northern mines. The vale-slope is a better road than the crags. Ore comes this way when it does not want the hollow-mountain tracks.
+16th-century masonry can hold this. Do not make it a steel dam. Do not make the Flōdweg a pipe you cannot see.
+Campaign hooks: a crack in winter ice; a man who can shut the city off; melt-year the mere climbs the wall.

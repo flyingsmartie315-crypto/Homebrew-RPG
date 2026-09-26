@@ -112,6 +112,52 @@ PERSONS OF NOTE
 - Osric — kept the easterly line. Full entry: Peoples_Isernvolk.txt.
 - Sindri Vindvari — Windcaller. Second-war warlord. Sails past the intended peninsula diversion and burns the Vayrac berths. Takes two Osricford cogs. The Three Hundred are his chronicle-count. This is first loud contact with the living Isern south.
 
+
+--------------------------------------------------
+SOCIETAL CUSTOMS
+--------------------------------------------------
+Standalone. Does not replace prior sections. Empty lines mean the point is not locked here.
+
+1. Social Order & Stratification
+* Social Hierarchy: Hold-by-hold on the bight. A hull is rank. Jarnvard is founder-memory.
+* Power Dynamics: Shortage makes the skipper and the grove-crew loud. A generation-argument over a keel.
+* Social Mobility: A man with a ship is not a cottar. There are few heads of household.
+2. Etiquette, Honor, & Taboos
+* Public Deference: Not locked in form. Spite for “soft southerners” is a spoken vice.
+* Hospitality Codes: Not locked.
+* Conversational Norms: Scandi-heavy speech. Anglo-Germanic intelligible at a stretch.
+* Shame vs. Guilt: Osric sailed away. That story is a wound. Reunion is not the script.
+3. Dress, Grooming, & Aesthetic Expression
+* Class Signifiers: Svartwood on a hull. Mica windows where the rock gives them.
+* Modesty and Exposure: Not locked. Climate does the work.
+* Grooming & Modification: Not locked.
+* Utility vs. Status: Oil-cured gut and basalt first. Blown glass late if at all.
+4. Cultural Virtues & Vices
+* The Supreme Virtues: Choosing the living shore over the true line. A hull that comes home.
+* The Celebrated Vices: Raid dressed as need. Resentment of the temperate line.
+* The Unpardonable Sins: Wasting a keel. Treating Svart-Viðr as a wonder that wins wars by itself.
+5. Family Structure & Kinship
+* Household Units: Few. Agriculture caps heads.
+* Lineage & Inheritance: Not locked beyond founder-line memory.
+* Marriage & Partnership: Not locked.
+* Childhood & Old Age: Not locked.
+6. Religious Expression & Cosmic Worldview
+* The Pantheon / Belief System: Not locked.
+* Sacred Spaces & Clergy: Fault-wood and hot ground are practical sacred, not a temple-lock.
+* Rituals & Holidays: Not locked.
+* The Afterlife: Not locked.
+7. Language, Lore, & Transmission of Knowledge
+* Linguistic Style: Scandi-heavy on the old Isern mix.
+* Mythology & History: The storm, the 2,400-mile northing, Dauðavík as where ice dies. Sindri as first loud southern ghost.
+* Education: Ship, grove, trench-field.
+8. Leisure, Art, & Material Culture
+* Artistic Mediums: Not locked. Timber-work is survival first.
+* Recreation & Sports: Not locked.
+* Stimulants & Cuisine: Kail, turnip, trench-crops. Rest from the south.
+9. Economic & Subsistence Foundation
+* Mode of Production: Geothermal trench-fields. Svart-Viðr hulls. Raid and trade for cloth, ore, ordinary timber, comfort.
+* Attitude Toward Wealth: A hull is wealth. Two southern cogs are a prize because Dauðavík cannot grow that wood.
+
 --------------------------------------------------
 NOTES
 --------------------------------------------------

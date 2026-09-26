@@ -1,0 +1,415 @@
+# Core_Talents_Failings_Afflictions.txt
+# Virath — standing modifiers on an Entity.
+# Status: DRAFT. Framework only. No catalogue.
+# Companion files:
+#   Core_Characteristics_Skills.txt     what the test is
+#   Core_Resolution.txt                 how modifiers hit the TN
+#   Core_Combat.txt                     reactions, conditions in a Round
+#   Core_Injury.txt / Injury_Tables_*   wounds that become Afflictions
+#   Entity sheet                        the live list
+
+PURPOSE
+An Entity is Characteristics, Skills, Size, kit — and then
+the things that change a test only in named situations.
+
+This file is the law for those things. It is not a list of
+them. Do not generate Talents, Failings, or Afflictions
+into this document. Named entries live on Entity sheets
+and, later, in a catalogue file written on purpose.
+
+--------------------------------------------------
+0. KEYWORDS
+--------------------------------------------------
+
+Talent
+  A standing situational modifier that helps.
+  Example of the form only: Keen Hearing (X) — add X
+  to Perception tests that rely on sound.
+  A Talent does not raise the Characteristic. It
+  modifies the test when its trigger is true.
+
+Failing
+  A standing situational modifier that hurts.
+  Example of the form only: Hard of Hearing (X) —
+  subtract X from Perception tests that rely on sound.
+  Same shape as a Talent. Opposite sign.
+
+Affliction
+  A disease, a wound-consequence, or another body
+  or mind state that is not a Talent or a Failing.
+  Temporary or permanent. Named on the sheet with
+  a duration and what it does.
+  Injury_Tables rows that leave a lasting mark
+  become Afflictions. They are not rewritten as
+  Talents.
+
+(X)
+  The magnitude written on that entry. A TN
+  modifier in tens, or a special instruction
+  instead of a number.
+  X is part of the name on the sheet:
+  Keen Hearing (10), not “Keen Hearing” with
+  a hidden value.
+
+  Band for sense-type Talents and Failings
+    (10)  human peak. A woodsman, a sentry,
+          a man who lives by the ear.
+    (20)  animal or other kind, one sense.
+          A hound’s nose. A cat’s hearing
+          in the dark.
+    (30)  that sense as the kind’s work.
+          An eagle’s sight. A bloodhound’s
+          track. Not a human number.
+
+  Do not write (5) or (15) on this band.
+  Tens only, unless a later catalogue makes
+  an exception for a named entry.
+  (20) and (30) are innate to the kind.
+  A man does not train Keen Hearing from
+  (10) to (20). That is a different body.
+
+  Band for Looks
+    Same tens. Humans use all three. This is
+    not an animal sense. (30) is rare and is
+    a problem as often as a gift.
+    (10)  noticed in a room.
+    (20)  remembered after the room.
+    (30)  the face travels ahead of the name.
+
+Double-edged
+  One named entry may list more than one
+  trigger, with opposite signs.
+  Looks is the type case. It is still one
+  Talent or one Failing, not both lists.
+
+Trigger
+  The situation the entry cares about. No trigger,
+  no modifier. Keen Hearing does nothing on a
+  sight test.
+
+Pair
+  A Talent and a Failing that name the same sense
+  or work. They do not both apply to the same
+  test. The live state is one or the other, or
+  neither.
+
+--------------------------------------------------
+1. WHERE THEY LIVE
+--------------------------------------------------
+
+On the Entity, in three lists:
+
+  Talents:
+  Failings:
+  Afflictions:
+
+Each line is one entry. Name, (X) if it uses one,
+trigger, effect, and for Afflictions a duration.
+
+An Entity may have none. Absence is not a Failing.
+
+People templates, careers, and bestiary lines may
+grant entries. The grant is copied onto the sheet.
+This file is not that grant list.
+
+--------------------------------------------------
+2. TALENT
+--------------------------------------------------
+
+Form
+  Name (X)
+  Trigger:
+  Effect:
+
+Law
+  Helps on its main trigger. A double-edged
+  Talent may penalise a second named trigger
+  (Looks). If every trigger hurts, it is a
+  Failing or an Affliction.
+  Situational. It is not +X to a Characteristic
+  on the sheet.
+  Does not replace a Skill. Keen Hearing is not
+  Awareness.
+  Stacks with difficulty and other live modifiers
+  (Resolution §4). Two Talents on the same test
+  stack only if their triggers are both truly on.
+  Do not invent a Talent to cover a rule that
+  already exists (Size, Enc band, Iron Grade).
+
+How it is gained
+  Birth, kind, career, or a later catalogue.
+  Until that catalogue exists, write the line
+  on the Entity that needs it. Do not batch-write
+  a list into this file.
+
+Worked form — Hearing (Talent)
+  Names on the sheet, pick one:
+    Keen Hearing (10)     human peak
+    Keen Hearing (20)     cat, fox, owl
+    Keen Hearing (30)     the kind that hunts by ear
+  Trigger: Perception or Awareness that relies
+  on sound.
+  Effect: +X
+  Pair Failing: Hard of Hearing (10/20/30)
+
+Worked form — Sight (Talent)
+  Names on the sheet, pick one:
+    Keen Sight (10)       human peak, a lookout
+    Keen Sight (20)       hawk over a field
+    Keen Sight (30)       eagle, the kind’s work
+  Trigger: Perception or Awareness that relies
+  on sight in usable light.
+  Effect: +X
+  Does not cancel darkness. That is Night Vision.
+  Pair Failing: Poor Sight (10/20/30)
+
+Worked form — Smell (Talent)
+  Names on the sheet, pick one:
+    Keen Smell (10)       human peak, a cook, a tanner
+    Keen Smell (20)       cat, wolf
+    Keen Smell (30)       bloodhound, the track is
+                          the kind’s work
+  Trigger: Perception or Awareness that relies
+  on scent. Tracking by smell uses this, not
+  extra Range.
+  Effect: +X
+  Pair Failing: Poor Smell (10/20/30)
+
+Worked form — Night Vision
+  Special instruction. No (X) unless a later
+  catalogue writes one.
+  Name on the sheet: Night Vision
+  Trigger: Perception or Awareness that relies
+  on sight, in the dark under stars, moon, or
+  equivalent open-night glow.
+  Effect: do not apply the ordinary darkness
+  penalty to that test.
+  Does not work in a lightless cave, a shuttered
+  hold, or any place with no sky-glow at all.
+  Does not grant Keen Sight. A man with Night
+  Vision and no Keen Sight sees in starlight
+  as well as he sees at dusk, not as an owl.
+  Kind that also has Keen Sight (20) or (30)
+  stacks both: the dark is usable, and the
+  sight is sharp.
+
+Worked form — Outdoorsman (Biome)
+  Talent. (10) fixed. The bracket is the
+  biome, not a magnitude.
+  Name on the sheet:
+    Outdoorsman (Boreal)
+    Outdoorsman (named biome from Geography)
+  Each biome is its own entry. Two biomes
+  is two lines.
+  Trigger: Awareness and Outdoor Survival,
+  while outside a settlement, in that biome.
+  A town, village, hold, or camp street is
+  not outdoors for this Talent. Past the
+  pales is.
+  Rank on those tests:
+    Unknown — full Skill Base, not Base ÷ 2.
+    No +10 on top. The Talent is the
+    training for this biome, this roll.
+    Known or better — Rank value, then +10.
+  Does not raise stored Rank. Leave the
+  biome and Unknown is Unknown again.
+  Outdoor Survival * : in this biome,
+  outdoors, the test is allowed at Known
+  (full Base) even if the Skill is not
+  on the sheet. That is the exception to
+  Advanced. Other biomes stay closed.
+  Indoor, dungeon, and ship-deck do not
+  trigger.
+
+Worked form — Looks (Talent)
+  Names on the sheet, pick one:
+    Comely (10)
+    Beautiful (20)
+    Striking (30)
+  Trigger A: Charm, and other Fellowship tests
+  that run on being wanted in the room.
+  Effect A: +X
+  Trigger B: staying unknown. Concealment in a
+  crowd, Disguise as “nobody”, Silent Move does
+  not cover this — this is being seen and kept.
+  Effect B: −X to those tests. Observers gain
+  +X to Awareness or Gossip to notice or later
+  recall the face.
+  Jealousy, invitation, and unwanted attention
+  are GM calls at the same band. (30) does not
+  walk through a market as a shadow.
+
+Worked form — Looks (Failing)
+  Names on the sheet, pick one:
+    Homely (10)
+    Ugly (20)
+    Hideous (30)
+  Trigger A: Charm, and Fellowship tests that
+  run on being wanted in the room.
+  Effect A: −X
+  Trigger B: being remembered as a threat or a
+  mark, or being refused service. Observers
+  gain +X to recall the face after. Concealment
+  as “nobody” is not helped; a hide is still a
+  hide. The Failing is social, not stealth.
+
+--------------------------------------------------
+3. FAILING
+--------------------------------------------------
+
+Form
+  Name (X)
+  Trigger:
+  Effect:
+
+Law
+  Negative only. Same trigger rules as a Talent.
+  Not an injury. A missing eye from a blow is an
+  Affliction. Born short-sighted is a Failing
+  unless the table says otherwise.
+  A Failing does not block the test. It modifies
+  the TN. A test that cannot be attempted is a
+  missing sense or a closed Skill, not a Failing.
+
+Pair with a Talent
+  Hard of Hearing and Keen Hearing are a Pair.
+  Record one. If a later event would add the
+  opposite, replace or cancel as the event says.
+  Do not run +10 and −10 on the same roll and
+  call it a wash unless the triggers differ
+  (one ear, one direction).
+
+--------------------------------------------------
+4. AFFLICTION
+--------------------------------------------------
+
+Form
+  Name
+  Source:     disease / wound / other
+  Duration:   hours / days / until treated / permanent
+  Effect:
+  Tests:      what Heal, Surgery, or Toughness
+              may do, if anything
+
+Law
+  Temporary or permanent. Say which.
+  Wounds from Injury_Tables that leave a lasting
+  mark (lost hand, ruined knee, Catastrophic
+  Bleed still running) are logged here while
+  they last. The table row is the source. This
+  list is the standing reminder.
+  Disease and poison sit here, not under Failings.
+  Bleed tiers already named in Injury stay those
+  words: Minor Bleed, Major Bleed, Catastrophic
+  Bleed. Do not rename them as Talents.
+
+Worked form — Visible Scarring
+  Affliction, not a Failing. Comes from a wound
+  or a named event. Looks stays on the sheet.
+  Both can fire on the same Charm test.
+
+  Names on the sheet, pick one:
+    Marked (10)       a line people see
+    Scarred (20)      the face or hands tell
+    Ruined (30)       the room changes
+
+  Source: wound / other
+  Duration: permanent unless Surgery or a later
+  rule says the mark can be hidden or eased.
+  A scarf or helm can cover a given test.
+  Covered: this Affliction does not fire.
+
+  Trigger A: Charm, and Fellowship tests that
+  run on being wanted or trusted on sight.
+  Effect A: −X
+
+  Trigger B: Intimidate, and Fellowship tests
+  that run on threat made visible.
+  Effect B: +X
+
+  Trigger C: being noticed and remembered.
+  Observers gain +X to Awareness or Gossip to
+  mark or later recall the face. Concealment
+  as “nobody” takes −X when the scar is shown.
+  Same incognito tax as Looks, separate line.
+
+  A Beautiful (20) Scarred (20) face is
+  +20 / −20 on Charm from two entries, and
+  +20 Intimidate from the scar. Write both.
+  Do not merge them into one number.
+
+  Context — the same mark, two rooms
+    Camp / campaign / among fighting men
+      The scar is proof. Veteran, valor,
+      a body that stayed.
+      Trigger A flips: Charm and Fellowship
+      among those men take +X, not −X.
+      Intimidate still +X.
+      Notice still +X. They remember who
+      stood.
+    Tavern / village / market / court
+      The scar is a warning. Vagabond,
+      trouble, a man who brought the war
+      with him.
+      Trigger A as written: Charm −X.
+      Intimidate +X.
+      Notice +X. They remember to watch
+      the door.
+    Name the room before the roll.
+    A soldier drinking in a harvest village
+    is tavern, not camp.
+    A lord reviewing his company is camp.
+
+End
+  Duration runs out, Heal / Surgery succeeds as
+  the entry allows, or the sheet is rewritten
+  after a permanent settlement (the lost hand
+  stays an Affliction; it does not become a
+  Failing named “One Hand”).
+  Visible Scarring stays an Affliction even
+  when permanent. It does not move to Failings.
+
+--------------------------------------------------
+5. RESOLUTION
+--------------------------------------------------
+
+Declare the trigger before the roll.
+Apply (X) as a modifier to the TN, with every
+other live modifier (Resolution §4).
+Write the name in the declaration so the table
+can see why the TN moved.
+
+Opposed tests: each party applies only their
+own entries. A deaf guard does not give the
+sneak a bonus. The sneak’s Silent Move and the
+guard’s Hard of Hearing are two separate TNs.
+
+Dominate, Man-Scale, and Size are not Talents.
+They stay in Resolution and Characteristics.
+
+--------------------------------------------------
+6. COMBAT
+--------------------------------------------------
+
+A Talent that adds a reaction, extra Attack, or
+a stance change must say so in its Effect line
+and must not break Combat §6 (one reaction per
+incoming blow). Until such entries exist, do
+not imply them.
+
+Afflictions that say “no Dodge” or “half M”
+override the default action list while they
+last. Log them at the start of the Round.
+
+--------------------------------------------------
+7. CATALOGUE
+--------------------------------------------------
+
+Empty on purpose.
+
+When a Talent, Failing, or Affliction is written
+for use by more than one Entity, it goes in a
+later catalogue file. Not here.
+
+Do not generate entries to fill this section.
+}

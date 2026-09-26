@@ -1,160 +1,143 @@
-# Kannavald Deepwood
+# Local_Region_Kannavald_Deepwood
 
 Overview
-A mountain-ringed highland basin of dense boreal forest, black volcanic rock, and standing water. The canopy is heavy, the light is poor, and most travel follows the rivers that drain from Ebon Spire into Lake Kolvatn. Settlement clings to the water; beyond the lake-shore and the upper burns the Deepwood is empty, wet, and quietly wrong.
+What the taming of the Ebon Peninsula did not finish. Dense canopy, black volcanic approaches, burns, and one Isern-facing lake. Kannavi majority in the woods. Isern law on the lake-shore and in the pits. The Still Stones keep their own law: do not approach. The southern wood-edge meets Ardairn at Waidwald. The western crag-tail hooks the sea at Kappvic.
 
-Biome: Boreal
-Sub-biomes: Alpine, Lake, Wetland, River, Burn, Strand
-The floor is cold forest. The massif is another climate. The water is another country again.
+Biome: Temperate / Forest
+Sub-biomes: Alpine, Lake, Coast, River, Highland
+Seasonal template is temperate. Alpine on the Spire and the named heights.
 
 Environmental Scores
-Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora: 4 | Fauna: 2 | Topography: 3 | Hydrology: 3
+Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora: 5 | Fauna: 3 | Topography: 3 | Hydrology: 3
 Harvest aggregates of the land-cover features below.
 Point sites are not averaged in.
 
-Height: highland basin
+Height: highland basin / forested highland
 
-Seasonal modifiers: Boreal
+Seasonal modifiers: Temperate
 
 Visual Reference
 maps/Map_Local_Region_Kannavald_Deepwood.jpeg
 Tile west / centre / east if labels fail.
 
+Land area: 19,497 square miles.
+
+- Westwood Heights (with Mistcap Crags, Watchers Peak, Westwood Peak): 3,201
+- Stetbjorg Height (portion inside this border): 800
+- Svarthorn Massif and Brocken Peak: 2,537
+- Lake Kolvatn: 509
+- Kolmire Fenns: 167
+- Cleared land (not dense woodland): 633
+  - Western edge: 207
+  - Southern edge: 136
+  - East of Kolmire Fenns, river-country toward Askgruv and Rookburn: 114
+  - Western side of the Sund: 76
+  - Around Kolby-on-Vatn and the eastern side of the Twins: 100
+- Remainder (dense canopy and unscored high ground, including the north face of the Spire): 11,650
+
+
 --------------------------------------------------
 NOTABLE FEATURES
-Point sites are marked and are not averaged.
-A biome line is given only when the feature is not the region Biome.
-Shared = border landform; full write-up lives here unless noted.
 --------------------------------------------------
 
-Ebon Spire (western slopes)
-Inactive volcano and the dominant peak of the peninsula. Black, craggy rock. Source of the rivers that feed Lake Kolvatn.
-Shared with Ebormark. Full write-up lives here. Ebormark scores the south face only.
-Biome: Alpine
-Temperature: 1 | Rainfall: 4 | Human Density: 0 | Flora: 2 | Fauna: 1 | Topography: 5 | Hydrology: 2
+Kannavald Deepwood
+The living canopy. Stave-wood, trap-ground, charcoal belt, upper burns. Majority Kannavi.
+Biome: Forest
+Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora: 5 | Fauna: 3 | Topography: 3 | Hydrology: 3
 
-Svarthorn Massif (western foot hills)
-The black-rock mountain mass surrounding Ebon Spire. The true highland of the peninsula. Craggy, volcanic in origin, and far higher than the coastal hills.
+Ebon Spire (northern face)
+Shared. Full write-up: Geographic_Region_Ebon_Peninsula.txt. This file scores the north face and its wooded approaches only.
 Biome: Alpine
-Temperature: 1 | Rainfall: 4 | Human Density: 1 | Flora: 3 | Fauna: 2 | Topography: 5 | Hydrology: 3
+Temperature: 1 | Rainfall: 4 | Human Density: 0–1 | Flora: 2 | Fauna: 1–2 | Topography: 5 | Hydrology: 2
 
-Brocken Peak (western flanks)
-Northernmost peak of the Svarthorn Massif. A lesser black-rock height on the north face of the range, below Ebon Spire.
-Point site — not averaged.
+Svarthorn Massif (northern approaches)
+Shared. Lower than the Spire. 2,537 square miles together with Brocken Peak in this region.
 Biome: Alpine
-Temperature: 1 | Rainfall: 4 | Human Density: 0 | Flora: 3 | Fauna: 2 | Topography: 5 | Hydrology: 2
+Temperature: 1–2 | Rainfall: 3–4 | Human Density: 1 | Flora: 2 | Fauna: 2 | Topography: 4–5 | Hydrology: 3
 
-Stetbjorg Height (western flank)
-The left shoulder of Ebon Spire. A high, southernmost black-rock spur of the Svarthorn Massif, standing over Deepskaard Col.
-Shared with Ebormark. Point site — not averaged.
+Ebonclock (Kannavald attach)
+Working range-name for mountains attached to the Spire, excluding Lowstacks, Westwood Peaks, Westwood Heights, Watchers Peak, and Mistcap Crags.
 Biome: Alpine
-Temperature: 1 | Rainfall: 4 | Human Density: 0 | Flora: 3 | Fauna: 2 | Topography: 5 | Hydrology: 2
+Temperature: 1–2 | Rainfall: 3–4 | Human Density: 1 | Flora: 2 | Fauna: 2 | Topography: 5 | Hydrology: 3
 
 Westwood Heights
-Lower coastal ridge on the west of Kannavald. Forest covers most of the slopes; only the highest points rise above the canopy. Milder than the Ebon Spire massif.
-Temperature: 2 | Rainfall: 4 | Human Density: 1 | Flora: 4 | Fauna: 2 | Topography: 4 | Hydrology: 3
+Seat-country of the Waldward house. 3,201 square miles with Mistcap Crags, Watchers Peak, and Westwood Peak counted in this parcel.
+Hallvard Ask of Westwood held it in the Whitmark wars. Title: Dar Waldward. Exempt from the Zonarch list by Osric’s compact.
+Biome: Forest
+Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora: 5 | Fauna: 3 | Topography: 3 | Hydrology: 3
 
-Westwood Peak
-Tallest summit of Westwood Heights. One of the few points on the coastal ridge that rises clearly above the forest.
-Point site — not averaged.
-Temperature: 2 | Rainfall: 4 | Human Density: 0 | Flora: 3 | Fauna: 2 | Topography: 4 | Hydrology: 2
+Stetbjorg Height (Kannavald portion)
+800 square miles inside this border. Name locked as written.
+Biome: Highland
+Temperature: 2 | Rainfall: 3 | Human Density: 1 | Flora: 3 | Fauna: 2 | Topography: 4 | Hydrology: 3
+
+Kolmire Fenns
+167 square miles. Wet ground by Kolvatn country. Not the lake.
+Biome: Forest
+Temperature: 2 | Rainfall: 4 | Human Density: 1 | Flora: 4 | Fauna: 3 | Topography: 1–2 | Hydrology: 4
+
+Cleared land
+633 square miles that are not dense woodland: lake-and-river margins, pit approaches, the Sund’s west bank.
+Western edge 207. Southern edge 136. East of the Fenns toward Askgruv and Rookburn 114. West of the Sund 76. Kolby-on-Vatn and the eastern side of the Twins 100.
+Isern-facing floors. The canopy around them is still Kannavi.
+Temperature: 2–3 | Rainfall: 3 | Human Density: 2–3 | Flora: 3 | Fauna: 2 | Topography: 2 | Hydrology: 3
 
 Mistcap Crags
-Western heights at the seaward end of Westwood Heights. One of the few places the ridge breaks the canopy.
-Point site — not averaged.
-Temperature: 2 | Rainfall: 4 | Human Density: 0 | Flora: 4 | Fauna: 2 | Topography: 4 | Hydrology: 2
+Named mass excluded from Ebonclock. Mist, height, and the hook that makes Kappvic.
+Biome: Alpine
+Temperature: 2 | Rainfall: 4 | Human Density: 1 | Flora: 3 | Fauna: 2 | Topography: 4 | Hydrology: 3
 
-Watchers Peak
-A forested height in Kannavald Deepwood, west of Lake Kolvatn. Named in the same local speech as the Quiet Watchers, though it is a mountain, not the stones.
-Point site — not averaged.
-Temperature: 2 | Rainfall: 4 | Human Density: 1 | Flora: 4 | Fauna: 2 | Topography: 4 | Hydrology: 2
+Mistcap tail-peninsula
+Home write-up. 29 square miles. Sharp tail of the Mistcap Crags. Kannavald land.
+The arm that closes Kappvic and shelters Kappstrand. Not in Ardairn’s 49,626.
+Ardairn scores only the strand and the water. This file scores the hook.
+Biome: Coast
+Temperature: 2–3 | Rainfall: 4 | Human Density: 1 | Flora: 3 | Fauna: 2 | Topography: 3 | Hydrology: 3
+
+Kappvic (Kannavald arm)
+Shared water. 103 square miles of misty sheltered bight. Full harbour village is Kappstrand on the Ardairn strand — Settlement_Kappstrand.txt.
+This region owns the sheltering arm, not the village.
+Biome: Coast
+Temperature: 3 | Rainfall: 4 | Human Density: 1 | Flora: 2 | Fauna: 3 | Topography: 2 | Hydrology: 5
 
 Lake Kolvatn
-Central lake formed from Ebon Spire runoff. Economic heart of the Deepwood. Timber and ore come downriver to its shores.
+509 square miles. Isern-facing named towns on the shore. Kannavi canopy between them.
 Biome: Lake
-Temperature: 2 | Rainfall: 4 | Human Density: 3 | Flora: 3 | Fauna: 4 | Topography: 1 | Hydrology: 4
+Temperature: 2 | Rainfall: 3 | Human Density: 2–3 | Flora: 3 | Fauna: 3 | Topography: 1 | Hydrology: 5
 
-Kolmire Fens
-Swampy western margin of Lake Kolvatn. Sunken ground. Site of the drowned former capital, Kolholm "The Sunkern Burg".
-Biome: Wetland
-Temperature: 2 | Rainfall: 4 | Human Density: 1 | Flora: 4 | Fauna: 3 | Topography: 1 | Hydrology: 5
+Still Stones
+Point site. Local law, not a temple. Do not approach. Hollow-folk live nearest that law. Not averaged.
 
-The Still Stones
-Also called the Black Circle, the Hollows, and the Quiet Watchers. Ancient standing stones in a large clearing in the deepest woods. Local law is absolute: do not approach. Misfortune in the region is often blamed on someone who did.
-Point site — not averaged.
-Temperature: 2 | Rainfall: 4 | Human Density: 0 | Flora: 5 | Fauna: 2 | Topography: 3 | Hydrology: 2
+Lowstacks
+Isern pit-country. Named so it is not eaten by Ebonclock. Kannavi are not the people of these pits.
 
-Askflow
-Inlet to Lake Kolvatn. The main runoff from Ebon Spire.
-Biome: River
-Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora: 4 | Fauna: 3 | Topography: 4 | Hydrology: 3
-
-Hornbeck
-Inlet to Lake Kolvatn. The darker forest-fed water from the Westwood Heights.
-Biome: River
-Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora: 4 | Fauna: 2 | Topography: 3 | Hydrology: 3
-
-Rookburn
-Inlet to Lake Kolvatn. A lesser stream off the Ebon Spire / Svarthorn Massif.
-Biome: Burn
-Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora: 4 | Fauna: 2 | Topography: 4 | Hydrology: 3
-
-The Sund
-The two-mile outflow draining Lake Kolvatn past Twaford. The water-gate of the region.
-Biome: River
-Temperature: 2 | Rainfall: 4 | Human Density: 3 | Flora: 3 | Fauna: 3 | Topography: 2 | Hydrology: 4
-
-Underwood Shores
-The western coastal plain beneath Westwood Heights. Working shore, year-round navigable, with the forested ridge looming over it.
-Biome: Strand
-Temperature: 2 | Rainfall: 4 | Human Density: 2 | Flora: 3 | Fauna: 3 | Topography: 1 | Hydrology: 5
-
-Deepskaard Col (northern border) 
-Densely forested mountain pass on the southern border of Kannavald Deepwood, between Westwood Peak and Stetbjorg Height. The land-gate of the region. The Kannavald watch is Skaardhold.
-Shared with Ebormark. Full write-up lives here.
-Temperature: 2 | Rainfall: 4 | Human Density: 3 | Flora: 4 | Fauna: 2 | Topography: 4 | Hydrology: 2
+Waidwald (south edge)
+Shared edge. 494 square miles sit in Ardairn. Local_Region_Ardairn_Valley.txt holds the hunt-reserve write-up.
+This file only records the border: Waidwald’s southern reach ends here.
 
 --------------------------------------------------
 LINKED SETTLEMENTS
 --------------------------------------------------
-- Kolby-on-Vatn — Settlement_Kolby-on-Vatn.txt
-- The Twaford Twins — Settlement_The_Twaford_Twins.txt
-- Skaardhold — Settlement_Skaardhold.txt
-- Askgruv — Settlement_Askgruv.txt
-- Hornby — Settlement_Hornby.txt
-- Burnford — Settlement_Burnford.txt
-- Oldfort Kilnstead — Settlement_Oldfort_Kilnstead.txt
-- Kolholm (ruin) — Settlement_Kolholm.txt
+- [Kolby-on-Vatn and other Kolvatn towns — files on the repo when copied]
+- [Askgruv and pit-villages — Isern law]
+- Kappstrand — Settlement_Kappstrand.txt (Ardairn strand; this region owns the tail)
 
 --------------------------------------------------
 LESSER / SCATTERED / SEASONAL
 --------------------------------------------------
-Upper-river villages
-Small logging and mining settlements nearer the river sources. Timber and ore are floated down to Kolby-on-Vatn.
-
-Charcoal / Trapping hamlets
-Many small, scattered hamlets throughout Kannavald Deepwood. Charcoal-burning, trapping, and isolated woodland work.
+Charcoal rows, traplines, stave-camps, mountain-edge lumber under Spire and Westwood.
+Seasonal as the canopy and the Waldward allow.
 
 --------------------------------------------------
 NOTES
 --------------------------------------------------
 Access
-By the Sund, by Deepskaard Col, by the west coast, or over the mountains.
-Mile detail lives in settlement Access notes (neighbours only).
+Slow. Burns, tracks, lake-boats. Waidwald’s 29-mile west–east road dies at this border unless a compact says otherwise.
+Kappvic is entered from the Ardairn strand or by coastwise boats that know the mist.
 
-Goods
-Timber, charcoal, hides, and ore move downriver to the lake.
+People
+Kannavi are the majority in the woods. Lake-shore law and the pits lean Isernvolk. Hollow-folk is a common nickname, not a cult-name.
+Dar Waldward is hereditary and outside the Kaiserarch’s Zonarch gift. Peoples_Kannavi.txt. Peoples_Isernvolk.txt POLITY.
 
-Population
-Land area: 19,827 square miles.
-Permanent population: about 16,000 (range 12,000–22,000).
-Overall density: roughly 0.8 people per square mile.
-Almost all of that population sits on the water. River and lake corridors, a small fraction of the land, hold the town, villages, and working landings. A thin margin of forest is used for charcoal, trapping, and small mines. The rest of Kannavald — the great majority of the Deepwood — has no permanent settlement.
-
-Working split
-- Kolby-on-Vatn: 4,000–6,000
-- Named villages and the Twaford crossing: 3,000–5,000 combined
-- Scattered charcoal hamlets and isolated households: 5,000–7,000
-- Remainder: seasonal camps, traplines, and mine-heads
-
-The extra land beyond those corridors is empty forest. Distance between named places should feel long.
+When no (bracketed detail) is included, the feature is wholly within this region.
+The Mistcap tail-peninsula has no brackets. It is wholly Kannavald.

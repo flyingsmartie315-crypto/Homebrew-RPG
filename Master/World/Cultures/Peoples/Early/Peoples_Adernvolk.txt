@@ -129,6 +129,52 @@ PERSONS OF NOTE
 First-war Isern names live in Peoples_Isernvolk.txt. Harthold is a peninsula king, not yet an Adeling house-father.
 Adeling houses of the later occupation: not yet named.
 
+
+--------------------------------------------------
+SOCIETAL CUSTOMS
+--------------------------------------------------
+Standalone. Does not replace prior sections. Empty lines mean the point is not locked here.
+
+1. Social Order & Stratification
+* Social Hierarchy: Small occupying class. Adelings. Whitmarks by the look of the tower. Few in the field beside the host.
+* Power Dynamics: Tower, roll, partition. Norman-in-England pattern. Counting-house compounds over a Cortani country.
+* Social Mobility: Marriage into halls. Occupation does not make a people last.
+2. Etiquette, Honor, & Taboos
+* Public Deference: White keep on the old hall-hill.
+* Hospitality Codes: Lists and hall-gift turned into caste tools.
+* Conversational Norms: Own compounds in the counting-house.
+* Shame vs. Guilt: Hall-right that will not answer a written bound.
+3. Dress, Grooming, & Aesthetic Expression
+* Class Signifiers: Whitewashed brick or cut stone. Dark swept timber roof. Horse at the gate.
+* Modesty and Exposure: Not locked.
+* Grooming & Modification: Not locked.
+* Utility vs. Status: Rank in stone first, then horse and lists.
+4. Cultural Virtues & Vices
+* The Supreme Virtues: A bound you can point to. A keep that holds.
+* The Celebrated Vices: Tourney as proof the white tower is still deserved.
+* The Unpardonable Sins: Losing the roll. Becoming only Cortani too early — they stayed Adern on purpose for generations.
+5. Family Structure & Kinship
+* Household Units: Keep-towns on hall-hills.
+* Lineage & Inheritance: House names persist after the people do not.
+* Marriage & Partnership: The tool that ends them as a separate stock.
+* Childhood & Old Age: Not locked.
+6. Religious Expression & Cosmic Worldview
+* The Pantheon / Belief System: Not locked.
+* Sacred Spaces & Clergy: Not locked.
+* Rituals & Holidays: Lists.
+* The Afterlife: Not locked.
+7. Language, Lore, & Transmission of Knowledge
+* Linguistic Style: Isern compounds on Cortani ground. Frankish in the river-houses.
+* Mythology & History: Occupation, partition, absorption. “I carry Adern blood” is the afterlife of the people.
+* Education: Roll, keep, saddle learned from the host.
+8. Leisure, Art, & Material Culture
+* Artistic Mediums: White wall, dark timber spire. Fusion style they leave behind.
+* Recreation & Sports: Tourney.
+* Stimulants & Cuisine: Not locked.
+9. Economic & Subsistence Foundation
+* Mode of Production: Catalogued land, hedge and road, crops at scale to feed towns.
+* Attitude Toward Wealth: Surplus for the occupier. The hills did not ask for it.
+
 --------------------------------------------------
 NOTES
 --------------------------------------------------

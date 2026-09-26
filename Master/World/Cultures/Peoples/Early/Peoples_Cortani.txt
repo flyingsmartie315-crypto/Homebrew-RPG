@@ -129,9 +129,10 @@ BRANCHES / LOCAL STOCKS
 List only if a distinct hill-stock or river-stock is locked.
 Each would get Peoples_Cortani_[Name].txt
 
-- Boscan / Buscan — Cortani offshoot. Grove-halls on the north-west foot of the Clypeo-Barra. File: Peoples_Boscan.txt
+- Boscan / Buscan — Cortani offshoot. Seat: Buscany. File: Peoples_Boscan.txt
 - [River halls] — [one-line]
 - [Hill circuits] — [one-line]
+- Berthall / Berthéhault country — Giant’s Hearth on the Ader below Rhônweill. Two fortified villages on a burn that feeds the lake: one mines the Bowls, one ports the take to Berthall. The Bowls are celestial pits; ore can be scooped off the floor; the pits stand in a killing miasma. Syllvani raid packed ore, not the gas. Village names not locked.
 
 Heartlands Cortani remain one people with a river face and a hill face.
 Boscan are a locked offshoot, not a hill-circuit of Vayrac.
@@ -158,6 +159,52 @@ Act 2
 - Aurel of Elaynac — Sellis’s fourth-born. Survivor of Elaynac’s succession crisis. Head of house.
 
 Landmark: Harthold’s Barrow — battle-hill catacombs and king-barrow. Contemporary no-go. Haunted last stand.
+
+
+--------------------------------------------------
+SOCIETAL CUSTOMS
+--------------------------------------------------
+Standalone. Does not replace prior sections. Empty lines mean the point is not locked here.
+
+1. Social Order & Stratification
+* Social Hierarchy: Horselords and hall-seats. No high king in the Whitmark-war age — competing halls. Horse as living rank.
+* Power Dynamics: Hall-gift, riding-green, later tourney-caste. Neighbours will watch a front-line hall die.
+* Social Mobility: Seat and herd-sense first. Letters second. A man without a horse is not the measure.
+2. Etiquette, Honor, & Taboos
+* Public Deference: Roof-tree and horse-gift. Charter without hall is paper.
+* Hospitality Codes: Hall-right. A town without a riding-green is a warehouse.
+* Conversational Norms: Frankish in the later counting-house; hill speech leaks Syllvani.
+* Shame vs. Guilt: To be taken as a man of charter only.
+3. Dress, Grooming, & Aesthetic Expression
+* Class Signifiers: Timber hall, carved post, gate, later white keep with swept roof. Crests on open helms in the war-age.
+* Modesty and Exposure: Not locked.
+* Grooming & Modification: Not locked.
+* Utility vs. Status: Oak before iron in the hills. Stone where flood and occupier law demand it.
+4. Cultural Virtues & Vices
+* The Supreme Virtues: Seat, herd, hall, a kept riding-green.
+* The Celebrated Vices: The charge. The tourney as argument when a field-battle costs too much.
+* The Unpardonable Sins: Leaving a hall-right unanswered. Selling pasture as empty paper.
+5. Family Structure & Kinship
+* Household Units: Hall-circuit and walled town around stock.
+* Lineage & Inheritance: Hall-lines. Later “Adern blood” is an occupier claim inside those lines.
+* Marriage & Partnership: Horse as dowry and apology. Strategic marriage is how the occupier is swallowed.
+* Childhood & Old Age: Children judged by seat and herd-sense first.
+6. Religious Expression & Cosmic Worldview
+* The Pantheon / Belief System: Not locked.
+* Sacred Spaces & Clergy: Hall is the political sacred object.
+* Rituals & Holidays: Old pasture-circuit year and new river-highway year both kept.
+* The Afterlife: Catacombs and barrows locked in the war-file (Harthold’s Barrow), not a full creed here.
+7. Language, Lore, & Transmission of Knowledge
+* Linguistic Style: Syllvani base → Frankish fusion. Hill names Cortani; river-law Frankish compounds.
+* Mythology & History: Horse-hall people of the open hills. Wars of the Whitmarks. Evran as later unifying memory.
+* Education: Saddle first.
+8. Leisure, Art, & Material Culture
+* Artistic Mediums: Timber masterpiece. High roofs, galleries, gates.
+* Recreation & Sports: Tourney becomes the fusion’s visible sport. Land of the tourney is the later country.
+* Stimulants & Cuisine: Not locked.
+9. Economic & Subsistence Foundation
+* Mode of Production: Herd first, crop second, then Isern-scale grain on partitioned fields.
+* Attitude Toward Wealth: Horse is wealth. Later barge and grain are tax-wealth on the Audava.
 
 --------------------------------------------------
 NOTES

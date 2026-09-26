@@ -1,0 +1,382 @@
+# Faiths_Founders.txt
+# Deep-history faith-masses of the Multitude.
+# Same job as Peoples_Pionari / Peoples_Novari: the living world does not meet these as churches.
+# Recorded history meets only offshoots and branches.
+
+WHAT THIS FILE IS
+The inherited currents that stained the Immaterium when the Multitude landed.
+They exist in the fragmented period only.
+Halls of the present age do not know their Earth-names, their books, or their offices.
+What survives is heat, habit, and a quarrel over how the Dark Age ended.
+
+Branch files hold the living faiths.
+This file holds what the currents shared, what mass they carried, and the five plausible endings.
+
+Do not print Earth-names in a 16th-century hall-book.
+Do not write a living church that is one of these currents with the serial numbers filed off.
+
+--------------------------------------------------
+GM META — PLACE IN THE LAYERS
+--------------------------------------------------
+Peoples have Founders, then Early stocks, then local custom.
+Faith has Founders, then Early offshoots, then local rite.
+
+Founder faiths are not ethnic. Any wave could carry any current.
+The Novari brought most of the mass. Elder waves brought less number and different heat.
+The Aperti measured the print. They did not worship it.
+
+The Unveiling fed on that mass.
+The Dark Age broke names, law, and rite.
+The remnant rebuilt from scraps.
+Every living church is an offshoot or a braid.
+None is the founder current intact.
+
+--------------------------------------------------
+GM META — APERTI WORKING COUNT
+--------------------------------------------------
+Patch against World_Fundamentals.txt if this lock is accepted.
+Aperti working count of the Multitude’s inherited faith-mass (not a living census).
+Rounded to hall-useful bands.
+
+- Wound-current (later halls will not know the word Christianity) — about 29%
+- Measure-current (later halls will not know the word Islam) — about 26%
+- Hollow-mass (later halls will not know unaffiliated / nothing-in-particular) — about 24%
+- Station-current (later halls will not know the word Hinduism) — about 15%
+- Still-current (later halls will not know the word Buddhism) — about 5–7%
+- Other small affiliations and folk compacts — about 2%
+- Covenant-small (later halls will not know the word Judaism) — below steer-threshold, about 0.2%
+
+Old Fundamentals line had Still at ~15% and Station at ~6–7%, and it omitted the Hollow-mass.
+This file treats the Hollow-mass as real mass: unpatterned heat, not a church.
+Covenant-small and the 2% folk-compacts never steered the Immaterium as blocs.
+They left phrases, remnant-habits, and household wards that later offshoots swallowed.
+
+Mass rule, locked:
+Greater number of believers, held with duration and heat, means greater print on the Immaterium.
+Discipline focuses a print. Panic smears one.
+The Hollow-mass is large and unfocused. It does not raise gods. It makes the veil patchy.
+
+--------------------------------------------------
+THE QUESTION EVERY FOUNDER CURRENT ANSWERED
+--------------------------------------------------
+The Unveiling tore the sky.
+The human count fell to a remnant on the order of ten thousand.
+Then came the long dark: thin knowledge, thin law, thin bread, thin sleep.
+Recorded history begins when halls can again keep years.
+
+No living culture has proof of how that dark ended.
+Each founder current left an answer.
+All five answers are plausible.
+Cultures subscribe to a version. Peoples files should name which ending the hall recites.
+The Immaterium does not adjudicate. It only answers heat.
+
+--------------------------------------------------
+WOUND-CURRENT
+--------------------------------------------------
+GM name: the Nazarene creed. Never spoken in hall.
+
+Mass: largest single patterned current, about 29%.
+
+Core virtue that staved the dark
+Self-sacrifice. Not endurance, not order, not cooling: the spending of the self so that others are not eaten.
+
+Founder claim, as the current carried it
+The Real did not remain a distant partner. It took an earthly body and spent that body.
+Humanity was not ambushed by foreign demons. The Faces that hunt are human wickedness given density — mundane cruelty first, then overt walkers when the heat is thick enough.
+The Spent One still takes the penitent back into the body that holds, provided the penitent turns and tries to spend as the Spent One spent.
+Forgiveness without the virtue is a lie. The virtue without turning is pride, and pride feeds.
+
+Hall names for the lost figure
+The Spent One. The First Body. The Opened.
+The personal name is gone. The method of the spending is gone. Offshoots invent both. That invention is where they become visible as churches, and where they become recognisable if written carelessly.
+
+--------------------------------------------------
+GM META — WHY THIS CURRENT FITS THE IMMATERIUM
+--------------------------------------------------
+The Unveiling file already states that negative heat coalesces into malevolent entities, and that disciplined faith can raise protective form.
+Wound-theology is that mechanism told as guilt and mercy.
+Demons are not an invading species. They are us, denser.
+The earthly embodiment is how a large, patterned current would remember a coalesced Power that did not stay abstract: it wore a person and used that person up.
+Whether the Spent One was a living man of the landing-age, a form the current itself condensed, or both at once, is not recoverable. Do not lock it in a hall-book.
+
+Salvation, in this physics, is not escape from a courtroom.
+It is refusal to remain food.
+The spending changes the diet of the Immaterium in that place, for a time.
+
+--------------------------------------------------
+WHAT TO KEEP (LOCKED)
+--------------------------------------------------
+- Self-sacrifice as the core virtue that ended, or held, the dark
+- An earthly body used up by the Real
+- Demons as human wickedness made overt; mundane evil and walkers as one gradient
+- Forgiveness offered to the penitent who then embodies the virtue
+- Offshoots treating Immaterium entities as embodiments of evil, petty or crowned
+
+--------------------------------------------------
+WHAT TO CHANGE FROM THE RAW EARTH SHAPE
+--------------------------------------------------
+Do not specify the instrument of death.
+Do not specify a third day, an empty grave, or a public execution as the whole gospel.
+Do not give the Spent One a surviving childhood, mother-cult, or twelve companions.
+Do not write original-sin theatre with a first garden and a snake. The heat was already in the Multitude before the tear. The tear only made Faces visible.
+Do not let “save humanity” mean a completed rescue. The spending holds. It does not finish.
+The sky-tear may be read as the Opened still open — the world’s body, not a man’s tree. That reading keeps the Wound in Virath.
+
+--------------------------------------------------
+WHAT TO ADD
+--------------------------------------------------
+1. Gradient of evil
+   A cruel word, a kept debt designed to break a house, a rape, a massacre, and a skinwight are stations of the same heat.
+   Wound-halls are severe about ordinary vice because ordinary vice is how walkers begin.
+   This gives priests work on market days, not only on False-Moon nights.
+
+2. Two-stroke ethic
+   Turning, then spending.
+   A man who weeps and does not restore is still food.
+   A man who gives his body for glory is feeding the Night Face with spectacle.
+   True spending is quiet enough to starve a Face and costly enough to change a floor.
+
+3. Forgiveness does not unmake
+   Absolution does not delete an entity already formed.
+   It changes whether the penitent continues to feed it.
+   A hanged leak-thing and a forgiven man can belong to the same rite if the hall is Iron-coloured.
+   A hall that will not hang, in the name of mercy, has chosen a side in that quarrel.
+
+4. The remnant as continuation
+   The Dark Age ending is not “the Spent One finished it.”
+   The remnant joined the spending and became a body.
+   Saints in later ages are people whose death or life closed a leak, or whose share of bread held one.
+   That keeps founder-memory and living custom on the same hinge.
+
+5. Native schisms (use these; do not invent Earth denominations)
+   Keepers — the tear is the spending still happening; close it and the world becomes food again.
+   Sealers — the spending was once; a kept open Wound is vanity and heat.
+   Soft-Wound — forgiveness first, hanging last; accused by marks of feeding walkers.
+   Hard-Wound — the human who fed a Face is already halfway a Face; hanging is mercy to the floor.
+   Measure-enemies will call the earthly body a partner-face and the icon a second moon.
+
+6. Door-latch rites
+   Share of bread and salt as joining the body, not as eating a named man.
+   Standing a watch in another’s place.
+   Restitution before the hall.
+   Vigil on False-Moon nights.
+   No midwifery-as-spectacle; birth is a thinning and wants quiet spending, not a crowd.
+
+--------------------------------------------------
+RESIDUE THAT MAY SURFACE IN OFFSHOOTS
+--------------------------------------------------
+- A body that stands for many
+- Blood, bread, and salt as bond
+- Meaning inside suffering only when the suffering is spent for another
+- A tear that holds by being kept
+- Forgiveness as dangerous strength
+- Hatred of Faces, including the Face a neighbour is becoming
+
+Forbidden tells in any later file
+- Crucified-and-risen saviour
+- Third-day resurrection as the gospel
+- A single historical passion-play as the whole account
+- Cross as logo, nativity, or Earth-name of the creed
+- “Sin / salvation / calvary” as vocabulary
+
+How this current said the Dark Age ended
+The remnant joined the spending.
+They kept the tear with vigil, salt, iron, and a share of bread.
+They named the walkers as their own heat given face, and they stopped feeding them where they could.
+The dark did not lift because the sky was mended.
+It lifted because enough of the living agreed to be the wound that holds.
+
+What this does to later halls
+Kept Wound and the penitential overlay of Iron Oath descend here.
+Saints are leak-holders.
+A skinwight is a sermon.
+Mercy and hanging are not opposites until a hall makes them so.
+
+--------------------------------------------------
+MEASURE-CURRENT
+--------------------------------------------------
+GM name: the Submission. Never spoken in hall.
+
+Mass: second patterned current, about 26%.
+
+Residue that may surface in offshoots
+- The Real admits no partner
+- Image and second face are a door
+- Law is the worship
+- Community of the bound
+- Dignity inside obedience to one measure
+
+Forbidden tells in any later file
+- A last named prophet
+- A closed book as the seal of heaven
+- Five daily offices
+- A cube-shrine or desert-revelation costume
+
+How this current said the Dark Age ended
+The remnant put the partner-faces away.
+One law was spoken over weather, weight, king, and grave.
+The hungry things lost their second names and starved for lack of a face to wear.
+The dark ended when nothing else was worshipped.
+
+What this does to later halls
+Single Measure and the chapel-form of Seal and Ordainment descend here.
+Image-breaking is piety, not taste.
+A grove-office, a saint-icon, and the False Moon can be called the same offence.
+
+--------------------------------------------------
+HOLLOW-MASS
+--------------------------------------------------
+GM name: the unaffiliated, the nothing-in-particular, the unchurched. Never spoken in hall as a church, because it was not one.
+
+Mass: about 24%. Large enough to steer by smear, not by doctrine.
+
+Residue that may surface in offshoots
+- Custom without catechism
+- Household wards that no priest owns
+- Endurance as the only proof
+- Suspicion of any hall that claims the sky required an answer
+- Patchy veil: leaks without liturgy, protections without a name
+
+Forbidden tells in any later file
+- Do not baptise this as “atheist modernity”
+- Do not make it a secret sixth church
+- Do not give it a prophet of unbelief
+
+How this current said the Dark Age ended
+It ended because people lived.
+No compact with the sky was required.
+Weather broke, children were raised, walls were stacked, the second moon came and went.
+The world asked for hands. It did not ask for a creed.
+
+What this does to later halls
+Most floors, especially Novari-majority hard country, live here first.
+Folk trusts sit on this mass.
+Churches call it the Drift when they fear it, the Floor when they need it.
+It explains why miracle is rare even where people are many: unfocused heat does not coalesce.
+
+--------------------------------------------------
+STATION-CURRENT
+--------------------------------------------------
+GM name: the Eternal Law. Never spoken in hall.
+
+Mass: about 15%. Third patterned current. Larger than Still. Smaller than Hollow.
+
+Residue that may surface in offshoots
+- The world is a Work with offices
+- A man out of station sours the floor
+- Local faces are functions, not a parliament of gods
+- Duty by place: grove, gate, seed, forge, watch
+- Cycle of seasons as the Work’s breathing, not as rebirth-theatre
+
+Forbidden tells in any later file
+- Recognisable avatar-cycle
+- Caste-dharma under Earth names
+- A wheel of rebirth ending in release as the advertised goal
+
+How this current said the Dark Age ended
+The remnant took up offices again.
+Grove was kept. Gate was stood. Seed was put in true ground. Watch was walked.
+The Work resumed. A world out of station cannot carry people.
+The dark ended when each living thing stood where it was for.
+
+What this does to later halls
+Green Trust and the rank-spine of Seal and Ordainment descend here.
+Plateau law, named groves, and marriage-leave from the green are Station spoken as land.
+Conflict with extraction is theological, not only economic.
+
+--------------------------------------------------
+STILL-CURRENT
+--------------------------------------------------
+GM name: the Middle Path. Never spoken in hall.
+
+Mass: about 5–7%. Smallest of the currents that still steered.
+Precision can outweigh number. This current was disciplined.
+
+Residue that may surface in offshoots
+- Heat of wanting feeds the Night Face
+- Holiness is cooling
+- Attention is a tool
+- Withdrawal can be piety
+- Loud mourning and spectacle are risks to the floor
+
+Forbidden tells in any later file
+- Eightfold lists
+- Earth monastic costume as a tell
+- Extinguishment under an Earth word as the advertised goal
+
+How this current said the Dark Age ended
+The remnant learned to cool.
+They gave the hungry things no feast of terror, no feast of desire, no knock.
+The Night Face thinned for lack of heat.
+The dark ended when the living became quiet enough that the veil forgot them for a time.
+
+What this does to later halls
+Still Walk descends here.
+Syllvani long-memory takes to it.
+Aperti-scented cells hide inside it.
+Halls that reject the Walk still borrow its False-Moon silence because it works.
+
+--------------------------------------------------
+BELOW STEER-THRESHOLD
+--------------------------------------------------
+Covenant-small, about 0.2%
+Left remnant-habits: a name treated as too heavy to wear lightly; a people understood as a kept remainder; law as remembered compact rather than as image.
+Swallowed by Measure and Wound offshoots. No founder-church. No living “covenant people” as a world-faith.
+
+Other folk-compacts, about 2%
+Household spirits, first-cut bread, drowned-name offerings, ash-wards.
+These feed Folk Trusts and Ash-and-Deeps practice.
+They are not a sixth founder current.
+
+--------------------------------------------------
+BRANCHES — LIVING OFFSHOOTS
+--------------------------------------------------
+Recorded history only.
+Cleared. Do not list named churches here until the founder current they descend from is locked.
+
+Each later offshoot must braid at least one founder current with a wave-myth and a local Unveiling answer.
+Write as Faith_[Name].txt when that lock is made.
+
+Folk Trusts and Lornswatch remain practice layers, not founder currents.
+Opener cells remain Aperti residue, not a Multitude church.
+
+--------------------------------------------------
+HOW A PEOPLES FILE SHOULD POINT HERE
+--------------------------------------------------
+FAITH AND RITE
+Dominant offshoot: [Faith_Name]
+Minority / tolerated: [list]
+Founder heat under it: [Wound / Measure / Hollow / Station / Still]
+Dark Age ending the hall recites: [one of the five answers, in hall speech]
+False-Moon house-rule: [one line]
+Detail: Faiths_Founders.txt and Faith_[Name].txt
+
+Example, Syllvani plateau:
+Dominant offshoot: [unnamed until Station-current lock]
+Founder heat: Station, with Still
+Dark Age ending the hall recites: the remnant took up offices; the Work resumed; the fortress-green held.
+False-Moon house-rule: unlit rooms, no new cutting, iron at the latch.
+
+Example, Isern mark:
+Dominant offshoot: [unnamed until Wound-current lock]
+Founder heat: Wound, with Measure
+Dark Age ending the hall recites: the remnant kept watch and hanged what leaked; the dark lifted when the gate was stood again.
+False-Moon house-rule: iron on the threshold, no lone walking, leak-things hanged not bargained.
+
+Example, Novari hard-country floor:
+Dominant offshoot: folk practice, thin priest
+Founder heat: Hollow
+Dark Age ending the hall recites: it ended because we lived.
+False-Moon house-rule: cover the well, bring the children in, do not name what you hear.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+Founder files do not receive liturgy calendars.
+Offshoot files do.
+Campaign_Log records whether any named Power has coalesced in the present age.
+Coalescence tracks living heat, not founder percentages.
+A 29% stain in the landing-hour is not a 29% church today.
+
+The five endings remain unsettled on purpose.
+If the table ever needs one of them to be true, lock it in Campaign_Log, not in this file.

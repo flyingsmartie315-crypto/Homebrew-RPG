@@ -1,0 +1,31 @@
+# War_Nithing
+
+Working title. From nīðing / nīð — the worst Germanic insult: a person utterly unworthy, a coward, a breaker of sacred oaths or pacts.
+
+Not a Whitmark war. Older. Ebon Peninsula. Isern–Kannavi border.
+
+LOCKED
+--------------------------------------------------
+Place: the razed border fort 13 miles east of Tjarnborg (crow). File: Settlement_Nithing_Fort.txt.
+Country: Markholt / Kannavald lip.
+Name of the fight (Isern chronicle): the Nithing War.
+Kannavi name: not locked.
+
+SHAPE (not yet a campaign)
+--------------------------------------------------
+A border skirmish that became a naming.
+Someone broke a compact — or was said to. The fort fell. It was not rebuilt.
+Osric’s Landing Compact is the later, surviving pact. This fight is why men still spit nīðing when a wood-right is treated as a pit-charter, or a stave-line is crossed as if it were open floor.
+
+Do not write it as the taming of the peninsula. That is a longer story.
+Do not write it as Kannavi turning on Hallvard’s later wars. Those honour the compact.
+This is an earlier souring at one fort.
+
+PERSONS
+--------------------------------------------------
+Not locked.
+
+NOTES
+--------------------------------------------------
+File path when committed: Master/World/History/Wars/War_Nithing.txt
+Expand when the chronicle is more than a ruin-label.

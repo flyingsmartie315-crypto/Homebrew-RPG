@@ -57,6 +57,7 @@ Stewardship as lived practice rather than myth. Because they remember what their
 RELATION TO OTHER WAVES
 --------------------------------------------------
 Isernvolk: later arrivals from the western sea. Respected as craft-strong kin in the deep colony story; tension when they cut, mine, or press against the Plateau’s edges.
+Cortani / Berthall country: the west lip is not a closed door. Bands come down the Rhennod wall to lift ore and stock from the Bowls and the burn-villages that feed Rhônweill. Isolationist policy. Opportunist practice.
 Ordinari: Seal and elite who came with the Multitude. Bargained with or resisted when they try to allot elder land by charter.
 Novari: the Multitude. Some absorbed into Syllvani lands as labour or client peoples; others pushed into harder country. Mixed blood exists but is tightly controlled on the Plateau itself.
 Aperti: the Openers. Often blamed in Syllvani myth for the souring of the land and the coming of the Unveiling.
@@ -80,6 +81,52 @@ Early offshoots may live as their own Peoples_[Name].txt under Early when they a
 - [Branch] — [one-line seat and character]
 
 Branches differ by which part of the Plateau or its immediate rim they hold and how strictly they keep the old taboos. Offshoot stocks off the fortress-heartland are listed here and filed under Early.
+
+
+--------------------------------------------------
+SOCIETAL CUSTOMS
+--------------------------------------------------
+Standalone. Does not replace prior sections. Empty lines mean the point is not locked here.
+
+1. Social Order & Stratification
+* Social Hierarchy: Isolationist fortress-basin. Steward lines. Offshoots (Cortani, Kannavi) are listed, not ruled from here as a daily crown.
+* Power Dynamics: Terrain advantage. Slow decisions. Mixed blood on the Plateau tightly controlled.
+* Social Mobility: Not locked. Client Novari exist; access is gated.
+2. Etiquette, Honor, & Taboos
+* Public Deference: Inward. Outsiders are seasonal problems.
+* Hospitality Codes: Stingy aid (Whitmark-war pattern). Isolationist policy, opportunist practice on the Rhennod lip.
+* Conversational Norms: Long memory in the mouth. Romance / Welsh-flavoured naming pole.
+* Shame vs. Guilt: Short-term folly. Cutting the green they remember making.
+3. Dress, Grooming, & Aesthetic Expression
+* Class Signifiers: Not locked in cloth. Stewardship is the visible law.
+* Modesty and Exposure: Not locked.
+* Grooming & Modification: Not locked.
+* Utility vs. Status: Record and grove over banner.
+4. Cultural Virtues & Vices
+* The Supreme Virtues: Continuity, stewardship as practice, decisions weighed across generations.
+* The Celebrated Vices: Coming down the wall for packed ore when policy said stay home.
+* The Unpardonable Sins: Forgetting the sequence of the Unveiling. Treating the basin as empty grass.
+5. Family Structure & Kinship
+* Household Units: Basin and forest holds. Not locked in household form.
+* Lineage & Inheritance: Long record of lines.
+* Marriage & Partnership: Mixed blood controlled on the Plateau itself.
+* Childhood & Old Age: Education toward memory.
+6. Religious Expression & Cosmic Worldview
+* The Pantheon / Belief System: Clearer origin-memory than most. Aperti blamed in myth for souring and Unveiling.
+* Sacred Spaces & Clergy: The green and the basin as maintained work of First Men.
+* Rituals & Holidays: Not locked as a calendar.
+* The Afterlife: Not locked.
+7. Language, Lore, & Transmission of Knowledge
+* Linguistic Style: Softer Romance pole. Welsh-flavoured surface on old grove names.
+* Mythology & History: Intact Dark Age record. First Men, shaping of Virath, Unveiling sequence.
+* Education: Written record survived. Long-term outlook is the school.
+8. Leisure, Art, & Material Culture
+* Artistic Mediums: Record and forest-work. Not locked as a style-sheet.
+* Recreation & Sports: Not locked.
+* Stimulants & Cuisine: Not locked.
+9. Economic & Subsistence Foundation
+* Mode of Production: Forest stewardship, lake-and-basin living. Fortress-heartland, not a grain-mark.
+* Attitude Toward Wealth: What can be kept for centuries. Not this year’s surplus alone.
 
 --------------------------------------------------
 NOTES

@@ -1,0 +1,230 @@
+# ImperialCult.txt
+# Placeholder name. Living Wound-offshoot. State church of [EMPIRE NAME NOT LOCKED].
+# Pantheon here means the Vessel plus a college of historical keepers.
+# None of the keepers are gods.
+
+WHAT THIS FILE IS
+The working sheet for one contemporary faith derived from the Wound-current.
+Founder physics stay in Faiths_Founders.txt.
+This file holds what an imperial hall recites, what orders do, and which crises it claims to have closed.
+
+Do not print Earth-names in a hall-book.
+Do not call a saint a god or a goddess.
+Do not lock the other six pillars until each has a historical life, a heat, a cost, and a living order.
+
+--------------------------------------------------
+GM META
+--------------------------------------------------
+Parent current: Wound.
+Braid in this offshoot: Wound spending, with a Still discipline inside the grave-orders.
+Chief form: one Real, remembered as the Vessel / the Spent One / the Opened.
+Imperial halls add titles. Titles are claims. They are not extra gods.
+
+Saints are documented persons. Recitation, crisis, and duration can densify them into keeper-forms in the Immaterium.
+Same physics as walkers. Opposite diet.
+Whether a named saint has coalesced is locked per saint, below.
+
+The empire’s name, capital, and reach are not locked in this file.
+A state church that spans many stocks must later be checked against Peoples and Geography.
+Syllvani plateau-hold and Kannavi wood-law will not accept this cult as native without a conquest, a bargain, or a refusal.
+
+Hall-doctrine is not GM truth.
+If the cult says souls return to a High Source, that is what priests teach.
+The_Unveiling.txt still governs what the veil actually does.
+
+--------------------------------------------------
+NAMING LOCK
+--------------------------------------------------
+Public name of the faith: Imperial Cult (placeholder).
+Public name of the Real: pick one for masthead when the empire is named.
+Allowed hall-speech already locked by the founder file: the Spent One, the First Body, the Opened, the Vessel.
+Disputed imperial epithets, not masthead: Architect, All-Father, High Source.
+Forbidden in this file: Son as a title, High Monad as a title, goddess, Lord of the Seas and stacked sea-epithets.
+
+High Monad is struck.
+It is a philosopher’s word and a costume.
+If the cult needs a word for the Real as source rather than as spent body, use High Source in liturgy only, and keep it rare.
+
+Phylax is liturgical high-tongue (guard, warden).
+A living stock-name should be given when the saint’s homeland is locked.
+Do not footnote Greek in a hall-book.
+
+--------------------------------------------------
+THE COLLEGE
+--------------------------------------------------
+One Vessel.
+Seven keepers. Each keeper is a pillar: a closed crisis, a virtue-as-spending, a living order.
+
+PILLAR | SAINT | OFFICE | HEAT FACED | ORDER
+1 | — | Witness / first stones | — | —
+2 | — | — | — | —
+3 | — | — | — | —
+4 | — | — | — | —
+5 | Phylax (liturgical) | Warden of the committed dead | Gluttony of years | Wardens of the Shroud
+6 | — | — | — | —
+7 | — | — | — | —
+
+Virtues in the table are imperial school-words.
+Write the physics in the body of the pillar, not the school-word alone.
+Temperance here means rationing existence. It does not mean table-manners.
+
+--------------------------------------------------
+PILLAR FIVE — THE WARDEN
+--------------------------------------------------
+
+SAINT
+Liturgical name: Phylax.
+Office: Warden of the committed dead.
+Core spending: knowing when to stop living, and keeping others to that measure.
+Imperial school-word: Temperance.
+Heat faced: the gluttony of years — refusal to return one’s share of life.
+
+HALL CLAIM
+Phylax was a yard-priest, not a prelate and not a rider.
+He kept a remote churchyard. He had no title worth a chronicle until the yard was attacked.
+He tended poor dead with the same care as named dead.
+He guarded ground against takers of flesh.
+When a stitched walker and its cult came to harvest his graves, he did not run.
+He had already declared the yard sacred ground — committed, watched, closed to taking.
+He met the thing at the threshold.
+He spent what years he still had, and his blood, to hold that line.
+The walker fell inert at the gate. One entity. Witnessed.
+The cult could not raise the dead under his charge.
+The survivors who saw it became the first company that later fought the heresy down.
+The empire named the holding a miracle and the man a keeper.
+
+GM META — WHAT IS LOCKED
+- The man existed. The yard existed. The spending was local.
+- One stitched walker fell at the declared threshold. Witnessed.
+- The buried in that yard were not raised. That refusal is the second half of the miracle.
+- Survivors of the attack became the seed of the later force and order. The crisis was fended off by that company and its heirs, not by a province-wide collapse of walkers.
+- A keeper-form now answers recitation at committed ground if the rite is kept and paid for. Narrow. Costly. Not artillery.
+
+GM META — WHAT IS NOT LOCKED
+- The scholar’s personal name and full life. Marked for a later character file.
+- How much pre-landing text the scholar truly had. Aperti residue may leave words and diagrams that do not behave. It does not leave operable landing-age engines.
+- Whether Phylax’s keeper-form is as dense as the capital claims.
+
+--------------------------------------------------
+THE CRISIS — GLUTTONY OF YEARS
+--------------------------------------------------
+HALL SPEECH
+An Aperti-descended scholar of medicine, cutting, and the study of dying looked at the thin places and saw more years instead of a door-risk.
+He joined harvested flesh to harvested flesh and sealed the seams with ambient wrong-heat.
+The thing that stood did not eat bread. It kept moving by taking the warmth of living bodies and of occupied ground nearby — breath, blood-heat, the ordinary life of a street or a yard.
+Dying lords and merchant princes bought the method.
+Private cults spread in towns that could pay.
+Uncommitted dead woke as doors.
+Whole quarters threatened to become a feast of rot that would not end.
+
+PHYSICS (GM)
+This is Wound-doctrine made visible.
+The scholar did not invent a foreign magic. He fed the Face that was already in the buyers: terror of the grave, appetite for a second share of life.
+Stitched walkers are leak-things with extra craft.
+They are not a fifth species.
+Calling them flesh-golems is permitted as a chronicle slur. Hall liturgy should say walker, stitched dead, or uncommitted door.
+
+The scholar’s Aperti descent is flavour and blame, not proof that Openers caused the Unveiling.
+Keep the line thin. One household, banned books, a method that works just enough to damn a city.
+
+--------------------------------------------------
+THE SPENDING
+--------------------------------------------------
+What Phylax spent
+His remaining years. His blood. His post.
+He did not spend a speech or a title.
+
+What the spending did
+It held one declared threshold.
+One walker fell there and did not rise.
+The charges already committed in that yard stayed dead.
+It did not drop walkers elsewhere.
+
+What followed in history
+Witnesses stayed.
+They formed the first band that knew a committed yard could be kept.
+That band, grown and copied, is what eventually broke the heresy’s back.
+The saint is the threshold and the unraised dead. The war is the survivors.
+
+What the empire made of it
+A pillar.
+A proof that the dead have a measure and that exceeding it is treason against occupied ground.
+A licence to put yards under military rule.
+
+HARD-WOUND READING
+The buyers were already halfway Faces. Hanging them was mercy to the town.
+SOFT-WOUND READING
+Some buyers can turn, restore the bodies they took, and live under ration.
+The Wardens tend Hard. Town priests may tend Soft. The capital uses both as policy.
+
+STILL BRAID
+The yard went still.
+That is not the whole of Phylax. He spent; he did not only withdraw.
+The living order keeps an ascetic cold so that appetite finds no seat inside the walls.
+Name that cold as borrowed Walk-discipline, or the order will drift into a second church.
+
+--------------------------------------------------
+AFTERLIFE — HALL ONLY
+--------------------------------------------------
+The cult teaches: the dead are to be committed, named once, watched, and given back.
+“Given back” means returned to the Real’s keeping, not kept as a second life among the living.
+Do not write a mapped country of the dead in this file.
+Do not write a ferry across a named river.
+Phylax is warden of the crossing as a duty, not as a boatman-god.
+
+An uncommitted body is a door.
+A poorly watched funeral is a small Unveiling.
+A private vault bought to cheat the measure is the old heresy in clean stone.
+
+--------------------------------------------------
+LIVING ORDER — WARDENS OF THE SHROUD
+--------------------------------------------------
+Place
+Yards are not open fields where the veil is thin.
+They are walled, ditched, barred with cold iron: crypt-garrisons.
+The order lives inside the necropolis.
+Care of the dead is treated as a siege that does not lift.
+
+Work
+- Receive the body.
+- Enrol the name once.
+- Commit the ground.
+- Watch through the first nights, longer on False-Moon.
+- Cool patchy ground with still-rite and spent comfort.
+- Refuse unlicensed cutting of the buried.
+- Treat an uncommitted or stolen corpse as an open door and a crime.
+
+Ration
+The monks keep a hard ration of food, sleep, and speech.
+The point is not holiness-as-brand.
+The point is a house so poor in appetite that a year-glutton finds nothing to sit in.
+
+Door-latch law the order forces on a town
+- No body left above ground after the set hours.
+- No midwife-crowd in a yard.
+- No paid vault that bypasses the common commitment.
+- No calling of a name after the enrolment.
+- False-Moon nights: yards locked, extra watch, no new bargains with the dead.
+
+Cost of cheap invocation
+If a town recites Phylax to bless a war-pit or to hide a bought immortality, the rite is spectacle.
+Spectacle feeds the heat the pillar claims to have closed.
+The file treats that as how the heresy returns.
+
+--------------------------------------------------
+WHAT THIS PILLAR DOES TO OTHER STOCKS
+--------------------------------------------------
+Isern marks already hang leak-things. They will understand the Hard reading and resist foreign monks on their hanging-trees.
+Plateau Trust-halls will accept commitment of dead to named ground and reject imperial monopoly of the yard.
+Measure-halls will call Phylax-icons a partner-face and may smash them while still wanting the doors closed.
+Hollow floors will pay for a decent burial and ignore the college.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+Scholar-antagonist: later file. Do not let him become a rival god. He is a Face-feeder with a method.
+Do not raise the dead as a player tool.
+Do not let Wardens become battlefield wizards who drop walkers at range.
+Their miracle, when it happens, is a held threshold and the dead under their charge staying dead.
+
+Campaign_Log records whether a given settlement’s crypt-garrison is staffed, starved, or corrupt.

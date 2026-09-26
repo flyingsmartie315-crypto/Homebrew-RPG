@@ -1,0 +1,39 @@
+# Tjarnborg
+
+Type
+Town
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Markholt. East bank of River Tjarn at Littmere. Castle and small town.
+
+Overview
+Mere-keep of Markholt. The Tjarn leaves Littmere under this wall and runs for Sanftgau and the Värdå. Kannavald water comes in as Grenbek and Trébek. Lārifenn sits on the far bank of the mere. This is a border-town that pretends to be a lake-town.
+
+Control
+Castle-house under the Ardairn Zonarch. Bound villages: Grenstatt, Kreuzholt. The Nithing Fort is a ruin, not a vassal.
+
+Population
+Working figure: 1,400–1,800.
+
+Economy
+Lake, wood, a little field. Road-toll toward Jagdsūd and Waidwald. Not pit-silver.
+
+Defences / Access
+Castle on the east bank of the Tjarn. Town against the keep.
+Boat on Littmere. Road NE 12 miles to Kreuzholt. Ruin 13 miles east, crow.
+
+Linked Features
+- Markholt
+- Littmere / Littnau — 8 sq mi
+- River Tjarn
+- Grenbek (west), Trébek (east)
+- Lārifenn — 4 sq mi, west bank
+- Grenstatt — Settlement_Grenstatt.txt
+- Kreuzholt — Settlement_Kreuzholt.txt
+- The Nithing Fort — Settlement_Nithing_Fort.txt (ruin)
+- War_Nithing.txt
+
+Notes
+Name locked. Villages working names until changed.

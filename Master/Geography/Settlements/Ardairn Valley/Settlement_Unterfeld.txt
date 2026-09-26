@@ -1,0 +1,32 @@
+# Unterfeld
+
+Type
+Village
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Sanftgau. 7 miles north-east of Sċīrward Castle. Agri village.
+
+Overview
+The field-village of the lookout-keep. Grain and garden for Sċīrward Castle. No stables-claim — that is Rosshof.
+
+Control
+Under Sċīrward Castle.
+
+Population
+Working figure: 280–360.
+
+Economy
+Agri. Feeds the hill.
+
+Defences / Access
+Village keep modest. Lanes to Sċīrward Castle and across the gau.
+
+Linked Features
+- Sċīrward Castle — Settlement_Scirward_Castle.txt
+- Rosshof — Settlement_Rosshof.txt
+- Sanftgau
+
+Notes
+Working name.

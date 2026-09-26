@@ -60,6 +60,52 @@ PERSONS OF NOTE
 --------------------------------------------------
 None locked.
 
+
+--------------------------------------------------
+SOCIETAL CUSTOMS
+--------------------------------------------------
+Standalone. Does not replace prior sections. Empty lines mean the point is not locked here.
+
+1. Social Order & Stratification
+* Social Hierarchy: First-Seat bloodlines. True Heirs. Charter first, ditch second.
+* Power Dynamics: Books and pedigree. They look down on valley city-states as squatters.
+* Social Mobility: Marriage-book and admin lineage (~20% Ordinari claim as identity, not a lab).
+2. Etiquette, Honor, & Taboos
+* Public Deference: First-Seat manners. Valley elites are legal cousins who stole chairs.
+* Hospitality Codes: Not locked.
+* Conversational Norms: Charter-speech.
+* Shame vs. Guilt: Losing the races. Climbing was survival; it is also the insult the Idraulici keep.
+3. Dress, Grooming, & Aesthetic Expression
+* Class Signifiers: Not locked beyond high-born bureaucrat-engineer posture.
+* Modesty and Exposure: Not locked.
+* Grooming & Modification: Not locked.
+* Utility vs. Status: Charter over mud.
+4. Cultural Virtues & Vices
+* The Supreme Virtues: Memory of the Golden Age partnership. Intact books.
+* The Celebrated Vices: Looking down.
+* The Unpardonable Sins: Forgetting they ran Valenidia with the wrights, not instead of them.
+5. Family Structure & Kinship
+* Household Units: Spine-valley houses in Le Conche Verdi.
+* Lineage & Inheritance: First-Seat lines.
+* Marriage & Partnership: Admin-line marriage-book.
+* Childhood & Old Age: Not locked.
+6. Religious Expression & Cosmic Worldview
+* The Pantheon / Belief System: Not locked. Unveiling broke the engineered floor.
+* Sacred Spaces & Clergy: The inhabited hollows as kept country.
+* Rituals & Holidays: Not locked.
+* The Afterlife: Not locked.
+7. Language, Lore, & Transmission of Knowledge
+* Linguistic Style: Palatinus softened. First-Seat, True Heirs.
+* Mythology & History: They kept the books and lost the water.
+* Education: Charter and record.
+8. Leisure, Art, & Material Culture
+* Artistic Mediums: Not locked.
+* Recreation & Sports: Not locked.
+* Stimulants & Cuisine: Not locked.
+9. Economic & Subsistence Foundation
+* Mode of Production: Insulated low-alpine hollows. Not the malaria floor.
+* Attitude Toward Wealth: Pedigree and memory. The valley’s vintage is someone else’s sluice.
+
 --------------------------------------------------
 NOTES
 --------------------------------------------------

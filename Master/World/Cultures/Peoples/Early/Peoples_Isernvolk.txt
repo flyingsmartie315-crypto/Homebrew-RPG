@@ -183,6 +183,91 @@ Act 2
 
 Kannavi compact names live in Peoples_Kannavi.txt.
 
+
+--------------------------------------------------
+NAMING — SHADOW AND CANOPY
+--------------------------------------------------
+Early Isern names on this peninsula were wood-names. They named what closed the sky, not the fields they later cut.
+Draw first from Old Germanic (Proto-Germanic / Old High German / Old Saxon / Old Norse). Contemporary Isern is the worn mouth of that stock. Westmark is the later, offhand name of the cleared floor.
+
+Old stems
+- Shadow: PG *skadwaz → OHG scato / OS skado / OE sceadu / ON skuggi / Goth. skadus
+- Valley: PG *dalaz → OHG tal / OS dal / ON dalr
+- Wood, canopy: PG *walþuz → OHG / OS wald; also *hursti (hurst), ON skógr
+- Cover, blanket: PG *þakją (thatch/cover) → OHG dah / OS thak; hide-cover: *huljaną → OHG hullen
+- Deep: PG *deupaz → OHG tiof / OS diop / ON djúpr
+- Endless / lasting: *endilaus; ever: *aiwin- → OHG ēwa; long: *langaz
+- Home: *haimaz → OHG heim
+- Mark / border-land: *markō → OHG marca
+- Under: *under → OHG untar
+- New: *neujaz → OHG niuwi
+- The mountain as a person: Ebon / Eben / Spire — a presence. Do not rebuild it from *swartaz (that fight belongs to the Jarn).
+
+Early compounds (old mouth)
+- Valley in the shadow of the Spire: Scatodal, Untarscato, Ebendal
+- Endless canopy: Ēwald, Langwald, Endilōswald
+- Blanket of shadow: Thakscato, Hulisterwald, Scatowald
+- Deeps under the Spire: Deop-untar-Eben, Tiofwald, Djúpgrund
+
+Worn contemporary (what a 16th-century mark-man says)
+- Schattendene, Ebenheim, Schattenmark, Hulsterholt, Spiregrund, Neuheim (from Niuwiheim)
+
+Do not use Ebonmark. Ebormark is already the south vale.
+Modern name of the cleared heartland: the Ardairn Valley. From *aiwin- → Ard + dair + n. Said (ard)(dern). Westmark remains the common offhand name.
+
+--------------------------------------------------
+CUSTOMS — RESERVE
+--------------------------------------------------
+They are human. They like drink, song, a hunt, a table, a joke. That is not the argument.
+Among the well-to-do, polite society, being *seen* conservative and reserved is desirable. Fun happens. Display of fun is the fault.
+A retreat is not a revel. Stígarborg in Highsun is the type: the capital elite go up, the terrace is beautiful, the house is quiet on purpose. By Isern polite measure that already counts as a feast. Do not write them as joyless. Do not write a Whitmark hall as a Cortani tourney-night.
+
+
+--------------------------------------------------
+SOCIETAL CUSTOMS
+--------------------------------------------------
+Standalone. Does not replace prior sections. Empty lines mean the point is not locked here.
+
+1. Social Order & Stratification
+* Social Hierarchy: Dar Emait (war-age) / Dar Kaiserarch (contemporary) over Zonarchs in standard marks. Dar Waldward is the hereditary Deepwood exception. Houses compete for Zonarch chairs.
+* Power Dynamics: Crown commands from strength. A Zonarch is a magistrate on paper and a warlord in the yard. Quota-failure can mean the axe.
+* Social Mobility: Appointment, not birth, for the Zonarchate. Noble lines still fight for the chair. Waldward is closed blood.
+2. Etiquette, Honor, & Taboos
+* Public Deference: Rank shown in iron, whitewash, and quiet. Display of heat is cheap.
+* Hospitality Codes: A retreat is not a revel. Stígarborg is the type. Guest-right exists; noise is the insult.
+* Conversational Norms: Blunt when work is the subject. Polite society is reserved on purpose.
+* Shame vs. Guilt: Being *seen* unreserved is the polite fault. Fun happens. Display of fun is the fault. See CUSTOMS — RESERVE.
+3. Dress, Grooming, & Aesthetic Expression
+* Class Signifiers: Black and white contrast persists even when dyes exist. Direct, harsh, like the people. Ebon Spire and white sun on the arms.
+* Modesty and Exposure: Not locked.
+* Grooming & Modification: Not locked.
+* Utility vs. Status: Iron and cloth that work. Pretty comes after the line holds.
+4. Cultural Virtues & Vices
+* The Supreme Virtues: Order, supply, a kept line, a kept compact, work that can be counted.
+* The Celebrated Vices: Hard drinking and a hunt if they stay quiet enough to deny tomorrow.
+* The Unpardonable Sins: Breaking Osric’s compact with the Kannavi; wasting a levy; treating a Zonarch as a clerk if you cannot replace him.
+5. Family Structure & Kinship
+* Household Units: Mark-households, keep-households. Not locked in detail.
+* Lineage & Inheritance: Crown appointment vs Waldward blood. Adern offshoot later claims blood in Coritania.
+* Marriage & Partnership: Strategic marriages used on the Cortani. Not the first tool at home.
+* Childhood & Old Age: Not locked.
+6. Religious Expression & Cosmic Worldview
+* The Pantheon / Belief System: Not locked as a church. Unveiling is a fact they hang skinwights for. Ebon is a presence on the skyline.
+* Sacred Spaces & Clergy: Not locked.
+* Rituals & Holidays: Landing-memory. Osricford hanging-story.
+* The Afterlife: Not locked.
+7. Language, Lore, & Transmission of Knowledge
+* Linguistic Style: Anglo-Germanic-Scandi. Old Germanic first on early names. Worn contemporary Isern.
+* Mythology & History: Crossing, Osric, lost Jarnvard wing mourned as dead, taming of the peninsula, Whitmark wars.
+* Education: Counting-house, foundry, levy-drill. Not locked as a school-system.
+8. Leisure, Art, & Material Culture
+* Artistic Mediums: Black-and-white cloth and arms. Whitewash and timber-on-stone in the Coritanian offshoot.
+* Recreation & Sports: Hunt, table, Highsun retreat. Not tourney-first; that comes back from Coritania later.
+* Stimulants & Cuisine: Not locked. They drink.
+9. Economic & Subsistence Foundation
+* Mode of Production: Iron, grain, livestock, sea-trade, quarry, pit. River as road (Värdå). Prison-labour in the Laed-Crags.
+* Attitude Toward Wealth: Counted, stored, shipped. New pit-money is real and resented. Old watch-right is older.
+
 --------------------------------------------------
 NOTES
 --------------------------------------------------

@@ -1,0 +1,32 @@
+# Kreuzholt
+
+Type
+Village
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Markholt. 12 miles north-east of Tjarnborg by road. South of Jagdsūd, at the crossroads of the road that runs through the wood’s centre.
+
+Overview
+Cross-wood village. Hunt-traffic from Jagdsūd and Markholt meets here. Not a mere-village.
+
+Control
+Bound to Tjarnborg.
+
+Population
+Working figure: 220–300.
+
+Economy
+Road, wood, a little field. Game when Jagdsūd’s leave is sold.
+
+Defences / Access
+Road 12 miles SW to Tjarnborg. Wood-road through Jagdsūd’s centre.
+
+Linked Features
+- Tjarnborg — Settlement_Tjarnborg.txt
+- Jagdsūd
+- Markholt
+
+Notes
+Working name Kreuzholt.

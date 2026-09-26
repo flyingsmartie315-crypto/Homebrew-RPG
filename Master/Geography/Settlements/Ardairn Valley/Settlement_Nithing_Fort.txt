@@ -1,0 +1,35 @@
+# The Nithing Fort
+
+Type
+other
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Markholt / Kannavald lip. 13 miles east of Tjarnborg as the crow flies. Razed border fort.
+
+Overview
+Ruin and hazard. A border fort thrown down in an ancient skirmish with the Kannavi. The Isern name for that fight is the Nithing War — nīðing / nīð: the man who is nothing, coward, oath-and-pact breaker.
+Do not camp it as a village. Do not restock it as a Zonarch seat without a later chronicle.
+
+Control
+Nobody living. Markholt claims the ground. Kannavald remembers the insult.
+
+Population
+None.
+
+Economy
+None. Bones and a story.
+
+Defences / Access
+Rubble. 13 miles east of Tjarnborg, crow. The border is the point.
+
+Linked Features
+- Tjarnborg — Settlement_Tjarnborg.txt
+- Markholt
+- Kannavald Deepwood
+- War_Nithing.txt
+
+Notes
+Chronicle: War_Nithing.txt. Working title from nīðing.
+Campaign hooks: a compact read two ways; a stone that still has an Isern mark on one face and a stave-cut on the other.

@@ -1,0 +1,36 @@
+# Sċīrward Castle
+
+Type
+Town
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Sanftgau. Prominent hill-castle overlooking the gau. 24 miles west of Sundbruck as the crow flies.
+
+Overview
+The lookout-keep of the gentle gau. Hill over pasture. Not a smelter. Not a dam. A seat that watches grain and stock instead of vitriol. Sundbruck and Laedburg are the dirty east. This is the clean west of the same south bank.
+
+Control
+Castle-house under the Ardairn Zonarch. Attached villages: Unterfeld, Rosshof.
+
+Population
+Working figure: 800–1,100 in keep and hillside town.
+Seasonal swell at muster and harvest.
+
+Economy
+Sanftgau grain and stock. Tithe from Unterfeld and Rosshof. Does not feed on pit-silver.
+
+Defences / Access
+Prominent hill-castle. Commands the gau below.
+Access: south-bank country. 24 miles crow east to Sundbruck and the Sund-mouth bridge.
+
+Linked Features
+- Sanftgau
+- Sundbruck — Settlement_Sundbruck.txt (24 miles east, crow)
+- Unterfeld — 7 miles north-east. Settlement_Unterfeld.txt
+- Rosshof — 6 miles east. Settlement_Rosshof.txt
+
+Notes
+Locked name: Sċīrward Castle. Scīr + ward. The view is the point.
+Not Laedburg’s keep. Not Stígarborg.

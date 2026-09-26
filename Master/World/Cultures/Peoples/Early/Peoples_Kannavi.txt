@@ -183,6 +183,52 @@ Act 2
 
 Osric — Isern landing-king. Compact partner. Full entry: Peoples_Isernvolk.txt.
 
+
+--------------------------------------------------
+SOCIETAL CUSTOMS
+--------------------------------------------------
+Standalone. Does not replace prior sections. Empty lines mean the point is not locked here.
+
+1. Social Order & Stratification
+* Social Hierarchy: Dar Waldward at Westwood Heights. Hereditary. Outside the Zonarch list. Hamlets, kiln-rows, traplines under that house.
+* Power Dynamics: Compact with Osric still honoured. Border is shown to careless Isern. Wood-right vs pit-reeve.
+* Social Mobility: A good bow, a clean kiln, a winter survived. Not a white-keep ladder.
+2. Etiquette, Honor, & Taboos
+* Public Deference: Isolationist and blunt at the line.
+* Hospitality Codes: Alliance holds. Timber is sold. Canopy is not surrendered.
+* Conversational Norms: Wood-hamlet mixed speech. Town law Isern.
+* Shame vs. Guilt: Still Stones law — do not approach. Hollow-folk is a nickname, not a cult-name.
+3. Dress, Grooming, & Aesthetic Expression
+* Class Signifiers: Rank in bow and stave, not in whitewash.
+* Modesty and Exposure: Not locked.
+* Grooming & Modification: Not locked.
+* Utility vs. Status: Bowyery is the loud craft-pride.
+4. Cultural Virtues & Vices
+* The Supreme Virtues: Keeping the canopy. Honouring the landing-alliance without becoming Isern.
+* The Celebrated Vices: Reminding a mark-man where the wood begins.
+* The Unpardonable Sins: Approaching the Stones. Yielding stave-ground as if it were a pit-charter.
+5. Family Structure & Kinship
+* Household Units: Small hamlets and seasonal camps. Mixed lake-shore blood; affiliation is the year a house keeps.
+* Lineage & Inheritance: Waldward house hereditary. Spare-son compact service (Hallvard pattern).
+* Marriage & Partnership: Not locked.
+* Childhood & Old Age: Not locked.
+6. Religious Expression & Cosmic Worldview
+* The Pantheon / Belief System: Not a church-file. Unveiling perils are local fact.
+* Sacred Spaces & Clergy: Still Stones — local law, not a temple.
+* Rituals & Holidays: Landing-hanging at Ocs Landing told on both sides.
+* The Afterlife: Not locked.
+7. Language, Lore, & Transmission of Knowledge
+* Linguistic Style: Syllvani under Nordic layer. Not Jarnfolk. Not Plateau ll/dd/rh as default.
+* Mythology & History: Taming of the peninsula. Compact. Skinwights hanged. Deepwood as what the axes did not finish.
+* Education: Bow, kiln, wood-right.
+8. Leisure, Art, & Material Culture
+* Artistic Mediums: Stave and bow.
+* Recreation & Sports: Not locked.
+* Stimulants & Cuisine: Not locked.
+9. Economic & Subsistence Foundation
+* Mode of Production: Lumber, trap, charcoal, bowyery. Timber sold to Isern yards. Not farm-and-pit as a people.
+* Attitude Toward Wealth: A winter the house survives. Ore-money is someone else’s count.
+
 --------------------------------------------------
 NOTES
 --------------------------------------------------

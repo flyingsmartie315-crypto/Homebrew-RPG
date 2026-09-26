@@ -1,0 +1,33 @@
+# Rosshof
+
+Type
+Village
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Sanftgau. 6 miles east of Sċīrward Castle. Small castle, stables, pasture.
+
+Overview
+Horse-and-stock seat. Small castle. Pasture first. The gau’s riding-yard, not its granary.
+
+Control
+Under Sċīrward Castle. Castle-holder may be a cadet or a stable-lord.
+
+Population
+Working figure: 200–280 plus yard-hands at the stables.
+
+Economy
+Pasture, remounts, stock for Sċīrward Castle and the south-bank road. Not a mill-town.
+
+Defences / Access
+Small castle. Open approaches on purpose — you see a thief coming across grass.
+6 miles west to Sċīrward Castle. Further east toward Sundbruck.
+
+Linked Features
+- Sċīrward Castle — Settlement_Scirward_Castle.txt
+- Unterfeld — Settlement_Unterfeld.txt
+- Sanftgau
+
+Notes
+Working name: Rosshof. Kill it if you want a quieter horse-word.

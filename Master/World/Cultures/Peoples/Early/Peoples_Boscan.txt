@@ -28,7 +28,8 @@ DEEP NAME VS SURFACE NAME
 --------------------------------------------------
 Deep: Boscan.
 Surface: Buscan, Grove-Lords, Timber-Shield.
-Place-anchor: the wooded foot north of the Clypeo-Barra. Working map-area about 21,600 square miles.
+Place-anchor: Buscany. Wooded foot north of the Clypeo-Barra. Working map-area about 21,600 square miles.
+Local region file: Local_Region_Buscany.txt.
 
 --------------------------------------------------
 GEOGRAPHY AND CULTURE
@@ -45,11 +46,58 @@ Cortani of the Heartlands: parent stock and northern cousins. Horse and charge. 
 Palatini: Spine-lords in Le Conche Verdi. Charter-kin at a distance. Not grove-law.
 Idraulici: valley wrights east and south of the wall. Water-people. Trade, not a shared house.
 Clypeo-Barra Cortani offshoot (the namers of the shield-bar): nearest mountain-shadow neighbours.
+Hyrstwoods / Holtfenns: western neighbours in Holtwald. Isern splinter. They sit on knolls and mires. Boscan speech gave them Holtfenns.
 
 --------------------------------------------------
 PERSONS OF NOTE
 --------------------------------------------------
 None locked.
+
+
+--------------------------------------------------
+SOCIETAL CUSTOMS
+--------------------------------------------------
+Standalone. Does not replace prior sections. Empty lines mean the point is not locked here.
+
+1. Social Order & Stratification
+* Social Hierarchy: Grove-lords. Hall in the heart of a wood-cluster.
+* Power Dynamics: The stand is the wall against northern Cortani charge.
+* Social Mobility: Not locked.
+2. Etiquette, Honor, & Taboos
+* Public Deference: Not locked.
+* Hospitality Codes: Not locked.
+* Conversational Norms: Cortani outdoor speech hardened a grove-word.
+* Shame vs. Guilt: A hall on the naked plain. That is the law of the stead.
+3. Dress, Grooming, & Aesthetic Expression
+* Class Signifiers: Timber-shield. Grove as architecture.
+* Modesty and Exposure: Not locked.
+* Grooming & Modification: Not locked.
+* Utility vs. Status: The wood is status because it is the wall.
+4. Cultural Virtues & Vices
+* The Supreme Virtues: Hall in timber. Herd on the open between groves.
+* The Celebrated Vices: Not locked.
+* The Unpardonable Sins: Building on the naked green.
+5. Family Structure & Kinship
+* Household Units: Grove-steads.
+* Lineage & Inheritance: Not locked.
+* Marriage & Partnership: Not locked.
+* Childhood & Old Age: Not locked.
+6. Religious Expression & Cosmic Worldview
+* The Pantheon / Belief System: Not locked.
+* Sacred Spaces & Clergy: The grove is sovereign ground in practice.
+* Rituals & Holidays: Not locked.
+* The Afterlife: Not locked.
+7. Language, Lore, & Transmission of Knowledge
+* Linguistic Style: Bosco hardened by Cortani consonants. Buscan / Holtfenns as neighbour-words they give others.
+* Mythology & History: Offshoot of Heartlands Cortani. Charge is why the hall hid.
+* Education: Not locked.
+8. Leisure, Art, & Material Culture
+* Artistic Mediums: Timber halls inside stands.
+* Recreation & Sports: Horse remains parent-stock memory. Not locked as lists.
+* Stimulants & Cuisine: Not locked.
+9. Economic & Subsistence Foundation
+* Mode of Production: Herds on the fields between groves. Timber-clusters as seats. Sea west, river east.
+* Attitude Toward Wealth: The stand is the treasury you cannot drive off.
 
 --------------------------------------------------
 NOTES

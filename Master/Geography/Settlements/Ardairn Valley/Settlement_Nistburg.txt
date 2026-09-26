@@ -1,0 +1,37 @@
+# Nistburg
+
+Type
+Town
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Kohlholt. South base of Lūtaberg, nestled into the stone.
+
+Overview
+Nest-keep in the charcoal wood. Lūtaberg (321 m) stands over the canopy behind it. Nistau runs out of the stone and 8 miles south-east to join Holtbeck; Holtbeck is the water that reaches the Värdå. Sūdholt sits 1.5 miles south at the keep’s foot-road.
+
+Control
+Castle-house under the Ardairn Zonarch. Wood-right and game-right in Kohlholt. Not Waidwald’s hunt-lord. Not Laedburg’s pit-money.
+
+Population
+Working figure: 600–900 in keep and yard.
+Sūdholt is the agri/wood village, not this count.
+
+Economy
+Timber, charcoal, game. A little stone. Not a smelter.
+
+Defences / Access
+Keep in the rock. The hill watches the holt.
+Access: vale-track down to Sūdholt; Holtbeck toward the Värdå; wood-roads through Kohlholt (path-miles 70–90, north bank).
+
+Linked Features
+- Kohlholt
+- Lūtaberg — 321 m. Peers over the trees
+- Nistau — from the castle, 8 miles SE to Holtbeck
+- Holtbeck — joined by Nistau; this is the stream that enters the Värdå
+- Sūdholt — 1.5 miles south. Settlement_Sudholt.txt
+- Värdå — north bank
+
+Notes
+Names locked. Nest, not a white keep.
