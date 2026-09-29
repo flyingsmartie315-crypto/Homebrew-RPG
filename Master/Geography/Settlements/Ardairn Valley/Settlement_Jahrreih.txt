@@ -1,0 +1,34 @@
+# Jahrreih
+
+Type
+Village
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: West Hamarholt. 11 miles west of Giassrad. Road climbs a hilly incline.
+
+Overview
+Charcoal village. The road in is the tell: rows of identical planted trees, each block last year’s harvest, the next block the year before that. Coppice as a clock. Hamlets around the village burn what the rows grow. Giassrad’s furnaces eat this road.
+
+Control
+Bound to Giassrad.
+
+Population
+Working figure: 280–360 in the village. Hamlets extra and unfiled.
+
+Economy
+Charcoal first. Timber only as the rows allow. Not ore. That is Krummnagel’s.
+
+Defences / Access
+Modest keep. The incline is the approach.
+Road 11 miles east, downhill toward Giassrad and the Herrenau race.
+
+Linked Features
+- Giassrad — Settlement_Giassrad.txt
+- Hamarholt
+- Krummnagel — visible if the weather is clean; not this village’s rock
+
+Notes
+Locked: Jahrreih — year-rows.
+The hamlets are the year-blocks’ people. Do not file each strip.

@@ -30,19 +30,23 @@ Total: 49,626 square miles.
 - Isernhorns: 6,603 (includes Arnmont 550 and Dalhamar foothills 2,315; Sætann Wall is drowned teeth, not extra land)
 - Little Massif (placeholder name): 1,996
 - Rivenstrand Walls (Westmark reach): 10,362
-- Temperate / boreal woodland: 4,119
+- Temperate / boreal woodland: 4,888
   Stands: 204 + 205 + 124 + 146 + 173 + 88 + 245 + 703 + 192 + 1,362 + 494
 - Laed-Crags: 190
 - Heckengau: 467
 - Sanftgau: 496
-- Open productive floor (remainder): 25,393
+- Mundau Hills: 219
+- Vestfeld: 710
+- Vardfeld: 315
+- Markholt: 311
+- Open productive floor (remainder): 23,069
 
 --------------------------------------------------
 NOTABLE FEATURES
 --------------------------------------------------
 
 Westmark floor
-Open productive country. Fields, stock, roads, iron-pits inland of the strand. 25,393 square miles. The work of the peninsula.
+Open productive country. Fields, stock, roads, iron-pits inland of the strand. 23,069 square miles. The work of the peninsula.
 Temperature: 3 | Rainfall: 3 | Human Density: 3–4 | Flora: 3 | Fauna: 2 | Topography: 2 | Hydrology: 3
 
 Värdå
@@ -51,6 +55,7 @@ Mouth two miles across. Osricford north, Vardgaard south. Barge only at the mout
 Miles from the sea are Värdå path-miles (meander length), not a straight shot from the coast.
 From the sea, notable joins in Westmark:
 - 15 mi: Herrenau — formed from two head-streams. This file names Keldau (NE head): 16 miles SE through Daelsteig to the merge. Second head unnamed. Villa-country below the merge. Town at the Värdå join: Herrenbruck.
+- ~31 mi: River Tjarn — south bank. Outflow of Littmere through Sanftgau. Opposite Kornberg, two miles upstream.
 - +79 mi (99 from sea): the Sund
 - +19 mi (118): River Íså
 - +57 mi (175): the Glasau (Brocken Peak / Svarthorn)
@@ -122,6 +127,44 @@ Dalhamar foothills
 Steep wooded valleys between rocky crags. Scattered hamlets, hunting lodges, mining.
 Not Heckengau. Not Waidwald. Not the ice-head. Inside the 6,603.
 
+Daelsteig
+Largest vale of the Isernhorns. 175 square miles below Stígarborg. Arnmont west, Dalhamar east.
+Keldau runs 16 miles SE to the Herrenau merge. Laufirn and the Flōdweg sit at the head.
+
+Mundau Hills
+219 square miles. Base of Daelsteig, east of Osricford, directly outside the city.
+Contains Herrenbruck and its satellites Hofstatt and Pomeranzenholt.
+Open productive apron, not the 175-mile vale under the dam.
+Locked name: Mundau Hills — mouth-water / Mundau Hills of the Herrenau apron.
+
+Hamarholt
+477 square miles. Temperate to boreal. Crag-wood (*hamaraz + holt). Not the Dalhamar foothills themselves.
+Old core: 158. West addition: 319.
+Core hugs the base of the Dalhamar foothills. From Mundau Hills north-east across the Keldau. South-east of Daelsteig Valley.
+West addition sits west of that core, over the source of the Herrenau.
+Borders of the addition:
+- 5 miles against the old Hamarholt core (east of the new zone)
+- 27 miles north and north-west with the Dalhamar foothills
+- 11 miles south with Heckengau
+Locked.
+
+Vestfeld
+710 square miles. Flat to gentle hills. Sparse flora on the Western Strand; thickens about 5 miles inland.
+Northern tip meets Vardgaard’s walls. Southern end is Kappstrand.
+Lower half, east, meets Waidwald.
+Coastal exposure. First Isern settlements sat here. Sparser than the inner bank.
+Contains Kappstrand (small town) and Hügelweid.
+Locked.
+
+Vardfeld
+315 square miles. Sheltered from the coast by undulating ground. More flora. Cultivated.
+Waidwald to the south. Sanftgau to the east.
+North across the Värdå: Mundau Hills. North-east across the Värdå: Heckengau.
+Contains Vardgaard proper, Holtward, and Mühlstatt.
+Locked.
+
+
+
 
 
 No live fire. Glacial melt off this mass is a Värdå diet, not a plume.
@@ -143,7 +186,7 @@ Temperature: 2 | Rainfall: 4 | Human Density: 0–1 | Flora: 1 | Fauna: 2 | Topo
 Westmark woodland
 Eleven stands. Temperate to boreal. Canopy density 3–5. Worked woods: timber for the yards, charcoal, swine, village-edge.
 Not Kannavald. These stands have roads and axes in them.
-Mileages: 204, 205, 124, 146, 173, 88, 245, 703, 192, 1,362, 494 (Waidwald), 183 (Kohlholt). Remaining stands unnamed.
+Mileages: 204, 205, 124, 146, 173, 88, 245, 703, 192, 1,362, 494 (Waidwald), 183 (Kohlholt), 477 (Hamarholt), 292 (Jagdsūd). Remaining stands unnamed.
 Waidwald: 494 square miles. See notable feature.
 Biome: Forest
 Temperature: 2–3 | Rainfall: 3–4 | Human Density: 3 | Flora: 4 | Fauna: 3 | Topography: 2 | Hydrology: 3
@@ -152,14 +195,36 @@ Kohlholt
 183 square miles. North bank of the Värdå, path-miles 70 to 90.
 The twenty-mile gap between Heckengau and the start of Sanftgau’s opposite reach.
 Managed woodland: hilly, lumber, charcoal, game. Not Waidwald (that is Vardgaard’s hunt-reserve). Not Kannavald.
-Working name: Kohlholt.
+Locked wood-name: Kohlholt.
+Centre: Lūtaberg, 321 m, peers over the canopy.
+South base: Nistburg, nestled in the stone. Settlement_Nistburg.txt.
+Nistau leaves the castle 8 miles south-east and joins Holtbeck. Holtbeck is the water that enters the Värdå.
+Village 1.5 miles south of the castle: Sūdholt. Settlement_Sudholt.txt.
 Biome: Forest
 Temperature: 2–3 | Rainfall: 3 | Human Density: 2 | Flora: 4 | Fauna: 3 | Topography: 3 | Hydrology: 3
 
 Sanftgau
 496 square miles. South bank of the Värdå from 90 path-miles above Osricford to 155 (a 65-mile reach).
 Cultivated gentle hills, pasture, river-bank woodland. Not Heckengau (that sits north, between Herrenau and Värdå).
-Working name: Sanftgau — the gentle gau. Laedburg sits on the inner lip at path-mile 98.
+Working name: Sanftgau — the gentle gau. Laedburg sits on the inner lip at path-mile 98. Sundbruck is the far-east corner, west of the Sund mouth.
+
+Jagdsūd
+292 square miles. Hilly woodland reserve. South of Sanftgau.
+Locked. South-hunt. Not Waidwald. Not Kohlholt. Not Hamarholt.
+
+Markholt
+311 square miles. Locked.
+Waidwald’s eastern neighbour — 18-mile shared border.
+Jagdsūd’s neighbour on the south, south-west, and west — 29-mile shared border.
+Also 3.5 miles of Sanftgau’s southern rim.
+Lake at centre: Littmere / Littnau, 8 sq mi. Dual name, same water.
+Kannavald inflows: Grenbek (west), Trébek (east). Off the treeline, across the border, into the mere.
+West bank of the mere: Lārifenn, 4 sq mi swamp.
+East bank of the outflow: Tjarnborg. Settlement_Tjarnborg.txt.
+Outflow: River Tjarn. Runs north 14 miles between Jagdsūd and Waidwald, then into Sanftgau.
+Then 28 path-miles meandering north through Sanftgau into the Värdå, two miles upstream of Kornberg, south bank (Kornberg is north). Join at about Värdå path-mile 31.
+
+
 Temperature: 3 | Rainfall: 3 | Human Density: 3 | Flora: 3 | Fauna: 2 | Topography: 2 | Hydrology: 3
 
 Heckengau
@@ -225,6 +290,15 @@ LINKED SETTLEMENTS
 - Holtward — Settlement_Holtward.txt
 - Hügelweid — Settlement_Huegelweid.txt
 - Kappstrand — Settlement_Kappstrand.txt
+- Laedburg — Settlement_Laedburg.txt
+- Sundbruck — Settlement_Sundbruck.txt
+- Sċīrward Castle — Settlement_Scirward_Castle.txt
+- Unterfeld — Settlement_Unterfeld.txt
+- Rosshof — Settlement_Rosshof.txt
+- Kesselgrube — Settlement_Kesselgrube.txt
+- Vitriolstatt — Settlement_Vitriolstatt.txt
+- Stallreihe — Settlement_Stallreihe.txt
+- Stígarborg — Settlement_Stigarborg.txt
 
 --------------------------------------------------
 LESSER / SCATTERED / SEASONAL

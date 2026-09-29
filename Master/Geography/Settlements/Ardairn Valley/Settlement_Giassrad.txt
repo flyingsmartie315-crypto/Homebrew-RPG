@@ -1,0 +1,40 @@
+# Giassrad
+
+Type
+Town
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: West Hamarholt, at the base of Krummnagel. 4 miles north along the Herrenau from the Heckengau / Hamarholt border.
+
+Overview
+Foundry-town under an ugly peak. Krummnagel rises out of the Dalhamar foothills like a crooked toenail. Ore comes off that stone. Charcoal comes from Hamarholt hamlets.
+The name is the work: Giassrad — pour and wheel (*giutan + *rad. Worn mouth Giassrad). Water-wheels drive the blast on a manufactured steep race of the fast Herrenau. Foundries sit the length of that incline. The river was cut to serve the fire.
+
+Control
+Town-keep under the Ardairn Zonarch. Not Herrenbruck’s satellite. Not Nistburg’s charcoal-keep. Ore and burn.
+
+Population
+Working figure: 1,600–2,100.
+
+Economy
+Foothill ore. Woodland charcoal. Sends both down the Herrenau road toward Herrenbruck and the Värdå.
+
+Defences / Access
+From Herrenbruck: the Herrenau road already detailed (Wagenbruck / north-bank up-water).
+Then 11 miles through the top of Heckengau along the south bank of the Herrenau origin, to the Heckengau–Hamarholt border.
+Then 4 miles following the Herrenau north to this town.
+Keep at the crooked foot. Hamlets in the wood are not this file.
+
+Linked Features
+- Hamarholt — west addition, over the Herrenau source
+- Krummnagel — ugly peak of the Dalhamar foothills. Working name
+- Dalhamar foothills
+- Heckengau — 11-mile south-bank approach
+- Herrenau
+- Herrenbruck — Settlement_Herrenbruck.txt
+
+Notes
+Town locked: Giassrad. Peak locked: Krummnagel.
+Woodland hamlets that sell charcoal are unfiled.
