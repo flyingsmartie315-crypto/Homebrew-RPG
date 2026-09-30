@@ -93,7 +93,12 @@ Master/
 │   ├── Armour_Rules.txt
 │   ├── Armour.txt
 │   ├── Weaponry.txt
-│   └── Shield_Rules.txt
+│   ├── Shield_Rules.txt
+│   ├── Core_Talents_Failings_Afflictions.txt
+│   ├── Pathogens_Poisons_Curses.txt
+│   ├── Core_Fatigue.txt
+│   ├── Core_Terrain.txt
+│   └── Hazards.txt
 ├── Economy/
 │   ├── Economy_Rules.txt
 │   ├── Economy_Primary_Goods.txt
@@ -248,6 +253,32 @@ Weaponry.txt
 Shield_Rules.txt
   Held, not slotted. Defensive(x), free Parry including shot,
   overflow through the shield AC onto the wearer.
+
+Core_Talents_Failings_Afflictions.txt
+  Framework only. Talent helps, Failing hurts,
+  Affliction is disease or a lasting wound.
+  No catalogue in that file. Entries live on
+  the Entity sheet.
+
+Pathogens_Poisons_Curses.txt
+  Agents: pathogen, poison, venom, curse.
+  Four blocks: Origin, Transmission,
+  Symptoms, Recovery. Hidden Toughness
+  to contract. Live copy is an Affliction.
+
+Core_Fatigue.txt
+  Track, sleep, short rest, work hours.
+  −10 per point to every Characteristic.
+
+Core_Terrain.txt
+  Geography 0–5 axes → Ground Band
+  (Easy to Extreme) for Fatigue and
+  Combat difficult ground.
+
+Hazards.txt
+  Suffocation. Fall: kit is 0 AC,
+  NAC only, Safe Drop and hanging
+  ledge. Fire not written.
 
 --------------------------------------------------
 ECONOMY

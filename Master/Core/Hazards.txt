@@ -1,0 +1,256 @@
+# Hazards.txt
+# Virath — environmental and situational threats that are
+# not a weapon and not an Agent.
+# Status: DRAFT for Core.
+# Companion files:
+#   Core_Fatigue.txt                    the track this feeds
+#   Core_Combat.txt                     Round = 10 seconds,
+#                                       Helpless
+#   Core_Injury.txt                     Finishing Blow, Body
+#   Core_Characteristics_Skills.txt     current Toughness
+#   Pathogens_Poisons_Curses.txt        disease that steals air
+#   Core_Terrain.txt                    place, not this clock
+
+PURPOSE
+A Hazard tests the body on a clock. Suffocation is
+the first. Later entries (fall, fire, exposure) use
+the same file, not a third track.
+
+Fatigue is still Core_Fatigue.txt. This file only
+says when the Hazard adds a point, and when the
+air running out is a Finishing Blow.
+
+--------------------------------------------------
+1. SUFFOCATION AND ASPHYXIATION
+--------------------------------------------------
+
+Airway gone — drowned, choke-damp, a hand on
+the throat, a crush row that closed it, or a
+named Agent that collapsed the lung.
+
+This is a Toughness clock. Failures write
+Fatigue. Fatigue drops every Characteristic,
+including the Toughness used on the next test.
+
+--------------------------------------------------
+1a. BREATH WINDOW
+--------------------------------------------------
+
+An average human holds 30 to 90 seconds.
+Base window is 30 seconds, plus 1 second per
+point of current Toughness (after Fatigue
+already on the sheet).
+
+  Breath Window Seconds = 30 + Toughness
+
+Structured Time: one Round is about 10 seconds.
+
+  Safe Breath Rounds = floor((30 + Toughness) ÷ 10)
+
+Remainder discarded.
+
+  T 15    45 s    4 Rounds
+  T 30    60 s    6 Rounds
+  T 38    68 s    6 Rounds
+  T 50    80 s    8 Rounds
+  T 105  135 s   13 Rounds
+
+If they are pulled into air and put under
+again before a Short Rest, use current
+Toughness. Fatigue already taken has
+already shrunk the window.
+
+--------------------------------------------------
+1b. ASPHYXIATION CLOCK
+--------------------------------------------------
+
+Safe Rounds spent. Each Round without air:
+Toughness test, or collapse.
+
+  1st   −10     Challenging
+  2nd   −20     Difficult
+  3rd   −30     Very Hard
+  4th   −40     Extreme
+  5th+  −50, −60, …   Extreme, still climbing
+
+Fail: +1 Fatigue immediately.
+Win: ten more seconds. Test again next Round.
+
+The next test uses Toughness after that
+Fatigue (−10 to the Characteristic, so the
+TN falls). That is the cascade.
+
+Do not also run a Tired Hour test for the
+same Round. This clock is the hour.
+
+--------------------------------------------------
+1c. COLLAPSE AND THE FINISHING BLOW
+--------------------------------------------------
+
+Fatigue = sheet TB, or any Characteristic
+at 0 or below: Unconscious and Helpless
+(Combat §5, Injury Helpless).
+
+If air is not restored at once:
+
+  The next Round ends.
+  The environment deals a Finishing Blow
+  to Body (Injury). No extra location roll
+  unless the fiction names the throat.
+  An ally may spend a Full Action before
+  that Round ends to pull them into air
+  or clear the airway.
+  No Full Action: they are Dead.
+
+Restored air: they are still Unconscious
+and Helpless until they can be roused
+(Heal, or the GM’s call after air and
+time). Fatigue stays until rest.
+
+--------------------------------------------------
+1d. NARRATIVE TIME
+--------------------------------------------------
+
+No Rounds. Use Breath Window Seconds.
+When that count crosses zero, run the
+same ladder every 10 seconds until they
+are dug out, reach air, or die as 1c.
+
+--------------------------------------------------
+2. FALL AND IMPACT
+--------------------------------------------------
+
+Worn kit does not soak a landing. Plate,
+maille, and quilt are 0 AC against a fall.
+NAC still applies. NAC = sheet TB
+(Characteristics). Fatigue does not shrink
+that NAC for this formula.
+
+Damage type is Blunt unless the surface is
+a Man-Made Hazard (spikes, glass, punji):
+then Pierce.
+
+Wounds lost
+  (Base Damage × Surface Mult) − NAC
+  Floor at 0. One point over NAC is one
+  Wound. No layer soak. No coverage roll.
+
+If the result is 0 they are winded. They
+are not Prone unless the GM names a slip.
+
+Landing Slot: Feet and Legs if they meant
+to land. Uncontrolled or a shove: roll
+Wallace as Combat. Spikes use that Slot.
+
+--------------------------------------------------
+2a. BASE DAMAGE (YARDS)
+--------------------------------------------------
+
+Look up height fallen. Between two listed
+rows, use the higher.
+
+  Yards    Base
+     3       3
+     6       5
+     9       7
+    12       9
+    15      11
+    18      13
+    21      15
+    24      17
+    27      20
+    30      24
+    35      29
+    40      34
+    45      39
+    50+     45    Terminal. Cap.
+
+Under 3 yards and not a Safe Drop: Base 0
+unless the GM names a nasty lip.
+
+--------------------------------------------------
+2b. SURFACE
+--------------------------------------------------
+
+Multiply Base, then subtract NAC.
+
+  Man-Made Hazard    ×2.0   spikes, glass,
+                            punji
+  Hard Rugged        ×1.5   rubble, roots,
+                            broken stone
+  Hard Flat          ×1.2   cobble, brick,
+                            keep floor
+  Natural Ground     ×1.0   turf, packed
+                            earth
+  Soft               ×0.5   hay, grain,
+                            tilled loam
+  Water              see 2c
+
+--------------------------------------------------
+2c. WATER
+--------------------------------------------------
+
+Not a multiplier at every height.
+
+  Under 12 yards
+    Base becomes 0. Dodge or Athletics:
+    win — clean entry, 0 Wounds.
+    Fail — 2 Damage, then − NAC as usual.
+  12–24 yards     Soft (×0.5)
+  25–49 yards     Natural Ground (×1.0)
+  50+ yards       Hard Flat (×1.2)
+                  45 × 1.2 = 54 incoming
+                  before NAC.
+
+--------------------------------------------------
+2d. CONTROLLED DROP
+--------------------------------------------------
+
+Declared at the ledge, not after a shove.
+Half Action. Not Incapacitated, Stunned,
+or Bound. Hands and feet free.
+
+  Safe Drop Yards = floor((TB + AB) ÷ 2)
+
+Drop that far or less: 0 Damage. No
+surface. They stay on their feet.
+
+Farther: only the yards over the ceiling
+go to 2a.
+
+--------------------------------------------------
+2e. HANGING LEDGE
+--------------------------------------------------
+
+Lower, hang, let go. Full Action.
+Same condition as 2d.
+
+Subtract Size height, then Safe Drop.
+
+  Size 3          −1 yard
+  Size 4          −2 yards
+  Size 5–6        −3 yards
+  Size 7+         −4 yards
+
+  Adjusted = Height − Size yards
+             − Safe Drop Yards
+
+Adjusted ≤ 0: 0 Damage, on their feet.
+Adjusted > 0: fall from that many yards
+through 2a–2c.
+
+Example
+  Size 4, Safe Drop 3, window 6 yards
+  onto cobble.
+  Hang: 6 − 2 = 4.
+  Let go: 4 − 3 = 1 yard adjusted.
+  Under the 3-yard row. Base 0.
+
+--------------------------------------------------
+3. CATALOGUE
+--------------------------------------------------
+
+Suffocation and Fall are written.
+Fire and exposure wait here.
+Do not generate them to fill the file.
+}

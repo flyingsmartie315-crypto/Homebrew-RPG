@@ -94,9 +94,15 @@ Each hour after: −10, then −20, then −30,
 and so on, on that test.
 
 A Tired Hour that is also a work hour
-(section 4) uses one Toughness test at
-the worse modifier. Do not roll twice
-for the same hour.
+(section 4) uses one Toughness test.
+Add the Tired penalty and the work-hour
+modifier. Do not roll twice for the
+same hour.
+
+  2nd Tired Hour (−10) on a Light Active
+  march (+20) → Toughness +10.
+  4th Tired Hour (−30) on that same
+  march (+20) → Toughness −10.
 
 --------------------------------------------------
 3. SHORT REST

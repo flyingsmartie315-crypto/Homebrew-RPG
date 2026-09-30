@@ -81,8 +81,11 @@ Human Density (settlement)
      Congestion only inside the
      settlement itself (section 3).
      Not Hard ground.
-  Hourly strain: 1 → +1. 0 → +1 if there
-  is no path. 5 on the road → none.
+  Infrastructure (section 2):
+    Density 0–1    +1 Hourly Strain
+    Density 2–3     0
+    Density 4–5    −1 Hourly Strain
+                   (roads outside the pale)
 
 Flora (plant cover)
   Ideal  3–4  Moderate to abundant. Shade,
@@ -141,10 +144,16 @@ Sum Hourly Strain:
   Topography      Tscore
   Hydrology       |H − 3|
   Flora           +2 if 5, +1 if 4 and thick
-  Human Density   +1 if 0 or 1 and no path
+  Human Density   +1 if 0 or 1
+                   0 if 2 or 3
+                  −1 if 4 or 5
+                   (roads and highways
+                   outside the gates)
+  Floor the sum at 0.
 
   Band            Sum     Fatigue hour     Combat
-  Easy            0–2     Light / Active   normal yards
+  Easy            0–2     Light Active     normal yards
+                          or Active,
                           by Enc only
   Fair            3–4     Active           normal
   Hard            5–6     Strenuous        Difficult
@@ -163,12 +172,19 @@ Sum Hourly Strain:
 
 Worked check
   Mild vale: T3 R3 Dens3 Fl3 Fa3 Top1 Hyd3
-  Strain = 0+0+1+0 = 1  Easy
+  Strain = 0+0+1+0+0+0 = 1  Easy
+
+  Same vale on town roads, Dens 4:
+  Strain = 1 − 1 = 0  Easy
 
   Kannavald-type wooded highland, wet:
   T2 R4 Dens1 Fl4 Fa3 Top3 Hyd3
-  Strain = 1+1+3+0 +1 thicket +1 no path = 7
+  Strain = 1+1+3+0 +1 thicket +1 isolated = 7
   Severe
+
+  Same highland on a made road, Dens 4:
+  Strain = 1+1+3+0 +1 thicket −1 = 5
+  Hard. The turnpike is the reward.
 
 Difficult ground (Combat) is Hard or worse.
 Easy and Fair do not halve yards.

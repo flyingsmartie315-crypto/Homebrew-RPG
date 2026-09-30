@@ -152,7 +152,8 @@ Disengage (Full)
   free hit does not spend their Attack Action later.
 
 Move (Half)
-  Move the Move/Disengage yards. Difficult ground halves
+  Move the Move/Disengage yards. Difficult ground
+  (Core_Terrain.txt: Hard or worse) halves
   (round up).
 
 Ready (Half)
@@ -240,6 +241,135 @@ Run (Full)
   Until the next Turn: ranged attacks against this
   Entity take −20 BS; melee attacks against it gain
   +20 WS.
+
+--------------------------------------------------
+4a. TALENT ACTIONS
+--------------------------------------------------
+
+Prerequisite is the matching Combat Manoeuvre
+Talent (Talents §8). Without it the Action is
+not on the list. No Unknown attempt.
+
+Specialist Weapon Group is Weaponry.txt.
+
+Quick Draw
+  Ready as a Free Action once per Round.
+  A second Ready that Round is still Half.
+
+Rapid Reload
+  Cut every missile Reload by one Half Action.
+  Full becomes Half. Half becomes Free.
+  A weapon that Reloads as Free may be used
+  with Swift Attack as if loaded between
+  strikes, within Attacks.
+
+Disarm (Full)
+  Opposed WS. Melee. Ready weapon in hand.
+  Win: the opponent’s ready weapon hits the
+  ground.
+  3+ DoS: you name where it lands (at their
+  feet, two yards behind, a square in reach).
+  Fail: they keep it.
+  Natural weapons cannot be Disarmed.
+  A shield may be named instead of a weapon.
+
+Strike to Stun (Full) — Attack Action
+  Opposed WS. One melee strike.
+  If the hit lands, damage is halved
+  (round down).
+  If the opposed WS is won: target tests
+  Toughness. Fail: Stunned for 1d10 minus
+  Textile Blunt AC on the Slot (Head unless
+  Called Shot named another), minimum
+  1 Round.
+  Mail and plate do not cut this clock.
+  Quilt does.
+
+Riposte
+  Trigger: you win a Parry this Round.
+  Immediate Free Standard Attack, melee,
+  against the Entity you Parried.
+  Opposed WS as a normal hit.
+  Does not spend your Attack Action.
+  Does not spend a second reaction.
+  The opponent may still spend a remaining
+  reaction against this blow.
+  One Riposte per won Parry.
+  A Riposte cannot trigger Riposte or Slip.
+
+Slip
+  As Riposte. Trigger is a won Dodge.
+
+Combat Grappling (Half)
+  Opposed Strength vs an Entity in melee.
+  Keep the DoS.
+  Win: you are Clinched (Dominant). They
+  are Clinched (Defensive).
+  3+ DoS: your Clinch Actions this Turn
+  are Free.
+  Fail: nothing. No clinch.
+  Weapons may stay in hand.
+  While Clinched, neither Dodges or Parries.
+
+Clinch Actions — Dominant
+  Disengage (Free)
+    End the clinch. Ordinary Disengage
+    cost is not paid.
+  Stall (Half)
+    The Defensive Entity may only spend
+    Actions to Escape or Reversal, at −10.
+  Disarm (Half)
+    Opposed Strength. Win: they drop one
+    held item you name. Fail: remain
+    Clinched.
+  Misericordia (Half)
+    Opposed WS, + the setup or Reversal
+    DoS as a bonus.
+    Win: Standard Attack, Called Shot to
+    a Slot you name. Weapon must be Small
+    or a Sword. Fail: remain Clinched.
+    If that weapon is not in hand, Ready
+    first. Other held items may be dropped
+    Free. They may not be sheathed as Free.
+  Throw (Half)
+    Opposed Strength, + setup or Reversal
+    DoS.
+    Win: they go Prone, up to SB/2 yards
+    away. Clinch ends.
+  Takedown (Half)
+    Opposed Strength, + setup or Reversal
+    DoS.
+    Win: they go Prone. You stay Dominant.
+    Their Escape and Reversal take −20.
+
+Clinch Actions — Defensive
+  Escape (Full)
+    Opposed Strength. Win: clinch ends.
+    No Talent required.
+  Reversal (Half)
+    Requires Combat Grappling.
+    Opposed Strength. Win: you become
+    Dominant. They become Defensive.
+    Keep this DoS for later Clinch Actions
+    this Turn.
+
+Conditions
+  Stunned
+    Only these Half Actions: Move,
+    Stand / Mount, Delay, Standard Attack
+    at −30.
+    No Full Actions. No Dodge. No Parry.
+    Clock starts at the end of the blow.
+  Clinched (Dominant) / Clinched (Defensive)
+    Neither Dodges or Parries.
+    Use Clinch Actions above while it lasts.
+  Prone
+    Lying on the ground. Stand is Half.
+    Drop Prone is Free unless Clinched.
+    Attackers: +10 WS, −10 BS unless
+    Point-Blank (section 11).
+    The Prone Entity: −10 WS, −20 Dodge
+    and Parry.
 
 --------------------------------------------------
 5. HITTING
@@ -424,7 +554,8 @@ Dodge
   Run               = M × 6
 
   Always floor the yards after the formula.
-  Difficult ground: halve those yards, then round up.
+  Difficult ground (Hard or worse, Core_Terrain.txt):
+  halve those yards, then round up.
 
 M = (Agility ÷ 10) + Size adjustment.
 Keep one decimal. Do not drop to Agility Bonus.
@@ -594,32 +725,164 @@ While grappled
   Either may let go as a Free Action.
 
 --------------------------------------------------
-11. COMBAT DIFFICULTY (EXAMPLES)
+11. COMBAT CIRCUMSTANCES
 --------------------------------------------------
 
-These sit on the Resolution ladder. They do not
-replace Size to-hit or darkness already paid.
+Sit on the Resolution ladder with Size.
+Do not pay the same fact twice (Fatigue
+already dropped the Characteristic; Night
+Vision already cancelled starlight).
+Where two sight penalties apply, use the
+worse. Do not add them.
 
-  +30   attacking someone unaware who can still act
-  +20   attacking a Stunned target; ranged at Helpless
-  auto   melee at Helpless (no WS test; see §5)
-  +10   attacking someone who is Down but not Helpless
-   0    a standard exchange
-  −10   shooting into melee (friend and foe mixed)
-  −20   shooting while engaged in melee; Dodge while down
-  −30   shot at extreme range; Parry against a thing
-        two or more Size steps larger
+Cover
+  No BS penalty just for “they are in cover.”
+  The firer names what they expose. Default
+  at a wall or palisade: head and arms out,
+  Body and Legs concealed.
+  If the hit Slot is concealed, Damage hits
+  the cover first. Cover has AP (one number).
+  Damage ≤ AP: stopped. That hit still
+  reduces the cover’s AP by 1 if any Damage
+  was dealt at all.
+  Damage > AP: remainder goes to the target
+  and soaks as Armour_Rules (layers, NAC).
+  Each hit that deals any Damage above AP
+  also reduces that cover’s AP by 1.
+  Examples (AP):
+    hedge, light wattle          2
+    timber cart, door, table     4
+    heavy timber, palisade       6
+    stone wall, battlement       8
+    earth bank, masonry          10
 
-Shooting into melee: −10 BS, and a miss may strike
-another Entity in the tangle (GM picks the nearest
-or rolls).
+Darkness
+  WS −20. BS −30.
+  Concealment +20 while hidden by it.
+  Night Vision (Talents): no darkness
+  penalty under stars or moon. A sealed
+  hold is still dark.
 
-Extreme range: usually a waste. Called shots at
-that distance also take the −30.
+Difficult terrain
+  Ground Band Hard (Core_Terrain.txt):
+  WS, Dodge, and Parry −10.
+  Severe or Extreme (deep snow, ice,
+  waist-flood): those tests −30.
+  Yards already halved on Hard or worse.
+  That is movement. This is footing.
 
-Behind cover, fog, or a wall: −10 to −30 BS as the
-view dictates. If the attacker cannot see the target
-at all, there is no shot.
+Engaged in melee
+  Adjacent, in reach. Both are engaged.
+  Shooting into that melee: −10 BS.
+  A miss may strike another Entity in
+  the tangle (GM picks or rolls).
+  If anyone in the melee is Stunned,
+  Helpless, or Unaware, drop the −10.
+  Shooting while you are engaged: −20 BS.
+  Point-Blank does not apply to a target
+  you are engaged with.
+
+Range (missiles)
+  Weaponry lists Short / Long yards.
+    Point-Blank   2 yards or less
+                  +30 BS
+                  If the weapon’s Short
+                  is under 3 yards,
+                  Point-Blank is 1 yard
+                  less than Short.
+    Short         up to Short           +10 BS
+    Long          beyond Short, up to
+                  Long                  −10 BS
+    Extreme       beyond Long           −30 BS
+  Called Shot at Extreme still takes
+  the −30.
+
+Fatigue
+  Already −10 per point to every
+  Characteristic (Core_Fatigue.txt).
+  Do not add another −10 here.
+
+Fog, mist, shadow, smoke
+  BS −20.
+  Concealment +10 while hidden by it.
+  If Darkness also applies, use Darkness.
+
+Ganging up
+  Two-to-one in melee vs that foe: +10 WS
+  for each of the two.
+  Three-to-one or worse for the foe: +20 WS
+  for each of the three or more.
+
+Helpless
+  Section 5. Melee auto-hits. Damage is
+  SB + weapon. Do not roll damage twice.
+  Ranged still rolls BS.
+
+Higher ground
+  Table, hill, a body underfoot: +10 WS.
+
+Scatter
+  Failed BS on a thrown weapon, or any
+  Blast that missed. 1d360 for direction
+  on a circle over the target. 1d5 yards
+  along that line. The Blast, if any,
+  detonates there.
+
+Pinning
+  When the fiction or a weapon quality
+  calls for it: Willpower test at +0.
+  Fail: Pinned.
+  Pinned: Half Actions only. −20 BS.
+  If in cover vs the firer who Pinned
+  them, they may not leave it except
+  to fall back still in cover.
+  If not in cover, their next Turn must
+  spend to reach cover, or to move away
+  from that firer if none is near.
+  End of their Turn: Willpower +0 to
+  break Pinning. +30 if they were not
+  shot at since their last Turn, or
+  they are in cover.
+  Engaged in melee: Pinning ends at once.
+  Success on the first test: act normally.
+
+Prone
+  See Conditions, section 4a.
+
+Stunned
+  Attackers +20 WS and +20 BS.
+  The Stunned Entity’s own limits are
+  section 4a.
+
+Unaware
+  They do not know the blow is coming
+  (Surprise, or a strike they cannot
+  mark). +30 WS or +30 BS.
+  Surprise still steals the first Turn
+  (section 1). This bonus is the opening.
+
+Weather and unnatural air
+  Heavy rain, ash-storm, knee-snow:
+  WS and BS −20 unless a more specific
+  Ground Band already made those tests
+  −30. Use the worse. Do not add.
+
+Quick ladder (after Size)
+  +30   Unaware; Point-Blank
+  +20   Stunned; ganging 3:1; ranged
+        at Helpless
+  +10   higher ground; Short Range;
+        ganging 2:1; melee at Prone
+  auto  melee at Helpless
+   0    the ordinary exchange
+  −10   Long Range; Hard ground footing;
+        shooting into melee; BS at Prone
+  −20   darkness WS; fog BS; shooting
+        while engaged; weather; Pinned BS;
+        Dodge/Parry while Prone
+  −30   darkness BS; Extreme Range;
+        Severe/Extreme footing;
+        Parry vs two+ Size steps larger
 
 --------------------------------------------------
 12. NARRATIVE MOVEMENT
@@ -665,7 +928,7 @@ Standard: road or open country.
 The GM may cut the day’s miles further for rain,
 hunger, or a press of refugees. Eight hours is a
 working travel day. Pushing longer is Fatigue
-(Characteristics §3a).
+(Core_Fatigue.txt).
 
 Update Campaign_Log Current Time and Location when
 the grain of the journey changes.
