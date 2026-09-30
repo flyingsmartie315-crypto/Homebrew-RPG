@@ -1,0 +1,35 @@
+# Rissmarkt
+
+Type
+Town
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: South border of Rissfeld. Crossroads where Rissfeld meets Heckengau and Kohlholt.
+12 miles north-east of Kuhbruck.
+
+Overview
+Walled market town. The door between hedge, charcoal-wood, and rift-country. Quarry-stone from Rissfeld’s north cliffs comes through here. Grain from Heckengau. Burn from Kohlholt. Not Kuhbruck’s cow-bridge. Not Nistburg’s nest.
+
+Control
+Walled town under the Ardairn Zonarch. Rissfeld’s south market.
+
+Population
+Working figure: 1,800–2,400.
+
+Economy
+Market. Stone, grain, charcoal. Road-toll on the three-way fork.
+
+Defences / Access
+Town wall. Keep inside.
+Road 12 miles south-west to Kuhbruck. Heckengau lanes. Kohlholt wood-road. Rissfeld climb north toward the ravines.
+
+Linked Features
+- Rissfeld
+- Heckengau
+- Kohlholt
+- Kuhbruck — Settlement_Kuhbruck.txt
+
+Notes
+Working name: Rissmarkt. Kill it if the wall should own the word (Rissburg) or the fork (Risskreuz).

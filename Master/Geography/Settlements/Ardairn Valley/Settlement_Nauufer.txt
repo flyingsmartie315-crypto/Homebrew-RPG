@@ -1,0 +1,35 @@
+# Nauufer
+
+Type
+Village
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: West bank of the River Tjarn. 15 miles south-west of Aumarkt by road.
+10 miles down the Tjarn to the Värdå join.
+
+Overview
+Aumarkt’s river-village. West bank. Fields and a modest keep. The market-town is the mill-and-castle; this is the water-lane that feeds it.
+
+Control
+Bound to Aumarkt.
+
+Population
+Working figure: 250–330.
+
+Economy
+Agri. A little river-carry up to Aumarkt’s market.
+
+Defences / Access
+Road 15 miles north-east to Aumarkt.
+Tjarn 10 miles down to the Värdå.
+
+Linked Features
+- Aumarkt — Settlement_Aumarkt.txt
+- River Tjarn
+- Värdå — join 10 miles down
+
+Notes
+Working name: Nauufer.
+On the Tjarn, not Littnau. Littnau remains the lake’s byname only.

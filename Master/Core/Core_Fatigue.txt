@@ -1,0 +1,189 @@
+# Core_Fatigue.txt
+# Virath — Fatigue track, sleep, rests, work hours.
+# Status: DRAFT for Core.
+# Companion files:
+#   Core_Characteristics_Skills.txt     TB, Enc bands, derived stats
+#   Core_Combat.txt                     travel day, Intense hours
+#   Core_Resolution.txt                 Toughness tests
+#   Pathogens_Poisons_Curses.txt        Agents that add Fatigue
+#   Economy_Labour.txt                  COMMON LABOUR as a band
+
+PURPOSE
+Fatigue is how long a body can stay up and working.
+It is not a Wound. It hits Characteristics. Everything
+derived from a Characteristic follows.
+
+Human sleep and rest clocks are written here.
+Animals and other kinds are a GM call.
+
+--------------------------------------------------
+0. KEYWORDS
+--------------------------------------------------
+
+Fatigue
+  A counted condition on the Entity.
+
+Sheet TB
+  Toughness Bonus from the Characteristic
+  before Fatigue is applied. The collapse
+  line.
+
+Rested Hours
+  Hours after sleep the Entity may act
+  without a Tired test.
+
+Tired Hours
+  Hours after Rested Hours run out.
+
+Short Rest / Sheltered Short Rest
+  One hour of inactivity. See section 3.
+
+Half Enc
+  Strength × 5 points. Half the combat-load
+  cap (Strength × 10). Characteristics §3d.
+
+--------------------------------------------------
+1. THE TRACK
+--------------------------------------------------
+
+Count Fatigue on the Entity. Start at 0
+after a full recovery.
+
+Cap = sheet TB.
+At Fatigue equal to sheet TB the Entity is
+incapacitated and must rest.
+
+Each Fatigue: −10 to every Characteristic.
+Strength 41 with 2 Fatigue is 21.
+SB, M, Skill Base, Enc bands, NAC follow
+the new number. Do not also penalise Skills.
+
+If any Characteristic is 0 or below after
+the shift, the Entity is incapacitated
+even if Fatigue is still under TB.
+Fellowship 25 and 3 Fatigue is Fel −5.
+
+Incapacitated: cannot act. Forced to rest.
+
+Do not halve Movement as a separate rule.
+Agility already fell. M follows Agility.
+
+--------------------------------------------------
+2. SLEEP
+--------------------------------------------------
+
+Human basis. Hours slept, Fatigue removed:
+
+  8 hours     4
+  6 hours     3
+  4 hours     2
+  2 hours     1
+  under 2     none
+  over 8      still 4. No fifth point.
+
+Rested Hours = 24 − hours slept.
+No sleep: Rested Hours = 0. Tired starts
+with the next hour.
+8 hours sleep: 16 Rested Hours.
+
+After Rested Hours, Tired Hours begin.
+Each Tired Hour: Toughness test. Fail: +1
+Fatigue.
+First Tired Hour: no extra difficulty.
+Each hour after: −10, then −20, then −30,
+and so on, on that test.
+
+A Tired Hour that is also a work hour
+(section 4) uses one Toughness test at
+the worse modifier. Do not roll twice
+for the same hour.
+
+--------------------------------------------------
+3. SHORT REST
+--------------------------------------------------
+
+Taken in the wake window between sleeps.
+Inactivity. Not a march, not a watch that
+is work, not a fight.
+
+Short Rest
+  One hour. Relative shelter, warm and dry
+  (a hedge-lee, a barn corner, a cloak in
+  a dry ditch).
+  Once per wake window.
+  Removes 1 Fatigue.
+
+Sheltered Short Rest
+  One hour. Established, provisioned
+  shelter — a made camp, a tavern, a hold.
+  Warm and dry.
+  Once per wake window.
+  Removes 2 Fatigue.
+
+Both may be taken in the same wake window,
+not the same hour.
+They do not replace sleep. They do not
+reset Rested Hours.
+
+--------------------------------------------------
+4. WORK HOURS
+--------------------------------------------------
+
+A prolonged hour of the listed kind.
+Foot travel, labour, or fighting. One
+Toughness test per such hour. Fail: +1
+Fatigue.
+
+Light Active
+  Foot travel / march at Enc less than
+  Half Enc.
+  COMMON LABOUR (Economy_Labour).
+  Test at +20 Toughness.
+
+Active
+  Foot travel / march at Enc Half Enc
+  or more.
+  Heavier COMMON LABOUR.
+  Test at +10 Toughness.
+
+Strenuous
+  Foot travel / march at Enc Half Enc
+  or more, on Hard or worse ground
+  (Core_Terrain.txt Ground Band).
+  Hard manual labour.
+  Test at +0 Toughness.
+
+Intense
+  Active fighting, a prolonged battle,
+  running skirmish, or hard labour under
+  battlefield conditions.
+  Test at −10 Toughness.
+  A fight that spans less than an hour
+  is still one Intense hour if they
+  fought.
+
+Sitting a wagon, standing a quiet watch,
+or talking in a hall is not a work hour
+unless the GM names it labour.
+
+--------------------------------------------------
+5. OTHER SOURCES
+--------------------------------------------------
+
+A named Agent may add Fatigue. That is
+Pathogens_Poisons_Curses.txt. Same track.
+
+Combat travel: eight hours is a working
+day (Combat). Hours past that are Tired
+or work hours as above, not a third clock.
+
+--------------------------------------------------
+6. WHAT THIS FILE DOES NOT DO
+--------------------------------------------------
+
+It does not treat animals.
+Difficult ground is Core_Terrain.txt.
+It does not restore Wounds. Sleep that
+clears Fatigue is not Wound recovery
+(Characteristics / Injury).
+}

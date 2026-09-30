@@ -1,0 +1,38 @@
+# Aumarkt
+
+Type
+Town
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Sanftgau, west end as now written. South bank of the Värdå.
+13 miles west of Sċīrward Castle.
+15 miles upstream from Kornberg (Kornberg is the opposite, north bank).
+
+Overview
+Market town with a castle. Mills on the Värdå. Grain and stock of the west gau become freight here before the river is Laedburg’s problem. Not Kornberg’s north-bank warehouses. Not Sċīrward’s hill-view.
+
+Control
+Castle-house under the Ardairn Zonarch. Sanftgau west-market. Sċīrward is the lookout, not this quay.
+
+Population
+Working figure: 2,000–2,800.
+
+Economy
+Mills, market, river-freight. Sanftgau agri. Does not smelt.
+
+Defences / Access
+Castle on the south bank. Mills on the current.
+Road 13 miles east to Sċīrward. River 15 miles down to opposite Kornberg. South-bank road toward Sundbruck / Laedburg further east.
+
+Linked Features
+- Sanftgau
+- Värdå — south bank
+- Sċīrward Castle — Settlement_Scirward_Castle.txt
+- Kornberg — Settlement_Kornberg.txt (15 miles down, north bank)
+- Unterfeld / Rosshof — Sċīrward’s villages, not this town’s
+
+Notes
+Working name: Aumarkt. Kill it.
+Sheet-clash: Sanftgau was first locked as path-miles 90–155. Kornberg sits ~29; 15 miles upstream is ~44. Either Sanftgau’s west edge runs farther down-river than that first lock, or this town is on unnamed south-bank country west of the gau. User placed it in Sanftgau — filed that way.

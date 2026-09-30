@@ -1,0 +1,38 @@
+# Kuhbruck
+
+Type
+Village
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Eastern Heckengau. Two miles north of the Värdå. Crossroads against Kohlholt.
+From Kornberg: 35 miles north-east on the Värdå road, past Mühlreih.
+
+Overview
+Castle-village. Pasture and agri. The keep sits the fork where hedge-country meets charcoal-wood. Kohlholt begins here. Heckengau ends here.
+
+Control
+Castle-holder under the Ardairn Zonarch. Attached to Kornberg for market and levy unless a later lock splits the east gau.
+
+Population
+Working figure: 300–400 plus the keep.
+
+Economy
+Stock and field. Wood-edge trade with Kohlholt. Not Nistburg. Not Giassrad.
+
+Defences / Access
+Castle on the crossroads. Two miles of lane south to the Värdå road.
+35 miles down-river road to Kornberg, past Mühlreih. Wood-roads into Kohlholt.
+
+Linked Features
+- Heckengau
+- Kohlholt
+- Värdå — 2 miles south
+- Kornberg — Settlement_Kornberg.txt
+- Mühlreih — Settlement_Muehlreih.txt
+- Nistburg — further into Kohlholt. Settlement_Nistburg.txt
+
+Notes
+Locked: Kuhbruck. Kuo / kū + bruck. Cowbridge in the worn Isern mouth.
+Heckengau path-miles run to ~70. This seat is the east door.

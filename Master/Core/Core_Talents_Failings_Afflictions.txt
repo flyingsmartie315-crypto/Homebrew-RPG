@@ -6,16 +6,17 @@
 #   Core_Resolution.txt                 how modifiers hit the TN
 #   Core_Combat.txt                     reactions, conditions in a Round
 #   Core_Injury.txt / Injury_Tables_*   wounds that become Afflictions
+#   Pathogens_Poisons_Curses.txt        disease, venom, curse agents
 #   Entity sheet                        the live list
 
 PURPOSE
 An Entity is Characteristics, Skills, Size, kit — and then
 the things that change a test only in named situations.
 
-This file is the law for those things. It is not a list of
-them. Do not generate Talents, Failings, or Afflictions
-into this document. Named entries live on Entity sheets
-and, later, in a catalogue file written on purpose.
+This file is the law for those things. Worked forms
+and Combat Manoeuvre Talents written here are locked.
+Do not generate extra entries to fill space. Other
+named entries live on Entity sheets.
 
 --------------------------------------------------
 0. KEYWORDS
@@ -92,6 +93,21 @@ Pair
   or work. They do not both apply to the same
   test. The live state is one or the other, or
   neither.
+
+Category
+  Every Talent is one of:
+    Innate
+      Body or kind. Senses, Night Vision, Looks.
+    Background
+      Upbringing, culture, environment.
+      Outdoorsman, Alley Cat.
+    Combat Manoeuvre
+      An Action or modifier that does not
+      exist without this Talent.
+      Prerequisite: this file §8.
+      Mechanics: Core_Combat.txt §4a.
+
+  Write the Category on the sheet line.
 
 --------------------------------------------------
 1. WHERE THEY LIVE
@@ -194,6 +210,7 @@ Worked form — Night Vision
   sight is sharp.
 
 Worked form — Outdoorsman (Biome)
+  Category: Background.
   Talent. (10) fixed. The bracket is the
   biome, not a magnitude.
   Name on the sheet:
@@ -220,6 +237,27 @@ Worked form — Outdoorsman (Biome)
   Advanced. Other biomes stay closed.
   Indoor, dungeon, and ship-deck do not
   trigger.
+
+Worked form — Alley Cat
+  Category: Background.
+  Talent. (10) fixed. No bracket.
+  Name on the sheet: Alley Cat
+  At home on the streets.
+  Trigger: Concealment and Silent Move,
+  in an urban place — town, city, village
+  streets and alleys, a fort or camp that
+  has lanes. Not the tree line. Not open
+  field. Not a wild cave.
+  Rank on those tests:
+    Unknown — full Skill Base, not Base ÷ 2.
+    No +10 on top.
+    Known or better — Rank value, then +10.
+  Does not raise stored Rank.
+  Does not grant Disguise. A face in a
+  crowd is Looks or Disguise, not this.
+  Pairs with Outdoorsman: one is pale-side,
+  one is street. They do not fire on the
+  same test.
 
 Worked form — Looks (Talent)
   Names on the sheet, pick one:
@@ -298,7 +336,9 @@ Law
   Bleed still running) are logged here while
   they last. The table row is the source. This
   list is the standing reminder.
-  Disease and poison sit here, not under Failings.
+  Disease, poison, venom, and curse sit here
+  as Afflictions. How they arrive and run:
+  Pathogens_Poisons_Curses.txt.
   Bleed tiers already named in Injury stay those
   words: Minor Bleed, Major Bleed, Catastrophic
   Bleed. Do not rename them as Talents.
@@ -391,11 +431,9 @@ They stay in Resolution and Characteristics.
 6. COMBAT
 --------------------------------------------------
 
-A Talent that adds a reaction, extra Attack, or
-a stance change must say so in its Effect line
-and must not break Combat §6 (one reaction per
-incoming blow). Until such entries exist, do
-not imply them.
+Combat Manoeuvre Talents are the key.
+The Action itself is Core_Combat.txt §4a.
+This file only answers: do they have it.
 
 Afflictions that say “no Dodge” or “half M”
 override the default action list while they
@@ -405,11 +443,44 @@ last. Log them at the start of the Round.
 7. CATALOGUE
 --------------------------------------------------
 
-Empty on purpose.
+Sense, Looks, Outdoorsman, Alley Cat, and
+the Combat Manoeuvre names in §8 are locked.
+Do not generate further entries here.
 
-When a Talent, Failing, or Affliction is written
-for use by more than one Entity, it goes in a
-later catalogue file. Not here.
+--------------------------------------------------
+8. COMBAT MANOEUVRE TALENTS
+--------------------------------------------------
 
-Do not generate entries to fill this section.
+Prerequisite only. Cost, tests, and conditions
+are Combat §4a. Without the Talent the Action
+is not available. No Unknown attempt.
+
+Write on the sheet as Category: Combat Manoeuvre.
+
+  Disarm
+    Unlocks Disarm (Full).
+
+  Quick Draw
+    Unlocks Ready as Free once per Round.
+
+  Rapid Reload
+    Unlocks the Reload cut.
+
+  Strike to Stun
+    Unlocks Strike to Stun (Full).
+
+  Riposte
+    Unlocks Riposte after a won Parry.
+
+  Slip
+    Unlocks Slip after a won Dodge.
+
+  Combat Grappling
+    Unlocks Combat Grappling (Half), Dominant
+    Clinch Actions, and Reversal.
+    Escape from Clinched (Defensive) does not
+    need this Talent.
+
+  Specialist Weapon Group (various)
+    Weaponry.txt. Each group is its own Talent.
 }

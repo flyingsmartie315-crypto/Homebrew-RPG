@@ -1,0 +1,245 @@
+# Core_Terrain.txt
+# Virath — how Geography scores become ground underfoot.
+# Status: DRAFT for Core.
+# Companion files:
+#   Geography_Rules.txt                 seven scores, season, biome
+#   Core_Fatigue.txt                    work-hour band
+#   Core_Combat.txt                     difficult ground, travel day
+#   Bestiary_Rules.txt                  HSI (not this file)
+
+PURPOSE
+Geography already scores a place 0–5 on seven axes.
+This file turns those numbers into travel and Fatigue.
+It does not replace HSI. Creatures still use Bestiary.
+
+Land meanings and oceanic meanings stay separate
+(Geography_Rules). This file is land underfoot unless
+a section names the sea.
+
+Use the Local Region scores after season
+(Temperature, Rainfall, Flora, Fauna shift;
+Harvest is the printed score).
+
+--------------------------------------------------
+0. KEYWORDS
+--------------------------------------------------
+
+Axis
+  One of the seven land scores.
+
+Ideal
+  The score on that axis that costs a human
+  walker the least.
+
+Worst
+  The score that costs the most, or that
+  only bites on a long stay.
+
+Hourly
+  Hits Fatigue and Combat this hour.
+
+Prolonged
+  Hits after a day or more. Not the hourly
+  test.
+
+Ground Band
+  The combined hourly result:
+  Easy / Fair / Hard / Severe / Extreme.
+
+--------------------------------------------------
+1. EACH AXIS
+--------------------------------------------------
+
+Temperature (heat / cold)
+  Ideal  3  Mild temperate
+  Worst  0  Arctic / freezing (near lethal)
+  Worst  5  Hot, sub-Saharan
+  Hourly. Distance from 3 is the load.
+  0 and 5 both kill if you stay. Cold eats
+  faster without fire. Heat eats faster
+  under kit.
+  Strain = |score − 3|
+
+Rainfall (precipitation / humidity)
+  Ideal  3  Temperate / balanced
+  Worst  0  Arid desert
+  Worst  5  Rainforest / torrential
+  Hourly. Dry air and a torrent both work
+  the body. 0 also thirst (prolonged).
+  Strain = |score − 3|
+
+Human Density (settlement)
+  Ideal  4–5  Towns and cities. Roads,
+              inns, a gate, made ways
+              out of the pale.
+  Worst  1  Sparse / isolated — no road
+            worth the name
+  0  Uninhabited. Empty, not always harder
+     than 1. No one to rob you. No one to
+     house you.
+  5  Cities. Ideal on the approaches.
+     Congestion only inside the
+     settlement itself (section 3).
+     Not Hard ground.
+  Hourly strain: 1 → +1. 0 → +1 if there
+  is no path. 5 on the road → none.
+
+Flora (plant cover)
+  Ideal  3–4  Moderate to abundant. Shade,
+              browse, no wall of green.
+  Worst  0  Barren. Prolonged: no fuel,
+            no browse, no cover.
+  Worst  5  Teeming / overrun. Hourly:
+            you push through it.
+  Hourly strain: 5 → +2, 4 → +1 if the
+  GM names thicket or thorn. 0 → none
+  this hour.
+  Prolonged: 0 is the long knife.
+
+Fauna (animal life)
+  Ideal  3  Moderate / common
+  Worst  0  Barren. Prolonged: no game.
+  Worst  5  Teeming. Worse as risk and
+            noise than as a march tax.
+            Not Flora 5. You do not wade
+            through beasts every hour.
+  Hourly strain: none unless the hour is
+  a named encounter.
+  Prolonged: 0 starves a hunter. 5 is
+  bites, night-noise, lost stock.
+
+Topography (elevation / steepness)
+  Ideal  0  Flat plains
+  Worst  5  Sheer mountains
+  Hourly. This is the spine of Hard ground.
+  Strain = score
+  (0, 1, 2, 3, 4, 5 as written).
+
+Hydrology (water features)
+  Ideal  3  Rivers / inlets / channels
+  Worst  0  None / parched
+  Worst  5  Flooded / swamps / wet coast
+  0 is thirst and dust (prolonged, and
+  hourly if you are already dry).
+  5 is underfoot every hour.
+  Hourly strain = |score − 3|
+
+Height terms (highland, plateau, lowland)
+  Not a 0–5 score. Not in this sum.
+  They name where the region sits, not
+  how steep the next mile is. Topography
+  already has the steepness.
+
+--------------------------------------------------
+2. HOURLY GROUND BAND
+--------------------------------------------------
+
+Sum Hourly Strain:
+
+  Temperature     |T − 3|
+  Rainfall        |R − 3|
+  Topography      Tscore
+  Hydrology       |H − 3|
+  Flora           +2 if 5, +1 if 4 and thick
+  Human Density   +1 if 0 or 1 and no path
+
+  Band            Sum     Fatigue hour     Combat
+  Easy            0–2     Light / Active   normal yards
+                          by Enc only
+  Fair            3–4     Active           normal
+  Hard            5–6     Strenuous        Difficult
+                                           ground
+  Severe          7–9     Strenuous        Difficult
+                          and the GM may   ground;
+                          add −10 to the   no Run
+                          Fatigue test
+  Extreme         10+     Intense          Difficult
+                                           ground;
+                          the land is      half again
+                          the fight        if the GM
+                                           names scree,
+                                           waist-flood,
+                                           or ice
+
+Worked check
+  Mild vale: T3 R3 Dens3 Fl3 Fa3 Top1 Hyd3
+  Strain = 0+0+1+0 = 1  Easy
+
+  Kannavald-type wooded highland, wet:
+  T2 R4 Dens1 Fl4 Fa3 Top3 Hyd3
+  Strain = 1+1+3+0 +1 thicket +1 no path = 7
+  Severe
+
+Difficult ground (Combat) is Hard or worse.
+Easy and Fair do not halve yards.
+
+--------------------------------------------------
+3. TRAVERSAL (THE DAY’S MILES)
+--------------------------------------------------
+
+Combat already names Hampered / Standard
+for the travel day. Apply after Ground Band.
+
+  Human Density 4–5   Ideal for a road day.
+                      Made ways around a city
+                      count as 5 still ideal.
+  Inside a Density 5
+  settlement           congestion. Cut yards
+                      and the hour’s miles
+                      while in the streets,
+                      gates, and crowd. Not
+                      a Strenuous test. Step
+                      outside the pale and
+                      the cut ends.
+  Human Density 0–1   no inn, no made road.
+                      Hampered unless a known
+                      path is in play.
+  Ground Band Hard+   Hampered on top of Enc.
+
+Do not double-count Topography in both the
+hourly test and a second secret tax. The
+Band is the tax. Miles follow the Band.
+
+--------------------------------------------------
+4. PROLONGED (NOT THE HOUR)
+--------------------------------------------------
+
+These do not change the hourly Fatigue test
+by themselves. After a day or more they
+become the problem:
+
+  Flora 0, Fauna 0    nothing to eat or burn
+  Hydrology 0         nothing to drink
+  Temperature 0 or 5  exposure, then death
+  Rainfall 0          same as thirst
+  Human Density 1     no help when something
+                      breaks
+
+Log them as the day’s story, Outdoor
+Survival, or an Agent. Not a second
+Toughness test each hour.
+
+Fauna 5 is encounters and lost sleep,
+not Flora 5’s wall of green.
+
+--------------------------------------------------
+5. OCEANIC
+--------------------------------------------------
+
+Do not feed oceanic 0–5 into section 2.
+Depth and sea-state are not hills.
+Ship Fatigue and storm hours wait on a
+later sea file. Until then: Hydrology
+(sea state) 4–5 is Intense for crew on
+deck. Calm is not a work hour.
+
+--------------------------------------------------
+6. WHAT THIS FILE DOES NOT DO
+--------------------------------------------------
+
+It does not score HSI.
+It does not invent a eighth axis.
+It does not replace biome names.
+Season still happens in Geography_Rules
+before you sum.
+}

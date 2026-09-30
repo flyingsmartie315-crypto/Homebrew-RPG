@@ -1,0 +1,32 @@
+# Deneshaw
+
+Type
+Village
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Rissfeld. Base of the mid-country hills and light woods.
+8 miles north-east of Rissmarkt.
+
+Overview
+Agri and forestry village. The wall-market is down-slope. The light wood starts here. Not the north ravines. Not Grenzweid’s open pasture.
+
+Control
+Bound to Rissmarkt.
+
+Population
+Working figure: 240–320.
+
+Economy
+Field and timber. Sends both to Rissmarkt.
+
+Defences / Access
+Modest keep. Road 8 miles south-west to Rissmarkt. Tracks into the mid-hills.
+
+Linked Features
+- Rissmarkt — Settlement_Rissmarkt.txt
+- Rissfeld — mid-country hills and light wood
+
+Notes
+Locked: Deneshaw. Dene + shaw — vale-wood at the foot of the mid-hills.

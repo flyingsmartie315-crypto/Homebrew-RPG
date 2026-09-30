@@ -39,14 +39,15 @@ Total: 49,626 square miles.
 - Vestfeld: 710
 - Vardfeld: 315
 - Markholt: 311
-- Open productive floor (remainder): 23,069
+- Rissfeld: 301
+- Open productive floor (remainder): 22,768
 
 --------------------------------------------------
 NOTABLE FEATURES
 --------------------------------------------------
 
 Westmark floor
-Open productive country. Fields, stock, roads, iron-pits inland of the strand. 23,069 square miles. The work of the peninsula.
+Open productive country. Fields, stock, roads, iron-pits inland of the strand. 22,768 square miles. The work of the peninsula.
 Temperature: 3 | Rainfall: 3 | Human Density: 3–4 | Flora: 3 | Fauna: 2 | Topography: 2 | Hydrology: 3
 
 Värdå
@@ -147,6 +148,16 @@ Borders of the addition:
 - 27 miles north and north-west with the Dalhamar foothills
 - 11 miles south with Heckengau
 Locked.
+Town: Giassrad, 4 miles north of the Heckengau–Hamarholt border along the Herrenau. Peak: Krummnagel. Charcoal village 11 miles west: Jahrreih. Settlement_Giassrad.txt, Settlement_Jahrreih.txt.
+
+Rissfeld
+301 square miles. Locked. Rift-field.
+South side matches Heckengau where the gau turns hilly and climbs toward Dalhamar and Hamarholt.
+Mid-country: hills, light wood.
+North: 30 sq mi of sharp cliffs and dropping ravines. Quarry and mineral country. Inside the 301, not extra land.
+East of Hamarholt — 33-mile shared border.
+SW: 17 miles with Heckengau.
+SE: 16 miles with Kohlholt.
 
 Vestfeld
 710 square miles. Flat to gentle hills. Sparse flora on the Western Strand; thickens about 5 miles inland.
@@ -286,6 +297,7 @@ LINKED SETTLEMENTS
 - Speicherstatt — Settlement_Speicherstatt.txt
 - Mühlreih — Settlement_Muehlreih.txt
 - Heckenfeld — Settlement_Heckenfeld.txt
+- Kuhbruck — Settlement_Kuhbruck.txt
 - Mühlstatt — Settlement_Muehlstatt.txt
 - Holtward — Settlement_Holtward.txt
 - Hügelweid — Settlement_Huegelweid.txt

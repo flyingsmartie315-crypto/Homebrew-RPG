@@ -1,0 +1,35 @@
+# Faldanord
+
+Type
+Village
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Beyond Kohlholt’s northern tip. Crossroads.
+16 miles north-east of Rissmarkt along the Kohlholt edge.
+
+Overview
+Agri and pasture. The wood ends. The fold begins. Crossroads north of the charcoal holt. Not Nistburg. Not the ravines of north Rissfeld unless a later lock puts the fork on that stone.
+
+Control
+Bound to Rissmarkt until a closer hub is locked.
+
+Population
+Working figure: 260–340.
+
+Economy
+Stock and field. Wood-edge trade if Kohlholt traffic still comes this far.
+
+Defences / Access
+Modest keep at the fork.
+Road 16 miles south-west along Kohlholt’s rim to Rissmarkt.
+
+Linked Features
+- Rissmarkt — Settlement_Rissmarkt.txt
+- Kohlholt — northern tip, then this
+- Rissfeld — possible west/north of the fork; not locked as the village’s gau
+
+Notes
+Name locked: Faldanord.
+Attached from Rissmarkt because that is the last walled market on this climb. Move the bond if a north-Rissfeld seat is written.
