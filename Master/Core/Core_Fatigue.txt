@@ -53,15 +53,15 @@ Cap = sheet TB.
 At Fatigue equal to sheet TB the Entity is
 incapacitated and must rest.
 
-Each Fatigue: −10 to every Characteristic.
-Strength 41 with 2 Fatigue is 21.
+Each Fatigue: −5 to every Characteristic.
+Strength 41 with 2 Fatigue is 31.
 SB, M, Skill Base, Enc bands, NAC follow
 the new number. Do not also penalise Skills.
 
 If any Characteristic is 0 or below after
 the shift, the Entity is incapacitated
 even if Fatigue is still under TB.
-Fellowship 25 and 3 Fatigue is Fel −5.
+Fellowship 25 and 5 Fatigue is Fel 0.
 
 Incapacitated: cannot act. Forced to rest.
 
@@ -178,6 +178,9 @@ unless the GM names it labour.
 
 A named Agent may add Fatigue. That is
 Pathogens_Poisons_Curses.txt. Same track.
+
+Suffocation adds Fatigue by the Round.
+That is Hazards.txt. Same track.
 
 Combat travel: eight hours is a working
 day (Combat). Hours past that are Tired

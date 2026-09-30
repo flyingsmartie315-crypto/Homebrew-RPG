@@ -1,0 +1,591 @@
+# Pathogens_Poisons_Curses.txt
+# Virath — disease, poison, venom, and unnatural affliction.
+# Status: DRAFT. Format locked. Two common pathogens.
+# Companion files:
+#   Core_Resolution.txt                 hidden Toughness tests
+#   Core_Characteristics_Skills.txt     TB, Heal, Surgery
+#   Core_Talents_Failings_Afflictions.txt
+#                                       live list on the Entity
+#   Core_Injury.txt                     wounds that are not this
+#   Core_Fatigue.txt                    Dawn Tax, locked points
+#   Hazards.txt                         Suffocation from Great-Lung
+#   Core_Terrain.txt                    Ground Band on contraction
+#   Economy / Bestiary                  where a named agent lives
+
+PURPOSE
+This file is the law for things that get into a body
+and stay there: pathogens, poisons, venoms, curses.
+
+A blow is Injury. This is what follows a bite, a
+well, a breath, or a working.
+
+Every named agent uses the same four blocks.
+Do not invent agents into this file. Write a
+named entry when one is needed, on its own
+block or on the Entity that carries it.
+
+On the Entity it is an Affliction
+(Talents_Failings_Afflictions.txt).
+This file answers how it arrived and how it
+runs. That file answers that it is on the sheet.
+
+--------------------------------------------------
+0. KEYWORDS
+--------------------------------------------------
+
+Agent
+  One named pathogen, poison, venom, or curse.
+  Four blocks: Origin, Transmission, Symptoms,
+  Recovery.
+
+Pathogen
+  A living or spreading sickness. Contagion
+  matters.
+
+Poison
+  Prepared or gathered matter. Dose matters.
+  Usually not person-to-person.
+
+Venom
+  Delivered by a living strike (fang, sting,
+  spine, Unveiling analogue). The hit is the
+  door. Contagion after that is rare unless
+  the entry says so.
+
+Curse
+  Unnatural. Unveiling, rite, or named hate.
+  Transmission may ignore air and water.
+  Recovery may ignore Heal.
+
+Contraction test
+  A hidden Toughness test. The player does
+  not know it is being rolled unless the
+  fiction already names the agent.
+  Fail: the Agent is contracted. Log it as
+  an Affliction. Symptoms have not started
+  until Onset.
+  Win: not contracted this exposure.
+
+Onset
+  Time from contraction to first Symptom.
+
+Virulence
+  Modifier on the Contraction test and on
+  later Toughness tests against the Agent.
+  Written in tens (−10, −20). 0 is ordinary.
+
+Dose
+  How much entered. Poisons and venoms care.
+  Pathogens usually do not unless the entry
+  says a massive exposure.
+
+--------------------------------------------------
+1. FORMAT
+--------------------------------------------------
+
+Every Agent is written in this order. Do not
+skip a block. Write “none” if a block does
+not apply.
+
+Name
+  Kind:        Pathogen / Poison / Venom / Curse
+  Virulence:   0 / −10 / −20 / −30
+
+Origin
+  Where it comes from. Where it is found.
+  Standing water, a named tick, a tanner’s
+  vat, a bestiary bite, a working. Enough
+  that a later Evaluate or Common Lore can
+  point at it.
+
+Transmission
+  Proximity:   how close the source must be
+  Mechanism:   air / water / food / skin /
+               wound / venom strike / rite /
+               named other
+  Contagious:  no / yes, and to whom
+               (touch, household, street)
+  Contraction: hidden Toughness test,
+               ± Virulence, ± situation
+               (sealed room, boiled water,
+               gloves, a full hauberk over
+               a scratch).
+  One exposure, one test, unless the entry
+  says the source keeps offering tests
+  (a fevered hall, a smoking censer).
+
+Symptoms
+  Onset:       when effects appear
+               (immediate / hours / days)
+  Causes:      what the body or mind does
+  Modifiers:   TN shifts, movement, tests
+               forbidden, Wounds if any
+  Timeframe:   how long each stage lasts
+  Ongoing:     further hidden or declared
+               Toughness tests, interval,
+               what a fail adds, what a
+               win does (hold, ease, end)
+
+Recovery
+  Timeframe:   if left alone, how long
+  Cures:       Heal, Surgery, a named
+               draught, heat, rest, a rite.
+               Say the Skill and the TN
+               shift if there is one.
+  Linger:      scars, Afflictions that stay
+               (Marked, a Failing, IP), or
+               none.
+
+--------------------------------------------------
+2. CONTRACTION
+--------------------------------------------------
+
+The GM rolls the Contraction test when the
+exposure is real. Not when someone walks
+past a rumour.
+
+Default TN is Toughness, ± Virulence, ±
+the situation. Resolution §4.
+
+The test is hidden unless the Entity already
+knows the source (they drank the labelled
+vial; they saw the fang).
+
+Fail: contract. Write the Agent as an
+Affliction. Onset clock starts now.
+Win: this exposure does nothing.
+
+A second exposure while already contracted
+does not stack a second copy unless the
+entry says Dose rises.
+
+Venom on a wound: the hit must land (Combat,
+Injury). Then Contraction. Armour that
+stopped the wound stopped the venom unless
+the entry says the venom sits on the plate.
+
+--------------------------------------------------
+3. SYMPTOMS IN PLAY
+--------------------------------------------------
+
+Until Onset, the Affliction is silent.
+No modifiers. The Entity may not know.
+
+At Onset, declare what has begun. Apply
+Modifiers. Start the Timeframe and any
+Ongoing tests.
+
+Ongoing Toughness tests are not Contraction.
+They are the body fighting what is already
+inside. Fail usually worsens the stage.
+Win usually holds or shortens.
+
+Heal and Surgery do not replace those tests
+unless Recovery names them as the cure.
+
+Wounds from an Agent are still Wounds.
+They use Injury only if the entry says a
+blow occurred. Fever is not a sword.
+
+--------------------------------------------------
+4. RECOVERY
+--------------------------------------------------
+
+Timeframe runs in narrative time unless
+structured time has already started and
+the Agent is fast (a venom in a fight).
+
+A named cure, succeeded, ends the Agent
+as Recovery describes. Linger is written
+as a new Affliction or Failing if the
+entry leaves a mark.
+
+Dead men do not recover. They may still
+transmit if Contagious says so.
+
+--------------------------------------------------
+5. CURSES
+--------------------------------------------------
+
+Same four blocks. Mechanism is often rite
+or named contact, not air.
+
+Contraction may be Willpower instead of
+Toughness if the entry says the door is
+the mind. Write that in Transmission.
+Default remains Toughness.
+
+Heal is not assumed. Recovery must name
+the way out, or name that there is none
+without a working.
+
+--------------------------------------------------
+6. CATALOGUE
+--------------------------------------------------
+
+Airborne Contagions
+  Pathogens that target the respiratory
+  tract. They lower physical thresholds
+  and push the Asphyxiation Clock
+  (Hazards §1) when the Entity exerts.
+  Great-Lung and Gray Cough sit here.
+
+--------------------------------------------------
+Great-Lung
+Kind:        Pathogen
+Virulence:   −20
+--------------------------------------------------
+
+Origin
+  Overcrowded Density 5 tenements, winter
+  frontier garrisons, tight unventilated
+  underground during Harvest and Longnight.
+
+Transmission
+  Proximity:   one hour close, or any time
+               sharing a confined space
+  Mechanism:   air, respiratory droplets
+  Contagious:  yes. Household and hall.
+               A coughing carrier fills
+               the room.
+  Contraction: hidden Toughness −20.
+               Ground Band Severe or
+               Extreme from freezing rain
+               or cold: −30 instead.
+               Thick hooded cloak over
+               the face: +5.
+               One exposure, one test
+               per hour in that air.
+
+Symptoms
+  Onset:       24–48 hours
+  Phase 1 (days 1–3)
+    Hacking cough.
+    −10 Strength, Toughness, Agility
+    (on top of Fatigue if any).
+    Silent Move −20.
+  Phase 2 (day 4+)
+    Pulmonary distress.
+    Every work hour is one band worse
+    (Light Active → Active → Strenuous
+    → Intense). Core_Fatigue.txt §4.
+    An Intense Hour of fighting: at the
+    end of Round 3, Suffocation test
+    (Hazards §1b) as if the Breath
+    Window were already spent.
+  Dawn Tax
+    Each dawn: Toughness +0.
+    Fail: +1 Fatigue. That point cannot
+    be cleared by sleep or Short Rest
+    while Great-Lung is active.
+  Ongoing:     the dawn test is the
+               fight. Fail adds. Win
+               holds and counts toward
+               Recovery.
+
+Recovery
+  Timeframe:   7 consecutive successful
+               dawn tests. Then the Agent
+               ends. Dawn-Tax Fatigue
+               becomes ordinary Fatigue
+               and can be slept off.
+  Collapse:    Fatigue = sheet TB →
+               Unconscious. Pulmonary
+               collapse. Treat as
+               Suffocation 1c if they
+               cannot be kept breathing.
+  Cures:       Heal * Known. Full Action
+               each day, herbal steam.
+               Win: the patient adds the
+               healer’s Intelligence
+               Bonus to that dawn test.
+  Linger:      none named. A later scar
+               is a GM Affliction if the
+               collapse was close.
+
+--------------------------------------------------
+Gray Cough
+Kind:        Pathogen
+Virulence:   +10 first night, then −10
+             per extra night in that air
+--------------------------------------------------
+
+Origin
+  Stagnant deep mines, dark under-cities,
+  unmanaged boreal wood. Flora 4–5 and
+  still air.
+
+Transmission
+  Proximity:   one 8-hour sleep in the
+               same room or tent as a
+               coughing carrier
+  Mechanism:   air, prolonged
+  Contagious:  yes, overnight shelter.
+               A shared watch in open
+               air is not enough.
+  Contraction: hidden Toughness +10
+               the first night.
+               Each night after in that
+               same air: another test at
+               an extra −10, cumulative.
+
+Symptoms
+  Onset:       2d10 days
+  Causes:      slow wasting. Cough.
+  The Locked Track
+    1 Fatigue is locked on the track.
+    Sleep and rests cannot clear it.
+    Maximum Fatigue they can take
+    before collapse is sheet TB − 1.
+  Exertion Rupture
+    After any Strenuous or Intense
+    Hour: Toughness at −(current
+    Fatigue × 10).
+    Fail: 1 Wound. No NAC. No AC.
+    Throat. Blood.
+  Ongoing:     the rupture test each
+               hard hour. The locked
+               point does not leave
+               on its own.
+
+Recovery
+  Timeframe:   none. Permanent if left.
+  Cures:       14 days. Each day a
+               Trade (Herbalist) * or
+               Heal * test to source
+               and give pine-resin.
+               Accumulate 10 DoS across
+               those days. Missed days
+               add nothing. At 10 DoS
+               the Agent ends.
+  Linger:      locked Fatigue frees.
+               Permanent −5 on the
+               Athletics Skill Base
+               (lung scar). Write as
+               an Affliction.
+
+Waterborne Contagions
+  Interface with Hydrology and Human
+  Density. They hit the gut. Fluid loss
+  breaks Characteristics in hours, not
+  days. Bloody Flux and Swamp Ague
+  sit here.
+
+--------------------------------------------------
+Bloody Flux
+Kind:        Pathogen
+Virulence:   0, or −10 in a dirty
+             Density 4–5 hold
+--------------------------------------------------
+
+Origin
+  Stagnant siege lines, polluted wells
+  in Density 4–5, slow river inlets in
+  hot Harvest thaw.
+
+Transmission
+  Proximity:   a drink, or unwashed
+               frontier ration
+  Mechanism:   water / food, ingestion
+  Contagious:  the source stays hot.
+               Person-to-person only if
+               they share cup or latrine
+               without wash.
+  Contraction: hidden Toughness +0 if
+               they drink unboiled water
+               where Hydrology is 5, or
+               within a mile of a military
+               camp.
+               Density 4–5 and sanitation
+               broken (a siege): −10.
+
+Symptoms
+  Onset:       12–24 hours
+  Causes:      gut trauma, sudden thirst
+  Recovery Lock
+    Short Rest and Sheltered Short Rest
+    do not remove Fatigue while this
+    Agent is active. Sleep still uses
+    the ordinary table if they can lie
+    down at all.
+  6-Hour Crash
+    Every 6 hours: Toughness −10.
+    Fail: +1 Fatigue and 2 Wounds.
+    No NAC. No AC.
+  Cascade
+    Fatigue already drops Strength
+    (Core_Fatigue.txt). Combat Load
+    (Strength × 10) falls with it.
+    Kit that fitted at S 40 sits at
+    S 30 after 2 Fatigue. Enc bands
+    update.
+    That is not a second penalty.
+  Ongoing:     the 6-hour test.
+
+Recovery
+  Timeframe:   1d5 + 2 days if they
+               never hit incapacitation.
+               Then the Agent ends.
+               They are left at 0 Wounds
+               and Fatigue = sheet TB.
+               Bed rest after.
+  Collapse:    Fatigue = sheet TB or a
+               Characteristic at 0:
+               Unconscious as Fatigue.
+  Cures:       Heal * or Trade
+               (Herbalist) *. Boiled
+               willow-bark. Win: +20 on
+               the patient’s 6-hour tests
+               that day.
+
+--------------------------------------------------
+Swamp Ague
+Kind:        Pathogen
+Virulence:   −10, or −30 through an
+             open wound or exposed scar
+--------------------------------------------------
+
+Origin
+  Trackless fen, black bog, wet coast.
+  Flora 5 and Hydrology 5.
+
+Transmission
+  Proximity:   a drink, or skin in the
+               pool
+  Mechanism:   water, ingestion or an
+               untreated wound in the
+               mud
+  Contagious:  the water. Not the breath.
+  Contraction: hidden Toughness −10.
+               An unhealed Wound, or
+               Visible Scarring that is
+               bare in the mud: −30.
+
+Symptoms
+  Onset:       6 hours
+  Phase 1 — Muscle Failure
+    −20 Agility. −20 WS.
+    M falls with Agility.
+    No Dodge. No Parry.
+  Phase 2 — Fluid Drain
+    Every 3 hours: Toughness +0.
+    Fail: +1 Fatigue.
+    Sheet TB 3 who fail three tests
+    are down in 9 hours from onset.
+  Ongoing:     the 3-hour test.
+
+Recovery
+  Collapse:    already at Fatigue =
+               sheet TB, then fail a
+               3-hour test: Finishing
+               Blow to Body (Injury).
+               Organs stop.
+  Cures:       get them into a warm,
+               dry Sheltered Short Rest
+               place. Companion Heal *
+               or Trade (Herbalist) *
+               at −20 to close the fluid
+               loop. Win: the 3-hour
+               clock stops. Fatigue
+               clears on the ordinary
+               sleep table after that.
+  Linger:      none named if they live.
+
+Common Respiratory Ailments
+  Lesser air-sickness. Not Great-Lung.
+  They tax senses, voice, and the Tired
+  ladder. They do not open Suffocation
+  by themselves.
+
+--------------------------------------------------
+Rheum (Common Cold)
+Kind:        Pathogen
+Virulence:   +10, or +0 on Hard/Severe
+             ground
+--------------------------------------------------
+
+Origin
+  Everywhere. Worst in Thaw and
+  Longnight. Temperature 1–2 or
+  Rainfall 4–5.
+
+Transmission
+  Proximity:   an hour unsheltered in
+               wet weather, or a tent
+               with a sneezer
+  Mechanism:   air, close damp
+  Contagious:  yes, household and tent
+  Contraction: hidden Toughness at dawn
+               +10. Ground Band Hard or
+               Severe: +0 instead.
+
+Symptoms
+  Onset:       1d3 days
+  Sensory Drip
+    −10 on Perception that uses smell.
+    Awareness and Search * follow.
+  Muted Voice
+    −10 Fellowship on Charm, Intimidate,
+    Performer * — anything that needs
+    a clear voice.
+  Tired Hour Tax
+    While this Agent is active the
+    first Tired Hour is −20, not +0.
+    The ladder then goes −30, −40…
+    (Core_Fatigue.txt §2).
+  No Wounds from this Agent.
+
+Recovery
+  Timeframe:   1d5 + 2 days.
+               Menthol-leaf, or a
+               Sheltered Short Rest
+               used for this, cuts
+               2 days.
+  Cures:       time. Heal not required.
+  Linger:      none.
+
+--------------------------------------------------
+Winter Grip
+Kind:        Pathogen
+Virulence:   −10
+--------------------------------------------------
+
+Origin
+  Density 3–5 and military camps in
+  Longnight.
+
+Transmission
+  Proximity:   a room, tavern common,
+               or barracks with a
+               carrier
+  Mechanism:   air, droplets
+  Contagious:  yes, high
+  Contraction: hidden Toughness −10.
+
+Symptoms
+  Onset:       12–36 hours
+  Instant Load
+    +1 Fatigue at Onset. Sleep can
+    clear it. Marching fills the
+    track as usual.
+  Systemic Aches
+    −5 Strength, Agility, Toughness.
+    M, Skill Base, Enc bands follow.
+  Work Hour Restriction
+    Strenuous or Intense hours:
+    the hourly Toughness test is an
+    automatic fail. +1 Fatigue that
+    hour. No roll.
+
+Recovery
+  Timeframe:   1d6 + 4 days. Fever
+               breaks.
+               8 hours sleep, warm and
+               dry: +10 on that day’s
+               work-hour or Tired tests.
+  Cures:       Heal *. Hot willow-bark.
+               Win: the −5 aches are
+               off for 4 hours. The
+               Agent remains.
+  Linger:      none named.
+}

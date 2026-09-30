@@ -798,9 +798,9 @@ Range (missiles)
   the −30.
 
 Fatigue
-  Already −10 per point to every
+  Already −5 per point to every
   Characteristic (Core_Fatigue.txt).
-  Do not add another −10 here.
+  Do not add another −5 here.
 
 Fog, mist, shadow, smoke
   BS −20.

@@ -77,7 +77,7 @@ Fail: +1 Fatigue immediately.
 Win: ten more seconds. Test again next Round.
 
 The next test uses Toughness after that
-Fatigue (−10 to the Characteristic, so the
+Fatigue (−5 to the Characteristic, so the
 TN falls). That is the cascade.
 
 Do not also run a Tired Hour test for the

@@ -268,7 +268,7 @@ Pathogens_Poisons_Curses.txt
 
 Core_Fatigue.txt
   Track, sleep, short rest, work hours.
-  −10 per point to every Characteristic.
+  −5 per point to every Characteristic.
 
 Core_Terrain.txt
   Geography 0–5 axes → Ground Band
