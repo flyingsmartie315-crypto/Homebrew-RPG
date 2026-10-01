@@ -469,17 +469,34 @@ Forestry
 
   Svart-Viðr / Svartwood
   Dauðavík fault-ribbons only. Not a blanket forest.
-  Midnight-dark conifer on live geothermal ground.
-  Heavy. Slow. Bark and sawdust sicken unless wet-wrapped.
-  Strategic members: keel, waterline, stem, stern. Not a whole hull.
-  Burns foul. Do not book it as charcoal-wood.
-  Base: 5 bc per kg (log, barked under wrap)
-  Bulk: 850 kg/m³
+  Grade follows proximity to the live geothermal line and how much
+  vent-metal the wood has taken up. Same tree. Different cuts.
+  Bark and sawdust sicken unless wet-wrapped. Burns foul.
+  Do not book any grade as charcoal-wood.
+
+  Rim / pale (outer ribbon, cool side)
+    Slightly denser than ash. Hull strakes, deck, light frames.
+    A whole hull may be this grade. Heart members still named.
+    Base: 3 bc per kg
+    Bulk: 600 kg/m³
+
+  Mid (ribbon body)
+    Waterline planks, knees, ordinary frames.
+    Base: 5 bc per kg
+    Bulk: 720 kg/m³
+
+  Heart / vent (closest to the boil, highest mineral)
+    Keel, stem, stern, tiller, durable hafts.
+    Not a whole hull. Too heavy and too glassy.
+    Base: 8 bc per kg
+    Bulk: 850 kg/m³
+
   Packing: loose pile / wrapped members
-  Cart load (800 kg) → 333 sc 4 bc
-  Heavy-cart load (1,500 kg) → 625 sc
-  Selected member blank (200 kg at 2×) → 166 sc 8 bc
-  No barge-lot on the island unless a Jarn hull is already in the water.
+  Cart load of rim (800 kg) → 200 sc
+  Cart load of heart (800 kg) → 533 sc 4 bc
+  Heart member blank (200 kg at 2× the heart rate) → 266 sc 8 bc
+  No barge-lot of heart off the island unless a Jarn hull is already in the water.
+  Rim strakes may travel as cargo. Heart does not travel as a pile.
 
   Svart-bark (unworked)
   Same tree. Vent-metals in the skin.

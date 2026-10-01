@@ -574,6 +574,22 @@ Tech: listed T2 / min T1 / max T3
 Capital: Kit 15 sc | Plant saw-pit 5–12 gc | Life 20
 Floor: holds.
 
+Svartwood plank / member
+From: Forestry Svart-Viðr log of a named grade. Dauðavík only.
+Grade: rim 600 / mid 720 / heart 850 kg/m³.
+      Proximity to the vent and mineral take. Not a second species.
+Input: ~2.2 kg log / kg plank (bark waste + wrap). Heart members nearer 1.8
+Labour: Hazardous skilled + sawyer × 1 day / 80 kg  [T2 water-saw]
+        Heart is slower: 1 day / 50 kg. Dry work is a Hazard.
+Store: Fault-moss wrap on bark and dust
+Facility: water-saw on volcanic runoff, or a slow T1 wrap-shed
+Tech: listed T2 / min T1 / max T3
+Waste: 0.45–0.55. Bark is not firewood.
+Capital: Kit 1 gc (wrap, wet-kit) | Plant water-saw 8–20 gc
+Floor: rim plank 12 bc/kg, mid plank 20 bc/kg, heart member 6 sc/kg
+       if the log is local. Off-island, heart is the hull that carried it.
+       Rim strakes may be cargo. A whole hull of heart is not legal.
+
 Roof shingles
 From: straight-grained log
 Input: 2.0 kg log / kg

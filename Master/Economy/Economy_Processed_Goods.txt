@@ -656,20 +656,25 @@ Packing: loose stack / bundle
 | Hewn beam | 4 bc/kg | 100 kg → 33 sc 4 bc; cart 800 kg → 266 sc 8 bc |
 
 Svart-Viðr / Svartwood
-Dauðavík only. Input is the Forestry Svartwood log.
-Bark must come off under wet-wrap (Fault-moss). Dry sawdust is a Hazard.
-Water-saw preferred (volcanic runoff). T1 whip-saw is slower and sicker.
-Not a super-material. Rot- and worm-hard. Fire-ugly. Heavy.
-Strategic members, not a whole hull-lot.
-Bulk: 800 kg/m³ (planks, members) — denser than oak
+Dauðavík only. Input is the Forestry log of the named grade.
+Bark off under wet-wrap (Fault-moss). Dry sawdust is a Hazard.
+Water-saw preferred. T1 whip-saw is slower and sicker.
+Not a super-material. Rot- and worm-hard. Fire-ugly.
+Grade is geothermal proximity and mineral take, not a second species.
+
+Rim / pale — 600 kg/m³. Hull cuts. A skin of strakes and deck may be this.
+Mid — 720 kg/m³. Waterline and ordinary frames.
+Heart / vent — 850 kg/m³. Keel, stem, stern, tiller, durable haft. Not a hull-lot.
+
 Packing: wrapped stack
 | Form | Rate | Lots |
 |------|------|------|
-| Planks | 20 bc/kg | 20 kg → 33 sc 4 bc; 200 kg → 333 sc 4 bc |
-| Selected member (keel / waterline / stem / stern) | 6 sc/kg | 40 kg → 12 gc; 200 kg blank → 60 gc |
-| Hewn beam | 24 bc/kg | 100 kg → 200 sc |
-Do not charcoal this wood. Offcuts are foul fuel or wrapped waste.
-A southern stall that has a plank has a Jarn hull or a wreck in its past.
+| Rim plank (hull strake, deck) | 12 bc/kg | 20 kg → 20 sc; 200 kg → 200 sc |
+| Mid plank (waterline, frame) | 20 bc/kg | 20 kg → 33 sc 4 bc; 200 kg → 333 sc 4 bc |
+| Heart member (keel / stem / stern / tiller blank) | 6 sc/kg | 40 kg → 12 gc; 200 kg blank → 60 gc |
+| Heart hewn beam | 32 bc/kg | 100 kg → 266 sc 8 bc |
+Do not charcoal any grade. Offcuts are foul fuel or wrapped waste.
+A southern stall that has heart has a Jarn hull or a wreck. Rim strakes may be cargo.
 
 
 Metal

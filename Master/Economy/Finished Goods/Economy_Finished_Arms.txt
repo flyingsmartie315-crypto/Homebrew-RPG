@@ -362,15 +362,21 @@ PREMIUM: SVARTWOOD
 --------------------------------------------------
 
 Dauðavík only. Structure, not spring.
-Processed tickets: Economy_Processed_Goods.txt (plank 20 bc/kg;
-selected member 6 sc/kg). Wet-wrap. Hazardous dust.
+Grade is geothermal proximity and mineral take.
+  Rim / pale     600 kg/m³   hull strakes, deck. Not a haft.
+  Mid            720 kg/m³   waterline, frames.
+  Heart / vent   850 kg/m³   keel, stem, stern, tiller, durable haft.
+Processed tickets: Economy_Processed_Goods.txt.
+Wet-wrap. Hazardous dust. Heart saws slower.
 
-Locked geometry for hand-weapon hafts
+Locked geometry for hand-weapon hafts (heart only)
   5-10% slimmer than the ash pattern. Not more.
   Diameter x0.90 to x0.95. Mass still about x1.3 to x1.45 vs ash.
   Enc tax stays. Do not pencil the shaft to kill the density.
+  A rim haft is not the premium. It is only slightly heavy ash
+  and does not buy the weather or the fire.
 
-What it is for
+What heart is for
   Short stiff staffs that live in spray, ice, or fire-pots:
   pollaxe, boarding-axe, mace, short war-spear.
   Weather and rot are the reason you paid.
@@ -379,16 +385,17 @@ What it is for
 What it is not for
   Bow-limbs. Crossbow prods. Glaive or bill that should live a little.
   A marching field-haft you expect to ruin and replace.
+  A whole hull of heart. Hull skin is rim.
 
 Haft modifier (on the ash-shaft weapon)
-  Replace the ash blank with Svartwood at the processed rate.
+  Replace the ash blank with heart Svartwood at the processed rate.
   Add Hazardous shaping days.
   Coin: about +1 to +3 gc on a Common pollaxe / mace, more if the
-  blank is a selected member.
+  blank is a selected heart member.
   Still a named piece, not a rack weapon.
 
 Tiller (locked hybrid)
-  Svartwood makes the finest crossbow tiller in the book.
+  Heart Svartwood makes the finest crossbow tiller in the book.
   Pair it only with a spring-steel prod.
   The frame takes repeated heavy bolts without the tiller
   opening. The spring is still steel.
