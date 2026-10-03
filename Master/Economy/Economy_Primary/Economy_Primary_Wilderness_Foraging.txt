@@ -1,0 +1,85 @@
+# Economy_Primary_Wilderness_Foraging.txt
+# Primary goods — Wilderness Foraging
+# Law: Economy_Primary_Goods.txt (currency, bulk, packing)
+# Base unit: 1 kg unless the line says otherwise.
+# 1 gc = 20 sc = 240 bc. Cart 800 kg / 2.5 m³. Heavy cart 1,500 kg / 4 m³. Barge 12,000 kg / 30 m³.
+
+Wilderness Foraging
+
+  Moss / Lichen
+  Base: 4 bc per kg
+  Bulk: 80 kg/m³
+  Packing: basket
+  Basket (20 kg) → 6 sc 8 bc
+  Cart load (200 kg, volume) → 66 sc 8 bc
+  Reindeer lichen uses this ticket. Winter graze. Slow. Not in the hot ribbons.
+
+  Fault-moss
+  Dauðavík greenhouse aisle under Svart-Viðr.
+  Wrap, packing, trench-seal. Not generic moss.
+  Base: 8 bc per kg
+  Bulk: 80 kg/m³
+  Packing: basket / wet-wrap
+  Basket (10 kg) → 6 sc 8 bc
+  Cart load (200 kg, volume) → 133 sc 4 bc
+
+  Tundra sedge
+  White floor between the ribbons. Poor fodder and thatch.
+  Base: 1 bc per kg
+  Bulk: 80 kg/m³
+  Packing: bundle
+  Bundle (15 kg) → 1 sc 3 bc
+  Cart load (200 kg, volume) → 16 sc 8 bc
+
+  Bog Berries
+  Base: 8 bc per kg
+  Bulk: 400 kg/m³
+  Packing: basket
+  Basket (5 kg) → 3 sc 4 bc
+  Cart load (800 kg) → 533 sc 4 bc
+  Cloudberry uses this ticket. Wet tundra pockets. Not in the hot ribbons.
+
+  Lingonberry
+  Low evergreen. Stores through Longnight. Polar / boreal / alpine forage.
+  Same plant as Flora_Boreal. Not a garden strawberry.
+  Base: 6 bc per kg
+  Bulk: 400 kg/m³
+  Packing: basket
+  Basket (5 kg) → 2 sc 6 bc
+  Cart load (800 kg) → 400 sc
+
+  Forest Berries
+  Base: 5 bc per kg
+  Bulk: 400 kg/m³
+  Packing: basket
+  Basket (8 kg) → 3 sc 4 bc
+  Cart load (800 kg) → 333 sc 4 bc
+
+  Dried Fungi
+  Base: 12 bc per kg
+  Bulk: 200 kg/m³
+  Packing: sack / bundle
+  Bundle (5 kg) → 5 sc
+  Cart load (500 kg, volume) → 500 sc
+
+  Wild Greens / Roots
+  Base: 3 bc per kg
+  Bulk: 150 kg/m³
+  Packing: basket
+  Bundle (10 kg) → 2 sc 6 bc
+  Cart load (375 kg, volume) → 93 sc 9 bc
+
+  Medicinal Herbs
+  Base: 1 sc per kg
+  Bulk: 180 kg/m³
+  Packing: bundle / chest
+  Bundle (2 kg) → 2 sc
+  Cart load (450 kg, volume) → 450 sc
+
+  Amber
+  Base: 4 sc per kg
+  Bulk: 1,100 kg/m³
+  Packing: wrapped / chest
+  Small lot (1 kg) → 4 sc
+
+

@@ -1,0 +1,510 @@
+# Durability.txt
+# Virath — hitpoints on worn pieces.
+# Status: DRAFT. First pass. Armour only.
+# Law companions:
+#   Armour.txt            AC columns, grades, upgrades
+#   Armour_Rules.txt      which layer caught the blow
+#   Weaponry.txt          incoming before soak
+#   Core_Terrain.txt      Rainfall, Hydrology
+
+Weapons are not in this pass.
+
+--------------------------------------------------
+1. WEAR (LOCKED)
+--------------------------------------------------
+
+Use the piece that caught the blow
+(Armour_Rules coverage). A layer that
+failed its coverage roll was not struck.
+
+Compare incoming to that piece’s AC in
+the blow’s column (Cut, Pierce, or Blunt),
+after Iron Grade and upgrades.
+
+  Incoming ≤ that AC:  no hitpoint loss.
+  Incoming > that AC:  loss = Incoming − AC.
+
+Loss is on that piece only. Textile under
+a mail catch does not tick. NAC is not
+in this comparison.
+
+Hitpoints floor at 0. A blow cannot drive
+them negative. Surplus past 0 is Wounds
+on the body if soak says so. It is not
+extra hitpoint damage.
+
+At 0 the piece is scrap for soak (AC 0
+on the columns it had). Kraken sinew
+leaves the straps. Straps are not a
+soak layer.
+
+Clothing (0 AC) has no hitpoint track.
+A blow does not wear a shirt.
+
+--------------------------------------------------
+2. BASE HITPOINTS
+--------------------------------------------------
+
+One track per piece, not per Slot.
+Forms do not change the base.
+
+  Textile                 30
+  Cuir bouilli            35
+  Maille, Butted          30
+  Maille, Riveted         40
+  Modular Segmented       40
+  Modular Solid Plate     50
+
+Cuir is the keyword, torso or limb or
+boot armour-material. It does not take
+the Segmented 40.
+
+Boot Base Material is Textile 30.
+Boot Armour Material uses the Modular
+base of that material (cuir 35, splint
+40, greaves as solid 50, padded as
+textile 30).
+
+Stack
+  Listed base, then Grade, then
+  Upgrades, then Craft. Floor once
+  at the end. One grade. Making is
+  still one upgrade. Field groups
+  still one each. Multiply each
+  upgrade that has a hitpoint line.
+  Moisture bonuses are not this stack.
+
+--------------------------------------------------
+3. IRON GRADE ON THE TRACK
+--------------------------------------------------
+
+Same eligibility as Armour.txt §9 and
+Weaponry.txt §2. This file is the HP
+multiplier only. Cost, Enc, damage, and
+which weapon may take the metal are
+Weaponry.txt. Floor the result.
+
+  Wrought iron       ×0.75
+  Low-carbon steel   ×1.00
+  Hardened steel     ×1.25
+  Crucible steel     ×1.50
+  Zenith steel       ×1.75
+  Bronze             ×0.65
+  Brass              ×0.55
+  Copper             ×0.50
+
+Order on the soft metals: wrought, then
+bronze, then brass, then copper.
+
+One metal. An alloy does not also take
+an iron grade. Sea-serpent scale replaces
+Iron Grade. Do not also apply a grade.
+
+Armour alloys are bronze and brass only.
+Copper is not used on armour. Eligible
+pieces are Coat of Plates, Laminar,
+Bracers, Greaves, Skullcap, and Nasal
+helm (Armour.txt).
+
+Riveted mail: any grade.
+Butted mail: Wrought or Low-carbon only.
+Grade shifts AC off 2/2/2 and multiplies
+hitpoints. Butted wrought is AC 1/1/1
+and 22 hitpoints (30 × 0.75). Butted
+low-carbon is AC 2/2/2 and 30.
+
+Cuir, textile, clothing: no grade.
+
+  Riveted low-carbon hauberk     40
+  Riveted hardened hauberk       50
+  Riveted zenith hauberk         70
+  Butted wrought hauberk         22
+  Hardened solid breastplate     62
+  Wrought coat of plates         30
+
+--------------------------------------------------
+4. UPGRADE HITPOINTS
+--------------------------------------------------
+
+Making: one per piece (Armour.txt §12).
+Field groups: one finish, one climate,
+one binding. Beeswax may sit with both
+a climate and a binding.
+
+Hitpoint multipliers. Not flats.
+Old +10 on a 30-point textile is ×1.35.
+Old +15 on that textile is ×1.50.
+Old +30 on cuir 35 is ×1.85.
+Old +20 on cuir 35 is ×1.55.
+Old +10 on a 40-point piece is ×1.25.
+Old +5 on that piece is ×1.10.
+Langets +15 on a spear 50 is ×1.30.
+
+  Dense quilting        ×1.35   Textile
+  Spider-silk lining    ×1.50   Clothing, Textile
+                                (no track on
+                                Clothing; the
+                                multiplier is
+                                only if the
+                                piece has a
+                                Textile track)
+  Rock troll hide       ×1.85   Cuir keyword
+  River troll hide      ×1.55   Cuir keyword
+  Kraken sinew          ×1.25   straps already
+                                on the piece
+  Troll-hide ties       ×1.10   straps already
+                                on the piece
+  Langets               ×1.30   polearms except
+                                the lance
+  Svartwood shaft       ×1.25   wood shaft or haft.
+                                Not a bow. Not a
+                                crossbow prod.
+                                Tiller may.
+                                Weaponry.txt.
+  Ferrule               ×1.10   staff, spear, staff
+                                sling, polearm butt,
+                                lance included.
+
+Double mail changes AC and Enc. It does
+not multiply hitpoints in this pass.
+
+Sea-serpent scale replaces Iron Grade.
+Do not also apply a grade shift.
+It does not multiply hitpoints. It adds +30
+to the moisture threshold (section 5).
+At 0 hitpoints the scales are untarnished
+and may be reused on a new piece.
+
+AC from an upgrade still raises the
+threshold in section 1. Dense quilting
+is both +1/+1/+1 and ×1.35 hitpoints.
+That is intentional.
+
+--------------------------------------------------
+5. MOISTURE
+--------------------------------------------------
+
+Once per day spent in that weather.
+Not per hour. Not in a fight.
+
+Penalty = (Rainfall + Hydrology) × 5.
+Scores are Core_Terrain.txt. Cap 50.
+
+Threshold = current hitpoints
+            + weather bonus below
+            − penalty.
+
+Roll 1d100. If the roll is greater
+than the threshold, the piece loses
+1d3 hitpoints. Floor 0.
+
+A day at Rainfall 0 and Hydrology 0
+is penalty 0. Still roll if the piece
+is worn outdoors. A day indoors, dry,
+no roll.
+
+Weather bonus (one finish only)
+
+  Beeswax / resin     +10    if waxed this week
+  Blue / black        +10    if oiled this week
+  Plate / tin         +15    while the tin holds
+  Paint / lacquer     +10    while the film holds
+
+Unmaintained beeswax or blue/black:
+bonus 0 that day.
+
+Tin scrape: after any campaign week
+where the piece took a hitpoint loss
+from a blow, tin bonus falls by 5.
+At 0 the tin is gone until a smith
+rets it. Cost is the upgrade again.
+
+Paint chip: the first blow that
+costs hitpoints cracks the film.
+Bonus becomes −10 until scraped
+and repainted. Hidden rust. The
+−10 is the trapped wet.
+
+River troll hide: skip the moisture
+roll. The piece does not oxidise
+and does not take water-rot.
+Blows still wear it.
+
+Bronze, brass, and copper: +30 on the
+moisture threshold. A failed roll
+still costs 1d3 hitpoints. That loss
+is the backing — wood, leather, cord,
+the haft — not the alloy. The metal
+does not tarnish away. At 0 the
+backing is scrap. The metal may be
+recovered.
+
+Sheath: swords and daggers only, and
+only if the ticket was bought
+(Weaponry.txt). While the blade is
+sheathed, +20 on the moisture
+threshold. Drawn, the bonus is off.
+The sheath matches that blade’s
+craftsmanship (section 10).
+It is not part of the weapon.
+
+Bow case: bows and crossbows, if bought.
+Unstrung and in the case, +20. Strung
+or in the hand, off. A crossbow case
+does not cover a spanned prod.
+Waxed string: bows only, +10 while
+waxed this week. Does not stack with
+the case.
+Head wedge: no hitpoint multiplier.
+Below half current maximum, it stops
+the next moisture loss from being the
+haft-split that ruins the weapon.
+Then it is spent.
+
+Kraken sinew does not stop the roll.
+At 0 hitpoints the straps remain.
+They hold a ruined piece together.
+They do not soak.
+
+Sea-serpent scale: +30 on the moisture
+threshold. The scales do not tarnish.
+At 0 hitpoints they may be taken off
+and set on another eligible piece.
+The ruined foundation is scrap.
+
+--------------------------------------------------
+6. HARNESS POOL
+--------------------------------------------------
+
+Piece hitpoints still move (section 1).
+The wearer does not keep a second
+condition band per helm or greave in
+the fight. Read the kit as one pool.
+
+  Max     = sum of Max HP on equipped
+            pieces (Textile, Maille,
+            Modular Segmented, Solid)
+  Current = sum of their Current HP
+  %       = (Current ÷ Max) × 100
+
+Clothing is not in the pool.
+A piece at 0 still counts in Max.
+Its Current is 0.
+
+--------------------------------------------------
+7. WEAR TIERS
+--------------------------------------------------
+
+Heavy metal
+  WS, BS, and Agility penalties apply
+  only if the wearer has Modular
+  Segmented or Solid Plate on, and
+  that piece is not an exemption.
+  Textile and Maille alone never
+  impose those penalties, even at 0%.
+
+  Exempt, even if ruined:
+    Open Helmet
+    Bracers
+    Couter
+    Poleyn
+  Those pieces sit in the pool.
+  They do not by themselves turn
+  the heavy-metal clause on.
+  A breastplate beside them does.
+
+Social
+  Fellowship from the tier applies
+  to every layer, cloth and mail
+  included. One tier rider. It does
+  not stack with itself across pieces.
+  Upgrade Fellowship (paint, and the
+  like) is separate and still once
+  per upgrade.
+
+  100–95%   Pristine
+            No WS / BS / Agility penalty.
+            +10 Fellowship.
+  94–75%    Maintained
+            No combat penalty.
+            +5 Fellowship.
+  74–50%    Common worn
+            Heavy metal: −5 WS, −5 BS,
+            −5 Agility.
+            Fellowship +0.
+  49–25%    Campaign worn
+            Heavy metal: −10 WS, −10 BS,
+            −10 Agility.
+            −10 Fellowship.
+  24–0%     Ruined
+            Heavy metal: −15 WS, −15 BS,
+            −15 Agility.
+            −15 Fellowship.
+            Strip the kit before a
+            smith salvages it.
+
+Agility already moves M and the
+physical skills. Do not apply a
+second movement penalty.
+
+Context
+  The tier is what they see before
+  a word. Apply the room, not both
+  rooms at once.
+
+  Court, monastery, polite hall
+    Pristine or Maintained: wealth,
+    discipline, a right to be there.
+    Guards and nobles grant the
+    professional respect.
+    Common worn, Campaign worn, or
+    Ruined: vagabond, sellsword, or
+    wrong. Hands on hilts. Coin up
+    front. A noble looks past.
+  Tidings
+    Waive the Campaign and Ruined
+    Fellowship penalty if this court
+    knows the ruin is the deed.
+    A knight off a night ride with
+    the news, harness shattered,
+    is proof, not an insult.
+    The waiver is this audience.
+    It does not repaint the kit.
+  Camp, frontier, underworld
+    Common worn or Campaign worn:
+    one of them. A veteran. No
+    extra Fellowship from the room.
+    Pristine or Maintained: outsider.
+    Spy, soft envoy, or a purse.
+    The +10 and +5 still sit on the
+    sheet. The room may spend them
+    as suspicion, not respect.
+
+--------------------------------------------------
+8. WEAPONS
+--------------------------------------------------
+
+One track per weapon. Not in the harness
+pool. No Fellowship tier from a nicked
+blade in this pass.
+
+Wear
+  Flesh, or catching AC ≤ the type value
+  used on that blow: no weapon loss.
+  Catching AC > that type value:
+  loss = AC − type value.
+  Floor 0. At 0 the weapon is ruined.
+  Experimental and Unreliable still ruin
+  on their own rolls (Weaponry.txt).
+
+Iron Grade and alloys multiply this base.
+One metal. HP only. Cost, Enc, damage,
+and eligibility are Weaponry.txt §2.
+
+  Wrought      ×0.75
+  Low-carbon   ×1.00
+  Hardened     ×1.25
+  Crucible     ×1.50
+  Zenith       ×1.75
+  Bronze       ×0.65
+  Brass        ×0.55
+  Copper       ×0.50
+
+  Wrought mace, one hand: 95 × 0.75 = 71
+  Bronze mace, one hand: 95 × 0.65 = 61
+  Brass axe, one hand: 78 × 0.55 = 42
+  Copper dagger: 75 × 0.50 = 37
+
+No grade: staff, bow limb, sling, sling
+staff, improvised wood. A crossbow’s prod
+takes the grade. A polearm’s head takes
+the grade. The haft is still the listed
+base. Armour alloys are Armour.txt:
+bronze and brass only, on the six pieces
+named in section 3.
+
+Bases
+
+  One-handed mace            95
+  Two-handed mace            88
+  Staff                      80
+  Utility axe (hatchet)      85
+  Dagger                     75
+  Misericordia               70
+  Main gauche                65
+  One-handed axe             78
+  Two-handed axe             72
+  Single-edged curved        65
+  Double-edged straight      60
+  H&H single-edged           55
+  H&H double-edged           50
+  Great single-edged         45
+  Great double-edged         40
+  2H polearm short           55
+  Spear                      50
+  Lance                      25
+    Spent shaft. A standing
+    hit on a charge may snap
+    it: if the hit is 0
+    hitpoints or the GM names
+    the break, it is ruined.
+  2H polearm long            35
+  2H polearm very long       15
+  Sling pouch                90
+  Staff sling                60
+  Improvised                 50
+  Throwing axe               75
+  Throwing dagger            70
+  Javelin                    55
+  Longbow                    55
+  Heavy bow                  50
+  Medium bow                 45
+  Light bow                  40
+  Heavy crossbow             48
+  Medium crossbow            42
+  Light crossbow             38
+  Pistol crossbow            32
+  Repeater                   25
+
+Ammunition is spent. It has no track.
+Siege pieces are narrative.
+
+Langets
+  Polearms except the lance. ×1.30
+  hitpoints, after Grade and before
+  Craft. Enc and cost are Weaponry.txt.
+
+--------------------------------------------------
+10. CRAFTSMANSHIP
+--------------------------------------------------
+
+This is the only copy. Tiers are the
+proficiency list in Economy_Labour.txt.
+Listed pieces are Journeyman. It sits
+after Model, Form, Upgrades, and metal
+grade. It does not replace a grade.
+It does not change AC or damage.
+
+  Apprentice              cost ×0.25   HP ×0.25
+  Journeyman              cost ×1      HP ×1
+  Experienced             cost ×1.25   HP ×1.25
+  Local Renown            cost ×2      HP ×2
+  Region / Kingdom        cost ×5      HP ×5
+  World-renowned          cost ×10     HP ×10
+
+Floor the hitpoints. The ×5 and ×10
+are commissions, not the stall price.
+Same note as Economy_Labour.
+
+A sheath uses the blade’s tier.
+It is not a second craft on its own.
+
+--------------------------------------------------
+11. WHAT THIS PASS DOES NOT DO
+--------------------------------------------------
+
+No hitpoint change from Form, hem,
+or sleeve.
+No second moisture roll in the same day.
+No durability on Natural Armour.
+No weapon Fellowship tier.

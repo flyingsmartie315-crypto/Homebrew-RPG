@@ -1,0 +1,47 @@
+# Economy_Primary_Goods.txt
+# Router. Tickets live in the files below.
+# Do not add a good here. Add it to its category file.
+
+HEADER NOTE
+All prices use the universal currency (1 gc = 20 sc = 240 bc).
+Prices shown are base market values and are subject to ±50% (or greater) fluctuation by region, season, supply, and demand.
+Base unit is 1 kg wherever practical. Larger lots are provided for convenience.
+
+Bulk is packed density for the good in its listed packing.
+A vehicle is full at whichever comes first: weight or volume.
+Standard cart: 800 kg or 2.5 m³
+Heavy cart: 1,500 kg or 4 m³
+River timber barge: 12,000 kg or 30 m³
+A "cart load" is one standard cart.
+A "heavy-cart load" is one heavy cart.
+A "barge-load" is one river timber barge.
+
+Packing
+The Bulk figure already includes the listed packing.
+Use the modifiers below only when the good is packed differently from its listed method.
+
+Sacks
++2% weight. +5% volume.
+Default for grain, salt, charcoal, dried meat, dried fish.
+
+Baskets
++15–25% volume.
+Default for eggs, berries, greens, moss, and anything that must breathe or not be crushed.
+
+Casks / Crates
++8–12% weight.
+Volume is the cask's outside measure.
+Default for butter, tallow, pitch, milk, and breakable dry goods.
+
+Loose pile
+No extra penalty.
+Default for ore, coal, stone, bricks, clay, peat, and logs.
+
+Files
+  Agriculture                  Economy_Primary_Agriculture.txt
+  Animal Products              Economy_Primary_Animal_Products.txt
+  Wilderness Foraging          Economy_Primary_Wilderness_Foraging.txt
+  Forestry                     Economy_Primary_Forestry.txt
+  Earths and Salts             Economy_Primary_Earths_and_Salts.txt
+  Minerals                     Economy_Primary_Minerals.txt
+  Stone and Volcanic Products  Economy_Primary_Stone.txt

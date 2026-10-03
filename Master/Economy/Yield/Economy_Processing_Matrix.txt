@@ -755,7 +755,39 @@ Facility: foundry
 Tech: listed T2 / min T1 / max T3
 Waste: 0.05
 Capital: Kit 2 gc | Plant 8–20 gc
-Floor: holds.
+Floor: 6 sc/kg holds. Matches Steel. Shop ticket stays listed.
+
+Zinc
+From: calamine ore
+Input: 6 kg calamine + 4 kg charcoal / kg  [T2]
+Labour: Hazardous + founder × 1 day / 15 kg
+Facility: closed retort or a knowing hearth. Open roast loses the metal.
+Tech: listed T2 / min T2 / max T3
+Waste: most of the ore
+Capital: Plant 10–25 gc
+Floor: 3 sc/kg. Import if no calamine is written.
+
+Brass
+From: Copper + Zinc
+Input: 0.80 kg Copper + 0.25 kg Zinc / kg
+Fuel: 1 kg charcoal / kg
+Labour: Higher skilled (founder) × 0.5 day / 10 kg  [T2]
+Facility: foundry
+Tech: listed T2 / min T2 / max T3
+Waste: 0.08
+Capital: Kit 2 gc | Plant as bronze
+Floor: 5 sc/kg. Shop ticket listed ×0.90.
+       Cementation (copper + calamine, no zinc ingot) is the same floor.
+
+Copper arm (cast)
+From: Copper
+Input: 1.20 kg Copper / kg finished head or fitting
+Labour: founder × 0.4 day / 5 kg  [T1]
+Facility: foundry or a smith who can cast
+Tech: listed T1 / min T1 / max T3
+Waste: 0.15
+Floor: shop ticket listed ×0.75. Not armour.
+       A hammered copper sheet is the same rate. It is not a blade.
 
 Lead
 From: lead ore
@@ -799,7 +831,7 @@ USING THIS WITH A REGION
 4. Apply labour and waste multipliers from the starting listed Tech.
 5. Book hands from W (Economy_Yield.txt). Do not invent a second workforce.
 6. Fuel (charcoal, wood) must exist on the product sheet or as an import.
-7. Finished Arms and Tools then take Wrought Iron, Steel, and shaft-blanks from this ladder. They do not remake the bloomery.
+7. Finished Arms and Armour then take Wrought Iron, Steel, or a named pre-iron alloy from this ladder. They do not remake the bloomery or the foundry.
 
 
 --------------------------------------------------

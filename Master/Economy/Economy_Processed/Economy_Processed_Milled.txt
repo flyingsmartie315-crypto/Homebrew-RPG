@@ -1,0 +1,108 @@
+# Economy_Processed_Milled.txt
+# Processed goods — Milled and Baked
+# Law: Economy_Processed_Goods.txt (currency, bulk, packing)
+# Making: Economy_Processing_Matrix.txt
+# Base unit: 1 kg, or 1 litre where noted. 1 gc = 20 sc = 240 bc.
+
+Milled and Baked
+
+  Common flour
+  Mixed or unnamed grain-meal from the mill.
+  Use this when the crop is not named.
+  Base: 6 bc per kg
+  Bulk: 600 kg/m³
+  Packing: sack
+  Sack (40 kg) → 20 sc
+  Cart load (800 kg) → 400 sc
+
+  Wheat flour
+  Leavened white or mixed wheat-meal.
+  Made from wheat. Fails where wheat fails.
+  Base: 7 bc per kg
+  Bulk: 600 kg/m³
+  Packing: sack
+  Sack (40 kg) → 23 sc 4 bc
+  Cart load (800 kg) → 466 sc 8 bc
+
+  Rye flour
+  Dark meal of poor and cold floors.
+  Made from rye.
+  Base: 6 bc per kg
+  Bulk: 600 kg/m³
+  Packing: sack
+  Sack (40 kg) → 20 sc
+  Cart load (800 kg) → 400 sc
+
+  Barley meal
+  Coarse meal. Pottage and poor bread.
+  Made from barley.
+  Base: 5 bc per kg
+  Bulk: 600 kg/m³
+  Packing: sack
+  Sack (40 kg) → 16 sc 8 bc
+  Cart load (800 kg) → 333 sc 4 bc
+
+  Oatmeal
+  Crushed oats. Porridge and horse-feed that keeps.
+  Made from oats.
+  Base: 5 bc per kg
+  Bulk: 550 kg/m³
+  Packing: sack
+  Sack (40 kg) → 16 sc 8 bc
+  Cart load (800 kg) → 333 sc 4 bc
+
+  Buckwheat meal
+  Grey meal of short-season ground.
+  Made from buckwheat.
+  Base: 6 bc per kg
+  Bulk: 550 kg/m³
+  Packing: sack
+  Sack (40 kg) → 20 sc
+  Cart load (800 kg) → 400 sc
+
+  Chestnut flour
+  Sweet meal of the bread-tree.
+  Made from dried sweet chestnut.
+  Base: 8 bc per kg
+  Bulk: 550 kg/m³
+  Packing: sack
+  Sack (30 kg) → 20 sc
+  Cart load (800 kg) → 533 sc 4 bc
+
+  Pulse meal
+  Pease or bean-meal for pottage.
+  Made from field pea, fava, or lentil.
+  Base: 5 bc per kg
+  Bulk: 650 kg/m³
+  Packing: sack
+  Sack (40 kg) → 16 sc 8 bc
+  Cart load (800 kg) → 333 sc 4 bc
+
+  Malt
+  Kiln-dried sprouted barley (or mixed grain).
+  Made for the brewer. Not a bread-flour.
+  Base: 8 bc per kg
+  Bulk: 500 kg/m³
+  Packing: sack
+  Sack (40 kg) → 26 sc 8 bc
+  Cart load (800 kg) → 533 sc 4 bc
+
+  Bread
+  Common loaf. Wheat where the floor allows; rye or mixed on a cold vale.
+  Made by the baker. Eaten the same day or the next.
+  Sold by the loaf more often than by the cart.
+  Base: 10 bc per kg
+  Bulk: 350 kg/m³
+  Packing: basket / crate
+  Loaf (1 kg) → 10 bc
+  Basket (10 kg) → 8 sc 4 bc
+  Cart load (800 kg) → 666 sc 8 bc
+
+  Rye bread
+  Dense loaf of rye-meal. Keeps longer than wheat-bread.
+  Base: 8 bc per kg
+  Bulk: 400 kg/m³
+  Packing: basket / crate
+  Loaf (1 kg) → 8 bc
+  Basket (10 kg) → 6 sc 8 bc
+  Cart load (800 kg) → 533 sc 4 bc

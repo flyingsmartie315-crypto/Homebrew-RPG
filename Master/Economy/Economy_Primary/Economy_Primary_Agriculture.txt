@@ -1,0 +1,107 @@
+# Economy_Primary_Agriculture.txt
+# Primary goods — Agriculture
+# Law: Economy_Primary_Goods.txt (currency, bulk, packing)
+# Base unit: 1 kg unless the line says otherwise.
+# 1 gc = 20 sc = 240 bc. Cart 800 kg / 2.5 m³. Heavy cart 1,500 kg / 4 m³. Barge 12,000 kg / 30 m³.
+
+Agriculture
+
+  Grain
+  The staple seed-crop of settled land.
+  Base: 3 bc per kg
+  Bulk: 750 kg/m³
+  Packing: sack
+  Sack (40 kg) → 10 sc
+  Cart load (800 kg) → 200 sc
+  Heavy-cart load (1,500 kg) → 375 sc
+
+  Root Vegetables
+  Plot-crops of the common house: carrots, cabbages, beets, onions, peas, potatoes, and their like.
+  Base: 2 bc per kg
+  Bulk: 550 kg/m³
+  Packing: sack / basket
+  Sack (30 kg) → 5 sc
+  Cart load (800 kg) → 133 sc 4 bc
+  Heavy-cart load (1,500 kg) → 250 sc
+
+  Apples
+  The common orchard fruit of temperate country.
+  Base: 4 bc per kg
+  Bulk: 550 kg/m³
+  Packing: sack / crate
+  Sack (25 kg) → 8 sc 4 bc
+  Cart load (800 kg) → 266 sc 8 bc
+  Heavy-cart load (1,500 kg) → 500 sc
+
+  Citrus Fruit
+  Oranges, lemons, limes, and their like.
+  Base: 9 bc per kg
+  Bulk: 600 kg/m³
+  Packing: crate
+  Crate (20 kg) → 15 sc
+  Cart load (800 kg) → 600 sc
+  Heavy-cart load (1,500 kg) → 1,125 sc
+
+  Berries (cultivated)
+  Garden and field berries: strawberry, cherry, and their like.
+  Base: 8 bc per kg
+  Bulk: 400 kg/m³
+  Packing: basket
+  Basket (5 kg) → 3 sc 4 bc
+  Cart load (800 kg) → 533 sc 4 bc
+  Heavy-cart load (1,500 kg) → 1,000 sc
+
+  Olives
+  Base: 4 bc per kg
+  Bulk: 650 kg/m³
+  Packing: sack / crate
+  Sack (30 kg) → 10 sc
+  Cart load (800 kg) → 266 sc 8 bc
+  Heavy-cart load (1,500 kg) → 500 sc
+
+  Grapes
+  Base: 6 bc per kg
+  Bulk: 600 kg/m³
+  Packing: crate
+  Crate (20 kg) → 10 sc
+  Cart load (800 kg) → 400 sc
+  Heavy-cart load (1,500 kg) → 750 sc
+
+  Date Fruit (dried)
+  Base: 9 bc per kg
+  Bulk: 650 kg/m³
+  Packing: sack
+  Sack (25 kg) → 18 sc 9 bc
+  Cart load (800 kg) → 600 sc
+  Heavy-cart load (1,500 kg) → 1,125 sc
+
+  Flax
+  Base: 7 bc per kg
+  Bulk: 180 kg/m³
+  Packing: bundle / sack
+  Bundle/sack (20 kg) → 11 sc 8 bc
+  Cart load (450 kg, volume) → 262 sc 6 bc
+  Heavy-cart load (720 kg, volume) → 420 sc
+
+  Raw Silk
+  Base: 2 sc per kg
+  Bulk: 120 kg/m³
+  Packing: bundle
+  Bundle (5 kg) → 10 sc
+  Cart load (300 kg, volume) → 600 sc
+
+  Spice
+  Base: 3 sc per kg
+  Bulk: 400 kg/m³
+  Packing: chest / crate
+  Small chest (5 kg) → 15 sc
+  Cart load (800 kg) → 2,400 sc
+
+  Dyes
+  Base: 1 sc 10 bc per kg
+  Bulk: 400 kg/m³
+  Packing: pot / crate
+  Pot (5 kg) → 9 sc 2 bc
+  Cart load (800 kg) → 1,466 sc 8 bc
+
+

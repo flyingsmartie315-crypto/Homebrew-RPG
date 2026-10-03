@@ -1,0 +1,20 @@
+# Economy_Processed_Leather.txt
+# Processed goods — Leather
+# Law: Economy_Processed_Goods.txt (currency, bulk, packing)
+# Making: Economy_Processing_Matrix.txt
+# Base unit: 1 kg, or 1 litre where noted. 1 gc = 20 sc = 240 bc.
+
+Leather
+Hides made usable.
+
+  Leather
+  Tanned hide.
+  Made from raw hides, tannin, and time.
+  Used for shoes, belts, tack, and jacks.
+  Base: 40 bc per kg
+  Bulk: 400 kg/m³
+  Packing: bundle
+  Bundle (20 kg) → 66 sc 8 bc
+  Larger lot (50 kg) → 166 sc 8 bc
+  Cart load (800 kg) → 2,666 sc 8 bc
+  Heavy-cart load (1,500 kg) → 5,000 sc

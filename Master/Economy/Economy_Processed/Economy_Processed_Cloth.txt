@@ -1,0 +1,142 @@
+# Economy_Processed_Cloth.txt
+# Processed goods — Cloth, Fibre, and Dye
+# Law: Economy_Processed_Goods.txt (currency, bulk, packing)
+# Making: Economy_Processing_Matrix.txt
+# Base unit: 1 kg, or 1 litre where noted. 1 gc = 20 sc = 240 bc.
+
+Cloth and Fibre
+Spun, woven, or felted goods.
+
+  Wool Cloth
+  Ordinary woven woollen.
+  Made from wool by spinning and weaving.
+  Used for hose, kirtles, cloaks, and common clothing.
+  Base: 1 sc per kg (≈ 3–4 m²)
+  Bulk: 220 kg/m³
+  Packing: bolt / bale
+  Bolt (10 kg) → 10 sc
+  Cart load (550 kg, volume) → 550 sc
+
+  Silk Cloth
+  Woven silk.
+  Made from raw silk by specialised weavers.
+  Used for rich clothing and display.
+  Base: 8 sc per kg
+  Bulk: 180 kg/m³
+  Packing: bolt
+  Bolt (5 kg) → 40 sc
+  Cart load (450 kg, volume) → 3,600 sc
+
+  Linen
+  Woven flax-cloth.
+  Made from retted flax by spinning and weaving.
+  Used for shirts, sails, and household cloth.
+  Base: 1 sc 5 bc per kg (≈ 4–5 m²)
+  Bulk: 250 kg/m³
+  Packing: bolt / bale
+  Bolt (10 kg) → 14 sc 2 bc
+  Cart load (625 kg, volume) → 885 sc 5 bc
+  Heavy-cart load (1,000 kg, volume) → 1,416 sc 8 bc
+
+  Felt
+  Beaten wool-cloth.
+  Made from wool without a true weave.
+  Used for hats, padding, and cheap warm layers.
+  Base: 25 bc per kg
+  Bulk: 180 kg/m³
+  Packing: roll / bale
+  Roll (15 kg) → 31 sc 3 bc
+  Cart load (450 kg, volume) → 937 sc 6 bc
+  Heavy-cart load (720 kg, volume) → 1,500 sc
+
+  Velvet
+  Fine dyed pile-cloth.
+  Made from good wool or silk, dye, and skilled weaving.
+  Used for rich clothing and display.
+  Base: 6 sc per kg
+  Bulk: 200 kg/m³
+  Packing: bolt
+  Bolt (5 kg) → 30 sc
+  Cart load (500 kg, volume) → 3,000 sc
+
+  Rope
+  Laid cordage from flax (or hemp where grown).
+  Made by the ropemaker.
+  Used for carts, ships, wells, and binding.
+  Base: 18 bc per kg
+  Bulk: 250 kg/m³
+  Packing: coil
+  Coil (10 kg) → 15 sc
+  Cart load (625 kg, volume) → 937 sc 6 bc
+
+  Hemp cloth
+  Coarse woven hemp.
+  Made from hemp. Cheaper and harsher than linen.
+  Used for sacks, work-clothes, and cheap sail-patches.
+  Base: 10 bc per kg (≈ 3 m²)
+  Bulk: 250 kg/m³
+  Packing: bolt / bale
+  Bolt (10 kg) → 8 sc 4 bc
+  Cart load (625 kg, volume) → 520 sc 10 bc
+
+  Canvas
+  Heavy hemp or flax sail-cloth.
+  Made from hemp or coarse flax.
+  Used for sails, tents, and covers.
+  Base: 16 bc per kg
+  Bulk: 280 kg/m³
+  Packing: bolt
+  Bolt (15 kg) → 20 sc
+  Cart load (700 kg, volume) → 933 sc 4 bc
+
+  Tar
+  Pine or fir boiled to ship-pitch.
+  Made from fatwood, kiln-smoke, or a tar-pit.
+  Used for seams, standing rigging, and weatherproofing.
+  Not a plank. Not turpentine.
+  Base: 8 bc per kg
+  Bulk: 900 kg/m³
+  Packing: barrel
+  Barrel (50 kg) → 33 sc 4 bc
+  Cart load (800 kg) → 533 sc 4 bc
+  Heavy-cart load (1,500 kg) → 1,000 sc
+
+Prepared dye
+Crop dye made ready for the vat.
+Primary “Dyes” is the raw plant or lump. This is the workshop take.
+
+  Woad balls
+  Fermented, dried woad.
+  Made from woad leaf. The blue of cool country.
+  Base: 2 sc 6 bc per kg
+  Bulk: 400 kg/m³
+  Packing: sack / crate
+  Sack (10 kg) → 25 sc
+  Cart load (800 kg) → 2,000 sc
+
+  Madder extract
+  Prepared red from the root.
+  Made from madder after the two- or three-year wait.
+  Base: 3 sc per kg
+  Bulk: 400 kg/m³
+  Packing: pot / crate
+  Pot (5 kg) → 15 sc
+  Cart load (800 kg) → 2,400 sc
+
+  Weld cake
+  Dried yellow dye-stuff.
+  Made from weld stalk.
+  Base: 1 sc 8 bc per kg
+  Bulk: 350 kg/m³
+  Packing: sack
+  Sack (10 kg) → 16 sc 8 bc
+  Cart load (800 kg) → 1,333 sc 4 bc
+
+  Indigo cake
+  Prepared hot-country blue.
+  Made from indigo. Out-prices woad on the long road.
+  Base: 8 sc per kg
+  Bulk: 500 kg/m³
+  Packing: chest
+  Cake lot (5 kg) → 40 sc
+  Cart load (800 kg) → 6,400 sc

@@ -220,6 +220,32 @@ Masts and yards use Pine spar / pole blanks at 1.2 bc/kg unless named otherwise.
 Pine plank 1 bc/kg. Oak plank 2.6 bc/kg. Wrought iron 50 bc/kg.
 Rope 18 bc/kg. Canvas 16 bc/kg.
 
+Svartwood is a grade, not one heavy timber.
+Tickets: Economy_Processed_Goods.txt.
+  Rim / pale    12 bc/kg    600 kg/m³    strakes, deck, light frames
+  Mid           20 bc/kg    720 kg/m³    waterline, ordinary frames
+  Heart / vent   6 sc/kg    850 kg/m³    keel, stem, stern only
+A whole hull of heart is not legal. The old 850 kg/m³ blanket is dead.
+Skin is rim. Rim is lighter than oak plank (oak log 650 kg/m³).
+Heart is the heavy cut, and it is a few members, not the shell.
+Wet-wrap. Hazardous dust. Dauðavík yard, or a hull that already carried the heart.
+Do not charcoal the offcuts.
+
+Mass on a named scantling
+  Replace oak plank kg with rim plank kg × 0.92 (600 / 650).
+  Knees and waterline that were oak compass-timber: mid, same kg.
+  Keel, stem, stern: heart, and only those pieces.
+  A Kogge-scale skin (20,000 kg oak plank) becomes about 18,400 kg rim.
+  Heart on that hull is the keel and the two ends, not 20,000 kg.
+  Book heart at 4–6% of skin mass (about 750–1,100 kg on a cog).
+  Finished mass of a rim-skinned cog sits under the oak ticket, not over it.
+
+Coin on that cog
+  Rim skin 18,400 kg × 12 bc = 220,800 bc = 920 gc
+  Heart 900 kg × 6 sc = 270 gc
+  That skin is dear because the ticket is 12 bc/kg, not because the hull is heavier.
+  An oak skin at 2.6 bc/kg on 20,000 kg is 43 gc. Rim is the price. Heart is the members.
+
 
 --------------------------------------------------
 1. INLAND AND WATER-RING (T0-T2)

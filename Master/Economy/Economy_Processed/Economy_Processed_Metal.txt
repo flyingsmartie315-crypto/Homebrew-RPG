@@ -1,0 +1,158 @@
+# Economy_Processed_Metal.txt
+# Processed goods — Metal
+# Law: Economy_Processed_Goods.txt (currency, bulk, packing)
+# Making: Economy_Processing_Matrix.txt
+# Base unit: 1 kg, or 1 litre where noted. 1 gc = 20 sc = 240 bc.
+
+Metal
+Ore reduced and refined. Each step costs more than the last.
+Ingots stack dense. Bulk: 4,000 kg/m³. Packing: loose pile.
+Carts always fill by weight.
+
+  Crude Iron
+  Bloom or rough pig from the furnace.
+  Made from iron ore or bog iron.
+  Used only to be worked again.
+  Base: 24 bc per kg
+  Single ingot (1 kg) → 2 sc
+  Ingot lot (50 kg) → 100 sc
+  Cart load (800 kg) → 1,600 sc
+  Heavy-cart load (1,500 kg) → 3,000 sc
+
+  Wrought Iron
+  Hammered, usable iron.
+  Made from crude iron by smith’s labour.
+  Used for tools, fittings, and common arms.
+  Base: 50 bc per kg
+  Single ingot (1 kg) → 4 sc 2 bc
+  Ingot lot (50 kg) → 208 sc 4 bc
+  Cart load (800 kg) → 3,333 sc 4 bc
+  Heavy-cart load (1,500 kg) → 6,250 sc
+
+  Steel
+  Hardened, refined iron.
+  Made from wrought iron with more fire and skill.
+  Used for good edges and better arms.
+  Base: 6 sc per kg
+  Single ingot (1 kg) → 6 sc
+  Ingot lot (50 kg) → 300 sc
+  Cart load (800 kg) → 4,800 sc
+  Heavy-cart load (1,500 kg) → 9,000 sc
+
+  Fine Steel
+  Clean, even steel for the best common work.
+  Made from steel by specialist smiths.
+  Used for fine blades and precision tools.
+  Base: 12 sc per kg
+  Single ingot (1 kg) → 12 sc
+  Ingot lot (30 kg) → 360 sc
+  Cart load (800 kg) → 9,600 sc
+
+  Crucible Steel
+  Rare, very even steel.
+  Made from fine steel by restricted, costly refinement.
+  Used for exceptional blades and prized work.
+  Base: 12 gc per kg
+  Single ingot (1 kg) → 12 gc
+  Small lot (5 kg) → 60 gc
+
+  Note on metal scrap
+  Any piece that can be melted or faggoted keeps value.
+  Price scrap as a fraction of the parent metal’s per-kg rate.
+
+  Clean, sorted scrap of one metal: 50–70% of that metal’s ingot price
+  Rusty but still one metal: 35–50%
+  Mixed or dirty scrap: 20–35% of the cheapest metal in the heap
+  Precious or steel scrap keeps its own ladder.
+
+  Examples, per kg
+  Clean wrought-iron scrap → 25–35 bc
+  Rusty nails and offcuts → 18–25 bc
+  Mixed iron heap → 10–18 bc
+  Clean steel scrap → 3–4 sc
+
+  Copper
+  Smelted copper.
+  Made from copper ore.
+  Used for pots, fittings, roofing, and bronze.
+  Base: 50 bc per kg
+  Bulk: 4,000 kg/m³
+  Packing: loose pile
+  Single ingot (1 kg) → 4 sc 2 bc
+  Cart load (800 kg) → 3,333 sc 4 bc
+
+  Tin
+  Smelted tin.
+  Made from tin ore.
+  Used with copper to make bronze.
+  Base: 4 sc per kg
+  Bulk: 4,000 kg/m³
+  Packing: loose pile
+  Single ingot (1 kg) → 4 sc
+  Ingot lot (50 kg) → 200 sc
+
+  Bronze
+  Copper and tin together. About nine parts copper, one part tin.
+  Made by the founder. Arms and the short armour list in Armour.txt.
+  Ingot matches Steel (6 sc/kg). That is why a bronze piece keeps the listed shop price.
+  Base: 6 sc per kg
+  Bulk: 4,000 kg/m³
+  Packing: loose pile
+  Single ingot (1 kg) → 6 sc
+  Ingot lot (50 kg) → 300 sc
+
+  Zinc
+  From calamine. Feedstock for brass. Not a weapon metal alone.
+  Base: 3 sc per kg
+  Bulk: 4,000 kg/m³
+  Packing: loose pile
+  Single ingot (1 kg) → 3 sc
+  Ingot lot (20 kg) → 60 sc
+
+  Brass
+  Copper and zinc. Softer than bronze. Fittings, cast heads, the short armour list.
+  Ingot under Steel. Shop ticket is listed ×0.90.
+  Base: 5 sc per kg
+  Bulk: 4,000 kg/m³
+  Packing: loose pile
+  Single ingot (1 kg) → 5 sc
+  Ingot lot (50 kg) → 250 sc
+
+  Pre-iron shop rule
+  Listed arm and armour prices are Low-carbon (Steel, 6 sc/kg).
+  Swap the metal. Do not also apply Iron Grade.
+    Bronze   ×1.00    ingot matches Steel
+    Brass    ×0.90    ingot 5 sc/kg
+    Copper   ×0.75    ingot 50 bc/kg; arms only, not armour
+  Enc and damage or AC are Core (Weaponry.txt §2, Armour.txt §9).
+  Not legal: great blades, long polearms, lance, any crossbow,
+  mail, solid cuirass, closed helm. Copper is not armour.
+
+  Lead
+  Smelted lead.
+  Made from lead ore.
+  Used for roofs, pipes, shot, and seals.
+  Base: 22 bc per kg
+  Bulk: 5,000 kg/m³
+  Packing: loose pile
+  Single ingot (1 kg) → 1 sc 10 bc
+  Cart load (800 kg) → 1,466 sc 8 bc
+
+  Silver (refined)
+  Fine silver.
+  Made from silver ore.
+  Used for coin, plate, and fine work.
+  Base: 200 sc per kg
+  Bulk: 5,000 kg/m³
+  Packing: chest
+  Ingot (1 kg) → 10 gc
+  Small lot (5 kg) → 50 gc
+
+  Gold (refined)
+  Fine gold.
+  Made from gold ore.
+  Used for coin and high ornament.
+  Base: 200 gc per kg
+  Bulk: 5,000 kg/m³
+  Packing: chest
+  Ingot (1 kg) → 200 gc

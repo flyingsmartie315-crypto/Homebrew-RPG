@@ -1,0 +1,31 @@
+# Economy_Primary_Earths_and_Salts.txt
+# Primary goods — Earths and Salts
+# Law: Economy_Primary_Goods.txt (currency, bulk, packing)
+# Base unit: 1 kg unless the line says otherwise.
+# 1 gc = 20 sc = 240 bc. Cart 800 kg / 2.5 m³. Heavy cart 1,500 kg / 4 m³. Barge 12,000 kg / 30 m³.
+
+Earths and Salts
+
+  Clay
+  Base: 2 bc per kg
+  Bulk: 1,600 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 133 sc 4 bc
+  Heavy-cart load (1,500 kg) → 250 sc
+
+  Salt
+  Base: 18 bc per kg
+  Bulk: 1,200 kg/m³
+  Packing: sack
+  Sack (20 kg) → 30 sc
+  Cart load (800 kg) → 1,200 sc
+  Heavy-cart load (1,500 kg) → 2,250 sc
+
+  Peat
+  Base: 2 bc per kg
+  Bulk: 350 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 133 sc 4 bc
+  Heavy-cart load (1,400 kg, volume) → 233 sc 4 bc
+
+

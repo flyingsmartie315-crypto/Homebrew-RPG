@@ -1,0 +1,27 @@
+# Economy_Processed_Household.txt
+# Processed goods — Household lights
+# Law: Economy_Processed_Goods.txt (currency, bulk, packing)
+# Making: Economy_Processing_Matrix.txt
+# Base unit: 1 kg, or 1 litre where noted. 1 gc = 20 sc = 240 bc.
+
+Household lights
+
+  Tallow Candles
+  Cheap candles from rendered fat.
+  Made from tallow.
+  Used for ordinary indoor light.
+  Base: 16 bc per kg
+  Bulk: 800 kg/m³
+  Packing: crate
+  Dozen (1 kg) → 1 sc 4 bc
+  Cart load (800 kg) → 1,066 sc 8 bc
+
+  Beeswax Candles
+  Cleaner, dearer candles.
+  Made from beeswax.
+  Used in halls, churches, and fine houses.
+  Base: 28 bc per kg
+  Bulk: 800 kg/m³
+  Packing: crate
+  Dozen (1 kg) → 2 sc 4 bc
+  Cart load (800 kg) → 1,866 sc 8 bc

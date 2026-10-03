@@ -22,6 +22,17 @@ Same rule as tan-pits in Economy_Processing_Matrix.txt.
 Stay inside the categories below. Named examples are types within a category, not separate files.
 Core/Weaponry.txt Common cost is the mid of the band.
 
+Pre-iron alloys are not an Iron Grade. One metal.
+Shop factor on the listed low-carbon ticket
+(Economy_Processed_Goods.txt):
+  Bronze  ×1.00   ingot 6 sc/kg, matches Steel
+  Brass   ×0.90   ingot 5 sc/kg
+  Copper  ×0.75   ingot 50 bc/kg
+Enc and damage stay Weaponry.txt §2.
+Not in these metals: great blades, H&H blades,
+long polearms, lance, any crossbow.
+Cast waste 1.15 on the head. Haft stays ash or named wood.
+
 Svartwood is structure, not spring. See PREMIUM: SVARTWOOD below.
 Do not tiller a bow-limb from it. Do not replace a steel prod with it.
 

@@ -1,0 +1,178 @@
+# Economy_Primary_Animal_Products.txt
+# Primary goods — Animal Products
+# Law: Economy_Primary_Goods.txt (currency, bulk, packing)
+# Base unit: 1 kg unless the line says otherwise.
+# 1 gc = 20 sc = 240 bc. Cart 800 kg / 2.5 m³. Heavy cart 1,500 kg / 4 m³. Barge 12,000 kg / 30 m³.
+
+Animal Produce
+
+  Live / Household
+
+    Milk
+    Fresh milk of cattle, goats, or sheep.
+    Spoils fast; rarely a long-haul good.
+    Base: 4 bc per kg
+    Bulk: 1,000 kg/m³
+    Packing: pail / cask
+    Pail (10 kg) → 3 sc 4 bc
+    Cask (50 kg) → 16 sc 8 bc
+    Cart load (800 kg) → 266 sc 8 bc
+
+    Butter
+    Base: 12 bc per kg
+    Bulk: 900 kg/m³
+    Packing: cask
+    Small cask (20 kg) → 20 sc
+    Cart load (800 kg) → 800 sc
+    Heavy-cart load (1,500 kg) → 1,500 sc
+
+    Cheese
+    Base: 14 bc per kg
+    Bulk: 700 kg/m³
+    Packing: sack / crate
+    Wheel/sack (15 kg) → 17 sc 6 bc
+    Cart load (800 kg) → 933 sc 4 bc
+    Heavy-cart load (1,500 kg) → 1,750 sc
+
+    Wool
+    Base: 5 bc per kg
+    Bulk: 150 kg/m³
+    Packing: sack / bundle
+    Fleece sack (25 kg) → 10 sc 5 bc
+    Cart load (375 kg, volume) → 156 sc 3 bc
+    Heavy-cart load (600 kg, volume) → 250 sc
+
+    Eggs
+    Base: 1 bc each (≈ 20 eggs per kg)
+    Bulk: 400 kg/m³
+    Packing: basket
+    Basket (100 eggs) → 8 sc 4 bc
+    Cart load (800 kg) → 1,333 sc 4 bc
+
+    Honey
+    Base: 14 bc per kg
+    Bulk: 1,400 kg/m³
+    Packing: jar / cask
+    Jar/cask (15 kg) → 17 sc 6 bc
+    Cart load (800 kg) → 933 sc 4 bc
+
+    Beeswax
+    Base: 16 bc per kg
+    Bulk: 950 kg/m³
+    Packing: block / crate
+    Block (10 kg) → 13 sc 4 bc
+    Cart load (800 kg) → 1,066 sc 8 bc
+
+  Meat
+All listed prices are raw carcase.
+Preserved (smoked / salted / dried) is the same meat after labour and materials.
+
+Preserve modifier
++ salt, fuel, and time.
+When Preserved is checked, the meat or fish is treated as salted, smoked, or dried.
+Apply +80% to +120% to the raw price (use +100% as default).
+
+  Chicken          4 bc per kg
+  Duck             4 bc per kg
+  Goose            5 bc per kg
+  Pork             5 bc per kg
+  Mutton           5 bc per kg
+  Goat             5 bc per kg
+  Beef             5 bc per kg
+  Horsemeat        3 bc per kg
+  Camel            4 bc per kg
+  Venison (roe)    5 bc per kg
+  Venison (red)    6 bc per kg
+  Venison (elk)    6 bc per kg
+  Boar             6 bc per kg
+  Bear             5 bc per kg
+  Walrus           4 bc per kg
+  Shark            5 bc per kg
+  Whale            3 bc per kg
+
+Fish
+Raw catch, lake or ocean.
++ salt, fuel, and time.
+When Preserved is checked, the meat or fish is treated as salted, smoked, or dried.
+Apply +80% to +120% to the raw price (use +100% as default).
+
+  Fish             4 bc per kg
+
+  Slaughter / Hunt, other
+
+    Hides (raw)
+    Base: 10 bc per kg
+    Bulk: 300 kg/m³
+    Packing: bundle
+    Bundle (15 kg) → 12 sc 6 bc
+    Cart load (750 kg, volume) → 625 sc
+    Heavy-cart load (1,200 kg, volume) → 1,000 sc
+
+    Fur
+    Base: 1 sc 10 bc per kg
+    Bulk: 100 kg/m³
+    Packing: bundle
+    Bundle (10 kg) → 18 sc 4 bc
+    Cart load (250 kg, volume) → 458 sc 4 bc
+    Heavy-cart load (400 kg, volume) → 733 sc 4 bc
+
+    Tallow
+    Base: 9 bc per kg
+    Bulk: 900 kg/m³
+    Packing: cask
+    Cask (25 kg) → 18 sc 9 bc
+    Cart load (800 kg) → 600 sc
+    Heavy-cart load (1,500 kg) → 1,125 sc
+
+  Carcass Parts
+
+    Bone
+    Base: 3 bc per kg
+    Bulk: 800 kg/m³
+    Packing: sack
+    Sack (20 kg) → 5 sc
+
+    Horn (livestock)
+    Base: 8 bc per kg
+    Bulk: 1,200 kg/m³
+    Packing: bundle
+    Bundle (5 kg) → 3 sc 4 bc
+
+    Gut / Sinew
+    Base: 12 bc per kg
+    Packing: salt-cask
+    Lot (5 kg) → 5 sc
+
+    Offal
+    Base: 4 bc per kg
+    Packing: basket
+    Lot (10 kg) → 3 sc 4 bc
+
+    Feathers
+    Base: 6 bc per kg
+    Bulk: 40 kg/m³
+    Packing: sack
+    Sack (5 kg) → 2 sc 6 bc
+    Cart load (100 kg, volume) → 50 sc
+
+    Down
+    Base: 1 sc 6 bc per kg
+    Bulk: 30 kg/m³
+    Packing: sack
+    Sack (2 kg) → 3 sc
+
+  Hard Animal Parts
+
+    Walrus Tusk
+    Base: 2 sc 10 bc per kg
+    Bulk: 1,800 kg/m³
+    Packing: loose / wrapped
+    Single large tusk (8–12 kg) → 22 sc 8 bc to 34 sc
+
+    Antler / Horn
+    Base: 1 sc per kg
+    Bulk: 1,800 kg/m³
+    Packing: bundle
+    Bundle (10 kg) → 10 sc
+
+

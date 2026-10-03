@@ -1,0 +1,90 @@
+# Economy_Primary_Minerals.txt
+# Primary goods — Minerals
+# Law: Economy_Primary_Goods.txt (currency, bulk, packing)
+# Base unit: 1 kg unless the line says otherwise.
+# 1 gc = 20 sc = 240 bc. Cart 800 kg / 2.5 m³. Heavy cart 1,500 kg / 4 m³. Barge 12,000 kg / 30 m³.
+
+Minerals
+
+  Iron Ore
+  Base: 8 bc per kg
+  Bulk: 2,200 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 533 sc 4 bc
+  Heavy-cart load (1,500 kg) → 1,000 sc
+
+  Bog Iron
+  Base: 5 bc per kg
+  Bulk: 1,800 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 333 sc 4 bc
+  Heavy-cart load (1,500 kg) → 625 sc
+
+  Copper Ore
+  Base: 14 bc per kg
+  Bulk: 2,200 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 933 sc 4 bc
+  Heavy-cart load (1,500 kg) → 1,750 sc
+
+  Tin Ore
+  Base: 1 sc 2 bc per kg
+  Bulk: 2,400 kg/m³
+  Packing: sack / chest
+  Small lot (10 kg) → 11 sc 8 bc
+  Sack (25 kg) → 29 sc 2 bc
+
+  Calamine / Zinc Ore
+  The stone brass is made from. Not a dye.
+  Scarcer than copper ore. Not as dear as tin.
+  Base: 10 bc per kg
+  Bulk: 2,000 kg/m³
+  Packing: sack
+  Sack (25 kg) → 20 sc 10 bc
+  Cart load (800 kg) → 666 sc 8 bc
+
+  Lead Ore
+  Base: 7 bc per kg
+  Bulk: 2,800 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 466 sc 8 bc
+  Heavy-cart load (1,500 kg) → 875 sc
+
+  Silver Ore
+  Base: 1 sc 5 bc per kg
+  Bulk: 2,600 kg/m³
+  Packing: sack / chest
+  Small sack (10 kg) → 14 sc 2 bc
+
+  Gold Ore
+  Base: 6 sc per kg
+  Bulk: 2,800 kg/m³
+  Packing: sack / chest
+  Small sack (5 kg) → 30 sc
+
+  Coal
+  Base: 3 bc per kg
+  Bulk: 800 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 200 sc
+  Heavy-cart load (1,500 kg) → 375 sc
+
+  Sulphur
+  Base: 1 sc per kg
+  Bulk: 1,000 kg/m³
+  Packing: sack / crate
+  Sack (15 kg) → 15 sc
+
+  Saltpetre
+  Base: 1 sc 8 bc per kg
+  Bulk: 900 kg/m³
+  Packing: sack / chest
+  Small sack (10 kg) → 16 sc 8 bc
+
+  Alum
+  Base: 18 bc per kg
+  Bulk: 1,000 kg/m³
+  Packing: sack
+  Sack (20 kg) → 30 sc
+
+

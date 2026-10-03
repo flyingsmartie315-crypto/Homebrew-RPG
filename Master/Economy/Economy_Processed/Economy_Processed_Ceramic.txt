@@ -1,0 +1,29 @@
+# Economy_Processed_Ceramic.txt
+# Processed goods — Ceramic
+# Law: Economy_Processed_Goods.txt (currency, bulk, packing)
+# Making: Economy_Processing_Matrix.txt
+# Base unit: 1 kg, or 1 litre where noted. 1 gc = 20 sc = 240 bc.
+
+Ceramic
+Earth fired into ware.
+
+  Pottery
+  Common fired ware.
+  Made from clay and kiln-labour.
+  Used for pots, jars, and household vessels.
+  Base: 10 bc per kg
+  Bulk: 400 kg/m³
+  Packing: crate / basket
+  Crate (40 kg) → 33 sc 4 bc
+  Cart load (800 kg) → 666 sc 8 bc
+  Heavy-cart load (1,500 kg) → 1,250 sc
+
+  Brick
+  Fired clay for building.
+  Made from clay and kiln-labour.
+  Used for walls, hearths, and linings.
+  Base: 5 bc per kg
+  Bulk: 1,600 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 333 sc 4 bc
+  Heavy-cart load (1,500 kg) → 625 sc

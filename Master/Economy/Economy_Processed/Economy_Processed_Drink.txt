@@ -1,0 +1,105 @@
+# Economy_Processed_Drink.txt
+# Processed goods — Drink and Pressed Goods
+# Law: Economy_Processed_Goods.txt (currency, bulk, packing)
+# Making: Economy_Processing_Matrix.txt
+# Base unit: 1 kg, or 1 litre where noted. 1 gc = 20 sc = 240 bc.
+
+Drink and Pressed Goods
+Liquids taken from farm produce by brewing, fermenting, or pressing.
+
+  Beer
+  Small beer and common ale.
+  Made from malted grain, water, and labour. Hops when the bine is grown.
+  Used as daily drink and a safer store than water in many towns.
+  Base: 12 bc per litre
+  Bulk: 1,000 kg/m³
+  Packing: cask
+  Small barrel (50 L) → 50 sc
+  Large barrel (100 L) → 100 sc
+  Cart load (800 L) → 800 sc
+  Heavy-cart load (1,500 L) → 1,500 sc
+
+  Wine
+  Fermented grape-drink.
+  Made from grapes in warm hill-country.
+  Used as drink, store, and trade.
+  Base: 24 bc per litre
+  Bulk: 1,000 kg/m³
+  Packing: cask
+  Small barrel (50 L) → 100 sc
+  Large barrel (100 L) → 200 sc
+  Cart load (800 L) → 1,600 sc
+  Heavy-cart load (1,500 L) → 3,000 sc
+
+  Cider
+  Fermented apple-drink.
+  Made from apples. The orchard drink of temperate country.
+  Base: 10 bc per litre
+  Bulk: 1,000 kg/m³
+  Packing: cask
+  Small barrel (50 L) → 41 sc 8 bc
+  Large barrel (100 L) → 83 sc 4 bc
+  Cart load (800 L) → 666 sc 8 bc
+
+  Perry
+  Fermented pear-drink.
+  Made from pears. Thinner on the road than cider.
+  Base: 12 bc per litre
+  Bulk: 1,000 kg/m³
+  Packing: cask
+  Small barrel (50 L) → 50 sc
+  Cart load (800 L) → 800 sc
+
+  Vinegar
+  Sour wine or sour cider. Store and kitchen.
+  Made from wine or cider left to go sharp.
+  Base: 8 bc per litre
+  Bulk: 1,000 kg/m³
+  Packing: cask / jar
+  Jar (10 L) → 6 sc 8 bc
+  Small barrel (50 L) → 33 sc 4 bc
+  Cart load (800 L) → 533 sc 4 bc
+
+  Oil (olive)
+  Pressed fruit-oil.
+  Made from olives.
+  Used for cooking, lamps, and some craft.
+  Base: 20 bc per litre
+  Bulk: 900 kg/m³
+  Packing: cask / jar
+  Jar (10 L) → 16 sc 8 bc
+  Small barrel (50 L) → 83 sc 4 bc
+  Cart load (800 L) → 1,333 sc 4 bc
+  Heavy-cart load (1,500 L) → 2,500 sc
+
+  Linseed oil
+  Pressed flax-seed oil.
+  Made from flax seed after the fibre is taken, or from a seed crop.
+  Used for paint, wood, and some lamps. Poor eating oil.
+  Base: 16 bc per litre
+  Bulk: 900 kg/m³
+  Packing: cask / jar
+  Jar (10 L) → 13 sc 4 bc
+  Small barrel (50 L) → 66 sc 8 bc
+  Cart load (800 L) → 1,066 sc 8 bc
+
+  Poppy oil
+  Pressed seed-oil.
+  Made from poppy. Watched more than linseed.
+  Used for the lamp and the kitchen in warm country.
+  Base: 24 bc per litre
+  Bulk: 900 kg/m³
+  Packing: jar / cask
+  Jar (10 L) → 20 sc
+  Small barrel (50 L) → 100 sc
+
+  Whale Oil
+  Rendered oil of great sea-beasts.
+  Taken from coastal hunts.
+  Used for lamps and some waterproofing.
+  Base: 40 bc per litre
+  Bulk: 900 kg/m³
+  Packing: cask
+  Small barrel (50 L) → 166 sc 8 bc
+  Cart load (800 L) → 2,666 sc 8 bc
+  Heavy-cart load (1,500 L) → 5,000 sc

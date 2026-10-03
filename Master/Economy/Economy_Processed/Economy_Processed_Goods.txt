@@ -1,0 +1,71 @@
+# Economy_Processed_Goods.txt
+# Router. Tickets live in the files below.
+# Do not add a good here. Add it to its category file.
+
+HEADER NOTE
+All prices use the universal currency (1 gc = 20 sc = 240 bc).
+Prices shown are base market values and are subject to ±50% (or greater) fluctuation by region, quality, supply, and demand.
+Base unit is 1 kg wherever practical. Liquids use 1 litre (≈ 1 kg).
+Larger lots are computed from the per-kg / per-litre base (1 sc = 12 bc).
+
+Processed goods normally sell for 2.5–6× the value of their primary inputs after labour and wastage, except high-skill or luxury items.
+A 1 kg scrap of a processed good is only worth its price if a workshop can use it.
+How a good is made — inputs, labour, plant, and tech level — is Economy_Processing_Matrix.txt.
+
+Bulk is packed density for the good in its listed packing.
+A vehicle is full at whichever comes first: weight or volume.
+Standard cart: 800 kg or 2.5 m³
+Heavy cart: 1,500 kg or 4 m³
+River timber barge: 12,000 kg or 30 m³
+A "cart load" is one standard cart.
+A "heavy-cart load" is one heavy cart.
+A "barge-load" is one river timber barge.
+
+Packing
+The Bulk figure already includes the listed packing.
+Use the modifiers below only when the good is packed differently from its listed method.
+
+Sacks
++2% weight. +5% volume.
+Default for sack-goods.
+
+Baskets
++15–25% volume.
+Default for pottery and anything that must breathe or not be crushed.
+
+Casks / Crates
++8–12% weight.
+Volume is the cask's outside measure.
+Default for beer, wine, oil, and other liquids.
+
+Loose pile
+No extra penalty.
+Default for ingots, planks, beams, and stacked stone-ware.
+
+Crop → file
+Grain → Meal, Malt, Bread          Economy_Processed_Milled.txt
+Pulse → Pulse meal                 Economy_Processed_Milled.txt
+Apple / Pear → Cider, Perry        Economy_Processed_Drink.txt
+Grape → Wine, Vinegar              Economy_Processed_Drink.txt
+Olive → Oil                        Economy_Processed_Drink.txt
+Flax → Linen, Linseed oil, Rope    Economy_Processed_Cloth.txt
+Hemp → Hemp cloth, Canvas, Rope    Economy_Processed_Cloth.txt
+Mulberry / Raw Silk → Silk Cloth   Economy_Processed_Cloth.txt
+Dye plants → Prepared dye          Economy_Processed_Cloth.txt
+Soft fruit / bog berry → Preserve  Economy_Processed_Preserve.txt
+Quince → Quince paste              Economy_Processed_Preserve.txt
+Cabbage → Sauerkraut               Economy_Processed_Preserve.txt
+Sweet chestnut → Chestnut flour    Economy_Processed_Milled.txt
+Svart-Viðr log → plank / member    Economy_Processed_Woodwork.txt
+Pine fatwood / kiln smoke → Tar       Economy_Processed_Cloth.txt
+
+Files
+  Milled and Baked             Economy_Processed_Milled.txt
+  Drink and Pressed Goods      Economy_Processed_Drink.txt
+  Preserve and Kitchen         Economy_Processed_Preserve.txt
+  Cloth, Fibre, and Dye        Economy_Processed_Cloth.txt
+  Household lights             Economy_Processed_Household.txt
+  Leather                      Economy_Processed_Leather.txt
+  Ceramic                      Economy_Processed_Ceramic.txt
+  Woodwork                     Economy_Processed_Woodwork.txt
+  Metal                        Economy_Processed_Metal.txt

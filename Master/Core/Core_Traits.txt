@@ -1,0 +1,66 @@
+# Core_Traits.txt
+# Traits. Not Talents.
+# A Talent is learned or born on a person.
+# A Trait is how a non-human Entity is built.
+# The sheet names the Trait. This file is the law.
+# Status: DRAFT.
+
+--------------------------------------------------
+0. HOW A TRAIT IS READ
+--------------------------------------------------
+
+The Entity sheet lists the name and the (x).
+Do not reprint the law on the sheet.
+A Trait is always on. It is not a skill rank.
+It is not lost by fatigue unless the line says so.
+
+--------------------------------------------------
+1. DWELLER (BIOME)
+--------------------------------------------------
+
+The sheet names the tags. Wetland, pond,
+cave, canopy, high steppe. One Trait.
+Immune to environmental hazards of those
+tagged biomes. The tag is the bestiary
+HSI index for that Entity.
+No Outdoor Survival test while it is in
+a tagged habitat. Hunger, wounds, and a
+blade still apply. The ground does not.
+
+--------------------------------------------------
+2. AMPHIBIOUS
+--------------------------------------------------
+
+Lives in water and in air.
+Underwater, the suffocation clock does not
+start (Hazards.txt). It surfaces when it
+chooses, not when the breath window ends.
+On land it breathes as normal. A sealed
+airless room is not water. The clock runs.
+
+--------------------------------------------------
+3. REGENERATION (X)
+--------------------------------------------------
+
+At the start of its Turn, a Toughness test.
+Success: remove (x) Wounds. Failure: none.
+It cannot rise above its Wound maximum.
+Slain: the Trait is gone. A corpse does not
+knit. Do not roll it after the finishing blow
+has killed it.
+
+--------------------------------------------------
+4. NATURAL WEAPONS (NAME)
+--------------------------------------------------
+
+The names are the weapons. Fists, tusks, claws.
+It counts as armed with nothing in its hands.
+Damage is 1d10 + Strength Bonus. Type is on
+the sheet. If the sheet does not name a type,
+fists are Blunt, tusks and claws are Cut.
+Attack with Weapon Skill.
+No Parry with a natural weapon.
+No Disarm, unless the limb is hacked off.
+A held weapon uses the weapon, not this Trait.
+Both may be used if the sheet gives Attacks
+enough to swing each.

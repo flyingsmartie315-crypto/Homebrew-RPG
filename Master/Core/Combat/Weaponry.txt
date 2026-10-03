@@ -6,13 +6,7 @@
 #   Shield_Rules.txt                    boards, Defensive(x)
 #   Core_Characteristics_Skills.txt     Enc Limit, Size, WS, BS
 #   Core_Injury.txt                     finishing blow; type effects later
-#   Economy_Finished_Arms.txt           shop bands; this file uses the mid
-#   Economy_Processed_Goods.txt         metal names
 #   Economy files                       coin and availability
-#
-# Base cost is Common, Low-carbon / listed grade.
-# Mid of the Economy_Finished_Arms band.
-# Iron Grade then multiplies an iron/steel ticket.
 
 PURPOSE
 This file is the weapon list. Combat says how a Turn is spent.
@@ -23,7 +17,8 @@ ASSESS (locked here, not left as contradictions)
 
   Soak
     Incoming is reduced by NAC + AC of the location hit.
-    Not TB + “Armour Points.” Armour Piercing ignores 1 AC
+    Not TB + “Armour Points.” AP (x) ignores
+    (x) AC after the soak total, minimum 0.
     on that location. No armour there: the quality does
     nothing.
 
@@ -50,9 +45,15 @@ ASSESS (locked here, not left as contradictions)
     The −20 untrained chip is not used. Halve is the law.
 
   Currency and Enc
+    Listed costs are Common shop prices, taken from
+    the Economy_Finished_Arms.txt band for that type.
+    Iron Grade uses §2 (same table as Armour.txt).
+    Do not also apply Poor / Good / Best.
     Enc is points. 10 points ≈ 1 kg.
-    Cost is Common mid of Economy_Finished_Arms.
-    Siege engines stay narrative, not Turn weapons.
+    Bow tickets cost the tiller and the dry stave.
+    Loft-years are not bowyer-days.
+    Siege engines stay narrative. They are not
+    Finished Arms rows.
 
 --------------------------------------------------
 0. KEYWORDS
@@ -79,13 +80,8 @@ Range
   Missiles: short / long in yards. Long is −10 BS
   unless a quality says otherwise.
 
-Craftsmanship
-  Best / Good / Common / Poor. See section 2.
-
 Iron Grade
-  The metal of an iron or steel piece.
-  Same four usable grades as Armour.txt.
-  Not Crude Iron. See section 2b.
+  Same table as Armour.txt section 9. See section 2.
 
 --------------------------------------------------
 1. WHO CAN USE WHAT
@@ -115,6 +111,7 @@ Specialist Groups (Talent required)
   Parrying          (Main Gauche)
   Throwing          only where Group is Throwing and not
                      also Ordinary
+  Handgonne
 
 If the table says Ordinary / Two-handed (hand-and-a-half),
 one hand is Ordinary. Two hands wants the Two-handed
@@ -124,54 +121,57 @@ Hulking only on a quality means Size 5+ to take that
 grip or Versatile option.
 
 --------------------------------------------------
-2. CRAFTSMANSHIP
+2. IRON GRADE
 --------------------------------------------------
 
-Listed stats are Common.
+Same table as Armour.txt. One grade. Do not also
+apply Best / Good / Common / Poor.
 
-  Best     +1 damage, +10 WS or BS. Cost ×10.
-  Good     +1 damage. Cost ×3.
-  Common   as table.
-  Poor     −1 damage. On 91–00 the attack fails
-           (jam, slip, haft crack) in addition to
-           any miss. Cost ×½.
+Economy_Processed_Goods metals (usable;
+Crude Iron is feedstock only):
+  Wrought iron     = Wrought Iron
+  Low-carbon steel = Steel
+  Hardened steel   = Fine Steel
+  Crucible steel   = Crucible Steel
+  Zenith steel     = Zenith Steel (veil-drop)
 
-Damage modifiers from craft apply after the d10 + SB
-+ type, before soak.
+Listed cost and Enc on an eligible weapon are
+Low-carbon. Apply Grade % to listed cost and Enc.
+The AC column of the armour table is damage here.
 
---------------------------------------------------
-2b. IRON GRADE
---------------------------------------------------
+  Grade              Cost     Enc      Damage
+  Wrought iron       ×0.80    ×1.15    −1
+  Low-carbon steel   ×1.00    ×1.00     0
+  Hardened steel     ×1.25    ×0.85    +1
+  Crucible steel     ×2.50    ×0.75    +2
+  Zenith steel       ×8.00    ×0.65    +3
 
-Same ladder as Armour.txt. Economy_Processed_Goods
-usable metals (Crude Iron is feedstock only):
+Zenith is worked veil-drop, not a shop grade.
+Nicknames Hollow Steel, Void Steel.
+Isernvolk: Lich-Stál. Syllvani: Anfarael.
+See Economy_Unveiling_Goods.txt.
 
-  Grade              Economy name      Cost     Enc      Damage
-  Wrought iron       Wrought Iron      ×0.80    ×1.15    −1
-  Low-carbon steel   Steel             ×1.00    ×1.00     0
-  Hardened steel     Fine Steel        ×1.25    ×0.85    +1
-  Crucible steel     Crucible Steel    ×2.50    ×0.75    +2
-
-Listed weapon stats are Low-carbon and Common.
-Apply Grade % to listed cost and Enc.
-Damage from Grade stacks with Craftsmanship.
-Both apply after d10 + SB + type, before soak.
+Damage from Grade applies after the d10 + SB
++ type, before soak. It does not grant Armour
+Piercing by itself.
 
 Eligible
-  Any iron or steel head or blade: daggers,
-  axes, maces, hammers, swords, polearm
-  heads, lance heads, throwing axes and
-  knives, crossbow prods if the line is
-  steel, sling bullets of lead are not
-  iron (no Grade).
+  Any weapon whose working edge, head, or prod
+  is iron or steel: blades, axes, maces,
+  polearm heads, crossbow prods, metal arrow-
+  and bolt-heads when the ticket is the head.
 
 Not eligible
-  Staff (wood). Bows (wood and sinew).
-  Sling pouch. Improvised unless the
-  object is itself iron. Siege engines
-  stay narrative.
+  Staff, wooden haft alone, bow limb, sling,
+  shield (Shield_Rules.txt).
+  A Svartwood tiller does not take Iron Grade.
+  The steel prod does.
+  Zenith takes the table. It does not stack on
+  crucible. One grade.
 
-Do not round Enc. Cost may be sc.bc.
+Stack order: listed weapon → Iron Grade % and
+damage (if eligible). Cost may be sc.bc.
+Do not round Enc.
 
 --------------------------------------------------
 3. REACH
@@ -205,7 +205,8 @@ before the attack.
   3. Incoming = 1d10 + SB + type + DoS
      Impact: 2d10 keep higher, then SB + type + DoS.
   4. Protection = NAC + AC of that location
-     Armour Piercing: AC on that location is 1 less
+     Armour Piercing: AC on that location is
+     reduced by AP (x), minimum 0.
      (minimum 0) for this hit.
   5. Leftover ticks Wounds. Finishing Blow is Injury.
 
@@ -216,8 +217,9 @@ before step 3.
 5. QUALITIES
 --------------------------------------------------
 
-Armour Piercing    Ignore 1 AC on the location hit.
-                   No AC there: no effect.
+AP (x)             Ignore (x) AC on the location hit.
+                   Minimum 0. No AC there: no effect.
+                   A bare AP on an old line is AP (1).
 Balanced           No penalty for a second weapon in
                    the off hand (two-weapon rules still
                    Open in Combat).
@@ -233,6 +235,13 @@ Experimental       Attack roll 96–00: weapon ruins.
                    NAC only (no worn AC).
 Fast               Defender −10 on Parry or Dodge
                    against this weapon.
+Fast (x)           As Fast. The number replaces 10.
+                   Fast (30) is −30.
+Inaccurate         Roll the BS test twice. Take the
+                   higher result. Roll-under, so the
+                   higher roll is the worse one.
+                   No Aim. Fired from the hip.
+Inaccurate (Aim)   The same two rolls. Aim is allowed.
 Formation Specialist
                    +10 WS and +1 Pierce per adjacent
                    ally in the same ranked body
@@ -258,6 +267,16 @@ Pummelling         +10 Strength when the blow is used
                    to stun (that Action is still Open).
 Shrapnel           Cone to max range. Each Entity in
                    it tests Agility or takes the hit.
+Shrapnel (20)      One d100 opens the firing.
+                   Inaccurate applies to that roll.
+                   Experimental and Unreliable read
+                   it only. A miss puts no pellets out.
+                   A hit lands 10 + (DoS × 2), maximum 20.
+                   Point-Blank: closest takes all.
+                   Close: closest takes half, round up.
+                   The rest scatter inside 10 yards.
+                   Long: scatter across the cone. No one
+                   takes a fourth until each has one.
 Slow               Defender +10 on Parry or Dodge
                    against this weapon.
 Snare              On a standing hit, target is held.
@@ -285,61 +304,137 @@ Versatile          Choose type each attack. Some
 --------------------------------------------------
 
 Small
-  Dagger *                18 sc   Enc 3   Ord
+  Dagger *                12 sc   Enc 3   Ord
     (3/5/1)  Reach 0.5   Fast
-  Misericordia            20 sc   Enc 4   Ord
-    (2/6/1)  Reach 0.5   Fast, Armour Piercing
-  Main Gauche             22 sc   Enc 5   Parrying
+  Misericordia            18 sc   Enc 4   Ord
+    (2/6/1)  Reach 0.5   Fast, AP (1)
+  Main Gauche             16 sc   Enc 5   Parrying
     (2/4/1)  Reach 0.5   Fast, Defensive, Balanced
   Utility Axe (Hatchet) * 18 sc   Enc 5   Ord
     (5/1/3)  Reach 0.5   Impact, Throwing
 
 Axes
-  One-Handed Axe *        26 sc   Enc 8   Ord
-    (5/2/3)  Reach 1     Impact, Versatile
+  One-Handed Axe *        25 sc   Enc 8   Ord
+    (5/1/3)  Reach 1     Impact, Versatile
   Two-Handed Axe *        3 gc    Enc 22  Two-handed
-    (6/2/4)  Reach 1.5   Impact, Slow, Versatile
+    (6/1/4)  Reach 1.5   Impact, Slow, Versatile
                          (Hulking only)
 
 Maces / hammers
-  One-Handed Mace *       23 sc   Enc 10   Ord
-    (2/3/5)  Reach 1     Armour Piercing, Pummelling
+  One-Handed Mace *       22 sc   Enc 10   Ord
+    (1/1/5)  Reach 1     Pummelling
   Two-Handed Mace *       3 gc    Enc 28  Two-handed
-    (1/3/6)  Reach 1.5   AP, Impact, Pummelling, Slow
-  Staff                   12 sc   Enc 8   Two-handed
+    (1/1/6)  Reach 1.5   Impact, Pummelling, Slow
+  Staff                    6 sc   Enc 8   Two-handed
     (0/1/4)  Reach 2     Defensive, Fast, Concealable,
                          Inconspicuous
 
 Swords
-  Double-edged straight    3 gc 10 sc Enc 11   Ord
+  Double-edged straight    3 gc   Enc 11   Ord
     (4/4/2)  Reach 1     Balanced, Precise
-  Single-edged curved      3 gc 10 sc Enc 12   Ord
+  Single-edged curved      3 gc   Enc 12   Ord
     (5/2/2)  Reach 1     Balanced, Impact
-  H&H double-edged *   7 gc 10 sc Enc 16   Ord / Two-hand
+  H&H double-edged *       6 gc   Enc 16   Ord / Two-hand
     (5/4/2)  Reach 1.5   Balanced, Versatile
-  H&H single-edged *   7 gc 10 sc Enc 17   Ord / Two-hand
+  H&H single-edged *       6 gc   Enc 17   Ord / Two-hand
     (6/2/3)  Reach 1.5   Balanced, Impact, Versatile
-  Great double-edged *    15 gc   Enc 30  Two-handed
+  Great double-edged *    12 gc   Enc 30  Two-handed
     (7/4/3)  Reach 2     Impact, Slow, Versatile
                          (Hulking only)
-  Great single-edged *    15 gc   Enc 32  Two-handed
+  Great single-edged *    12 gc   Enc 32  Two-handed
     (8/2/3)  Reach 2     Impact, Slow, Versatile
                          (Hulking only)
 
 Polearms
   Spear (1H polearm) *    18 sc   Enc 12   Ord
     (2/5/1)  Reach 2     Fast, Versatile
-  Lance (cavalry) *       5 gc    Enc 24  Cavalry
+  Lance (cavalry) *        4 gc   Enc 24  Cavalry
     (2/7/1)  Reach 3     Fast, Impact, Tiring,
                          Mounted Specialist
-  2H polearm Short *      6 gc    Enc 20  Two-handed
-    (5/5/4)  Reach 2     AP, Impact, Versatile
-                         (Hulking only)
-  2H polearm Long *       5 gc    Enc 25  Two-handed
-    (5/5/3)  Reach 2.5   AP, Snare, Slow, Versatile
-                         (Hulking only)
-  2H polearm Very Long *  4 gc    Enc 28 Two-handed
-    (1/6/1)  Reach 3.5   AP, Slow, Formation Specialist
+  2H polearm Short *       6 sc   Enc 25  Two-handed
+    Reach 2     Versatile
+    Ash shaft. 2.5 kg blank, one carpenter day.
+  2H polearm Long *        10 sc  Enc 35  Two-handed
+    Reach 2.5   Versatile
+    Ash shaft. 3.5 kg blank, two carpenter days.
+  2H polearm Very Long *   13 sc  Enc 45  Two-handed
+    Reach 3.5   Versatile
+    Ash shaft. 4.5 kg blank, two and a half days.
+    Shaft only. Not a weapon until a head is on.
+    The head sets damage, qualities, and the
+    Reach shift. Finished cost and Enc are
+    shaft plus head.
+    Hardwood is selected ash. Blank at 1 sc 6 bc
+    per kg, under the yew stave. Carpenter is
+    30 bc a day, 2 sc 6 bc. Enc 10 is 1 kg,
+    wood included.
+    Listed heads are low-carbon. Budget heads
+    may be wrought: cost ×0.80, Enc ×1.15.
+    Those are the war spear, billhook, war
+    scythe, spikoar, and awl-pike. A glaive,
+    bardiche, hammer, pollaxe, halberd, beak,
+    or partisan is not a wrought job.
+    Smith day is 65 bc. 1 gc = 20 sc.
+
+  Glaive          +3 gc     Enc +12
+    (6/3/2)  Fast (10)  Reach +0.5
+    Sword-blade on a pole. About 1.2 kg.
+    Three smith days. Sweeping cuts.
+  Bardiche        +5 gc     Enc +18
+    (6/1/3)  Impact  Reach +0.5
+    Long cleaver, curved back. About 1.8 kg.
+    Four smith days. Axe-work.
+  Lucerne hammer  +4 gc 10 sc   Enc +14
+    (1/5/7)  Impact, Slow
+    Toothed face, long rear spike. About 1.4 kg.
+    Four smith days.
+  Pollaxe         +5 gc     Enc +13
+    (5/5/5)  Fast (5)
+    Axe, hammer, top spike. About 1.3 kg.
+    Four smith days. The time is the three tools.
+  Halberd         +5 gc     Enc +16
+    (6/5/3)  Impact, Slow, Snare
+    Broad axe, top spike, back fluke. About 1.6 kg.
+    Four smith days.
+  Raven's beak    +3 gc 10 sc   Enc +11
+    (1/7/5)  Impact, Slow, Snare
+    Thick beak, compact hammer. About 1.1 kg.
+    Three smith days.
+  War spear       +18 sc    Enc +4
+    (1/6/1)  Fast (15)
+    Leaf, diamond, or triangular. About 0.4 kg.
+    One smith day. Lowest Enc. Wrought allowed.
+  Partisan        +1 gc 10 sc   Enc +6
+    (3/5/1)  Fast (10), Defensive (5), Snare
+    Double-edged blade, wings at the base.
+    About 0.6 kg. A day and a half. The wings
+    are the extra half day.
+    Defensive (5) is +5 Parry. Not a shield.
+  Spikoar         +6 sc     Enc +4
+    (1/4/4)  Slow, Impact  Reach −0.5
+    Spike and collar in a club. About 0.4 kg
+    of iron. Half a day. Wrought allowed.
+  Billhook        +16 sc    Enc +5
+    (4/3/1)  Snare
+    Hedging blade, hooked tip, small rear spike.
+    About 0.5 kg. One smith day. Wrought allowed.
+  War scythe      +8 sc     Enc +4
+    (4/3/1)  Unreliable
+    Farm blade remounted in line with the pole.
+    About 0.35 kg. Half a day to reset the tang.
+    Wrought allowed. Cheap edge.
+    96–00 on the attack: the blade snaps.
+    Weapon ruined. No blow back on the wielder.
+  Awl-pike        +1 gc 4 sc    Enc +5
+    (1/5/1)  AP (1), Fast (5)
+    Long square spike, disc at the base.
+    About 0.5 kg. A day and a half.
+    Wrought allowed.
+    May also sit on the Very Long shaft.
+    That build is 1 gc 17 sc and Enc 50
+    in low-carbon. Wrought is cheaper and
+    heavier. Qualities are the awl-pike’s.
+    Reach stays 3.5.
 
 --------------------------------------------------
 7. MISSILE
@@ -355,23 +450,24 @@ Bows                                          Min S
     (3/4/1)  24/48   Reload Half
     Draw 40–70 lb.  Min S 25
   Heavy            1 gc 10 sc Enc 8  Ord
-    (3/5/1)  30/60   Reload Full    Tiring, AP
+    (3/5/1)  30/60   Reload Full    Tiring, AP (1)
     Draw 70–100 lb. Min S 30
   Longbow *        2 gc 10 sc Enc 10  Longbow
-    (4/5/1)  36/72   Reload Full    Tiring, AP, Impact
+    (4/5/1)  36/72   Reload Full    Tiring, AP (1), Impact
     Draw 100–180 lb. Min S 35
+    Yew stave. Ash or elm substitute uses the Heavy ticket.
 
 Crossbows
-  Pistol              2 gc    Enc 15  Crossbow
+  Pistol               3 gc  Enc 15  Crossbow
     (1/3/1)  8/16    Reload Half    Fast, Concealable
-  Light               3 gc    Enc 45  Ord
+  Light                3 gc  Enc 45  Ord
     (1/4/1)  20/40   Reload Half    Pre-Loaded
-  Medium           7 gc 10 sc Enc 60 Ord
-    (1/5/1)  30/60   Reload Full    AP, Pre-Loaded
-  Heavy (Arbalest) 18 gc 10 sc Enc 85 Crossbow
-    (1/6/1)  40/80   Reload Ext×2   AP, Impact, Slow,
+  Medium               7 gc  Enc 60  Ord
+    (1/5/1)  30/60   Reload Full    AP (1), Pre-Loaded
+  Heavy (Arbalest)    16 gc  Enc 85  Crossbow
+    (1/6/1)  40/80   Reload Ext×2   AP (1), Impact, Slow,
                                     Pre-Loaded
-  Repeater *          12 gc   Enc 70 Crossbow
+  Repeater *          20 gc  Enc 70  Crossbow
     (1/4/1)  16/32   Reload Ext×2   Experimental,
                                     Special: 3 shots
                                     in the magazine,
@@ -388,18 +484,68 @@ Thrown (ready + throw is one Half; Group Throwing
 unless noted Ordinary)
   Improvised          —      Enc var  Ord
     profile by size  4/8 or as §8
-  Javelin             25 sc   Enc 12  Throwing
+  Javelin             16 sc  Enc 12  Throwing
     (1/4/2)  8/16    Fast
     Melee as short spear, Reach 1.5
-  Throwing Axe        26 sc   Enc 15  Throwing
+  Throwing Axe        22 sc  Enc 15  Throwing
     (4/1/3)  6/12    Impact, Throwing (returns)
-  Throwing Dagger     18 sc   Enc 2  Throwing
+  Throwing Dagger     14 sc  Enc 2  Throwing
     (2/4/1)  6/12    Fast, Concealable
                      +15 Concealment hidden
 
 Min S on a bow: below it the draw is a Strength test
 each shot or the bow is not used. Hulking+ thrown:
 +1 to each type and +2 yards short range.
+
+--------------------------------------------------
+7a. HANDGONNE
+--------------------------------------------------
+
+Powder arms. The barrel takes Iron Grade.
+Cost and Enc are not priced in this pass.
+
+Handgonne / Hand cannon
+  (1/8/1)  15/30   Reload 6 Full
+  Handgonne
+  Experimental, Fast (30), Impact, Pre-Loaded,
+  Inaccurate, AP (2)
+  Six Full Actions to load.
+  Inaccurate: two BS rolls, take the higher.
+  No Aim. Fired from the hip.
+
+Arquebus
+  (1/8/1)  50/100   Reload 4 Full
+  Handgonne
+  Fast (30), Impact, Pre-Loaded,
+  Inaccurate (Aim), Unreliable, AP (3)
+  Four Full Actions to load.
+  Inaccurate (Aim): two BS rolls, take the higher.
+  Aim is allowed.
+
+Wheellock pistol
+  (1/8/1)  5/10   Reload 4 Full
+  Handgonne
+  Fast (30), Impact, Pre-Loaded,
+  Inaccurate (Aim), Unreliable, AP (3)
+  Four Full Actions to load.
+  Aim is allowed.
+
+Blunderbuss
+  (1/2/1)  10/20   Reload 4 Full
+  Handgonne
+  Shrapnel (20), Inaccurate (Aim),
+  Experimental, Pre-Loaded, Impact, Fast (30),
+  AP (1)
+  Four Full Actions to load.
+  One d100 opens the firing. Inaccurate applies
+  to that roll only. A miss puts no pellets out.
+  A hit lands 10 + (DoS × 2) pellets, maximum 20.
+  Point-Blank: the closest takes all.
+  Close: closest takes half, round up. The rest
+  scatter inside 10 yards.
+  Long: scatter across the cone. No one takes a
+  fourth until each has one.
+  Experimental reads the opening roll only.
 
 --------------------------------------------------
 8. IMPROVISED THROWN
@@ -423,8 +569,8 @@ Drop from a height: Fall table, not this profile.
   Broadhead arrow/bolt     2 bc   Enc 10   Common
     +0   no extra quality
   Bodkin                   4 bc   Enc 10   Scarce
-    +0   Armour Piercing (extra ignore 1 AC,
-         stacks with a weapon that already has it)
+    +0   AP (1). Stacks with a weapon that
+         already has AP (x).
   Blunt (hunt / train)     2 bc   Enc 10   Average
     −1   Pummelling
   Fire (incendiary)       10 bc   Enc 15   Rare
@@ -438,7 +584,7 @@ Drop from a height: Fall table, not this profile.
     +0   forage free
   Sling lead               4 bc   Enc 10   Average
     +1   Precise. +10 BS at short range.
-         Ignore 1 AC.
+         AP (1).
 
 Enc 10 of shafts is a bundle, not one arrow, until
 Economy splits the bundle. Until then treat Enc 10
@@ -497,7 +643,8 @@ uses the same incoming, new location.
   — Strike to Stun as an Action
   — Armour AC by location and by Cut / Pierce / Blunt
   — Type-specific finishing effects (bleed, stun)
-  — Thrown Common now sits on Small / Single Axe / Spear bands
+  — (closed) Thrown costs now sit on the melee twin,
+    not a gold tax
   — Arrow count vs Enc 10 bundles
   — Repeater magazine as three Standard Attacks
     before the Extended reload

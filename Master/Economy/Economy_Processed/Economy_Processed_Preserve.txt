@@ -1,0 +1,54 @@
+# Economy_Processed_Preserve.txt
+# Processed goods — Preserve and Kitchen
+# Law: Economy_Processed_Goods.txt (currency, bulk, packing)
+# Making: Economy_Processing_Matrix.txt
+# Base unit: 1 kg, or 1 litre where noted. 1 gc = 20 sc = 240 bc.
+
+Preserve and Kitchen
+Fruit, leaf, and root made to keep.
+
+  Sauerkraut
+  Salt-fermented cabbage.
+  Made from cabbage. Cool-store through Longnight.
+  Base: 4 bc per kg
+  Bulk: 800 kg/m³
+  Packing: cask
+  Small cask (20 kg) → 6 sc 8 bc
+  Cart load (800 kg) → 266 sc 8 bc
+
+  Dried fruit
+  Prune, dried apple, raisin, lingon, and their like.
+  Made from plum, apple, grape, date, or Longnight berries already dried.
+  Lingon keeps. Cloudberry is the wet-pocket pot-fruit.
+  Base: 12 bc per kg
+  Bulk: 600 kg/m³
+  Packing: sack / crate
+  Sack (20 kg) → 20 sc
+  Cart load (800 kg) → 800 sc
+
+  Fruit preserve
+  Honeyed or boiled garden-fruit. Jelly and pot-fruit.
+  Made from berries, cherry, currant, or quince with honey or sugar-store.
+  Base: 20 bc per kg
+  Bulk: 1,200 kg/m³
+  Packing: jar / pot
+  Jar (5 kg) → 8 sc 4 bc
+  Cart load (800 kg) → 1,333 sc 4 bc
+
+  Quince paste
+  Stiff cooked quince. Keeps.
+  Made from quince.
+  Base: 16 bc per kg
+  Bulk: 1,200 kg/m³
+  Packing: box / crate
+  Box (5 kg) → 6 sc 8 bc
+  Cart load (800 kg) → 1,066 sc 8 bc
+
+  Ground spice
+  Opened and mixed spice for the kitchen.
+  Made from the Spice chest. Cheaper cumin at the farm is not this line.
+  Base: 4 sc per kg
+  Bulk: 400 kg/m³
+  Packing: chest / pot
+  Pot (1 kg) → 4 sc
+  Small chest (5 kg) → 20 sc

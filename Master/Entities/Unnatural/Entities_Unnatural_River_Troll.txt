@@ -1,0 +1,125 @@
+# Entities_Unnatural_River_Troll.txt
+# GM sheet. One Entity. Not the bestiary essay.
+# Bestiary: Bestiary_Unnatural_River_Troll.txt
+#   (not written). That file points back here.
+# Traits: Core_Traits.txt
+# Injury: Injury_Tables_Bipedal.txt
+# Size law: Core_Characteristics_Skills.txt §3
+# Behaviour Profile is on this sheet. It is how
+# the Entity acts. A levy and a veteran can share
+# stats and not share a profile. Wildlife too.
+
+--------------------------------------------------
+RIVER TROLL
+--------------------------------------------------
+
+Size 8. Immense. Injury: Bipedal.
+A smaller troll. The catalogue Size 8.
+
+  S  90    (50 + 40 Size)
+  Per 30
+  T  90    (50 + 40 Size)
+  Fel 10
+  Int 5
+  Ag  10
+  WP  30
+  WS  30
+  BS  10
+
+  SB 9     TB 9
+  M  5.0   Agility 10 ÷ 10, then Size +4
+  NAC 4    as written. Not TB.
+  Wounds 135   floor(TB × 3 × Size 8)
+               27 × 5.
+  Attacks 1
+  Initiative  10 + 1d10
+
+To-hit against a man (Size 4): +40.
+A man shooting this troll: +40 BS.
+Same Size: +0.
+
+--------------------------------------------------
+SKILLS
+--------------------------------------------------
+
+(X) is known, at the skill base.
+(10) is a bonus of 10 on that test.
+
+  Athletics (X)      50
+    Mean of Strength 90 and Agility 10.
+  Awareness (10)     40
+    Perception 30 + 10.
+  Concealment (20)   30
+    Agility 10 + 20. Size still applies.
+    Hiding from a man: −40 on top.
+
+Anything else is unknown. Half the base.
+
+--------------------------------------------------
+TRAITS
+--------------------------------------------------
+
+Law: Core_Traits.txt.
+
+  Bog Dweller
+    Habitat tag: wetland, river, pond.
+    HSI index lives on the bestiary page.
+  Amphibious
+  Regeneration (4)
+    Start of its Turn. Toughness test.
+    Success removes 4 Wounds. Dead, it stops.
+  Natural Weapons (fists, tusks)
+    1d10 + 9.
+    Fists Blunt. Tusks Cut.
+    WS 30. No Parry. No Disarm unless the
+    limb is off.
+
+--------------------------------------------------
+BEHAVIOUR PROFILE
+--------------------------------------------------
+
+Solitary. A bend of river, a pond, a ford.
+It does not patrol. It waits where the
+water narrows and the bank is soft.
+
+Hungry: it takes the nearest warm thing
+that steps in the water or on the mud.
+A goat, a washer, a horse at the drink.
+It does not stalk a town. It does not
+plan. Intelligence 5.
+
+Met on the bank: it rises, shows the tusks,
+and closes. One swing. If the prey runs
+into the water, it follows. Amphibious.
+It does not drown. It will pull a body
+under rather than chase onto open stone.
+
+Hurt: it does not flee at the first wound.
+Regeneration is why. It stays while the
+knitting is winning. If a blow drops it
+under half its Wounds and the next blow
+is worse, it sinks. Mud, weed, the deep
+of its hole. It does not fight on the
+road once it has a pool to hide in.
+
+It does not parley. Fellowship 10.
+A thrown carcass may hold it for a
+minute. A speech does not.
+It will not leave the tagged water to
+chase a man past the treeline.
+
+--------------------------------------------------
+RUN
+--------------------------------------------------
+
+It swings once. Fists or tusks, not both,
+unless Attacks rises.
+It does not parry. It may still Dodge on
+Agility 10.
+Under water it does not drown.
+In its river it does not roll Survival.
+At the start of its Turn, if it is not dead,
+Toughness against 90 to knit 4 Wounds.
+NAC 4 comes off a blow before Wounds.
+A blow that empties 135 is the finishing blow.
+Regeneration does not undo slain.

@@ -4,7 +4,9 @@
 #         Skill list begun.
 # Companion files:
 #   Core_Resolution.txt                 tests, Degrees, Dominate, Man-Scale
-#   Core_Combat.txt / Core_Injury.txt   not yet written
+#   Core_Combat.txt / Core_Injury.txt
+#   Core_Talents_Failings_Afflictions.txt
+#   Core_Fatigue.txt                    Fatigue track
 #   Core_Character_Creation.txt         not yet written
 
 PURPOSE
@@ -79,7 +81,8 @@ Armour Class (AC)
   numbers. Stacks with NAC. Not a Characteristic.
 
 Wounds
-  Hit points. Starting Wounds = TB × 3. See section 3c.
+  Hit points. Starting Wounds = TB × 3, then the
+  Size wound modifier. Floor. See section 3c.
   Boxes above the last one are glancing. The last one is
   the blow that counts.
 
@@ -110,6 +113,11 @@ Initiative
 Specialism
   A bracketed focus on a Skill written (various).
   Trade (Armourer) is not Trade (Glass). See section 6.
+
+Talent / Failing / Affliction
+  Standing situational modifiers on the Entity.
+  Law: Core_Talents_Failings_Afflictions.txt.
+  They do not raise a Characteristic on this sheet.
 
 --------------------------------------------------
 1. THE NINE CHARACTERISTICS
@@ -412,20 +420,23 @@ S/T scaling
 
 SIZE TABLE
 
-  #  Category      To-hit vs 4*     Stealth vs 4*  Move     S/T
-  1  Miniscule     −30              +30       AB − 3   −30
-  2  Puny          −20              +20       AB − 2   −20
-  3  Weedy         −10              +10       AB − 1   −10
-  4  Average        +0               +0       AB        +0
-  5  Hulking       +10              −10       AB + 1   +10
-  6  Enormous      +20              −20       AB + 2   +20
-  7  Massive       +30              −30       AB + 3   +30
-  8  Immense       +40              −40       AB + 4   +40
-  9  Monumental    +50              −50       AB + 5   +50
- 10  Titanic       +60              −60       AB + 6   +60
+  #  Category      To-hit vs 4*  Stealth vs 4*  Move    S/T   Wounds
+  1  Miniscule     −30           +30       AB − 3   −30   ×0.25
+  2  Puny          −20           +20       AB − 2   −20   ×0.50
+  3  Weedy         −10           +10       AB − 1   −10   ×0.75
+  4  Average        +0            +0       AB        +0   ×1.0
+  5  Hulking       +10           −10       AB + 1   +10   ×1.25
+  6  Enormous      +20           −20       AB + 2   +20   ×1.5
+  7  Massive       +30           −30       AB + 3   +30   ×2.5
+  8  Immense       +40           −40       AB + 4   +40   ×5
+  9  Monumental    +50           −50       AB + 5   +50   ×7.5
+ 10  Titanic       +60           −60       AB + 6   +60   ×10.0
 
-  * Printed columns are vs Size 4 only. Live to-hit and stealth
-    use Size difference. Size 10 vs Size 9 is −10 to hit, not +50.
+  * Printed to-hit and stealth are vs Size 4 only. Live
+    to-hit and stealth use Size difference.
+  Wounds: derive TB × 3 first, then this multiplier.
+  Floor. Size 4 is the human number. A child is Weedy
+  on purpose. Do not also cut Wounds for being young.
 
 EXAMPLES (Virath)
 
@@ -474,8 +485,9 @@ apply Size a second time.
   Strength 50 → s 5.0
 
   After every load or throw formula, floor the answer.
-  NAC stays TB (tens digit of Toughness). Wounds stay TB × 3.
-  Those are not converted to T ÷ 10.
+  NAC stays TB (tens digit of Toughness), unless
+  the sheet names another NAC. Wounds are TB × 3,
+  then the Size wound modifier. Floor. Not T ÷ 10.
 
 TWO SCALES
 
@@ -541,23 +553,10 @@ Push / drag
   or by a later Labour Skill, not by rewriting the multiple.
 
 Carry and fatigue
-  s × 5 kg: tools, light kit, a day’s pack. Walk the day.
-  No mechanical penalty.
-
-  Above that, up to s × 10 kg: heavy kit, a combat load.
-  The Entity may carry it for a number of hours equal to
-  Toughness Bonus without a test. Each hour after that
-  requires a Toughness test. Failure inflicts one Fatigue.
-
-  Fatigue is a condition. Until Injury writes it:
-    each Fatigue is −10 to physical TNs (Strength, Toughness,
-    Agility, WS, Athletics, and other bodily work).
-    At 3 Fatigue, movement is halved.
-    At Fatigue equal to TB, the Entity cannot continue
-    the march and must drop the load or stop.
-
-  A 12-hour march at Heavy carry with TB 3 is three free
-  hours and nine tests. That is supposed to ruin the day.
+  Load bands stay here (s × 5 / s × 10 kg).
+  Fatigue from carrying, marching, labour,
+  sleep, and rest is Core_Fatigue.txt.
+  Half Enc for those tests is Strength × 5.
 
 Throwing — combat toss, no run-up
   Distance = s × the metres in the class, then floor.
@@ -646,13 +645,14 @@ Examples
 
 Wounds are the Entity’s hit points.
 
-  Starting Wounds = TB × 3
+  Starting Wounds = floor(TB × 3 × Size modifier)
 
-  TB 2 →  6 Wounds
-  TB 3 →  9 Wounds
-  TB 4 → 12 Wounds
-  TB 5 → 15 Wounds
-  TB 10 → 30 Wounds
+  TB 3, Size 4 →  9
+  TB 4, Size 4 → 12
+  TB 2, Size 1 →  1    (6 × 0.25)
+  TB 3, Size 3 →  6    (9 × 0.75)
+  TB 9, Size 8 → 135   (27 × 5)
+  TB 10, Size 8 → 150  (30 × 5)
 
 Current Wounds start at that number and fall as damage gets
 through Protection (section 3b). Damage that Protection already
@@ -705,9 +705,9 @@ Examples
     Later a 12-damage hit inflicts 7. Wounds −1 → 0. That
     is the blow that drops them.
 
-  Troll, TB 10, 30 Wounds, NAC 10, no AC.
-    A 14-damage hit inflicts 4. Wounds 26. The hide is
-    marked. The troll is not dying.
+  Troll, Size 8, TB 9, 135 Wounds, NAC 4.
+    A 14-damage hit inflicts 10. Wounds 125.
+    The hide is marked. The troll is not dying.
 
 --------------------------------------------------
 3d. MOVEMENT, ENCUMBRANCE, ATTACKS, INSANITY, FATE
@@ -751,7 +751,7 @@ Encumbrance Limit
                     no modifier
     Heavy Kit       Enc = Strength × 10
                     Agility tests −5
-                    Fatigue as section 3a
+                    Fatigue: Core_Fatigue.txt
     Over the cap    Enc > Strength × 10
                     cannot fight in it. Drop or crawl.
 
@@ -979,13 +979,18 @@ Concealment
 
 Dodge
   Parents:  Agility
-  Use:      evading attacks in structured time. Combat will say
-            when this replaces or sits beside WS.
+  Use:      evading attacks in structured time. Combat §6.
+            Ordinary. The body leaving the line.
+            Parry * is the trained weapon catch.
+            Never both on the same blow.
 
-Evaluate
+Evaluate (various)
   Parents:  Intelligence, Perception
-  Use:      appraising value, spotting fakes, knowing what a
-            thing should cost in this market.
+  Use:      measure first, price second. You do not look at a
+            wagon and know its weight from a UI. You count,
+            heft, sample, and only then name a value.
+            Specialisms below. Each is its own Rank.
+            Full law: section 6a.
 
 Gossip
   Parents:  Fellowship
@@ -993,9 +998,12 @@ Gossip
             yard. Not a substitute for Common Lore.
 
 Haggle
-  Parents:  Fellowship
-  Use:      bartering a price. Speak Language may chain into
-            this (Core_Resolution §8).
+  Parents:  Fellowship, Intelligence
+  Use:      the face-to-face sale. Making the buyer believe
+            the price, or the seller believe your purse.
+            Opposed Haggle is the default.
+            Speak Language may chain in (Core_Resolution §8).
+            Feeds on Evaluate. Full law: section 6a.
 
 Intimidate
   Parents:  Fellowship, Strength
@@ -1021,11 +1029,236 @@ Silent Move
             and still visible, or hidden and still loud.
 
 --------------------------------------------------
+6a. EVALUATE AND HAGGLE
+--------------------------------------------------
+
+Two Skills. They feed each other. They are not one Skill
+with two names.
+
+Evaluate answers what the thing is, what it weighs, and
+what it is worth.
+Haggle answers whether the other party pays that.
+
+A merchant who can only Haggle is a smile on a wrong
+number. A merchant who can only Evaluate knows the
+price and cannot move it.
+
+EVALUATE
+
+Ordinary. Parents: Intelligence, Perception.
+Written Evaluate (specialism). Each specialism is its
+own Skill for Rank (section 6).
+
+Specialisms
+
+  Bulk — primary and processed goods. Wagons, sacks,
+  ingot lots, cords, grain. Economy_Primary_Goods and
+  Economy_Processed_Goods live here.
+
+    Evaluate (Bulk Metallurgy)
+      Ore, bloom, bar, ingot grade. Wrought from Steel
+      from Fine from Crucible. Scrap heaps. You name
+      the metal before you name the coin.
+
+    Evaluate (Bulk Wood)
+      Standing timber, cord, plank, mast, charcoal lot.
+
+    Evaluate (Bulk Agri)
+      Grain, fleece, hides in the raw, slaughter lots,
+      seed. Livestock as a lot, not as a named mount
+      (that is Evaluate on the beast, or Animal Care).
+
+  Craft — made things. Economy Finished Goods live here.
+
+    Evaluate (Arms)
+      Weapons. Edge, temper, balance, fake maker's marks.
+
+    Evaluate (Armour)
+      Mail join (riveted vs butted), plate dish, quilt
+      density, Enc against the listed catalogue.
+
+    Evaluate (Artifact)
+      One-off work. Relic, charter seal, Unveiling piece,
+      a named sword. Common Lore or Academic Knowledge
+      may chain before this roll.
+
+    Evaluate (Smuggling)
+      What a thing is when it is not allowed to be that.
+      False bottoms, mis-declared bulk, forged stamps,
+      what a customs weigh-house will actually catch.
+      Does not replace Concealment or Sleight of Hand.
+      Those hide the crate. This prices the lie.
+
+No unbracketed Evaluate. Name the specialism on the test.
+If the Entity has no Rank in that specialism they still
+roll it Unknown (Skill Base ÷ 2). Ordinary.
+
+Related field, optional:
+  A Known+ Rank in a neighbouring specialism may be used
+  at −10 instead of rolling the correct specialism Unknown.
+  Neighbours: Bulk Metallurgy ↔ Arms ↔ Armour.
+              Bulk Wood ↔ Architecture / Transport goods
+              when those appear.
+  Artifact has no neighbour.
+  Smuggling has no neighbour. You know the dodge or you
+  do not.
+
+The test is two questions in one roll
+
+  1. Measure
+     Weight, volume, count, grade, defect.
+     A wagon is not a number until someone has walked it.
+     Sealed casks, dark sheds, and "the carter said
+     twenty sacks" are modifiers, not free information.
+
+  2. Value
+     What that measure is worth in this market, today.
+     Economy listed price is the Common floor.
+     Region, season, and glut sit on Economy_Rules.
+     Evaluate does not invent a second price list.
+
+GM modifiers (stack, cap at the GM's sense)
+
+  +10 to +20   you work this good in this town
+  +10          sample in the hand, unsealed, daylight
+  +10          you sold or bought this exact lot before
+  −10          sealed, night, rain, shouted estimate
+  −10          no local working knowledge
+  −20          foreign grade, unmarked bar, "steel"
+               that might be wrought
+  −20          rushed count to beat a tide or a taxman
+
+Degrees
+
+  Fail
+    The number is wrong. The GM keeps the true weight
+    and true value. The tester acts on the false one.
+    On bulk, that false weight is what they load.
+    Overload is real: Enc Limit and wagon / pack
+    capacity from Characteristics §4 and Economy
+    Transport. Axles break in narrative time. In
+    structured time a failed measure that overfills
+    a cart is a later test to keep the load.
+
+  0 DoS
+    Measure is close enough to move the lot without
+    a wreck. Value is a band, not a figure
+    (about the listed Common, plus or minus a stall).
+
+  1–2 DoS
+    True weight and count within a tenth.
+    True grade. Listed Common value in this market.
+    You know if the lot is Poor, Common, or Good.
+
+  3–4 DoS
+    Defects and tells. Which bar is wrought in a
+    steel stack. Which hauberk is butted. Who in
+    this town pays over Common for this exact good,
+    and who is dumping it.
+
+  5+ DoS
+    How to cut the lot. Split the good from the
+    dross. Which defect to show and which to bury.
+    This is the number Haggle will use if the
+    tester decides to pass poor goods as better.
+
+Passing off
+  Evaluate does not move the price by itself.
+  A high Evaluate on poor goods tells you the lie
+  that will stand. Haggle delivers the lie.
+  Fail Evaluate and then Haggle anyway: you are
+  selling a story you do not understand. The buyer
+  who later Evaluate's the lot finds you out.
+  Campaign_Log if it matters.
+
+HAGGLE
+
+Ordinary. Parents: Fellowship, Intelligence.
+No specialism. One Rank covers cattle, swords, and
+charters. The goods-knowledge is Evaluate.
+
+Default test: opposed Haggle, seller vs buyer.
+Either party may be an NPC with no Rank (Unknown).
+Charm is not this Skill. Intimidate can open a
+Haggle or replace it when the "price" is fear.
+The GM says which.
+
+Evaluate feeds Haggle
+  Before the opposed roll, each party may have
+  Evaluated the lot (or skipped it).
+
+  Your Evaluate DoS on this lot    Haggle modifier
+  Fail or no test                  −10  (you are guessing)
+  0 DoS                            +0
+  1–2 DoS                          +10
+  3–4 DoS                          +20
+  5+ DoS                           +20, and you may
+                                   declare a pass-off
+                                   (poor as Common, Common
+                                   as Good). Buyer resists
+                                   with Evaluate on their
+                                   specialism, not with
+                                   more Haggle.
+
+  Only one Evaluate feeds each Haggle. You do not
+  stack Bulk and Arms on the same crate.
+
+Price from the opposed result
+  Start from the Common ticket in this market
+  (Economy listed, after region and season).
+  Winner is the party with more DoS, or fewer DoF.
+
+    Margin                 Price
+    Tie                    Common
+    Winner 1 DoS           10% toward the winner
+    Winner 2 DoS           20%
+    Winner 3 DoS           30%
+    Winner 4+ DoS          40%, and the loser knows
+                           they were had if they
+                           later Evaluate the lot
+
+  Cap: 40% off that market Common unless the GM
+  says the stall was already desperate. Economy
+  regional swing (± the Economy_Rules band) applies
+  before this percentage, not after.
+
+Speak Language
+  If the deal is not in a tongue both hold at Known,
+  Haggle takes the language penalty from Resolution
+  before DoS are compared.
+
+Time
+  One Haggle is one deal, one lot. Narrative time.
+  Walking the same stall again the same day is −20
+  or a closed door.
+
+Both Skills on the same scene
+  1. Evaluate the lot (each party who bothers).
+  2. Decide the story you will sell.
+  3. Opposed Haggle, with the table above.
+  4. Coin changes. The true grade does not.
+     A passed-off butted hauberk is still butted
+     when the next Evaluate lands.
+
+--------------------------------------------------
 ADVANCED (*)
 --------------------------------------------------
 
 Cannot be attempted Unknown. Formal learning, or Intuitive
 only if the Entity entry says so.
+
+Parry *
+  Parents:  Weapon Skill
+  Use:      catch and turn a blow that has already been
+            rolled as a hit. Opposed against the
+            attacker’s DoS (Combat §6). Requires a
+            ready weapon or shield.
+            Formal training: a proficient teacher or
+            military drill. Not a farmyard flinch.
+            Without this Skill there is no Parry test.
+            Dodge remains the untrained last step.
+            Shield Defensive(x) adds to this Skill,
+            not to raw WS (Shield_Rules.txt).
 
 Animal Care *
   Parents:  Intelligence

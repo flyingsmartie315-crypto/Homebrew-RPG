@@ -1,0 +1,181 @@
+# Economy_Primary_Forestry.txt
+# Primary goods — Forestry
+# Law: Economy_Primary_Goods.txt (currency, bulk, packing)
+# Base unit: 1 kg unless the line says otherwise.
+# 1 gc = 20 sc = 240 bc. Cart 800 kg / 2.5 m³. Heavy cart 1,500 kg / 4 m³. Barge 12,000 kg / 30 m³.
+
+Forestry
+
+  Timber (mixed)
+  Base: 0.2 bc per kg
+  Bulk: 450 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 13 sc 4 bc
+  Heavy-cart load (1,500 kg) → 25 sc
+  Barge-load (12,000 kg) → 200 sc
+
+  Pine / Fir
+  Base: 0.25 bc per kg
+  Bulk: 450 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 16 sc 8 bc
+  Heavy-cart load (1,500 kg) → 31 sc 3 bc
+  Barge-load (12,000 kg) → 250 sc
+  Master-mast: 2,000 kg at 1.5× → 62 sc 6 bc
+
+  Birch
+  Base: 0.3 bc per kg
+  Bulk: 500 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 20 sc
+  Heavy-cart load (1,500 kg) → 37 sc 6 bc
+  Barge-load (12,000 kg) → 300 sc
+
+  Alder
+  Base: 0.3 bc per kg
+  Bulk: 450 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 20 sc
+  Heavy-cart load (1,500 kg) → 37 sc 6 bc
+  Barge-load (12,000 kg) → 300 sc
+
+  Beech
+  Base: 0.45 bc per kg
+  Bulk: 550 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 30 sc
+  Heavy-cart load (1,500 kg) → 56 sc 3 bc
+  Barge-load (12,000 kg) → 450 sc
+
+  Elm
+  Base: 0.5 bc per kg
+  Bulk: 550 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 33 sc 4 bc
+  Heavy-cart load (1,500 kg) → 62 sc 6 bc
+  Barge-load (12,000 kg) → 500 sc
+
+  Ash
+  Base: 0.6 bc per kg
+  Bulk: 550 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 40 sc
+  Heavy-cart load (1,500 kg) → 75 sc
+  Barge-load (12,000 kg) → 600 sc
+
+  Oak
+  Mixed and red oak. The common structural ticket.
+  Not white oak. Wet work and tight cooperage use White Oak.
+  Base: 0.7 bc per kg
+  Bulk: 650 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 46 sc 8 bc
+  Heavy-cart load (1,500 kg) → 87 sc 6 bc
+  Barge-load (12,000 kg) → 700 sc
+  Monumental pillar: 2,500 kg at 1.5× → 218 sc 9 bc
+
+  White Oak
+  Closed grain. Takes water and a tight cask.
+  Frames, treenails' rival is locust; this is the plank and the stave.
+  Not a bow-wood.
+  Base: 1 bc per kg
+  Bulk: 750 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 66 sc 8 bc
+  Heavy-cart load (1,500 kg) → 125 sc
+  Barge-load (12,000 kg) → 1,000 sc
+
+  Hickory
+  Shock wood. Handles, spokes, axe hafts, mauls.
+  Not a hull timber. Small clear lengths.
+  Base: 1.4 bc per kg
+  Bulk: 830 kg/m³
+  Packing: loose pile / wrapped blanks
+  Cart load (800 kg) → 93 sc 4 bc
+  Heavy-cart load (1,500 kg) → 175 sc
+  Selected handle lot (20 kg) → 2 sc 4 bc
+
+  Black Locust
+  Ground-contact wood. Posts, pins, treenails, sills in the wet.
+  Hard on a saw. Splits clean. Not a bow. Not a mast.
+  Base: 1.2 bc per kg
+  Bulk: 770 kg/m³
+  Packing: loose pile
+  Cart load (800 kg) → 80 sc
+  Heavy-cart load (1,500 kg) → 150 sc
+  Barge-load (12,000 kg) → 1,200 sc
+
+  Cornelian Cherry
+  Small tree. Not saw-timber. Spear, javelin, peg, mallet.
+  Fruit is a tart forage, not this ticket.
+  Base: 2 bc per kg
+  Bulk: 950 kg/m³
+  Packing: wrapped blanks
+  Workshop lot (20 kg) → 3 sc 4 bc
+  No barge-lot. The stick is the good.
+
+  Yew
+  Base: 2 sc 6 bc per kg
+  Bulk: 700 kg/m³
+  Packing: wrapped / loose
+  5 kg bow-stave → 12 sc 6 bc
+  20 kg workshop lot → 50 sc
+
+  Svart-Viðr / Svartwood
+  Dauðavík fault-ribbons only. Not a blanket forest.
+  Grade follows proximity to the live geothermal line and how much
+  vent-metal the wood has taken up. Same tree. Different cuts.
+  Bark and sawdust sicken unless wet-wrapped. Burns foul.
+  Do not book any grade as charcoal-wood.
+
+  Rim / pale (outer ribbon, cool side)
+    Slightly denser than ash. Hull strakes, deck, light frames.
+    A whole hull may be this grade. Heart members still named.
+    Base: 3 bc per kg
+    Bulk: 600 kg/m³
+
+  Mid (ribbon body)
+    Waterline planks, knees, ordinary frames.
+    Base: 5 bc per kg
+    Bulk: 720 kg/m³
+
+  Heart / vent (closest to the boil, highest mineral)
+    Keel, stem, stern, tiller, durable hafts.
+    Not a whole hull. Too heavy and too glassy.
+    Base: 8 bc per kg
+    Bulk: 850 kg/m³
+
+  Packing: loose pile / wrapped members
+  Cart load of rim (800 kg) → 200 sc
+  Cart load of heart (800 kg) → 533 sc 4 bc
+  Heart member blank (200 kg at 2× the heart rate) → 266 sc 8 bc
+  No barge-lot of heart off the island unless a Jarn hull is already in the water.
+  Rim strakes may travel as cargo. Heart does not travel as a pile.
+
+  Svart-bark (unworked)
+  Same tree. Vent-metals in the skin.
+  Not a timber. Not a dye until someone who knows the cost works it.
+  Base: 2 bc per kg
+  Bulk: 300 kg/m³
+  Packing: wet-wrap / basket
+  Basket (10 kg) → 1 sc 8 bc
+  Working it dry is a Hazard, not a workshop day.
+
+  Charcoal
+  Base: 6 bc per kg
+  Bulk: 280 kg/m³
+  Packing: sack
+  Sack (15 kg) → 7 sc 6 bc
+  Cart load (700 kg, volume) → 350 sc
+  Heavy-cart load (1,120 kg, volume) → 560 sc
+  Barge-load (8,400 kg, volume) → 4,200 sc
+
+  Resin / Pitch
+  Base: 12 bc per kg
+  Bulk: 1,100 kg/m³
+  Packing: cask
+  Cask (20 kg) → 20 sc
+  Cart load (800 kg) → 800 sc
+  Heavy-cart load (1,500 kg) → 1,500 sc
+
+

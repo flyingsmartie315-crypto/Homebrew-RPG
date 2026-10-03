@@ -20,7 +20,22 @@ Core Iron Grade then multiplies a plate/segmented ticket:
   Low-carbon     x1.00    (Steel)
   Hardened       x1.25    (Fine Steel)
   Crucible       x2.50    (Crucible Steel)
-Butted mail is not a grade. It is a worse join: x0.6 cost, x1.2 Enc, AC 2/2/2.
+  Zenith         x8.00    (Zenith Steel, veil-drop)
+Zenith is not a workshop grade. Hollow / Void Steel.
+Isernvolk Lich-Stál. Syllvani Anfarael.
+Economy_Unveiling_Goods.txt.
+Riveted mail takes Iron Grade, any grade.
+Butted is a join: listed ×0.6 cost, ×1.2 Enc, AC 2/2/2,
+then Wrought or Low-carbon only. Not Hardened, Crucible, or Zenith.
+Butted wrought is AC 1/1/1. Butted low-carbon stays 2/2/2.
+
+Pre-iron alloys are not an Iron Grade. Do not stack them.
+Eligible: Coat of Plates, Laminar, Bracers, Greaves,
+Skullcap, Nasal helm (spangenhelm and the solid nasal).
+  Bronze  listed ×1.00    ingot matches Steel (6 sc/kg)
+  Brass   listed ×0.90    ingot 5 sc/kg
+Copper is not armour. No mail, no cuirass, no closed helm.
+Enc and AC are Armour.txt Alloy Grade. Cast waste 1.15.
 
 Stay inside the categories. Named Models in Armour.txt are types, not separate files.
 
@@ -212,7 +227,8 @@ Shop: town or garrison.
 Modifiers:
   - Long Sleeves / Long Hem: more rings, more weeks, Enc % from Armour.txt
   - Butted: calendar about half; still 10 / 90; do not call it riveted
-  - Double mail / Tempered rings: Making upgrades, not this row
+  - Double mail: Making upgrade, not this row
+  - Iron Grade on riveted: Core table, not a second labour block
 Output: 1 hauberk
 Base price:
   Riveted     8-14 gc
@@ -531,8 +547,8 @@ CORE
 --------------------------------------------------
 
 Armour.txt Base cost is Common, mid of the band above.
-Poor / Good / Best, if Core copies Weaponry craft, sit on that ticket.
-Do not apply Iron Grade to mail. Butted is the mail discount.
+Riveted mail takes Iron Grade. Butted does not.
+Do not apply Iron Grade twice.
 
 
 --------------------------------------------------

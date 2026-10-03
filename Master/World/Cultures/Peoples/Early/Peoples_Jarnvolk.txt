@@ -55,12 +55,19 @@ They dig in or sit behind stacked basalt. Early linings are oil-cured gut and bl
 BOTTLENECKS (LOCKED)
 --------------------------------------------------
 1. Agriculture. Geothermal trenches keep soil soft. They do not make a fat country. Heads of household are few.
-2. The wood. Svart-Viðr is what grows. Ordinary timber will not. On Dauðavík the rare good is southern oak and pine; in the south the rare good is Svartwood. Hard to harvest, hard to shape, limited stands. Every Jarn hull is Svartwood because there is nothing else to plank a ship with. That hull is heavy and cumbersome. A better ship. Not a super one. A keel is still a generation-argument.
+2. The wood. Svart-Viðr is what grows. Ordinary timber will not. On Dauðavík the rare good is southern oak and pine; in the south the rare good is Svartwood. Hard to harvest, hard to shape, limited stands.
+Same tree, three cuts. Grade follows how close the stand sits to the live vent, and how much metal the wood has taken up.
+- Rim / pale: outer ribbon, cool side. Slightly denser than ash. Strakes, deck, light frames. A whole hull may be this grade. Still name the heart members.
+- Mid: ribbon body. Waterline planks, knees, ordinary frames.
+- Heart / vent: closest to the boil. Keel, stem, stern, tiller, durable hafts. Not a whole hull. Too heavy and too glassy.
+Do not book any grade as charcoal. Bark and sawdust sicken unless wet-wrapped. Burns foul.
+Every Jarn hull is Svartwood because there is nothing else to plank a ship with. The hull is rim. The named bones are heart. A better ship. Not a super one. A keel is still a generation-argument.
+Prices and bulk: Economy_Primary_Goods.txt. Rim may travel as cargo. Heart does not travel as a pile.
 3. Cloth, many ores, ordinary comforts. Sourced abroad. This is why they appear on southern lanes at all.
 
 Every Jarn hull is Svart-Viðr. Flagship and snekkjur alike. There is no mixed oak-and-black fleet on the bight.
-The cost is weight. The ships are heavy. They do not sail like a pine cog.
-That is why two Osricford cogs are a prize: ordinary timber, deep holds, the wood Dauðavík cannot grow.
+The cost is weight, and it is not even. A rim hull is heavy. A heart keel is a named argument. They do not sail like a pine cog.
+Rim strakes may leave the island as cargo. Heart members do not. That is why two Osricford cogs are a prize: ordinary timber, deep holds, the wood Dauðavík cannot grow.
 They still need men, food, and a reason to leave the bight. They do not own the ocean.
 
 --------------------------------------------------
@@ -74,9 +81,10 @@ Pre-collapse engineered conifer on the volcanic arc. Inhabitants do not know it 
 Jobs the grove is allowed to do:
 - Trace the faults. Warm, humid stands in a hard climate.
 - Take up foulness from the vents in bark and sap.
-- Yield heavy, unfriendly timber that makes a better ship if you can get a plank off it.
+- Yield three grades of stubborn timber. Rim for the hull. Mid for the waterline. Heart for the bones. Not charcoal.
 
 It does not make them fireproof, reef-proof, or a law of the sea.
+A whole hull of heart-wood is a mistake, not a wonder. The Jarn already know this. They place the black members where the ship would otherwise die.
 Tap-root warmth under a house is a local trick where a stump sits on live ground. Not central heating for the island.
 
 --------------------------------------------------
@@ -155,7 +163,7 @@ Standalone. Does not replace prior sections. Empty lines mean the point is not l
 * Recreation & Sports: Not locked.
 * Stimulants & Cuisine: Kail, turnip, trench-crops. Rest from the south.
 9. Economic & Subsistence Foundation
-* Mode of Production: Geothermal trench-fields. Svart-Viðr hulls. Raid and trade for cloth, ore, ordinary timber, comfort.
+* Mode of Production: Geothermal trench-fields. Svart-Viðr hulls (rim planks, named heart members). Raid and trade for cloth, ore, ordinary timber, comfort. Rim strakes may be sold. Heart is not a cargo pile.
 * Attitude Toward Wealth: A hull is wealth. Two southern cogs are a prize because Dauðavík cannot grow that wood.
 
 --------------------------------------------------
