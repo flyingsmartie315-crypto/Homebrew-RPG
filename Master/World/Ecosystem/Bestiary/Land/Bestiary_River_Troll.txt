@@ -1,0 +1,63 @@
+# Bestiary_River_Troll
+
+Type: Unveiling
+Domain: Freshwater, Amphibious
+Biome: Wetland, River, Lake, Pond
+
+HSI
+Temperature: 2–4 | Rainfall: 3–5 | Human Density: 0–3 | Flora: 3–5 | Fauna: 3–5 | Topography: 0–2 | Hydrology: 4–5
+
+RHK
+Rarity: 5
+Individual Harm: 6
+Collective Harm: 4
+Knowledge: 6
+
+Properties
+Height: 8–9 ft standing
+Weight: 480–700 kg
+Lifespan: 40–70 years
+Clutch: litter of two to four in the reed-den
+Maturity: six to eight years
+Dimorphism: little. Females a shade broader; males longer in the arm.
+
+Stats
+Entity_River_Troll.txt
+
+Overview
+River trolls are the lowland Unveiling of slow water. Folk say swamp-troll. Eight to nine feet, thick hair that takes the colour of mud and reed, a hide that knits if you do not burn it. They dive. They dam. A pair can close a burn, drown a mead, and sit the new pool. They are not Fenwights. Few, heavy, and they build. The drowner is a colony of hands. This is a ram in the channel.
+
+Signs
+- A dam of mud, branch, and stone where no beaver has the mass
+- Water backing onto a path, a mill, or a field
+- Colour-shift in the reed that is not wind
+- A swimmer or a skiff taken under, no net, no web-print
+- Mud-clogged stones on the bank, thrown not rolled
+- A den in the roots or the undercut, litter-smell
+- False Moon: a dam that gives, and the path under water
+
+Behaviour
+A pair holds a stretch. They raise the litter in the soggy den and they keep the water where they want it. The dam is labour, not law. It blocks the trade and it floods the plough. Lords pay men to cut it. The pair cuts back, or they open it themselves when the moon is wrong.
+
+They eat fish, frog, fowl, and what the flood brings. A man in the water is prey if he is alone. They do not walk the high street. Ambush is the dive and the claw, or a sunk snag that takes the keel. From the bank they throw mud-stones. Then they go under.
+
+They are cunning for a beast and not a people. Simple traps. A pair that works as one. No speech a man has proved. No trade.
+
+The hide knits. A cut that would drop a man is a pause. Fire and a deep wound in the open are what finish one. In the water they leave, and the wound is yesterday’s.
+
+False Moon puts them in a frenzy at the dam. They burst it or they build through the night. Paths flood. Boats sit wrong. Ordinary nights they hold the hole.
+
+A young one can be taken. An adult almost never breaks. Economy_Unveiling_Beasts.txt prices the broken young, not the wild pair. A kept troll wants wet stone, fish, and a handler who does not startle it. Most lords who try lose the yard.
+
+Encounter
+One in the channel is a drag-under (Harm 6).
+The pair at the dam is Collective 4: water, thrown stone, and the cut that closes.
+Burn the hide if you mean it dead. A sword-cut in the pool is a miss.
+Fenwight water can hold both. Drowners are many and small. This is the dam. Do not run them as one threat.
+Kannavald: Kolmire and the slow inlets, Temperature 2 as endurable. Not the Spire. Not a dry ridge.
+
+Notes
+- Locked name: River Troll. Spoken: swamp-troll.
+- Domain is Freshwater and Amphibious. Marine is a skip. A dry feature is a skip.
+- Economy: Economy_Unveiling_Beasts.txt. Size locked with this file: 8–9 ft, 480–700 kg. Feed on that sheet is 10–18 bc a day. Not livestock in any honest market. Young, broken, and wet-kept only. Wild ones are not sold.
+- Fenwight is the colony. Weber-Fisher is the hang. This is the dam.

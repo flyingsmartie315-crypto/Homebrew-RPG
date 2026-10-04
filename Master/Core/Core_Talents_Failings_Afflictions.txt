@@ -483,4 +483,12 @@ Write on the sheet as Category: Combat Manoeuvre.
 
   Specialist Weapon Group (various)
     Weaponry.txt. Each group is its own Talent.
+
+  Mounted Archer
+    Not an Action. While mounted, ignore the
+    first 10 points of mounted shooting
+    penalties (Weaponry.txt bows).
+    Does not remove Inaccurate (Aim).
+    A high longbow is −30, then −20.
+    A low composite is −5, then 0.
 }

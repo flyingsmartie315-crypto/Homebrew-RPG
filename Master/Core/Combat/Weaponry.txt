@@ -220,22 +220,26 @@ before step 3.
 AP (x)             Ignore (x) AC on the location hit.
                    Minimum 0. No AC there: no effect.
                    A bare AP on an old line is AP (1).
-Balanced           No penalty for a second weapon in
-                   the off hand (two-weapon rules still
-                   Open in Combat).
-Concealable        +20 Concealment to hide it.
+Balanced           No penalty for a second weapon,
+                   shield, or appropriate gear
+                   (a torch) in the off hand.
+                   Two-weapon rules are still
+                   Open in Combat.
+Concealable (x)    +(x) Concealment to hide it.
+                   A bare Concealable is (20).
                    Enc over 50: quality does not apply.
-Defensive          +10 Parry while wielding it.
-                   Shields use Defensive(x):
-                   Shield_Rules.txt. (x) is the
-                   Parry bonus. Free Parry. May
-                   Parry shooting. Not this +10.
+Defensive (x)      +(x) Parry while wielding it.
+                   A bare Defensive is (10).
+                   Shields use the same (x), and
+                   add the free Parry and the
+                   shot Parry. Shield_Rules.txt.
+                   A weapon line does not.
 Experimental       Attack roll 96–00: weapon ruins.
                    Wielder takes 1d10 + SB incoming,
                    NAC only (no worn AC).
-Fast               Defender −10 on Parry or Dodge
+Fast (x)           Defender −(x) on Parry or Dodge
                    against this weapon.
-Fast (x)           As Fast. The number replaces 10.
+                   Fast (10) is the old bare Fast.
                    Fast (30) is −30.
 Inaccurate         Roll the BS test twice. Take the
                    higher result. Roll-under, so the
@@ -243,19 +247,21 @@ Inaccurate         Roll the BS test twice. Take the
                    No Aim. Fired from the hip.
 Inaccurate (Aim)   The same two rolls. Aim is allowed.
 Formation Specialist
-                   +10 WS and +1 Pierce per adjacent
-                   ally in the same ranked body
-                   (max +30 WS / +3 Pierce).
+                   +10 WS per adjacent ally in
+                   the same ranked body (max +30).
                    Alone: −20 WS. No Charge, no Run.
 Impact             2d10 keep higher for the damage
                    die.
+Mounted Impact     Lance group only. A Charge from
+                   horseback. Roll 2d10 and keep
+                   both, then SB + type + DoS.
+                   The opening strike of that
+                   Charge only. Not a foot attack.
+                   Does not stack with Impact.
 Inconspicuous      Passes as a tool or stick.
                    +10 Charm or Disguise to treat it
                    as harmless. Ambush: foes −10
                    Initiative the first Round.
-Mounted Specialist +1 Pierce and ignore Tiring while
-                   mounted. On foot: halve Reach,
-                   gain Slow.
 Precise            +1 DoS on a hit, after the roll.
                    Helps Called Shot / 3 DoS location.
 Pre-Loaded         Stays loaded until fired.
@@ -263,22 +269,29 @@ Pre-Loaded         Stays loaded until fired.
                    that shot is the opening.
                    Jostled travel: 91–00 discharges
                    at a random nearby Entity.
-Pummelling         +10 Strength when the blow is used
-                   to stun (that Action is still Open).
-Shrapnel           Cone to max range. Each Entity in
-                   it tests Agility or takes the hit.
-Shrapnel (20)      One d100 opens the firing.
+Pummelling (x)     +(x) Strength on a blow to
+                   the head. It triggers on its
+                   own when the location is the
+                   head. A stun Action is still
+                   Open. A bare Pummelling is (10).
+Shrapnel (x)       One quality. (x) is the pellet
+                   cap. One d100 opens the firing.
                    Inaccurate applies to that roll.
-                   Experimental and Unreliable read
-                   it only. A miss puts no pellets out.
-                   A hit lands 10 + (DoS × 2), maximum 20.
+                   Experimental and Unreliable
+                   read it only. A miss puts no
+                   pellets out. A hit lands
+                   half of (x) + (DoS × 2),
+                   maximum (x).
                    Point-Blank: closest takes all.
-                   Close: closest takes half, round up.
-                   The rest scatter inside 10 yards.
-                   Long: scatter across the cone. No one
-                   takes a fourth until each has one.
-Slow               Defender +10 on Parry or Dodge
+                   Close: closest takes half,
+                   round up. The rest scatter
+                   inside 10 yards.
+                   Long: scatter across the cone.
+                   No one takes a fourth until
+                   each has one.
+Slow (x)           Defender +(x) on Parry or Dodge
                    against this weapon.
+                   A bare Slow is (10).
 Snare              On a standing hit, target is held.
                    Opposed Agility to act or move.
                    Opposed Strength each Round to
@@ -286,8 +299,6 @@ Snare              On a standing hit, target is held.
                    other tests.
 Special            See the weapon or ammunition line.
 Throwing           May be thrown at the listed range.
-                   Returns to hand on 3+ DoS and a
-                   successful Agility test.
 Tiring             First attack or first Round only
                    at full value.
                    Bows: −10 BS each extra Round the
@@ -295,62 +306,227 @@ Tiring             First attack or first Round only
 Unreliable         96–00: 1d10. 1–5 fail to fire.
                    6–10: incoming to the wielder as
                    Experimental, weapon ruined.
-Versatile          Choose type each attack. Some
-                   entries restrict the two-hand or
-                   heavy grip to Hulking.
+Versatile          Choose type each attack.
 
 --------------------------------------------------
 6. MELEE
 --------------------------------------------------
 
 Small
+  All Concealable (20).
   Dagger *                12 sc   Enc 3   Ord
-    (3/5/1)  Reach 0.5   Fast
+    (3/5/1)  Reach 0.5   Fast (10), Concealable (20)
   Misericordia            18 sc   Enc 4   Ord
-    (2/6/1)  Reach 0.5   Fast, AP (1)
+    (2/6/1)  Reach 0.5   Fast (10), AP (1),
+                         Concealable (20)
   Main Gauche             16 sc   Enc 5   Parrying
-    (2/4/1)  Reach 0.5   Fast, Defensive, Balanced
+    (2/4/1)  Reach 0.5   Fast (10), Defensive (10),
+                         Balanced, Concealable (20)
   Utility Axe (Hatchet) * 18 sc   Enc 5   Ord
-    (5/1/3)  Reach 0.5   Impact, Throwing
+    (5/1/3)  Reach 0.5   Impact, Throwing,
+                         Concealable (20)
 
 Axes
-  One-Handed Axe *        25 sc   Enc 8   Ord
-    (5/1/3)  Reach 1     Impact, Versatile
-  Two-Handed Axe *        3 gc    Enc 22  Two-handed
-    (6/1/4)  Reach 1.5   Impact, Slow, Versatile
-                         (Hulking only)
+  One-handed axe haft *   4 sc   Enc 20  Ord
+    Reach 1
+    Ash haft. 2 kg blank, half a carpenter day.
+    One hand. Balanced. A second weapon,
+    shield, or torch in the other hand
+    takes no penalty from this haft.
+    Not a weapon until a head is on.
+    Finished cost and Enc are haft plus head.
+    Listed heads are low-carbon. Felling and
+    bearded may be wrought: cost ×0.80,
+    Enc ×1.15. A horseman’s axe is not.
+  Felling axe       +10 sc    Enc +6
+    (4/0/2)  Slow (10)
+    Thick wedge, narrow edge. About 0.6 kg.
+    One smith day. No thrust. Wrought allowed.
+    Front-heavy, built for the downward cut.
+    No Impact. The bit is too thick. It binds
+    in a moving target instead of biting.
+  Bearded axe       +18 sc    Enc +10
+    (5/1/2)  Impact, Snare
+    Beard drawn down. Wide edge, light head.
+    About 1 kg. A day and a half.
+    Wrought allowed. The gap behind the beard
+    hooks a shield rim, a weapon, or an ankle.
+  Horseman's axe    +1 gc 6 sc   Enc +13
+    (5/4/4)  Impact, Versatile, Fast (5)
+    Blade swept back and narrowed. Poll is a
+    spike or a compact hammer. About 1.3 kg.
+    Two smith days. Not a wrought job.
+    Langets are on the haft. That is the
+    Langets upgrade, already in the price.
+    Do not buy it again.
+  Two-handed axe haft *  7 sc   Enc 30  Two-handed
+    Not a weapon until a head is on.
+    Ash haft. 3 kg blank, one carpenter day.
+    Two hands. A one-hand grip is not this weapon.
+    Finished cost and Enc are haft plus head.
+    The head sets Reach. Listed heads are
+    low-carbon. The long wood axe may be
+    wrought: cost ×0.80, Enc ×1.15.
+    The others are not.
+  Long wood axe     +1 gc 10 sc   Enc +20
+    (5/0/3)  Reach 1.2   Slow (10), Tiring
+    Unflared wedge for timber. About 2 kg.
+    Two smith days. No thrust. The weight
+    sits in the bit. Wrought allowed.
+  Nord axe          +3 gc     Enc +15
+    (6/1/2)  Reach 1.5   Impact, Slow (10), Versatile
+    Thin crescent, up to a foot of edge.
+    About 1.5 kg. Three smith days. The
+    thin bit is the time.
+  Bearded great axe +3 gc 10 sc   Enc +18
+    (6/1/3)  Reach 1.5   Impact, Slow (10), Snare,
+                         Versatile
+    Lower horn dropped for the hook.
+    About 1.8 kg. Three and a half days.
+    Catches a shield rim.
+  Battleaxe         +4 gc     Enc +22
+    (6/4/5)  Reach 1.2   Impact, Slow (10), Versatile,
+                         AP (1)
+    Thick bit, beak or flanged poll behind.
+    About 2.2 kg. Four smith days.
 
 Maces / hammers
-  One-Handed Mace *       22 sc   Enc 10   Ord
-    (1/1/5)  Reach 1     Pummelling
-  Two-Handed Mace *       3 gc    Enc 28  Two-handed
-    (1/1/6)  Reach 1.5   Impact, Pummelling, Slow
+  One-handed mace haft *  4 sc   Enc 20  Ord
+    Not a weapon until a head is on.
+    Ash haft. 2 kg blank, half a carpenter day.
+    One hand. Balanced. A second weapon,
+    shield, or torch in the other hand
+    takes no penalty from this haft.
+    Finished cost and Enc are haft plus head.
+    Listed heads are low-carbon. Hand-hammer
+    and star may be wrought: cost ×0.80,
+    Enc ×1.15. Flanged and warhammer are not.
+  Hand-hammer       +8 sc     Enc +8
+    (0/0/4)  Reach 0.5   Pummelling (10), Slow (10)
+    Blocky cube, flat face, rounded peen.
+    About 0.8 kg. One smith day. Wrought
+    allowed. Balanced for an anvil, not a
+    man. That is the Slow (10). No thrust.
+  Star mace         +16 sc    Enc +12
+    (0/0/5)  Reach 1     Pummelling (10)
+    Sphere with blunt pyramids or knobs.
+    About 1.2 kg. A day and a half.
+    Wrought allowed. A point meets the
+    helm whichever way it lands.
+  Flanged mace      +1 gc 4 sc   Enc +12
+    (0/1/5)  Reach 1     Pummelling (10), Fast (5),
+                         AP (1)
+    Six to eight flanges on a core. Short
+    blunt spike at the tip. About 1.2 kg.
+    Two smith days. Not a wrought job.
+    The spike is the pierce. It is low.
+  Warhammer         +1 gc 8 sc   Enc +14
+    (1/5/4)  Reach 1     Impact, Versatile, AP (1)
+    Toothed hammer face, curved beak behind.
+    About 1.4 kg. Two smith days.
+    Not a wrought job. Langets are on the
+    haft. Already in the price. Do not buy
+    them again. The ×1.30 hitpoints apply.
+  Two-handed mace haft *  7 sc   Enc 30  Two-handed
+    Not a weapon until a head is on.
+    Ash haft. 3 kg blank, one carpenter day.
+    Two hands. A one-hand grip is not this weapon.
+    Finished cost and Enc are haft plus head.
+    The head sets Reach. Listed heads are
+    low-carbon. The heavy sledge may be
+    wrought: cost ×0.80, Enc ×1.15.
+    The others are not.
+  Heavy sledge      +1 gc 10 sc   Enc +25
+    (0/0/5)  Reach 1.2   Impact, Pummelling (10),
+                         Slow (10), Tiring
+    Double-faced block. About 2.5 kg.
+    Two smith days. No thrust. Wrought
+    allowed. No langets, no taper. The
+    mass sits at the end of the haft.
+  Great knobbed mace +3 gc    Enc +22
+    (1/1/6)  Reach 1.5   Impact, Pummelling (10), Slow (10)
+    Barrel of steel, pyramidal spikes,
+    stout top spike. About 2.2 kg.
+    Three smith days. The spike is the
+    pierce. It is minor.
+  Flanged great mace +3 gc 10 sc  Enc +25
+    (0/2/6)  Reach 1.5   Impact, Pummelling (10),
+                         Slow (10), AP (1)
+    Four to six heavy swept fins.
+    About 2.5 kg. Four smith days.
+    Not a wrought job.
+  Great battle-hammer +5 gc   Enc +28
+    (1/6/6)  Reach 1.2   Impact, Pummelling (10),
+                         Versatile, AP (1)
+    Toothed hammer face, long beak behind.
+    About 2.8 kg. Five smith days.
+    Not a wrought job. Short haft, not a
+    poleaxe. Langets are pinned down the
+    ash. Already in the price. Do not buy
+    them again. The ×1.30 hitpoints apply.
   Staff                    6 sc   Enc 8   Two-handed
-    (0/1/4)  Reach 2     Defensive, Fast, Concealable,
+    (0/1/4)  Reach 2     Defensive (10), Fast (10), Concealable (20),
                          Inconspicuous
 
 Swords
+  Short and arming swords are one hand.
+  A second hand on them does nothing.
+  H&H gains Fast (10) when both hands
+  are on it. One hand, that Fast is off.
+  Great swords require two hands.
+
+  Short double-edged      1 gc 10 sc  Enc 6   Ord
+    (3/3/1)  Reach 0.5   Balanced, Precise,
+                         Concealable (20), Versatile
+  Short single-edged      1 gc 10 sc  Enc 7   Ord
+    (4/1/1)  Reach 0.5   Balanced, Impact,
+                         Concealable (20), Versatile
   Double-edged straight    3 gc   Enc 11   Ord
-    (4/4/2)  Reach 1     Balanced, Precise
+    (4/4/2)  Reach 1     Balanced, Precise, Versatile
   Single-edged curved      3 gc   Enc 12   Ord
-    (5/2/2)  Reach 1     Balanced, Impact
+    (5/2/2)  Reach 1     Balanced, Impact, Versatile
   H&H double-edged *       6 gc   Enc 16   Ord / Two-hand
     (5/4/2)  Reach 1.5   Balanced, Versatile
+    Two hands: Fast (10).
   H&H single-edged *       6 gc   Enc 17   Ord / Two-hand
     (6/2/3)  Reach 1.5   Balanced, Impact, Versatile
+    Two hands: Fast (10).
   Great double-edged *    12 gc   Enc 30  Two-handed
-    (7/4/3)  Reach 2     Impact, Slow, Versatile
-                         (Hulking only)
+    (7/4/3)  Reach 2     Impact, Versatile
   Great single-edged *    12 gc   Enc 32  Two-handed
-    (8/2/3)  Reach 2     Impact, Slow, Versatile
-                         (Hulking only)
+    (8/2/3)  Reach 2     Impact, Versatile
+
+Cavalry
+  All 1H while mounted. Group Cavalry.
+  That is the Lance talent.
+  On a horse they are one hand. Impact and
+  Mounted Impact are the charge only.
+  They are not on a standing blow.
+  Couched and great, on foot: two hands,
+  and Fast is gone.
+  Cavalry spear and demi, on foot: one hand,
+  and Fast is gone unless the second hand
+  is on the shaft.
+  Cost and Enc are a first pass off the
+  old 4 gc lance.
+
+  Cavalry spear        1 gc   Enc 16  Cavalry
+    (1/6/1)  Reach 3     Fast (10)
+    Impact on a mounted Charge only.
+    2d10 keep higher. Not Mounted Impact.
+  Demi lance           2 gc   Enc 20  Cavalry
+    (1/6/2)  Reach 3.5   Fast (15)
+    Impact on a mounted Charge only.
+  Couched lance        4 gc   Enc 24  Cavalry
+    (2/7/1)  Reach 4     Fast (10), Mounted Impact,
+                         Tiring
+  Great lance          6 gc   Enc 32  Cavalry
+    (2/8/1)  Reach 4.5   Fast (10), Mounted Impact,
+                         Tiring
 
 Polearms
   Spear (1H polearm) *    18 sc   Enc 12   Ord
-    (2/5/1)  Reach 2     Fast, Versatile
-  Lance (cavalry) *        4 gc   Enc 24  Cavalry
-    (2/7/1)  Reach 3     Fast, Impact, Tiring,
-                         Mounted Specialist
+    (2/5/1)  Reach 2     Fast (10), Versatile
   2H polearm Short *       6 sc   Enc 25  Two-handed
     Reach 2     Versatile
     Ash shaft. 2.5 kg blank, one carpenter day.
@@ -385,7 +561,7 @@ Polearms
     Long cleaver, curved back. About 1.8 kg.
     Four smith days. Axe-work.
   Lucerne hammer  +4 gc 10 sc   Enc +14
-    (1/5/7)  Impact, Slow
+    (1/5/7)  Impact, Slow (10)
     Toothed face, long rear spike. About 1.4 kg.
     Four smith days.
   Pollaxe         +5 gc     Enc +13
@@ -393,11 +569,11 @@ Polearms
     Axe, hammer, top spike. About 1.3 kg.
     Four smith days. The time is the three tools.
   Halberd         +5 gc     Enc +16
-    (6/5/3)  Impact, Slow, Snare
+    (6/5/3)  Impact, Slow (10), Snare
     Broad axe, top spike, back fluke. About 1.6 kg.
     Four smith days.
   Raven's beak    +3 gc 10 sc   Enc +11
-    (1/7/5)  Impact, Slow, Snare
+    (1/7/5)  Impact, Slow (10), Snare
     Thick beak, compact hammer. About 1.1 kg.
     Three smith days.
   War spear       +18 sc    Enc +4
@@ -411,7 +587,7 @@ Polearms
     are the extra half day.
     Defensive (5) is +5 Parry. Not a shield.
   Spikoar         +6 sc     Enc +4
-    (1/4/4)  Slow, Impact  Reach −0.5
+    (1/4/4)  Slow (10), Impact  Reach −0.5
     Spike and collar in a club. About 0.4 kg
     of iron. Half a day. Wrought allowed.
   Billhook        +16 sc    Enc +5
@@ -443,29 +619,54 @@ Polearms
 Range is short / long yards. Reload is Actions.
 
 Bows                                          Min S
-  Light (hunting)     18 sc  Enc 5  Ord
+  Two hands. A one-hand draw is not a shot.
+  Two builds. One profile per poundage.
+  Longbow is a self stave. Composite is
+  horn, wood, and sinew. Range, damage,
+  reload, and Min S match inside a tier.
+  Cost does not. Composite is the dearer
+  ticket. First pass.
+
+  Low, 20–40 lb. Min S 20. Ord
     (2/3/1)  18/36   Reload Half    Fast
-    Draw 20–40 lb.  Min S 20
-  Medium              38 sc  Enc 6  Ord
+    Longbow        18 sc   Enc 5
+    Composite      1 gc    Enc 6
+  Medium, 40–70 lb. Min S 25. Ord
     (3/4/1)  24/48   Reload Half
-    Draw 40–70 lb.  Min S 25
-  Heavy            1 gc 10 sc Enc 8  Ord
-    (3/5/1)  30/60   Reload Full    Tiring, AP (1)
-    Draw 70–100 lb. Min S 30
-  Longbow *        2 gc 10 sc Enc 10  Longbow
-    (4/5/1)  36/72   Reload Full    Tiring, AP (1), Impact
-    Draw 100–180 lb. Min S 35
-    Yew stave. Ash or elm substitute uses the Heavy ticket.
+    Longbow        38 sc   Enc 6
+    Composite      2 gc    Enc 7
+  High, 70–180 lb. Min S 35. Longbow
+    (4/5/1)  36/72   Reload Full    Tiring,
+                                    AP (1), Impact
+    Longbow        2 gc 10 sc  Enc 10
+    Composite      4 gc       Enc 8
+    Yew, or horn and sinew. Ash or elm
+    self-stave uses the medium ticket.
+
+  Mounted shot
+    Every ranged weapon, while the shooter
+    is mounted: Inaccurate (Aim). Two BS
+    rolls, take the higher. Aim is allowed.
+    Bows add a poundage penalty on top.
+    Longbow: −10 BS per tier. Low −10,
+    medium −20, high −30.
+    Composite: −5 BS per tier. Low −5,
+    medium −10, high −15.
+    Mounted Archer ignores the first 10
+    points of that penalty. It does not
+    remove Inaccurate (Aim).
+    Core_Talents_Failings_Afflictions.txt.
 
 Crossbows
+  Two hands. A one-hand span is not a shot.
   Pistol               3 gc  Enc 15  Crossbow
-    (1/3/1)  8/16    Reload Half    Fast, Concealable
+    (1/3/1)  8/16    Reload Half    Fast (10), Concealable (20)
   Light                3 gc  Enc 45  Ord
     (1/4/1)  20/40   Reload Half    Pre-Loaded
   Medium               7 gc  Enc 60  Ord
     (1/5/1)  30/60   Reload Full    AP (1), Pre-Loaded
   Heavy (Arbalest)    16 gc  Enc 85  Crossbow
-    (1/6/1)  40/80   Reload Ext×2   AP (1), Impact, Slow,
+    (1/6/1)  40/80   Reload Ext×2   AP (1), Impact, Slow (10),
                                     Pre-Loaded
   Repeater *          20 gc  Enc 70  Crossbow
     (1/4/1)  16/32   Reload Ext×2   Experimental,
@@ -475,7 +676,7 @@ Crossbows
 
 Slings
   Pouch               8 sc   Enc 1  Ord
-    (0/1/4)  16/32   Reload Half    Concealable,
+    (0/1/4)  16/32   Reload Half    Concealable (20),
                                     Inconspicuous
   Staff Sling *      16 sc   Enc 4  Sling
     (0/1/5)  24/48   Reload Half    Impact
@@ -488,9 +689,9 @@ unless noted Ordinary)
     (1/4/2)  8/16    Fast
     Melee as short spear, Reach 1.5
   Throwing Axe        22 sc  Enc 15  Throwing
-    (4/1/3)  6/12    Impact, Throwing (returns)
+    (4/1/3)  6/12    Impact, Throwing
   Throwing Dagger     14 sc  Enc 2  Throwing
-    (2/4/1)  6/12    Fast, Concealable
+    (2/4/1)  6/12    Fast (10), Concealable (20)
                      +15 Concealment hidden
 
 Min S on a bow: below it the draw is a Strength test
@@ -572,7 +773,7 @@ Drop from a height: Fall table, not this profile.
     +0   AP (1). Stacks with a weapon that
          already has AP (x).
   Blunt (hunt / train)     2 bc   Enc 10   Average
-    −1   Pummelling
+    −1   Pummelling (10)
   Fire (incendiary)       10 bc   Enc 15   Rare
     +0   Special: +1d10 fire incoming.
          Agility or the target keeps burning

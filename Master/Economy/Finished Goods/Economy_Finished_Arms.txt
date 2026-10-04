@@ -231,84 +231,127 @@ Base price: 10–25 sc
 BOWS
 --------------------------------------------------
 
-Seasoning is not labour.
-A stave sits in a loft for years. That is secure storage and a little tied coin.
-It is not a bowyer standing over the stick.
+Two builds. Do not price them as one bow with a surcharge.
 
-Floor
-  stave (already dry) + loft premium (1–8 sc) + string/nocks + tiller-days × wage.
-Do not multiply bowyer-days by the years in the rack.
-Yew costs more because the stick is scarce, not because someone watched it for three years.
+Self / longbow
+  One stave. Ash, elm, or yew. Seasoning is loft, not labour.
+  A stave sits for years. That is storage and a little tied coin.
+  Do not multiply bowyer-days by the years in the rack.
+  Yew costs more because the stick is scarce.
 
-Low-Poundage Bow
-Type: Low-Poundage Bow
-Examples: light bow, hunting self-bow
+Composite
+  Wood core, horn belly, sinew back, hide glue.
+  Not a yew stick with horn nailed on.
+  Cure is months. That is the loft rule again. Not bowyer-days.
+  Tickets: livestock horn 8 bc/kg is cattle scrap.
+  Bow-horn is selected (ibex, buffalo, wild horn) at 1–2 sc/kg.
+  Sinew is Gut / Sinew, 12 bc/kg, then prepared.
+  Glue is hide or fish size, a few sc, not a timber.
+
+Low-Poundage — self
+Type: hunting self-bow, 20–40 lb
 Inputs:
-  - 1 selected bow-stave (ash, elm, or lesser yew), already dry
+  - 1 selected stave (ash, elm, or lesser yew), already dry
   - loft premium 1–3 sc
   - string
-Labour Component Split (Total 2–4 man-days):
-  - Tiller:             2-4 days Basic skilled bowyer          @ 30 bc
-Time: loft years behind the stave; not booked as days
-Modifiers:
-  - Fine: better stave and tiller
+Labour:
+  - Tiller:             2–4 days Basic skilled bowyer          @ 30 bc
 Output: 1 piece
 Base price: 12–25 sc
 Core Common: 18 sc
 
-Medium-Poundage Bow
-Type: Medium-Poundage Bow
-Examples: cavalry bow, skirmish self-bow
+Low-Poundage — composite
+Type: short reflex, 20–40 lb
 Inputs:
-  - 1 selected bow-stave, already dry
+  - wood core, 0.3 kg (birch or mulberry)          ~2 sc
+  - selected horn, 0.25 kg                         ~4 sc
+  - prepared sinew, 0.2 kg                         ~1 sc
+  - glue and wrap                                  ~2 sc
+  - string
+Labour:
+  - Lay, tiller, wrap:  6 days Higher skilled bowyer          @ 65 bc
+        6 × 65 bc = 32 sc 6 bc
+Time: cure months. Not booked as days.
+Floor: materials ~9 sc + labour 32 sc 6 bc = about 2 gc 1 sc.
+Retail holds at 1 gc only if horn and sinew are in the yard.
+Import stall: 1 gc 10 sc – 2 gc.
+Core Common: 1 gc
+
+Medium-Poundage — self
+Type: skirmish self-bow, 40–70 lb
+Inputs:
+  - 1 selected stave, already dry
   - loft premium 2–5 sc
   - string
-  - sinew / glue / horn only if composite
-Labour Component Split (Total ~5 man-days):
+Labour:
   - Tiller:             5 days Basic skilled bowyer            @ 30 bc
-  - Composite only:     +3 days Higher skilled + sinew work    @ 65 bc
-Time: loft years on the stave, not on the man
-Modifiers:
-  - Self-bow: the band below
-  - Composite: extra materials and time; push toward 1–3 gc
 Output: 1 piece
-Base price: 25–50 sc (self). Composite 1–3 gc.
-Core Common (self): 38 sc
+Base price: 25–50 sc
+Core Common: 38 sc
 
-High-Poundage Bow
-Type: High-Poundage Bow
-Examples: heavy self-bow (70–100 lb); longbow / warbow
+Medium-Poundage — composite
+Type: horse bow, 40–70 lb
+Inputs:
+  - wood core, 0.4 kg                                  ~3 sc
+  - selected horn, 0.4 kg                              ~6 sc
+  - prepared sinew, 0.4 kg                             ~2 sc
+  - glue and birch-bark wrap                           ~2 sc
+  - string
+Labour:
+  - Lay, tiller, wrap:  8 days Higher skilled bowyer          @ 65 bc
+        8 × 65 bc = 43 sc 4 bc
+Time: cure months. Not booked as days.
+Floor: materials ~13 sc + labour 43 sc 4 bc = 2 gc 16 sc.
+Do not retail under 2 gc 10 sc unless the horn is local.
+Core Common: 2 gc 10 sc
+
+High-Poundage — self / longbow
+Type: warbow, 70–180 lb. Self stave only.
 Inputs:
   - 1 selected stave, already dry
       Yew stave ~5 kg as Forestry (about 12 sc 6 bc)
       Substitute ash / elm stave, cheaper
   - loft premium 4–8 sc
   - string, nocks
-Labour Component Split (Total ~5 man-days):
+Labour:
   - Tiller:             5 days Higher skilled bowyer           @ 65 bc
-        5 days x 65 bc = 27 sc 1 bc
-Time: loft years. Yew scarcity is the stave price, not extra weeks.
-
-Check (yew longbow, 5 tiller-days)
+        5 × 65 bc = 27 sc 1 bc
+Check (yew longbow)
   Yew stave                 12 sc 6 bc
-  Loft premium              4-8 sc
+  Loft premium              4–8 sc
   Tiller                    27 sc
   String / nocks            a few sc
   Floor                     about 2 gc 5 sc to 2 gc 10 sc
 Do not retail yew under that floor.
-
-Modifiers:
-  - Substitute stave (ash, elm): the 1-2 gc band
-  - Yew longbow / warbow: starts at 2 gc 10 sc
-  - Fine selected yew: 3-5 gc. Not a harness.
 Output: 1 piece
 Base price:
-  Substitute heavy self     1-2 gc
-  Yew longbow               2 gc 10 sc - 4 gc
-  Fine selected yew         3-5 gc
+  Substitute heavy self     1–2 gc
+  Yew longbow               2 gc 10 sc – 4 gc
+  Fine selected yew         3–5 gc
 Core Common:
   Heavy (substitute)        1 gc 10 sc
   Longbow (yew)             2 gc 10 sc
+
+High-Poundage — composite
+Type: war reflex, 70–180 lb. Not a longbow.
+Inputs:
+  - mulberry or maple core, 0.5 kg                 ~4 sc
+  - selected horn, 0.6 kg                          ~10 sc
+  - prepared sinew, 0.5 kg                         ~4 sc
+  - glue, size, bark wrap                          ~3 sc
+  - string
+Labour:
+  - Lay, tiller, wrap:  12 days Higher skilled bowyer         @ 65 bc
+        12 × 65 bc = 65 sc = 3 gc 5 sc
+Time: cure months. A master on the tiller is commission, not the stall.
+Floor: materials ~21 sc + labour 3 gc 5 sc = 4 gc 6 sc.
+Do not retail under 4 gc. Import or a named maker: 5–6 gc.
+Core Common: 4 gc 10 sc
+
+What does not cross
+  A composite does not take a yew stave price.
+  A longbow does not take horn and sinew.
+  Svartwood is not a limb. Heart tiller is the crossbow frame only.
 
 --------------------------------------------------
 CROSSBOWS

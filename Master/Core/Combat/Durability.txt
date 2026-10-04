@@ -432,6 +432,8 @@ Bases
   Dagger                     75
   Misericordia               70
   Main gauche                65
+  Short single-edged         70
+  Short double-edged         68
   One-handed axe             78
   Two-handed axe             72
   Single-edged curved        65
@@ -456,15 +458,32 @@ Bases
   Throwing axe               75
   Throwing dagger            70
   Javelin                    55
-  Longbow                    55
-  Heavy bow                  50
-  Medium bow                 45
-  Light bow                  40
+  Longbow, low               45
+  Longbow, medium            50
+  Longbow, high              55
+  Composite, low             30
+  Composite, medium          35
+  Composite, high            40
+    Same shot. The self stave holds.
+    Horn and sinew do not.
+    Longbow: +10 on the moisture
+    threshold. Composite: −10.
+    Glue and horn take the wet.
   Heavy crossbow             48
   Medium crossbow            42
   Light crossbow             38
   Pistol crossbow            32
   Repeater                   25
+  Handgonne                  40
+    Barrel takes Iron Grade.
+    Haft is wood. Cost and Enc
+    are not priced.
+  Arquebus                   45
+    Same. Cost and Enc not priced.
+  Wheellock pistol           35
+    Same. Cost and Enc not priced.
+  Blunderbuss                40
+    Same. Cost and Enc not priced.
 
 Ammunition is spent. It has no track.
 Siege pieces are narrative.

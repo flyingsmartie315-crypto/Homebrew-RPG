@@ -71,14 +71,14 @@ Any reported “sale” or transfer of a Pegasus is almost certainly fraudulent,
 River/Swamp Troll
 Price: 8–25 gc (for a successfully captured and partially broken specimen; wild ones are not sold)
 Upkeep: High and specialised
-- Daily food: 6–12 bc equivalent (large quantities of fish, meat, and vegetable matter)
+- Daily food: 10–18 bc equivalent (large quantities of fish, meat, and vegetable matter)
 - Requires secure, wet, semi-aquatic housing with deep water access and strong containment
 - Needs constant supervision by experienced handlers
-- Realistic monthly cost (feed + specialised keepers + containment): 2–5 gc
+- Realistic monthly cost (feed + specialised keepers + containment): 3–7 gc
 Space: Large enclosed wetland, fortified pond system, or heavily modified wateryard. Ordinary pens are useless and lethal.
 
 Notes:
-River and Swamp Trolls are the smaller, more cunning lowland variants (standing 6–7 feet and weighing 240–500 kg). They are amphibious, build extensive mud-and-branch dams, and are a persistent threat to rivers, canals, and farmland.
+River and Swamp Trolls are the lowland Unveiling of slow water (standing 8–9 feet and weighing 480–700 kg). They are amphibious, build extensive mud-and-branch dams, and are a persistent threat to rivers, canals, and farmland. Size matches Bestiary_River_Troll.txt.
 
 Capable of simple tool use, trap-making, social coordination in pairs or small family groups, and basic problem-solving, but far below human sapience. They are not dumb beasts.
 
