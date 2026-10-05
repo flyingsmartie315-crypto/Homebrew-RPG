@@ -68,17 +68,26 @@ When a bond does form, it is absolute and lifelong. The rider gains the ability 
 
 Any reported “sale” or transfer of a Pegasus is almost certainly fraudulent, mythical, or the prelude to disaster. For economic purposes they sit outside the normal market entirely — closer to a living miracle than a mount.
 
+Rock Troll / Wracstan
+Price: the guild does not sell the beast.
+Plate: Economy_Unveiling_Goods.txt. Closed plate off an 1,800 kg adult is 240 gc.
+A young one under 1,500 kg is a taking, not the Rock Collector hunt.
+Upkeep: not written. An adult is not stabled.
+
+Notes:
+Range-holding adult, about eleven feet and 1,800 kg. The pay is the back and shoulder plate, about 90 kg dressed. Bone-ivory is the second cut, 324 kg on this adult, same stuff as a river troll and more of it. Hunt cost and the monopoly are Rock_Collector_Guild.txt. A live river troll is a different animal.
+
 River/Swamp Troll
 Price: 8–25 gc (for a successfully captured and partially broken specimen; wild ones are not sold)
 Upkeep: High and specialised
-- Daily food: 10–18 bc equivalent (large quantities of fish, meat, and vegetable matter)
+- Daily food: 6–12 bc equivalent (large quantities of fish, meat, and vegetable matter)
 - Requires secure, wet, semi-aquatic housing with deep water access and strong containment
 - Needs constant supervision by experienced handlers
-- Realistic monthly cost (feed + specialised keepers + containment): 3–7 gc
+- Realistic monthly cost (feed + specialised keepers + containment): 2–5 gc
 Space: Large enclosed wetland, fortified pond system, or heavily modified wateryard. Ordinary pens are useless and lethal.
 
 Notes:
-River and Swamp Trolls are the lowland Unveiling of slow water (standing 8–9 feet and weighing 480–700 kg). They are amphibious, build extensive mud-and-branch dams, and are a persistent threat to rivers, canals, and farmland. Size matches Bestiary_River_Troll.txt.
+River and Swamp Trolls are the smaller, more cunning lowland variants (standing 6–7 feet and weighing 240–500 kg). They are amphibious, build extensive mud-and-branch dams, and are a persistent threat to rivers, canals, and farmland.
 
 Capable of simple tool use, trap-making, social coordination in pairs or small family groups, and basic problem-solving, but far below human sapience. They are not dumb beasts.
 
