@@ -1,0 +1,173 @@
+# Core_Fear.txt
+# Fear, Shock, snapping out, Disorders.
+# Trait: Core_Traits.txt §12.
+# IP is stored on Characteristics §3d.
+# This file spends it. It does not invent
+# a second madness track.
+
+--------------------------------------------------
+0. FEAR (X)
+--------------------------------------------------
+
+Rating is 1–4. The sheet names it.
+
+  1  Disturbing     +0
+  2  Frightening    −10
+  3  Horrifying     −20
+  4  Terrifying     −30
+
+First sight this scene: Willpower test
+at that penalty. Success: act.
+Fail in a fight: Shock immediately.
+Add +10 to the Shock roll per Degree
+of Failure.
+Fail outside a fight: −10 on any test
+that needs concentration, while they
+remain in sight of it. Stepping out
+and back does not clear it.
+
+A Fear test outside a fight is the
+GM's call. It is not mandatory.
+
+  1  A bad murder. A light that should
+     not be there. A voice. A statue
+     that weeps.
+  2  Someone you know is dead, and they
+     are standing there. Buried alive.
+     A False Moon storm.
+  3  The man beside you dies wrong.
+     Fangs and tentacles in a mass.
+     The dead up across a country.
+  4  An unprotected look into the
+     Immaterium.
+
+--------------------------------------------------
+1. SHOCK
+--------------------------------------------------
+
+1d100, +10 per Degree of Failure.
+
+  01–20
+    Startled. Next Turn: one Half
+    Action only. Then normal.
+  21–40
+    Shakes. −10 on all tests for the
+    Encounter unless they snap out.
+  41–60
+    Backs away. Will not approach the
+    source. Otherwise acts. −10 on
+    all tests for the Encounter.
+  61–80
+    Frozen. No Actions until they
+    snap out. After that, −10 on all
+    tests for the Encounter.
+  81–100
+    Flee. As fast as the ground allows.
+    If they cannot leave: Half Actions
+    only, −20 on all tests. Once clear,
+    snap out to regain control.
+  101–120
+    Faints. Unconscious 1d5 Rounds.
+    After: −10 on all tests for the
+    Encounter.
+  121–130
+    Retching 1d5 Rounds. Drops what
+    is held. Nothing else. After the
+    Encounter: one Half Action a Turn
+    until a Short Rest.
+  131–140
+    Laughs and attacks whatever is
+    near, with whatever is in hand.
+    Lasts until they snap out or are
+    knocked unconscious.
+  141–160
+    Down. Weeps, gibbers, tears at
+    their own flesh for 1d5+1 Rounds.
+    After: −20 on all tests until the
+    Encounter ends.
+  161–170
+    Catatonic 1d5 hours. Cannot be
+    roused.
+  171+
+    Heart. Toughness +0.
+    Success: catatonic 1d5 hours.
+    Fail: dead.
+
+--------------------------------------------------
+2. SNAPPING OUT
+--------------------------------------------------
+
+Where the row says so: at the start
+of their next Turn, Willpower +0.
+Success: that Shock ends. They act.
+Fail: it holds. Try again next Turn.
+A −10 that the row keeps for the
+Encounter is not snapped off.
+
+--------------------------------------------------
+3. INSANITY
+--------------------------------------------------
+
+IP is the running total. Characteristics
+§3d. A Fail of 4 or more Degrees on a
+Fear test: when the Encounter ends,
+Willpower +0. Fail that: 1 Disorder,
+and +1 IP. A pass gains no Disorder.
+IP thresholds beyond this are not written.
+
+--------------------------------------------------
+4. DISORDERS
+--------------------------------------------------
+
+1d100 when section 3 says so. One.
+A second roll that hits the same row
+worsens it. It does not grant a twin.
+
+  01–10   Night twitch
+    Sleep is broken. A Short Rest
+    removes 1 Fatigue, not 2, if the
+    rest was meant to be sheltered.
+  11–20   Fixed stare
+    −10 Fellowship on Charm. +10
+    Intimidate against anyone who
+    holds the look.
+  21–30   Name-avoidance
+    Will not speak the thing's kind.
+    −10 on Common Lore and Academic
+    tests about it.
+  31–40   Clean hands
+    Must wash before a meal or a
+    Heal. If they cannot: −10 on
+    the next test that uses the hands.
+  41–50   Light hunger
+    Dim light is a threat. −10
+    Willpower in the dark unless
+    they have a flame in sight.
+  51–60   Ear to the wall
+    Hears the keening when it is
+    not there. Awareness −10 in
+    quiet places. +10 if something
+    is actually sounding.
+  61–70   Meat refusal
+    Will not eat flesh that day
+    after the dream. One missed
+    meat meal is a Fatigue test
+    at +0 if the march was Active.
+  71–80   Counted steps
+    Doors, bridges, thresholds.
+    First action through one is
+    −10 unless they pause a Half
+    Action to count.
+  81–90   Blade comfort
+    A weapon must be in hand to
+    sleep. Without it: no Fatigue
+    cleared by that sleep.
+  91–97   False Moon watch
+    On a False Moon night, −10
+    on all tests until dawn unless
+    they are under a roof they trust.
+  98–00   Open
+    The GM names a tic that matches
+    the thing they saw. Write it.
+    It is this Disorder, not a second
+    roll.

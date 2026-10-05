@@ -731,6 +731,21 @@ Movement (M)
   Combat yards: floor(M × 2), floor(M × 4), floor(M × 6).
   Difficult ground halves those yards, then rounds up.
 
+Flying Movement
+  Flyer (x), Core_Traits.txt. (x) replaces M
+  while the Entity is airborne. Half Move,
+  Move, Charge, and Run all keep it in the air.
+  Each Turn it must spend one of those on
+  flight, or it is no longer flying.
+  It may ascend or descend. Altitude is not
+  a second M.
+  A voluntary stop is a landing. No Fall.
+  A stop that was not chosen is a fall.
+  Hazards. Up to 100 yards in that Turn.
+  Hovering is flight. It still spends the
+  action. A Crawler on the ground uses the
+  crawl. It does not halve flight.
+
 Encumbrance Limit
   Combat load cap = Strength × 10 points.
   Strength 30 (ordinary adult) → 300.

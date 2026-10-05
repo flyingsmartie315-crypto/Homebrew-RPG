@@ -79,3 +79,82 @@ No terrain penalty for that squeeze.
 A man still pays the ground. It does not.
 Forced upright is not this gait.
 It does not grant a Parry.
+
+--------------------------------------------------
+6. BURROWER (X)
+--------------------------------------------------
+
+Moves through soil, loose rock, and sand.
+(x) is the Movement while burrowing.
+It replaces ground M for that move.
+The sheet names anything harder. Stone
+that is not named is not burrowed.
+It leaves a tunnel. An Entity one Size
+smaller can use that tunnel with no
+penalty. Each Round after it passes,
+1–50 on 1d100: the tunnel collapses.
+
+--------------------------------------------------
+7. CRAWLER
+--------------------------------------------------
+
+Worms, serpents, and the like. They do
+not walk. Ground M is halved, round up.
+Difficult ground does not penalise that
+crawl. A Flyer that is also a Crawler
+uses flight when it is airborne.
+
+--------------------------------------------------
+8. DARK-SIGHT
+--------------------------------------------------
+
+Sees in total darkness. No penalty for
+dim light or no light on a sight test,
+or on a fight that needs sight.
+It does not see through walls. Smoke
+and a blindfold still block it.
+
+--------------------------------------------------
+9. FLYER (X)
+--------------------------------------------------
+
+Wings, a gas sac, or a veil-lift. The
+sheet names which. (x) is Flying
+Movement. It replaces M while airborne.
+If the sheet has no number, x is
+(Agility ÷ 10) × 2, one decimal.
+Law of the air: Characteristics §3d.
+
+--------------------------------------------------
+10. QUADRUPED
+--------------------------------------------------
+
+Hind legs and forepaws. Ground M is
+double the sheet M. This is distance,
+not a squeeze. Dog-gaited is the
+tunnel. Both may be on one sheet.
+A mount is still this Trait. The rider
+does not gain it.
+
+--------------------------------------------------
+11. SONAR SENSE (X)
+--------------------------------------------------
+
+It does not see that volume. It emits.
+Solid objects within (x) metres are
+located. Awareness tests that would
+be sight may be hearing instead,
+inside that range.
+Another Entity in range may hear the
+keening: Awareness −10.
+
+--------------------------------------------------
+12. FEAR (X)
+--------------------------------------------------
+
+The body is wrong to look at. (x) is 1–4.
+Law and the Shock table: Core_Fear.txt.
+A Willpower test when the Entity is
+first seen this scene. The rating is
+the penalty. Fail: Shock, +10 on the
+Shock roll per Degree of Failure.
