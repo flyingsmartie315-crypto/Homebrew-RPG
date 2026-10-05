@@ -420,17 +420,17 @@ S/T scaling
 
 SIZE TABLE
 
-  #  Category      To-hit vs 4*  Stealth vs 4*  Move    S/T   Wounds
-  1  Miniscule     −30           +30       AB − 3   −30   ×0.25
-  2  Puny          −20           +20       AB − 2   −20   ×0.50
-  3  Weedy         −10           +10       AB − 1   −10   ×0.75
-  4  Average        +0            +0       AB        +0   ×1.0
-  5  Hulking       +10           −10       AB + 1   +10   ×1.25
-  6  Enormous      +20           −20       AB + 2   +20   ×1.5
-  7  Massive       +30           −30       AB + 3   +30   ×2.5
-  8  Immense       +40           −40       AB + 4   +40   ×5
-  9  Monumental    +50           −50       AB + 5   +50   ×7.5
- 10  Titanic       +60           −60       AB + 6   +60   ×10.0
+  #  Category      To-hit vs 4*  Stealth vs 4*  Move    S/T   Wounds   Mass
+  1  Miniscule     −30           +30       AB − 3   −30   ×0.25   under 1 kg
+  2  Puny          −20           +20       AB − 2   −20   ×0.50   1–14 kg
+  3  Weedy         −10           +10       AB − 1   −10   ×0.75   15–51 kg
+  4  Average        +0            +0       AB        +0   ×1.0    52–120 kg
+  5  Hulking       +10           −10       AB + 1   +10   ×1.25   121–250 kg
+  6  Enormous      +20           −20       AB + 2   +20   ×1.5    251–700 kg
+  7  Massive       +30           −30       AB + 3   +30   ×2.5    701–1,500 kg
+  8  Immense       +40           −40       AB + 4   +40   ×5      1.5–6 t
+  9  Monumental    +50           −50       AB + 5   +50   ×7.5    6–20 t
+ 10  Titanic       +60           −60       AB + 6   +60   ×10.0   over 20 t
 
   * Printed to-hit and stealth are vs Size 4 only. Live
     to-hit and stealth use Size difference.

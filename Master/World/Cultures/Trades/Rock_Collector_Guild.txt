@@ -1,0 +1,429 @@
+# Rock_Collector_Guild.txt
+# The Wrac-Stān hunt. Practice, not a bestiary essay.
+# Quarry: Bestiary_Rock_Troll.txt
+# Adult sheet: Entities_Unnatural_Rock_Troll.txt
+# Charter, coin, and ranks beyond the stations
+# are not written.
+
+--------------------------------------------------
+0. WHAT THIS IS
+--------------------------------------------------
+
+The Rock Collectors take the plate off a range-holding
+Wracstan. Spoken: rock troll, stone troll, Wracstan giant.
+Early Isern on the Ebon Peninsula. "The vengeful boulder."
+
+A hunt is attrition on ground the crew has already built.
+The animal is not opposed in a pull, and it is not killed
+in the opening. It is made to turn, at a cost, until the
+turns fail. Then it is locked, blinded, and opened at
+the throat.
+
+A chance meeting on a shelf is not this file.
+The cave is not entered.
+
+--------------------------------------------------
+1. QUARRY
+--------------------------------------------------
+
+A range-holding adult. About eleven feet and 1,800 kg.
+Calcified plate on the back and shoulders. The belly
+is the gap. The plate is the pay.
+
+Found by crushed pine, wet granite, unnatural shale,
+torn trees, and rank scat. Hunted on False Moon nights,
+when it leaves the cave to beat the ridges.
+
+A young one under 1,500 kg is not this hunt. That is
+a taking, priced on Economy_Unveiling_Beasts.txt.
+This file is the adult.
+
+--------------------------------------------------
+2. CREW
+--------------------------------------------------
+
+Twenty. Thirty if the hide will pay for losses.
+Ten is the foolhardy minimum.
+
+Offices are stations, not ranks. They swap.
+
+  Six maypole runners
+    Fittest and most experienced at the start.
+    Three in circuit. Three in relief.
+  Eight pikemen
+    In pairs. The lane is never without the scoop.
+  Four ridge-men
+    Reserve. Bodkin arrows into soft tissue when
+    the shot is there. They feed gear when a line
+    bursts.
+  Two piton-tenders
+    The pins, the stockpile, the next hook.
+  One leader
+    Calls only the phase changes: nets, first lock,
+    throat. After the roar, nothing else can be
+    ordered.
+
+The best crews keep a common interval without speech.
+
+--------------------------------------------------
+3. GEAR
+--------------------------------------------------
+
+  Barbed iron javelins
+    About fifteen yards of heavy-core hemp.
+    Each line ends in a four-pronged hook.
+  Eyelet-pitons
+    Driven weeks ahead. Not in the opening.
+  Ultra-long awl-pikes
+    A slick, open-curved wing under the tip.
+    The wing lofts a rope and sheds it.
+  Bodkin arrows
+    Soft tissue only. Not the plate.
+  Small hooked throwing nets
+    Torso coils only. They clamp rope.
+    Not across a runner. Not used to blind.
+  Blinding net
+    Separate. Last.
+  Throat spikes
+    After the net. Bypass the back-hide.
+
+Hemp is carried because a man can sprint with it.
+It is never asked to stop the first lunge.
+A proper crew keeps a stockpile. Snapped ropes
+and pulled pins are expected.
+
+--------------------------------------------------
+4. GROUND
+--------------------------------------------------
+
+Open, flat, with room to run. Built in silence,
+weeks ahead. Lanes cleared by day while the quarry
+sleeps in the stone. Pitons driven into sound
+fissures, braced with pine roots, covered with
+moss and dirt against the smell of fresh iron.
+The whole crew does this labour. They return
+for the False Moon.
+
+A pin in bad rock is a failed pass. A pin that
+pulls after the matrix holds is a lost line.
+
+--------------------------------------------------
+5. OPENING
+--------------------------------------------------
+
+Three javelins into the shoulders. The barbs are
+meant to toggle under the plate, not to kill.
+The animal answers with a roar, a lunge, and a
+tree torn out as a club.
+After the roar, the interval is the order.
+
+--------------------------------------------------
+6. THE MATRIX
+--------------------------------------------------
+
+Runners do not tie off. They pay the line just
+slack of the rock, sprint opposing circuits, and
+throw the tail back into the coils so a later
+wrap can catch it. Holding the tail makes the
+man the anchor.
+
+A pikeman who finds a trailing line catches it
+in the crescent wing, lofting the rope over the
+head or a limb. The wing is an open curve. A
+sudden tension sheds the rope. The pike stays
+free. The wrists stay whole.
+
+A line still in a runner's hand is his until he
+throws it. A line on the stone belongs to the
+nearest pike.
+
+Crossing wraps matter. One direction can unwind.
+Opposed coils, once keyed, tighten if the animal
+reverses.
+
+While the matrix is on the body it is drag, not
+restraint. Every spin slides hemp over rough plate.
+Small hooked nets, cast from the ridge onto the
+torso coils only, bite the rope so a reversal
+cannot shed the wrap.
+
+--------------------------------------------------
+7. THE TURN
+--------------------------------------------------
+
+When the animal faces a man, that man retreats
+on the cleared lane. When it shows its back, the
+others poke the plate with a shallow awl. It rings
+the hide and comes away. The sting forces a new
+turn, and the turn lays another coil. He leaves
+as they strike, not after. The plate is the
+commodity. The goad is not left in it.
+
+A charge that ignores the sting and comes through
+the semicircle is not answered with a stand.
+Run. The pikemen clear the lane. The runners match
+the pace and keep slack so the lines do not snap
+on the granite. The circle shifts across the ridge
+by sight, until the grade or the drag forces a turn.
+
+--------------------------------------------------
+8. LOSSES AND THE RELAY
+--------------------------------------------------
+
+A burst line or a pulled pin is replaced. Ridge-men
+and rotations feed fresh gear into the matrix.
+Rest is denied by the relay. Fatigue is the aim.
+Peak force in one blow fades more slowly than the
+rate of blows. A tired animal is still lethal.
+Runners swap when the legs go. A pikeman who takes
+a circuit gives up his pike. The lane is never
+without the scoop.
+
+--------------------------------------------------
+9. THE LOCK
+--------------------------------------------------
+
+Only after several ropes have tangled, and only
+after the gap between charges has opened, is the
+first tail clicked into a piton. One lock, then a
+pause while the cocoon cinches, then the next.
+A runner who cannot reach stone throws the hook
+back into the coils, binding elbow to ribs or
+ankle to thigh.
+
+--------------------------------------------------
+10. THE THROAT
+--------------------------------------------------
+
+When the arms are pinned, the legs buckle, and
+the breath is ragged, the blinding net goes over
+the head. The pikemen bypass the back-hide and
+drive the throat spikes. Damage after that point
+is a fault. The plate is why the crew was paid.
+
+--------------------------------------------------
+11. LABOUR BAND
+--------------------------------------------------
+
+Skilled Hazardous Labour. Economy_Labour.txt.
+35–65 bc a day. Not a specialist retainer.
+The elite huntsman rate (90–140 bc) is a
+different office. This crew does not draw it.
+The leader stays in the band, at the top.
+Stations are not ranks. They are paid the
+same day. The fittest start on the rope.
+They are not paid a second wage for it.
+
+  Floor     35 bc
+  Common    50 bc
+  Top       65 bc
+  1 gc = 20 sc = 240 bc.
+
+--------------------------------------------------
+12. A HUNT, COSTED
+--------------------------------------------------
+
+Common ticket. Twenty men. Fourteen days
+building the ground. Seven days waiting
+the False Moon and working the night.
+Twenty-one days paid. The cave is not
+entered. Losses are not in this ticket.
+A thirty-man crew is the hide paying for
+the dead in advance. Add section 12d.
+
+12a. Labour
+  Common, 50 bc.
+  20 × 50 × 21 = 21,000 bc.
+  87 gc 10 sc.
+
+  Floor, 35 bc: 14,700 bc. 61 gc 5 sc.
+  Top, 65 bc: 27,300 bc. 113 gc 15 sc.
+
+12b. Provisions
+  No campaign-ration line in Economy.
+  Derived from the 40 kg grain sack at 10 sc.
+  That is 3 bc a kilogram. A man on the ridge
+  eats a kilogram of grain and salt in a day.
+  Ticket uses 6 bc a man a day.
+  20 × 21 × 6 = 2,520 bc.
+  10 gc 10 sc.
+
+12c. Equip
+  Personal knives are theirs. This is the
+  hunt kit and the stockpile. First pass
+  off the arms list. A javelin there is 16 sc.
+  A hunt line is the head, fifteen yards of
+  hemp, and the hook. Priced at 1 gc.
+  An ultra-long awl-pike with the wing is
+  2 gc. Bodkin is 4 bc.
+
+  12 hunt javelins          12 gc
+  20 hemp lines, spare      8 gc
+  24 eyelet-pitons          4 gc 16 sc
+  8 awl-pikes, winged       16 gc
+  80 bodkin                 1 gc 6 sc
+  8 hooked nets             4 gc
+  1 blinding net            1 gc
+  8 throat spikes           2 gc 8 sc
+  Equip                     49 gc 10 sc
+
+  Pikes and unused pitons come home.
+  Javelins, hemp, and nets are spent
+  if the matrix holds. Do not refund
+  them off the plate.
+
+12d. Thirty, if the hide pays for losses
+  Ten more men, Common labour and food only.
+  Gear already has the stockpile.
+  Labour 10 × 50 × 21 = 10,500 bc. 43 gc 15 sc.
+  Food 10 × 21 × 6 = 1,260 bc. 5 gc 5 sc.
+  Add 49 gc. Not a second kit.
+
+12e. The ticket
+  Twenty, Common.
+  Labour        87 gc 10 sc
+  Provisions    10 gc 10 sc
+  Equip         49 gc 10 sc
+  Total        147 gc 10 sc
+
+  Floor labour, same food and kit: 121 gc 5 sc.
+  Top labour, same food and kit: 173 gc 15 sc.
+  Thirty at Common: 196 gc 10 sc.
+
+  The plate has to clear this before the
+  crew is in profit. Coin for the hide is
+  Economy_Unveiling_Beasts.txt, and it is
+  not written for the rock troll yet.
+
+--------------------------------------------------
+13. WHAT THE PLATE PAYS
+--------------------------------------------------
+
+Estimate. Not on Economy_Unveiling_Beasts.txt.
+A live river troll, broken, is 8–25 gc.
+That is the beast. This guild does not sell
+the beast. It sells the plate.
+
+The guild owns the pikes, the pitons, and
+the ground. A repeat hunt does not buy them
+again. Spent on the night: labour, food,
+javelin-lines, hemp, and the nets.
+Common marginal cost is about 123 gc.
+The first hunt, kit included, is 147 gc 10 sc.
+
+Plate
+  Dressed back and shoulder plate.
+  1 gc for each 10 kg of live mass.
+  Floor the kilograms to the nearest 10.
+
+  1,200 kg    120 gc    light adult, Size 7
+  1,800 kg    180 gc    the sheet adult
+  2,050 kg    205 gc    top of the band
+
+  120 gc does not clear a first kit.
+  The guild takes a light adult only when
+  the pikes are already owned and the crew
+  is at the floor wage. The 1,800 kg plate
+  clears the Common marginal hunt and leaves
+  about 57 gc before losses.
+
+Other trophies, Common, off the same adult
+  Tusks, the ivory          12 gc
+    A pair. Not a hold of elephant teeth.
+  Claws                     2 gc
+  Belly hide                6 gc
+    Lesser. Ties and small work.
+    Not the plate.
+  Teeth, loose              1 gc
+  Other, Common             21 gc
+
+A clean 1,800 kg kill, plate and the rest,
+is about 201 gc at the stall. The guild's
+cut is not written. Damage after the throat
+spikes is a fault, and it comes off the plate,
+not off the tusks.
+
+--------------------------------------------------
+14. THE MONOPOLY
+--------------------------------------------------
+
+The guild does not sell the plate on an open
+stall. Raw plate is the commodity they hold.
+A buyer who is not on their list does not
+get a slab.
+
+They work with a short list of trusted
+artisans. Armourers, mostly. Cuir bouilli
+that takes the rock-troll hide upgrade
+comes off that list. The artisan does not
+buy the plate outright. The guild keeps a
+share of the finished piece.
+
+  Share, Common
+    Guild           one third of the finished
+                    ticket, after the artisan's
+                    labour and the other inputs.
+    Artisan         the rest.
+  A piece that fails in the shop pays no
+  share. The plate comes back if it can
+  be saved. It does not go to a second shop.
+
+Tusks, claws, and belly hide may leave
+the guild. The plate does not. A tusk sold
+in a market is not a breach. A slab of
+back-plate in a stranger's yard is.
+
+They protect it fiercely. A hunter who is
+not of the crew, a carter moving plate
+without their mark, an armourer off the
+list: the guild treats that as theft of
+the commodity. They do not post a price
+for the offence. Crews that can take a
+troll can take a wagon. Lords who want
+the plate deal with the guild, or they
+do not get a sound hide.
+
+
+--------------------------------------------------
+14. THE FINISHED PIECE
+--------------------------------------------------
+
+The guild does not sell the kill. It finishes it.
+Raw plate, raw tusk, and raw belly hide do not
+leave the house. A hunter who parts with them
+is no longer of the guild.
+
+What they make
+  Back and shoulder plate, dressed and closed,
+  for cuir bouilli and for ties. The rock-troll
+  hide upgrade in Armour.txt is this shop.
+  Tusk ivory, cut. Not a second ivory guild.
+  Belly hide, for straps and small work.
+  Claws and loose teeth, as fittings.
+  They do not make the harness. An armourer
+  buys the closed plate or the ties. He does
+  not buy the kill, and he does not tan it.
+
+The monopoly
+  One house finishes Wracstan. Regional names
+  for the beast do not make a second shop.
+  A crew that is not theirs does not sell plate
+  in a guild town. A tanner who tries the hide
+  loses the hide, and then the yard.
+  They are fierce about it. The hunt is the
+  cost. The closed plate is the reason the
+  cost is paid. Another shop on that plate
+  is a theft of the hunt.
+
+Price
+  The section 13 figures are the raw stall,
+  and the raw stall is not offered.
+  Closed plate from an 1,800 kg adult: 240 gc.
+  That is the raw 180 gc plus the house's finish.
+  Ivory fittings from the pair: 20 gc.
+  Belly straps, a set: 10 gc.
+  A fault on the plate still comes off the
+  closed price. It does not become a raw sale.
+
+
+

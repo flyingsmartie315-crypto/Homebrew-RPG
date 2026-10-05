@@ -1,0 +1,140 @@
+# Entities_Unnatural_Rock_Troll.txt
+# GM sheet. One Entity. Not the bestiary essay.
+# Bestiary: Bestiary_Rock_Troll.txt
+#   Height 11–12 ft. Weight 1,200–2,050 kg.
+# Traits: Core_Traits.txt
+# Injury: Injury_Tables_Bipedal.txt
+# Size law: Core_Characteristics_Skills.txt §3
+
+--------------------------------------------------
+ROCK TROLL
+Wracstan. Isern, Ebon Peninsula.
+"The vengeful boulder." Spoken: stone troll,
+Wracstan giant. Regional names are this creature.
+--------------------------------------------------
+
+Size 8. Immense. Injury: Bipedal.
+Bestiary mass 1,200–2,050 kg. Under 1,500 kg
+is Size 7. The adult sheet uses 1,800 kg.
+11–12 ft standing.
+
+  S  90    (50 + 40 Size)
+  Per 25
+  T  90    (50 + 40 Size)
+  Fel 8
+  Int 5
+  Ag  10
+  WP  30
+  WS  30
+  BS  20
+
+  SB 9     TB 9
+  M  5.0   Agility 10 ÷ 10, then Size +4
+  NAC 5    hide. Not TB.
+  Natural Armour (4/3/5)  Abdomen
+    Uniform 100% except the named slot.
+    The belly is the gap. Adds to NAC.
+  Wounds 135   floor(TB × 3 × 5)
+               27 × 5.
+  Attacks 1
+  Initiative  10 + 1d10
+
+To-hit against a man (Size 4): +40.
+A man shooting this troll: +40 BS.
+Same Size: +0.
+
+A light adult at 1,200 kg is Size 7.
+Strength and Toughness 80. Wounds 60.
+Movement 4.0. Do not use both sheets at once.
+
+--------------------------------------------------
+SKILLS
+--------------------------------------------------
+
+(X) is known, at the skill base.
+(10) is a bonus of 10 on that test.
+
+  Athletics (X)      50
+    Mean of Strength 90 and Agility 10.
+  Awareness (10)     35
+    Perception 25 + 10.
+  Concealment (20)   30
+    Agility 10 + 20. Size still applies.
+    Hiding from a man: −40 on top.
+    Still against stone: the hide does the rest.
+    Moving, the bonus is off.
+
+Anything else is unknown. Half the base.
+
+--------------------------------------------------
+TRAITS
+--------------------------------------------------
+
+Law: Core_Traits.txt.
+
+  Dweller (peak, crag, high ridge, cave)
+    HSI index lives on the bestiary page.
+    Freezing peak or hot crag, if there is shelter.
+  Natural Weapons (fists, claws)
+    1d10 + 9.
+    Fists Blunt. Claws Cut.
+    WS 30. No Parry. No Disarm unless the
+    limb is off.
+  Boulder
+    Thrown. Improvised, Large.
+    BS 20. From a height, Fall may apply
+    instead of the throw if the stone is dropped.
+  Tree club
+    Uprooted trunk, branches ground off.
+    Improvised. Blunt. It lasts until the
+    hands split it. Then it is firewood.
+    Not a kept weapon.
+
+--------------------------------------------------
+BEHAVIOUR PROFILE
+--------------------------------------------------
+
+Solitary. A range, not a bend of river.
+It does not patrol a road. It waits on a
+shelf, or in the cave mouth, still.
+
+Hungry: the nearest warm thing on the
+height. A goat, a winter kill, a man
+alone on the pass. It does not stalk a
+town. Intelligence 5. The lioncloth is
+the craft. Torn hide. Prey-hair left on.
+
+Met below the shelf: the boulder comes
+first. Then it comes down. One swing.
+Fists, claws, or the trunk. Not all three.
+If the prey climbs, it follows. If the
+prey reaches open lowland and other men,
+it does not.
+
+Young: it stays until it can live, then
+it roams. It settles where the range is
+empty. It does not go home.
+
+Hurt: it does not flee at the first wound.
+The hide is why. A blow to the belly is
+the one it feels. Under half its Wounds,
+and the next blow worse, it breaks for
+the cave. It does not fight on the road
+once it has stone to put between.
+
+It does not parley. Fellowship 8.
+A carcass may hold it for a minute.
+A speech does not.
+
+--------------------------------------------------
+RUN
+--------------------------------------------------
+
+It throws once if it has the height, then
+closes. In reach it swings once.
+It does not parry. It may still Dodge on
+Agility 10.
+The belly is the gap. The back is the hide.
+A blow that empties 135 is the finishing blow.
+NAC 5 and the natural armour come off first,
+unless the blow is the abdomen.

@@ -1,0 +1,67 @@
+# Bestiary_Rock_Troll
+
+Type: Unveiling
+Domain: Highland, Cave
+Biome: Peak, Crag, High ridge, Sheltered cave
+
+HSI
+Temperature: 0–5 | Rainfall: 1–4 | Human Density: 0–1 | Flora: 1–3 | Fauna: 1–3 | Topography: 4–5 | Hydrology: 0–2
+
+RHK
+Rarity: 5
+Individual Harm: 7
+Collective Harm: 2
+Knowledge: 6
+
+Properties
+Height: 11–12 ft standing
+Weight: 1,200–2,050 kg
+Lifespan: 50–80 years
+Clutch: one or two, in a cave or a root-den
+Maturity: eight to ten years, then it leaves
+Dimorphism: little. Females a shade broader. Males longer in the arm.
+
+Stats
+Entities_Unnatural_Rock_Troll.txt
+Under 1,500 kg is Size 7. From 1,500 kg is Size 8.
+The adult sheet uses 1,800 kg.
+
+Overview
+Rock trolls are the highland Unveiling of the river troll. Folk say stone-troll. Eleven to twelve feet, grumpier, and heavier. The hide is thick and rocky except the belly. Stood still against a face, it takes the colour of the stone. Freezing peaks and hot crags are both home, if there is a cave or a stand of trees to sleep in. They are not a pair at a dam. One holds a range.
+
+Signs
+- A boulder field that did not fall. Stones sitting on a path, a shelf, or a roof
+- Trees uprooted and the branches ground off on the rock
+- A trunk kept, chewed and split, until the hands finish it
+- A hide scraped into a rough lioncloth, prey-hair still on it
+- Scat of meat and pine on a high trail
+- A belly-scar on a dead one. The back will not show the killing blow
+
+Behaviour
+More solitary than the river kind. A pair is a quarrel, not a household. The young stay until they are large enough to live, then they roam until a range is empty. An adult does not share.
+
+They eat what the height gives. Goat, bird, a winter-killed stag, a man on the pass if he is alone. Omnivore in the lean months. They do not walk a town. Ambush is the boulder from above, then the fists and the claws. A trunk is a club for as long as it lasts in those hands. It is not a kept weapon. It is this week's tree.
+
+Intelligence is the river troll's. Low. They fashion a lioncloth from torn hide. That is the horizon of the craft. No speech a man has proved. No trade.
+
+The hide is the prize and the reason hunts fail. It blends when the troll is still. The belly does not. Fire and a deep wound in the open finish one. A cut on the back is a pause. Lords pay for the hide. The pay does not bring the hunters back.
+
+False Moon puts them on the ridges. They throw. They uproot. Paths close under stone. Ordinary nights they hold the cave.
+
+A young one, still under the Size line, can be taken. An adult almost never breaks. Economy_Unveiling_Beasts.txt prices the broken young, not the wild range-holder.
+
+Encounter
+One on the shelf is a dropped stone, then the close (Harm 7).
+Two is a rare fight, not a tactic. Collective 2.
+The belly is the gap. The back is the hide.
+Do not run this as a river troll. No dam. No pair. No water.
+Kannavald: the high ridges and the hot crags. Not the Kolmire channel.
+
+Notes
+- Locked name: Wracstan. Early Isern settlers on the
+  Ebon Peninsula. Literally "the vengeful boulder."
+  Spoken: rock troll, stone troll, Wracstan giant.
+  Many regional names. They are this creature.
+- Domain is Highland and Cave. A wet lowland is a skip. A town street is a skip.
+- Economy: Economy_Unveiling_Beasts.txt. Size locked with this file: 11–12 ft, 1,200–2,050 kg.
+- River troll is the dam. This is the range.

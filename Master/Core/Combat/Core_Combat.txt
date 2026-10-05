@@ -533,6 +533,31 @@ Dodge
   Opposed Dodge Skill. Costs one Dodge reaction.
   Ordinary. Unknown is Skill Base ÷ 2.
 
+Size and the guard
+  Compare the attacker’s Size to the defender’s.
+  If the weapon names a required Size, use the
+  higher of attacker Size and that requirement.
+  Difference = that Size − defender Size.
+  Equal or smaller: no modifier.
+  Dodge has no Size penalty. At +4 the Parry
+  is simply not available.
+
+  +1   Parry −10.
+  +2   Parry −30.
+       After the Parry, hit or miss, Opposed
+       Strength at −30. Fail: Prone, thrown
+       1d5 yards back from the blow.
+  +3   Parry only with a two-handed weapon or
+       a shield. One-handed blades and tools
+       cannot engage. Parry −30.
+       Even if the Parry wins: Prone, thrown
+       1d5 yards. Incoming after soak is halved.
+       The parrying weapon or shield takes
+       3d10 Durability. At 0 it shatters.
+  +4   Parry does nothing. The blow goes
+       through the guard. Dodge, or take it
+       at full force.
+
 --------------------------------------------------
 7. COMBAT MOVEMENT (YARDS)
 --------------------------------------------------

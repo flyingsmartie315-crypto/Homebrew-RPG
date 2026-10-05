@@ -1,7 +1,7 @@
 # Entities_Unnatural_River_Troll.txt
 # GM sheet. One Entity. Not the bestiary essay.
-# Bestiary: Bestiary_Unnatural_River_Troll.txt
-#   (not written). That file points back here.
+# Bestiary: Master/World/Ecosystem/Bestiary/Land/Bestiary_River_Troll.txt
+#   Height 8–9 ft. Weight 800–1,200 kg.
 # Traits: Core_Traits.txt
 # Injury: Injury_Tables_Bipedal.txt
 # Size law: Core_Characteristics_Skills.txt §3
@@ -13,12 +13,14 @@
 RIVER TROLL
 --------------------------------------------------
 
-Size 8. Immense. Injury: Bipedal.
-A smaller troll. The catalogue Size 8.
+Size 7. Massive. Injury: Bipedal.
+Bestiary mass 800–1,200 kg. Sheet uses
+1,000 kg, the middle of that band.
+All of it is Size 7. 8–9 ft standing.
 
-  S  90    (50 + 40 Size)
+  S  80    (50 + 30 Size)
   Per 30
-  T  90    (50 + 40 Size)
+  T  80    (50 + 30 Size)
   Fel 10
   Int 5
   Ag  10
@@ -26,16 +28,16 @@ A smaller troll. The catalogue Size 8.
   WS  30
   BS  10
 
-  SB 9     TB 9
-  M  5.0   Agility 10 ÷ 10, then Size +4
+  SB 8     TB 8
+  M  4.0   Agility 10 ÷ 10, then Size +3
   NAC 4    as written. Not TB.
-  Wounds 135   floor(TB × 3 × Size 8)
-               27 × 5.
+  Wounds 60    floor(TB × 3 × 2.5)
+               24 × 2.5.
   Attacks 1
   Initiative  10 + 1d10
 
-To-hit against a man (Size 4): +40.
-A man shooting this troll: +40 BS.
+To-hit against a man (Size 4): +30.
+A man shooting this troll: +30 BS.
 Same Size: +0.
 
 --------------------------------------------------
@@ -45,13 +47,13 @@ SKILLS
 (X) is known, at the skill base.
 (10) is a bonus of 10 on that test.
 
-  Athletics (X)      50
-    Mean of Strength 90 and Agility 10.
+  Athletics (X)      45
+    Mean of Strength 80 and Agility 10.
   Awareness (10)     40
     Perception 30 + 10.
   Concealment (20)   30
     Agility 10 + 20. Size still applies.
-    Hiding from a man: −40 on top.
+    Hiding from a man: −30 on top.
 
 Anything else is unknown. Half the base.
 
@@ -61,15 +63,14 @@ TRAITS
 
 Law: Core_Traits.txt.
 
-  Bog Dweller
-    Habitat tag: wetland, river, pond.
+  Dweller (wetland, river, pond)
     HSI index lives on the bestiary page.
   Amphibious
   Regeneration (4)
     Start of its Turn. Toughness test.
     Success removes 4 Wounds. Dead, it stops.
   Natural Weapons (fists, tusks)
-    1d10 + 9.
+    1d10 + 8.
     Fists Blunt. Tusks Cut.
     WS 30. No Parry. No Disarm unless the
     limb is off.
@@ -119,7 +120,7 @@ Agility 10.
 Under water it does not drown.
 In its river it does not roll Survival.
 At the start of its Turn, if it is not dead,
-Toughness against 90 to knit 4 Wounds.
+Toughness against 80 to knit 4 Wounds.
 NAC 4 comes off a blow before Wounds.
-A blow that empties 135 is the finishing blow.
+A blow that empties 60 is the finishing blow.
 Regeneration does not undo slain.
