@@ -27,13 +27,13 @@ All of it is Size 7. 8–9 ft standing.
   WP  30
   WS  30
   BS  10
+  Attacks 1
 
   SB 8     TB 8
   M  4.0   Agility 10 ÷ 10, then Size +3
   NAC 4    as written. Not TB.
   Wounds 60    floor(TB × 3 × 2.5)
                24 × 2.5.
-  Attacks 1
   Initiative  10 + 1d10
 
 To-hit against a man (Size 4): +30.
@@ -58,6 +58,32 @@ SKILLS
 Anything else is unknown. Half the base.
 
 --------------------------------------------------
+ATTACK PROFILE
+--------------------------------------------------
+
+  Fists                   Natural
+    (0/0/1)  Reach 1     Blunt, Impact
+    1d10 + SB. No Parry. No Disarm
+    unless the limb is off.
+  Tusks                   Natural
+    (1/0/0)  Reach 1     Cut
+    1d10 + SB. No Parry. No Disarm
+    unless the limb is off.
+  Throw, Light            Thrown
+    (0/0/4)  16 m         Blunt, Heft
+    0.5 to 5 kg. s × 2 m.
+    BS 10. One hand.
+    Heft: +4 on a hit. Half SB.
+  Throw, Medium           Thrown
+    (0/0/8)  8 m          Blunt, Impact, Heft
+    2.1 to 26 kg. s × 1 m.
+    Boulder. About 15 kg in the middle.
+    BS 10. Two hands.
+    Heft: +4 on a hit. Half SB.
+    Characteristics §3a. Classes
+    scale by s ÷ 3, then floor.
+
+--------------------------------------------------
 TRAITS
 --------------------------------------------------
 
@@ -69,11 +95,6 @@ Law: Core_Traits.txt.
   Regeneration (4)
     Start of its Turn. Toughness test.
     Success removes 4 Wounds. Dead, it stops.
-  Natural Weapons (fists, tusks)
-    1d10 + 8.
-    Fists Blunt. Tusks Cut.
-    WS 30. No Parry. No Disarm unless the
-    limb is off.
 
 --------------------------------------------------
 BEHAVIOUR PROFILE

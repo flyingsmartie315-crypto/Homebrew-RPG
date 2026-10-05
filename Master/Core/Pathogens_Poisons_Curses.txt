@@ -228,7 +228,8 @@ Airborne Contagions
   tract. They lower physical thresholds
   and push the Asphyxiation Clock
   (Hazards §1) when the Entity exerts.
-  Great-Lung and Gray Cough sit here.
+  Great-Lung, Gray Cough, and Mort-Vapor
+  sit here.
 
 --------------------------------------------------
 Great-Lung
@@ -364,6 +365,81 @@ Recovery
                (lung scar). Write as
                an Affliction.
 
+--------------------------------------------------
+Mort-Vapor
+Kind:        Pathogen (Airborne)
+Virulence:   −10, or −20 in an
+             unventilated mass plague-pit
+--------------------------------------------------
+
+Origin
+  Stagnant deep crypts, opened plague
+  pits, forgotten cellars, long-held
+  ghoul nests. The wet-rot stink ahead
+  of the body. Bestiary_Ghoul.txt.
+  Scholars: Vapor Mortiferus.
+  Death-bringing exhalation.
+  Clearance crews cut it to Mort-Vapor.
+  The greasy fog over a mass pit.
+
+Transmission
+  Proximity:   one hour close to an
+               active nest, or any time
+               in an unventilated burial
+               space that holds unburned
+               ghouls
+  Mechanism:   air, the rot inhaled
+  Contagious:  yes. A carrier who sits
+               a crowded garrison or a
+               tavern common room fills
+               it with the same stink.
+               Overnight shelter with
+               them: contraction test
+               at +0.
+  Contraction: hidden Toughness −10
+               per hour of exposure.
+               Vinegar-soaked cloth, or
+               a thick hooded cloak over
+               mouth and nose: +10.
+
+Symptoms
+  Onset:       24–48 hours
+  Phase 1 — The Heavy Lung (days 1–3)
+    Fluid-heavy cough.
+    −10 Strength, Toughness, Agility.
+    Silent Move −20. The rasp is not
+    optional.
+  Phase 2 — Septic Lethargy (day 4+)
+    Every work hour is one band worse.
+    Core_Fatigue.txt §4.
+    Active combat in Phase 2: Suffocation
+    test at the end of Round 3.
+    Hazards §1.
+  Dawn Tax
+    Each dawn: Toughness +0.
+    Fail: +1 Fatigue. That point is
+    locked. Sleep and Short Rest do
+    not clear it while Mort-Vapor
+    is active.
+  Ongoing:     the dawn test.
+
+Recovery
+  Timeframe:   7 consecutive successful
+               dawn tests. Then the Agent
+               ends. Locked Fatigue
+               becomes ordinary and can
+               be slept off.
+  Cures:       Heal * Known. Iron-kettle
+               steam of crushed pine
+               needles or wild mint.
+               Win: add the healer’s
+               Intelligence Bonus to the
+               patient’s next dawn test.
+  Linger:      none. Skin stays pale
+               until ordinary Fatigue
+               is cleared. That is not
+               an Affliction.
+
 Waterborne Contagions
   Interface with Hydrology and Human
   Density. They hit the gut. Fluid loss
@@ -491,6 +567,94 @@ Recovery
                sleep table after that.
   Linger:      none named if they live.
 
+Wound Contagions
+  A strike, not a drink. Cruor-Stain
+  sits here. Crews say croored.
+  It uses the fluid crash
+  of Bloody Flux. It does not spread
+  on the breath.
+
+--------------------------------------------------
+Cruor-Stain
+Kind:        Pathogen (wound)
+Virulence:   −10, or −20 from a
+             dominant nest-keeper
+--------------------------------------------------
+
+Origin
+  Ghoul teeth and claws. Flesh in the
+  grooves. Bestiary_Ghoul.txt.
+  Cruor, not sanguis. Blood from the
+  wound, not blood in the vein.
+  Spoken: the Croor-Taint. A claw that
+  has croored the line has stopped the
+  living flow. The track curdles.
+
+Transmission
+  Proximity:   the blow
+  Mechanism:   a jaw or claw wound.
+               The attack hits, passes
+               worn AC, and deals at
+               least 1 Wound after
+               Protection.
+  Contagious:  no. It does not cross
+               on the air.
+  Contraction: hidden Toughness −10
+               at the end of the fight.
+               Cauterise the track with
+               a hot blade within five
+               minutes: +20 on that test.
+               The burn is 2 Wounds.
+               No NAC. No AC.
+
+Symptoms
+  Onset:       12–24 hours
+  Fever Lock
+    Short Rest and Sheltered Short Rest
+    do not remove Fatigue while this
+    Agent is active. Sleep still uses
+    the ordinary table if they can lie
+    down.
+  6-Hour Crash
+    Every 6 hours: Toughness −10.
+    Fail: +1 Fatigue and 2 Wounds.
+    No NAC. No AC. The track is rotting
+    under the skin.
+    Fatigue drops Strength. Combat Load
+    falls with it. That is not a second
+    penalty.
+  Corpse
+    Die at 0 Wounds while Cruor-Stain
+    is active, and leave the body
+    unburned in the dark or a shallow
+    grave: it quickens as a juvenile
+    ghoul in 2d10 days. Living men do
+    not stand up as ghouls.
+  Ongoing:     the 6-hour test.
+
+Recovery
+  Timeframe:   1d5 + 2 days if they
+               survive the crashes.
+               Then the Agent ends.
+               They are left at 0 Wounds
+               and Fatigue = sheet TB.
+  Collapse:    Fatigue = sheet TB, or a
+               Characteristic at 0:
+               septic shock. Unconscious.
+               Dead within the hour if
+               not already at the corpse
+               rule.
+  Cures:       Heal * or Trade
+               (Herbalist) *. Wash the
+               wound with boiling
+               willow-bark or raw spirits.
+               Win: +20 on the patient’s
+               6-hour tests for 24 hours.
+  Linger:      the bite yellows and
+               tightens over the bone.
+               Visible Scarring.
+               Core_Talents_Failings_Afflictions.txt.
+
 Common Respiratory Ailments
   Lesser air-sickness. Not Great-Lung.
   They tax senses, voice, and the Tired
@@ -588,4 +752,563 @@ Recovery
                off for 4 hours. The
                Agent remains.
   Linger:      none named.
+
+Major Toxin and Dietary Afflictions
+  Not a cough. Food, light, salt, and
+  luxury. Hydrology and Density still
+  name the well.
+
+--------------------------------------------------
+Ergotism (St Anthony’s Fire)
+Kind:        Poison (dietary)
+Virulence:   +10 first meal, then −10
+             per consecutive day on that
+             grain, to a floor of −40
+--------------------------------------------------
+
+Origin
+  Damp rye from a wet Thaw or Harvest,
+  milled into cheap bread.
+
+Transmission
+  Proximity:   a meal of that bread
+  Mechanism:   food, ingestion
+  Contagious:  no
+  Contraction: hidden Toughness +10
+               per meal. Each later day
+               on the same yield: −10
+               more, to −40.
+
+Symptoms
+  Onset:       24 hours after the test
+               that fails
+  Form:        1d10. 1–5 Convulsive.
+               6–10 Gangrenous.
+  Convulsive
+    −20 Agility, WS, BS.
+    Hallucination. +1 IP every 48 hours.
+  Gangrenous
+    Hands and Feet blacken. No feeling.
+    −10 on tests that use those Slots.
+    Permanent until Surgery.
+
+Recovery
+  Timeframe:   stop the grain. Evaluate
+               or Trade (Herbalist) * to
+               name it.
+  Convulsive:  fades 1d10 days after
+               the diet is clean.
+  Gangrenous:  the Slot is Ruined.
+               Surgery * to take the
+               dead tissue. Fail, or no
+               Surgery in 3 days:
+               sepsis. Finishing Blow
+               (Injury).
+  Linger:      lost digits stay an
+               Affliction.
+
+--------------------------------------------------
+Scurvy
+Kind:        Poison (dietary)
+Virulence:   none. Clock, not a roll
+--------------------------------------------------
+
+Origin
+  Long sea weeks, or Longnight with no
+  fresh browse.
+
+Transmission
+  Proximity:   30 days with no fresh
+               non-grain ration
+  Mechanism:   diet
+  Contagious:  no
+  Contraction: automatic at day 30.
+
+Symptoms
+  Onset:       day 30
+  Tissue Crash
+    2 Fatigue locked.
+    Old Visible Scarring and settled
+    limb injuries open. Minor Bleed
+    that ordinary binding will not
+    close.
+  Brittle Bone
+    −10 Toughness.
+    Fall damage (Hazards §2) uses
+    ×1.5 on top of the surface, not
+    instead of it.
+
+Recovery
+  Cures:       fresh green, berry, or
+               citrus. Bleed stops.
+               Locked Fatigue frees
+               1 point per 48 hours.
+  Linger:      none if fed.
+
+--------------------------------------------------
+Rickets
+Kind:        Poison (dietary / dark)
+Virulence:   none. Clock
+--------------------------------------------------
+
+Origin
+  Dark under-city (Density 5), deep
+  wood (Flora 5), no sky.
+
+Transmission
+  Proximity:   Size 3, three months
+               with no open sky
+  Mechanism:   light and diet
+  Contagious:  no
+  Contraction: automatic at three
+               months for that child.
+
+Symptoms
+  Onset:       after the three months
+  Stature Drain
+    −10 Agility. −10 Strength.
+    M permanently −1.0.
+  Load Failure
+    Enc cap is Strength × 5, not
+    Strength × 10.
+
+Recovery
+  Adults:      bone already set. No
+               reverse. Affliction stays.
+  Children:    daily open sky and fresh
+               animal fat. 1d6 months.
+               Numbers return.
+
+--------------------------------------------------
+Goitre
+Kind:        Poison (dietary)
+Virulence:   +10
+--------------------------------------------------
+
+Origin
+  Inland highland, far from sea trade.
+  Thin iodine in water and soil.
+
+Transmission
+  Proximity:   6 months of that water
+  Mechanism:   drink
+  Contagious:  no
+  Contraction: hidden Toughness +10
+               at month 6.
+
+Symptoms
+  Onset:       after that fail
+  Mass on Throat.
+  Vocal Block
+    −10 Fellowship.
+  Airway
+    Safe Breath Rounds (Hazards §1a)
+    halved, remainder thrown away.
+
+Recovery
+  Cures:       sea-salt, kelp, ocean
+               fish.
+               Or Surgery * on the
+               Throat. Fail: Finishing
+               Blow to Throat.
+
+--------------------------------------------------
+Gout (The Disease of Kings)
+Kind:        Poison (dietary)
+Virulence:   +0 each season
+--------------------------------------------------
+
+Origin
+  Court, keep, monastery. Rich meat,
+  aged cheese, heavy wine.
+
+Transmission
+  Proximity:   3 months of luxury
+               ration
+  Mechanism:   diet
+  Contagious:  no
+  Contraction: hidden Toughness +0
+               at each season turn
+               while that diet holds.
+
+Symptoms
+  Onset:       the failed season
+  One Slot: Foot or Hand. White Flare.
+    −20 Agility and WS.
+  Shock Tax
+    2 Fatigue locked until the flare
+    ends.
+    A hit on that Slot: Willpower or
+    they go Down.
+
+Recovery
+  Timeframe:   flare 1d4 + 2 days,
+               then quiet until the
+               next season if the diet
+               stays.
+  Cures:       water and plain grain
+               for one full month.
+
+Highly Contagious Epidemics
+  Settlement killers. Density is the
+  door. Labour and law may break.
+
+--------------------------------------------------
+Sweating Sickness
+Kind:        Pathogen
+Virulence:   −30
+--------------------------------------------------
+
+Origin
+  Sudden. Density 4–5 in wet Harvest.
+
+Transmission
+  Proximity:   passing through an
+               infected settlement
+  Mechanism:   air or touch
+  Contagious:  yes, extreme
+  Contraction: hidden Toughness −30.
+
+Symptoms
+  Onset:       2–4 hours
+  Fire Sweat
+    +2 Fatigue. Foul sweat through
+    every cloth layer.
+  2-Hour Clock
+    Every 2 hours: Toughness +0.
+    Fail: +1 Fatigue and 3 Wounds.
+    No NAC. No AC.
+    Strength or Toughness at 0:
+    Finishing Blow to Body.
+
+Recovery
+  Timeframe:   24 hours. Kill or clear.
+               12 consecutive 2-hour
+               wins: it breaks.
+  Linger:      alive at Fatigue = sheet
+               TB. Incapacitated. Rest.
+
+--------------------------------------------------
+Black Death
+Kind:        Pathogen
+Virulence:   −20, or −30 in Density 5
+--------------------------------------------------
+
+Origin
+  Distant port. Ships and caravans.
+  A country event.
+
+Transmission
+  Proximity:   an active plague sector,
+               each day
+  Mechanism:   flea, louse, or air
+               (pneumonic)
+  Contagious:  yes
+  Contraction: hidden Toughness −20
+               daily. Density 5: −30.
+
+Symptoms
+  Onset:       1d3 days
+  Black Buboes
+    Armpit, Groin / Pelvis,
+    Collarbone / Base of Neck.
+    −20 Strength and Agility.
+    3 Fatigue locked.
+  Hemorrhage
+    Every 12 hours: Toughness −20.
+    Fail: 4 Wounds. No NAC. No AC.
+  Overlay
+    If a settlement’s infected share
+    is over 30%: Economy labour ×3,
+    law thins, Human Density of that
+    place drops one tier.
+
+Recovery
+  Timeframe:   5 days. Most die.
+               Live only if every
+               12-hour test is won.
+  Cures:       Surgery * to lance.
+               Win: +20 on the next
+               12-hour test.
+               Fail: shock. Dead.
+  Linger:      GM.
+
+--------------------------------------------------
+Smallpox
+Kind:        Pathogen
+Virulence:   −10
+--------------------------------------------------
+
+Origin
+  Old urban clusters. Waves across
+  any Density.
+
+Transmission
+  Proximity:   cloth, bedding, pustule
+  Mechanism:   touch
+  Contagious:  yes
+  Contraction: hidden Toughness −10
+               on close contact.
+
+Symptoms
+  Onset:       10–14 days
+  Pustules, worst on Face and Hands.
+  Blind Pox
+    Pustules at Eyes: Toughness or
+    permanently Blind.
+  Scorched Track
+    2 Fatigue. −10 Toughness.
+
+Recovery
+  Timeframe:   two weeks to crust.
+  Linger:      immune after.
+               Visible Scarring
+               (Scarred 20) on the
+               face.
+               Eyes compromised:
+               Perception −5.
+
+--------------------------------------------------
+Typhoid Fever
+Kind:        Pathogen
+Virulence:   +0
+--------------------------------------------------
+
+Origin
+  Latrine into the well. Siege, camp,
+  bad town in Harvest heat.
+
+Transmission
+  Proximity:   communal water or food
+               in that sector
+  Mechanism:   water / food, waste
+  Contagious:  the well
+  Contraction: hidden Toughness +0.
+
+Symptoms
+  Onset:       1d2 weeks
+  Rose rash on Chest / Upper Back.
+  Delirious Cascade
+    −20 Intelligence and Willpower.
+    No Advanced Skill (*). The Rank
+    is closed for the duration.
+  Perforation
+    Each dawn: Toughness −10.
+    Fail: 2 Wounds and +1 Fatigue.
+
+Recovery
+  Timeframe:   3–4 weeks. Rest only.
+               An Active or Strenuous
+               hour: rupture. Finishing
+               Blow to Torso.
+  Linger:      GM.
+
+Chronic and Parasitic Afflictions
+  Slow. Seasons, linen, and meat.
+
+--------------------------------------------------
+Leprosy
+Kind:        Pathogen
+Virulence:   +20 per season of close
+             living
+--------------------------------------------------
+
+Origin
+  Poor streets, isolated colonies.
+
+Transmission
+  Proximity:   months in the same
+               house
+  Mechanism:   close living
+  Contagious:  slow
+  Contraction: hidden Toughness +20
+               at season end.
+
+Symptoms
+  Onset:       1d5 years
+  Dead Flesh
+    Hands and Feet feel nothing.
+    Immune to pain WP tests and
+    Torture. The GM tracks current
+    Wounds. The player does not.
+  Tissue Rot
+    Permanent −10 Agility and
+    Fellowship.
+
+Recovery
+  None in this age.
+  Cast out of Density 3+ by law.
+  Linger:      the Affliction is the
+               rest of the life.
+
+--------------------------------------------------
+Scabies
+Kind:        Pathogen (parasite)
+Virulence:   +10
+--------------------------------------------------
+
+Origin
+  Shared filthy beds. Cheap tavern,
+  long mercenary camp.
+
+Transmission
+  Proximity:   skin, or that bedding
+  Mechanism:   touch / cloth
+  Contagious:  yes
+  Contraction: hidden Toughness +10
+               sleeping in unwashed
+               quarters.
+
+Symptoms
+  Onset:       2–4 weeks
+  Itch in Hand webbing, Armpit, Groin.
+  Sleep
+    8-hour sleep: Willpower or it
+    only clears 1 Fatigue, not 4.
+  Distraction
+    −5 WS, BS, Awareness.
+
+Recovery
+  Cures:       sulphur and pine-tar
+               wash, one hour. Gone.
+
+--------------------------------------------------
+Body Lice
+Kind:        Pathogen (parasite)
+Virulence:   none. Clock
+--------------------------------------------------
+
+Origin
+  Unchanged linen on campaign.
+
+Transmission
+  Proximity:   Textile or Clothing
+               worn 14 days without
+               a boil
+  Mechanism:   cloth
+  Contagious:  the shirt
+  Contraction: automatic at day 14.
+
+Symptoms
+  Bites on Torso. No Characteristic
+  tax of their own.
+  Vector
+    Hidden tests vs Camp Fever and
+    like blood Agents: two steps
+    worse (e.g. +10 becomes −10).
+
+Recovery
+  Cures:       strip. Boil all Textile
+               one hour. Lye on the
+               skin.
+
+--------------------------------------------------
+Intestinal Worms
+Kind:        Pathogen (parasite)
+Virulence:   +10
+--------------------------------------------------
+
+Origin
+  Undercooked livestock, pasture
+  run-off (Hydrology 2–3 by farms).
+
+Transmission
+  Proximity:   that meat or water
+  Mechanism:   ingestion
+  Contagious:  no
+  Contraction: hidden Toughness +10.
+
+Symptoms
+  Onset:       1d4 weeks
+  Passive Drain
+    1 Fatigue locked.
+  Provision Tax
+    Double rations to hold strength.
+    Standard rations: every travel
+    hour one work band worse.
+
+Recovery
+  Cures:       wormwood or named
+               harsh draught.
+               Toughness +0 vs the
+               draught. Win: the
+               worm leaves. Fail:
+               3 Wounds from the
+               medicine.
+
+Neurological and Psychological
+  Mind and nerve. Some are not
+  pathogens. Same four blocks.
+
+--------------------------------------------------
+Epilepsy (The Falling Sickness)
+Kind:        Affliction (nerve)
+Virulence:   none
+--------------------------------------------------
+
+Origin
+  Born, or a Finishing Blow to
+  Skull / Occipital that did not kill.
+
+Transmission
+  Proximity:   none
+  Mechanism:   none
+  Contagious:  no
+  Contraction: character creation, or
+               that blow.
+
+Symptoms
+  Trigger:     first Round of Intense
+               combat, or a False Moon.
+               Hidden 1d100. 90+: fit.
+  Fit
+    Down. Helpless. 1d5 Rounds.
+    No Action, no Dodge, no Parry.
+    Breath Window treated as spent.
+    Suffocation tests (Hazards §1b)
+    each Round of the fit.
+
+Recovery
+  The rolled Rounds end. Rise with
+  1 Fatigue.
+  Linger:      the Affliction stays.
+
+--------------------------------------------------
+Chorea (Dancing Mania)
+Kind:        Curse / Pathogen (mind)
+Virulence:   WP +0, or −10 if the
+             watcher has 2+ IP
+--------------------------------------------------
+
+Origin
+  Stressed Density 3 village in
+  Longnight. Famine and fear.
+
+Transmission
+  Proximity:   seeing the dance
+  Mechanism:   sight / mind
+  Contagious:  yes, the spectacle
+  Contraction: hidden Willpower +0
+               (−10 at 2+ IP).
+
+Symptoms
+  Onset:       that fail
+  Endless Dance
+    Every hour is Strenuous. They
+    cannot sit, sleep, or take a
+    Short Rest.
+  Cascade
+    Each hour: Strenuous Toughness.
+    No sleep means the Tired ladder
+    also runs. At Fatigue = sheet TB
+    they do not lie still. They twitch
+    Down until a Characteristic hits
+    0. Finishing Blow. Heart.
+
+Recovery
+  Cures:       blunt strike to
+               Unconscious, or bound
+               in a quiet dark shelter
+               24 hours.
+  Linger:      GM. IP as fiction.
 }

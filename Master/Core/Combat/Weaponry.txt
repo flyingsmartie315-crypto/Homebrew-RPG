@@ -292,6 +292,13 @@ Shrapnel (x)       One quality. (x) is the pellet
 Slow (x)           Defender +(x) on Parry or Dodge
                    against this weapon.
                    A bare Slow is (10).
+Heft               A push, not a snap. On a hit, add
+                   half Strength Bonus to the damage,
+                   floor. Troll stones. Does not stack
+                   with Impulse.
+Impulse            A human throw. On a hit, add
+                   Strength Bonus to the damage.
+                   Does not stack with Heft.
 Snare              On a standing hit, target is held.
                    Opposed Agility to act or move.
                    Opposed Strength each Round to
@@ -323,7 +330,7 @@ Small
     (2/4/1)  Reach 0.5   Fast (10), Defensive (10),
                          Balanced, Concealable (20)
   Utility Axe (Hatchet) * 18 sc   Enc 5   Ord
-    (5/1/3)  Reach 0.5   Impact, Throwing,
+    (5/1/3)  Reach 0.5   Impact, Throwing, Impulse,
                          Concealable (20)
 
 Axes
@@ -686,12 +693,13 @@ unless noted Ordinary)
   Improvised          —      Enc var  Ord
     profile by size  4/8 or as §8
   Javelin             16 sc  Enc 12  Throwing
-    (1/4/2)  8/16    Fast
+    (1/4/2)  8/16    Fast, Impulse
     Melee as short spear, Reach 1.5
   Throwing Axe        22 sc  Enc 15  Throwing
-    (4/1/3)  6/12    Impact, Throwing
+    (4/1/3)  6/12    Impact, Throwing, Impulse
   Throwing Dagger     14 sc  Enc 2  Throwing
-    (2/4/1)  6/12    Fast (10), Concealable (20)
+    (2/4/1)  6/12    Fast (10), Concealable (20),
+                     Impulse
                      +15 Concealment hidden
 
 Min S on a bow: below it the draw is a Strength test
@@ -752,6 +760,10 @@ Blunderbuss
 8. IMPROVISED THROWN
 --------------------------------------------------
 
+Not a made weapon. No Impulse.
+On a hit, halve each type number, floor.
+The line below is before that halve.
+
   Tiny    pebble, coin     (0/0/1)  4/8
   Small   rock, mug        (0/1/2)  6/12
   Medium  brick, helm      (1/2/3)  4/8   −10 BS
@@ -760,7 +772,10 @@ Blunderbuss
   Massive drop only        (3/3/6)  use Fall
                                           (Combat §8)
 
-+1 Blunt per 20 Enc of the object.
+After the halve: Tiny 0/0/0, Small 0/0/1,
+Medium 0/1/1, Large 1/1/2. Massive is Fall.
++1 Blunt per 20 Enc of the object, after
+the halve.
 Drop from a height: Fall table, not this profile.
 
 --------------------------------------------------

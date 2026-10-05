@@ -27,6 +27,7 @@ is Size 7. The adult sheet uses 1,800 kg.
   WP  30
   WS  30
   BS  20
+  Attacks 1
 
   SB 9     TB 9
   M  5.0   Agility 10 ÷ 10, then Size +4
@@ -36,7 +37,6 @@ is Size 7. The adult sheet uses 1,800 kg.
     The belly is the gap. Adds to NAC.
   Wounds 135   floor(TB × 3 × 5)
                27 × 5.
-  Attacks 1
   Initiative  10 + 1d10
 
 To-hit against a man (Size 4): +40.
@@ -67,6 +67,40 @@ SKILLS
 Anything else is unknown. Half the base.
 
 --------------------------------------------------
+ATTACK PROFILE
+--------------------------------------------------
+
+  Fists                   Natural
+    (0/0/1)  Reach 1.5   Blunt, Impact
+    1d10 + SB. No Parry. No Disarm
+    unless the limb is off.
+  Claws                   Natural
+    (1/0/0)  Reach 1.5   Cut
+    1d10 + SB. No Parry. No Disarm
+    unless the limb is off.
+  Throw, Light            Thrown
+    (0/0/5)  18 m         Blunt, Heft
+    0.5 to 6 kg. s × 2 m.
+    BS 20. One hand.
+    Heft: +4 on a hit. Half SB.
+  Throw, Medium           Thrown
+    (0/0/10) 9 m          Blunt, Impact, Heft
+    2.1 to 30 kg. s × 1 m.
+    Boulder. About 15 kg in the middle.
+    BS 20. Two hands.
+    Heft: +4 on a hit. Half SB.
+    Characteristics §3a. Classes
+    scale by s ÷ 3, then floor.
+    Dropped from a height: Fall,
+    not this row. Hazards.
+  Tree club               Improvised
+    (0/0/6)  Reach 2     Blunt, Impact, Slow (10)
+    Uprooted trunk, branches ground off.
+    Two hands. It lasts until the hands
+    split it. Then it is firewood.
+    Not a kept weapon.
+
+--------------------------------------------------
 TRAITS
 --------------------------------------------------
 
@@ -75,20 +109,6 @@ Law: Core_Traits.txt.
   Dweller (peak, crag, high ridge, cave)
     HSI index lives on the bestiary page.
     Freezing peak or hot crag, if there is shelter.
-  Natural Weapons (fists, claws)
-    1d10 + 9.
-    Fists Blunt. Claws Cut.
-    WS 30. No Parry. No Disarm unless the
-    limb is off.
-  Boulder
-    Thrown. Improvised, Large.
-    BS 20. From a height, Fall may apply
-    instead of the throw if the stone is dropped.
-  Tree club
-    Uprooted trunk, branches ground off.
-    Improvised. Blunt. It lasts until the
-    hands split it. Then it is firewood.
-    Not a kept weapon.
 
 --------------------------------------------------
 BEHAVIOUR PROFILE
@@ -138,3 +158,8 @@ The belly is the gap. The back is the hide.
 A blow that empties 135 is the finishing blow.
 NAC 5 and the natural armour come off first,
 unless the blow is the abdomen.
+A chance meeting is the shelf and the boulder.
+The Wrac-Stān hunt is not this sheet. It is
+the bestiary: weeks of lanes and pitons, then
+a False Moon, then the throat. The plate is
+the pay. Damage after the throat spikes is a fault.

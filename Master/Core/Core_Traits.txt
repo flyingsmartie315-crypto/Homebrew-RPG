@@ -64,3 +64,18 @@ No Disarm, unless the limb is hacked off.
 A held weapon uses the weapon, not this Trait.
 Both may be used if the sheet gives Attacks
 enough to swing each.
+The sheet’s Attack Profile names the
+damage, the type, and the Weapon Skill.
+This Trait is why it counts as armed.
+
+--------------------------------------------------
+5. DOG-GAITED
+--------------------------------------------------
+
+Runs on all four limbs.
+Tight, low tunnels and opened scrapes
+are not difficult ground for it.
+No terrain penalty for that squeeze.
+A man still pays the ground. It does not.
+Forced upright is not this gait.
+It does not grant a Parry.

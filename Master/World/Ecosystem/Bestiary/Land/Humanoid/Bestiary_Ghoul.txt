@@ -58,7 +58,7 @@ Biome is Any. Domain is Land. Then HSI: they want the dead of men, not a climate
 Notes
 - Locked name: Ghoul. No second name required.
 - Unveiling kind. Cannibal-descent is the tale, not the sheet.
-- They do not rise from every corpse. Nest-bred. Bite is plague. Unburned ghoul is the risk.
+- They do not rise from every corpse. Nest-bred. A bite that deals a Wound is Cruor-Stain (Pathogens_Poisons_Curses.txt). Crews say the line is croored. Living men do not stand up as ghouls. An unburned body that died with the stain can quicken in 2d10 days. The wet-rot air is Mort-Vapor. Scholars say Vapor Mortiferus.
 - Economy: no price. Bounty for a cleared crypt, if a town pays one.
 - Custom: watch the graveyard. Burn what they have touched.
 - Entity sheet: Entities_Unnatural_Ghoul.txt

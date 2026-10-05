@@ -25,12 +25,12 @@ That stretch does not change Size.
   WP  20
   WS  35
   BS  5
+  Attacks 1
 
   SB 4     TB 3
   M  3.5   Agility 35 ÷ 10. Size +0.
   NAC 1    tight skin. Not TB.
   Wounds 9     floor(TB × 3 × 1)
-  Attacks 1
   Initiative  35 + 1d10
 
 To-hit against a man: +0. Same Size.
@@ -53,26 +53,33 @@ Anything else is unknown. Half the base.
 No Parry. No speech.
 
 --------------------------------------------------
+ATTACK PROFILE
+--------------------------------------------------
+
+  Jaws                    Natural
+    (0/1/0)  Reach 0.5   Pierce
+    1d10 + SB. No Parry. No Disarm.
+    The jaw unhinges for the take.
+    A Wound past Protection is Cruor-Stain.
+    Spoken: croored. The Croor-Taint.
+    Pathogens_Poisons_Curses.txt.
+    Most bitten men die as men.
+    An unburned body that died with
+    the stain can quicken. 2d10 days.
+  Claws                   Natural
+    (1/0/0)  Reach 0.5   Cut
+    1d10 + SB. No Parry. No Disarm
+    unless the limb is off.
+    A Wound past Protection is Cruor-Stain.
+
+--------------------------------------------------
 TRAITS
 --------------------------------------------------
 
 Law: Core_Traits.txt.
 
-  Natural Weapons (jaws, claws)
-    1d10 + 4.
-    Jaws Pierce. Claws Cut.
-    WS 35. No Parry. No Disarm unless the
-    limb is off. The jaw unhinges for the take.
-  Bite
-    A wound from the jaws is plague.
-    Fever, pus, a rotten wound.
-    Law is the bestiary, not a risen man.
-    Most bitten men die as men.
-  Unburned
-    Left in the dark, a dropped ghoul can
-    quicken. This is not Regeneration.
-    Fire ends it. Steel only drops the one
-    in front of you.
+  Dweller (crypt, forgotten cellar, ditch, old field)
+  Dog-gaited
 
 --------------------------------------------------
 BEHAVIOUR PROFILE
