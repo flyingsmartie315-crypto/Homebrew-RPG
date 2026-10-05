@@ -1,4 +1,6 @@
 # Bestiary_Ghoul
+# Local copy. Repo: Master/World/Ecosystem/Bestiary/Land/Bestiary_Ghoul.txt
+# Entity: Entities_Unnatural_Ghoul.txt
 
 Type: Unveiling
 Domain: Land
@@ -22,7 +24,7 @@ Maturity: weeks to a hunting juvenile
 Dimorphism: little. All run on four limbs.
 
 Stats
-Entity_Ghoul.txt
+Entities_Unnatural_Ghoul.txt
 
 Overview
 Ghouls are an Unveiling strain of the grave and the old field. Folk say they were men who ate men and could not stop. What walks now is hunched, stocky, dog-gaited, skin tight on yellow bone, the smell of wet rot well ahead of the body. Eyes pale in the dark. A jaw that unhinges for the take. They want human meat, fresh or dead. One is a pest. A nest is a broken burial-ground. Steel drops them. Fire is what finishes the work.
@@ -59,3 +61,4 @@ Notes
 - They do not rise from every corpse. Nest-bred. Bite is plague. Unburned ghoul is the risk.
 - Economy: no price. Bounty for a cleared crypt, if a town pays one.
 - Custom: watch the graveyard. Burn what they have touched.
+- Entity sheet: Entities_Unnatural_Ghoul.txt

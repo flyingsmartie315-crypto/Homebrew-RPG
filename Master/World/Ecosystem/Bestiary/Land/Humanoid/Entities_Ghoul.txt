@@ -1,0 +1,114 @@
+# Entities_Unnatural_Ghoul.txt
+# GM sheet. One Entity. Not the bestiary essay.
+# Bestiary: Bestiary_Ghoul.txt
+#   Hunched 1.3–1.5 m. Weight 55–85 kg.
+# Traits: Core_Traits.txt
+# Injury: Injury_Tables_Predator.txt
+#   Four-limbed gait. Forced upright is not the table.
+# Size law: Core_Characteristics_Skills.txt §3
+
+--------------------------------------------------
+GHOUL
+--------------------------------------------------
+
+Size 4. Average. Injury: Predator.
+Bestiary mass 55–85 kg. Sheet uses 70 kg.
+Hunched 1.3–1.5 m. Longer if forced to stand.
+That stretch does not change Size.
+
+  S  40
+  Per 35
+  T  35
+  Fel 5
+  Int 8
+  Ag  35
+  WP  20
+  WS  35
+  BS  5
+
+  SB 4     TB 3
+  M  3.5   Agility 35 ÷ 10. Size +0.
+  NAC 1    tight skin. Not TB.
+  Wounds 9     floor(TB × 3 × 1)
+  Attacks 1
+  Initiative  35 + 1d10
+
+To-hit against a man: +0. Same Size.
+A nest is numbers, not a larger body.
+
+--------------------------------------------------
+SKILLS
+--------------------------------------------------
+
+(X) is known, at the skill base.
+
+  Athletics (X)      37
+    Mean of Strength 40 and Agility 35.
+  Awareness (X)      35
+  Concealment (X)    35
+    The dark and the hole do the rest.
+  Silent Move (X)    35
+
+Anything else is unknown. Half the base.
+No Parry. No speech.
+
+--------------------------------------------------
+TRAITS
+--------------------------------------------------
+
+Law: Core_Traits.txt.
+
+  Natural Weapons (jaws, claws)
+    1d10 + 4.
+    Jaws Pierce. Claws Cut.
+    WS 35. No Parry. No Disarm unless the
+    limb is off. The jaw unhinges for the take.
+  Bite
+    A wound from the jaws is plague.
+    Fever, pus, a rotten wound.
+    Law is the bestiary, not a risen man.
+    Most bitten men die as men.
+  Unburned
+    Left in the dark, a dropped ghoul can
+    quicken. This is not Regeneration.
+    Fire ends it. Steel only drops the one
+    in front of you.
+
+--------------------------------------------------
+BEHAVIOUR PROFILE
+--------------------------------------------------
+
+Nest, not range. Crypt, plague-pit, cellar,
+last year’s field. It does not hold a forest.
+Light and a press of the living drive it under.
+
+Hungry: human meat, fresh or dead. A corpse
+comes out of the ground faster than a sexton
+puts one in. A living walker is prey if he is
+alone, drunk, or already down. It will not
+charge a prepared line for preference.
+A detail that is not looking is swamped.
+
+Pack: one keeps the best of the meat. No crown.
+They breed in the nest. That is how a stretch fills.
+Intelligence 8. Cunning enough to dig and to wait.
+Not enough to parley. Fellowship 5.
+
+False Moon: bolder on the surface, faster at a
+fresh grave. Not a march down the high street
+in daylight.
+
+Hurt: it breaks for the hole. Under half its
+Wounds it does not stand. Leave the body in
+the dark and the hole stays live.
+
+--------------------------------------------------
+RUN
+--------------------------------------------------
+
+It closes on four limbs. One attack. Jaws or
+claws, not both, unless Attacks rises.
+It does not parry. It may Dodge on Agility 35.
+A blow that empties 9 drops it.
+Burn it, or the bestiary rule stands.
+Harm 3 for one. Collective 6 for the nest.
