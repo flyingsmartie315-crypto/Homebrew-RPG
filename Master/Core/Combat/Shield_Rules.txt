@@ -78,7 +78,7 @@ LAW
 CATALOGUE (starter)
 
 Buckler
-  AC: 3/3/4
+  AC: 4/4/4
   Enc: 15    Cost: 8 sc
   Defensive(+10)
   Bash (1/0/3)  Reach 0.5   Fast

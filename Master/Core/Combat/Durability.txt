@@ -8,6 +8,28 @@
 #   Core_Terrain.txt      Rainfall, Hydrology
 
 Weapons are not in this pass.
+Nets and bolas are. Weaponry.txt.
+
+--------------------------------------------------
+1b. NETS AND BOLAS
+--------------------------------------------------
+
+A hold has hitpoints. It is not armour
+on the body. It does not join the harness
+pool.
+
+  Cast net            15
+  Spider-silk net     25
+  Bolas               10
+
+Cut only. Pierce and Blunt do not
+reduce these. AC is on the weapon line.
+Incoming Cut above that AC costs
+hitpoints, one for one. Floor 0.
+At 0 the hold is cut. Entangle or Bolas
+ends.
+Craft applies. Apprentice ×0.25.
+No Iron Grade. The cord is the piece.
 
 --------------------------------------------------
 1. WEAR (LOCKED)

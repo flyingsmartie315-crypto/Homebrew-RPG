@@ -299,11 +299,29 @@ Heft               A push, not a snap. On a hit, add
 Impulse            A human throw. On a hit, add
                    Strength Bonus to the damage.
                    Does not stack with Heft.
-Snare              On a standing hit, target is held.
-                   Opposed Agility to act or move.
-                   Opposed Strength each Round to
-                   break. Held: no Charge/Run, −20
-                   other tests.
+Snare (x)          Melee. A hook, not a net.
+                   On a standing hit, target is held.
+                   Opposed Agility at (x) to act or
+                   move. Opposed Strength at (x)
+                   each Round to break.
+                   A bare Snare is (0).
+                   Held: no Charge/Run, −20 other tests.
+Entangle (x)       Nets and thrown snares.
+                   On a standing hit, target is held.
+                   Agility test at (x) to act or move.
+                   Strength test at (x) each Round
+                   to break. A bladed instrument in
+                   hand is +10 on that break.
+                   Held: no Charge/Run, −20 other tests.
+Bolas (x)          A thrown hobble. Legs, not the arms.
+                   On a standing hit, target is held.
+                   Agility test at (x) to act or move.
+                   Strength test at (x) each Round
+                   to break. A bladed instrument in
+                   hand is +10 on that break.
+                   Held: no Charge/Run.
+                   No −20 on other tests. The hands
+                   are free.
 Special            See the weapon or ammunition line.
 Throwing           May be thrown at the listed range.
 Tiring             First attack or first Round only
@@ -353,7 +371,7 @@ Axes
     No Impact. The bit is too thick. It binds
     in a moving target instead of biting.
   Bearded axe       +18 sc    Enc +10
-    (5/1/2)  Impact, Snare
+    (5/1/2)  Impact, Snare (0)
     Beard drawn down. Wide edge, light head.
     About 1 kg. A day and a half.
     Wrought allowed. The gap behind the beard
@@ -386,7 +404,7 @@ Axes
     About 1.5 kg. Three smith days. The
     thin bit is the time.
   Bearded great axe +3 gc 10 sc   Enc +18
-    (6/1/3)  Reach 1.5   Impact, Slow (10), Snare,
+    (6/1/3)  Reach 1.5   Impact, Slow (10), Snare (0),
                          Versatile
     Lower horn dropped for the hook.
     About 1.8 kg. Three and a half days.
@@ -576,11 +594,11 @@ Polearms
     Axe, hammer, top spike. About 1.3 kg.
     Four smith days. The time is the three tools.
   Halberd         +5 gc     Enc +16
-    (6/5/3)  Impact, Slow (10), Snare
+    (6/5/3)  Impact, Slow (10), Snare (0)
     Broad axe, top spike, back fluke. About 1.6 kg.
     Four smith days.
   Raven's beak    +3 gc 10 sc   Enc +11
-    (1/7/5)  Impact, Slow (10), Snare
+    (1/7/5)  Impact, Slow (10), Snare (0)
     Thick beak, compact hammer. About 1.1 kg.
     Three smith days.
   War spear       +18 sc    Enc +4
@@ -588,7 +606,7 @@ Polearms
     Leaf, diamond, or triangular. About 0.4 kg.
     One smith day. Lowest Enc. Wrought allowed.
   Partisan        +1 gc 10 sc   Enc +6
-    (3/5/1)  Fast (10), Defensive (5), Snare
+    (3/5/1)  Fast (10), Defensive (5), Snare (0)
     Double-edged blade, wings at the base.
     About 0.6 kg. A day and a half. The wings
     are the extra half day.
@@ -598,7 +616,7 @@ Polearms
     Spike and collar in a club. About 0.4 kg
     of iron. Half a day. Wrought allowed.
   Billhook        +16 sc    Enc +5
-    (4/3/1)  Snare
+    (4/3/1)  Snare (0)
     Hedging blade, hooked tip, small rear spike.
     About 0.5 kg. One smith day. Wrought allowed.
   War scythe      +8 sc     Enc +4
@@ -701,6 +719,25 @@ unless noted Ordinary)
     (2/4/1)  6/12    Fast (10), Concealable (20),
                      Impulse
                      +15 Concealment hidden
+
+Nets and bolas
+  A hold, not a blade. (0/0/0).
+  Entangle and Bolas are the qualities.
+  Cutting one free is Core_Combat.txt.
+  Hitpoints are Durability.txt.
+  Cost and Enc are a first pass.
+
+  Cast net            10 sc  Enc 20  Throwing
+    (0/0/0)  4/8      Entangle (10)
+    AC 3/0/0. Cut only. Pierce and Blunt
+    do not wear it. Two hands to throw.
+  Spider-silk net     2 gc   Enc 12  Throwing
+    (0/0/0)  4/8      Entangle (30)
+    AC 6/0/0. Cut only. The dear line.
+    Two hands to throw.
+  Bolas               6 sc   Enc 8   Throwing
+    (0/0/0)  6/12     Bolas (0)
+    One hand. Legs. No AC. Cord and weights.
 
 Min S on a bow: below it the draw is a Strength test
 each shot or the bow is not used. Hulking+ thrown:

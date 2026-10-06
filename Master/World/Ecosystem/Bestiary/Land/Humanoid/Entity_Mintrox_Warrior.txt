@@ -1,0 +1,160 @@
+# Entity_Mintrox_Warrior.txt
+# GM sheet. Warrior and chief. Not the common body.
+# Bestiary: Bestiary_Mintrox.txt
+#   Slouch to 5 ft. Weight 52–55 kg. Size 4.
+# Common pack: Entity_Mintrox.txt
+# Traits: Core_Traits.txt
+# Injury: Injury_Tables_Bipedal.txt
+# Size law: Core_Characteristics_Skills.txt §3
+
+--------------------------------------------------
+MINTROX, WARRIOR / CHIEF
+--------------------------------------------------
+
+Size 4. Average. Injury: Bipedal.
+Bestiary mass 25–55 kg. This sheet is the
+top of it, 52–55 kg. Uses 55 kg.
+Human band. The largest arm, or the liar
+who kept that arm beside him.
+Slouch to 5 ft. Spoken by men: goblin.
+
+  S  40
+  Per 40
+  T  35
+  Fel 20
+  Int 25
+  Ag  40
+  WP  30
+  WS  35
+  BS  45
+  Attacks 1
+
+  SB 4     TB 3
+  M  4.0   Agility 40 ÷ 10. Size +0.
+  NAC 0
+  Wounds 9     floor(TB × 3 × 1)
+  Initiative  40 + 1d10
+
+To-hit against a man: +0. Same Size.
+A man shooting this body: +0.
+
+--------------------------------------------------
+SKILLS
+--------------------------------------------------
+
+(X) is known, at the skill base.
+
+  Athletics (X)      40
+  Awareness (X)      40
+  Concealment (X)    40
+  Silent Move (X)    40
+  Dodge (X)          40
+  Intimidate (X)     30
+    Mean of Fellowship 20 and Strength 40.
+  Outdoor Survival (X)  32
+  Trapping * (X)     32
+    Intuitive. The pit is still the fight.
+  Parry * (X)        35
+    The weapon in hand.
+
+--------------------------------------------------
+TALENTS
+--------------------------------------------------
+
+  Keen Sight (10)
+  Keen Hearing (10)
+  Keen Smell (10)
+  Night Vision
+    Same as the common body. Stars, not
+    a lightless cave.
+
+Anything else is unknown. Half the base.
+
+--------------------------------------------------
+LOADOUT
+--------------------------------------------------
+
+Same Greenskin list as Entity_Mintrox.txt.
+Brass is the stats base. The piece is scrap
+unless it was looted. A chief is the one
+most likely to hold a loot.
+Bolder than the common body. Two ways.
+
+  Net
+    Cast net, or spider-silk on 1d10, 1–3.
+    Follows the throw with a two-handed axe.
+    No board. The axe was on the back.
+  Director
+    Round shield and spear in hand.
+    A one-handed weapon on the belt.
+    Stays back and points the lesser.
+    Closes when the line is already down.
+
+--------------------------------------------------
+ATTACK PROFILE
+--------------------------------------------------
+
+Profiles match the common sheet.
+WS 35. BS 45.
+
+  Greenskin round shield  Round
+    AC 3/3/4   Enc 31     Defensive (15)
+    Bash (0/0/3)  Reach 0.5
+    Parry * is on the sheet. The board
+    tests if it is in hand.
+  Greenskin spear         Spear, 1H
+    (1/4/0)  Reach 2     Fast (10), Versatile
+    Thrown: (0/4/0)  6/12  Impulse
+    No Fast on the throw.
+  Greenskin short single-edged
+    (3/0/0)  Reach 0.5   Balanced, Impact
+  Greenskin star mace     Cudgel
+    (0/0/4)  Reach 1     Pummelling (10)
+  Greenskin bearded axe
+    (4/0/1)  Reach 1     Impact, Snare (0)
+  Greenskin two-handed axe
+    (5/0/2)  Reach 1.5   Impact, Slow (10),
+                         Snare (0), Two-handed
+    Net loadout. On the back until the throw.
+  Greenskin cast net
+    (0/0/0)  4/8          Entangle (10)
+    AC 3/0/0. Cut only. Seven in ten.
+  Greenskin spider-silk net
+    (0/0/0)  4/8          Entangle (30)
+    AC 6/0/0. Cut only. 1d10, 1–3.
+
+--------------------------------------------------
+TRAITS
+--------------------------------------------------
+
+Law: Core_Traits.txt.
+
+  Dweller (ruin, cut-bank, temperate scrub)
+  Dark-Sight
+
+--------------------------------------------------
+BEHAVIOUR PROFILE
+--------------------------------------------------
+
+This is the arm the pack points at, or the
+liar who stands next to it. Not a king.
+False Moon does not make one.
+
+It still will not hold a shield-wall. It
+throws, then it closes if the target is
+down. A chief calls the pit and the silk.
+He does not stand in the open to be shot.
+
+Hurt: it bolts later than the common body.
+Under half its Wounds it breaks for the
+scrape. Harm 3. The ground is still
+Collective 6. The body is just harder to drop.
+
+--------------------------------------------------
+RUN
+--------------------------------------------------
+
+It throws once. Dart or javelin. It closes
+only if the target is down or snared.
+It may Parry on 35. It may Dodge on Agility 40.
+A blow that empties 9 drops it.
