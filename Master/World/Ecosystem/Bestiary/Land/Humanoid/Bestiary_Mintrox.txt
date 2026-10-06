@@ -35,7 +35,11 @@ Overview
 Mintrox came through the Unveiling with the great bugs. Men say goblin. They are small, hunched, long-armed, short-legged: built to throw and to bolt, not to march. Scrap-flint, bone, stolen iron. They do not forge. They do not stand a shield-wall. They set a pit, a silk trip, a smeared thorn, and they put a dart into the man who looks down. The spiders and the lesser crawlers are their home-game, not a miracle. Humans first took spider-silk as a craft from watching them.
 
 Notes
-- Locked name: Mintrox. Spoken by men: goblin.
+- Locked name: Mintrox. High-road speech.
+- Spoken where they are seen: bugmen.
+  Cut-banks, dry steppe, scree. The slouch
+  and the crawler-shell on the belly. They
+  scuttle. They do not march.
 - Entity sheets: Entity_Mintrox.txt, Entity_Mintrox_Warrior.txt
 - 52 kg is the Size line. Common stays under it.
-- Loadout is on the sheet. Greenskin kit. Brass numbers. The metal in the hand is scrap, unless looted.
+- Armour: Bestiary_Mintrox_Armour.txt. Chitin. No human market.

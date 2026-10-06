@@ -1,4 +1,4 @@
-# Entities_Unnatural_River_Troll.txt
+# Entity_River_Troll.txt
 # GM sheet. One Entity. Not the bestiary essay.
 # Bestiary: Master/World/Ecosystem/Bestiary/Land/Bestiary_River_Troll.txt
 #   Height 8–9 ft. Weight 800–1,200 kg.
@@ -35,6 +35,15 @@ All of it is Size 7. 8–9 ft standing.
   Wounds 60    floor(TB × 3 × 2.5)
                24 × 2.5.
   Initiative  10 + 1d10
+
+
+Movement. Sheet reference. Not live.
+Agility and Fatigue do not rewrite this.
+  Half        8 yards
+  Full        16 yards
+  Charge      16 yards
+  Jump / Leap 12 yards running, 6 standing
+  Run         24 yards
 
 To-hit against a man (Size 4): +30.
 A man shooting this troll: +30 BS.
@@ -95,6 +104,12 @@ Law: Core_Traits.txt.
   Regeneration (4)
     Start of its Turn. Toughness test.
     Success removes 4 Wounds. Dead, it stops.
+  Bestial
+    No Aim, Called Shot, Disengage,
+    Ready, Reload, Cast, Feint,
+    Guarded Attack, Manoeuvre, or
+    Parrying Stance. The throw is the
+    attack profile, not a Ready.
 
 --------------------------------------------------
 BEHAVIOUR PROFILE

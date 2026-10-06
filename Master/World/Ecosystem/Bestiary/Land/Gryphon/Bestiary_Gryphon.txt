@@ -1,4 +1,7 @@
 # Bestiary_Gryphon
+# Local copy. Repo: Master/World/Ecosystem/Bestiary/Land/Gryphon/Bestiary_Gryphon.txt
+# Entity: Entity_Gryphon.txt
+# Not the Royal Gryphon.
 
 Type: Wonder
 Domain: Land
@@ -23,53 +26,78 @@ Dimorphism: little. Females a shade heavier; males slightly taller at the should
 
 Stats
 Entity_Gryphon.txt
+  Sheet uses 800 kg. Size 7.
 
 Overview
 Earthbound gryphons are a Wonder of the first men: made, not born of the veil. After the landing they took the mountains and kept them. They stand a destrier’s height at the shoulder and outweigh one — eagle head and beak, golden eyes, lion’s body, tawny hide. Shoulder feathers give a killing leap, not flight. They are proud, long-memoried, and will fight to the death for a rider who has stood the trials. They are not the winged Royal Gryphon.
 
+The body is front-heavy. Skull, keratin beak, and the shoulder plumage sit over column forelimbs. The hind end is the cat. That split is the gait and the track.
+
+Forelimbs
+Fused talon-heels. The grappling engine.
+The paw is a hybrid. Avian weapon, mammalian load.
+
+The load-bearing palm is a broad rear pad. Dense fibrous fat under a rough, rubbery, elephantine hide. On a hard road it takes most of the weight, so the joints survive a march on stone.
+
+The thumb is a thick, stubby, muscled digit, a modified hallux, on the inside rear of the foot. On the flat it sits flush with the palm. It is the heel-anchor and the brake on a steep descent.
+
+Four elongated, curved digits stand at the front. On a road they flex up. The tips stay clear. They do not blunt, and the quick stays off the stone.
+
+On a face the bird leans forward and drives those four into the rock. Cleats. In a fight the palm is the sledgehammer. The flexors then lock. Four front digits and the rear thumb close. That vise is the talon hit on the entity sheet. It is a pick, not a slap. Plate is the point of AP on the beak. The talon lock is the hold.
+
+Hindlimbs
+The kinetic spring. Lion or tiger, scaled.
+Thigh and lower back are fast-twitch. The crouch stores the leap. From a standing start it clears a cart. That is the Charge. It is not flight.
+
+The hind legs are digitigrade. The bird walks on the back toes. The rear stays light. It can pivot and work a narrow ledge.
+
+Hind pads are soft mammalian pads. Silent in the wood. They take the landing.
+
+Hind claws retract. They grip the launch and they rake if the fight goes to the ground. They are not the primary attack. The beak and the fore-talon are.
+
+Track
+A march leaves two prints. The front is a wide rounded depression, bear-broad, with four light punctures where the raised talon tips touch. The rear is a clean cat pad. The gait is a lurch. Built for the low road and the high face. Not a winged stoop.
+
 Signs
 - Talon-scored stone on ledges and nest-crags
+- A front print like a bear, four light punctures, and a cat pad behind
 - Nests of wedged timber and piled stone under an overhang
 - Goat, boar, or traveller taken and carried onto height
 - Loose rock, cairns, and climber-gear knocked into the drop
-- Gargoyles or roof-beasts missing from high stone
 - Roar off the massif, louder under a False Moon
 - A single bird far below its range, following a party for days
 - Sheep, cattle, or horse-lines broken in the night, the kills carried or torn, no pack-trail
 
 Behaviour
-A pair holds a territory for life: the nest-crag, the faces around it, and the steep wood that hangs off the same height. They do not migrate between countries. They move up and down the mountain. Highsun they hunt the high snow-edge. Longnight they drop to the last open ledges and the heads of hanging valleys. Steep woodland is hunting country, not nest country. They use it when it sits against their own rock. A False Moon pulls them lower still, into places men walk.
+A pair holds a territory for life: the nest-crag, the faces around it, and the steep wood that hangs off the same height. They do not migrate between countries. They move up and down the mountain. Highsun they hunt the high snow-edge. Longnight they drop to the last open ledges and the heads of hanging valleys. Steep woodland is hunting country, not nest country. A False Moon pulls them lower still, into places men walk.
 
 They hunt at first light and last light. The leap from a standing start will clear a cart and come down through plate. They cache on the nest-ledge and return. In idle weather they bat stones, bones, and anything loose into the drop. This is play, not signalling.
 
-They pair for life, including the years after they have stopped breeding. Courtship is Thaw: shared hunts, exchanged kills, and long standing on the same rock. They do not keep a pride. Once the territory is taken they keep it until they are expelled. They are fierce on the boundary. Expulsion is by a stronger pair, not by wandering off.
+They pair for life, including the years after they have stopped breeding. Courtship is Thaw: shared hunts, exchanged kills, and long standing on the same rock. They do not keep a pride. Expulsion is by a stronger pair.
 
-A range without a mate is a young bird still roaming, or a widow. Widow means the surviving bird, male or female. Widows do not nest. If there are still young on the crag, the remaining adult keeps the territory and finishes the rearing. If there are no young, the widow does not hold the rock. It leaves and roams, far beyond the old boundary, sometimes for the rest of its life. Those birds turn up on roads, in vale pasture, and on the roofs of places that have never seen a nest.
+A range without a mate is a young bird still roaming, or a widow. Widow means the surviving bird, male or female. Widows do not nest. Young still on the crag: the remaining adult keeps the territory. No young: the widow leaves and roams. Those birds turn up on roads, in vale pasture, and on roofs that have never seen a nest.
 
-They grieve. A slain mate or a slain chick is not eaten and is not abandoned at once. The survivor will stay by the body, then hunt the killers. That hunt does not respect the old boundary. Bands that took a mate have been followed off the mountain, through the steep wood, and onto roads the pair never used. The stalking may last days.
+They grieve. A slain mate or a slain chick is not eaten and is not abandoned at once. The survivor stays by the body, then hunts the killers. That hunt does not respect the old boundary. It may last days.
 
-Destructive raids on human holdings — a fold broken, a herd dropped and left — are believed to happen only when humans did the first harm. The bird is settling a debt, not feeding. A widow that was not wronged by men does not do this. She roams, hunts as she goes, and takes from a herd only what she will eat. She is an opportunistic hunter on the road, not a scourge.
+A fold broken and the meat left is a debt. Men did the first harm. A widow that was not wronged takes from a herd only what she will eat. One sheep gone, cleanly, is hunger. Meat left behind is the mark.
 
-Folk still blame every lone gryphon in the low country. The meat-left-behind is the mark of a wronged widow. A single sheep gone, cleanly, is only hunger.
+The nest is built, not scraped. Timber and stone wedged into an inset cliff with cover overhead. One egg, sometimes two. Both sit. Both kill anything that comes up the face. The young leave of their own will and roam until they pair. Most die in that interval. They breed at four to six.
 
-The nest is built, not scraped. Timber and stone are wedged into an inset cliff with rock or tree-cover overhead. One egg, sometimes two. Both sit. Both kill anything that comes up the face. The young are raised on the nest and on the home faces until young adulthood, then they leave of their own will. They roam, sometimes for years, until they pair and take a territory of their own. Most die in that interval. A bird that has taken a crag is already a full hunter. They breed at four to six.
-
-Knights Gryphon take the egg, not the adult. The pair treats that as the killing of young and will come down the mountain. Hand-reared birds bond as a mate-substitute: one rider, for life. A broken bond — death, cruelty, abandonment — does not make a safe beast. Wild adults do not take a master. In rare cases a widow has bonded to an exceptional living soul. That bond is real. It is not the Knight’s training. The bird is a partner, not a mount you school.
+Knights Gryphon take the egg, not the adult. The pair treats that as slain young and will come down the mountain. Hand-reared birds bond as a mate-substitute: one rider, for life. A broken bond does not make a safe beast. Wild adults do not take a master. A widow bonding to an exceptional living soul is rare. It is not the Knight’s training. The bird is a partner, not a mount you school.
 
 Encounter
 Usually one hunting, or the pair on the nest-crag. Two eggs is a bad year to climb.
-A lone adult well below the massif, matching a party’s route, is likely vengeance, not a stray.
-A lone adult on the vale, taking one head from a herd and moving on, is likely a widow without young, hunting.
-A lone adult that wrecks a fold and leaves the meat is likely a widow that men already wronged.
+A lone adult matching a party’s route below the massif is likely vengeance.
+A lone adult on the vale, one head and moving on, is likely a widow without young.
+A lone adult that wrecks a fold and leaves the meat is a widow already wronged.
 A bonded mount is a charge on the ground, not a stoop from the air.
-Quantity stays low (Rarity 4). False Moon and thin veil still move them down-slope. Wonder is origin, not a weather-proofing.
+Quantity stays low (Rarity 4). False Moon still moves them down-slope.
 
 Notes
-- Type is Wonder: first men’s work. Name the Founding people when that file exists. Not Unveiling-born.
-- Domain is Land. Do not tag Air.
-- Alpine and Polar are nest-country. Boreal is the high massif and the steep wood under it, then HSI. Kannavald: Ebon Spire, Svarthorn, and the hanging forest on those faces — not the Deepwood floor, not Underwood Shores.
-- A hunt-trail in steep wood is not a change of biome. The nest still wants Topography 4–5 and overhead cover.
-- A roaming widow is the exception to Human Density 0–2. HSI still applies; the bird is not nesting, it is passing.
+- Type is Wonder: first men’s work. Not Unveiling-born.
+- Domain is Land. Do not tag Air. No Flyer.
+- Alpine and Polar are nest-country. Boreal is the high massif and the steep wood under it. Not the Deepwood floor. Not Underwood Shores.
+- A roaming widow is the exception to Human Density 0–2. It is passing, not nesting.
 - Widow means the surviving bird, male or female.
-- Economy: Economy_Unveiling_Beasts.txt until that file is renamed. Not livestock. Possession without authority is a provocation.
-- Royal Gryphon is a separate file. One egg in a thousand — a rare throw of the same making, not a veil-hatch. Do not mix the two at the table.
+- Royal Gryphon is a separate file. One egg in a thousand. Do not mix them.
+- Entity: Entity_Gryphon.txt. Beak is the hole-punch. Fore-talon is the vise.

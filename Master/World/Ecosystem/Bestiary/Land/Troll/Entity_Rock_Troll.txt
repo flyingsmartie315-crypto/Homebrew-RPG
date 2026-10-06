@@ -1,4 +1,4 @@
-# Entities_Unnatural_Rock_Troll.txt
+# Entity_Rock_Troll.txt
 # GM sheet. One Entity. Not the bestiary essay.
 # Bestiary: Bestiary_Rock_Troll.txt
 #   Height 11–12 ft. Weight 1,200–2,050 kg.
@@ -38,6 +38,15 @@ is Size 7. The adult sheet uses 1,800 kg.
   Wounds 135   floor(TB × 3 × 5)
                27 × 5.
   Initiative  10 + 1d10
+
+
+Movement. Sheet reference. Not live.
+Agility and Fatigue do not rewrite this.
+  Half        10 yards
+  Full        20 yards
+  Charge      20 yards
+  Jump / Leap 14 yards running, 7 standing
+  Run         30 yards
 
 To-hit against a man (Size 4): +40.
 A man shooting this troll: +40 BS.
@@ -109,6 +118,12 @@ Law: Core_Traits.txt.
   Dweller (peak, crag, high ridge, cave)
     HSI index lives on the bestiary page.
     Freezing peak or hot crag, if there is shelter.
+  Bestial
+    No Aim, Called Shot, Disengage,
+    Ready, Reload, Cast, Feint,
+    Guarded Attack, Manoeuvre, or
+    Parrying Stance. The boulder is the
+    attack profile, not an Aim.
 
 --------------------------------------------------
 BEHAVIOUR PROFILE

@@ -5,7 +5,7 @@
 #   Warrior and chief: Entity_Mintrox_Warrior.txt
 # Traits: Core_Traits.txt
 # Injury: Injury_Tables_Bipedal.txt
-# Size law: Core_Characteristics_Skills.txt §3
+# Armour: Bestiary_Mintrox_Armour.txt. Chitin. Not Armour.txt.
 
 --------------------------------------------------
 MINTROX
@@ -14,8 +14,8 @@ MINTROX
 Size 3. Weedy. Injury: Bipedal.
 Bestiary mass 25–55 kg. This sheet is the
 common body, under 52 kg. Uses 35 kg.
-Slouch 3–5 ft. Spoken by men: goblin.
-Locked name: Mintrox.
+Slouch 3–5 ft. High roads: Mintrox.
+Where they are seen: bugmen.
 
   S  25    (35 − 10 Size)
   Per 40
@@ -33,6 +33,15 @@ Locked name: Mintrox.
   NAC 0
   Wounds 4     floor(TB × 3 × 0.75)
   Initiative  40 + 1d10
+
+
+Movement. Sheet reference. Not live.
+Agility and Fatigue do not rewrite this.
+  Half        6 yards
+  Full        12 yards
+  Charge      12 yards
+  Jump / Leap 5 yards running, 3 standing
+  Run         18 yards
 
 To-hit against a man (Size 4): −10.
 A man shooting this body: −10 BS.

@@ -5,7 +5,7 @@
 # Common pack: Entity_Mintrox.txt
 # Traits: Core_Traits.txt
 # Injury: Injury_Tables_Bipedal.txt
-# Size law: Core_Characteristics_Skills.txt §3
+# Armour: Bestiary_Mintrox_Armour.txt. Chitin. Not Armour.txt.
 
 --------------------------------------------------
 MINTROX, WARRIOR / CHIEF
@@ -16,7 +16,8 @@ Bestiary mass 25–55 kg. This sheet is the
 top of it, 52–55 kg. Uses 55 kg.
 Human band. The largest arm, or the liar
 who kept that arm beside him.
-Slouch to 5 ft. Spoken by men: goblin.
+Slouch to 5 ft. High roads: Mintrox.
+Where they are seen: bugmen.
 
   S  40
   Per 40
@@ -34,6 +35,15 @@ Slouch to 5 ft. Spoken by men: goblin.
   NAC 0
   Wounds 9     floor(TB × 3 × 1)
   Initiative  40 + 1d10
+
+
+Movement. Sheet reference. Not live.
+Agility and Fatigue do not rewrite this.
+  Half        8 yards
+  Full        16 yards
+  Charge      16 yards
+  Jump / Leap 8 yards running, 4 standing
+  Run         24 yards
 
 To-hit against a man: +0. Same Size.
 A man shooting this body: +0.

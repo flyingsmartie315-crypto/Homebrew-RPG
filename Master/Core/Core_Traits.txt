@@ -149,6 +149,52 @@ Another Entity in range may hear the
 keening: Awareness −10.
 
 --------------------------------------------------
+13. WALL-RUNNER
+--------------------------------------------------
+
+Arachnids, hunting insects, and the like.
+More than one purchase on the surface.
+Ground M is not halved by this Trait.
+A vertical face — stone, an old bole, a
+rift — and an inverted face — a cave
+ceiling, a dense branch canopy — are
+flat ground for Movement and Actions.
+Difficult ground does not penalise M
+and does not force a footing test.
+Loose scree, deep mud, heavy foliage.
+High-tensile silk, a catching web, and
+bark do not take an Athletics test to
+climb or to cross.
+Spider sheets carry this. Pale Lurker,
+Orb-Wright, Skitterling, Weber-Fisher.
+
+--------------------------------------------------
+14. BESTIAL
+--------------------------------------------------
+
+A tag. Not a modifier. The Entity does
+not use the complex list. Core_Combat.txt
+still has the Action. This Trait says
+the body does not take it.
+
+  Aim
+  Called Shot
+  Disengage
+  Ready
+  Reload
+  Cast / Channel
+  Feint
+  Guarded Attack
+  Manoeuvre
+  Parrying Stance
+
+A bite, a claw, a charge, a standard
+strike, and a dodge stay available if
+the sheet has them. A shield or a
+loaded sling is not this Trait.
+Mintrox do not carry it.
+
+--------------------------------------------------
 12. FEAR (X)
 --------------------------------------------------
 
@@ -158,3 +204,21 @@ A Willpower test when the Entity is
 first seen this scene. The rating is
 the penalty. Fail: Shock, +10 on the
 Shock roll per Degree of Failure.
+
+--------------------------------------------------
+15. FLUID BULK (X)
+--------------------------------------------------
+
+The mass is there. The outline is not
+a barn. (x) offsets the Size to-hit
+bonus against this body, the Size
+penalty when this body strikes a
+smaller target, and the Size stealth
+penalty on it.
+Core_Characteristics_Skills.txt §3.
+It does not change Size.
+It does not stack past the Size number.
+A Size 7 body is +30 to be hit, −30
+to strike a man, and −30 to hide.
+Fluid Bulk (20) leaves +10, −10,
+and −10. Floor 0.

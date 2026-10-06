@@ -1,0 +1,412 @@
+# Injury_Tables_Gryphon.txt
+# Earthbound gryphon. Not the royal. Not the cat.
+# Law: Core_Injury.txt
+# Entity: Entity_Gryphon.txt
+# Bestiary: Bestiary_Gryphon.txt
+# Predator rows are not this file.
+
+Roll 1d10 + Overflow − TB.
+Floor 1. 10 or more uses the 10+ row.
+1 is best. 10+ is worst.
+Use the column that matches the blow.
+
+Head and Body do not cap Wounds unless
+the row says so. A talon or a hind paw
+may cap.
+
+Down: cannot stand on three legs.
+Helpless: the beak is ruined, or both
+fore-palms are gone, or the spring
+(both hind thighs) is gone.
+
+Order: Head, Body, Fore, Hind.
+
+WALLACE (first d100)
+  01–14    Head              14%
+  15–48    Body              34%
+  49–66    Right Fore        18%
+  67–84    Left Fore         18%
+  85–92    Right Hind         8%
+  93–00    Left Hind          8%
+
+The fore is the mass. The hind is the spring.
+
+SLOTS (second d100)
+
+  Head
+    01–12    Eyes                         12%
+    13–32    Skull                        20%
+    33–62    Beak                         30%
+    63–82    Throat                       20%
+    86–00    Nape                         15%
+    83–85    Beak-seam                    (with Beak)
+
+  Body
+    01–25    Chest                        25%
+    26–45    Back / shoulder plumage      20%
+    46–65    Belly                        20%
+    66–85    Flank                        20%
+    86–00    Rump                         15%
+
+  Fore
+    01–15    Shoulder                     15%
+    16–35    Foreleg                      20%
+    36–60    Palm                         25%
+    61–85    Front talons                 25%
+    86–00    Hallux (thumb)               15%
+
+  Hind
+    01–15    Hip                          15%
+    16–40    Thigh                        25%
+    41–60    Hock                         20%
+    61–00    Hind paw                     40%
+
+
+##################################################
+# HEAD
+##################################################
+
+EYES
+  Side presented. From behind, Skull.
+CUT
+  1 Lid nick.
+  2 Lid split. −10 sight that side.
+  3 Canthus opened. Minor Bleed.
+  4 Globe grazed. −20 sight that side. Minor Bleed.
+  5 Cornea opened. Blind that side until Surgery.
+  6 Lid flayed. Eye shut. Major Bleed.
+  7 Globe sliced. Eye gone unless Surgery now.
+  8 Both lids and the globe. Blind that side. Major Bleed.
+  9 Socket opened. Blind that side. Major Bleed. Stunned.
+  10+ Socket ruined. Blind that side. Catastrophic Bleed.
+PIERCE
+  1 Prick on the lid.
+  2 Lid punctured. −10 sight until bound.
+  3 Into the orbit, globe spared. Minor Bleed.
+  4 Cornea pierced. Blind that side until Surgery.
+  5 Through the globe. Eye gone. Minor Bleed.
+  6 Into the socket. Blind that side. Major Bleed. Stunned.
+  7 Through into the skull case. Stunned. Major Bleed.
+  8 Both eyes if the point travels. Blind. Major Bleed.
+  9 Brain-side. Stunned. Major Bleed. Down.
+  10+ Through the case. Dead if Overflow remains.
+BLUNT
+  1 Bruised lid.
+  2 Swollen shut. −10 sight until it eases.
+  3 Orbit bruised. −20 sight. Stunned 1 Round.
+  4 Globe concussed. Blind that side 1d10 Rounds.
+  5 Detached. Eye gone. No Bleed.
+  6 Socket cracked. Blind that side. Stunned.
+  7 Both orbits. Blind. Stunned. Down.
+  8 Skull behind the eye starred. Stunned. Down.
+  9 Collapsed orbit. Blind that side. Helpless.
+  10+ Case broken through the eye. Dead if Overflow remains.
+
+SKULL
+CUT
+  1 Hide split. Dress it.
+  2 To the bone. −10 until bound. Minor Bleed.
+  3 Scalp flayed. Minor Bleed.
+  4 Bone scored. Stunned 1 Round.
+  5 Plate cracked. Stunned. Minor Bleed.
+  6 Flap to the case. Major Bleed. Stunned.
+  7 Case opened. Stunned. Major Bleed. Down.
+  8 Brain grazed. Helpless. Major Bleed.
+  9 Case ruined. Helpless. Catastrophic Bleed.
+  10+ Cloven. Dead.
+PIERCE
+  1 Hide prick.
+  2 To the bone. No Bleed.
+  3 Stuck in the plate. −10. Minor Bleed.
+  4 Plate cracked. Stunned.
+  5 Into the case. Stunned. Major Bleed. Down.
+  6 Brain-side. Helpless. Major Bleed.
+  7 Through. Helpless. Catastrophic Bleed.
+  8 Deep. Dead if Overflow remains.
+  9 Transfixed. Dead.
+  10+ Out the far side. Dead.
+BLUNT
+  1 Bruised crown.
+  2 Stunned 1 Round.
+  3 Plate starred. Stunned. −10 sight.
+  4 Concussed. Stunned 1d10. Down.
+  5 Depressed. Helpless. No Bleed.
+  6 Case cracked. Helpless. Minor Bleed.
+  7 Crushed vault. Dead if Overflow remains.
+  8 Driven in. Dead.
+  9 Neck-join with it. Dead.
+  10+ The head is not a head. Dead.
+
+BEAK
+  The hole-punch. A ruined beak does not
+  snap. AP on the bite is gone.
+CUT
+  1 Keratin scored.
+  2 Chip off the tomium. −10 bite tests.
+  3 Split in the horn. Minor Bleed at the quick.
+  4 Quick opened. −20 bite. Minor Bleed.
+  5 Deep split. Bite is Pierce only, no AP. Major Bleed.
+  6 Half the tip hanging. No beak attack. Major Bleed.
+  7 Both mandibles scored to bone. No bite. Major Bleed. Stunned.
+  8 One mandible off. No bite. Catastrophic Bleed. Down.
+  9 Both tips gone. No bite. Catastrophic Bleed. Helpless.
+  10+ Sheared at the seam. No bite. Dead if Overflow remains.
+PIERCE
+  1 Horn prick.
+  2 Into the keratin. Stuck. No Bleed.
+  3 Quick. −10 bite. Minor Bleed.
+  4 Through the horn into the mouth. Minor Bleed.
+  5 Nares opened. −20 Awareness on scent. Major Bleed.
+  6 Palate. No bite this fight. Major Bleed. Stunned.
+  7 Into the skull from the beak. Down. Major Bleed.
+  8 Mandible joint. No bite. Helpless.
+  9 Through the seam into the throat. Catastrophic Bleed.
+  10+ Up into the case. Dead.
+BLUNT
+  1 Horn bruised. The thud is off.
+  2 Tip starred. −10 bite.
+  3 Cracked keratin. −20 bite. No AP until bound.
+  4 Sprung joint. No snap this fight. Stunned.
+  5 Mandible cracked. No bite. Minor Bleed.
+  6 Both jaws sprung. No bite. Stunned. Down.
+  7 Joints ruined. No bite. Helpless.
+  8 Horn driven into the mouth. Major Bleed. Helpless.
+  9 Seam crushed. Catastrophic Bleed. Helpless.
+  10+ Skull through the beak. Dead.
+
+THROAT
+CUT
+  1 Nick. Dress it.
+  2 Skin split. Minor Bleed.
+  3 To the muscle. Minor Bleed. −10 roar-tests.
+  4 Vessel nicked. Major Bleed.
+  5 Windpipe grazed. −20. Major Bleed. Stunned.
+  6 Opened wind. Suffocation clock. Major Bleed.
+  7 Artery. Catastrophic Bleed. Down.
+  8 Wind and vessel. Catastrophic Bleed. Helpless.
+  9 Throat taken out. Dead in Rounds.
+  10+ Head off the column. Dead.
+PIERCE
+  1 Prick.
+  2 Muscle. Minor Bleed.
+  3 Beside the wind. −10. Minor Bleed.
+  4 Into the wind. Suffocation. Major Bleed.
+  5 Vessel. Major Bleed. Stunned.
+  6 Through the wind. Catastrophic Bleed. Down.
+  7 Spine-side. Helpless. Major Bleed.
+  8 Transfixed. Catastrophic Bleed. Helpless.
+  9 Cord. Dead if Overflow remains.
+  10+ Out the nape. Dead.
+BLUNT
+  1 Bruised.
+  2 Cough. −10 this Round.
+  3 Wind bruised. −20. Stunned.
+  4 Crushed wind, holds. Suffocation. Stunned.
+  5 Cartilage cracked. Suffocation. Down.
+  6 Collapsed wind. Helpless. Suffocation.
+  7 Spine bruised. Down. No Bleed.
+  8 Crushed column. Helpless. Catastrophic if a vessel went.
+  9 Neck broken. Dead.
+  10+ Column gone. Dead.
+
+NAPE
+  As Throat for the cord, Skin for the hide.
+  7+ is the spinal join. Down. 10+ Dead.
+
+
+##################################################
+# BODY
+##################################################
+
+CHEST
+CUT
+  1 Hide.
+  2 To the muscle. Minor Bleed.
+  3 Pectoral opened. −10 Athletics. Minor Bleed.
+  4 Deep. Major Bleed. −20 Charge.
+  5 Rib scored. Stunned. Major Bleed.
+  6 Into the cage. Down. Major Bleed.
+  7 Lung. Suffocation. Catastrophic Bleed. Helpless.
+  8 Heart-side. Dead if Overflow remains.
+  9 Cage opened. Dead.
+  10+ Cloven. Dead.
+PIERCE
+  1 Prick.
+  2 Muscle. Minor Bleed.
+  3 Between ribs. −10. Minor Bleed.
+  4 Into the cage. Stunned. Major Bleed.
+  5 Lung. Suffocation. Major Bleed. Down.
+  6 Deep lung. Helpless. Catastrophic Bleed.
+  7 Heart. Dead if Overflow remains.
+  8 Through. Dead.
+  9 Transfixed. Dead.
+  10+ Out the back. Dead.
+BLUNT
+  1 Bruised.
+  2 Winded. −10 this Round.
+  3 Rib cracked. −20 Charge. Stunned.
+  4 Ribs. No Charge. Stunned. Down.
+  5 Flail. Suffocation. Helpless.
+  6 Sternum. Helpless. Minor Bleed.
+  7 Heart bruised. Down. Dead if the next test fails.
+  8 Crushed cage. Dead.
+  9 Driven in. Dead.
+  10+ The chest is not a chest. Dead.
+
+BACK / SHOULDER PLUMAGE
+  Feathers are not armour. A hit here is
+  the leap. 5+ and the Charge is gone
+  until Heal. 8+ Down. The spring still
+  works. The standing clear of a cart does not.
+CUT 1–4 hide and quill. 5–7 muscle under the plumage, no leap, Major Bleed. 8–9 shoulder join, Down. 10+ into the spine, Dead.
+PIERCE 1–4 quill and muscle. 5–7 into the shoulder, no leap, Major Bleed. 8–9 joint. 10+ spine. Dead.
+BLUNT 1–3 bruised plumage. 4–6 shoulder stunned, no leap. 7–8 joint cracked, Down. 9–10+ spine. Dead.
+
+BELLY
+  The gap on the sheet. NAC does not
+  stack here if the blow was named belly.
+CUT
+  1–2 Hide. 3–4 wall opened. Minor Bleed. 5–6 gut. Major Bleed. Down. 7–8 viscera. Catastrophic Bleed. Helpless. 9–10+ opened. Dead.
+PIERCE
+  1–3 wall. 4–6 gut. Major Bleed. Down. 7–8 vessel. Catastrophic. 9–10+ through. Dead.
+BLUNT
+  1–3 bruised. 4–6 gut-shock. Stunned. Down. 7–8 rupture. Helpless. 9–10+ crushed. Dead.
+
+FLANK
+  As Belly, one step kinder. 10+ is still the cavity.
+
+RUMP
+  1–4 muscle. 5–7 hip-join from behind, no Run. 8–9 pelvis. Down. 10+ spine. Dead.
+
+
+##################################################
+# FORE
+##################################################
+
+SHOULDER
+  1–3 hide and muscle. −10 on that limb.
+  4–6 column bruised or cut. No cleat-drive. Major Bleed on Cut/Pierce.
+  7–8 joint. That fore does not bear. Down if the other is already gone.
+  9–10+ column broken. Helpless. Catastrophic Bleed on a Cut.
+
+FORELEG
+  The column.
+  1–3 scored. −10.
+  4–6 bone cracked. That foot does not palm. Major Bleed on Cut.
+  7–8 fracture. Down. The march is gone.
+  9–10+ column off. Helpless. Cap  the limb. Catastrophic Bleed on Cut.
+
+PALM
+  The load pad. A ruined palm does not march.
+CUT
+  1 Hide nick.
+  2 Pad split. −10 on stone.
+  3 Fat opened. Minor Bleed. −20 march.
+  4 To the tendon. No brake on a descent.
+  5 Pad flayed. No march. Minor Bleed.
+  6 Tendons. The talons do not lift clear. Major Bleed.
+  7 Pad off. No weight on it. Down. Major Bleed.
+  8 Bones of the palm. Helpless if both. Major Bleed.
+  9 Crushed and cut. That fore is gone. Cap.
+  10+ Off at the wrist. Cap. Catastrophic Bleed. Down.
+PIERCE
+  1 Prick in the pad.
+  2 Into the fat. −10.
+  3 To the bone. Minor Bleed.
+  4 Between the bones. No brake.
+  5 Through the pad. No march. Major Bleed.
+  6 Tendon. Talons stay down. Major Bleed.
+  7 Out the top. Down. Major Bleed.
+  8 Joint. That fore gone. Helpless if both.
+  9 Transfixed. Cap the use.
+  10+ Wrist. Cap. Catastrophic Bleed.
+BLUNT
+  1 Bruised pad.
+  2 Stone-bruise. −10 march.
+  3 Fat crushed. −20. The cleats still work.
+  4 Bones cracked. No march. Stunned.
+  5 Pad ruined. No weight. Down.
+  6 Wrist cracked. That fore is a post.
+  7 Crushed palm. Helpless if asked to stand.
+  8 Joints gone. Down.
+  9 Pulp. Cap. Minor Bleed.
+  10+ Sheared by the blow. Cap. Major Bleed.
+
+FRONT TALONS
+  Four digits. A ruined set does not lock.
+CUT
+  1 Horn nick.
+  2 One tip gone. Vise is −10.
+  3 Two tips. No cleat on stone.
+  4 Quick. Minor Bleed. −20 on the lock.
+  5 Tendon. They do not close. Major Bleed.
+  6 Two digits hanging. No vise. Major Bleed.
+  7 Three gone. No talon attack. Cap.
+  8 All four off. No vise. Major Bleed. Down.
+  9 Stumps to the palm. Cap. Catastrophic Bleed.
+  10+ Foot ruined with them. See Palm 10+.
+PIERCE
+  1–3 horn and quick. −10 lock.
+  4–6 tendon. They do not close. Major Bleed.
+  7–8 joints. No vise. Down.
+  9–10+ into the palm. Cap. See Palm.
+BLUNT
+  1–3 tips starred. −10.
+  4–6 cracked. No cleat. No lock.
+  7–8 crushed digits. No talon line. Stunned.
+  9–10+ pulp. Cap. Minor Bleed.
+
+HALLUX
+  The thumb. The brake and the rear of the vise.
+  1–3 bruised or nicked. Brake is −10.
+  4–6 tendon or crack. No brake. Vise is −20.
+  7–8 off or crushed. No vise. Major Bleed on Cut.
+  9–10+ into the palm. Cap. Down.
+
+
+##################################################
+# HIND
+##################################################
+
+HIP
+  1–4 muscle. −10 Run.
+  5–7 joint. No leap. Down if both.
+  8–9 pelvis. Helpless. Major Bleed on Cut/Pierce.
+  10+ socket ruined. Dead if Overflow remains.
+
+THIGH
+  The spring.
+  1–3 muscle. −10 Charge.
+  4–6 torn or pierced. No leap. Major Bleed.
+  7–8 bone. Down. No Charge.
+  9–10+ femur gone. Helpless. Catastrophic Bleed on Cut.
+
+HOCK
+  1–3 strained. −10.
+  4–6 sprung. No leap. Stunned.
+  7–8 broken. Down.
+  9–10+ sheared. Cap. Major Bleed. Helpless.
+
+HIND PAW
+  Digitigrade pad. Not the palm.
+CUT
+  1 Pad nick.
+  2 Split. −10 silent move.
+  3 To the tendon. Claws do not retract. Minor Bleed.
+  4 Two toes. No rake. −20 launch.
+  5 Pad flayed. No leap. Major Bleed.
+  6 Tendons. Foot drags. Down. Major Bleed.
+  7 Toes off. No launch. Cap.
+  8 Pad off. Down. Major Bleed.
+  9 Hock with it. Helpless.
+  10+ Off. Cap. Catastrophic Bleed.
+PIERCE
+  1–3 pad. −10.
+  4–6 between the toes. No retract. Major Bleed.
+  7–8 through. No leap. Down.
+  9–10+ into the hock. Cap.
+BLUNT
+  1–3 bruised pad. The landing is loud.
+  4–6 cracked toes. No leap.
+  7–8 crushed. Down. No Bleed.
+  9–10+ pulp. Cap. Minor Bleed.

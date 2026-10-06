@@ -170,22 +170,6 @@ Stand / Mount (Half)
 Standard Attack (Half) — Attack Action
   One melee (WS) or ranged (BS) attack.
 
-Net and bolas
-  A Cast net, Spider-silk net, or Bolas
-  that has already held is a thing on the
-  body. Weaponry.txt.
-  An Entity who is not the one held may
-  attack that net or bolas. The attack
-  hits. Do not roll to hit. Roll damage.
-  Cut only. Pierce and Blunt do not wear
-  it. Compare to the net’s AC. Overflow
-  is hitpoints on the net, not Wounds on
-  the body.
-  The Entity who is held and cutting
-  free rolls to hit at −20. That is the
-  only to-hit roll. A miss does not cut.
-  A hit then rolls damage as above.
-
 Swift Attack (Full) — Attack Action
   Strikes equal to the Attacks stat.
   Attacks 1: one strike and the Turn is gone.

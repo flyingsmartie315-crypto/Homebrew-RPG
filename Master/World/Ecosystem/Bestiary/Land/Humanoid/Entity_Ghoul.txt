@@ -1,0 +1,163 @@
+# Entity_Ghoul.txt
+# GM sheet. One Entity. Not the bestiary essay.
+# Bestiary: Bestiary_Ghoul.txt
+#   Hunched 1.3–1.5 m. Weight 55–85 kg.
+# Traits: Core_Traits.txt
+# Injury: Injury_Tables_Predator.txt
+#   Four-limbed gait. Forced upright is not the table.
+# Size law: Core_Characteristics_Skills.txt §3
+# Pathogens: Cruor-Stain, Mort-Vapor.
+#   Pathogens_Poisons_Curses.txt
+
+--------------------------------------------------
+GHOUL
+--------------------------------------------------
+
+Size 4. Average. Injury: Predator.
+Bestiary mass 55–85 kg. Sheet uses 70 kg.
+Hunched 1.3–1.5 m. Longer if forced to stand.
+That stretch does not change Size.
+Locked name: Ghoul.
+
+  S  40
+  Per 35
+  T  35
+  Fel 5
+  Int 8
+  Ag  35
+  WP  20
+  WS  35
+  BS  5
+  Attacks 1
+
+  SB 4     TB 3
+  M  3.5   Agility 35 ÷ 10. Size +0.
+  NAC 1    tight skin. Not TB.
+  Wounds 9     floor(TB × 3 × 1)
+  Initiative  35 + 1d10
+
+
+Movement. Sheet reference. Not live.
+Agility and Fatigue do not rewrite this.
+  Half        7 yards
+  Full        14 yards
+  Charge      14 yards
+  Jump / Leap 7 yards running, 4 standing
+  Run         21 yards
+
+To-hit against a man: +0. Same Size.
+A nest is numbers, not a larger body.
+
+--------------------------------------------------
+NATURAL ARMOUR
+--------------------------------------------------
+
+  Tight hide (1/0/1)
+  NAC is already 1. Do not add it twice.
+  No worn kit.
+
+--------------------------------------------------
+SKILLS
+--------------------------------------------------
+
+(X) is known, at the skill base.
+
+  Athletics (X)      37
+    Mean of Strength 40 and Agility 35.
+  Awareness (X)      35
+  Concealment (X)    35
+    The dark and the hole do the rest.
+  Silent Move (X)    35
+
+Anything else is unknown. Half the base.
+No Parry. No speech.
+
+--------------------------------------------------
+ATTACK PROFILE
+--------------------------------------------------
+
+  Jaws                    Natural
+    (0/1/0)  Reach 0.5   Pierce
+    1d10 + SB. No Parry. No Disarm.
+    The jaw unhinges for the take.
+    A Wound past Protection is Cruor-Stain.
+    Spoken: croored. The Croor-Taint.
+    Most bitten men die as men.
+    An unburned body that died with
+    the stain can quicken. 2d10 days.
+  Claws                   Natural
+    (1/0/0)  Reach 0.5   Cut, Snare (0)
+    1d10 + SB. No Parry. No Disarm
+    unless the limb is off.
+    A Wound past Protection is Cruor-Stain.
+    Snare is the dogpile. A standing hit
+    holds. Opposed Agility at 0 to act
+    or move. Opposed Strength at 0 each
+    Round to break. Held: no Charge or
+    Run, −20 on other tests. A second
+    ghoul on a held man is the pile.
+
+--------------------------------------------------
+TRAITS
+--------------------------------------------------
+
+Law: Core_Traits.txt.
+
+  Dweller (crypt, forgotten cellar, ditch, old field)
+  Dog-gaited
+    Four limbs. Tight scrapes are not
+    difficult ground. Forced upright
+    is not this gait.
+  Night Vision
+    Stars and a crypt lamp. A sealed
+    black hole is not this Talent.
+  Fear (1)
+    The wet-rot and the jaw. Not the
+    sheet-white. Core_Fear.txt.
+  Bestial
+    No Aim, Called Shot, Disengage,
+    Ready, Reload, Cast, Feint,
+    Guarded Attack, Manoeuvre, or
+    Parrying Stance.
+
+--------------------------------------------------
+BEHAVIOUR PROFILE
+--------------------------------------------------
+
+Nest, not range. Crypt, plague-pit, cellar,
+last year’s field. It does not hold a forest.
+Light and a press of the living drive it under.
+
+Hungry: human meat, fresh or dead. A corpse
+comes out of the ground faster than a sexton
+puts one in. A living walker is prey if he is
+alone, drunk, or already down. It will not
+charge a prepared line for preference.
+A detail that is not looking is swamped.
+
+Pack: one keeps the best of the meat. No crown.
+They breed in the nest. That is how a stretch fills.
+Intelligence 8. Cunning enough to dig and to wait.
+Not enough to parley. Fellowship 5.
+
+The air of a live nest is Mort-Vapor.
+Scholars say Vapor Mortiferus.
+
+False Moon: bolder on the surface, faster at a
+fresh grave. Not a march down the high street
+in daylight.
+
+Hurt: it breaks for the hole. Under half its
+Wounds it does not stand. Leave the body in
+the dark and the hole stays live. Burn it.
+
+--------------------------------------------------
+RUN
+--------------------------------------------------
+
+It closes on four limbs. One attack. Jaws or
+claws, not both, unless Attacks rises.
+It does not parry. It may Dodge on Agility 35.
+A blow that empties 9 drops it.
+Burn it, or the bestiary rule stands.
+Harm 3 for one. Collective 6 for the nest.

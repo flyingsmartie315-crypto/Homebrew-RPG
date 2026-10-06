@@ -655,6 +655,160 @@ Recovery
                Visible Scarring.
                Core_Talents_Failings_Afflictions.txt.
 
+--------------------------------------------------
+Orb-Venom ("The Drop")
+Kind:        Venom
+Virulence:   −20
+--------------------------------------------------
+
+Origin
+  The fangs of a mature Orb-wright
+  (Size 3 or 4). Bestiary_Orb_Wright.txt.
+  Entity_Orb_Wright.txt. Spoken: the drop.
+
+Transmission
+  Proximity:   the blow
+  Mechanism:   venom strike. Pierce.
+               The attack lands, passes
+               worn AC, and deals at least
+               1 Wound after Protection.
+               Armour that stopped the
+               Wound stopped the venom.
+  Contagious:  no
+  Contraction: hidden Toughness −20 at
+               the end of the Round the
+               puncture occurred.
+
+Symptoms
+  Onset:       immediate. The start of
+               the target’s next Turn.
+  Causes:      flaccid collapse. The
+               limbs go slack.
+  Phase 1 — The Slack Hinge
+    Rounds 1–3, counted from Onset.
+    Stunned. Drops whatever is in
+    the hands. Weapons and shields.
+    Melee against the target is +20 WS.
+    Ranged against the target is +20 BS.
+    No Full Action. No Half Action.
+    No Dodge. No Parry.
+  Phase 2 — The Hanging Bundle
+    Round 4 onward.
+    Prone if they were standing.
+    Helpless. Melee against them
+    succeeds. Do not roll to hit.
+    The Respiratory Clock
+      Each Round in Phase 2:
+      Toughness −20.
+      Fail: the diaphragm slackens.
+      Suffocation as if the Breath
+      Window were already spent.
+      Hazards.txt.
+  Ongoing:     the Round clock above.
+               A second bite does not
+               open a second copy.
+
+Recovery
+  Timeframe:   in the wood, untreated,
+               she wraps within minutes.
+               That is the bestiary, not
+               a second attack.
+               If she is dead, or the
+               body is off the silk:
+               the slack fades after
+               1d5 hours of bed rest.
+  Cures:       Heal *, known. A Full
+               Action. Strong spirits or
+               a northern alkali-wash
+               into the puncture.
+               Win: Phase 2 stops. The
+               Helpless lifts to Stunned
+               (Phase 1). They can breathe.
+               Fail: the clock continues.
+  Linger:      none. Control comes back.
+               No scar from the venom.
+               The bite Wound is still
+               a Wound.
+
+--------------------------------------------------
+Skitter-Toxin (Cellar-Cramp)
+Kind:        Venom
+Virulence:   by Dose. Floor −30.
+             1st puncture   +20
+             2nd            +10
+             3rd            +0
+             4th            −10
+             5th and after  −20, then −30
+--------------------------------------------------
+
+Origin
+  Ruin-nests, old-fort kilns, unmanaged
+  cellars, infested tower stairs.
+  Bestiary_Skitterling.txt.
+  Entity_Skitterling.txt.
+  Spoken: cellar-cramp.
+
+Transmission
+  Proximity:   the blow
+  Mechanism:   venom strike. Pierce.
+               The attack lands, passes
+               worn AC, and deals at least
+               1 Wound after Protection.
+               Armour that stopped the
+               Wound stopped this Dose.
+  Contagious:  no
+  Contraction: hidden Toughness at the
+               end of the Round the
+               puncture occurred. The
+               modifier is the Dose of
+               clean bites that have
+               landed this scene, counting
+               the one just landed.
+               Fail: that Dose sticks.
+               Win: that bite did not
+               add a Dose.
+
+Symptoms
+  Onset:       immediate. The start of
+               the target’s next Turn
+               after a failed test.
+  Causes:      cramp. The muscle jumps,
+               then locks.
+  Dose 1
+    One failed test. Local twitch.
+    −5 Agility and Weapon Skill.
+    Movement and the skill bases follow.
+    No Action restriction.
+  Dose 2
+    Two failed tests. The bitten limb
+    locks. That hand drops the weapon
+    or the shield.
+    −10 Strength, Agility, and
+    Weapon Skill.
+  Dose 3+
+    Three or more failed tests.
+    The body locks. Stunned. Prone.
+    Every 3 Rounds while Stunned by
+    this venom: Toughness +0.
+    Fail: +1 Fatigue. Muscle burnout.
+    Not a Wound.
+  Ongoing:     the Dose clock. A new
+               clean bite can raise it.
+
+Recovery
+  Timeframe:   the space cleared: the
+               cramp eases in 1d10+5
+               minutes. The body burns
+               the small dose off.
+  Cures:       Heal *, ordinary (+0).
+               Hot oil and a firm massage
+               down the track. A Full
+               Action. Win: remove 1 Dose.
+               The penalties step down.
+  Linger:      none. No scar from the
+               venom. The bite Wound is
+               still a Wound.
+
 Common Respiratory Ailments
   Lesser air-sickness. Not Great-Lung.
   They tax senses, voice, and the Tired

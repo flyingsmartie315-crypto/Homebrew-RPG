@@ -1,0 +1,198 @@
+# Entity_Format.txt
+# Quick format for a new entity sheet.
+# One body. Not the bestiary essay.
+# Law lives in the Core files. This file is the shape.
+
+--------------------------------------------------
+0. NAME
+--------------------------------------------------
+
+File: Entity_(Locked name).txt
+  Entity_Ghoul.txt
+  Entity_Rock_Troll.txt
+  Entity_Pale_Lurker.txt
+Do not use Entities_Unnatural_.
+One sheet is one body. A second size is a
+second file, or a note under the mass line.
+Point the bestiary at this file. Point this
+file at the bestiary.
+
+Header, in this order:
+  # Entity_(Name).txt
+  # GM sheet. One line on which body.
+  # Bestiary: Bestiary_(Name).txt
+  #   Height. Weight band. Sheet uses X kg.
+  # Traits: Core_Traits.txt
+  # Injury: Injury_Tables_(table).txt
+  #   Why this table, if it is not obvious.
+  # Size law: Core_Characteristics_Skills.txt §3
+  # Pathogens, venom, armour: only if it has them.
+
+--------------------------------------------------
+1. TITLE BLOCK
+--------------------------------------------------
+
+--------------------------------------------------
+NAME
+--------------------------------------------------
+
+Size N. Category. Injury: table.
+Bestiary mass. Sheet uses one number in that band.
+Height or span. What does not change Size.
+Locked name. Spoken name, if it differs.
+
+--------------------------------------------------
+2. CHARACTERISTICS
+--------------------------------------------------
+
+Nine, then Attacks. Then the derived line.
+
+  S  Per  T  Fel  Int  Ag  WP  WS  BS
+  Attacks
+
+  SB   TB
+  M    show the sum. Agility ÷ 10, then Size.
+  NAC
+  Wounds    floor(TB × 3 × Size modifier)
+  Initiative    Agility + 1d10
+
+Size add to S and T, from the size table:
+  1 −30   2 −20   3 −10   4 +0
+  5 +10   6 +20   7 +30   8 +40
+  9 +50   10 +60
+Write the sum and the parts.
+  S  60    (40 + 20 Size)
+
+Wound modifier after TB × 3:
+  1 ×0.25   2 ×0.50   3 ×0.75   4 ×1
+  5 ×1.25   6 ×1.5    7 ×2.5    8 ×5
+  9 ×7.5    10 ×10
+Floor it.
+
+M = (Agility ÷ 10) + Size adjustment.
+Keep one decimal. Size adjustment is
+AB − 3 up to AB + 6. Do not drop to AgB.
+
+To-hit against a man (Size 4):
+  difference in Size, tens.
+  Larger striking smaller is a penalty.
+  Smaller striking larger is a bonus.
+  Fluid Bulk (x) offsets both, and stealth.
+  Floor 0. It does not change Size.
+
+--------------------------------------------------
+3. MOVEMENT
+--------------------------------------------------
+
+Sheet reference. Not live.
+Agility and Fatigue do not rewrite this.
+
+  Half        floor(M × 2)     Move, Half Action
+  Full        floor(M × 4)     two Moves
+  Charge      floor(M × 4)
+  Jump / Leap floor(M + SB) running
+              half that, round up, standing
+  Run         floor(M × 6)
+
+Quadruped doubles the ground columns.
+Say so on the line. Leap uses that doubled M.
+Difficult ground is not on this block.
+
+--------------------------------------------------
+4. NATURAL ARMOUR
+--------------------------------------------------
+
+  Name (Cut/Pierce/Blunt)
+  Slots. Name the gaps.
+  NAC is already N. Do not add it twice.
+Skip the block if it has no hide.
+Worn kit points at its armour file.
+Do not paste Armour.txt into the sheet.
+
+--------------------------------------------------
+5. SKILLS
+--------------------------------------------------
+
+(X) is known, at the skill base.
+(10) is a bonus on top of known.
+Unknown is half the base. Do not list those.
+
+  Athletics (X)      number
+    Mean of the characteristics it uses.
+
+Base is the mean of the characteristics
+the skill draws on, then the training step.
+Known is the base. (10) is base + 10.
+
+No Parry unless the sheet has Parry *
+or a shield that grants the test.
+Say which.
+
+--------------------------------------------------
+6. ATTACK PROFILE
+--------------------------------------------------
+
+Write it like Weaponry.txt.
+
+  Name                    Natural / group
+    (Cut/Pierce/Blunt)  Reach     qualities
+    1d10 + SB, unless the line says otherwise.
+    No Parry. No Disarm, unless a limb is off.
+
+Qualities use (x). Snare (0). Entangle (10).
+AP (2). Impact. Fast (10).
+A venom names the Agent and the file.
+A Wound past Protection is the door,
+unless the Agent says otherwise.
+Bestial bodies do not Aim or Called Shot.
+
+--------------------------------------------------
+7. TRAITS
+--------------------------------------------------
+
+Law: Core_Traits.txt.
+Name and (x). One line on what it does
+on this body. Do not paste the trait essay.
+
+Common:
+  Dweller (biome tags)
+  Bestial          no complex list
+  Wall-Runner      spiders
+  Dog-gaited       four-limb scrapes
+  Quadruped        doubles ground yards
+  Fluid Bulk (x)   offsets Size hit and hide
+  Fear (x)         1–4. Core_Fear.txt
+  Night Vision     stars. Not a black cave.
+  Dark-Sight       no light at all
+  Flyer            only if it flies
+  Regeneration (x)
+
+--------------------------------------------------
+8. BEHAVIOUR PROFILE
+--------------------------------------------------
+
+How it acts. Not the bestiary essay.
+Hungry. Pack or solitary. What it will
+not do. Hurt: when it breaks.
+False Moon, if it changes anything.
+Harm and Collective, from the bestiary.
+
+--------------------------------------------------
+9. RUN
+--------------------------------------------------
+
+The turn. Attacks. Parry or not. Dodge on
+what. The blow that empties the Wounds.
+One line on the finish: burn, throat, nest.
+
+--------------------------------------------------
+10. DO NOT
+--------------------------------------------------
+
+Do not put the HSI table on the sheet.
+Do not put coin on the sheet.
+Do not give flight to an earthbound body.
+Do not give Parry to a Bestial body.
+Do not give a man-market price to kit
+that does not fit a man.
+Do not leave Entities_Unnatural_ as the name.

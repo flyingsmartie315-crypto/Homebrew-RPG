@@ -1,0 +1,172 @@
+# Entity_Orb_Wright.txt
+# GM sheet. The female on the orb. Not the essay.
+# Bestiary: Bestiary_Orb_Wright.txt
+#   Female span 7–10 ft. Weight 40–90 kg.
+#   This sheet is the female, 90 kg. Size 4.
+#   A lighter female, 40–51 kg, is Size 3.
+#   Strength and Toughness −10. Wounds ×0.75.
+#   A male is 15–30 kg. Size 2 if under 25 kg,
+#   Size 3 if 25–30. He does not sit this web.
+# Traits: Core_Traits.txt
+# Injury: Injury_Tables_Spider.txt
+# Size law: Core_Characteristics_Skills.txt §3
+
+--------------------------------------------------
+ORB-WRIGHT
+--------------------------------------------------
+
+Size 4. Average. Injury: Spider.
+Bestiary mass 40–90 kg. Sheet uses 90 kg.
+Span 7–10 ft. She sits the hub.
+Spoken: the circle, the hanging-oak.
+Locked name: Orb-wright.
+
+  S  45
+  Per 40
+  T  40
+  Fel 5
+  Int 5
+  Ag  45
+  WP  25
+  WS  40
+  BS  10
+  Attacks 1
+
+  SB 4     TB 4
+  M  4.5   Agility 45 ÷ 10. Size +0.
+  NAC 1
+  Wounds 12    floor(TB × 3 × 1)
+  Initiative  45 + 1d10
+
+
+Movement. Sheet reference. Not live.
+Agility and Fatigue do not rewrite this.
+  Half        9 yards
+  Full        18 yards
+  Charge      18 yards
+  Jump / Leap 8 yards running, 5 standing
+  Run         27 yards
+
+To-hit against a man: +0. Same Size.
+On the silk she is not in the open.
+Bright open ground, off the orb: −10 WS.
+The hub and the bole do not take that.
+
+--------------------------------------------------
+NATURAL ARMOUR
+--------------------------------------------------
+
+  Carapace (2/1/2)
+  Slots: the body. Eyes and the mouth
+  are the gaps. Uniform 100% elsewhere.
+  NAC is already 1. Do not add it twice.
+
+--------------------------------------------------
+SKILLS
+--------------------------------------------------
+
+(X) is known, at the skill base.
+
+  Athletics (X)      45
+  Awareness (X)      40
+    The silk. A kick on the line.
+  Concealment (10)   55
+    Flush to the trunk above the hub.
+  Silent Move (X)    45
+    On the line. Not on a road.
+
+Anything else is unknown. Half the base.
+No Parry. No Disarm unless a leg is off.
+
+--------------------------------------------------
+ATTACK PROFILE
+--------------------------------------------------
+
+  Bite                    Natural
+    (0/1/0)  Reach 1     Pierce
+    1d10 + SB. No Parry. No Disarm
+    unless the leg is off.
+    Venom. Orb-Venom ("The Drop").
+    Pathogens_Poisons_Curses.txt.
+    A Wound past Protection starts it.
+    Fail: Slack Hinge on their next Turn.
+    Round 4 is the Hanging Bundle.
+  The orb                 The ground
+    Thirty to forty feet. Walking the
+    big silk starts the fight.
+    Entangle (10). Agility at −10 to
+    act or move. Strength at −10 each
+    Round to break. A blade in hand
+    is +10 on that break.
+    She drops or runs the line. She
+    does not burst from the earth.
+
+--------------------------------------------------
+TRAITS
+--------------------------------------------------
+
+Law: Core_Traits.txt.
+
+  Dweller (closed wood, ride, ravine, ancient bole)
+    HSI on the bestiary page. Not every copse.
+  Wall-Runner
+    The line, the bole, and the canopy
+    are flat ground.
+  Dark-Sight
+  Bestial
+    No Aim, Called Shot, Disengage,
+    Ready, Reload, Cast, Feint,
+    Guarded Attack, Manoeuvre, or
+    Parrying Stance.
+  Fear (1)
+    The hung bundle, still breathing.
+    Core_Fear.txt.
+
+--------------------------------------------------
+BEHAVIOUR PROFILE
+--------------------------------------------------
+
+One orb. One female. The burrow is den
+and sac-house, behind the web, not a
+second monster. She sits the hub or the
+bark above it. The silk kicks. She drops
+or runs the line.
+
+Prey is moth, bat, hare, roe, the odd
+young boar, and the walker on the night
+path. A full deer is a good year. She
+wraps the living and hangs the bundle.
+
+The male does not sit this sheet. He
+wanders. Canopy lines and small snares.
+A tangle with no forty-foot orb is him,
+or last year’s ruin. He dies on her silk
+as easily as a man.
+
+Destroy the orb and she goes to the
+burrow or climbs. She will not stand a
+prepared line in the open. If the boles
+still stand she throws another span in
+days.
+
+False Moon puts a faint light in the
+great web and hunger in the sit.
+
+Hurt: she leaves the open. Under half
+her Wounds she takes the burrow. Harm 5.
+Not a pack. A stretch can hold more than
+one orb. That is Collective 4, not this
+body.
+
+--------------------------------------------------
+RUN
+--------------------------------------------------
+
+The silk is the fight. Cutting it or
+walking it starts her.
+She Bites once the body is held or in
+reach 1. She does not Parry.
+A blow that empties 12 drops her.
+Open ground, off the orb: she climbs
+or she holes. She does not charge
+out of the burrow.

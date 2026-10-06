@@ -1,0 +1,112 @@
+# Bestiary_Mintrox_Armour.txt
+# Catalogue for Size 3 Mintrox kit.
+# Primary material: bug chitin. Flexible organic shell.
+# Law:
+#   Armour_Rules.txt      layers and slots
+#   Durability.txt        hitpoints, moisture, wear
+#   Bestiary_Mintrox.txt  Size 3 chassis and loadouts
+#   Entity_Mintrox.txt    common body
+#
+# Lists only. Worn on a Mintrox body. A man does not fit it.
+# Absolute stats. No iron grade. No material multiplier.
+
+--------------------------------------------------
+0. MATERIAL — BUG CHITIN
+--------------------------------------------------
+
+  AC base           4/3/2   Cut / Pierce / Blunt
+  Moisture          Skips rain and water-rot.
+                    A dry day in arid or steppe
+                    heat, with no grease: Penalty 30.
+                    The shell cracks. Durability.txt
+                    moisture roll, that penalty.
+  Brittle shell     A Blunt blow that exceeds this
+                    piece’s current hitpoints by 10
+                    or more: Fractured. −2 AC on
+                    every column, permanent.
+  Human market      None. No sc. A tinker will not
+                    buy it. It does not fit a man.
+  Enc               Sized for 25–51 kg. Not the
+                    man-plate Enc.
+
+Hitpoints, first pass. Not in Durability.txt yet.
+  Vertex-shell          12
+  Great-vertex          16
+  Scrap-plate           14
+  Full-harness          20
+  Forearm bracer         8
+  Tibia greave           8
+  Groin flap             6
+Craft Apprentice ×0.25 if the piece is scrap-tied.
+A chief harness may be listed at full.
+
+--------------------------------------------------
+1. HEAD
+--------------------------------------------------
+
+Mintrox Vertex-Shell
+  AC: 4/3/2
+  Slots: Skull / Occipital 75%
+  Base cost: —
+  Base Enc: 4
+  Note: Modular Segmented. Light cap off an
+        oversized crawler. Apprentice. 0.4 kg.
+
+Warrior Great-Vertex
+  AC: 5/4/3
+  Slots: Skull / Occipital,
+         Lower face / Back of neck 50%
+  Base cost: —
+  Base Enc: 8
+  Note: Modular Segmented. Mature spider or
+        earth-eater carapace. Chief. 0.8 kg.
+
+--------------------------------------------------
+2. TORSO
+--------------------------------------------------
+
+Chitin Scrap-Plate
+  AC: 4/3/2
+  Slots: Chest / Upper Back 50%,
+         Abdomen / Lower Back 50%
+  Base cost: —
+  Base Enc: 10
+  Note: Modular Segmented. Front only.
+        Gut-string. Shoulders free for the
+        throw. 1 kg.
+
+Warrior Full-Harness
+  AC: 5/4/3
+  Slots: Chest / Upper Back 75%,
+         Abdomen / Lower Back 75%,
+         Collarbone / Base of Neck 75%
+  Base cost: —
+  Base Enc: 18
+  Note: Modular Segmented. Overlapping
+        plates. Chief. 1.8 kg.
+
+Form — Hem (torso only)
+  None            +0 Enc
+  Groin Flap      +4 Enc
+                  Groin / Pelvis 75%
+                  Soft underbelly. Not a Slot
+                  fight with the legs.
+
+--------------------------------------------------
+3. LIMBS
+--------------------------------------------------
+
+Chitin Forearm Bracer
+  AC: 4/3/2
+  Slots: L Forearm 75% or R Forearm 75%
+  Base cost: —
+  Base Enc: 3
+  Note: Modular Segmented. One side. 0.3 kg.
+
+Chitin Tibia Greave
+  AC: 4/3/2
+  Slots: L Shin / Calf 75% or R Shin / Calf 75%
+  Base cost: —
+  Base Enc: 3
+  Note: Modular Segmented. Short bowed leg.
+        One side. 0.3 kg.

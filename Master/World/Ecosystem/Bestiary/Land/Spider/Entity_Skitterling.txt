@@ -1,0 +1,146 @@
+# Entity_Skitterling.txt
+# GM sheet. One in a corner. Not the nest.
+# Bestiary: Bestiary_Skitterling.txt
+#   Span 2–4 ft. Weight 3–8 kg. Sheet uses 6 kg.
+# Traits: Core_Traits.txt
+# Injury: Injury_Tables_Spider.txt
+# Venom: Skitter-Toxin. Pathogens_Poisons_Curses.txt
+# Size law: Core_Characteristics_Skills.txt §3
+
+--------------------------------------------------
+SKITTERLING
+--------------------------------------------------
+
+Size 2. Puny. Injury: Spider.
+Bestiary mass 3–8 kg. Sheet uses 6 kg.
+Span 2–4 ft. Do not write 7 ft.
+Locked name: Skitterling.
+
+  S  30    (50 − 20 Size)
+  Per 40
+  T  25    (45 − 20 Size)
+  Fel 5
+  Int 5
+  Ag  50
+  WP  15
+  WS  35
+  BS  5
+  Attacks 1
+
+  SB 3     TB 2
+  M  3     Agility 50 ÷ 10, then Size −2
+  NAC 0
+  Wounds 3     floor(TB × 3 × 0.5)
+  Initiative  50 + 1d10
+
+
+Movement. Sheet reference. Not live.
+Agility and Fatigue do not rewrite this.
+  Half        6 yards
+  Full        12 yards
+  Charge      12 yards
+  Jump / Leap 6 yards running, 3 standing
+  Run         18 yards
+
+A man striking this body: −20.
+This body striking a man: +20.
+Same Size: +0.
+A nest is numbers, not a larger body.
+
+--------------------------------------------------
+NATURAL ARMOUR
+--------------------------------------------------
+
+  Dust hide (1/0/1)
+  NAC is 0. The 1/0/1 is the hide.
+  Eyes and the mouth are the gaps.
+
+--------------------------------------------------
+SKILLS
+--------------------------------------------------
+
+(X) is known, at the skill base.
+
+  Athletics (X)      40
+  Awareness (X)      40
+    The line. A boot on the silk.
+  Concealment (20)   70
+    Dust-coloured, high corner.
+  Silent Move (X)    50
+
+Anything else is unknown. Half the base.
+No Parry. No Disarm unless a leg is off.
+
+--------------------------------------------------
+ATTACK PROFILE
+--------------------------------------------------
+
+  Bite                    Natural
+    (0/1/0)  Reach 0.5   Pierce
+    1d10 + SB. No Parry. No Disarm
+    unless the leg is off.
+    Venom. Skitter-Toxin (Cellar-Cramp).
+    A Wound past Protection is a Dose.
+  Trip-silk               The ground
+    Knee-high. A jamb, a stair, a drain.
+    Walking it starts the fight.
+    Entangle (0). Agility at 0 to act
+    or move. Strength at 0 each Round
+    to break. A blade in hand is +10
+    on that break. No −20. The hands
+    are the problem only if Dose 2
+    locks the limb.
+
+--------------------------------------------------
+TRAITS
+--------------------------------------------------
+
+Law: Core_Traits.txt.
+
+  Dweller (ruin, cellar, sewer, tower-stair, town edge)
+    Human Density is the gate. HSI on
+    the bestiary page.
+  Wall-Runner
+  Dark-Sight
+  Bestial
+    No Aim, Called Shot, Disengage,
+    Ready, Reload, Cast, Feint,
+    Guarded Attack, Manoeuvre, or
+    Parrying Stance.
+  Fear (1)
+    One in the corner. The nest is
+    the worse nerve. Core_Fear.txt.
+
+--------------------------------------------------
+BEHAVIOUR PROFILE
+--------------------------------------------------
+
+One to a room, until the ruin is empty
+long enough to stack. Prey is rat,
+beetle, pigeon, the reaching hand.
+They follow warmth and slops. A cold
+alpine hole without rats is not this
+sheet. That hole is the Pale Lurker.
+
+They sit the corner or the knee-high
+line. They do not stand a door-fight.
+Light and a ready blade end one.
+Fire ends the stretch. False Moon
+makes them bolder on the stair. It
+does not string an orb across a street.
+
+Hurt: it bolts for the crack. Under
+half its Wounds it does not stand.
+Harm 3 for one. Collective 5 for
+the nest.
+
+--------------------------------------------------
+RUN
+--------------------------------------------------
+
+The line is the fight. One bite if
+the body is held or in reach 0.5.
+It does not Parry. It may Dodge on
+Agility 50.
+A blow that empties 3 drops it.
+Burn the nest, or the lines stay.

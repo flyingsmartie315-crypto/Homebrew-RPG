@@ -75,7 +75,7 @@ Fur-lined mantle
   Slots: Chest / Upper Back —, Shoulder —
   Base cost: 30 sc
   Base Enc: 12
-  Note: +20 T vs cold. No soak.
+  Note: +20 T vs cold; −5 Fel in heat. No soak.
 
 Leather jerkin
   AC: 0/0/0
@@ -110,8 +110,11 @@ Winingas
   Note: woollen wraps. +5 Toughness vs cold
         or wet. No soak. Dress layer.
 
+Good / Best clothing: +5 / +10 Fellowship, or +10
+Concealment, not AC.
+
 People of Virath wear what the climate and the hall
-demand.
+demand. Do not use Calradian culture lists.
 
 --------------------------------------------------
 7. TEXTILE
@@ -389,21 +392,17 @@ Join (Mail only)
   Butted is a worse join, not a metal grade.
 
   Join        AC        Cost         Enc
-  Riveted     4/4/4     listed       listed
-  Butted      2/2/2     listed ×0.6  listed ×1.2
+  Riveted     6/4/0     listed       listed
+  Butted      4/2/0     listed ×0.6  listed ×1.2
 
   Cost may be listed as sc.bc. Do not round Enc.
   Listed figures are Riveted, Low-carbon.
-  Riveted takes any Iron Grade (section 9),
-  including Hardened, Crucible, and Zenith.
-  Apply Grade % to the listed cost and Enc,
-  then the AC shift to 4/4/4.
-  Butted pairs with Wrought or Low-carbon
-  only. Not Hardened, Crucible, or Zenith.
-  Grade moves cost, Enc, and AC. Shift
-  the listed 2/2/2.
-  Butted wrought is 1/1/1. Butted
-  low-carbon stays 2/2/2.
+  Riveted mail then takes Iron Grade (section 9).
+  Apply Grade % to the listed cost and Enc, then
+  the AC shift to 6/4/0. Blunt stays 0.
+  Grade does not put blunt back.
+  Butted does not take Iron Grade. Pick the join
+  or pick the metal. Not both. Blunt is 0.
 
 Sleeves and Hem use the Textile Form
 coverage list. Mail Enc % is heavier
@@ -519,7 +518,7 @@ Mail mittens
         Not under a gauntlet.
 
 Example: Butted Mail (torso). Cost 30 sc,
-Enc 90, AC 2/2/2. Long Sleeves then +35%
+Enc 90, AC 4/2/0. Long Sleeves then +35%
 Enc on 90.
 
 --------------------------------------------------
@@ -565,50 +564,24 @@ Iron Grade
     Laminar
     Solid Plate (torso Plate and its iron
     Forms, limb Models, iron helmets)
-    Maille, Riveted: any Grade
-    Maille, Butted: Wrought or Low-carbon
-                    only. AC shift applies
-                    to 2/2/2.
+    Maille, Riveted only
 
   Not eligible
     Cuir bouilli (torso or limb)
+    Maille, Butted
     Textile
     Clothing
     Boot Base Material
 
   Stack order: Model listed → Material %
   (Splinted / Laminar / Cuir on limbs) →
-  one metal grade, if eligible.
+  Iron Grade % and AC (if eligible).
   Cost may be listed as sc.bc. Do not round Enc.
-
-Alloy Grade
-  Brass or bronze. Not copper. Not an
-  Iron Grade. Do not stack them.
-  Listed cost. Enc and AC as below.
-  Hitpoints: Durability.txt.
-
-  Metal     Cost     Enc      AC
-  Bronze    listed   ×1.10    −1/−1/−1
-  Brass     listed   ×1.05    −1/−1/−1
-
-  Eligible
-    Coat of Plates
-    Laminar
-    Bracers
-    Greaves
-    Skullcap
-    Nasal helm (spangenhelm and the
-    solid nasal)
-
-  Not eligible
-    Everything else. No maille, no
-    plate cuirass, no closed helm,
-    no copper.
 
 Torso Models (minimum: front)
 
 Scale
-  AC: 4/3/5
+  AC: 5/4/6
   Slots: Chest / Upper Back,
          Abdomen / Lower Back,
          Collarbone / Base of Neck,
@@ -624,7 +597,7 @@ Scale
         That is intentional.
 
 Coat of Plates
-  AC: 5/6/4
+  AC: 6/7/5
   Slots: Chest / Upper Back 80%,
          Abdomen / Lower Back 80%,
          Collarbone / Base of Neck 80%
@@ -633,7 +606,7 @@ Coat of Plates
   Note: takes iron grade. Front only. ~4.2 kg.
 
 Laminar
-  AC: 5/5/4
+  AC: 6/6/5
   Slots: Chest / Upper Back 75%,
          Abdomen / Lower Back 50%,
          Collarbone / Base of Neck 75%
@@ -652,7 +625,7 @@ Cuir Bouilli
   Note: keyword Cuir Bouilli. No iron grade table.
 
 Brigandine
-  AC: 5/5/4
+  AC: 6/6/5
   Slots: Chest / Upper Back,
          Abdomen / Lower Back,
          Collarbone / Base of Neck
@@ -743,8 +716,8 @@ may take Iron grade. Cuir may not.
 
   Material       Cost     Enc      AC
   Cuir bouilli   ×0.70    ×0.70    2/2/3
-  Splinted       ×1.00    ×0.90    3/3/3
-  Laminar        ×1.15    ×1.25    4/4/5
+  Splinted       ×1.00    ×0.90    4/4/4
+  Laminar        ×1.15    ×1.25    5/5/6
 
 Laminar is overlapping iron bands. Best soak,
 most mass.
@@ -766,14 +739,14 @@ then iron grade if wanted.
 Helmets
 
 Skullcap
-  AC: 4/4/4
+  AC: 10/8/6
   Slots: Skull / Occipital
   Base cost: 12 sc
   Base Enc: 12
   Note: Open Helmet. Low profile and suitable to wear under layers.
 
 Nasal spangenhelm
-  AC: 5/6/4
+  AC: 11/9/7
   Slots: Skull / Occipital, Eyes 10%
   Base cost: 25 sc
   Base Enc: 22
@@ -782,14 +755,14 @@ Nasal spangenhelm
         protection.
 
 Composite kettle
-  AC: 5/6/4
+  AC: 11/9/7
   Slots: Skull / Occipital
   Base cost: 24 sc
   Base Enc: 21
   Note: Open Helmet.
 
 Duckbill
-  AC: 5/6/4
+  AC: 11/9/7
   Slots: Skull / Occipital, Lower face / Back of neck 75%, 
          Eyes 95%, Throat 50%
   Base cost: 24 sc
@@ -799,14 +772,14 @@ Duckbill
         perforations. Immune to structural hinge failure.
 
 Greathelm
-  AC: 8/8/7
+  AC: 14/12/10
   Slots: Skull / Occipital, Lower face / Back of neck, Eyes 95%
   Base cost: 42 sc
   Base Enc: 38
   Note: Closed Helmet. Fixed visor built in. 
 
 Enclosed helm
-  AC: 8/9/7
+  AC: 12/10/8
   Slots: Skull / Occipital, Lower face / Back of neck, Eyes 95%
   Base cost: 50 sc
   Base Enc: 34
@@ -828,16 +801,19 @@ Do not use a second metal table.
 Torso Model (minimum: Chest or Abdomen)
 
 Plate
-  AC: 6/7/5
+  AC: 14/12/10
   Slots: Chest / Upper Back 100%
          or Abdomen / Lower Back 100%
          (same stats either way)
   Base cost: 45 sc
   Base Enc: 25
   Note: pick one front Slot at minimum.
-        Takes Iron Grade. Listed is
-        Low-carbon. ~2.5 kg breast or
-        plackart-alone.
+        14/12/10 is Low-carbon. Iron Grade
+        then shifts it. Wrought 13/11/9.
+        Hardened 15/13/11. Crucible 16/14/12.
+        Zenith 17/15/13. This Model only.
+        Limb and helmet AC stay on Material.
+        ~2.5 kg breast or plackart-alone.
 
 Form on Plate (does not change Model AC)
   Plackart      +40 sc  +16 Enc
@@ -852,7 +828,7 @@ Form on Plate (does not change Model AC)
 
 A cuirass is Plate + Plackart + Backplate:
 Slots Chest, Abdomen, Upper Back. One Model AC
-6/7/5. Do not add 7+7+7.
+14/12/10. Do not add the Forms on top.
 
 Other torso Models
 
@@ -973,7 +949,7 @@ Iron Grade.
 
 
 Nasal
-  AC: 5/6/4
+  AC: (Material)
   Slots: Skull / Occipital, Eyes 10%
   Base cost: 32 sc
   Base Enc: 22
@@ -995,7 +971,7 @@ Bascinet
   Note: Open Helmet. May use full visors.
 
 Sallet
-  AC: 5/6/4
+  AC: (Material)
   Slots: Skull / Occipital
   Base cost: 38 sc
   Base Enc: 22
@@ -1003,14 +979,14 @@ Sallet
         Compatible with Visor Forms and independent Bevor.
 
 Armet
-  AC: (Material)
+  AC: 15/13/11
   Slots: Skull / Occipital, Lower face / Back of neck, Throat 95%, Eyes 95%
   Base cost: 42–48 sc
   Base Enc: ~38
   Note: Closed Helmet. Both the visor and the lower jaw protection (called a movable bevor or chin-piece) pivot vertically. They share the exact same pivot points or bolts on the side of the skull. You can swing the visor up for visibility, and then swing the entire lower jaw piece up and back over the forehead. This fully exposes your face, transforming it into an "open helmet" style for breathing or speaking without removing the skull cap.
 
 Barbute
-  AC: 5/6/4
+  AC: (Material)
   Slots: Skull / Occipital, Lower face / Back of neck 75%
   Base cost: 44 sc
   Base Enc: 25
@@ -1019,21 +995,21 @@ Barbute
         May accept Visor Forms to fully close the face.
 
 Great bascinet
-  AC: (Material)
+  AC: 16/14/12
   Slots: Skull / Occipital, Lower face / Back of neck, Throat, Eyes 99% with visor down
   Base cost: 48 sc
   Base Enc: ~50
   Note: Closed Helmet. In built visor, may be lowered and raised -(Eyes 99%)
 
 Frog-mouth
-  AC: (Material)
+  AC: 16/14/12
   Slots: Skull / Occipital, Lower face / Back of neck, Throat, Eyes 99% with visor down
   Base cost: 48 sc
   Base Enc: 65
   Note: Closed Helmet.
 
 Burgonet
-  AC: 5/6/4
+  AC: (Material)
   Slots: Skull / Occipital, Lower face / Back of neck 75%
   Base cost: 48 sc
   Base Enc: 25
@@ -1148,19 +1124,7 @@ Cuffed boots or Riding boots only.
                        Not a second Textile layer.
   Cuir bouilli            +10 sc   +5     2/3/4   Foot 50%,
                                                   Shin / Calf 75%
-                       Modular. Keyword Cuir Bouilli.
-  Rock troll hide         +13 sc   +6     3/4/6   Foot 50%,
-                                                  Shin / Calf 75%
-                       Cuffed or Riding only.
-                       Replaces cuir bouilli.
-                       Making upgrade. ×1.85 hitpoints
-                       (Durability.txt).
-  River troll hide        +13 sc   +10    3/4/5   Foot 50%,
-                                                  Shin / Calf 75%
-                       Cuffed or Riding only.
-                       Replaces cuir bouilli.
-                       Making upgrade. Skips the
-                       moisture roll.
+                       Modular.
   Splinting                +8 sc   +4     3/4/4   Shin / Calf 75%
                        Modular.
   Greaves                 +12 sc   +6     5/6/4   Shin / Calf 50%
@@ -1183,25 +1147,6 @@ AC with boot greaves on the same Slot.
 One column is who can take it. A piece that is
 not on that list cannot take the Upgrade.
 
-One Making upgrade on a piece. They do not stack.
-Field upgrades stack across groups. Inside a
-group, one only.
-
-  Finish (one):     Paint / lacquer,
-                    Blue / black, Plate / tin
-  Climate (one):    Insulated, Breathable
-  Bindings (one):   Kraken sinew, Troll-hide ties
-
-Beeswax / resin sits outside those groups. It
-may share a piece with one Climate and one
-Binding. It is still Clothing and Textile only.
-
-The same upgrade's rider applies once on the
-Entity. Two insulated pieces are still +10 T
-vs cold, not +20. Two painted helms are still
-+5 Fel. Enc and that piece's AC still sit on
-each piece.
-
 Field
   Done after the piece is already made. Knife,
   pot, brush, spare straps. No workshop.
@@ -1212,7 +1157,8 @@ Field
   Insulated          Clothing, Textile
                      +10 sc +2 Enc   +10 T vs cold
   Breathable         Clothing, Textile
-                     +9 sc  −1 Enc   +10 T vs heat
+                     +9 sc  −1 Enc   +10 T vs heat;
+                                     −1 Blunt in cold
   Paint / lacquer    Modular Segmented (helmets),
                      Modular Solid Plate
                      +12 sc +1 Enc   +5 Fel; weatherproof
@@ -1227,7 +1173,7 @@ Field
                      +18 sc +2 Enc   straps do not part
   Troll-hide ties    Any piece that uses leather
                      bindings or straps
-                     +12 sc +2 Enc
+                     +12 sc +2 Enc   +10 T vs cold
 
 Making
   Done in a proper shop, or while the piece is
@@ -1240,15 +1186,15 @@ Making
   Sea-serpent scale    Modular Segmented
                        (Scale, Laminar, Brigandine)
                        +50%       −25% Enc   +3/+3/+3
-                       Replaces Iron Grade.
-                       Do not also apply a grade.
+                                             +10 Intimidate
   Dense quilting       Textile
                        +25%       +3 Enc     +1/+1/+1
   Spider-silk lining   Clothing, Textile
                        +40%       −4 Enc     +2/+2/+1
-  Rock troll hide      Cuir Bouilli (the keyword),
-                       Cuffed boots, Riding boots
+  Rock troll hide      Cuir Bouilli (the keyword)
                        +30%       +15% Enc   +1/+1/+2
-  River troll hide     Cuir Bouilli (the keyword),
-                       Cuffed boots, Riding boots
+  River troll hide     Cuir Bouilli (the keyword)
                        +25%       +5 Enc     +1/+1/+1
+
+Sea-serpent washers are gone. That job is scale
+or sinew, not a washer list.

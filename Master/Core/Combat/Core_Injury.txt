@@ -8,7 +8,9 @@
 #   Injury_Tables_Bipedal.txt           man-shaped
 #   Injury_Tables_Equine.txt            horse-type (single hoof)
 #   Injury_Tables_Predator.txt          paws
+#   Injury_Tables_Gryphon.txt           earthbound gryphon
 #   Injury_Tables_Hoofed.txt            cloven / pig hoof
+#   Injury_Tables_Spider.txt            eight legs, two-part body
 
 PURPOSE
 Combat ticks Wounds. This file says what happens when they run
@@ -179,6 +181,8 @@ file.
                                  horse-type: elk,
                                  bison, cattle, pig,
                                  sheep, goat
+  Injury_Tables_Spider.txt       spiders and
+                                 spider-things
 
 The Entity says which file to open.
 
@@ -194,6 +198,8 @@ If the line is missing, use Bipedal. Do not guess
 from Size. A Size 7 ogre is Bipedal. A Size 3
 wolf is Predator. A Size 8 bison is Hoofed.
 A Size 6 destrier is Equine, not Hoofed.
+A Size 7 giant spider is Spider, not
+Hoofed.
 
 Open the named file. Roll the first d100 on
 its Wallace list. Roll the second d100 on its

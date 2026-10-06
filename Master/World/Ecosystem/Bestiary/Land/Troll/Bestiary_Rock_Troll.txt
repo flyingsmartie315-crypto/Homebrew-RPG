@@ -22,7 +22,7 @@ Maturity: eight to ten years, then it leaves
 Dimorphism: little. Females a shade broader. Males longer in the arm.
 
 Stats
-Entities_Unnatural_Rock_Troll.txt
+Entity_Rock_Troll.txt
 Under 1,500 kg is Size 7. From 1,500 kg is Size 8.
 The adult sheet uses 1,800 kg.
 
@@ -56,11 +56,15 @@ Two is a rare fight, not a tactic. Collective 2.
 The belly is the gap. The back is the hide.
 Do not run this as a river troll. No dam. No pair. No water.
 Kannavald: the high ridges and the hot crags. Not the Kolmire channel.
+A chance meeting is not the hunt. The hunt is
+Rock_Collector_Guild.txt. Weeks of ground, then
+a False Moon, then the throat. The plate is the pay.
 
 Notes
 - Locked name: Wracstan. Early Isern settlers on the
   Ebon Peninsula. Literally "the vengeful boulder."
   Spoken: rock troll, stone troll, Wracstan giant.
+  The hunt is written Wrac-Stān.
   Many regional names. They are this creature.
 - Domain is Highland and Cave. A wet lowland is a skip. A town street is a skip.
 - Economy: Economy_Unveiling_Beasts.txt. Size locked with this file: 11–12 ft, 1,200–2,050 kg.

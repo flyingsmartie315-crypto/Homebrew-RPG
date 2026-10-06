@@ -1,0 +1,160 @@
+# Entity_Pale_Lurker.txt
+# GM sheet. The female on the sheet. Not the essay.
+# Bestiary: Bestiary_Pale_Lurker.txt
+#   Span 10–16 ft. Weight 160–320 kg.
+#   This sheet is the female, 280 kg. Size 6.
+#   A male is 160 kg, Size 5. Same profile,
+#   Strength and Toughness −10, Wounds ×1.25
+#   not ×1.5.
+# Traits: Core_Traits.txt
+# Injury: Injury_Tables_Spider.txt
+# Size law: Core_Characteristics_Skills.txt §3
+
+--------------------------------------------------
+PALE LURKER
+--------------------------------------------------
+
+Size 6. Enormous. Injury: Spider.
+Bestiary mass 160–320 kg. Sheet uses 280 kg.
+Span 10–16 ft. She holds the sheet.
+Spoken: sheet-white, mouth-weaver.
+
+  S  60    (40 + 20 Size)
+  Per 35
+  T  60    (40 + 20 Size)
+  Fel 5
+  Int 5
+  Ag  25
+  WP  30
+  WS  40
+  BS  10
+  Attacks 1
+
+  SB 6     TB 6
+  M  4.5   Agility 25 ÷ 10, then Size +2
+  NAC 2
+  Wounds 27    floor(TB × 3 × 1.5)
+  Initiative  25 + 1d10
+
+
+Movement. Sheet reference. Not live.
+Agility and Fatigue do not rewrite this.
+  Half        9 yards
+  Full        18 yards
+  Charge      18 yards
+  Jump / Leap 10 yards running, 6 standing
+  Run         27 yards
+
+To-hit against a man (Size 4): +20.
+A man shooting this body: +20 BS.
+Same Size: +0.
+Bright open ground: −20 on sight tests
+and on WS. The canopy and the adit
+do not take that penalty.
+
+--------------------------------------------------
+NATURAL ARMOUR
+--------------------------------------------------
+
+  Fur and plate (2/1/2)
+  Slots: the body. Eyes and the mouth
+  are the gaps. Uniform 100% elsewhere.
+  NAC is already 2. Do not add it twice.
+
+--------------------------------------------------
+SKILLS
+--------------------------------------------------
+
+(X) is known, at the skill base.
+
+  Athletics (X)      42
+  Awareness (X)      35
+    Dark and the sheet. Not the sun.
+  Concealment (20)   45
+    On the sheet, or in the root-mouth.
+  Silent Move (X)    25
+    Until the silk pulls.
+
+Anything else is unknown. Half the base.
+No Parry. No Disarm unless a leg is off.
+
+--------------------------------------------------
+ATTACK PROFILE
+--------------------------------------------------
+
+  Bite                    Natural
+    (0/1/0)  Reach 2     Pierce
+    1d10 + SB. No Parry. No Disarm
+    unless the leg is off.
+    Venom. Not a drop in one breath.
+    Heat leaves. Cold, then stillness.
+    A Wound past Protection starts it.
+    Toxin line is not written yet.
+  Haul                    On a held body
+    After the silk pulls, or after a
+    Bite that landed. She drags into
+    the dark. Opposed Strength.
+    She is Size 6. The defender is at
+    the size gap in Core_Combat.txt.
+
+--------------------------------------------------
+TRAITS
+--------------------------------------------------
+
+Law: Core_Traits.txt.
+
+  Dweller (cold adit, alpine rift,
+           dense boreal canopy)
+    Flora gate is on the bestiary page.
+    0–2 stone. 4–5 fir-dark. Not Flora 3.
+  Wall-Runner
+    The sheet, the bole, the rift, and
+    the ceiling are flat ground.
+  Dark-Sight
+    The sun is the penalty above.
+    Night Vision is not this.
+  Fear (2)
+    The sheet in the dark. Core_Fear.txt.
+  Bestial
+    No Aim, Called Shot, Disengage,
+    Ready, Reload, Cast, Feint,
+    Guarded Attack, Manoeuvre, or
+    Parrying Stance.
+
+--------------------------------------------------
+BEHAVIOUR PROFILE
+--------------------------------------------------
+
+One sheet. One female. She sits the web
+and the dark behind it. Stone: the first
+bend. Fir: the hollow root-mass. Slow
+until the silk pulls. Then the reach is
+long and the haul is into the black.
+
+She does not drop from a hub. She comes
+out. Prey is bat, stray stock, the
+explorer. A bear in the mouth is wrapped
+and waited on. She does not run a bear
+on open ground.
+
+Bright open wood ruins her. A ride, a
+logged fringe, the scree at noon. The
+dense canopy is the adit with bark.
+False Moon puts her on the edge after
+dusk. Dawn puts her back, or kills her.
+
+Hurt: she goes for the hole, not a
+stand in the light. Under half her
+Wounds she abandons the sheet if the
+fire is in it. Harm 6. Not a pack.
+
+--------------------------------------------------
+RUN
+--------------------------------------------------
+
+The sheet is the fight. Cutting it or
+pushing past it starts the haul.
+She Bites once the body is on the silk
+or in reach 2. She does not Parry.
+A blow that empties 27 drops her.
+Open ground: −20 WS, and she leaves.

@@ -4,7 +4,9 @@
 # Wallace and Slots live in this file.
 # Law: Core_Injury.txt (Bleed, Overflow, how to roll)
 # Use for anything on paws: wolf, hound, great
-# cat, gryphon. Not hoofed. Not horse-type.
+# cat. Not hoofed. Not horse-type.
+# Not the earthbound gryphon.
+# That table is Injury_Tables_Gryphon.txt.
 
 Roll 1d10 + Overflow − TB.
 Floor 1. 10 or more uses the 10+ row.
