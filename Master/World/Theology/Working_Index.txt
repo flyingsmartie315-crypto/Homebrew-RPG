@@ -5,7 +5,7 @@
 # Campaign_Log.txt still wins on played world-state. Nothing here has been played.
 
 STATUS
-Last pass: kinship of the Spent One; eldest brother as first saint.
+Last pass: Imperial reckoning noted. Birthday is the first concrete date. Year zero is the spending.
 Basis: two natures, one spending (neighbour’s life and the Real at once).
 Earth names stay in GM META blocks only.
 
@@ -16,8 +16,10 @@ Wound_Current_Working.txt
   Revised Wound-current. Supersedes the mother-cult ban and the “unspent brother” sketch where they conflict.
 House_of_the_Spent_Working.txt
   Hall account of mother, champion, likeness, Witness / Chronicler, and the four Unveiling answers.
+ImperialCult.txt
+  Working copy of the cult file. Pillar One seated. Pillar Five unchanged.
 Imperial_Pillar1_Working.txt
-  Seat only. Does not revise Phylax. Does not lock the empire.
+  Pointer only. Body lives in ImperialCult.txt.
 
 LOCKED IN THIS PASS
 - The Spent One is a real human life and the Real at once. The spending counts because a will was in it.
@@ -31,13 +33,16 @@ LOCKED IN THIS PASS
 - The Spent One is not himself a saint. Saints are later joinings. The eldest sets the pattern.
 - His witness is house-witness, not the Opener use of “Witnesses.”
 - The chronicle omits. It does not save. Bread joins the body. The page does not.
-- Pillar One of the College is the empty seat this saint may fill. Not filled in the Imperial file yet.
+- Imperial reckoning: A.D. is After Death, zero on the sacrifice date. B.E. is Before Empire, counted back from that zero. The Spent One is treated as founder. The institution is centuries later and does not move the epoch.
+- The birthday may be kept as a day and month. It is not a nativity. Age and year-distance are not locked.
 
 STILL OPEN
 - Hall-name of the champion, if any. Gate-death only. Not a holy family.
 - Whether any keeper-form of the Chronicler has coalesced. Not a landing-age fact.
 - Which living offshoot recites this house first.
-- Empire name, and whether Pillar One is this saint or a later recitation of him.
+- Day and month of the birthday. Year-distance from the spending. Age at the spending.
+- The positive A.D. year in which the institution actually begins.
+- A living order for the first stones. None founded.
 - The other three founder currents.
 - Which of the five Dark Age endings a given hall recites. The house does not finish the tear.
 
