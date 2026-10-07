@@ -8,19 +8,96 @@ Locked family: Cloven. Spoken: beastmen,
 the herd, the horned, when a speaker does
 not know the caste.
 
+--------------------------------------------------
+PENINSULA
+--------------------------------------------------
+
+The height of the dark ages is this herd.
+Not a later plague. Not a veil-storm that
+passed in a season. The Cloven were thick
+on the Ebon Peninsula when the wood was
+still the wood.
+
+The Kannavi were already in that wood,
+small and scattered, against Unveiling
+things. The Isernvolk landed on the
+western shore. Osric. Osricford. The
+compact is in Peoples_Isernvolk.txt.
+The mutual aid that made the alliance
+hold was the cleansing of this herd.
+Two small peoples. Centuries of grinding
+fight. Not one battle.
+
+A hundred skinwights hanged at the landing
+is the other founding. Do not swap them.
+Skinwights are the shore-story. The Cloven
+are the long war in the trees.
+
+They were near exterminated on the
+peninsula. Small bands persist in the
+deepest reaches. The Deepwood is what
+the taming did not finish. A herdstone
+in that deep is a remnant, not a realm.
+The pale, the path, and the open field
+are Isern and Kannavi ground. A raid
+from the deep is the old war, thin.
+
+Knowledge on the caste pages is regional
+lore. Peninsula folk know the names.
+They do not know a host. A host is the
+dark-age memory.
+
 Written
   Bestiary_Ditch_Imps.txt
     Under-caste. Man-sized, hunched.
     Hands, scouts, the sting.
     Individual 3. Collective 5.
+    Key failing: Envy.
   Bestiary_Horned_Ones.txt
     Brute. Size 5. The horns are the rank.
     Spoken: brute. Charge, two weapons,
     no shield. Looks down on the imp.
     Individual 5. Collective 6.
+    Key failing: Pride.
+    Placeholder. Entity not written.
+  Bestiary_Centaurs.txt
+    Fringe. Sleek equine lower frame.
+    The chase, not the cask. Musk.
+    Shock when a target excites them.
+    Spoken: the chase. Individual 6.
+    Collective 5. Key failing: Lust.
+    Placeholder. Entity not written.
+  Bestiary_Minotaurs.txt
+    The stone. About twice a man’s height,
+    about four times the weight. Hold Size 6.
+    Stampede. Gore. The feast is hate,
+    not hunger.
+    Individual 7. Collective 4.
+    Key failing: Wrath. Bloodgreed in the fight.
+    Placeholder. Entity not written.
+  Bestiary_Harpies.txt
+    The cloud. Gaunt, hollow-boned, arms
+    besides the wings. Snatch, then the air.
+    Follows the herd. Does not share a nest.
+    Individual 3. Collective 5.
+    Key failing: Greed.
+    Placeholder. Entity not written.
+  Bestiary_Pigmen.txt
+    The maw. Shorter than the brute, wider.
+    Hold Size 5. Snout-charge. Eats in the fight.
+    Spoken: the rooter. Individual 5.
+    Collective 5. Key failing: Gluttony.
+    Placeholder. Entity not written.
+  Bestiary_Somnagors.txt
+    The log. Imp-scale, slouched, no horns.
+    Hold Size 4. Moss in the coat. One swipe,
+    then the lean. Spoken: the moss.
+    Individual 3. Collective 4.
+    Key failing: Sloth.
     Placeholder. Entity not written.
 
 Not written
-  The larger kin above the brute.
-  Name them when the page exists.
-  Do not fold them into the horned sheet.
+  A shaman, a giver of the stone, or a
+  greater bull is a new page. Do not fold
+  it into the minotaur. The harpy is not
+  that page. It is the cloud.

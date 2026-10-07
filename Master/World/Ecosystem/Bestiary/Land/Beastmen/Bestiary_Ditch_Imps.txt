@@ -101,3 +101,12 @@ Notes
 - Economy: stolen iron, crow-fletch, spoiled
   hearth. No livestock price.
 - Entity sheet: not written.
+- Key failing: Envy.
+  The larger kin have the horns and the
+  meat. This body wants both.
+  A test to leave a better kit, a captive,
+  or a horned one’s scrap is at −20.
+  It will risk the ambush to take what
+  the brute will later take from it.
+  Core_Talents_Failings_Afflictions.txt.
+  Copy onto the sheet when it exists.

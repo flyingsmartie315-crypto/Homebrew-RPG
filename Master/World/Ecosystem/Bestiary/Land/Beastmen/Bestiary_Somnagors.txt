@@ -1,0 +1,119 @@
+# Bestiary_Somnagors
+# Seventh of the cloven. Family: Bestiary_Cloven.txt
+# Placeholder. Entity sheet not written.
+# Locked name: Somnagor. Spoken: the moss, the log.
+# Imp-scale. Not a ditch-imp. Do not write Ungor.
+
+Type: Unveiling
+Domain: Land
+Biome: Temperate, Boreal
+  Wet wood, ditch, the lee of a tree.
+  They do not take the pale. They are
+  driven at it.
+
+HSI
+Temperature: 1–3 | Rainfall: 3–5 | Human Density: 0–2 | Flora: 4–5 | Fauna: 1–3 | Topography: 1–3 | Hydrology: 2–4
+
+Still air and wet shade. A dry steppe
+is a bad den. Flora 4–5. The moss wants
+something to root in.
+
+RHK
+Rarity: 5
+Individual Harm: 3
+Collective Harm: 4
+Knowledge: 3
+  Placeholder ranks. Not locked.
+  Knowledge is low. Folk call them logs.
+
+Properties
+Frame: man-sized, the ditch-imp’s height,
+and shorter for the slouch. Shoulders
+thick and sloped. Arms gaunt, past the
+knee. Upper body too heavy for the legs.
+Head: a bear’s blunt snout, and the eyes
+sunken, hollow. No horns. Flat cracked
+bone on the skull. Dull flat teeth.
+Mouth open. Drool.
+Hide: sparse, greasy, mangy. Moss, spore,
+and shelf-fungus root in the coat if it
+has not moved. Swamp-rot on a live body.
+Hands: not the imp’s fingers. Four heavy
+digits. Curved blunt claws, dirt-caked.
+A ground-sloth paw. A digging bear.
+Size: not locked. Man-height, slouched.
+Hold at Size 4 until a weight is named.
+Weight: not named.
+
+Stats
+Entity not written.
+
+Overview
+Somnagors are the sloth of the Cloven,
+on the imp’s scale. Not killers by want.
+A rot that sits until it is pushed. The
+herd despises them and leaves them. They
+will not work. They sleep in the task.
+Before a fight the herd prods them with
+spears and puts them in front. A wall
+that does not flinch. Arrows and the
+first charge go into the moss.
+
+A shaman is not written. If the prod
+has a speaker, it is that page later.
+Do not invent the shaman here.
+
+Signs
+- A log with a snout, moss in the fur
+- Furrows from claws that were dragged,
+  not lifted
+- Grey dander and a decay-musk in still air
+- No horn. Cracked bone on a bear brow
+- An imp-camp that walks around a ditch
+- Men who passed it and did not see it breathe
+
+Behaviour
+Travel is on all fours. A shuffle. The
+claws plow. Limbs do not lift clean.
+It can stop at once. Lean on a tree, or
+drop in a ditch, and stay for weeks.
+Breath every few minutes. A rock. A log.
+Walkers pass it.
+
+Pain is dull. An arrow or a cut gets a
+slow blink. It does not dodge. It does
+not flinch. The energy is not spent.
+
+The strike, when it comes, is one overhead
+swipe. No speed. The shoulder’s weight.
+A miss and it often does not swing again.
+It leans. Pins. The dander and the musk
+do the rest. Suffocation by staying there.
+The dander is not a pathogen file yet.
+Name it when that page exists.
+
+False Moon: it does not drum. It is
+herded. The raid uses it as the face
+that does not care.
+
+Encounter
+One is Harm 3, if it is awake. Most
+encounters are the thing that was a log.
+A driven line is Collective 4. They slow
+a rank. They do not chase.
+Do not give this body a bow. That is
+the ditch-imp. Do not give it pride.
+That is the brute.
+
+Notes
+- Locked name: Somnagor. Family: Cloven.
+- Key failing: Sloth.
+  A test to rise, pursue, swing a second
+  time, or leave a pin is at −20. It
+  stays. Pain does not move it.
+  Core_Talents_Failings_Afflictions.txt.
+  Copy onto the sheet when it exists.
+- Not Envy. The ditch-imp has that.
+- Entity sheet: not written.
+- No stall price. A missed sentry and
+  a slowed rank are the cost.

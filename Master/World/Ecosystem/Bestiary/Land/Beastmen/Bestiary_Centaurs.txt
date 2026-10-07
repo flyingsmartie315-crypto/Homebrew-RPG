@@ -1,0 +1,125 @@
+# Bestiary_Centaurs
+# Third of the cloven. Family: Bestiary_Cloven.txt
+# Retooled. The gut and the cask are gone.
+# Placeholder. Entity sheet not written.
+# Locked name: Centaur. Spoken: the chase, the fringe.
+# Not a knight’s mount. Not a drunk.
+
+Type: Unveiling
+Domain: Land
+Biome: Temperate, Boreal, Arid, Steppe
+  Open ground and the path. The show is
+  the run. Dense thicket is the ditch-imp.
+
+HSI
+Temperature: 1–4 | Rainfall: 2–5 | Human Density: 0–2 | Flora: 2–4 | Fauna: 2–4 | Topography: 0–3 | Hydrology: 1–4
+
+A ride, a verge, a wood-path. Not the crag.
+
+RHK
+Rarity: 5
+Individual Harm: 6
+Collective Harm: 5
+Knowledge: 4
+  Placeholder ranks. Not locked.
+
+Properties
+Body: sleek equine lower frame, built to
+run. Upper torso well-toned, hairless.
+The join is still wrong. The head is
+bestial and horned. Not a clean man.
+Horns: spiral or swept barbs. Not clubs.
+Trophies, stolen silk, ribbons.
+Hide: fur in swirls, iridescent. A musk.
+Pheromone-heavy. Near prey: dizzy, or a
+false ease. The sheet will name the test.
+Eyes: wide, glassy, black. Pupils blow
+when the scent is up. Pain and pleasure
+both come in too loud.
+Hooves: the cadence. A stamp still crushes.
+Size: not locked. Sleek, not a draught
+horse. Hold at Size 6 until a weight
+is named.
+Weight: not named.
+
+Stats
+Entity not written.
+
+Overview
+Centaurs are the lust of the Cloven.
+Not the drink. That reading is dead.
+They want the chase, the near-miss, the
+scream held one moment longer. The herd
+disdains them and watches them. The musk
+and the mania push a brute into a
+reckless frenzy. They stay on the fringe
+for that reason. They are still the shock,
+when a target excites them.
+
+They do not kill from wrath. The minotaur
+has that. They do not hoard. The harpy
+has that. They take a body or a stone
+thing to the limit, then drop it. A short
+lethargy. Then the next glint of a hunt.
+
+Signs
+- A hoof-cadence, even, too fast for a horse
+- Silk and ribbon on a swept horn
+- A lone runner cut out from a line
+- Whip-marks, and the prey still alive
+- A fringe scrape, upwind of the herdstone
+- Musk. Heads thick. No casks required
+
+Behaviour
+The run is the drug. They sprint for the
+sprint. Fluid. Hooves in a fast cadence.
+They take the stupid line: the gap, the
+tight corner, the spear’s length, for
+the rush. In a fight they leap, rear,
+and turn to be seen. They want the chase
+as much as the end.
+
+They ignore a line. One high-value body,
+cut out, toyed with. The anticipation is
+the point. Weapons pierce or whip. A long
+lance, a barbed net, a heavy whip. The
+scream is kept. A club is the brute’s.
+
+The herd uses them as shock cavalry and
+keeps them upwind when it can. A brute
+near the musk gets reckless. That is
+useful once. It is a camp-fight if it
+lasts. When the novelty dies they discard
+the prize. Then the lull, until the next
+obsession.
+
+False Moon: the raid is a hunt they can
+show off. They do not drum with the imp.
+They take a runner off the pale.
+
+Encounter
+One on a path is Harm 6. It will not
+stand and trade. It cuts one body out.
+A handful are the shock, not a rank.
+Collective 5 until the sheet exists.
+Do not put one in a ditch-imp thicket
+and expect the imp’s slip. The show
+wants ground to run.
+
+Notes
+- Locked name: Centaur. Family: Cloven.
+- Ditch-Imp is the thicket. Horned One
+  is the brute. This is the fringe.
+- Key failing: Lust.
+  A test to end the chase, kill clean,
+  or leave a screaming prize is at −20.
+  It drags the hunt out. The musk is
+  the other half. Near it, a Willpower
+  test or the dizzy ease. Name the
+  number on the sheet.
+  Not Gluttony. Not Wrath. Not Greed.
+  Core_Talents_Failings_Afflictions.txt.
+  Copy onto the sheet when it exists.
+- Not a mount. A rider on this body is
+  a captive or a corpse.
+- Entity sheet: not written.

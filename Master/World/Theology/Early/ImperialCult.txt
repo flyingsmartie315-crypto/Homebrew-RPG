@@ -10,7 +10,8 @@ This file holds what an imperial hall recites, what orders do, and which crises 
 
 Do not print Earth-names in a hall-book.
 Do not call a saint a god or a goddess.
-Do not lock the other six pillars until each has a historical life, a heat, a cost, and a living order.
+Pillar One is seated in this working copy. Do not lock the remaining five until each has a historical life, a heat, a cost, and a living order.
+Kinship of the Vessel is in House_of_the_Spent_Working.txt. Do not recite that file as canon.
 
 --------------------------------------------------
 GM META
@@ -56,7 +57,7 @@ One Vessel.
 Seven keepers. Each keeper is a pillar: a closed crisis, a virtue-as-spending, a living order.
 
 PILLAR | SAINT | OFFICE | HEAT FACED | ORDER
-1 | — | Witness / first stones | — | —
+1 | the Witness / the Chronicler (liturgical) | First stones | Spectacle | —
 2 | — | — | — | —
 3 | — | — | — | —
 4 | — | — | — | —
@@ -67,6 +68,120 @@ PILLAR | SAINT | OFFICE | HEAT FACED | ORDER
 Virtues in the table are imperial school-words.
 Write the physics in the body of the pillar, not the school-word alone.
 Temperance here means rationing existence. It does not mean table-manners.
+
+
+--------------------------------------------------
+PILLAR ONE — THE FIRST STONES
+--------------------------------------------------
+
+SAINT
+Liturgical names: the Witness, the Chronicler.
+Not a stock-name. Homeland not locked.
+Office: first stones.
+Core spending: yielding the face he had the eldest claim to wear, and keeping an account that does not save.
+Imperial school-word: Humility.
+Heat faced: spectacle — the Night Face fed by a man who will be seen, or by a book that will save.
+He is not a god, a son-title, or a second Vessel.
+The Vessel remains the Spent One. This pillar attests him. It does not spend in his place.
+
+HALL CLAIM
+He was the eldest son of a champion who fell in the perils of the Unveiling.
+The champion’s death sits outside the birth-window. The sky was not mended.
+A mortal woman of that house later bore two sons, in the ordinary way. She is not asked for.
+The younger wore the late man’s face. The floor called him the hero’s.
+The elder did not bear the likeness. The house-right was his. He would not take the face.
+The Real took the younger life, the one that already wore the likeness, and used it up.
+The elder stayed. He attested. He wrote. He would not be pointed at.
+Imperial halls call that refusal the first stones: the account on which later keepers stand.
+He is the first saint because he set the pattern. The Vessel is not himself a saint.
+
+He attests three clauses only.
+1. The mother bore both sons in the ordinary way.
+2. The younger wore the champion’s face, and the elder did not.
+3. The younger was spent.
+A fourth clause is no longer witness. It is a gospel. The College does not add one.
+
+WITNESS, NOT OPENER
+House-title. Not the Opener use of “Witnesses.”
+Opener cells mean people who treat looking into the tear as piety.
+His witness is the house. Halls keep the distinction, or ash-listeners will steal the name.
+
+THE CHRONICLE
+Humility in the text is omission.
+The chronicle may record the fall, the two sons long after, the likeness, and the using-up.
+It may not record a childhood, a mother-office, companions, the manner of the spending, or an empty grave.
+If the book saves, is kissed as a face, or is closed as the last word, it has failed.
+The page is covered on a False-Moon night. No new line is cut while the second moon hangs.
+Bread joins the body that holds. The page does not.
+
+GM META — WHAT IS LOCKED
+- Birth order. He is the eldest. The Spent One is the younger.
+- The father fell against the Unveiling’s perils, outside the birth-window. He is not fetched.
+- The mother is mortal, bore both, and holds no office.
+- The likeness was already in the house. The Real did not copy a mask onto the younger.
+- Three attested clauses. No instrument. No return. No narrated childhood.
+- He is the pattern later saints are measured by: unnamed, costly, witnessed.
+- Phylax is downstream of him. A yard-priest, not this pillar.
+
+GM META — WHAT IS NOT LOCKED
+- Personal names of mother, father, and both sons.
+- A hall-name for the champion beyond gate-death.
+- Homeland and stock-name of the eldest.
+- Whether his keeper-form has coalesced. Recitation in this file is not that decision.
+- Any living order. No company is founded in this pass.
+
+--------------------------------------------------
+THE CRISIS — SPECTACLE
+--------------------------------------------------
+HALL SPEECH
+The floor wanted the champion back.
+It had a younger face that would bear the wanting, and an eldest who could have sold the return or been sold as it.
+A book that explained the gap, or showed the spending, would have fed the same heat.
+Spectacle is the crisis this pillar claims to have held: not a war, not a walker at a yard, but a house becoming a second moon.
+
+PHYSICS (GM)
+This is the Wound virtue with the meal cut out.
+A man who gives his body for glory feeds the Night Face.
+The eldest stood where that meal was laid and pointed at the younger.
+The chronicle exists so the spending cannot be owned by one mouth, and so it cannot swell into a passion-play.
+
+--------------------------------------------------
+THE SPENDING
+--------------------------------------------------
+What he spent
+The face. The eldest claim to be the hero’s return. The right to be pointed at.
+He did not spend a second body in the Vessel’s place.
+
+What the spending did
+It kept the house from becoming the church.
+It left three clauses and a book that omits.
+It did not close the tear. The champion had already failed to close it. The younger’s spending holds. It does not finish.
+
+What the empire made of it
+A pillar.
+A proof that the first stones are an account, not a bloodline.
+A licence to cover the page on False-Moon nights and to refuse a mother-office.
+
+HARD-WOUND READING
+He could stand at a hanging and refuse the credit.
+SOFT-WOUND READING
+He did not hang his kin for a face.
+The College recites both. It does not let either add a fourth clause.
+MEASURE ATTACK
+The book is a partner-face. The answer is that the chronicle does not join anyone. Bread does.
+Do not erase this quarrel.
+
+No living order in this pass.
+First stones are kept by the hall that recites the three clauses.
+Do not invent a company, a habit, or a monopoly of the chronicle.
+
+--------------------------------------------------
+WHAT THIS PILLAR DOES TO OTHER STOCKS
+--------------------------------------------------
+Isern marks will take the Hard reading and resist any imperial claim to own the chronicle.
+Plateau halls may keep the omission and reject the College as the only mouth.
+Measure-halls will call the book a partner-face and may burn copies while still wanting the gap left unexplained.
+Opener cells will try to steal “Witness.” Correct the title. He looks at the house. He does not look into the tear.
 
 --------------------------------------------------
 PILLAR FIVE — THE WARDEN
@@ -228,3 +343,5 @@ Do not let Wardens become battlefield wizards who drop walkers at range.
 Their miracle, when it happens, is a held threshold and the dead under their charge staying dead.
 
 Campaign_Log records whether a given settlement’s crypt-garrison is staffed, starved, or corrupt.
+Campaign_Log does not yet record a keeper-form for the Witness. Do not treat Pillar One as coalesced.
+House detail stays in House_of_the_Spent_Working.txt. This pillar is the recitation, not the kinship file.

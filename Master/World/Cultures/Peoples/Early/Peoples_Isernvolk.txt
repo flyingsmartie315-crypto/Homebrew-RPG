@@ -88,6 +88,9 @@ Osric took that sight as his arms: black shield-mountain, white sun in the east.
 The colours stay in the cloth. Even when dyes are cheap, Isern dress on the peninsula runs black and white — direct, unambiguous, harsh contrast. The people like the look because it is the look.
 
 There a hundred skinwights were hanged. That hanging is told as a founding of the tamed peninsula.
+The other founding is the long one. The mutual aid the alliance was built on was the cleansing of the Cloven. Beastmen. Bestiary_Cloven.txt. The height of the dark ages is that herd. They were thick when the wood was still the wood. Imp on the pale. Brute in the break. The stone-bull on the herdstone. The rest of the castes in the deep, as those pages name them.
+Osric’s compact is the landing. The work of it was centuries of grinding fight. Not one battle. Bands, burns, a stone pulled down, a gallery filled, a winter that thinned a brood and a spring that did not. Isern iron and Kannavi knowledge of the canopy. Neither finished it alone.
+They were near exterminated. Small bands persist in the deepest reaches. A herdstone there is a remnant, not a realm. Peninsula folk know the caste names. They do not know a host. A host is the dark-age memory. A raid out of the deep is the old war, thin.
 
 Over centuries the peninsula was opened. Floors, strands, and pits became Isern work. The Deepwood is what the taming did not finish.
 The Kannavi — Hollow-folk, cousins in custom to the Still Stones — were raised into alliance and standing. They were not erased. Outside the Deepwood they became a distinct minority. Inside it they remain the majority.
@@ -172,7 +175,7 @@ Branches differ by which mark or shore they hold and how strongly they lean on i
 --------------------------------------------------
 PERSONS OF NOTE
 --------------------------------------------------
-- Osric — High King of the crossing. First Dar Emait of the landing. Holds the Ebon line. First Isernvolk king in peninsula memory. Seat: Osricford / Ocs Landing. Hanged a hundred skinwights. Landing compact with the Kannavi. Counts Jarnvard’s wing dead.
+- Osric — High King of the crossing. First Dar Emait of the landing. Holds the Ebon line. First Isernvolk king in peninsula memory. Seat: Osricford / Ocs Landing. Hanged a hundred skinwights. Landing compact with the Kannavi. The compact’s first work was the cleansing of the Cloven, centuries of grinding fight. Counts Jarnvard’s wing dead.
 - Jarnvard — Osric’s younger brother. Rear wing of the crossing. Puts ashore at Dauðavík. Full entry: Peoples_Jarnvolk.txt.
 - Harthold — Dar Emait of the first host into Coritania. Took Aderhall and Berthall. Died at Harthold’s Folly. Buried in Harthold’s Barrow.
 Act 2

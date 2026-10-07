@@ -1,0 +1,132 @@
+# Bestiary_Minotaurs
+# Fourth of the cloven. Family: Bestiary_Cloven.txt
+# Placeholder. Entity sheet not written.
+# Locked name: Minotaur. Spoken: the stone-bull,
+# the guardian.
+# Not the horned one. That brute looks up at this.
+
+Type: Unveiling
+Domain: Land
+Biome: Temperate, Boreal
+  The deep wood around a herdstone.
+  Not the pale. Not the path. The centaur
+  has the path. This has the stone.
+
+HSI
+Temperature: 1–4 | Rainfall: 2–5 | Human Density: 0–1 | Flora: 3–5 | Fauna: 2–4 | Topography: 2–4 | Hydrology: 1–3
+
+Human Density 0–1. A herdstone in a
+walked wood is the exception, not a den
+in the town.
+
+RHK
+Rarity: 4
+Individual Harm: 7
+Collective Harm: 4
+Knowledge: 5
+  Placeholder ranks. Not locked.
+
+Properties
+Frame: about twice a man’s height.
+About four times a man’s weight.
+Slab muscle. Thick neck. Broad shoulder.
+The frame is for the crush, not the craft.
+Head: a bull, fully. Wide nostril. A jaw
+that snaps bone. Bloodshot eyes. Motion,
+not a face to parley with.
+Horns: the pride. Massive, thick, jagged.
+A gore takes a knight. A toss takes a horse.
+Hide: cured-leather thick. Fur matted with
+blood, mud, and gore. It does not wash.
+Hooves: cloven, huge. The stampede, not a step.
+Size: not locked. Height and the fourfold
+weight sit on Size 6 until the sheet
+names a number. 251–700 kg is that band.
+Weight: not named.
+
+Stats
+Entity not written.
+
+Overview
+Minotaurs are the wrath of the Cloven.
+The brute envies them and does not
+challenge lightly. The ditch-imp dreads
+them. A wrong look paints the trees.
+They do not do herd politics. They are
+given the berth, and they keep the wood
+around the herdstone.
+
+They are not hungry the way the centaur
+is hungry. The feast after the kill is
+hate. Erase the foe. Eat the evidence.
+That is wrath, not gluttony.
+
+Signs
+- A path broken through trees, not around them
+- Horn-gouges at twice a man’s height
+- Blood-matted fur on the bark, old and new
+- A herdstone with a wide berth of crushed brush
+- Horse or man tossed, not merely gored
+- No imp-camp inside that berth
+
+Behaviour
+They do not run. They stampede. The hind
+hooves build the mass. A tree, a wall, a
+smaller body: through, not around. Even
+still, the frame twitches. Hooves scrape.
+Steam at the nostril. The muscle does not
+rest.
+
+Bloodgreed is the wrath once the smell
+is up. Frantic. The nearest living thing.
+No feint, no rank, no leaving a wounded
+kin if the blood is closer. Complex
+manoeuvres are not this body.
+
+The weapon is too large for a man. A
+great axe, a cleaver, a trunk banded in
+iron, or two clubs. The swing is meant
+to obliterate. In the aftermath, or in
+the middle of it, the weapon drops. Hands
+and teeth. Raw flesh. Not a meal. A wiping
+out.
+
+They dwell in the tangled wood around the
+herdstone. Territorial. Anything that
+enters is the fight. Peace, patience, and
+parley are not available.
+
+False Moon: the stone is already theirs.
+The raid leaves them. They do not drum
+with the imp. They meet what comes up
+the path to the stone.
+
+Encounter
+One in its wood is Harm 7. It does not
+scout. It comes through.
+Two are rare. Collective 4 is a stone
+with a guardian, not a host.
+Do not put this body in the ditch-imp
+line. The imp is in front of the brute.
+The brute is in front of men. This is
+behind the stone.
+The centaur is the shock on the path.
+This is the wreck in the trees.
+
+Notes
+- Locked name: Minotaur. Family: Cloven.
+- Horned One looks up. Ditch-Imp dreads.
+  Centaur is killed if it kicks this body
+  and does not die first.
+- Key failing: Wrath.
+  Once blood is smelt, a test to break
+  off, spare a downed foe, or tell kin
+  from foe is at −20. It takes the
+  nearest living thing.
+  Bloodgreed is this failing in the fight.
+  Not Gluttony. The centaur has that.
+  Core_Talents_Failings_Afflictions.txt.
+  Copy onto the sheet when it exists.
+- Entity sheet: not written.
+- The horn is not a stall good. A tossed
+  horse is the cost.

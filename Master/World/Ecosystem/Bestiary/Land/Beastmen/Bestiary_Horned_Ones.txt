@@ -111,5 +111,15 @@ Notes
 - Ditch-Imp is the under-caste. This looks down.
 - Not a minotaur file. Not a gor.
 - Entity sheet: not written.
+- Key failing: Pride.
+  The horns are the rank, and the body
+  believes it. A challenge, a slight, or
+  a demand that it yield: Fellowship and
+  Willpower tests to back down, parley,
+  or take a shield are at −20.
+  It will not refuse a headbutt from a
+  smaller horn if others are watching.
+  Core_Talents_Failings_Afflictions.txt.
+  Copy onto the sheet when it exists.
 - Plate and horn are not a stall good.
   A broken pale is the cost.

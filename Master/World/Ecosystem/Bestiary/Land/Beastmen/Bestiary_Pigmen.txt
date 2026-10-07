@@ -1,0 +1,108 @@
+# Bestiary_Pigmen
+# Sixth of the cloven. Family: Bestiary_Cloven.txt
+# Placeholder. Entity sheet not written.
+# Locked name: Pigman. Spoken: the maw, the rooter.
+# Gluttony lives here. The centaur does not have it.
+
+Type: Unveiling
+Domain: Land
+Biome: Temperate, Boreal, Steppe
+  Soft floor. The wood, the wallow, the
+  pale’s midden. Not the cliff. That is
+  the harpy.
+
+HSI
+Temperature: 1–4 | Rainfall: 2–5 | Human Density: 0–3 | Flora: 3–5 | Fauna: 2–4 | Topography: 0–3 | Hydrology: 2–4
+
+A midden and a wet wood are the lure.
+Density 3 is the hamlet’s waste, not a den.
+
+RHK
+Rarity: 6
+Individual Harm: 5
+Collective Harm: 5
+Knowledge: 4
+  Placeholder ranks. Not locked.
+
+Properties
+Frame: shorter than a Horned One. Wider.
+Fat over thick bone. A hump of muscle
+on the upper back. Belly low, bloated,
+sagging. Low centre.
+Head: a boar. Wedge skull. Flat wet snout.
+Square grinders. Four tusks up from the
+lower jaw. Throat wide. A chunk goes down.
+Hide: mottled pink-grey, leather-thick,
+caked in mud, filth, and old blood.
+Black bristle on the spine. It stands
+when the scent is food.
+Legs: short, thick, bowed. Wide cloven
+hooves. Soft floor carries the bulk.
+Size: not locked. Shorter than the brute,
+heavier than the height. Hold at Size 5
+until a weight is named.
+Weight: not named.
+
+Stats
+Entity not written.
+
+Overview
+Pigmen are the gluttony of the Cloven.
+The centaur page used to carry that.
+It does not. This body eats. The herd
+treats them as dangerous livestock.
+A brute stays clear of a feeding frenzy.
+A starving pigman takes an imp and does
+not notice which kin it was.
+
+Signs
+- Rooted ground, logs flipped, a boulder turned
+- A wide cloven print, short stride, deep
+- Wallow-stink and old blood, not the centaur’s musk
+- Cleavers, not a matched pair of axes
+- An imp missing after the feed, no fight-sign
+- High squeal, then the wet chew
+
+Behaviour
+Not charging, they trot. Snout in the dirt.
+Neck flips a log or a stone for anything
+under it. The charge is the other gait.
+Snout down. Low. They do not turn and they
+do not stop. The skull and the snout take
+the shield wall. Wood splits. Bone goes.
+
+The fat reads as slow. The lunge is not.
+Short limbs, a snake-shut of the jaw on
+a body that walked past.
+
+The tool is a cleaver, a spiked tenderizer,
+a stone mallet. Armour is smashed until
+the piece fits the mouth. In the fight
+they pin with a hoof, open with a tusk,
+and eat while it is still going. Squeal,
+chew, snap. Intimacy, not a duel.
+
+False Moon: the raid is a trough. They
+do not drum. They follow the blood and
+the midden.
+
+Encounter
+One is Harm 5. It roots, or it comes
+through a door. A feed is Collective 5.
+Do not stand between it and meat.
+The brute’s pride will not parley with
+a hungry maw. The imp’s envy does not
+matter once the jaw is open.
+
+Notes
+- Locked name: Pigman. Family: Cloven.
+- Key failing: Gluttony.
+  A test to leave meat, stop eating a
+  downed foe, or spare an imp in a
+  frenzy is at −20. The chew continues.
+  Not Lust. The centaur has that.
+  Core_Talents_Failings_Afflictions.txt.
+  Copy onto the sheet when it exists.
+- Entity sheet: not written.
+- No stall price. A rooted field and a
+  missing sentry are the cost.
