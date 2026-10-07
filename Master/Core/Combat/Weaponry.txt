@@ -289,6 +289,23 @@ Shrapnel (x)       One quality. (x) is the pellet
                    Long: scatter across the cone.
                    No one takes a fourth until
                    each has one.
+Spray (x)          Ranged. (x) is the payload,
+                   not a damage die. Aim at a
+                   point or a target inside
+                   short range. +20 BS. The
+                   cloud, not the point.
+                   On a hit, the target and
+                   every Entity within 2 yards
+                   are in it. Each rolls Dodge
+                   against the attack’s DoS.
+                   Pass: clear. No effect.
+                   Fail: no weapon damage.
+                   Resolve the payload (x).
+                   Worn AC does not change
+                   the exposure. A closed helm
+                   or a face cover is +20 on
+                   the payload’s Toughness test,
+                   not on the Dodge.
 Slow (x)           Defender +(x) on Parry or Dodge
                    against this weapon.
                    A bare Slow is (10).
@@ -552,6 +569,10 @@ Cavalry
 Polearms
   Spear (1H polearm) *    18 sc   Enc 12   Ord
     (2/5/1)  Reach 2     Fast (10), Versatile
+    Thrown: (0/5/0)  6/12  Impulse
+    No Fast on the throw. Pierce is the
+    listed pierce. Cut and Blunt do not
+    travel with it.
   2H polearm Short *       6 sc   Enc 25  Two-handed
     Reach 2     Versatile
     Ash shaft. 2.5 kg blank, one carpenter day.

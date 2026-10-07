@@ -809,6 +809,97 @@ Recovery
                venom. The bite Wound is
                still a Wound.
 
+--------------------------------------------------
+Acidic Blight
+Kind:        Venom / chemical
+Virulence:   by Dose. Floor −30.
+             1st exposure   +20
+             2nd            +10
+             3rd            +0
+             4th            −10
+             5th and after  −20, then −30
+--------------------------------------------------
+
+Origin
+  The glands of a mature Hill-host
+  soldier. Entity_Vorax_Soldier.txt.
+  Bestiary_Vorax.txt. Spoken: the spray.
+
+Transmission
+  Proximity:   the cloud. Spray (x).
+               Weaponry.txt.
+  Mechanism:   skin, eye, breath.
+               Not a Wound. Not a drink.
+  Contagious:  no
+  Contraction: fail the Dodge against
+               the spray, then a hidden
+               Toughness test at once.
+               The modifier is the Dose
+               of clean exposures this
+               scene, counting this one.
+               Closed helm, face mask,
+               or litham: +20.
+               Bare head, or an open helm
+               with the face clear: −10.
+               Worn AC does not change
+               the Dodge or this test.
+               Pass: this exposure does
+               not advance the Dose.
+               Fail: Dose steps up.
+               Symptoms at the start of
+               the next Turn.
+
+Symptoms
+  Onset:       the start of the next Turn.
+  Causes:      the eyes and the membranes
+               burn. It is not a sword.
+  Burn clock
+    While any Dose is active, Toughness
+    every minute. Structured time:
+    every 6 Rounds.
+    Fail: Dose steps up.
+    Pass: the penalties stay. The
+    Dose number does not.
+    The clock stops when the eyes
+    are flushed with fresh water.
+  Dose 1
+    −5 Perception, Awareness, Search,
+    Weapon Skill, Ballistic Skill.
+  Dose 2
+    −10 on those tests.
+  Dose 3+
+    Each step adds another −5.
+    Dose 3 is −15. Dose 4 is −20.
+    Up to sheet TB.
+  Past sheet TB
+    Dose strictly over sheet TB.
+    Sight tests cannot be rolled.
+    +1 Fatigue, locked. Sleep and
+    short rests do not clear it
+    until the Agent ends.
+    Fumes in the lung. Fail three
+    Suffocation tests in a row
+    after that: see Linger.
+
+Recovery
+  Timeframe:   penalties hold until a
+               fresh-water flush. Then
+               1d5 hours of rest and
+               the active penalties go.
+  Cures:       Heal *, ordinary (+0).
+               A Full Action. Copious
+               fresh water. Win: the
+               burn clock stops, and
+               the symptoms drop one
+               Dose.
+  Linger:      only if Dose passed
+               sheet TB and three
+               Suffocation tests failed
+               in a row. Permanent
+               Short of Breath. Later
+               work hours are one band
+               worse. Core_Fatigue.txt.
+
 Common Respiratory Ailments
   Lesser air-sickness. Not Great-Lung.
   They tax senses, voice, and the Tired

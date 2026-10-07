@@ -1,0 +1,122 @@
+# Entity_Vorax_Queen.txt
+# GM sheet. The heart. Not a surface fight.
+# Bestiary: Bestiary_Vorax.txt
+#   6–8 ft. Nest-bound. Mass is not on the page.
+#   Sheet assumes 70 kg until the page names it.
+# Traits: Core_Traits.txt
+# Injury: no insect table yet. Do not use Spider.
+# Size law: Core_Characteristics_Skills.txt §3
+
+--------------------------------------------------
+HILL-HOST QUEEN
+--------------------------------------------------
+
+Size 4. Average. Injury: not written.
+Length 6–8 ft. Nest-bound.
+Mass is not on the bestiary page.
+Sheet assumes 70 kg. Change it when
+the page names a weight.
+Locked name: Hill-host. This file is
+the Vorax queen.
+
+  S  35
+  Per 20
+  T  45
+  Fel 5
+  Int 5
+  Ag  15
+  WP  25
+  WS  20
+  BS  5
+  Attacks 1
+
+  SB 3     TB 4
+  M  1.5   Agility 15 ÷ 10. Size +0.
+  NAC 2
+  Wounds 12    floor(TB × 3 × 1)
+  Initiative  15 + 1d10
+
+Movement. Sheet reference. Not live.
+Agility and Fatigue do not rewrite this.
+  Half        3 yards
+  Full        6 yards
+  Charge      6 yards
+  Jump / Leap 4 yards running, 3 standing
+  Run         9 yards
+
+She does not take the surface.
+To-hit against a man, if the heart
+is opened: +0. Same Size.
+
+--------------------------------------------------
+NATURAL ARMOUR
+--------------------------------------------------
+
+  Dull plate (3/2/2)
+  The egg-mass is the gap. A blow
+  there is the brood, not the plate.
+  NAC is already 2. Do not add it twice.
+
+--------------------------------------------------
+SKILLS
+--------------------------------------------------
+
+  Awareness (X)      20
+    The gallery. Not the street.
+
+No Parry. No climb. Wall-Runner is
+the worker and the soldier.
+
+--------------------------------------------------
+ATTACK PROFILE
+--------------------------------------------------
+
+  Mandibles               Natural
+    (1/0/0)  Reach 1     Cut
+    1d10 + SB. No Parry. No Disarm.
+    She bites what is already in
+    the chamber. She does not spray.
+    She does not come up.
+
+--------------------------------------------------
+TRAITS
+--------------------------------------------------
+
+  Dweller (the nest heart, warm soil)
+    Not the road. Not the granary door.
+  Bestial
+  Fear (2)
+    The chamber, if they have opened it.
+    Not a thing seen on the street.
+
+--------------------------------------------------
+BEHAVIOUR PROFILE
+--------------------------------------------------
+
+Nest-bound. The clutch is constant in
+warm ground. A hard Longnight kills the
+shallow brood. She lasts a decade if
+the nest stands.
+
+Do not run her on the surface unless
+the party has opened the heart. Soldiers
+are the door. She is the end of the
+gallery. Pouring the nest is the only
+end, and the ground may already be a
+gallery.
+
+No speech. No parley. Intelligence 5.
+
+Hurt: she does not flee. The chamber
+is the body. Under half her Wounds the
+brood is already the loss. Killing her
+does not empty the holes that night.
+
+--------------------------------------------------
+RUN
+--------------------------------------------------
+
+One bite, if they are in the chamber.
+She does not Parry. She does not Dodge.
+A blow that empties 12 drops her.
+The stream outside is the other two files.

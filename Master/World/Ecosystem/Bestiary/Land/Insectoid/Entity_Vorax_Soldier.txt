@@ -1,0 +1,136 @@
+# Entity_Vorax_Soldier.txt
+# GM sheet. One soldier. Not the wave.
+# Bestiary: Bestiary_Vorax.txt
+#   Locked name: Hill-host.
+#   4–5 ft. 25–45 kg. Sheet uses 40 kg.
+# Traits: Core_Traits.txt
+# Injury: no insect table yet. Do not use Spider.
+# Size law: Core_Characteristics_Skills.txt §3
+
+--------------------------------------------------
+HILL-HOST SOLDIER
+--------------------------------------------------
+
+Size 3. Weedy. Injury: not written.
+Bestiary mass 25–45 kg. Sheet uses 40 kg.
+Length 4–5 ft.
+Locked name: Hill-host. This file is the
+Vorax soldier. The fight.
+
+  S  35    (45 − 10 Size)
+  Per 30
+  T  40    (50 − 10 Size)
+  Fel 5
+  Int 5
+  Ag  35
+  WP  20
+  WS  40
+  BS  30
+  Attacks 1
+
+  SB 4     TB 4
+  M  2.5   Agility 35 ÷ 10, then Size −1
+  NAC 2
+  Wounds 9     floor(TB × 3 × 0.75)
+  Initiative  35 + 1d10
+
+Movement. Sheet reference. Not live.
+Agility and Fatigue do not rewrite this.
+  Half        5 yards
+  Full        10 yards
+  Charge      10 yards
+  Jump / Leap 6 yards running, 4 standing
+  Run         15 yards
+
+A man striking this body: −10.
+This body striking a man: +10.
+A door is one. The wave is the nest.
+
+--------------------------------------------------
+NATURAL ARMOUR
+--------------------------------------------------
+
+  Dull plate (4/3/2)
+  Eyes, antennae, and the acid-pore
+  are the gaps.
+  NAC is already 2. Do not add it twice.
+
+--------------------------------------------------
+SKILLS
+--------------------------------------------------
+
+  Athletics (X)      40
+  Awareness (X)      30
+  Concealment (X)    35
+    In the door-shadow. Not on a street.
+
+No Parry.
+
+--------------------------------------------------
+ATTACK PROFILE
+--------------------------------------------------
+
+  Mandibles               Natural
+    (2/1/0)  Reach 1     Cut, Snare (0)
+    1d10 + SB. No Parry. No Disarm
+    unless the head is off.
+    A standing hit holds. Opposed
+    Agility at 0 to act. Opposed
+    Strength at 0 each Round to break.
+  Formic spray            Natural
+    Range 6/12            Spray (Acidic Blight),
+                          Inaccurate (Aim),
+                          Pre-Loaded
+    BS 30, then +20 for the cloud.
+    Inaccurate (Aim): two rolls, take
+    the higher. Roll-under, so worse.
+    A hit puts the target and every
+    body within 2 yards in the cloud.
+    Each Dodges against the DoS.
+    Pass: clear. Fail: no weapon damage.
+    Acidic Blight. Pathogens file.
+    One spray a Turn. It is the attack.
+
+--------------------------------------------------
+TRAITS
+--------------------------------------------------
+
+  Dweller (warm soil, granary, yard, the door)
+  Wall-Runner
+  Bestial
+  Fear (1)
+    The clack and the spray. Core_Fear.txt.
+
+--------------------------------------------------
+BEHAVIOUR PROFILE
+--------------------------------------------------
+
+It does not scout. Workers do that.
+Strike the line, the store, or the door
+and this body comes. Waves. Clack. Acid
+in the face. It does not hunt men for sport.
+It kills what stands on the nest.
+
+Fire and a hard wall hold until the wave
+breaks. Dawn often ends it. The next night
+they are under the same flagstones.
+
+False Moon: the spray is ready, and the
+scouts are bold. A hunger-year brings the
+nest up. That is still a raid.
+
+Hurt: it does not flee the door while the
+wave is coming. Under half its Wounds it
+breaks for the hole. Individual Harm 4.
+Collective 7.
+
+--------------------------------------------------
+RUN
+--------------------------------------------------
+
+One attack. Mandibles or the spray, not both.
+It does not Parry. It may Dodge on 35.
+A blow that empties 9 drops it.
+Do not run the queen on this sheet.
+it.
+Do not run the queen on this sheet.

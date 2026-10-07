@@ -1,0 +1,159 @@
+# Entity_Earth_Eater.txt
+# GM sheet. One beetle at one door.
+# Bestiary: Bestiary_Earth_Eater.txt
+#   Back 1.4–1.7 m. Length 2.2–2.8 m.
+#   Weight 400–700 kg. Sheet uses 550 kg.
+# Traits: Core_Traits.txt
+# Injury: no insect table yet. Do not use Spider.
+# Size law: Core_Characteristics_Skills.txt §3
+# Not the Hill-host. That is the stream.
+# This is the ram.
+
+--------------------------------------------------
+EARTH-EATER
+--------------------------------------------------
+
+Size 6. Enormous. Injury: not written.
+Bestiary mass 400–700 kg. Sheet uses 550 kg.
+Back 1.4–1.7 m. Length 2.2–2.8 m,
+without the horns.
+Locked name: Earth-eater.
+Spoken: earth-eater. Ground-stag for
+the horned strain. Same sheet.
+
+  S  70    (50 + 20 Size)
+  Per 30
+  T  70    (50 + 20 Size)
+  Fel 5
+  Int 5
+  Ag  25
+  WP  30
+  WS  45
+  BS  5
+  Attacks 1
+
+  SB 7     TB 7
+  M  4.5   Agility 25 ÷ 10, then Size +2
+  NAC 4
+  Wounds 31    floor(TB × 3 × 1.5)
+  Initiative  25 + 1d10
+
+Movement. Sheet reference. Not live.
+Agility and Fatigue do not rewrite this.
+  Half        9 yards
+  Full        18 yards
+  Charge      18 yards
+  Jump / Leap 11 yards running, 6 standing
+  Run         27 yards
+Burrow 2 yards a Round. The trait.
+Not the surface columns.
+
+A man striking this body: +20.
+This body striking a man: −20.
+Same Size: +0.
+The charge does not cancel that.
+
+--------------------------------------------------
+NATURAL ARMOUR
+--------------------------------------------------
+
+  Wet-bronze plate (5/4/4)
+  Slots: the back and the flanks.
+  Eyes, the jaw-joint, and the
+  underside are the gaps.
+  NAC is already 4. Do not add it twice.
+  A bolt in the joint is the gap.
+  The plate is the trophy. Not livestock.
+
+--------------------------------------------------
+SKILLS
+--------------------------------------------------
+
+  Athletics (X)      47
+    Mean of Strength 70 and Agility 25.
+  Awareness (X)      30
+    The roof. A cart on thin ground.
+  Concealment (X)    25
+    In the mouth. Not on the road.
+
+No Parry. No speech.
+
+--------------------------------------------------
+ATTACK PROFILE
+--------------------------------------------------
+
+  Mandibles               Natural
+    (4/1/2)  Reach 1     Cut, Impact, Snare (10)
+    1d10 + SB. No Parry. No Disarm
+    unless the head is off.
+    A beam or a shield-rim. The bite
+    weight is the same on the horned.
+  Ground-stag             The other strain
+    Same line. Reach 2. Branched horns.
+    Folk say ground-stag. Not a second
+    body.
+  Charge                  The ram
+    Plates first. Short. Not a chase
+    across a field. Charge yards above.
+    The last 4 in a straight line.
+
+--------------------------------------------------
+TRAITS
+--------------------------------------------------
+
+Law: Core_Traits.txt.
+
+  Dweller (warm vale, plain, wooded hill, the gallery)
+    Temperature 3–5. Cold larvae die.
+    Boreal and Polar are a skip.
+  Burrower (2)
+    Soil, loose rock, a field under
+    the plough. Not dressed stone.
+    The tunnel stays. A body one Size
+    smaller can enter. Half the time
+    it falls in behind.
+  Bestial
+  Fear (2)
+    The plates coming out of the mouth.
+    Core_Fear.txt.
+
+--------------------------------------------------
+BEHAVIOUR PROFILE
+--------------------------------------------------
+
+One gallery. The soil is the roof. Leave
+the door and it feeds: root, rotten wood,
+fungus, easy carrion. A sheep in the hole
+is meat. A man in the hole is meat. It
+does not stalk the high street.
+
+Cut the door, drive a cart over a thin
+roof, or put a spade in the mouth, and
+it comes up. A short charge. Plates first.
+Shears working. A siege-ram. Not a hunt.
+
+Two doors may share a hill if they stay
+apart. It does not swarm a wall. That
+is the Hill-host.
+
+False Moon: restless at the mouth. It
+does not walk into frost. North of the
+warm line they are few and small.
+
+Hurt: it does not flee the hole while
+the door is being cut. Under half its
+Wounds it goes back down. Fire-oil and
+a bolt in the joint drive it. Filling
+the gallery is the work. Harm 6.
+Collective 4 is two doors, not a host.
+
+--------------------------------------------------
+RUN
+--------------------------------------------------
+
+One attack. Mandibles. The charge is
+the opener if the range is there.
+It does not Parry. It may Dodge on 25.
+A blow that empties 31 drops it.
+The collapse of the road is the other
+enemy. It is not on this sheet.

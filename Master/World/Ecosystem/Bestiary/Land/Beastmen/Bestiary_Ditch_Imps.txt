@@ -1,0 +1,103 @@
+# Bestiary_Ditch_Imps
+# First of the cloven. Family: Bestiary_Cloven.txt
+# Entity sheet not written yet.
+# Locked name: Ditch-Imp. Spoken: the under-caste, the sting.
+
+Type: Unveiling
+Domain: Land
+Biome: Temperate, Boreal, Arid, Steppe
+
+HSI
+Temperature: 1–4 | Rainfall: 2–5 | Human Density: 0–2 | Flora: 3–5 | Fauna: 2–4 | Topography: 2–5 | Hydrology: 1–4
+
+Human Density is the pale, not the town.
+They hate what men build. They still
+track the wood-pale: a lone cart, a
+hamlet, a sentry who is not looking.
+
+RHK
+Rarity: 7
+Individual Harm: 3
+Collective Harm: 5
+Knowledge: 4
+
+Properties
+Height: man-sized, hunched. A low prowl.
+Horns: buds, a misshapen prong, or none.
+Weight: not named. Treat as Size 4 until
+the sheet exists.
+Lifespan: not named.
+Clutch: the herd. Not a nest-count.
+Dimorphism: little on this caste. The
+horned kin are other files.
+
+Stats
+Entity not written. Do not borrow a ghoul
+or a Mintrox sheet.
+
+Overview
+Ditch-Imps are the common under-caste of
+the Cloven. Man-sized, and they stay low.
+A twist of beast and man-shape. Stubby
+horn buds, a bad prong, or a bare brow.
+
+From the beast: predator fury, and the
+herd panic when the line breaks. From
+men: malice, spite, and a need for the
+very pale they hate. The larger horned
+kin look down on them. These are the
+hands, the scouts, and the sting.
+
+They take thicket and crag. They track
+by scent. They close the ring from the
+undergrowth. Bullied by the bigger
+bodies, they are cowards when the line
+breaks, and cruel to a captive when
+they hold the upper hand.
+
+Signs
+- A man-sized hand in the mud, nails split
+- Cloven tracks, and a drag of scrap-leather
+- A wayside stone: ash, dung, a fresh dark cut
+- A shortbow string from the wrong angle
+- A chimney-stone smashed, the hearth-ash thrown
+- No crows. They take the plumage for fletching
+
+Behaviour
+Eyes and hands of the herd. The larger
+kin are clumsy or impatient. These weave
+crude cloth, mend stolen iron, and raise
+a hidden camp. They stay hunched. That
+keeps the casual blow off them.
+
+Coat follows the ground. Grey on the
+massif. Bristle, swine-dark, in the wood.
+They break the herd’s dislike of missiles.
+Shortbows and javelins on the pale.
+
+Courage is numbers. Wicker shields and
+long spears, because the hide is not thick.
+False Moon turns the spite into a rite.
+Herdstones: dark volcanic blocks, or old
+masonry, fouled with blood. Drum, howl,
+then the raid on the pale.
+
+Encounter
+Scouting party: 3–6 in the undergrowth.
+Shoot and flee. The pursuit is the ambush.
+Foraging skirmish: 12–20 on a barn or a
+timber-yard. Sacks on the back. Archers
+on the road.
+Herd-wall: the front rank, or the flank.
+Meat in front of the larger warriors.
+That rank is another file when it is written.
+
+Notes
+- Locked name: Ditch-Imp. Family: Cloven.
+- Not a ghoul. Not a Mintrox. Not a skitterling.
+- Human Density 0–2 is the wild. The pale
+  is where they raid, not where they den.
+- Knowledge 4. Regional lore. Not a scholar’s beast.
+- Economy: stolen iron, crow-fletch, spoiled
+  hearth. No livestock price.
+- Entity sheet: not written.

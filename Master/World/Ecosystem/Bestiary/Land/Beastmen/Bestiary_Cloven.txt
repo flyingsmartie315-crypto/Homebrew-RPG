@@ -1,0 +1,26 @@
+# Bestiary_Cloven
+# Family index. Not a creature.
+# The Cloven. Beastmen. One herd, distinct bodies.
+# Each caste is its own bestiary page and, later,
+# its own entity sheet.
+
+Locked family: Cloven. Spoken: beastmen,
+the herd, the horned, when a speaker does
+not know the caste.
+
+Written
+  Bestiary_Ditch_Imps.txt
+    Under-caste. Man-sized, hunched.
+    Hands, scouts, the sting.
+    Individual 3. Collective 5.
+  Bestiary_Horned_Ones.txt
+    Brute. Size 5. The horns are the rank.
+    Spoken: brute. Charge, two weapons,
+    no shield. Looks down on the imp.
+    Individual 5. Collective 6.
+    Placeholder. Entity not written.
+
+Not written
+  The larger kin above the brute.
+  Name them when the page exists.
+  Do not fold them into the horned sheet.

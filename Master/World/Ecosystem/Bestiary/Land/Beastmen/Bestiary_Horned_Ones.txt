@@ -1,0 +1,115 @@
+# Bestiary_Horned_Ones
+# Second of the cloven. Family: Bestiary_Cloven.txt
+# Placeholder. Entity sheet not written.
+# Locked name: Horned One. Spoken: brute.
+# Do not write Gor. That word is not this herd.
+
+Type: Unveiling
+Domain: Land
+Biome: Temperate, Boreal, Arid, Steppe
+  Same ground as the ditch-imp, until a
+  page says otherwise.
+
+HSI
+Temperature: 1–4 | Rainfall: 2–5 | Human Density: 0–2 | Flora: 3–5 | Fauna: 2–4 | Topography: 2–5 | Hydrology: 1–4
+
+They do not den in the town. They raid
+the pale. The ditch-imp tracks it. This
+body breaks it.
+
+RHK
+Rarity: 6
+Individual Harm: 5
+Collective Harm: 6
+Knowledge: 4
+  Placeholder ranks. Not locked.
+
+Properties
+Size: 5. Hulking. Taller, wider, heavier
+than a man. Stooped. Top-heavy.
+Horns: a pair, large, sharp, sweeping.
+Status is the horn. Larger, sharper,
+more even: more authority in the herd.
+Head: goat or bull. Long snout. Predator
+teeth. Coarse fur. Yellow eyes. Not the
+man-face of the ditch-imp.
+Hide: thick, calloused, matted hair.
+Hooves: hairy digitigrade legs. Heavy
+cloven hooves. A stamp breaks bone.
+Weight: not named. Size 5 band is
+121–250 kg until the sheet exists.
+
+Stats
+Entity not written.
+
+Overview
+Horned Ones are the brutes of the Cloven.
+The ditch-imp is the hand and the sting.
+This is the mass. A goat-head or a bull-head
+on a man’s frame gone wide, crowned, and
+stooped for the charge.
+
+The horns are the rank. The herd reads
+them before it hears the roar. A small
+horn is a small brute. A matched sweep
+is a lord of the wood, until a larger
+pair takes the stone.
+
+They despise a shield. The hide takes
+the small blow. They want two crude
+weapons, or a branch, or a stolen axe.
+They do not forge. They do not farm.
+A ditch-imp mends the iron. This body
+takes it, or it breaks a limb off a tree.
+
+Signs
+- A cloven print deeper than a goat, and wider
+- Horn-scored bark at the height of a tall man
+- Undergrowth broken, not slipped
+- A headbutt-tree: bark gone, wood starred
+- Ditch-imp camps with a larger scrape uphill
+- Two crude axes, no shield, on a dead pale
+
+Behaviour
+The charge is the gait. Hind legs launch
+the top-heavy frame. The point is the
+shield wall, and the mass is the argument.
+They are not silent. They crash the brush.
+The lope is long. Dense wood for hours
+does not empty them the way it empties a man.
+
+In the fight they do not hold a rank.
+Weight shifts. A swing, then the horns.
+No patience. No craft. A weapon is stolen,
+demanded from a ditch-imp, or a branch.
+
+The ditch-imp is the punching bag, the
+meat in front, and the smith they will
+not thank. Larger kin, not yet written,
+are envied. A brute looks for the challenge.
+Among themselves: posture, roar, and a
+headbutt that can kill. Pride, instinct,
+and the stone cities. The kill is for
+the False Moon.
+
+False Moon: the herdstone, with the
+under-caste drumming, and this body
+in front of the raid.
+
+Encounter
+One on a trail is Harm 5. It charges
+or it bellows. It does not scout.
+A handful behind a ditch-imp wall is
+the herd-fight. Collective 6 until
+the larger kin have a page.
+Do not give this body a shortbow.
+That is the imp.
+
+Notes
+- Locked name: Horned One. Spoken: brute.
+- Family: Cloven. Bestiary_Cloven.txt.
+- Ditch-Imp is the under-caste. This looks down.
+- Not a minotaur file. Not a gor.
+- Entity sheet: not written.
+- Plate and horn are not a stall good.
+  A broken pale is the cost.

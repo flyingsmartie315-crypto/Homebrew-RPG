@@ -1,0 +1,120 @@
+# Entity_Vorax_Worker.txt
+# GM sheet. One worker. Not the line.
+# Bestiary: Bestiary_Vorax.txt
+#   Locked name: Hill-host. Spoken: the stream.
+#   2–3 ft. 8–15 kg. Sheet uses 12 kg.
+# Traits: Core_Traits.txt
+# Injury: no insect table yet. Do not use Spider.
+# Size law: Core_Characteristics_Skills.txt §3
+
+--------------------------------------------------
+HILL-HOST WORKER
+--------------------------------------------------
+
+Size 2. Puny. Injury: not written.
+Bestiary mass 8–15 kg. Sheet uses 12 kg.
+Length 2–3 ft.
+Locked name: Hill-host. Spoken: the stream,
+grain-thief. Do not write Giant Ant.
+This file is the Vorax worker.
+
+  S  25    (45 − 20 Size)
+  Per 25
+  T  30    (50 − 20 Size)
+  Fel 5
+  Int 5
+  Ag  40
+  WP  15
+  WS  30
+  BS  5
+  Attacks 1
+
+  SB 4     TB 3
+  M  2.0   Agility 40 ÷ 10, then Size −2
+  NAC 2
+  Wounds 4     floor(TB × 3 × 0.50)
+  Initiative  40 + 1d10
+
+Movement. Sheet reference. Not live.
+Agility and Fatigue do not rewrite this.
+  Half        4 yards
+  Full        8 yards
+  Charge      8 yards
+  Jump / Leap 6 yards running, 3 standing
+  Run         12 yards
+
+A man striking this body: −20.
+This body striking a man: +20.
+A line is numbers, not a larger body.
+
+--------------------------------------------------
+NATURAL ARMOUR
+--------------------------------------------------
+
+  Dull plate (3/2/2)
+  Slots: the body. Eyes and the
+  underside joints are the gaps.
+  NAC is already 2. Do not add it twice.
+
+--------------------------------------------------
+SKILLS
+--------------------------------------------------
+
+  Athletics (X)      40
+  Awareness (X)      25
+    The line. Grain. A boot on the trail.
+  Concealment (X)    40
+    In the spoil and the dark of a floor.
+
+No Parry. No speech.
+
+--------------------------------------------------
+ATTACK PROFILE
+--------------------------------------------------
+
+  Shears                  Natural
+    (1/0/0)  Reach 0.5   Cut
+    1d10 + SB. No Parry. No Disarm
+    unless the head is off.
+    It cuts grain, sacking, and a
+    hand in the way. It does not spray.
+    The soldier has the acid.
+
+--------------------------------------------------
+TRAITS
+--------------------------------------------------
+
+  Dweller (warm soil, granary, yard, packed road)
+    Temperature 3–5. A store is a lure.
+  Wall-Runner
+    A wall, a sack-stack, a rafter.
+  Bestial
+  Fear (1)
+    One is a fright. The line is the nerve.
+
+--------------------------------------------------
+BEHAVIOUR PROFILE
+--------------------------------------------------
+
+Dumb labour. No chief a man can parley with.
+It finds grain, dried meat, a carcass, a
+rival hole. It cuts and it carries. A sheep
+in the hole is taken apart. It is not
+swallowed whole.
+
+Leave the nest and the line ignores the road.
+Strike the line, the store, or the door and
+this body does not hold. Soldiers come.
+Dawn often ends the raid.
+
+Hurt: it does not stand. It goes for the hole.
+Harm is low for one. Collective 7 is the nest.
+
+--------------------------------------------------
+RUN
+--------------------------------------------------
+
+One shear. It does not Parry. It may Dodge
+on 40. A blow that empties 4 drops it.
+Fire and boiling water at the door. Pouring
+the nest is the end. This body is the tax.
