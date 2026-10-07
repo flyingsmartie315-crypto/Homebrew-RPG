@@ -21,6 +21,7 @@ GM META — ORIGIN
 Same Second Wave Ingenari stock as the Isernvolk.
 Not Jarnvard’s wing. Not Osric’s vanguard.
 A smaller splinter tracked too far south down the western coast while the main host held the Ebon line.
+First landing in Holtwald: 997 B:E. The year after the schism and the Ebon landing. World_Calendar.txt.
 The fertile dry lowlands of Valenidia were already locked by Idraulici masonry. They would not bend the knee to Ordinari charter.
 They took the rain-pocket no one else wanted: Holtwald.
 
@@ -110,4 +111,4 @@ File path when committed:
 Master/World/Cultures/Peoples/Early/Peoples_Hyrstwoods.txt
 
 A third Isern piece, not a third king-brother.
-Osric and Jarnvard remain the schism of the fleet. This is a forgotten boat that missed both shores.
+Osric and Jarnvard remain the schism of the fleet, 996 B:E. This is a forgotten boat that missed both shores. Holtwald, 997 B:E.

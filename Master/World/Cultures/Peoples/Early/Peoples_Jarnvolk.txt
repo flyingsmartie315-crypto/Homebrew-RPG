@@ -11,7 +11,7 @@ Jarns / Jarnfolk (Isern and southern speech).
 The lost wing (old Isern mourning-name; they do not know it still lives).
 
 What this file is
-The first Isern offshoot. Jarnvard’s rear wing of the trans-oceanic crossing, spent onto Dauðavík and forced into a polar life the Ebon line never had to learn.
+The first Isern offshoot. Jarnvard’s rear wing of the trans-oceanic crossing, spent onto Dauðavík in 996 B:E and forced into a polar life the Ebon line never had to learn.
 Same root stock as the Isernvolk. Speech leans harder into the Scandi base; Anglo-Germanic is the quieter cousin, not the house-voice.
 They make a better ship, not a super one.
 
@@ -20,6 +20,7 @@ GM META — ORIGIN
 --------------------------------------------------
 Same Second Wave Ingenari stock as the Isernvolk.
 The split is not blood-law. It is a storm, a current, and a brother who put ashore.
+Year 996 B:E. Same year as Osric’s Ebon landing. World_Calendar.txt.
 Osric held the Ebon Latitude Line and landed the peninsula.
 Jarnvard could not recover the heading. About 2,400 miles north of the intended track he took the ice-rim rather than die on broken spars.
 
@@ -116,7 +117,7 @@ House files later if a lasting seat is locked.
 --------------------------------------------------
 PERSONS OF NOTE
 --------------------------------------------------
-- Jarnvard — younger brother of High King Osric. Commands the rear wing. Puts ashore at Dauðavík. Founder in Jarn memory.
+- Jarnvard — younger brother of High King Osric. Commands the rear wing. Puts ashore at Dauðavík in 996 B:E. Founder in Jarn memory.
 - Osric — kept the easterly line. Full entry: Peoples_Isernvolk.txt.
 - Sindri Vindvari — Windcaller. Second-war warlord. Sails past the intended peninsula diversion and burns the Vayrac berths. Takes two Osricford cogs. The Three Hundred are his chronicle-count. This is first loud contact with the living Isern south.
 
@@ -156,7 +157,7 @@ Standalone. Does not replace prior sections. Empty lines mean the point is not l
 * The Afterlife: Not locked.
 7. Language, Lore, & Transmission of Knowledge
 * Linguistic Style: Scandi-heavy on the old Isern mix.
-* Mythology & History: The storm, the 2,400-mile northing, Dauðavík as where ice dies. Sindri as first loud southern ghost.
+* Mythology & History: The storm, the 2,400-mile northing, ashore at Dauðavík in 996 B:E. Dauðavík as where ice dies. Sindri as first loud southern ghost.
 * Education: Ship, grove, trench-field.
 8. Leisure, Art, & Material Culture
 * Artistic Mediums: Not locked. Timber-work is survival first.

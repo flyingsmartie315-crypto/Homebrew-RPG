@@ -25,8 +25,12 @@ western shore. Osric. Osricford. The
 compact is in Peoples_Isernvolk.txt.
 The mutual aid that made the alliance
 hold was the cleansing of this herd.
-Two small peoples. Centuries of grinding
-fight. Not one battle.
+Isern name: the Great Clearing.
+Kannavi name: the Breaking of the Horns.
+Start measured from the landing, 996 B:E.
+End declared by Dar Emait Grimwald, 196 A:D.
+First Dar Waldward: Arnulf Vatnhar.
+Not one battle.
 
 A hundred skinwights hanged at the landing
 is the other founding. Do not swap them.

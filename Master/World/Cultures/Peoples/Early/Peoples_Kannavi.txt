@@ -153,9 +153,9 @@ LANDING HISTORY — ISERNVOLK AND THE TAMING
 Once the entire Ebon Peninsula was nearly as densely forested as the Deepwood remains.
 The Kannavi were small and scattered. The woods were not empty of Unveiling perils. Their year was a struggle to stay human in canopy that did not always stay a wood.
 
-The Isernvolk landed and aided their fellow man.
+The Isernvolk landed in 996 B:E and aided their fellow man.
 They did not land to a Whitmark war. They landed to a green country that needed iron, fire, and numbers.
-The mutual aid the alliance was built on was the cleansing of the Cloven. Bestiary_Cloven.txt. The height of the dark ages. The herd was thick on the peninsula when the wood was still the wood. The Kannavi knew the canopy. The Isern brought iron and numbers that grew. Centuries of grinding fight. A stone pulled down. A band burned out. A winter that thinned what the steel had not. Not one battle.
+The mutual aid the alliance was built on was the cleansing of the Cloven. Bestiary_Cloven.txt. The height of the dark ages. The herd was thick on the peninsula when the wood was still the wood. Kannavi call it the Breaking of the Horns. Isern call it the Great Clearing. The start is measured from the landing, 996 B:E. The end was declared by Dar Emait Grimwald in 196 A:D. The first Dar Waldward, Arnulf Vatnhar, is the canopy name on that war. The Kannavi knew the canopy. The Isern brought iron and numbers that grew. A stone pulled down. A band burned out. A winter that thinned what the steel had not. Not one battle.
 Over centuries the peninsula was tamed. Floors opened. Shores worked. Pits cut. The Deepwood is what the taming did not finish.
 They were near exterminated. Small bands persist in the deepest reaches. A herdstone in that deep is a remnant, not a realm. The Kannavi still keep the canopy against it. That is the duty in the compact, thinned, not a new war.
 
@@ -184,6 +184,7 @@ Act 2
 - Ketil Stavn — advises Askel.
 
 Osric — Isern landing-king. Compact partner. Full entry: Peoples_Isernvolk.txt.
+Arnulf Vatnhar — first Dar Waldward. The canopy name on the Breaking of the Horns. The end of that war was declared by Dar Emait Grimwald in 196 A:D. The start is measured from the landing, 996 B:E.
 
 
 --------------------------------------------------
@@ -221,7 +222,7 @@ Standalone. Does not replace prior sections. Empty lines mean the point is not l
 * The Afterlife: Not locked.
 7. Language, Lore, & Transmission of Knowledge
 * Linguistic Style: Syllvani under Nordic layer. Not Jarnfolk. Not Plateau ll/dd/rh as default.
-* Mythology & History: Taming of the peninsula. Compact. Skinwights hanged. The Cloven cleansing, centuries, near extermination, remnant bands in the deep. Deepwood as what the axes did not finish.
+* Mythology & History: Taming of the peninsula. Compact. Skinwights hanged. The Breaking of the Horns, the Great Clearing, from the landing in 996 B:E to Grimwald’s end-declaration in 196 A:D. Arnulf Vatnhar on the canopy. Near extermination, remnant bands in the deep. Deepwood as what the axes did not finish.
 * Education: Bow, kiln, wood-right.
 8. Leisure, Art, & Material Culture
 * Artistic Mediums: Stave and bow.

@@ -54,6 +54,7 @@ Will form one of the two main linguistic-cultural poles of the “fantasy Europe
 --------------------------------------------------
 THE TRANS-OCEANIC SCHISM
 --------------------------------------------------
+Year 996 B:E. World_Calendar.txt. The year of the fracture and of the Ebon landing.
 The Isern crossing of the Atlantic-scale ocean is the first fracture of the blood.
 The fleet tracked the Ebon Latitude Line — cool temperate maritime corridor.
 A multi-week polar storm and a north-setting current took the rear wing off that line.
@@ -62,7 +63,7 @@ They did not recover the heading. They were spent onto the ice-rim, some 2,400 m
 
 Jarnvard put ashore. Masts gone. Winter on them. The ships would not live on the open current.
 Osric kept the vanguard on the easterly path. He would not turn into unmapped arctic mist.
-Osric’s hulls grounded on the Ebon Peninsula. Landing-seat: Osricford / Ocs Landing.
+Osric’s hulls grounded on the Ebon Peninsula in 996 B:E. Landing-seat: Osricford / Ocs Landing.
 
 The distance and the unmapped grid did the rest.
 Osric’s people counted Jarnvard’s fleet dead in the ice. They mourned them as ghosts.
@@ -78,7 +79,7 @@ MARK HISTORIES — EBON PENINSULA
 The Ebon Peninsula was once nearly as densely forested as Kannavald Deepwood still is.
 The Kannavi were already there: small, scattered, in constant struggle against Unveiling perils in the woods.
 
-Isernvolk landed at the western shore and aided their fellow man.
+Isernvolk landed at the western shore in 996 B:E and aided their fellow man.
 First Dar Emait in this history: Osric.
 Landing-seat: Osricford. Common and older shore-name: Ocs Landing.
 
@@ -89,7 +90,7 @@ The colours stay in the cloth. Even when dyes are cheap, Isern dress on the peni
 
 There a hundred skinwights were hanged. That hanging is told as a founding of the tamed peninsula.
 The other founding is the long one. The mutual aid the alliance was built on was the cleansing of the Cloven. Beastmen. Bestiary_Cloven.txt. The height of the dark ages is that herd. They were thick when the wood was still the wood. Imp on the pale. Brute in the break. The stone-bull on the herdstone. The rest of the castes in the deep, as those pages name them.
-Osric’s compact is the landing. The work of it was centuries of grinding fight. Not one battle. Bands, burns, a stone pulled down, a gallery filled, a winter that thinned a brood and a spring that did not. Isern iron and Kannavi knowledge of the canopy. Neither finished it alone.
+Isern call it the Great Clearing. Kannavi call it the Breaking of the Horns. Both names are the same war. Declared by Dar Emait Grimwald and the first Dar Waldward, Arnulf Vatnhar. Near eight hundred years. Not one battle. Bands, burns, a stone pulled down, a gallery filled, a winter that thinned a brood and a spring that did not. Isern iron and Kannavi knowledge of the canopy. Neither finished it alone.
 They were near exterminated. Small bands persist in the deepest reaches. A herdstone there is a remnant, not a realm. Peninsula folk know the caste names. They do not know a host. A host is the dark-age memory. A raid out of the deep is the old war, thin.
 
 Over centuries the peninsula was opened. Floors, strands, and pits became Isern work. The Deepwood is what the taming did not finish.
@@ -166,7 +167,7 @@ List locked ethnic groups below as they are written.
 Early offshoots may live as their own Peoples_[Name].txt under Early when they are a full stock, not only a local mark-flavour.
 
 - Jarnvolk — first offshoot. Dauðavík. Polar, raid-and-trade. Scandi-heavy speech. File: Peoples_Jarnvolk.txt
-- Hyrstwoods — wet-south splinter. Holtwald. File: Peoples_Hyrstwoods.txt
+- Hyrstwoods — wet-south splinter. Holtwald. First landing 997 B:E. File: Peoples_Hyrstwoods.txt
 - Adernvolk / Adelings — Coritania occupying elite; Whitmarks by look; later absorbed by the Cortani. File: Peoples_Adernvolk.txt
 - Peninsula Isernvolk — Ebon Peninsula marks; landing-king Osric of Osricford / Ocs Landing; the Eyrenhost at Eyrenal. No separate people-file yet.
 
@@ -175,7 +176,9 @@ Branches differ by which mark or shore they hold and how strongly they lean on i
 --------------------------------------------------
 PERSONS OF NOTE
 --------------------------------------------------
-- Osric — High King of the crossing. First Dar Emait of the landing. Holds the Ebon line. First Isernvolk king in peninsula memory. Seat: Osricford / Ocs Landing. Hanged a hundred skinwights. Landing compact with the Kannavi. The compact’s first work was the cleansing of the Cloven, centuries of grinding fight. Counts Jarnvard’s wing dead.
+- Osric — High King of the crossing. First Dar Emait of the landing. Holds the Ebon line. First Isernvolk king in peninsula memory. Seat: Osricford / Ocs Landing. Hanged a hundred skinwights. Landing compact with the Kannavi. Counts Jarnvard’s wing dead.
+- Grimwald — Dar Emait. Declared the end of the Great Clearing, the Breaking of the Horns, in 196 A:D. The start of that war is measured from the landing, 996 B:E.
+- Arnulf Vatnhar — first Dar Waldward. Kannavi. The canopy name on that war. Full line: Peoples_Kannavi.txt.
 - Jarnvard — Osric’s younger brother. Rear wing of the crossing. Puts ashore at Dauðavík. Full entry: Peoples_Jarnvolk.txt.
 - Harthold — Dar Emait of the first host into Coritania. Took Aderhall and Berthall. Died at Harthold’s Folly. Buried in Harthold’s Barrow.
 Act 2
@@ -261,7 +264,7 @@ Standalone. Does not replace prior sections. Empty lines mean the point is not l
 * The Afterlife: Not locked.
 7. Language, Lore, & Transmission of Knowledge
 * Linguistic Style: Anglo-Germanic-Scandi. Old Germanic first on early names. Worn contemporary Isern.
-* Mythology & History: Crossing, Osric, lost Jarnvard wing mourned as dead, taming of the peninsula, Whitmark wars.
+* Mythology & History: Crossing and schism, 996 B:E. Osric’s Ebon landing the same year. Lost Jarnvard wing mourned as dead. Hyrstwoods take Holtwald 997 B:E. The Great Clearing, the Breaking of the Horns, near eight hundred years, Grimwald and Arnulf Vatnhar. Taming of the peninsula. Whitmark wars.
 * Education: Counting-house, foundry, levy-drill. Not locked as a school-system.
 8. Leisure, Art, & Material Culture
 * Artistic Mediums: Black-and-white cloth and arms. Whitewash and timber-on-stone in the Coritanian offshoot.
