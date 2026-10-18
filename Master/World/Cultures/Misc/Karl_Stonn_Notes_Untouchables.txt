@@ -1,0 +1,182 @@
+# Karl_Stonn_Notes_Untouchables.txt
+# Notes on the Sickness of the Empty Cradle
+# The Still-born. The Atraxi.
+# Trait not implemented. Framework only.
+# Companion: Core_Talents_Failings_Afflictions.txt
+# Companion: The_Unveiling.txt
+# Companion: World_Fundamentals.txt
+
+--------------------------------------------------
+THE NOTES
+--------------------------------------------------
+
+Of all the delusions that haunt the frontier, none is
+so persistent, yet so thinly documented, as the myth
+of the Still-born. In the common taverns of the
+lowlands, they are spoken of in whispers alongside
+skinwights and bog-sprites — creatures of the
+campfire rather than the ledger. Indeed, their very
+existence is mathematically improbable, for they
+rarely outlive the cradle.
+
+Throughout my travels across the mountain rims, I
+have recorded nineteen distinct instances of a
+singular maternal malady, which the local mid-wives
+name The Mother’s Chill, or The Milk-Souring. It
+manifests not as a fever of the blood, but as a
+sudden, unnatural horror of the newborn. In every
+account, a mother — having delivered a physically
+unblemished child — will flatly refuse to touch or
+nourish it. They describe a creeping nausea in its
+proximity, an instinctual dread that mimics a
+profound, unnatural madness of the mind. Abandoned
+by the very breast that should give them life,
+these wretched babes almost invariably wither
+before their first Thaw.
+
+Yet, a thread of speculation remains among the
+older text-fragments. In a ruined ledger from some
+forgotten, long-dead kingdom, I found a single word
+scrawled beside a census deficit: Atraxi. The
+scribe offered no definition, but the root hints at
+an ancient tongue — a word for absolute, unbothered
+stillness.
+
+The accounts I have spent years collecting from
+far-flung settlements offer no consensus on what an
+Atraxi truly is. The isolated forest-dwellers of
+the high plateau swear they are individuals whose
+bloodlines were clogged with dead earth when the
+first ancestors fell from the sky, leaving them
+spiritually deaf to the world. Conversely, the
+deep-miners of the western peaks claim they are not
+cursed at all, but rather men born with
+"iron-minds" that are simply too dense to feel the
+weight of regular prayer. It is a tapestry of
+contradictions and old grandmother's tales.
+
+I, too, shared the common scholarly disdain for
+these legends, until my third winter. I was
+travelling through the Appolasian Plateau — that
+dense, lightless forest highland entirely enclosed
+by vast, near-impassable mountain ranges. It is a
+notoriously ill-omened country, a known hotspot
+where the veil of the world is dangerously thin and
+the unseen world constantly presses against the
+minds of men.
+
+My horse had thrown me down a shale-bank during a
+sudden alpine squall, shattering my thigh. I would
+have belonged to the wolves had I not been dragged
+into a hovel by a mountain hermit.
+
+He was a man utterly crude and uncouth, barely
+civilised, living in a filth that spoke of decades
+without the tempering company of his fellow man. He
+possessed a strange, practical intelligence — how
+could he not, living by himself in such cursed
+ground? He set my bone with rough precision and
+bound it in clean poultices — yet from the moment I
+woke in his shelter, I found him entirely
+unendurable.
+
+It was a wretched, ungrateful impulse. Every
+logical faculty told me I owed this man my life,
+yet his very presence filled my chest with a
+suffocating, irrational hostility. I told myself it
+was his coarse manners, his foul breath, and his
+total lack of polite reserve that repulsed me. I
+rationalised my sickness as the lingering trauma of
+the fever. Yet were it not for my wound, I'd have
+sooner faced the dark woods alone than share a fire
+with that thing.
+
+Some months passed. Forced into proximity, I came
+to learn this man could speak. We conversed with
+some difficulty; my mastery of the difficult
+Syllvani dialect and his primitive development made
+his company all the more difficult.
+
+But on our fourth night together, when the weather
+cleared, and the False Moon rose, throwing its
+irregular, sickly light across the dense canopy and
+hanging over us like the headman's axe, I noticed
+something.
+
+In those specific highlands, when that celestial
+anomaly looms, the shadows are known to creep. The
+air usually grows thick, and men hear the whispers
+of things that do not belong to steel or stone. It
+is a place where a man's thoughts are never
+entirely his own. Yet, sitting in that paltry
+lean-to, I realised the woods had gone completely,
+terrifyingly dead. The darkness did not press
+against our fire. The shadows remained mere
+geometric lines on the dirt, fixed and unmoving
+under the cast of the light. The heavy, whispering
+background hum of the plateau had been utterly
+choked out, replaced by a vacuum centred entirely
+on the old man scrubbing a cooking pot and cursing
+when he stubbed his toe.
+
+He never spoke to me of what he was in any detail.
+He likely did not know. Even his given name was
+elusive to him; his name I learned was likely
+Idras, inferred from him calling himself Id.
+
+He merely sat in his chosen exile, distant and
+contemplating, entirely isolated from a world that
+could not love him if they tried. We parted when
+the Thaw came, and I left him a purse of coin he
+did not seem to want.
+
+I write these lines now from the comfort of a quiet
+library, yet the remorse remains like a scar upon
+my spirit. I hated him for his lack of a soul,
+while he, with his crude and clumsy hands, showed
+me the only charity I found in those mountains. We
+are cruel, governed by the invisible strings of a
+sky we do not understand, and I fear our pity for
+the Atraxi is nothing compared to the quiet,
+unyielding tragedy of their days.
+
+--------------------------------------------------
+META — THE TRAIT
+--------------------------------------------------
+
+Still Born. Spoken: Atraxi. The empty cradle.
+Not implemented. These notes are the start.
+
+Tiers exist. Not locked.
+
+  Minor
+    Can live as a reclusive loner inside the
+    bounds of civilisation.
+    −30 Fellowship.
+    The Mother’s Chill is the birth sign.
+    Most die in the cradle. The ones who do not
+    are the ones a settlement can almost bear.
+
+  Pronounced
+    Idras is this. The presence is unendurable
+    without a wound or a duty that forces the
+    company. Exile is the ordinary end.
+    The number is not locked.
+
+  Rumor
+    Some are said to drive a man into irrational
+    fear or frenzy by being present.
+    Not confirmed. Not a number.
+
+The effect on the Unveiling is observed, not
+ruled. In Idras’s case, under the False Moon on
+the Appolasian Plateau, the press of the veil
+died in his presence. Shadows stayed shadows.
+The hum stopped. How far that reaches, what it
+costs, and whether it is a dispel or a blank
+spot, is not written.
+
+Do not invent the mechanic until the trait is
+locked. The Mother’s Chill, the census word
+Atraxi, and the Idras winter are the evidence.
+The rest is tavern.

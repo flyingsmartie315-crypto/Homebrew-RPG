@@ -211,14 +211,17 @@ Shock roll per Degree of Failure.
 
 The mass is there. The outline is not
 a barn. (x) offsets the Size to-hit
-bonus against this body, the Size
-penalty when this body strikes a
+bonus against this body, the Size BS
+penalty when this body shoots a
 smaller target, and the Size stealth
 penalty on it.
 Core_Characteristics_Skills.txt §3.
 It does not change Size.
 It does not stack past the Size number.
-A Size 7 body is +30 to be hit, −30
-to strike a man, and −30 to hide.
-Fluid Bulk (20) leaves +10, −10,
+Melee has no Size penalty for striking
+smaller, so Fluid Bulk has nothing to
+offset on a WS test.
+A Size 7 body is +30 to be hit, −30 BS
+to shoot a man, and −30 to hide.
+Fluid Bulk (20) leaves +10, −10 BS,
 and −10. Floor 0.

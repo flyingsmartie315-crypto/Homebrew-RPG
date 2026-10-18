@@ -48,8 +48,8 @@ Agility and Fatigue do not rewrite this.
   Jump / Leap 14 yards running, 7 standing
   Run         30 yards
 
-To-hit against a man (Size 4): +40.
-A man shooting this troll: +40 BS.
+A man striking this body: +40 WS or BS.
+This body striking a man: +0 WS, −40 BS.
 Same Size: +0.
 
 A light adult at 1,200 kg is Size 7.
