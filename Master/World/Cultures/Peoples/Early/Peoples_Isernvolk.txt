@@ -76,34 +76,62 @@ Island lock: Dauðavík — the Dead-Bight / the Killing Gulf. Where the ice die
 --------------------------------------------------
 MARK HISTORIES — EBON PENINSULA
 --------------------------------------------------
-The Ebon Peninsula was once nearly as densely forested as Kannavald Deepwood still is.
-The Kannavi were already there: small, scattered, in constant struggle against Unveiling perils in the woods.
+The Ebon Peninsula was once nearly as densely forested as Kannavald Deepwood still is. The Kannavi were already there: small, scattered, in constant struggle against Unveiling perils in the woods.
 
-Isernvolk landed at the western shore in 996 B:E and aided their fellow man.
-First Dar Emait in this history: Osric.
-Landing-seat: Osricford. Common and older shore-name: Ocs Landing.
+Isernvolk landed at the western shore in 996 B and aided their fellow man. First Dar Emait in this history: Osric. Landing-seat: Osricford. Common and older shore-name: Ocs Landing.
 
-First sight of the settled land: the Ebon Spire, black, with the white sun on its crown in the east.
-The fleet came from the western ocean. The continent lay ahead, eastward. Dawn stood behind the mountain. That is Earth-normal sky. Do not reverse the sun for this image — a west-rising sun would crown the sea behind the hulls, not the Spire.
-Osric took that sight as his arms: black shield-mountain, white sun in the east. Isern heraldry of the peninsula still carries it.
-The colours stay in the cloth. Even when dyes are cheap, Isern dress on the peninsula runs black and white — direct, unambiguous, harsh contrast. The people like the look because it is the look.
+The landing was not a military expedition in the later sense. Osric had his retainers and fighting men, but the crossing had brought families, craftspeople, and children as well as warriors. These were people who had crossed an ocean to make a home. They had not arrived with an army sufficient to conquer a continent. The army would have to be made from the people who survived there.
 
-There a hundred skinwights were hanged. That hanging is told as a founding of the tamed peninsula.
-The other founding is the long one. The mutual aid the alliance was built on was the cleansing of the Cloven. Beastmen. Bestiary_Cloven.txt. The height of the dark ages is that herd. They were thick when the wood was still the wood. Imp on the pale. Brute in the break. The stone-bull on the herdstone. The rest of the castes in the deep, as those pages name them.
+First sight of the settled land: the Ebon Spire, black, with the white sun on its crown in the east. The fleet came from the western ocean. The continent lay ahead, eastward. Dawn stood behind the mountain. That is Earth-normal sky. Do not reverse the sun for this image — a west-rising sun would crown the sea behind the hulls, not the Spire.
+
+Osric took that sight as his arms: black shield-mountain, white sun in the east. Isern heraldry of the peninsula still carries it. The colours stay in the cloth. Even when dyes are cheap, Isern dress on the peninsula runs black and white — direct, unambiguous, harsh contrast. The people like the look because it is the look.
+
+The First Years
+
+The first years were years of exploration, building, and learning what could safely be held. The Isern found that the peninsula was not empty wilderness. The Deeps beneath the Spire were infested with beastmen: the Cloven, an intelligent and organised adversary whose presence made the forest itself a military problem. Skinwights were fewer, but their rarity did not make them less terrifying. Spiders were a danger too, though one that a prepared party could meet with more ordinary precautions.
+
+The first priority was not conquest for its own sake. It was to clear ground that could be lived on, fortify what had been cleared, and consolidate each gain before reaching farther. A settlement that could not defend its stores, its people, and its approaches was not secure simply because its walls had been raised. The early villages bore the character of small military outposts. Their people had essential duties: maintaining defences, keeping supplies, making and repairing tools, watching approaches, and contributing to the work of holding the ground around them. Survival was not a task that could be left to the king's household or a handful of retainers.
+
+The Varda and its branches were, for a long time, the only reliable means of travelling any great distance without exposing a party to the dangers of the woods. The rivers were roads through a country that otherwise resisted movement. They connected settlements, carried stores and materials, and allowed people to reinforce one another. Away from them, distance could mean isolation; isolation could mean a settlement had to face what came out of the forest with only the people and supplies already inside its defences.
+
+Caer Varn / Karvarn
+The oldest human settlement in the geographic region stands on the southern bank of Lake Holtau, roughly 370 miles up the Varda from the western shore. Holtau covers about 190 square miles and lies beneath the shadow of the Ebon Spire. Before the Isern landing, the Kannavi held a vast, tiered hillfort there, surrounded by cultivated agricultural land. Earlier encounters had occurred, but the Kannavi had largely remained elusive and distant; at Caer Varn, the first Isern explorers met them in strength.
+For the Kannavi, this was their last major holdout against the Cloven hordes. Its impressive defences could not prevent the stronghold from being surrounded and slowly suffocated. It was not an empty site founded by Osric’s people: it was an established Kannavi centre, and the later Highmarch grew from the encounter and alliance between the peoples.
+The original name, Caer Varn, gradually became Karvarn through drift toward Isern speech. Karvarn is the modern capital of Highmarch. The region’s Kannavi-Isern fusion distinguishes it from the more Isern Ardairn Valley. This was a gradual linguistic change, not a formal renaming. The exact Kannavi etymology and sound changes remain open.
+
+The Isern response was to make readiness a communal obligation. The danger was too persistent for a warrior caste alone to answer it. Every able community member had a part in keeping the settlement alive, while the fighting strength grew from the population itself. From this necessity came the martial custom later associated with the Isernvolk: the expectation that a man, upon reaching sixteen, would be inducted into the armed service of his people. The precise arrangements of that service changed with time and place; the principle beneath it endured. Defence was a common burden, not merely the profession of those born to arms.
+
+This pressure also favoured central authority. Osric and those who followed him could demand coordination, supplies, labour, and service because the danger was shared and immediate. A failure to prepare one settlement could endanger its neighbours; a broken line or wasted store could cost more than the lives of those directly responsible. Authority proved itself by organising survival. The crown's strength was not only the strength of its retainers, but its ability to bind scattered communities into a people capable of holding ground together.
+
+The culture that grew from these years was alert, practical, and publicly restrained. Work had to be done; stores had to last; watches had to be kept. Fear was unavoidable, but panic could spread faster than an enemy and leave a settlement unable to act. Displays of anger, despair, or reckless confidence could all damage the steadiness on which others depended. The reserve later prized in polite Isern society was not born fully formed at the landing. It grew from generations in which each person's conduct could affect the survival of the whole.
+
+The Cloven left a deeper mark still. They were not simply dangerous animals to be driven from useful land, but an intelligent enemy encountered in repeated, brutal conflict. The hatred they inspired became bound to the things they represented: the threat beneath the canopy, the destruction of hard-won security, and the possibility that a community's labour might be undone in a single raid. Their defeat was therefore more than a military objective. It became a measure of whether the peninsula could truly be made a home.
+
+In the early years, horned skulls began to appear along palisades and on paths outside settlements. They warned of what remained in the woods, commemorated those who had survived the encounters, and declared that the settlement had not yielded. In time, such displays became part of the remembered face of the peninsula: a visible answer to the forest and to the things that claimed it. The practice endured beyond the circumstances that first made it necessary.
+
+The hundred skinwights hanged at Osricford belong to this same founding memory, though they are not the Cloven and should not be confused with them. That hanging is told as a founding of the tamed peninsula. The other founding is the long one.
+
+The Great Clearing
+
+The mutual aid the alliance was built on was the cleansing of the Cloven. Beastmen. Bestiary_Cloven.txt. The height of the dark ages is that herd. They were thick when the wood was still the wood. Imp on the pale. Brute in the break. The stone-bull on the herdstone. The rest of the castes in the deep, as those pages name them.
+
 Isern call it the Great Clearing. Kannavi call it the Breaking of the Horns. Both names are the same war. Declared by Dar Emait Grimwald and the first Dar Waldward, Arnulf Vatnhar. Near eight hundred years. Not one battle. Bands, burns, a stone pulled down, a gallery filled, a winter that thinned a brood and a spring that did not. Isern iron and Kannavi knowledge of the canopy. Neither finished it alone.
+
 They were near exterminated. Small bands persist in the deepest reaches. A herdstone there is a remnant, not a realm. Peninsula folk know the caste names. They do not know a host. A host is the dark-age memory. A raid out of the deep is the old war, thin.
 
 Over centuries the peninsula was opened. Floors, strands, and pits became Isern work. The Deepwood is what the taming did not finish.
+
 The Kannavi — Hollow-folk, cousins in custom to the Still Stones — were raised into alliance and standing. They were not erased. Outside the Deepwood they became a distinct minority. Inside it they remain the majority.
-The first years were amicable: two small peoples against a bad wood.
-Later the Kannavi resented how Isernvolk grew and consumed. They still honour the ancient alliance. They became isolationist and fiercely independent. Careless Isern are reminded where Kannavald’s borders are.
+
+The first years were amicable: two small peoples against a bad wood. Later the Kannavi resented how Isernvolk grew and consumed. They still honour the ancient alliance. They became isolationist and fiercely independent. Careless Isern are reminded where Kannavald’s borders are.
+
 Isernvolk, for their part, call them harsh and aloof, a little odd, and honest to a fault — outsiders who remain allies.
 
 Eyrenal was already a remnant megastructure. Isernvolk colonised the hanging vale.
-There an Isern lord bonded a gryphon and became the first rider. That bond is the seed of the Order.
-Gryphons are earthbound. Leap and shock. Not royal flight. Not a sky-host.
-Early riders were the Eyrenhost, not knights. That name predates Knights Gryphon and is still used in contemporary speech for the vale-host.
-The knightly tradition comes later, from Coritania. Knights Gryphon is the later style. Eyrenhost remains the older and living name.
+There an Isern lord bonded a gryphon and became the first Isern rider. That bond is the seed of the Order, not the beginning of gryphon-riding itself: the Kannavi were the original riders.
+At first contact at Caer Varn, the Kannavi ruler Arthos was the legendary rider of the Royal Gryphon, Adain Gwyn (pronounced *Ad-ay-n Gwin*), “White Wing,” whose feathers were white and fur golden. Arthos, his circle of warriors, and their gryphons were remembered as vital to humanity’s survival against the Cloven beastmen.
+For both Isern and Kannavi, the gryphon is sacred, embodying nobility, prowess, and loyalty. Gryphons are earthbound: leap and shock, not royal flight or a sky-host.
+The early and living name for the Isern host is the Eyrenhost, not knights. The knightly tradition comes later, from Coritania; “Knights Gryphon” is the later style. Eyrenhost remains the older and living name for the vale-host.
 
 Detail lives in Peoples_Kannavi.txt and the Eyrenal / Order files when those are written.
 
@@ -179,6 +207,7 @@ PERSONS OF NOTE
 - Osric — High King of the crossing. First Dar Emait of the landing. Holds the Ebon line. First Isernvolk king in peninsula memory. Seat: Osricford / Ocs Landing. Hanged a hundred skinwights. Landing compact with the Kannavi. Counts Jarnvard’s wing dead.
 - Grimwald — Dar Emait. Declared the end of the Great Clearing, the Breaking of the Horns, in 196 A:D. The start of that war is measured from the landing, 996 B:E.
 - Arnulf Vatnhar — first Dar Waldward. Kannavi. The canopy name on that war. Full line: Peoples_Kannavi.txt.
+- Arthos — Kannavi ruler at first contact at Caer Varn and legendary original gryphon rider. Rode the Royal Gryphon Adain Gwyn (“White Wing”). Arthos and his circle of gryphon-riders are remembered as vital to humanity’s survival against the Cloven. Full account: Peoples_Kannavi.txt.
 - Jarnvard — Osric’s younger brother. Rear wing of the crossing. Puts ashore at Dauðavík. Full entry: Peoples_Jarnvolk.txt.
 - Harthold — Dar Emait of the first host into Coritania. Took Aderhall and Berthall. Died at Harthold’s Folly. Buried in Harthold’s Barrow.
 Act 2

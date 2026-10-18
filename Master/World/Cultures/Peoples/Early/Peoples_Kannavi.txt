@@ -17,7 +17,7 @@ Scattered across the peninsula at large as a distinct minority.
 Still the majority in the Kannavald Deepwood local region.
 Largely absorbed elsewhere into Isernvolk farm, town, and pit country.
 Wood-edge trades remain their tell: lumber, trapping, charcoal, bowyery.
-Linguistic base: Syllvani under a Nordic layer.
+Linguistic base: a modern blend of the original Kannavi Syllvani Romance (melodic in character) and the older Isern dialect, with its Germanic-Scandinavian roots.
 
 Coedani was a working proposal. Do not use it now.
 
@@ -36,7 +36,7 @@ The Kannavi were small, scattered, and in constant struggle against Unveiling pe
 When the Isernvolk landed they aided their fellow man. Over centuries the peninsula was tamed.
 The Hollow-folk — cousins in custom to the Still Stones — were raised from that struggle into alliance and standing. The stone-law was kept: do not approach.
 At Osricford (common: Ocs Landing) a hundred skinwights were hanged. Osric is locked as the first Isernvolk king in this people’s history.
-Eyrenal was already a remnant megastructure. Isernvolk colonised the hanging vale. There an Isern lord bonded a gryphon and became the first rider — the seed of the Order. Early name: the Eyrenhost. Not knights. Knights Gryphon is later Coritanian-influenced style. Eyrenhost is still said.
+Eyrenal was already a remnant megastructure. Isernvolk colonised the hanging vale. There an Isern lord bonded a gryphon and became the first Isern rider, founding the tradition that became the Order. He was not the first gryphon rider: the Kannavi had ridden gryphons long before this. The early and still-living name for the host is the Eyrenhost. Not knights. “Knights Gryphon” is a later, Coritanian-influenced style.
 
 Plateau Syllvani kept the basin and the record.
 Cortani kept the horse and the hill-hall.
@@ -91,18 +91,17 @@ A pit-reeve counts Isern. A wood-right counts Kannavi.
 --------------------------------------------------
 LINGUISTIC BASE
 --------------------------------------------------
-Under-speech: Syllvani — Romance, melodic, light old grove-words.
-Surface layer: Nordic. This is the Kannavi tell, and why Kannavald already sounds more like Kolvatn, Askflow, and Svarthorn than like Rhennod or a Plateau grove.
+Original foundation: Syllvani Romance, melodic in character, with old grove-words.
+Later influence: the older Isern dialect, Germanic-Scandinavian in character. Modern Kannavi speech blends both inheritances; it is not simply Syllvani beneath a Nordic layer.
 
 How to name
-- Wood, water, burn, and hamlet names may sit on Nordic roots over a Syllvani sense.
-- Soft Syllvani vowels can remain inside those names.
-- Do not write them as Jarnfolk. The Nordic layer is contact and long dwelling in cold forest, not a separate Isern branch.
+- Names may preserve melodic Syllvani forms alongside older Isern Germanic-Scandinavian forms and compounds.
+- Do not write them as Jarnfolk. Their Isern influence comes from prolonged contact and shared history, not from being a separate Isern branch.
 - Plateau ll / dd / rh is rare here. Hollow, vatn, beck, holm, and stave-words are common.
 
 Speech in practice
 Town and mark-law: Isern.
-Wood-hamlet: mixed. Nordic layer on Syllvani base, Isern creeping in from Kolby.
+Wood-hamlet: mixed speech, blending melodic Syllvani Romance inheritance with older Isern Germanic-Scandinavian forms; Isern influence grows toward Kolby.
 
 --------------------------------------------------
 CULTURE — LIVING MAJORITY IN THE DEEPWOOD
@@ -165,12 +164,17 @@ Osric is locked as the first Isernvolk king in Kannavi memory.
 His landing-seat: Osricford. Common and older shore-name: Ocs Landing.
 There a hundred skinwights were hanged. That hanging is a founding story of the tamed peninsula, told on both sides of the divide. The Cloven war is the other founding. The shore-story stays the hanging. The long war was in the trees.
 
+Arthos and Adain Gwyn
+At first contact at Caer Varn, the Kannavi were led by Arthos, a ruler remembered as a legendary figure and rider of the Royal Gryphon, Adain Gwyn (pronounced *Ad-ay-n Gwin*), meaning “White Wing.” Adain Gwyn had white feathers and golden fur. The Kannavi were the original gryphon riders. Arthos, his circle of warriors, and their gryphons were remembered as vital to humanity’s survival against the Cloven beastmen. This legacy remains shared by Isern and Kannavi: the gryphon is a sacred animal, embodying nobility, prowess, and loyalty.
+
+Caer Varn / Karvarn
+The oldest human settlement in the geographic region, on the southern bank of Lake Holtau, beneath the shadow of the Ebon Spire. The lake lies roughly 370 miles up the Varda from the western shore and covers about 190 square miles. Before Osric’s landing, Caer Varn was a major Kannavi hillfort: tiered and heavily worked, with cultivated land around it. Earlier encounters between Isern and Kannavi had occurred, but the Kannavi had mostly remained elusive and at a distance. Here the first Isern explorers met them in strength.
+For the Kannavi, Caer Varn was their last major holdout against the Cloven hordes. Its defences and cultivated lands were impressive, but it was surrounded and slowly being suffocated. The later alliance with the Isern grew from this wider struggle, not from the hillfort being an empty place awaiting settlement.
+The original name, Caer Varn, has drifted in Isern speech to Karvarn. Karvarn is the modern name and capital of Highmarch. The region’s mixed Kannavi-Isern identity distinguishes it from the more Isern Ardairn Valley. The name-change was gradual linguistic drift, not a formal renaming. The precise Kannavi etymology and sound changes remain open.
+
 Eyrenal
-Already a remnant megastructure. Isernvolk colonised the hanging vale.
-There an Isern lord bonded a gryphon and became the first rider. That bond is the seed of the Order.
-Early and living name: the Eyrenhost. Not knights.
-Knights Gryphon is the later style-name, after Coritanian influence.
-Eyrenhost predates that style and remains correct in contemporary speech for the vale-host.
+Already a remnant megastructure. Isernvolk colonised the hanging vale. There an Isern lord bonded a gryphon and became the first Isern rider; this bond seeded the Order, but did not begin gryphon-riding. The Kannavi were the original riders.
+The early and living name for the Isern host is the Eyrenhost. It was not originally a knightly order. “Knights Gryphon” is a later style-name, after Coritanian influence; Eyrenhost remains in contemporary speech for the vale-host.
 
 --------------------------------------------------
 PERSONS OF NOTE
@@ -183,6 +187,7 @@ Act 2
 - Askel Hallvardson of Westwood — firstborn. Leads the second-war longbow company.
 - Ketil Stavn — advises Askel.
 
+Arthos — Kannavi ruler at first contact at Caer Varn and legendary original gryphon rider. Rode the Royal Gryphon Adain Gwyn (“White Wing”), white-feathered and golden-furred. Arthos, his warrior circle, and their gryphons are remembered as vital to humanity’s survival against the Cloven. Full account above.
 Osric — Isern landing-king. Compact partner. Full entry: Peoples_Isernvolk.txt.
 Arnulf Vatnhar — first Dar Waldward. The canopy name on the Breaking of the Horns. The end of that war was declared by Dar Emait Grimwald in 196 A:D. The start is measured from the landing, 996 B:E.
 
@@ -221,7 +226,7 @@ Standalone. Does not replace prior sections. Empty lines mean the point is not l
 * Rituals & Holidays: Landing-hanging at Ocs Landing told on both sides.
 * The Afterlife: Not locked.
 7. Language, Lore, & Transmission of Knowledge
-* Linguistic Style: Syllvani under Nordic layer. Not Jarnfolk. Not Plateau ll/dd/rh as default.
+* Linguistic Style: Modern Kannavi blends melodic Syllvani Romance with the older Isern dialect’s Germanic-Scandinavian character. Not Jarnfolk. Not Plateau ll/dd/rh as default.
 * Mythology & History: Taming of the peninsula. Compact. Skinwights hanged. The Breaking of the Horns, the Great Clearing, from the landing in 996 B:E to Grimwald’s end-declaration in 196 A:D. Arnulf Vatnhar on the canopy. Near extermination, remnant bands in the deep. Deepwood as what the axes did not finish.
 * Education: Bow, kiln, wood-right.
 8. Leisure, Art, & Material Culture

@@ -375,38 +375,19 @@ is only Size 10 against Size 4.
   Step        = 1 Size Category
   Step value  = 10
 
-To-hit
-  Step = 1 Size Category. Step value = 10.
-  Live play uses the difference. Never apply the
-  printed Titanic +60 because “the target is large.”
-  That +60 is only Size 10 against Size 4.
+To-hit (WS or BS)
+  Attacker’s TN modifier = (Target Size − Attacker Size) × 10
 
-  Smaller striking larger
-    Both tests. WS and BS.
-    Attacker’s TN modifier =
-      (Target Size − Attacker Size) × 10
-    Size 4 striking Size 10 is +60.
-    Size 9 striking Size 10 is +10.
-    Same Size is +0.
+  Size 10 striking Size 9    (9 − 10) × 10 = −10
+  Size 9 striking Size 10    (10 − 9) × 10 = +10
+  Size 4 striking Size 10    (10 − 4) × 10 = +60
+  Size 10 striking Size 4    (4 − 10) × 10 = −60
+  Size 7 striking Size 7     (7 − 7) × 10 =   0
 
-  Larger striking smaller
-    WS: no penalty. A troll’s fist is not
-    harder to land because the man is small.
-    The exchange is already the test.
-    BS: the penalty stands. A small, fast
-    body is harder to shoot.
-    Attacker’s BS modifier =
-      (Target Size − Attacker Size) × 10
-    Size 10 shooting Size 4 is −60.
-    Size 10 shooting Size 9 is −10.
-    Size 8 striking Size 5 in melee is +0.
-    Size 8 shooting Size 5 is −30.
-
-  A leviathan does not hit another vast thing
-  at +60. It hits the next step down at +0
-  in melee and −10 with a shot. A monumental
-  troll tagging that leviathan is at +10 on
-  either test.
+  A leviathan does not hit another vast thing at +60. It hits
+  the next step down at −10. A monumental troll tagging that
+  leviathan is at +10, not +60.
+  Same Size is always +0, whatever the number on the chart.
 
 Stealth / concealment
   Actor’s TN modifier = (Observer Size − Actor Size) × 10
@@ -434,14 +415,12 @@ S/T scaling
   Perception, Fellowship, Intelligence, Agility, Willpower,
   Weapon Skill, and Ballistic Skill are not moved by this column.
   A titan is not automatically accurate, and is not automatically
-  brave. To-hit already uses the Size difference.
-  WS takes only the bonus for striking something
-  larger. BS takes the bonus and the penalty.
-  Do not also raise WS or BS for bulk.
+  brave. To-hit already uses the Size difference on the WS or BS
+  test. Do not also raise WS or BS for bulk.
 
 SIZE TABLE
 
-  #  Category      BS vs 4*      Stealth vs 4*  Move    S/T   Wounds   Mass
+  #  Category      To-hit vs 4*  Stealth vs 4*  Move    S/T   Wounds   Mass
   1  Miniscule     −30           +30       AB − 3   −30   ×0.25   under 1 kg
   2  Puny          −20           +20       AB − 2   −20   ×0.50   1–14 kg
   3  Weedy         −10           +10       AB − 1   −10   ×0.75   15–51 kg
@@ -453,10 +432,8 @@ SIZE TABLE
   9  Monumental    +50           −50       AB + 5   +50   ×7.5    6–20 t
  10  Titanic       +60           −60       AB + 6   +60   ×10.0   over 20 t
 
-  * Printed BS is vs Size 4 only. Live BS uses Size
-    difference, both ways. Live WS uses the difference
-    only when the target is larger. Hitting something
-    smaller in melee is +0. Stealth uses Size difference.
+  * Printed to-hit and stealth are vs Size 4 only. Live
+    to-hit and stealth use Size difference.
   Wounds: derive TB × 3 first, then this multiplier.
   Floor. Size 4 is the human number. A child is Weedy
   on purpose. Do not also cut Wounds for being young.
