@@ -1,0 +1,65 @@
+# Peoples_Format.txt
+# How to write a Peoples file.
+# Locked names, dates, and cross-references win. Do not invent major history that would fight an existing file.
+
+File name
+Peoples_[Name].txt
+Use the locked formal name.
+Spaces become underscores.
+Hyphens in a people-name may be kept.
+
+--------------------------------------------------
+HEADER
+--------------------------------------------------
+# Peoples_[Name]
+
+Umbrella name
+[Formal]. [Common]. [Short / slang]. [Regional usage].
+
+What this file is
+[One to three sentences. Stock, linguistic base, core identity, place in the larger cultural layer.]
+
+--------------------------------------------------
+GM META — ORIGIN
+--------------------------------------------------
+[Wave, parent stock, settlement pattern, what was retained or lost. GM-only context.]
+
+--------------------------------------------------
+DEEP NAME VS SURFACE NAME
+--------------------------------------------------
+Deep / formal: [Name].
+Surface / contemporary: [Names].
+Nickname: [If any. Note whether it is allowed, common, or forbidden in formal use.]
+
+--------------------------------------------------
+SHARED CLAIM
+--------------------------------------------------
+- [Descent or right]
+- [Pride or core value]
+- [Identity marker]
+- [Suspicion or taboo]
+
+--------------------------------------------------
+RELATION TO OTHER PEOPLES
+--------------------------------------------------
+[Named people]: [One to three sentences on standing, tension, alliance, or absorption.]
+[Repeat as needed.]
+
+--------------------------------------------------
+GEOGRAPHY AND CULTURE
+--------------------------------------------------
+[Where they live. Core skills. What shaped the customs.]
+
+--------------------------------------------------
+[OPTIONAL MAJOR HISTORY BLOCKS]
+--------------------------------------------------
+Use named sections when a people has a locked event.
+Examples:
+THE TRANS-OCEANIC SCHISM
+MARK HISTORIES — [REGION]
+LANDING HISTORY — [EVENT]
+POLITY — [REGION]
+
+Keep each block self-contained. Cross-reference other files rather than repeating full detail.
+
+--------------------------------------------------

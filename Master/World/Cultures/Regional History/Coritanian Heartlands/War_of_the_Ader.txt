@@ -1,5 +1,9 @@
-# War_of_the_Ader
-
+# Wars of the Ader
+Year: 996 A:D
+Dar Emait: Harthold
+Kannavi contingent-lord: Hallvard Ask of Westwood (second son; later Dar Waldward)
+Key holds: Aderhall, Berthall
+End: Harthold’s Folly; Harthold buried in Harthold’s Barrow
 First war of the Whitmark cycle.
 Isern chronicle-name: Harthold’s Folly.
 Cortani hall-name: the Ader War.

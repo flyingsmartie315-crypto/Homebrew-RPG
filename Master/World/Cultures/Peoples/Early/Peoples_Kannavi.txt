@@ -164,6 +164,8 @@ Osric is locked as the first Isernvolk king in Kannavi memory.
 His landing-seat: Osricford. Common and older shore-name: Ocs Landing.
 There a hundred skinwights were hanged. That hanging is a founding story of the tamed peninsula, told on both sides of the divide. The Cloven war is the other founding. The shore-story stays the hanging. The long war was in the trees.
 
+The custom of collecting Cloven skulls took hold in every established settlement once the walls could be held — Osricford, Caer Varn, and the holds that followed. The piles were a warning, a tally, and a declaration. Osricford still keeps the largest. In its capital square the Arch of Grimwald stands over the same memory: a marble arch inlaid with the greatest minotaur skulls, the Clearing carved into the stone, statues of Osric and Arthos (with Adain Gwyn) set around it. The Kannavi share the founding; the arch is an Isern public monument raised on ground both peoples fought for.
+Date lock: Landing and start of the Breaking of the Horns / Great Clearing = 996 B:E. End declaration by Grimwald = 196 A:D.
 Arthos and Adain Gwyn
 At first contact at Caer Varn, the Kannavi were led by Arthos, a ruler remembered as a legendary figure and rider of the Royal Gryphon, Adain Gwyn (pronounced *Ad-ay-n Gwin*), meaning “White Wing.” Adain Gwyn had white feathers and golden fur. The Kannavi were the original gryphon riders. Arthos, his circle of warriors, and their gryphons were remembered as vital to humanity’s survival against the Cloven beastmen. This legacy remains shared by Isern and Kannavi: the gryphon is a sacred animal, embodying nobility, prowess, and loyalty.
 
@@ -179,17 +181,24 @@ The early and living name for the Isern host is the Eyrenhost. It was not origin
 --------------------------------------------------
 PERSONS OF NOTE
 --------------------------------------------------
+Founding 996 B:E – 196 A:D
+- Arthos — Kannavi ruler at first contact at Caer Varn and legendary original gryphon rider. Rode the Royal Gryphon Adain Gwyn (“White Wing”). Arthos and his circle of gryphon-riders are remembered as vital to humanity’s survival against the Cloven. Full account above.
+- Arnulf Vatnhar — first Dar Waldward. Kannavi. The canopy name on the Breaking of the Horns. The end of that war was declared by Dar Emait Grimwald in 196 A:D. The start is measured from the landing, 996 B:E.
+- Osric — Isern landing-king. Compact partner. Full entry: Peoples_Isernvolk.txt.
+
+War of the Ader 996 A:D
 - Hallvard Ask of Westwood — second son of the Westwood ruling house. Leads the Kannavi contingent in the first war into Coritania. Holds the Ader stretch after Berthall. Relinquishes without a fight when Harthold falls. Carries the river-lessons north.
 - Ketil Stavn — captain. First-war veteran of the Ader banks.
 
-Act 2
+War of the First Coronation 1026 A:D
 - Hallvard Ask of Westwood — now sovereign of Kannavald Deepwood. Answers Thormund’s summons.
 - Askel Hallvardson of Westwood — firstborn. Leads the second-war longbow company.
 - Ketil Stavn — advises Askel.
 
-Arthos — Kannavi ruler at first contact at Caer Varn and legendary original gryphon rider. Rode the Royal Gryphon Adain Gwyn (“White Wing”), white-feathered and golden-furred. Arthos, his warrior circle, and their gryphons are remembered as vital to humanity’s survival against the Cloven. Full account above.
-Osric — Isern landing-king. Compact partner. Full entry: Peoples_Isernvolk.txt.
-Arnulf Vatnhar — first Dar Waldward. The canopy name on the Breaking of the Horns. The end of that war was declared by Dar Emait Grimwald in 196 A:D. The start is measured from the landing, 996 B:E.
+War of the Whitmark 1066 A:D
+(Kannavi contingent status not yet locked; add when the war file is written.)
+
+Kannavi compact names live in this file. Isern names live in Peoples_Isernvolk.txt.
 
 
 --------------------------------------------------
@@ -236,6 +245,7 @@ Standalone. Does not replace prior sections. Empty lines mean the point is not l
 9. Economic & Subsistence Foundation
 * Mode of Production: Lumber, trap, charcoal, bowyery. Timber sold to Isern yards. Not farm-and-pit as a people.
 * Attitude Toward Wealth: A winter the house survives. Ore-money is someone else’s count.
+  Isern still call a silver piece a “horn,” from the old bounty of one sc per Gor skull. Kannavi know the name; it is not their coin-speech.
 
 --------------------------------------------------
 NOTES

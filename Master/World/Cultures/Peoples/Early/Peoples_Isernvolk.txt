@@ -78,7 +78,7 @@ MARK HISTORIES — EBON PENINSULA
 --------------------------------------------------
 The Ebon Peninsula was once nearly as densely forested as Kannavald Deepwood still is. The Kannavi were already there: small, scattered, in constant struggle against Unveiling perils in the woods.
 
-Isernvolk landed at the western shore in 996 B and aided their fellow man. First Dar Emait in this history: Osric. Landing-seat: Osricford. Common and older shore-name: Ocs Landing.
+Isernvolk landed at the western shore in 996 B:E and aided their fellow man. First Dar Emait in this history: Osric. Landing-seat: Osricford. Common and older shore-name: Ocs Landing.
 
 The landing was not a military expedition in the later sense. Osric had his retainers and fighting men, but the crossing had brought families, craftspeople, and children as well as warriors. These were people who had crossed an ocean to make a home. They had not arrived with an army sufficient to conquer a continent. The army would have to be made from the people who survived there.
 
@@ -107,7 +107,7 @@ The culture that grew from these years was alert, practical, and publicly restra
 
 The Cloven left a deeper mark still. They were not simply dangerous animals to be driven from useful land, but an intelligent enemy encountered in repeated, brutal conflict. The hatred they inspired became bound to the things they represented: the threat beneath the canopy, the destruction of hard-won security, and the possibility that a community's labour might be undone in a single raid. Their defeat was therefore more than a military objective. It became a measure of whether the peninsula could truly be made a home.
 
-In the early years, horned skulls began to appear along palisades and on paths outside settlements. They warned of what remained in the woods, commemorated those who had survived the encounters, and declared that the settlement had not yielded. In time, such displays became part of the remembered face of the peninsula: a visible answer to the forest and to the things that claimed it. The practice endured beyond the circumstances that first made it necessary.
+In the early years, horned skulls began to appear along palisades and on paths outside settlements. They warned of what remained in the woods, commemorated those who had survived the encounters, and declared that the settlement had not yielded. The custom hardened into a standing practice in every established settlement from Ocs Landing (Osricford) and Caer Varn outward. Once a place could hold its walls and stores, its people collected the skulls of the Cloven they had broken. The largest piles grew at the oldest holds. Osricford keeps the greatest of them — a mountain of horned bone that has been added to for centuries, the way a frontier count once stood on a mountain of bison skulls and called the work finished. The visual is the same: proof that the ground has been taken and that the taking is still remembered.
 
 The hundred skinwights hanged at Osricford belong to this same founding memory, though they are not the Cloven and should not be confused with them. That hanging is told as a founding of the tamed peninsula. The other founding is the long one.
 
@@ -189,6 +189,11 @@ Detail: Peoples_Kannavi.txt.
 Osricford is the Kaiserarch’s port. The Waldward does not keep a banner on that quay.
 
 --------------------------------------------------
+LANDMARKS — THE ARCH OF GRIMWALD
+--------------------------------------------------
+Osricford’s principal square holds the Arch of Grimwald. A triumphal arch faced in marble, its spandrels and frieze inlaid with the largest minotaur skulls recovered from the Clearing. The carving on the marble tells the story of the war: bands burned, herdstones pulled down, the long seasons of iron and canopy knowledge. Around the square stand statues of the figures who are still named in the tale. Osric and Arthos (with Adain Gwyn) are the central pair. The arch is the public face of the same skull-custom that still lines the older palisades and the paths outside the smaller holds.
+
+--------------------------------------------------
 BRANCHES
 --------------------------------------------------
 List locked ethnic groups below as they are written.
@@ -204,17 +209,20 @@ Branches differ by which mark or shore they hold and how strongly they lean on i
 --------------------------------------------------
 PERSONS OF NOTE
 --------------------------------------------------
+Founding 996 B:E -> 196 B:E
 - Osric — High King of the crossing. First Dar Emait of the landing. Holds the Ebon line. First Isernvolk king in peninsula memory. Seat: Osricford / Ocs Landing. Hanged a hundred skinwights. Landing compact with the Kannavi. Counts Jarnvard’s wing dead.
 - Grimwald — Dar Emait. Declared the end of the Great Clearing, the Breaking of the Horns, in 196 A:D. The start of that war is measured from the landing, 996 B:E.
 - Arnulf Vatnhar — first Dar Waldward. Kannavi. The canopy name on that war. Full line: Peoples_Kannavi.txt.
 - Arthos — Kannavi ruler at first contact at Caer Varn and legendary original gryphon rider. Rode the Royal Gryphon Adain Gwyn (“White Wing”). Arthos and his circle of gryphon-riders are remembered as vital to humanity’s survival against the Cloven. Full account: Peoples_Kannavi.txt.
 - Jarnvard — Osric’s younger brother. Rear wing of the crossing. Puts ashore at Dauðavík. Full entry: Peoples_Jarnvolk.txt.
+War Of The Ader 996 A:D
 - Harthold — Dar Emait of the first host into Coritania. Took Aderhall and Berthall. Died at Harthold’s Folly. Buried in Harthold’s Barrow.
-Act 2
+War Of the First Coronation 1026 A:D
 - Thormund of Westmark — early thirties. Victor of the peninsula succession. Dar Emait of the Second Host.
 - Aldric of Brückenburg — Lord of the Rhennod Marches. Southern border is the Ader.
 - Sigvard of Highmarch — Lord of High March.
 - Grandmaster Gorst — Eyrenhost. Holds Ebormark. Marches with fifteen gryphon-riders.
+War Of The Whitmark 1066 A:D
 
 Kannavi compact names live in Peoples_Kannavi.txt.
 
@@ -302,6 +310,7 @@ Standalone. Does not replace prior sections. Empty lines mean the point is not l
 9. Economic & Subsistence Foundation
 * Mode of Production: Iron, grain, livestock, sea-trade, quarry, pit. River as road (Värdå). Prison-labour in the Laed-Crags.
 * Attitude Toward Wealth: Counted, stored, shipped. New pit-money is real and resented. Old watch-right is older.
+  A standing bounty of one silver piece (sc) was paid for each Gor skull brought in during the Clearing and for some years after. The practice is long gone. The name remains. Isern still call a silver coin a “horn.”
 
 --------------------------------------------------
 NOTES
