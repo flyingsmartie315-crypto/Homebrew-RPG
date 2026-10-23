@@ -1,0 +1,232 @@
+# Siege_Weapons.txt
+# Crew-served engines. Operating span exceeds a normal Turn.
+# Status: DRAFT.
+# Companion files:
+#   Core_Combat.txt          ordinary Actions and Turn structure
+#   Weaponry.txt             personal arms (engines are not rows there)
+#   Economy_Finished_Siege_Arms.txt   material and labour cost
+#   Core_Characteristics_Skills.txt   relevant Skills (Artillery, Engineering)
+
+PURPOSE
+Siege engines are not weapons a single character swings.
+They are machines that require a crew, a prepared position,
+and time measured in multiple Rounds or full Turns of work
+before they can loose once.
+
+A normal Turn (one Full or two Half Actions) is too short
+for most of their cycle. The rules below replace the ordinary
+Action economy for the engine itself.
+
+--------------------------------------------------
+0. KEYWORDS
+--------------------------------------------------
+
+Engine
+  The machine. It has no WS or BS of its own
+  unless a specific entry says otherwise.
+  The crew uses the Artillery Skill (or Engineering for
+  setup and repair). Light wall-pieces may use BS
+  when braced and Pre-Loaded.
+
+Crew
+  Minimum number of able bodies required to operate
+  at the listed rate. Fewer bodies slow the cycle.
+  Excess bodies do not speed it past the listed minimum.
+
+Cycle
+  The full sequence from “ready to load” to “loosed and
+  ready to load again.” Stated in Rounds.
+  One Round = one Turn for the crew members dedicated
+  to the engine.
+
+Setup
+  Time to emplace, brace, and first-aim a cold engine.
+  Stated in Turns or minutes of narrative time.
+  After Setup the engine is Emplaced.
+
+Emplaced
+  Braced, aimed at a sector, and able to begin a Cycle.
+  Moving an Emplaced engine breaks Emplacement.
+  It must be Set up again.
+
+Load / Wind / Aim / Loose
+  Stages inside a Cycle. The GM may call for Skill
+  rolls at Aim or Loose. Failure delays the Cycle
+  by one Round or spoils the shot.
+
+Braced Weapon (X)
+  New quality shared with certain specialist arms.
+  The weapon cannot be aimed and fired until it has
+  been braced on a suitable mount (stone rampart,
+  swivel frame, or equivalent).
+  Listed Reload assumes full crew complement.
+  Firing without a brace suffers an X penalty to hit
+  and inflicts 1d10 × (X/5) blunt damage with Impact
+  to the shooter’s torso (chest, armpit, collarbone).
+  Moving, setting up, and reloading use the Engineering
+  Skill. A single trained man may fire a Pre-Loaded
+  braced piece using BS as normal once it is Emplaced.
+
+--------------------------------------------------
+1. OPERATING RULES
+--------------------------------------------------
+
+Dedication
+  Each Round a crew member spends on the engine is a
+  Full Action for that character. They may not take
+  other Full or Half Actions that Round.
+  Free Actions remain available if they do not leave
+  the engine.
+
+Minimum Crew
+  Below the listed minimum the Cycle length doubles
+  (round up). At half or fewer the engine cannot Loose
+  until the crew is restored.
+
+Accuracy
+  Base is the Artillery Skill of the crew leader
+  (or the average if no clear leader).
+  Range bands and cover apply as for ordinary missiles
+  unless a specific engine says otherwise.
+  Emplaced and properly Aimed: no extra penalty.
+  Hastily Aimed or moving: −20 or worse.
+
+Damage
+  Engines do not use the ordinary Cut / Pierce / Blunt
+  profile of personal weapons.
+  Each engine lists a Damage band and a special effect
+  (breach, scatter, shock, fire, etc.).
+  Location and Soak still apply to individual targets
+  when the shot hits a person or creature.
+  Against structures use the breach rules in Core_Combat
+  or the GM’s structural hit points.
+
+Reload and Wind
+  These are part of the Cycle. They are not ordinary
+  Reload Actions from Weaponry.txt.
+
+Movement
+  Most engines are static once Emplaced.
+  Light pieces may be manhandled a short distance
+  (stated per engine) at the cost of breaking Emplacement.
+
+--------------------------------------------------
+2. ENGINE LIST
+--------------------------------------------------
+
+Rampart Crossbow (Mauerarmbrust)
+  Crew: 2 (1 Master Gunner / 1 Loader-Assistant)
+  Setup: 2 Turns to brace on rampart or swivel
+  Cycle / Reload: 6 (assumes full crew; Engineering Skill)
+  Range: 200 / 400 yards
+  Damage profile: (1, 12, 1)
+  Qualities: AP (3), Impact, Fast (10), Pre-Loaded, Braced Weapon (40)
+  Special: Portable by one man via sling (22–26 lbs / 9.9–11.8 kg).
+           Impossible to shoulder-fire. Must be braced on stone
+           crenellation (recoil hook) or dedicated swivel frame.
+           A single trained man may fire a Pre-Loaded piece using
+           BS as normal once Emplaced. Moving, bracing, and
+           reloading use Engineering. Without brace: −40 to hit
+           and 1d10 × 8 blunt Impact to the shooter’s torso.
+           Effective against plate at 350–400 yards; maximum
+           flight over 600 yards. 12-inch all-iron armor-piercing bolt.
+  Base cost: 18–35 gc
+  Notes: The smallest true siege piece. Bridges infantry
+         arms and artillery. Compact enough for tower stairs.
+         Dual-crank windlass is separate and carried by the assistant.
+         Recoil hook transfers the ~1,800 lb draw directly into
+         the wall. Laminated spring-steel prod, hornbeam or yew
+         stock, heavy composite linen cord, revolving nut lock.
+
+Mangonel / Onager
+  Crew: 4–6
+  Setup: 10 Turns (or 1–2 minutes narrative)
+  Cycle: 3 Rounds (load, wind, aim/loose)
+  Range: 80 / 160 yards
+  Damage: 2d10+8 Blunt (stone) or scatter
+  Special: Stone shot. Against troops, treat as a small
+           area (3-yard radius) with falling damage.
+           Against walls, counts as a breach attempt.
+  Base cost: 40–80 gc
+  Notes: Classic torsion engine. Common on the peninsula
+         marks. Needs firm ground and a clear throwing arc.
+
+Ballista
+  Crew: 2–4
+  Setup: 6 Turns
+  Cycle: 2 Rounds
+  Range: 120 / 240 yards
+  Damage: 2d10+6 Pierce (bolt)
+  Special: High accuracy against single targets or
+           light structures. Bolt can pin or shatter
+           lighter timber.
+  Base cost: 25–50 gc
+  Notes: Direct-fire. Preferred for precision work
+         and against enemy engines or officers.
+
+Trebuchet (counterweight)
+  Crew: 8–12
+  Setup: 30–60 Turns (or a short narrative hour)
+         plus construction if built on site
+  Cycle: 6–8 Rounds
+  Range: 150 / 300 yards
+  Damage: 3d10+12 Blunt (heavy stone)
+  Special: Longest range and heaviest payload.
+           Can throw fire-pots or diseased carcasses
+           at GM discretion. Slow to retarget.
+  Base cost: 120–250 gc (or built on site from local timber)
+  Notes: Strategic piece. Rare outside major sieges
+         or permanent fortifications. The counterweight
+         and frame are the bulk of the cost.
+
+Battering Ram
+  Crew: 6–10 (plus cover crew)
+  Setup: 4 Turns to position under cover
+  Cycle: 1 Round per strike (sustained)
+  Range: Contact
+  Damage: Breach value vs door or gate
+  Special: Continuous pressure. Each Round of
+           sustained striking reduces the target’s
+           structural integrity. Vulnerable to
+           overhead fire unless covered.
+  Base cost: 15–30 gc (frame and head)
+  Notes: Often built on site or carried in sections.
+         The head is iron-shod timber.
+
+Siege Tower
+  Crew: 10–20 (pushers + occupants)
+  Setup: Hours of narrative assembly and approach
+  Cycle: Not a shooter. Provides elevated position
+         and covered approach.
+  Special: Grants height advantage and cover to
+           troops crossing a wall. Slow to move.
+           Destroyed if the base is burned or the
+           structure is breached.
+  Base cost: 80–180 gc or built on site
+  Notes: Logistical monster. More architecture than
+         weapon. See Economy_Finished_Siege_Arms.txt
+         for timber and labour.
+
+Mantlet / Pavise Wall
+  Crew: 2–4 to move
+  Setup: 2 Turns
+  Cycle: Passive cover
+  Special: Provides hard cover to a small crew
+           or approach party. Can be moved slowly.
+  Base cost: 5–12 gc
+  Notes: Cheap, common, and often improvised.
+
+--------------------------------------------------
+3. BASE COST NOTES
+--------------------------------------------------
+Listed Base cost is the Common shop or contracted
+price for a finished, transportable engine in good
+order, or the equivalent material + labour value
+for pieces built on site.
+See Economy_Finished_Siege_Arms.txt for the
+breakdown of timber, iron, rope, and skilled days.
+Iron Grade and local scarcity modify the final
+price the same way as other Finished Arms.
+Engines are almost never bought off a shelf in
+a small town. They are commissioned, captured,
+or built by the besieger’s engineers.

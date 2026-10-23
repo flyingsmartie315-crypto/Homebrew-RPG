@@ -447,8 +447,11 @@ Bestiary Land
 Bestiary Oceanic
   Bestiary_Scylla.txt
 
-Load Bestiary_Rules + the named entry. Stats and Injury Table
-come from Entities/ when that sheet exists.
+Bestiary is lore. Entity is stats and mechanics.
+Entity_X.txt sits beside Bestiary_X.txt in the same Bestiary folder.
+Load Bestiary_Rules + the named Bestiary entry for lore, and the
+matching Entity_X.txt for stats, mechanics and the Injury Table:
+line. If no Entity file exists yet, see FALLBACK & MISSING FILES.
 
 --------------------------------------------------
 GEOGRAPHY
@@ -537,6 +540,7 @@ A hit landing                     Armour_Rules + Armour + Core_Injury
 Kit price / who can make it       Economy_Finished_Armour + Labour
   + Processed_Goods + Processing_Matrix
 A creature on screen              Bestiary_* + Bestiary_Rules
+  + matching Entity_* (stats, mechanics)
   + matching Injury table
 A place                           Geography_Rules + that region
   + settlements + Customs if Kannavald
