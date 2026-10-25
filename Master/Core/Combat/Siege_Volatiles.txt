@@ -1,0 +1,168 @@
+# Siege_Volatiles.txt
+# Resolver for detonation, rupture, and dispersion of volatile substances.
+# Status: DRAFT.
+# Companion files:
+#   Economy_Finished_Volatiles.txt     substance IDs, PF, storage, cost
+#   Siege_Weapons.txt                  engines and payload matrix
+#   Economy_Finished_Siege_Arms.txt    engines
+#   Core_Combat.txt                    structural damage and breach
+#   Core_Injury.txt                    finishing and location effects
+#   Pathogens_Poisons_Curses.txt       disease and poison tests
+#   Core_Terrain.txt                   wind and climate for drift
+
+PURPOSE
+This file computes the physical and biological effects when a
+volatile substance is detonated, ruptured, or dispersed by
+siege machinery or black-powder ordnance.
+
+It does not replace engine rules. It resolves what happens
+after the payload leaves the engine or the container breaks.
+
+--------------------------------------------------
+0. SUBSTANCE REFERENCE
+--------------------------------------------------
+Power Factors and identities are locked in
+Economy_Finished_Volatiles.txt unless this file
+explicitly overrides for resolution purposes.
+
+BPD_01  Serpentine / Meal Powder          PF 0.5 (economy) / see note
+BPD_02  Corned / Grained Military Powder  PF 1.5
+CH_01   Quicklime Dust Cloud              Stability C
+TX_01   Arsenic Smoke / Orpiment          Stability C
+CL_01   Greek Fire (ceramics)             PF 0.5* (thermal shift)
+
+Note on BPD_01 PF:
+Economy file lists 0.5 for meal powder.
+This resolver uses 1.2 for kinetic calculations when the
+protocol requires it, or the economy value when consistency
+is preferred. GM chooses one table and stays with it.
+Corned powder (BPD_02) remains the stronger propellant.
+
+--------------------------------------------------
+1. KINETIC SHOCK & DETONATION
+--------------------------------------------------
+High explosives and black-powder charges.
+Calculations scale with total payload weight.
+
+Blast Radius (metres)
+  Radius = √(Weight in kg) × Substance PF
+
+Kinetic Harm
+  Damage = (Weight in kg × 5) / Distance from centre (metres)
+  Minimum distance 1 m.
+  Round to nearest whole number.
+  This is the incoming damage before Soak and location.
+
+Surface Hardness Bypassed
+  BPD_01 (when using resolver PF 1.2): Tier 1 (wood / brick)
+  BPD_02: Tier 2 (light stone, heavy timber)
+  Higher tiers require heavier charges or repeated hits.
+  See Core_Combat for structural integrity and breach.
+
+Application
+  - Centre of the blast takes full Kinetic Harm.
+  - Targets at the edge of the radius take half.
+  - Beyond the radius: no kinetic effect from this charge.
+  - Structures use the bypassed hardness tier to determine
+    whether Durability is ignored or reduced.
+
+Example (illustrative)
+  16 kg BPD_02 (PF 1.5)
+  Radius = √16 × 1.5 = 4 × 1.5 = 6 m
+  Damage at 2 m = (16 × 5) / 2 = 40
+
+--------------------------------------------------
+2. THERMAL SPREAD
+--------------------------------------------------
+Greek Fire and liquid incendiaries (CL_01).
+Explosive shock is low (PF 0.5*); the primary effect is thermal.
+
+When an incendiary container ruptures:
+
+Splash Radius (metres)
+  Splash Radius = Weight (kg) / 5
+
+Fire Duration
+  1 Turn per 5 kg of substance (round up).
+  The fire persists in the splash area for that many Turns
+  unless extinguished by extraordinary means.
+
+Structural Rule
+  Completely ignores physical Durability of wooden hulls,
+  gates, hoarding, and similar timber.
+  Instantly triggers the Structural Ignition state.
+  Stone and earth are not instantly ignited but may be
+  damaged by prolonged heat at GM discretion.
+
+Personal targets in the splash take fire damage each Turn
+  they remain in the area (use Core_Injury fire rules).
+  Armour does not stop the initial splash adhesion.
+
+--------------------------------------------------
+3. AIRBORNE TOXIC DISPERSION
+--------------------------------------------------
+Quicklime (CH_01) and Arsenic Smoke (TX_01).
+Governs respiratory hazard and sight-line deprivation.
+
+Cloud Volume (m³)
+  Cloud Volume = Weight (kg) × 10
+
+Drift
+  The cloud drifts 5 m downwind per Turn.
+  Wind direction and strength from Core_Terrain.txt
+  climate profile. Still air: cloud remains and slowly
+  dissipates (GM reduces volume by half each Turn after the first).
+
+Biological Resolution
+  Cross-ref: Core_Injury.txt and Pathogens_Poisons_Curses.txt.
+
+  CH_01 (Quicklime)
+    Immediate ocular tissue damage.
+    Targets in the cloud without eye protection gain
+    the Total Blindness status effect until treated
+    or the cloud passes.
+    Also irritates lungs; Fatigue or temporary penalty
+    at GM discretion.
+
+  TX_01 (Arsenic Smoke)
+    Inhalation triggers a mandatory test.
+    Failure: Tier-4 internal organ hemorrhage
+    (see Pathogens_Poisons_Curses.txt or Core_Injury
+    for the mechanical effect).
+    Success may still impose Fatigue or a lesser penalty.
+    The pot itself, if it strikes as a mass, does only
+    ordinary blunt damage.
+
+Sight-line
+  A cloud blocks line of sight through its volume.
+  Ranged attacks into or through the cloud suffer
+  cover or total concealment as the GM rules from
+  the volume and drift.
+
+--------------------------------------------------
+4. APPLICATION NOTES
+--------------------------------------------------
+- These formulas resolve the payload after it is delivered
+  by an engine (trebuchet, mortar, rack, or thrown pot).
+- Engine accuracy and scatter are resolved first
+  (Artillery or BS). This file then applies the effect
+  at the impact point.
+- Multiple charges in the same area add weight before
+  calculating radius and damage, unless the GM separates them.
+- Greek Fire ceramics in the Siege_Weapons payload matrix
+  use this thermal section when they rupture.
+- Black-powder guns (Falconet, Culverin, Demi-Cannon, Mortar)
+  use the kinetic section with the appropriate BPD PF.
+- RACK OF FIRE uses BPD_01 (or equivalent) per rocket
+  and may combine kinetic and thermal if the rocket
+  carries an incendiary head.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+All numbers are draft.
+PF reconciliation between Economy_Finished_Volatiles.txt
+and this resolver should be locked before play.
+Structural Ignition and Tier-4 hemorrhage need
+explicit entries in Core_Combat and Core_Injury
+if they are not already present.

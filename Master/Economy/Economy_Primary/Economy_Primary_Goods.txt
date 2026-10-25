@@ -1,6 +1,7 @@
 # Economy_Primary_Goods.txt
-# Router. Tickets live in the files below.
+# Router and format law for all primary goods.
 # Do not add a good here. Add it to its category file.
+# Status: DRAFT FORMAT GUIDE.
 
 HEADER NOTE
 All prices use the universal currency (1 gc = 20 sc = 240 bc).
@@ -37,11 +38,118 @@ Loose pile
 No extra penalty.
 Default for ore, coal, stone, bricks, clay, peat, and logs.
 
-Files
-  Agriculture                  Economy_Primary_Agriculture.txt
-  Animal Products              Economy_Primary_Animal_Products.txt
-  Wilderness Foraging          Economy_Primary_Wilderness_Foraging.txt
-  Forestry                     Economy_Primary_Forestry.txt
-  Earths and Salts             Economy_Primary_Earths_and_Salts.txt
-  Minerals                     Economy_Primary_Minerals.txt
-  Stone and Volcanic Products  Economy_Primary_Stone.txt
+--------------------------------------------------
+BASELINE AND INTACT-UNIT GOODS
+--------------------------------------------------
+Primary goods are the baseline.
+Most tickets are bulk commodities: value is per kilogram,
+and any kilogram of the same grade is interchangeable.
+
+Forestry and Stone are the exception.
+A workshop’s use of timber or stone often requires a single
+intact unit — a log of sufficient length and diameter,
+a beam, a stave blank, a freestone block of stated size.
+A pile of equivalent weight that has been broken, checked,
+or cut short is not the same good.
+
+For Forestry and Stone entries:
+- Keep the Base per kg for bulk trade and cart calculations.
+- Add an Intact Unit line when the workshop value depends
+  on the piece remaining whole.
+- State the minimum dimensions or the named blank
+  (e.g. “Stave blank: 1.2 m × 15 cm”, “Structural log: 6 m+”).
+- Note that broken or undersized pieces fall back to
+  the bulk kg price or to a lower grade (firewood, rubble).
+- Convenience lots may list both a cart-weight price
+  and a price per intact piece.
+
+All other primary categories remain pure bulk kg tickets.
+Do not apply the intact-unit rule to grain, ore, salt,
+or forage unless a later lock says otherwise.
+
+--------------------------------------------------
+FORMAT — PRIMARY GOOD ENTRY
+--------------------------------------------------
+Every primary good in a category file follows this block.
+Empty lines are allowed. Do not invent fields.
+
+Name
+  One line. The common market name.
+  Optional second line for clarification or lock
+  (e.g. “The stone brass is made from. Not a dye.”).
+
+Base
+  Price per kg (or per stated unit).
+  Use bc, sc, or gc as appropriate.
+  Example: Base: 8 bc per kg
+  Example: Base: 1 sc 2 bc per kg
+
+Bulk
+  Packed density in kg/m³.
+  Example: Bulk: 2,200 kg/m³
+
+Packing
+  The default method already included in Bulk.
+  One of: sack, basket, cask / crate, loose pile,
+  or a named exception.
+
+Convenience lots (optional)
+  Pre-calculated prices for common trade sizes.
+  Always derive from Base. Do not invent a second price.
+  Examples:
+    Sack (20 kg) → 30 sc
+    Cart load (800 kg) → 533 sc 4 bc
+    Heavy-cart load (1,500 kg) → 1,000 sc
+    Small lot (10 kg) → 11 sc 8 bc
+
+Notes (optional)
+  Scarcity, use, hazard, or cross-reference.
+  Keep to one or two lines.
+  Do not put processing steps here. Those belong in
+  Economy_Processed_*.txt or Economy_Finished_*.txt.
+
+Intact Unit (Forestry and Stone only)
+  Optional but required when workshop utility depends
+  on the piece remaining whole.
+  State the minimum size or the named blank.
+  Example: Intact Unit: Structural log, 6 m+ length, 30 cm+ diameter.
+  Example: Intact Unit: Freestone block, 60 × 30 × 30 cm.
+  Broken or short pieces use the Base kg price only.
+
+--------------------------------------------------
+RULES
+--------------------------------------------------
+- Do not add a good to this file. Add it to its category file.
+- Base unit is 1 kg unless the entry explicitly says otherwise.
+- Cart-load and heavy-cart figures must match the vehicle limits above.
+- If volume fills the cart before weight, note it
+  (e.g. “Heavy-cart load (1,400 kg, volume)”).
+- Prices are base market. Regional and seasonal modifiers
+  are applied at the table, not written into the entry.
+- Primary goods are unprocessed or minimally processed.
+  Smelted metal, milled flour, tanned leather, grained powder,
+  and finished arms are not primary goods.
+- Forestry and Stone may carry an Intact Unit line.
+  All other categories are bulk kg only.
+
+--------------------------------------------------
+FILES
+--------------------------------------------------
+Agriculture                  Economy_Primary_Agriculture.txt
+Animal Products              Economy_Primary_Animal_Products.txt
+Wilderness Foraging          Economy_Primary_Wilderness_Foraging.txt
+Forestry                     Economy_Primary_Forestry.txt
+Earths and Salts             Economy_Primary_Earths_and_Salts.txt
+Minerals                     Economy_Primary_Minerals.txt
+Stone and Volcanic Products  Economy_Primary_Stone.txt
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+This file is the format law and the router.
+Category files hold the tickets.
+When a new primary good is needed (saltpetre, sulfur,
+charcoal, limestone, etc.), add it to the correct
+category file using the block above.
+Do not create a new primary file without updating
+the Files list here.

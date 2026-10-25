@@ -25,8 +25,10 @@ Timber is selected structural blanks or heavy scantling,
 not boards or firewood.
 
 --------------------------------------------------
-RAMPART CROSSBOW (MAUERARMBRUST)
+TENSION ENGINES
 --------------------------------------------------
+
+RAMPART CROSSBOW (MAUERARMBRUST)
 Type: Heavy wall-sniper / braced crossbow
 Inputs:
   - 1.2–1.6 kg high-carbon oil-tempered spring steel (laminated prod)
@@ -51,43 +53,91 @@ Logistical notes:
   Man-portable by one soldier via sling when uncocked.
   Assistant carries windlass and bolt quiver.
   Requires stone rampart or swivel frame to fire safely.
-  Bolts are heavy all-iron armor-piercing (separate cost;
-  see Finished Arms for heavy bolts). Not a field weapon.
-  Common on permanent walls and tower posts.
+  Bolts are heavy all-iron armor-piercing (separate cost).
+  Not a field weapon. Common on permanent walls and tower posts.
 
---------------------------------------------------
-MANGONEL / ONAGER
---------------------------------------------------
-Type: Torsion stone-thrower
+GREAT TOWER CROSSBOW (BALLISTA DE TURRE)
+Type: Massive frame-mounted wall crossbow
 Inputs:
-  - 8–12 m³ selected oak or ash scantling (frame and arm)
-  - 40–60 kg iron (fittings, axle, shot-cup reinforcement)
-  - 30–40 kg heavy rope or sinew (torsion bundles)
-  - Stone shot or cast balls as ammunition (separate)
-Labour Component Split (Total ~12–18 man-days):
-  - Frame and arm:        6–8 days Higher skilled carpenter   @ 40 bc
-  - Iron fittings:        3–4 days Higher skilled smith       @ 65 bc
-  - Rope work and wind:   2–3 days Basic skilled labour       @ 25 bc
-  - Assembly and test:    1–3 days Engineer / artillerist     @ 80 bc
+  - 2.5–3.5 kg high-carbon oil-tempered laminated spring steel (prod)
+  - 12–18 kg heavy seasoned oak (permanent carriage and stock)
+  - 2–3 kg iron (collar, fittings, winch hardware, bolts)
+  - Heavy composite linen or sinew cord (scaled up from rampart)
+  - Reinforced revolving nut (bronze or iron) + long lever
+  - Integrated or paired dual-man heavy winch
+Labour Component Split (Total ~14–20 man-days):
+  - Prod forging and temper:   4–6 days Higher skilled smith       @ 65 bc
+  - Carriage and stock:        5–7 days Higher skilled carpenter   @ 40 bc
+  - Lock, fittings, winch:     3–4 days Higher skilled smith       @ 65 bc
+  - Cord, assembly, mounting:  2–3 days Specialist / engineer      @ 50–80 bc
 Modifiers:
-  - Poor timber or light rope: −20% cost, −1 Cycle reliability
-  - Fine iron and seasoned oak: +30%
-Output: 1 engine, transportable in sections
-Base price: 40–80 gc
+  - Poor steel or green oak: −20% cost, high warp and snap risk
+  - Fine laminated prod + bronze nut: +35%
+Output: 1 mounted engine (carriage permanent; bow assembly transportable at limit)
+Base price: 45–80 gc
 Logistical notes:
-  Moves on a heavy cart or in sections.
-  Needs firm ground and space to wind.
-  Shot is local stone or pre-cast; not part of the engine cost.
+  The bow assembly alone is the absolute one-man carry limit (~45 lbs).
+  Full assembly stays bolted to the fortress.
+  Requires a prepared stone or timber mount.
+  Bolts are heavy armor-piercing (separate).
+  Anchors major defensive positions; not field-mobile.
+
+OXYBELES
+Type: Early tension frame-bow
+Inputs:
+  - Composite bow limbs (horn, sinew, wood)
+  - 4–6 kg timber frame
+  - 1–1.5 kg iron fittings
+Labour: ~8–12 man-days
+Base price: 30–55 gc
+Notes: Lighter than Great Tower. Still requires a brace or frame.
 
 --------------------------------------------------
-BALLISTA
+BOLTS — TENSION ENGINES
 --------------------------------------------------
+Ammunition is separate from the engine.
+Sold by the dozen or the score in fortress stores.
+Not ordinary crossbow bolts.
+
+Rampart Bolt (Mauerbolzen)
+Inputs:
+  - 0.15–0.25 kg hardened carbon steel (long narrow bodkin head)
+  - Dense ash or hornbeam shaft blank, tapered
+  - Leather or horn vane stock + copper wire binding
+Labour: ~0.2–0.25 man-day per bolt (smith head + specialist fletching)
+Base price: 10–18 sc each
+Notes: 12-inch. Diamond or square bodkin optimised for plate and mail.
+       Leather/horn vanes bound with copper wire.
+       Dedicated to the Rampart Crossbow. Quiver of 8–12 typical for a post.
+
+Great Tower Bolt (Turmbolzen / Bolt-Spear)
+Inputs:
+  - 0.6–0.9 kg iron or steel (socketed jacket or solid shaft + chisel head)
+  - Dense hornbeam core (if composite) or full forged shaft
+  - Sheet brass or copper for riveted vanes
+Labour: ~0.4–0.5 man-day per bolt (smith + fitter)
+Base price: 35–55 sc each
+Notes: 16–18 inch. Barbed or solid-pyramid chisel head wider than the shaft.
+       Metal vanes cold-riveted and angled for spin.
+       Closer to light artillery than a quarrel.
+       Dedicated to the Great Tower Crossbow. Stored in fortress magazines.
+
+--------------------------------------------------
+TORSION ENGINES
+--------------------------------------------------
+
+EUTHYTONE
+Inputs: timber frame, iron fittings, heavy rope or sinew bundles
+Labour: ~8–12 man-days
+Base price: 20–40 gc
+
+BALLISTA
 Type: Direct-fire torsion bolt-thrower
 Inputs:
   - 4–6 m³ selected timber (frame and stock)
   - 25–35 kg iron (prods, trigger, fittings)
   - 15–20 kg heavy rope or composite prod material
-  - Bolts (separate; see Finished Arms for heavy bolts)
+  - Bolts (separate)
 Labour Component Split (Total ~8–12 man-days):
   - Frame:                4–5 days Higher skilled carpenter   @ 40 bc
   - Iron work:            3–4 days Higher skilled smith       @ 65 bc
@@ -99,97 +149,144 @@ Logistical notes:
   distances once emplaced. Preferred for walls and
   counter-battery work.
 
---------------------------------------------------
-TREBUCHET (COUNTERWEIGHT)
---------------------------------------------------
-Type: Gravity stone-thrower
+SCORPION
+Inputs: light timber, iron fittings, smaller torsion bundles
+Labour: ~5–8 man-days
+Base price: 12–25 gc
+Notes: Man-portable in sections.
+
+ONAGER
+Type: Torsion stone-thrower
 Inputs:
-  - 25–40 m³ heavy structural timber (frame, arm, counterweight box)
-  - 80–120 kg iron (axle, fittings, sling hardware)
-  - 50–70 kg rope
-  - Counterweight mass (stone, earth, or lead; often local)
-Labour Component Split (Total ~40–60 man-days):
-  - Heavy frame:         20–25 days Higher skilled carpenter  @ 40 bc
-  - Iron and axle:        8–10 days Higher skilled smith      @ 65 bc
-  - Rigging:              5–8 days Basic skilled labour       @ 25 bc
-  - Design and erection:  7–12 days Engineer                  @ 80 bc
-Output: 1 engine (usually built on site)
-Base price: 120–250 gc (or equivalent local labour + timber)
+  - 8–12 m³ selected oak or ash scantling (frame and arm)
+  - 40–60 kg iron (fittings, axle, shot-cup reinforcement)
+  - 30–40 kg heavy rope or sinew (torsion bundles)
+  - Stone shot or cast balls as ammunition (separate)
+Labour Component Split (Total ~12–18 man-days):
+  - Frame and arm:        6–8 days Higher skilled carpenter   @ 40 bc
+  - Iron fittings:        3–4 days Higher skilled smith       @ 65 bc
+  - Rope work and wind:   2–3 days Basic skilled labour       @ 25 bc
+  - Assembly and test:    1–3 days Engineer / artillerist     @ 80 bc
+Output: 1 engine, transportable in sections
+Base price: 40–80 gc
 Logistical notes:
-  Rarely transported whole. Built where it will stand.
-  The counterweight and the throwing arm dominate time.
-  A major siege commitment. See also Architecture costs
-  for the working platform.
+  Moves on a heavy cart or in sections.
+  Needs firm ground and space to wind.
+  Shot is local stone or pre-cast; not part of the engine cost.
+
+SPRINGALD
+Inputs: timber housing, iron fittings, torsion bundles
+Labour: ~7–11 man-days
+Base price: 22–45 gc
+Notes: Often wall- or ship-mounted.
 
 --------------------------------------------------
-BATTERING RAM
+COUNTERWEIGHT ENGINES
 --------------------------------------------------
-Type: Covered or open ram
+Damage, range, and reload live on the payload
+(see Siege_Weapons.txt matrix). The figures below
+are the engine structure only.
+Ammunition is never included.
+
+MANGONEL (man-powered / traction)
 Inputs:
-  - 6–10 m³ heavy timber (frame and beam)
-  - 30–50 kg iron (head shoe, fittings, wheels or rollers)
-  - Hide or timber cover if protected
-Labour Component Split (Total ~6–10 man-days):
-  - Beam and frame:       4–6 days Carpenter                 @ 40 bc
-  - Iron head:            2–3 days Smith                     @ 65 bc
-  - Cover (if any):       1–2 days Labour / leather          @ 25–30 bc
-Output: 1 ram
-Base price: 15–30 gc
+  - 3–5 m³ light timber
+  - 15–25 kg iron fittings and rope hardware
+  - Heavy pulling ropes
+Labour: ~6–9 man-days
+Base price: 18–35 gc
+Notes: Simplest form. No substantial ballast box.
+       Fast to build and move.
+
+Tier 1: Traction / Light Trebuchet
+Type: Hybrid traction-counterweight, mobile
+Inputs:
+  - 6–10 m³ selected oak or ash (frame, arm, small ballast box)
+  - 30–45 kg iron (axle, fittings, rope hardware)
+  - 20–30 kg heavy rope (pulling lines and sling)
+  - Small ballast (local stone or clay)
+Labour Component Split (Total ~10–14 man-days):
+  - Frame and arm:        5–7 days Higher skilled carpenter   @ 40 bc
+  - Iron fittings:        2–3 days Higher skilled smith       @ 65 bc
+  - Rigging and test:     2–3 days Engineer / labour          @ 40–80 bc
+Output: 1 engine, transportable in sections on two heavy wagons
+Base price: 35–60 gc
 Logistical notes:
-  Often improvised from local timber and a smith’s shoe.
-  The covered version approaches the cost of a small mantlet
-  wall plus the ram.
+  Footprint 4 m × 3 m. Setup or pack-down ~30 minutes with
+  Engineering Test. Hybrid man-rope assist on small ballast.
+  Fastest counterweight cycle. Local stone for most shot.
+
+Tier 2: Fortified Siege Trebuchet (The Couillard)
+Type: Heavy on-site counterweight
+Inputs:
+  - 20–30 m³ structural timber (frame, arm, large pivoted box)
+  - 70–100 kg iron (axle, fittings, winch hardware)
+  - 40–60 kg rope
+  - Ballast mass (iron ore, wet clay, or local stone; often gathered)
+Labour Component Split (Total ~30–45 man-days):
+  - Heavy frame and box:  15–20 days Higher skilled carpenter  @ 40 bc
+  - Iron and axle:         6–8 days Higher skilled smith       @ 65 bc
+  - Rigging and erection:  6–10 days Engineer + labour         @ 40–80 bc
+Output: 1 engine (built on site; not movable once anchored)
+Base price: 90–160 gc (or equivalent local timber + labour)
+Logistical notes:
+  Footprint 8 m × 6 m. 2–3 days construction from structural logs.
+  Workhorse for wall and gate reduction. Outside most
+  wall-crossbow range when properly sited.
+
+Tier 3: Fortress Breaker (The Warwolf Class)
+Type: Colossal gravity engine
+Inputs:
+  - 60–100 m³ heavy structural timber (beams thicker than oak trunks)
+  - 150–250 kg iron (axles, fittings, dual capstan hardware)
+  - 80–120 kg rope
+  - Ballast cradle for up to 15 tons lead/rubble (mass often local)
+Labour Component Split (Total ~120–180 man-days):
+  - Monolithic frame:     60–80 days Master carpenters          @ 50 bc
+  - Iron and capstans:    20–30 days Higher skilled smith       @ 65 bc
+  - Design, balance, erection: 25–40 days Master engineers     @ 100 bc
+  - Logging and haul:     included in the above or separate camp
+Output: 1 engine (site-built only)
+Base price: 300–550 gc (or multi-week local commitment)
+Logistical notes:
+  Footprint 15 m × 12 m earthwork. 4–6 weeks, active logging camp,
+  hard Engineering Test to balance torque. Failure risks collapse.
+  Beast-of-burden assistance standard for the dual giant capstans.
+  Strategic piece for breaking historic deadlocks. Not mobile.
 
 --------------------------------------------------
-SIEGE TOWER
+BLACK POWDER ENGINES
 --------------------------------------------------
-Type: Mobile covered approach tower
-Inputs:
-  - 40–70 m³ structural timber
-  - 60–100 kg iron (fastenings, wheels or rollers)
-  - Hides or wet hides for fire protection (optional)
-Labour Component Split (Total ~50–80 man-days):
-  - Structure:           30–40 days Carpenter                @ 40 bc
-  - Iron and mobility:   10–15 days Smith                    @ 65 bc
-  - Covering and finish:  5–10 days Labour                   @ 25 bc
-  - Design:               5–10 days Engineer                 @ 80 bc
-Output: 1 tower (almost always built on site)
-Base price: 80–180 gc
-Logistical notes:
-  More building than weapon. See Economy_Finished_Architecture.txt
-  for comparable timber structures. Movement requires a
-  prepared approach and many bodies. Fire is the usual end.
+Early gunpowder pieces. Powder, shot, and barrels are
+specialist and scarce. Prices reflect that scarcity.
+Misfire and burst risk sit outside the cost ticket.
 
---------------------------------------------------
-MANTLET / PAVISE WALL
---------------------------------------------------
-Type: Mobile cover
-Inputs:
-  - 1–2 m³ timber or heavy boards
-  - 8–15 kg iron (frame, wheels or handles)
-  - Hide facing optional
-Labour Component Split (Total ~2–4 man-days):
-  - Frame and face:       1.5–2.5 days Carpenter             @ 40 bc
-  - Iron:                 0.5–1 day Smith                    @ 65 bc
-Output: 1 mantlet
-Base price: 5–12 gc
-Logistical notes:
-  Common, often made in quantity. Can be carried or
-  wheeled. The cheapest way to give a crew hard cover.
+FALCONET / SAKER
+Inputs: bronze or iron barrel, timber carriage, iron fittings
+Labour: ~12–18 man-days (founder + carpenter + smith)
+Base price: 40–70 gc
+Notes: Lightest practical cannon.
 
---------------------------------------------------
-GENERAL LOGISTICAL CONSIDERATIONS
---------------------------------------------------
-- Ammunition (stone, bolt, fire-pot) is never included
-  in the engine price. It is bought or gathered separately.
-- Transport of a finished engine adds cart-days and
-  escort. A mangonel in sections needs one heavy cart.
-  A trebuchet is not moved; it is built.
-- Site preparation (level ground, protective ditch,
-  approach ramp) is Engineering labour, not part of
-  the engine ticket.
-- Local timber of the right scantling is the usual
-  constraint, not coin. A mark with good oak and a
-  smith can raise engines faster than it can import them.
-- Captured engines are worth their remaining structural
-  integrity. A burnt frame is firewood and scrap iron.
+CULVERIN
+Inputs: longer bronze or iron barrel, reinforced carriage
+Labour: ~20–30 man-days
+Base price: 80–140 gc
+
+DEMI-CANNON / BOMBARD
+Inputs: heavy cast barrel (bronze or iron), massive timber bed
+Labour: ~40–70 man-days (often on-site assembly)
+Base price: 150–300 gc
+Notes: Wall-breaker. Bombards frequently built or finished on site.
+
+MORTAR
+Inputs: short heavy barrel, timber bed, iron fittings
+Labour: ~15–25 man-days
+Base price: 60–110 gc
+Notes: High-angle. Shells or stone shot separate.
+
+RACK OF FIRE
+Inputs: timber frame, multiple light tubes or rocket guides, iron fittings
+Labour: ~10–16 man-days
+Base price: 50–90 gc
+Notes: Experimental. Rockets or fire-pots are the payload and
+       are not included. High risk of premature ignition.

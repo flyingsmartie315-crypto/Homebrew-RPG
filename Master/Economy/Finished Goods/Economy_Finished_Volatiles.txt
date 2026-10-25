@@ -1,0 +1,145 @@
+# Economy_Finished_Volatiles.txt
+# Pre-industrial warfare compounds — storage, transit, cost, stability.
+# Status: DRAFT.
+# Companion files:
+#   Siege_Weapons.txt                  engines that consume these
+#   Economy_Finished_Siege_Arms.txt    engines and payloads
+#   Economy_Primary_Earths_and_Salts.txt
+#   Economy_Primary_Minerals.txt
+#   Economy_Processed_*.txt            milling, calcining, etc.
+#   Economy_Rules.txt                  currency and bulk
+
+HEADER NOTE
+All prices use the universal currency (1 gc = 20 sc = 240 bc).
+These are finished or semi-finished volatile compounds, not primary goods.
+They are almost never sold in ordinary shops.
+Prices below are material + processing value at a specialist works
+or fortress magazine. Transport, guards, and local scarcity sit on top.
+
+Stability Class
+  C — Stable under ordinary dry storage.
+      Becomes dangerous if wet, cracked, or exposed to wind/spark.
+  Higher classes (B, A) are not yet locked for these substances.
+
+Transit Rule
+  Heavy Separation — components or the mix itself must travel
+                     apart or in small sealed lots. Vibration and
+                     moisture destroy homogeneity or safety.
+  Stable — may travel as a finished grained product without
+           special separation beyond ordinary dry packing.
+
+Power Factor (PF)
+  Relative propellant strength. 1.0 is a working baseline
+  for ordinary early cannon. Used by Siege_Weapons.txt
+  when calculating range or structural effect.
+
+--------------------------------------------------
+BLACK POWDER — PROPELLANTS
+--------------------------------------------------
+
+Substance ID: BPD_01
+Name: Serpentine / “Meal” Powder
+Base Formulation: Un-grained raw dust mix
+  (saltpetre, charcoal, sulfur in rough proportion).
+Processed Cost: Low (raw crushing and mixing only).
+  No wet-milling, no cake, no graining.
+Transit Rule: Heavy Separation.
+  Components often travel apart and are mixed near the point of use.
+  Finished meal powder settles and separates under vibration.
+Siege Yield: Fuses, fire-arrows, rocket fuel, primitive mortars,
+             early hand-gonnes and light falconets when nothing better exists.
+Power Factor (PF): 0.5
+Storage:
+  Dry, sealed casks or jars. Keep away from spark and damp.
+  Settles; must be re-mixed before use.
+Weight / Unit: typically 10–20 kg cask.
+Base price: 8–15 sc per kg
+Notes: Cheap and common where saltpetre and charcoal exist.
+       Unreliable in heavy guns. The default for rockets,
+       fire-pots, and RACK OF FIRE payloads.
+
+Substance ID: BPD_02
+Name: Corned / “Grained” Military Powder
+Base Formulation: Wet-milled, cake-pressed, and grained.
+Processed Cost: High.
+  Requires specialized mechanical powder-mills, pressing,
+  and controlled drying.
+Transit Rule: Stable.
+  Retains homogeneity under ordinary vibration and handling.
+Siege Yield: Mandatory for Culverins, Sakers, Demi-Cannons,
+             and heavy Bombards when wall-shattering kinetic
+             effect is required.
+Power Factor (PF): 1.5
+Storage:
+  Dry magazine, sealed barrels. Standard fortress practice.
+  Longer shelf life than meal powder.
+Weight / Unit: 20–40 kg barrel typical.
+Base price: 40–70 sc per kg
+Notes: The military standard once mills exist.
+       Scarce outside major arsenals and siege trains.
+       Do not substitute meal powder in heavy guns if the
+       engine profile assumes PF 1.5.
+
+--------------------------------------------------
+CHEMICAL / OBSCURANT
+--------------------------------------------------
+
+Substance ID: CH_01
+Name: Quicklime Dust Cloud — “Blinding Ash”
+Base Formulation: Calcinated limestone crushed to fine particulate.
+Processed Cost: Low.
+  Cross-ref: Economy_Primary_Earths_and_Salts.txt (limestone / lime).
+  Calcining and fine grinding only.
+Weight per Unit: 5 kg canvas satchel.
+Stability Class: C
+  Stable when dry. High wind causes self-contamination
+  and loss of the cloud.
+Transit Rule: Ordinary dry packing. Keep sealed.
+Siege Yield: Thrown or lofted to create a blinding particulate cloud.
+             Used against breaches, approaches, and enclosed spaces.
+Base price: 3–6 sc per kg (satchel ~15–30 sc)
+Notes: Not a propellant. Obscurant and irritant.
+       Handlers wear cloth over mouth and eyes.
+       Useless in rain or heavy damp.
+
+--------------------------------------------------
+TOXIC SMOKE
+--------------------------------------------------
+
+Substance ID: TX_01
+Name: Arsenic Smoke / Orpiment Scent
+Base Formulation: Realgar / Orpiment minerals baked with sulfur
+                  and scrap tallow.
+Processed Cost: Critical.
+  Extremely hazardous to manufacture.
+  Cross-ref: Economy_Primary_Minerals.txt for the arsenic minerals.
+Weight per Unit: 15 kg slow-burning earth pot.
+Stability Class: C
+  Stable until ignited.
+  Poisonous to handlers if the shell cracks.
+Transit Rule: Heavy Separation or sealed specialist packing.
+  Cracked pots are a handling hazard.
+Siege Yield: Slow-burning toxic smoke pot.
+             Lofted or placed to deny ground, breaches, or enclosed works.
+Base price: 2–4 gc per pot (material + hazard premium)
+Notes: Not a propellant. Area denial and terror.
+       Manufacture kills or cripples careless workers.
+       Use is rare and usually a last resort or specialist arsenal item.
+       Living targets in the smoke must test vs Poison or Disease
+       as the GM rules; the pot itself does structural damage only
+       if it strikes as a blunt mass.
+
+--------------------------------------------------
+GENERAL RULES
+--------------------------------------------------
+- Ammunition and compounds are never included in the engine price
+  in Economy_Finished_Siege_Arms.txt or Siege_Weapons.txt.
+- PF multiplies effective propellant performance for range and
+  structural calculations when an engine lists a powder requirement.
+- Stability Class C items may be stored in ordinary dry magazines
+  with the precautions noted. They are not “safe.”
+- Local scarcity of saltpetre, sulfur, or arsenic minerals
+  multiplies the listed price. Charcoal is rarely the constraint.
+- These compounds sit outside ordinary Finished Arms and
+  Finished Goods shops. They are arsenal, siege-train, or
+  specialist alchemical goods.

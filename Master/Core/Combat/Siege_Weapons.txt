@@ -94,8 +94,8 @@ Accuracy
 Damage
   Engines do not use the ordinary Cut / Pierce / Blunt
   profile of personal weapons.
-  Each engine lists a Damage band and a special effect
-  (breach, scatter, shock, fire, etc.).
+  Damage profile, range, and most special effects
+  live on the projectile (bolt, stone, shot, or payload).
   Location and Soak still apply to individual targets
   when the shot hits a person or creature.
   Against structures use the breach rules in Core_Combat
@@ -111,16 +111,18 @@ Movement
   (stated per engine) at the cost of breaking Emplacement.
 
 --------------------------------------------------
-2. ENGINE LIST
+2. TENSION ENGINES
 --------------------------------------------------
+Bow-type machines. Damage, range, and AP live on the bolt.
+The engine provides the draw, the brace, and the crew rules.
 
 Rampart Crossbow (Mauerarmbrust)
   Crew: 2 (1 Master Gunner / 1 Loader-Assistant)
   Setup: 2 Turns to brace on rampart or swivel
   Cycle / Reload: 6 (assumes full crew; Engineering Skill)
-  Range: 200 / 400 yards
-  Damage profile: (1, 12, 1)
-  Qualities: AP (3), Impact, Fast (10), Pre-Loaded, Braced Weapon (40)
+  Range: determined by bolt
+  Damage profile: determined by bolt
+  Qualities: Fast (10), Pre-Loaded, Braced Weapon (40)
   Special: Portable by one man via sling (22–26 lbs / 9.9–11.8 kg).
            Impossible to shoulder-fire. Must be braced on stone
            crenellation (recoil hook) or dedicated swivel frame.
@@ -128,8 +130,8 @@ Rampart Crossbow (Mauerarmbrust)
            BS as normal once Emplaced. Moving, bracing, and
            reloading use Engineering. Without brace: −40 to hit
            and 1d10 × 8 blunt Impact to the shooter’s torso.
-           Effective against plate at 350–400 yards; maximum
-           flight over 600 yards. 12-inch all-iron armor-piercing bolt.
+           Effective against plate at 350–400 yards with proper bolt;
+           maximum flight over 600 yards.
   Base cost: 18–35 gc
   Notes: The smallest true siege piece. Bridges infantry
          arms and artillery. Compact enough for tower stairs.
@@ -137,96 +139,316 @@ Rampart Crossbow (Mauerarmbrust)
          Recoil hook transfers the ~1,800 lb draw directly into
          the wall. Laminated spring-steel prod, hornbeam or yew
          stock, heavy composite linen cord, revolving nut lock.
+         Damage and AP live on the Rampart Bolt.
 
-Mangonel / Onager
-  Crew: 4–6
-  Setup: 10 Turns (or 1–2 minutes narrative)
-  Cycle: 3 Rounds (load, wind, aim/loose)
-  Range: 80 / 160 yards
-  Damage: 2d10+8 Blunt (stone) or scatter
-  Special: Stone shot. Against troops, treat as a small
-           area (3-yard radius) with falling damage.
-           Against walls, counts as a breach attempt.
-  Base cost: 40–80 gc
-  Notes: Classic torsion engine. Common on the peninsula
-         marks. Needs firm ground and a clear throwing arc.
+Great Tower Crossbow (Ballista de Turre)
+  Crew: 3 (1 Master Gunner / 2 Assistant Loaders)
+  Setup: Permanent mount (bolted oak carriage); 4 Turns to ready if dismounted assembly is seated
+  Cycle / Reload: 10 (assumes full 3-man crew; Engineering Skill)
+  Range: determined by bolt
+  Damage profile: determined by bolt
+  Qualities: Fast (20), Pre-Loaded, Braced Weapon (60)
+  Special: Frame-mounted only. The bow assembly alone (~45 lbs / 20 kg) is the absolute limit for one man to carry via straps; the full assembly (110–130 lbs / 50–60 kg) stays bolted to the fortress.
+           Unviable as a personal weapon. Must be braced on its permanent heavy oak timber carriage.
+           A single trained man may fire a Pre-Loaded piece using BS as normal once Emplaced.
+           Moving the assembly, seating, and reloading use Engineering.
+           Without brace: −60 to hit and 1d10 × 12 blunt Impact to the shooter’s torso.
+  Base cost: 45–80 gc
+  Notes: Anchors gatehouses, bastions, and curtain walls.
+         Massive laminated spring-steel prod on a permanent oak carriage.
+         Dual-man heavy winch integrated or paired.
+         The step up from the Rampart Crossbow; true fortress artillery in crossbow form.
+         Damage and AP live on the Great Tower Bolt.
+
+Oxybeles
+  Crew: 2–3
+  Setup: 4 Turns
+  Cycle / Reload: 4
+  Range: determined by bolt
+  Damage profile: determined by bolt
+  Qualities: Pre-Loaded, Braced Weapon (30)
+  Special: Early tension engine. Large composite bow mounted on a frame.
+           Direct-fire. Lighter and more mobile than the Great Tower.
+           Damage and AP live on its dedicated bolt (draft).
+  Base cost: 30–55 gc
+  Notes: Historical predecessor to later torsion ballistae.
+         Still seen on older walls and in specialist arsenals.
+
+--------------------------------------------------
+BOLTS — TENSION ENGINES
+--------------------------------------------------
+These bolts are not ordinary crossbow quarrels.
+They are purpose-made for the braced wall pieces.
+Cost and availability sit in Economy_Finished_Siege_Arms.txt.
+They do not appear as rows in Weaponry.txt.
+
+Rampart Bolt (Mauerbolzen)
+  Length: 12 inches
+  Core Shaft: Dense, straight-grained European ash or hornbeam.
+              Heavily tapered (widest near the head, narrowest at the tail)
+              to move the centre of gravity forward and resist bending
+              under the composite string’s impact.
+  Head: Long, narrow bodkin of hardened carbon steel.
+        Diamond-shaped or square cross-section.
+        Optimised to wedge chainmail links and punch plate.
+  Fletching: Thin, stiff leather sheets or scraped horn.
+             Glued and bound with copper wire.
+             Ordinary feathers would be stripped at these speeds.
+  Weight: ~0.4–0.5 kg
+  Damage profile: (1, 12, 1)
+  Range: 200 / 400 yards
+  Qualities when loosed from Rampart: AP (3), Impact
+  Notes: Brass-lined groove on the weapon. Carried in a dedicated quiver
+         by the assistant. Ineffective or unsafe in a lighter crossbow.
+         Optimised for flat-trajectory accuracy at 350–400 yards against plate.
+         Damage, AP, and range live on this bolt, not the engine.
+
+Great Tower Bolt (Turmbolzen / Bolt-Spear)
+  Length: 16–18 inches
+  Core Shaft: Reinforced composite.
+              Dense hornbeam core wrapped in a socketed iron jacket,
+              or a solid forged all-iron shaft with a hollowed tail
+              for balance. Wood alone is not viable.
+  Head: Massive barbed or solid-pyramid chisel head.
+        Wider than the shaft.
+        Displaces material on impact — fractures timber, crumples iron,
+        and defeats shield walls, mantlets, and horse armour.
+  Fletching: Thin sheet brass or copper plates, cold-riveted into the tail.
+             Slightly angled to induce spin for a straight trajectory
+             in crosswinds. Closer to a javelin or iron rod than a quarrel.
+  Weight: ~0.8–1.1 kg
+  Damage profile: (2, 20, 2)
+  Range: 450 / 900 yards
+  Qualities when loosed from Great Tower: AP (5), Impact
+  Notes: Requires the dual-man winch and permanent carriage.
+         Not interchangeable with Rampart bolts.
+         Extreme range and penetration; light artillery ammunition
+         rather than an infantry bolt.
+         Damage, AP, and range live on this bolt, not the engine.
+
+Oxybeles Bolt (draft)
+  Length: 10–14 inches
+  Damage profile: (1, 10, 1) to (2, 14, 2) by size
+  Range: 150 / 300 yards
+  Qualities: AP (2–4), Impact
+  Notes: Intermediate between ordinary heavy crossbow and Rampart.
+
+General
+  Bolts are Pre-Loaded into the weapon before the gunner aims.
+  They take the AP and Impact listed on the bolt.
+  Against structures they count as focused breach attempts scaled to the engine.
+  Ammunition is never included in the engine price.
+
+--------------------------------------------------
+3. TORSION ENGINES
+--------------------------------------------------
+Rope-bundle or sinew torsion machines.
+Damage and range live on the projectile.
+
+Euthytone
+  Crew: 2–3
+  Setup: 6 Turns
+  Cycle: 3 Rounds
+  Range: 100 / 200 yards (bolt)
+  Special: Early straight-spring torsion ballista.
+           Direct fire. Precision against single targets.
+  Base cost: 20–40 gc
+  Notes: Ancestor of later ballistae. Still found in older arsenals.
 
 Ballista
   Crew: 2–4
   Setup: 6 Turns
   Cycle: 2 Rounds
   Range: 120 / 240 yards
-  Damage: 2d10+6 Pierce (bolt)
-  Special: High accuracy against single targets or
-           light structures. Bolt can pin or shatter
-           lighter timber.
+  Special: High accuracy against single targets or light structures.
+           Bolt can pin or shatter lighter timber.
   Base cost: 25–50 gc
-  Notes: Direct-fire. Preferred for precision work
-         and against enemy engines or officers.
+  Notes: Direct-fire. Preferred for precision work and against
+         enemy engines or officers.
 
-Trebuchet (counterweight)
-  Crew: 8–12
-  Setup: 30–60 Turns (or a short narrative hour)
-         plus construction if built on site
+Scorpion
+  Crew: 1–2
+  Setup: 3 Turns
+  Cycle: 2 Rounds
+  Range: 80 / 160 yards
+  Special: Light torsion bolt-thrower. Man-portable in sections.
+           Fast for its class. Often used as a field piece.
+  Base cost: 12–25 gc
+  Notes: The lightest practical torsion engine.
+
+Onager
+  Crew: 4–6
+  Setup: 10 Turns
+  Cycle: 3 Rounds
+  Range: 80 / 160 yards
+  Special: Stone-throwing torsion engine. Against troops, treat as a small
+           area (3-yard radius). Against walls, counts as a breach attempt.
+  Base cost: 40–80 gc
+  Notes: Classic torsion stone-thrower. Needs firm ground.
+
+Springald
+  Crew: 2–3
+  Setup: 5 Turns
+  Cycle: 2 Rounds
+  Range: 100 / 200 yards
+  Special: Frame-mounted torsion bolt engine, often with a protective housing.
+           Common on walls and ships. Faster cycle than a full ballista.
+  Base cost: 22–45 gc
+  Notes: Popular late-medieval wall piece.
+
+--------------------------------------------------
+4. COUNTERWEIGHT ENGINES
+--------------------------------------------------
+Gravity and hybrid traction machines. Damage, range, and
+reload live on the payload, not the engine. The engine
+sets crew, footprint, maximum payload, and deployment.
+Accuracy uses Artillery (or Engineering for setup).
+Listed Reload assumes full crew. Engineering Skill for
+setup, packing, and most loading work.
+
+Mangonel (man-powered / traction)
+  Footprint: 3 m × 2 m
+  Crew: 4–8 (pullers)
+  Max payload: 20–30 lbs
+  Deployment: Light frame. Can be carried or wagoned.
+              Setup: 10–15 minutes.
+  Notes: Simplest man-powered trebuchet. No fixed ballast,
+         or only a token weight. Ropes pulled by the crew.
+         Fast, inaccurate, anti-personnel.
+
+Tier 1: Traction / Light Trebuchet
+  Footprint: 4 m × 3 m flat clearing
+  Crew: 4 (1 Engineer, 3 Laborers)
+  Max payload: 40 lbs (18 kg)
+  Deployment: Disassembled on two heavy wagons.
+              Setup or pack-down: Engineering Test, ~30 minutes.
+  Notes: Hybrid — man-powered ropes assist a small ballast box.
+         Mobile anti-personnel and light fortification piece.
+         Fastest cycle of the true counterweight class.
+
+Tier 2: Fortified Siege Trebuchet (The Couillard)
+  Footprint: 8 m × 6 m cleared firing platform
+  Crew: 8–10 (1 Master Engineer, 1 Spotter, 6–8 Winch Laborers)
+  Max payload: 150 lbs (68 kg)
+  Deployment: Built on-site over 2–3 days from structural timber.
+              Cannot be moved once anchored without full disassembly.
+  Notes: Workhorse of late-medieval siege. Massive pivoted box
+         packed with iron ore or wet clay. Built to dismantle
+         walls, towers, and gates from outside defensive
+         wall-crossbow range.
+
+Tier 3: Fortress Breaker (The Warwolf Class)
+  Footprint: 15 m × 12 m leveled earthwork foundation
+  Crew: 20–30 (1 Master Siege Engineer, 2 Master Carpenters,
+               dedicated winch-men, beast-of-burden assistance
+               for dual giant capstans)
+  Max payload: 300 lbs+ (140 kg+)
+  Deployment: 4–6 weeks of dedicated construction, active
+              logging camp, and a hard Engineering Test to
+              balance structural torque. Failure risks
+              catastrophic collapse under its own weight.
+  Notes: Pinnacle of gravity engines. Colossal swinging cradle
+         with up to 15 tons of lead and rubble ballast.
+         Beams thicker than ancient oak trunks.
+         Built to break historic deadlocks. Not mobile.
+
+--------------------------------------------------
+5. SIEGE PAYLOAD OPTIONS & DAMAGE MATRIX
+--------------------------------------------------
+Damage profile, range, and reload are properties of the
+payload when launched from the given tier.
+Reload figures assume full crew for that tier.
+All use Artillery Skill to hit unless noted.
+
+Rough Fieldstone (unrefined rubble)
+  Tier 1: Damage (1, 10, 2)  Range 250/400  Reload 3
+  Tier 2: Damage (2, 10, 4)  Range 200/350  Reload 6
+  Tier 3: Damage (3, 12, 8)  Range 150/250  Reload 12
+  Special: Inaccurate. −10 to Ballistic / Artillery test to hit.
+           Shifting aerodynamics.
+
+Masonry-Cut Sphere (chiseled limestone)
+  Tier 1: Damage (1, 12, 2)  Range 300/450  Reload 3
+  Tier 2: Damage (2, 12, 6)  Range 250/400  Reload 6
+  Tier 3: Damage (4, 10, 10) Range 200/300  Reload 12
+  Special: Sunder & Demolish. Double structural integrity
+           damage to vertical stone fortifications, walls,
+           and wooden hoarding.
+
+Greek Fire Ceramics (earthenware napalm flasks)
+  Tier 1: Damage (1, 6, 1)  Range 200/350  Reload 4
+  Tier 2: Damage (1, 8, 2)  Range 180/300  Reload 8
+  Tier 3: Damage (2, 6, 4)  Range 150/220  Reload 14
+  Special: Incendiary Blast. Sticky, unquenchable chemical fire.
+           Blast radius 3 m / 6 m / 12 m by tier.
+           Bypasses standard armour; ignites structures instantly.
+
+Carcass & Offal (biological)
+  Tier 1: Damage None  Range 200/300  Reload 3
+  Tier 2: Damage None  Range 180/250  Reload 6
+  Tier 3: Damage None  Range 150/200  Reload 12
+  Special: Contagion. Spreads toxic rot. Persistent hazard zone.
+           Living units in the impact radius must test vs Disease
+           or suffer permanent Fatigue.
+
+General
+  Payload must not exceed the tier’s Max Payload.
+  Ammunition is never included in the engine price.
+  Local stone is the usual source for Fieldstone and
+  Masonry-Cut Sphere. Greek Fire and carcasses are
+  specialist stores.
+
+--------------------------------------------------
+6. BLACK POWDER ENGINES
+--------------------------------------------------
+Early gunpowder pieces. Damage and range live on the shot.
+Crew and cycle rules still apply. Black powder is scarce
+and dangerous; misfires and burst barrels are possible.
+
+Falconet / Saker
+  Crew: 2–3
+  Setup: 4 Turns
+  Cycle: 3 Rounds
+  Special: Light field or wall gun. Anti-personnel and light structure.
+  Base cost: 40–70 gc
+  Notes: Smallest practical cannon. Often on a wheeled carriage
+         or wall mount.
+
+Culverin
+  Crew: 4–6
+  Setup: 8 Turns
+  Cycle: 4 Rounds
+  Special: Long-barrel gun. Good range and accuracy for its class.
+           Used against ships, towers, and massed troops.
+  Base cost: 80–140 gc
+  Notes: Workhorse early cannon.
+
+Demi-Cannon / Bombard
+  Crew: 6–10
+  Setup: 12 Turns or on-site build
   Cycle: 6–8 Rounds
-  Range: 150 / 300 yards
-  Damage: 3d10+12 Blunt (heavy stone)
-  Special: Longest range and heaviest payload.
-           Can throw fire-pots or diseased carcasses
-           at GM discretion. Slow to retarget.
-  Base cost: 120–250 gc (or built on site from local timber)
-  Notes: Strategic piece. Rare outside major sieges
-         or permanent fortifications. The counterweight
-         and frame are the bulk of the cost.
+  Special: Heavy stone- or iron-throwing gun. Wall-breaker.
+           Slow, powerful, and temperamental.
+  Base cost: 150–300 gc
+  Notes: The heavy end of early artillery. Bombards are often
+         built or assembled on site.
 
-Battering Ram
-  Crew: 6–10 (plus cover crew)
-  Setup: 4 Turns to position under cover
-  Cycle: 1 Round per strike (sustained)
-  Range: Contact
-  Damage: Breach value vs door or gate
-  Special: Continuous pressure. Each Round of
-           sustained striking reduces the target’s
-           structural integrity. Vulnerable to
-           overhead fire unless covered.
-  Base cost: 15–30 gc (frame and head)
-  Notes: Often built on site or carried in sections.
-         The head is iron-shod timber.
+Mortar
+  Crew: 3–5
+  Setup: 6 Turns
+  Cycle: 4 Rounds
+  Special: High-angle lobber. Drops shot or explosive shells
+           behind walls. Short range, high arc.
+  Base cost: 60–110 gc
+  Notes: Useful against courtyards and soft targets inside fortifications.
 
-Siege Tower
-  Crew: 10–20 (pushers + occupants)
-  Setup: Hours of narrative assembly and approach
-  Cycle: Not a shooter. Provides elevated position
-         and covered approach.
-  Special: Grants height advantage and cover to
-           troops crossing a wall. Slow to move.
-           Destroyed if the base is burned or the
-           structure is breached.
-  Base cost: 80–180 gc or built on site
-  Notes: Logistical monster. More architecture than
-         weapon. See Economy_Finished_Siege_Arms.txt
-         for timber and labour.
-
-Mantlet / Pavise Wall
-  Crew: 2–4 to move
-  Setup: 2 Turns
-  Cycle: Passive cover
-  Special: Provides hard cover to a small crew
-           or approach party. Can be moved slowly.
-  Base cost: 5–12 gc
-  Notes: Cheap, common, and often improvised.
-
---------------------------------------------------
-3. BASE COST NOTES
---------------------------------------------------
-Listed Base cost is the Common shop or contracted
-price for a finished, transportable engine in good
-order, or the equivalent material + labour value
-for pieces built on site.
-See Economy_Finished_Siege_Arms.txt for the
-breakdown of timber, iron, rope, and skilled days.
-Iron Grade and local scarcity modify the final
-price the same way as other Finished Arms.
-Engines are almost never bought off a shelf in
-a small town. They are commissioned, captured,
-or built by the besieger’s engineers.
+RACK OF FIRE (primitive Katyusha)
+  Crew: 4–6
+  Setup: 10 Turns
+  Cycle: 8 Rounds (full rack) or 2 Rounds per tube
+  Special: Multiple light rockets or fire-pots on a frame.
+           Area saturation. Inaccurate but terrifying.
+           High risk of premature ignition.
+  Base cost: 50–90 gc
+  Notes: Experimental and rare. More psychological than precise.
+         The rack is the engine; the rockets are the payload.

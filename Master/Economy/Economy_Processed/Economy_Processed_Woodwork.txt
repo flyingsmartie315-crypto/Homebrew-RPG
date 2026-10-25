@@ -2,197 +2,193 @@
 # Processed goods — Woodwork
 # Law: Economy_Processed_Goods.txt (currency, bulk, packing)
 # Making: Economy_Processing_Matrix.txt
+# Input: Economy_Primary_Forestry.txt intact yield types
+# Status: DRAFT — linked to Forestry species model
 # Base unit: 1 kg, or 1 litre where noted. 1 gc = 20 sc = 240 bc.
 
 Woodwork
 Timber sawn, split, hewn, or selected for use.
 About a third to half of a log is lost to slab, bark, and sawdust.
-The input is always a Forestry log or selected trunk of that species.
-A piece too short or shaken for the named use drops to mixed planks, or to firewood.
+The input is an intact unit from Economy_Primary_Forestry.txt
+(or the bulk kg remainder when no intact unit was produced).
+A piece too short, checked, or shaken for the named use
+drops to mixed planks or to firewood.
+
 Packed planks and beams: Bulk 500 kg/m³, loose-stacked.
 Shingles: Bulk 350 kg/m³, bundled.
 
+--------------------------------------------------
+YIELD TYPE → WOODWORK FORM
+--------------------------------------------------
+The Forestry model produces intact outputs by species and DBH.
+Those outputs feed the forms below.
+If the tree yielded only bulk kg, only the lower forms
+(mixed planks, firewood, rough boards) are available.
+
+Structural log
+  → Hewn beam, long plank stock, ship timber
+  Primary input for posts, ties, plates, and hall frames.
+
+Beam blank
+  → Hewn beam or heavy plank
+  Squared or sawn to section.
+
+Stave blank
+  → Cooper’s staves
+  Split (preferred) or sawn from oak or white oak.
+  Short or flawed blanks lose the cooperage premium.
+
+Mast / spar
+  → Spar / pole blank or finished mast
+  Pine or fir. Clean, straight, minimal knots.
+  Master-mast carries the premium already noted in Forestry.
+
+Haft / handle blank
+  → Shaft / oar / handle blanks
+  Ash preferred. One stick, long spring.
+
+Knee / compass
+  → Knee / compass-timber blank
+  Natural bend oak. Found more than made.
+
+Turning blank
+  → Turning blanks
+  Birch or beech, short and even.
+
+Wet-work blank
+  → Wet-work blanks
+  Alder. Stands damp.
+
+Hub / pipe blank
+  → Hub / pipe blanks
+  Elm heart.
+
+Bulk kg / mixed
+  → Planks / boards (common), shingles, firewood
+  No intact premium.
+
+--------------------------------------------------
 FORMS
+--------------------------------------------------
 
 Planks / Boards
-Input: A sound log, bark on or roughly barked.
+Input: Structural log, beam blank, or bulk kg of sound wood.
 Labour: Saw-pit or mill. Two men and a saw, or a water-saw. Then stacking to season.
 Use: Floors, walls, hull-skin, doors, chests, common furniture.
 Property: Even thickness. Short offcuts are not shafts.
+Yield note: Best stock comes from structural log or beam blank.
+            Bulk kg produces ordinary or short boards.
 
 Roof shingles
-Input: Straight-grained log, usually pine or oak.
+Input: Straight-grained log or beam blank, usually pine or oak.
 Labour: Split with froe and mallet, then dressed thin.
 Use: Roofs, sometimes wall-hang.
 Property: Thin, overlapping, sheds water.
 
 Spar / pole blank
-Input: A young, straight pine or fir, or a clean top-log.
+Input: Mast / spar yield (pine or fir) or clean top-log.
 Labour: Felled whole, barked, knots dressed off.
-Use: Scaffold-poles, light spars, ladder-stiles.
+Use: Scaffold-poles, light spars, ladder-stiles, masts.
 Property: Still one stick.
+Yield note: Direct from Forestry mast/spar column.
+            Master-mast premium applies when the model marks it.
 
 Hewn beam
-Input: A large, reasonably straight log.
+Input: Structural log or beam blank.
 Labour: Scored and hewn square with axe and adze.
 Use: Posts, ties, plates, hall and barn frames.
 Property: One tree, squared.
+Yield note: Requires the intact structural or beam output.
+            Cannot be made from bulk kg alone.
 
 Turning blanks
-Input: Birch or beech, clean and even.
+Input: Turning blank yield (birch or beech) or short clean blocks.
 Labour: Cross-cut and split or sawn to a short block, then seasoned.
 Use: Bowls, spoons, legs, handles.
 Property: Short grain is acceptable.
 
 Wet-work blanks
-Input: Alder from river or fen.
+Input: Alder intact or bulk from river or fen.
 Labour: Cut to length and kept from checking.
 Use: Clogs, sluice-linings, cheap damp joinery.
 Property: Stands wet. Not a structural timber.
 
 Hub / pipe blanks
-Input: Elm, the twisted, knot-free heart of a good log.
+Input: Elm hub/pipe yield or selected heart.
 Labour: Selected and cross-cut.
 Use: Wheel-hubs, pump-pipes.
 Property: Interlocked grain. Hard to split.
 
 Shaft / oar / handle blanks
-Input: Straight-grained ash, one stick.
+Input: Haft / handle blank (ash preferred).
 Labour: Selected and seasoned. Turning to the haft comes later.
 Use: Axe and pollaxe shafts, spear-hafts, oars, tool-handles.
 Property: Long spring. A board will not do.
+Yield note: One stick from the Forestry haft column.
+            A sawn board is not a substitute.
 
 Cooper’s staves
-Input: Oak, split from the log rather than sawn when possible.
+Input: Stave blank (oak or white oak), split from the log when possible.
 Labour: Split, dressed to a taper, seasoned.
 Use: Casks, barrels, vats.
 Property: Holds liquid when the grain runs right.
+Yield note: Direct from Forestry stave column.
+            White oak preferred for tight work.
+            Short or checked blanks drop to ordinary oak price.
 
 Knee / compass-timber blank
-Input: An oak that grew a natural bend.
+Input: Knee / compass yield (natural bend oak).
 Labour: Found more than made.
 Use: Ship-knees, frames.
 Property: The strength is the grown curve.
+Yield note: Rare. Only when the Forestry model or a specific tree produces it.
 
-PRICES BY SPECIES
+--------------------------------------------------
+PRICES BY SPECIES (DRAFT LINK)
+--------------------------------------------------
+Base prices remain those in the species tickets of
+Economy_Primary_Forestry.txt, adjusted for:
+- loss (one-third to one-half to slab, bark, sawdust)
+- labour of the form
+- intact premium when the input was a named yield type
 
-Mixed / Pine
+Mixed / Pine (ordinary plank or spar from bulk or light spar)
 Bulk: 500 kg/m³ (planks, beams, spars) / 350 kg/m³ (shingles)
-Packing: loose stack / bundle
-| Form | Rate | Lots |
-|------|------|------|
-| Planks | 1 bc/kg | 20 kg → 1 sc 8 bc; 200 kg stack → 16 sc 8 bc; cart 800 kg → 66 sc 8 bc; heavy cart 1,500 kg → 125 sc; barge 12,000 kg → 1,000 sc |
-| Roof shingles | 1.5 bc/kg | 10 kg → 1 sc 3 bc; cart 800 kg → 100 sc; heavy cart 1,400 kg volume → 175 sc |
-| Spar / pole blank | 1.2 bc/kg | 15 kg → 1 sc 6 bc |
-| Hewn beam | 1.5 bc/kg | 100 kg → 12 sc 6 bc; cart 800 kg → 100 sc |
+Packing: loose pile / bundle
+Typical uplift: 2.5–4× primary kg after loss and labour.
 
-Birch
-Bulk: 500 kg/m³
-Packing: loose stack
-| Form | Rate | Lots |
-|------|------|------|
-| Boards | 1.2 bc/kg | 20 kg → 2 sc; 200 kg → 20 sc; cart 800 kg → 80 sc; heavy cart 1,500 kg → 150 sc |
-| Turning blanks | 2.4 bc/kg | 5 kg → 1 sc |
+Oak structural / beam / stave
+Higher uplift when the input is an intact structural log,
+beam blank, or stave blank.
+Cooper’s staves from white oak carry an additional premium.
 
-Alder
-Bulk: 500 kg/m³
-Packing: loose stack
-| Form | Rate | Lots |
-|------|------|------|
-| Boards | 1.2 bc/kg | 20 kg → 2 sc; 200 kg → 20 sc; cart 800 kg → 80 sc; heavy cart 1,500 kg → 150 sc |
-| Wet-work blanks | 2 bc/kg | 8 kg → 1 sc 4 bc |
+Ash haft
+Premium for true one-stick haft blanks.
+Sawn substitutes are priced as ordinary ash board.
 
-Beech
-Bulk: 500 kg/m³
-Packing: loose stack
-| Form | Rate | Lots |
-|------|------|------|
-| Boards | 1.8 bc/kg | 20 kg → 3 sc; 200 kg → 30 sc; cart 800 kg → 120 sc; heavy cart 1,500 kg → 225 sc |
-| Turning / furniture blanks | 3.6 bc/kg | 8 kg → 2 sc 5 bc |
+Master-mast
+Uses the 1.5× already noted on the Pine / Fir ticket
+plus spar labour.
 
-Elm
-Bulk: 500 kg/m³
-Packing: loose stack
-| Form | Rate | Lots |
-|------|------|------|
-| Boards | 2 bc/kg | 20 kg → 3 sc 4 bc; 200 kg → 33 sc 4 bc; cart 800 kg → 133 sc 4 bc; heavy cart 1,500 kg → 250 sc |
-| Hub / pipe blanks | 5 bc/kg | 15 kg → 6 sc 3 bc |
-| Hewn beam | 3 bc/kg | 100 kg → 25 sc; cart 800 kg → 200 sc |
+--------------------------------------------------
+RULES
+--------------------------------------------------
+- Input authority is Economy_Primary_Forestry.txt.
+- If the species model did not produce the required intact yield,
+  the higher form cannot be made. Drop to the next lower form
+  or to bulk.
+- Loss of one-third to one-half is already assumed in the uplift.
+- Seasoning time is wait, not labour days (same rule as other processed goods).
+- Siege engines, architecture, and ship work that specify
+  “structural timber”, “staves”, or “mast” must be costed
+  from the matching yield type, not from mixed kg.
 
-Ash
-Bulk: 500 kg/m³
-Packing: loose stack
-| Form | Rate | Lots |
-|------|------|------|
-| Boards | 2.4 bc/kg | 20 kg → 4 sc; 200 kg → 40 sc; cart 800 kg → 160 sc; heavy cart 1,500 kg → 300 sc |
-| Shaft / oar / handle blanks | 7 bc/kg | 3 kg weapon-shaft → 1 sc 9 bc; 8 kg oar / long-handle → 4 sc 8 bc |
-| Hewn frame-beam | 3.6 bc/kg | 80 kg → 24 sc; cart 800 kg → 240 sc |
-
-Oak
-Mixed and red oak. Wet work is White Oak, below.
-Bulk: 550 kg/m³ (planks, beams) / 350 kg/m³ (shingles)
-Packing: loose stack / bundle
-| Form | Rate | Lots |
-|------|------|------|
-| Planks | 2.6 bc/kg | 20 kg → 4 sc 4 bc; 200 kg → 43 sc 4 bc; cart 800 kg → 173 sc 4 bc; heavy cart 1,500 kg → 325 sc; barge 12,000 kg → 2,600 sc |
-| Cooper’s staves | 3 bc/kg | 12 kg → 3 sc; 60 kg → 15 sc |
-| Roof shingles | 1.5 bc/kg | 10 kg → 1 sc 3 bc; cart 800 kg → 100 sc |
-| Knee / compass-timber blank | 6 bc/kg | 40 kg → 20 sc |
-| Hewn beam | 4 bc/kg | 100 kg → 33 sc 4 bc; cart 800 kg → 266 sc 8 bc |
-
-White Oak
-Closed grain. Casks that must hold, wet frames, sluice timber.
-Bulk: 700 kg/m³
-Packing: loose stack
-| Form | Rate | Lots |
-|------|------|------|
-| Planks | 4 bc/kg | 20 kg → 6 sc 8 bc; 200 kg → 66 sc 8 bc; cart 800 kg → 266 sc 8 bc |
-| Tight-cooper staves | 6 bc/kg | 12 kg → 6 sc; 60 kg → 30 sc |
-| Wet frame blank | 5 bc/kg | 40 kg → 16 sc 8 bc |
-
-Hickory
-Shock wood. Not a plank-lot.
-Bulk: 800 kg/m³
-Packing: wrapped blanks
-| Form | Rate | Lots |
-|------|------|------|
-| Handle / spoke blank | 9 bc/kg | 3 kg haft → 2 sc 3 bc; 8 kg spoke-set → 6 sc |
-| Maul / beetle blank | 6 bc/kg | 5 kg → 2 sc 6 bc |
-
-Black Locust
-Ground-contact. Pins and posts, not boards for a hall.
-Bulk: 740 kg/m³
-Packing: loose pile / wrapped pins
-| Form | Rate | Lots |
-|------|------|------|
-| Post / sill blank | 4 bc/kg | 20 kg → 6 sc 8 bc; cart 800 kg → 266 sc 8 bc |
-| Treenail / pin blank | 8 bc/kg | 5 kg → 3 sc 4 bc |
-
-Cornelian Cherry
-Smallwood. Shafts and pegs. No plank row.
-Bulk: 900 kg/m³
-Packing: wrapped blanks
-| Form | Rate | Lots |
-|------|------|------|
-| Shaft / peg blank | 10 bc/kg | 2 kg spear-shaft → 1 sc 8 bc; 8 kg lot → 6 sc 8 bc |
-
-Svart-Viðr / Svartwood
-Dauðavík only. Input is the Forestry log of the named grade.
-Bark off under wet-wrap (Fault-moss). Dry sawdust is a Hazard.
-Water-saw preferred. T1 whip-saw is slower and sicker.
-Not a super-material. Rot- and worm-hard. Fire-ugly.
-Grade is geothermal proximity and mineral take, not a second species.
-
-Rim / pale — 600 kg/m³. Hull cuts. A skin of strakes and deck may be this.
-Mid — 720 kg/m³. Waterline and ordinary frames.
-Heart / vent — 850 kg/m³. Keel, stem, stern, tiller, durable haft. Not a hull-lot.
-
-Packing: wrapped stack
-| Form | Rate | Lots |
-|------|------|------|
-| Rim plank (hull strake, deck) | 12 bc/kg | 20 kg → 20 sc; 200 kg → 200 sc |
-| Mid plank (waterline, frame) | 20 bc/kg | 20 kg → 33 sc 4 bc; 200 kg → 333 sc 4 bc |
-| Heart member (keel / stem / stern / tiller blank) | 6 sc/kg | 40 kg → 12 gc; 200 kg blank → 60 gc |
-| Heart hewn beam | 32 bc/kg | 100 kg → 266 sc 8 bc |
-Do not charcoal any grade. Offcuts are foul fuel or wrapped waste.
-A southern stall that has heart has a Jarn hull or a wreck. Rim strakes may be cargo.
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+This draft factors the completed yield types from the
+Forestry species model.
+Full per-form Base prices can be calculated once the
+Processing Matrix labour figures are locked.
+Existing species price lines in the old Woodwork file
+remain usable as the ordinary (non-intact) floor.

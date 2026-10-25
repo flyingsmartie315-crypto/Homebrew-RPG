@@ -1,10 +1,107 @@
 # Economy_Primary_Forestry.txt
 # Primary goods — Forestry
-# Law: Economy_Primary_Goods.txt (currency, bulk, packing)
+# Law: Economy_Primary_Goods.txt (currency, bulk, packing, intact-unit)
+# Status: DRAFT — species model proposal
+# Links: Flora_*.txt (biome shortlists)
 # Base unit: 1 kg unless the line says otherwise.
 # 1 gc = 20 sc = 240 bc. Cart 800 kg / 2.5 m³. Heavy cart 1,500 kg / 4 m³. Barge 12,000 kg / 30 m³.
 
 Forestry
+
+Primary timber remains a bulk kg ticket for mixed or broken wood.
+Workshop value for structural, stave, mast, and blank work
+requires an intact unit. That unit is generated from the living tree.
+
+--------------------------------------------------
+SPECIES LINK
+--------------------------------------------------
+Each timber species ticket points to one or more Flora_ entries.
+Flora files hold Domain, Biome, HSI, Rarity, and Use.
+This file holds the economic output model.
+
+When a stand is felled, the GM (or a generator) uses the
+species model below. The model takes base diameter (DBH)
+and returns approximate intact outputs on a bellcurve.
+
+Do not invent new species here. Add the plant to the
+correct Flora_[Biome].txt first, then add or update
+the output model in this file.
+
+--------------------------------------------------
+INTACT OUTPUT MODEL
+--------------------------------------------------
+Base diameter (DBH) is measured at breast height.
+Outputs are approximate intact pieces a workshop can use.
+Broken, checked, or short wood falls back to the bulk kg price
+of that species (or to firewood).
+
+Distribution
+  For a given DBH band the intact yields follow a simple bellcurve.
+  Most trees produce the modal (typical) output.
+  Fewer produce the low or high extremes.
+  The three columns are Low / Modal / High.
+
+Yield types (examples)
+  - Structural log (length × small-end diameter)
+  - Stave blank
+  - Mast / spar
+  - Beam blank
+  - Firewood / bulk kg only (when the tree is too small or flawed)
+
+A single tree may yield more than one intact piece
+if the species and DBH allow (e.g. one structural log + staves).
+
+--------------------------------------------------
+SPECIES MODELS (DRAFT)
+--------------------------------------------------
+DBH bands in cm. Yields are approximate intact counts or sizes.
+Low / Modal / High.
+
+Oak (Flora_Temperate, Flora_Oceanic, etc.)
+  Use: structural, stave, beam
+  20–30 cm:  Low: bulk only / Modal: 1 short beam / High: 1 beam blank
+  30–45 cm:  Low: 1 beam / Modal: 1 structural log (4–6 m) / High: 1 log + staves
+  45–60 cm:  Low: 1 log / Modal: 1 long structural (6–8 m) + staves / High: 2 logs or mast-grade
+  60 cm+:    Low: 1 long log / Modal: mast or multiple beams / High: exceptional clear
+  Base kg price remains the species ticket below.
+  Intact premium is negotiated or taken from the convenience line.
+
+Pine / Fir
+  Use: mast, spar, light structural, pitch
+  20–30 cm:  Low: bulk / Modal: 1 spar / High: 1 light mast
+  30–40 cm:  Low: 1 spar / Modal: 1 mast (moderate) / High: clean spar + poles
+  40 cm+:    Low: 1 mast / Modal: long mast / High: exceptional spar
+  Master-mast premium already noted on the Pine ticket.
+
+Ash
+  Use: haft, handle, light structural
+  15–25 cm:  Low: bulk / Modal: haft blanks / High: multiple hafts
+  25–35 cm:  Low: hafts / Modal: 1 light beam + hafts / High: clean beam
+  35 cm+:    Low: 1 beam / Modal: structural + hafts / High: exceptional
+
+Beech
+  Use: general timber, mast in good years
+  Similar band structure to Oak but lower intact length yield.
+  Prefer bulk or short beam unless the tree is clear.
+
+Birch
+  Use: light timber, bark, fuel
+  Rarely yields long structural intact units.
+  Most output is bulk kg or short blanks.
+  Bark may be a separate small-ticket by-product.
+
+White Oak
+  Use: tight cooperage, wet-work plank, stave
+  Follows Oak bands but with higher stave yield in the modal and high columns.
+  Short or checked wood loses the cooperage premium.
+
+--------------------------------------------------
+EXISTING BULK TICKETS
+--------------------------------------------------
+The kg prices below remain the baseline for broken,
+mixed, or non-intact wood. Intact units use these
+prices as the floor and add the piece premium
+when the model produces a usable blank.
 
   Timber (mixed)
   Base: 0.2 bc per kg
@@ -22,6 +119,7 @@ Forestry
   Heavy-cart load (1,500 kg) → 31 sc 3 bc
   Barge-load (12,000 kg) → 250 sc
   Master-mast: 2,000 kg at 1.5× → 62 sc 6 bc
+  Intact Unit: see species model above
 
   Birch
   Base: 0.3 bc per kg
@@ -30,6 +128,7 @@ Forestry
   Cart load (800 kg) → 20 sc
   Heavy-cart load (1,500 kg) → 37 sc 6 bc
   Barge-load (12,000 kg) → 300 sc
+  Intact Unit: rare; mostly bulk or short blanks
 
   Alder
   Base: 0.3 bc per kg
@@ -39,143 +138,28 @@ Forestry
   Heavy-cart load (1,500 kg) → 37 sc 6 bc
   Barge-load (12,000 kg) → 300 sc
 
-  Beech
-  Base: 0.45 bc per kg
-  Bulk: 550 kg/m³
-  Packing: loose pile
-  Cart load (800 kg) → 30 sc
-  Heavy-cart load (1,500 kg) → 56 sc 3 bc
-  Barge-load (12,000 kg) → 450 sc
+  (Further species — Oak, White Oak, Ash, Beech, Elm, Hickory, etc. —
+   keep their existing Base/Bulk/Packing lines and gain an
+   Intact Unit pointer to the model above on next edit.)
 
-  Elm
-  Base: 0.5 bc per kg
-  Bulk: 550 kg/m³
-  Packing: loose pile
-  Cart load (800 kg) → 33 sc 4 bc
-  Heavy-cart load (1,500 kg) → 62 sc 6 bc
-  Barge-load (12,000 kg) → 500 sc
+--------------------------------------------------
+RULES
+--------------------------------------------------
+- Flora_ file is the species authority for presence and biome.
+- This file is the economic output authority.
+- DBH bellcurve is an approximation for play, not a forestry table.
+- One tree → zero or more intact units + remainder as bulk kg.
+- Siege and architecture jobs that call for “structural timber”
+  or “stave blanks” should draw from the intact model,
+  not from generic mixed kg.
+- Charcoal and firewood may be produced from the bulk remainder
+  or from species that rarely yield intact units.
 
-  Ash
-  Base: 0.6 bc per kg
-  Bulk: 550 kg/m³
-  Packing: loose pile
-  Cart load (800 kg) → 40 sc
-  Heavy-cart load (1,500 kg) → 75 sc
-  Barge-load (12,000 kg) → 600 sc
-
-  Oak
-  Mixed and red oak. The common structural ticket.
-  Not white oak. Wet work and tight cooperage use White Oak.
-  Base: 0.7 bc per kg
-  Bulk: 650 kg/m³
-  Packing: loose pile
-  Cart load (800 kg) → 46 sc 8 bc
-  Heavy-cart load (1,500 kg) → 87 sc 6 bc
-  Barge-load (12,000 kg) → 700 sc
-  Monumental pillar: 2,500 kg at 1.5× → 218 sc 9 bc
-
-  White Oak
-  Closed grain. Takes water and a tight cask.
-  Frames, treenails' rival is locust; this is the plank and the stave.
-  Not a bow-wood.
-  Base: 1 bc per kg
-  Bulk: 750 kg/m³
-  Packing: loose pile
-  Cart load (800 kg) → 66 sc 8 bc
-  Heavy-cart load (1,500 kg) → 125 sc
-  Barge-load (12,000 kg) → 1,000 sc
-
-  Hickory
-  Shock wood. Handles, spokes, axe hafts, mauls.
-  Not a hull timber. Small clear lengths.
-  Base: 1.4 bc per kg
-  Bulk: 830 kg/m³
-  Packing: loose pile / wrapped blanks
-  Cart load (800 kg) → 93 sc 4 bc
-  Heavy-cart load (1,500 kg) → 175 sc
-  Selected handle lot (20 kg) → 2 sc 4 bc
-
-  Black Locust
-  Ground-contact wood. Posts, pins, treenails, sills in the wet.
-  Hard on a saw. Splits clean. Not a bow. Not a mast.
-  Base: 1.2 bc per kg
-  Bulk: 770 kg/m³
-  Packing: loose pile
-  Cart load (800 kg) → 80 sc
-  Heavy-cart load (1,500 kg) → 150 sc
-  Barge-load (12,000 kg) → 1,200 sc
-
-  Cornelian Cherry
-  Small tree. Not saw-timber. Spear, javelin, peg, mallet.
-  Fruit is a tart forage, not this ticket.
-  Base: 2 bc per kg
-  Bulk: 950 kg/m³
-  Packing: wrapped blanks
-  Workshop lot (20 kg) → 3 sc 4 bc
-  No barge-lot. The stick is the good.
-
-  Yew
-  Base: 2 sc 6 bc per kg
-  Bulk: 700 kg/m³
-  Packing: wrapped / loose
-  5 kg bow-stave → 12 sc 6 bc
-  20 kg workshop lot → 50 sc
-
-  Svart-Viðr / Svartwood
-  Dauðavík fault-ribbons only. Not a blanket forest.
-  Grade follows proximity to the live geothermal line and how much
-  vent-metal the wood has taken up. Same tree. Different cuts.
-  Bark and sawdust sicken unless wet-wrapped. Burns foul.
-  Do not book any grade as charcoal-wood.
-
-  Rim / pale (outer ribbon, cool side)
-    Slightly denser than ash. Hull strakes, deck, light frames.
-    A whole hull may be this grade. Heart members still named.
-    Base: 3 bc per kg
-    Bulk: 600 kg/m³
-
-  Mid (ribbon body)
-    Waterline planks, knees, ordinary frames.
-    Base: 5 bc per kg
-    Bulk: 720 kg/m³
-
-  Heart / vent (closest to the boil, highest mineral)
-    Keel, stem, stern, tiller, durable hafts.
-    Not a whole hull. Too heavy and too glassy.
-    Base: 8 bc per kg
-    Bulk: 850 kg/m³
-
-  Packing: loose pile / wrapped members
-  Cart load of rim (800 kg) → 200 sc
-  Cart load of heart (800 kg) → 533 sc 4 bc
-  Heart member blank (200 kg at 2× the heart rate) → 266 sc 8 bc
-  No barge-lot of heart off the island unless a Jarn hull is already in the water.
-  Rim strakes may travel as cargo. Heart does not travel as a pile.
-
-  Svart-bark (unworked)
-  Same tree. Vent-metals in the skin.
-  Not a timber. Not a dye until someone who knows the cost works it.
-  Base: 2 bc per kg
-  Bulk: 300 kg/m³
-  Packing: wet-wrap / basket
-  Basket (10 kg) → 1 sc 8 bc
-  Working it dry is a Hazard, not a workshop day.
-
-  Charcoal
-  Base: 6 bc per kg
-  Bulk: 280 kg/m³
-  Packing: sack
-  Sack (15 kg) → 7 sc 6 bc
-  Cart load (700 kg, volume) → 350 sc
-  Heavy-cart load (1,120 kg, volume) → 560 sc
-  Barge-load (8,400 kg, volume) → 4,200 sc
-
-  Resin / Pitch
-  Base: 12 bc per kg
-  Bulk: 1,100 kg/m³
-  Packing: cask
-  Cask (20 kg) → 20 sc
-  Cart load (800 kg) → 800 sc
-  Heavy-cart load (1,500 kg) → 1,500 sc
-
-
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+Model is draft. Bands and yields can be tightened per species
+once more Flora entries are locked.
+Add new species models only after the plant exists in a Flora_ file.
+Intact Unit line satisfies the distinction locked in
+Economy_Primary_Goods.txt.

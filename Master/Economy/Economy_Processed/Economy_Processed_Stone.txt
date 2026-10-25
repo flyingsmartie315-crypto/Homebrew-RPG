@@ -1,0 +1,158 @@
+# Economy_Processed_Stone.txt
+# Processed goods — Stone
+# Law: Economy_Processed_Goods.txt (currency, bulk, packing)
+# Making: Economy_Processing_Matrix.txt
+# Input: Economy_Primary_Stone.txt intact units
+# Status: DRAFT
+# Base unit: 1 kg unless the line says otherwise.
+# 1 gc = 20 sc = 240 bc.
+
+Stone — Processed
+Intact quarry units dressed, squared, split, or sized for ordinary building use.
+About one-fifth to one-third of a raw blank is lost to dressing, chips, and irregular faces.
+The input is an Intact Unit from Economy_Primary_Stone.txt.
+Broken, flawed, or undersized stone cannot enter these forms; it stays bulk kg or rubble.
+
+Bespoke and commission work (statues, carved monuments, finished millstones, specialist facing)
+belongs in Economy_Finished_Stone.txt. Those pieces may take an Intact Unit directly
+or a processed blank, at the craftsman’s choice.
+This file is the ordinary dressed product that a build site expects.
+
+Packed dressed blocks: Bulk ~2,200–2,600 kg/m³, loose or lightly crated.
+Cut slate: Bulk ~2,400 kg/m³, bundled or crated.
+
+--------------------------------------------------
+YIELD TYPE → PROCESSED FORM
+--------------------------------------------------
+Common Stone intact
+  → Rough squared foundation block or walling stone
+  Limited dressing. Still irregular.
+
+Granite intact
+  → Heavy foundation block, sett, or millstone blank (dressed faces)
+  Hard labour. High loss.
+
+Slate intact
+  → Cut roofing sheet or damp-course piece
+  Split and trimmed to regular size.
+
+Marble intact
+  → Facing blank or carving blank (squared, major flaws removed)
+  Further carving is Finished work.
+
+Basalt intact
+  → Rough foundation or paving block
+
+Obsidian intact
+  → Knapping blank (sized nodule)
+  Edge work is Finished or specialist.
+
+Bulk kg / rubble
+  → No processed structural form. Fill or hardcore only.
+
+--------------------------------------------------
+FORMS
+--------------------------------------------------
+
+Rough Squared Block
+Input: Common Stone or Basalt intact unit.
+Labour: Hammer and punch, faces roughly trued.
+Use: Foundation, wall-core, rough retaining.
+Property: Sits true enough to lay. Not ashlar.
+Loss: Low to moderate.
+
+Ashlar / Freestone Block
+Input: Sound freestone or marble intact unit of sufficient size.
+Labour: Sawn or chiselled to consistent dimensions, beds and faces dressed.
+Use: Face work, quoins, precise walling, architectural stone.
+Property: Uniform size. Build site can lay to a regular bond.
+Loss: One-fifth to one-third.
+Note: This is the standard “dressed block” a mason’s yard sells for building.
+
+Foundation Block (heavy)
+Input: Granite or large Common/Basalt intact.
+Labour: Squared, major projections removed. Faces may stay rough.
+Use: Footings, heavy plinths, bridge and mill bases.
+Property: Mass and soundness over fine finish.
+
+Sett / Paving Block
+Input: Granite or hard Common Stone.
+Labour: Split and dressed to regular small blocks.
+Use: Streets, yards, hard standing.
+Property: Uniform enough for camber and drainage.
+
+Cut Slate Sheet
+Input: Slate intact sheet or block that splits cleanly.
+Labour: Split, trimmed, holed if required.
+Use: Roofing, damp-proof courses, wall-hang.
+Property: Regular size and thickness. Broken pieces drop to bulk.
+
+Millstone Blank (dressed)
+Input: Granite or suitable hard stone intact of diameter.
+Labour: Circumference roughed, faces flattened, eye marked or cut.
+Use: Input to finished millstone (Finished tier completes the dressing and tooling).
+Property: One piece. Not yet a working stone.
+
+Carving / Facing Blank
+Input: Marble or fine freestone intact.
+Labour: Squared, major veins or cracks removed, overall dimensions set.
+Use: Sold to statue yards, monument masons, or fine-face work.
+Property: Ready for the Finished craftsman. Not itself a finished piece.
+
+Knapping Blank
+Input: Obsidian intact nodule.
+Labour: Trimmed to workable size, obvious flaws removed.
+Use: Edge tools, specialist blades (Finished or craft tier).
+Property: Small. Wrapped.
+
+--------------------------------------------------
+PRICES (DRAFT)
+--------------------------------------------------
+Base remains the Primary Stone species kg price.
+Uplift covers:
+- dressing loss (one-fifth to one-third)
+- mason or dresser labour
+- intact premium already paid on the input
+
+Rough Squared Block
+  Modest uplift over primary kg. Common on local sites.
+
+Ashlar / Freestone Block
+  Clear premium. The ordinary architectural ticket.
+  Marble ashlar higher still.
+
+Cut Slate Sheet
+  Premium by sheet size and evenness.
+  Priced per sheet or per kg equivalent.
+
+Millstone Blank / Carving Blank
+  Higher premium. These are selected pieces, not bulk dressed stone.
+  Often sold singly.
+
+Convenience
+  Cart and heavy-cart loads follow the same vehicle limits as Primary.
+  Large ashlar or foundation blocks may be limited by piece size and handling
+  before weight is reached.
+
+--------------------------------------------------
+RULES
+--------------------------------------------------
+- Input authority is Economy_Primary_Stone.txt Intact Unit.
+- If the quarry model did not produce a suitable intact piece,
+  the processed form cannot be made.
+- Bulk kg and rubble do not become ashlar.
+- Economy_Finished_Stone.txt is for bespoke commission pieces
+  (statues, finished monuments, completed millstones, specialist carving).
+  Those may consume an Intact Unit directly or a processed blank from this file.
+- Ordinary build sites that call for “ashlar”, “dressed freestone”,
+  “cut slate”, or “squared foundation stone” draw from this file.
+- Seasoning is not required for stone. Curing of mortar is separate.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+Draft. Labour days and exact Base prices per form can be locked
+once Processing Matrix figures for stone-dressing are set.
+Finished_Stone remains the domain of commission and specialist work.
+This file is the dressed product that leaves the mason’s yard
+for a normal building site.

@@ -1,10 +1,94 @@
 # Economy_Primary_Stone.txt
 # Primary goods — Stone and Volcanic Products
-# Law: Economy_Primary_Goods.txt (currency, bulk, packing)
+# Law: Economy_Primary_Goods.txt (currency, bulk, packing, intact-unit)
+# Status: DRAFT — intact-unit proposal
 # Base unit: 1 kg unless the line says otherwise.
 # 1 gc = 20 sc = 240 bc. Cart 800 kg / 2.5 m³. Heavy cart 1,500 kg / 4 m³. Barge 12,000 kg / 30 m³.
 
 Stone and Volcanic Products
+
+Primary stone remains a bulk kg ticket for rubble, broken stone,
+and mixed quarry waste.
+Workshop and architectural value often requires a single intact unit —
+a freestone block, ashlar blank, slate sheet, or marble slab
+of stated size and soundness.
+Broken, checked, or undersized pieces fall back to the bulk kg price
+or to rubble.
+
+--------------------------------------------------
+INTACT UNIT MODEL
+--------------------------------------------------
+Unlike timber, stone has no living diameter.
+Intact yield is determined by quarry face, bed, and the size
+of sound stone that can be freed without fracture.
+
+For play, each stone type uses size bands.
+Most blocks fall in the modal band.
+Fewer are small/flawed (low) or exceptionally large and clear (high).
+
+Yield types
+  - Rubble / bulk kg only
+  - Small block or sett
+  - Freestone / ashlar blank (stated dimensions)
+  - Large structural block
+  - Specialty (slate sheet, marble slab, millstone blank)
+
+A quarry day may produce a mix: some intact blanks + remainder as bulk.
+
+--------------------------------------------------
+STONE TYPE MODELS (DRAFT)
+--------------------------------------------------
+Sizes are approximate finished or rough-blank dimensions.
+Low / Modal / High.
+
+Common Stone
+  Use: rubble, wall-core, rough foundation
+  Most output: bulk kg or small irregular blocks
+  Intact: occasional rough foundation block (40–60 cm)
+  Rarely produces clean ashlar. Default to bulk price.
+
+Granite
+  Use: heavy foundation, millstones, durable paving
+  Small: sett or rough block
+  Modal: foundation block or millstone blank
+  High: large clear structural block
+  Hard to work. Intact premium is real but labour is high later.
+
+Slate
+  Use: roofing sheets, damp-proof courses
+  Low: broken or thick waste (bulk)
+  Modal: workable sheets
+  High: large, thin, even sheets
+  Intact Unit: roofing sheet of useful size.
+  Broken slate is bulk or fill.
+
+Marble
+  Use: fine facing, carving, monuments
+  Low: flawed or small block (near bulk price)
+  Modal: carving or facing blank
+  High: large clear slab
+  Intact Unit: sound block free of major veins or cracks.
+  Highest premium of the common stones.
+
+Basalt
+  Use: foundation, paving, heavy wall
+  Mostly bulk or rough blocks.
+  Intact large blocks possible but heavy to move.
+  Pumice is almost always bulk (light, abrasive, or fill).
+
+Obsidian
+  Use: edges, tools, specialist blades
+  Intact Unit: nodule or blank large enough to knap.
+  Small chips are bulk or waste.
+  Wrapped / crate packing already noted.
+
+--------------------------------------------------
+EXISTING BULK TICKETS
+--------------------------------------------------
+The kg prices below remain the baseline for rubble,
+broken stone, and mixed quarry output.
+Intact units use these prices as the floor and add
+a piece premium when the model produces a usable blank.
 
   Common Stone
   Base: 3 bc per kg
@@ -12,6 +96,7 @@ Stone and Volcanic Products
   Packing: loose pile
   Cart load (800 kg) → 200 sc
   Heavy-cart load (1,500 kg) → 375 sc
+  Intact Unit: rare; mostly rubble or rough foundation block
 
   Granite
   Base: 6 bc per kg
@@ -19,6 +104,7 @@ Stone and Volcanic Products
   Packing: loose pile
   Cart load (800 kg) → 400 sc
   Heavy-cart load (1,500 kg) → 750 sc
+  Intact Unit: foundation block or millstone blank (see model)
 
   Slate
   Base: 8 bc per kg
@@ -26,6 +112,7 @@ Stone and Volcanic Products
   Packing: loose pile
   Cart load (800 kg) → 533 sc 4 bc
   Heavy-cart load (1,500 kg) → 1,000 sc
+  Intact Unit: roofing sheet of useful size
 
   Marble
   Base: 1 sc 5 bc per kg
@@ -33,6 +120,7 @@ Stone and Volcanic Products
   Packing: loose pile
   Cart load (800 kg) → 1,133 sc 4 bc
   Heavy-cart load (1,500 kg) → 2,125 sc
+  Intact Unit: sound carving or facing blank; large clear slab at premium
 
   Basalt / Pumice
   Base: 5 bc per kg
@@ -41,9 +129,40 @@ Stone and Volcanic Products
   Packing: loose pile
   Cart load (800 kg) → 333 sc 4 bc
   Heavy-cart load (1,500 kg) → 625 sc
+  Intact Unit: basalt rough block possible; pumice almost always bulk
 
   Obsidian
   Base: 2 sc per kg
   Bulk: 2,400 kg/m³
   Packing: wrapped / crate
   Bundle (5 kg) → 10 sc
+  Intact Unit: nodule or knapping blank
+
+--------------------------------------------------
+RULES
+--------------------------------------------------
+- Bulk kg is the floor for all stone.
+- Intact Unit is required language when a workshop or building
+  needs a sound block, sheet, or blank of stated size.
+- Broken, checked, or undersized stone uses the Base kg price only
+  (or rubble rate).
+- Quarry output is a mix. The model approximates the proportion
+  of intact blanks versus bulk.
+- Architecture, fortification, and millstone jobs that specify
+  “ashlar”, “freestone”, “slate sheet”, or “millstone blank”
+  draw from the intact model, not from generic kg.
+- Transport of large intact blocks is often limited by piece size
+  and handling, not only by cart weight.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+Model is draft. Size bands and premiums can be tightened
+per stone type.
+No Flora equivalent exists for stone; quarry location and
+local availability are set by region or GM.
+Intact Unit line satisfies the distinction locked in
+Economy_Primary_Goods.txt.
+Processed stone (cut ashlar, dressed slate, etc.) will live
+in an Economy_Processed_ file when that category is written,
+taking these intact units as input.

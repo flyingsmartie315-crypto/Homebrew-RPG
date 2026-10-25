@@ -1,0 +1,81 @@
+# Economy_Finished_Stone.txt
+# Finished goods — Stone (bespoke commission)
+# Status: DRAFT
+# Input: Economy_Primary_Stone.txt Intact Unit
+#        or Economy_Processed_Stone.txt blank
+# Law: Economy_Processed_Goods.txt currency; Finished pricing is commission.
+
+Stone — Finished
+Bespoke and commission pieces.
+These are not stock tickets. Price, time, and even the final form
+are set by the commission: size, stone, detail, craftsman, and patron.
+
+A city may commission a ten-foot statue of the king.
+A wealthy house may order a carved stone table.
+A patron may want a bust, a tomb effigy, a fountain basin,
+or a pair of heraldic supporters.
+Each is its own agreement.
+
+--------------------------------------------------
+INPUT
+--------------------------------------------------
+- Intact Unit direct from the quarry (Primary_Stone), or
+- Processed blank (squared carving blank, millstone blank, facing blank)
+  from Economy_Processed_Stone.txt.
+The craftsman chooses. A master may prefer the raw block;
+a busy yard may start from a dressed blank.
+
+--------------------------------------------------
+WHAT SETS THE PRICE
+--------------------------------------------------
+No fixed Base per kg.
+The commission price is the sum of:
+- Stone (intact premium or processed blank)
+- Labour days of the named craftsman and any assistants
+- Detail and risk (undercutting, thin sections, portrait likeness)
+- Transport and erection if the piece is large
+- Patron’s standing and the yard’s reputation
+
+A small bust in local freestone is one order of cost.
+A ten-foot royal statue in marble, crated and set in a square, is another.
+The same craftsman may charge differently for the same nominal size
+if one piece is a quick tabletop and the other is a likeness that must satisfy a court.
+
+--------------------------------------------------
+EXAMPLES (SCALE ONLY)
+--------------------------------------------------
+These are illustrations, not price locks.
+
+Bust or small relief
+  Modest stone, days to weeks. Single craftsman.
+
+Carved table, basin, or architectural ornament
+  Selected blank, one to several weeks. May leave the yard finished.
+
+Tomb effigy or life-size figure
+  Large intact or heavy blank. Weeks to months. Often erected on site.
+
+Major public statue or monument
+  Multiple blocks or one exceptional piece. Months.
+  Transport, scaffolding, and setting are part of the commission.
+  Stone cost is real but usually the smaller fraction beside labour and risk.
+
+--------------------------------------------------
+RULES
+--------------------------------------------------
+- Do not stock these as ordinary shop goods.
+- Do not apply the 2.5–6× processed guideline as a hard rule.
+  Craftsmanship and commission dominate.
+- Failed or abandoned pieces may be broken back to bulk or rubble;
+  the patron normally still owes the labour spent.
+- Siege, architecture, and ordinary building continue to draw
+  dressed stone from Economy_Processed_Stone.txt.
+  This file is only the commissioned finished object.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+Short by design. Variability is the point.
+When a specific commission appears in play, price it from
+the stone ticket + the craftsman’s day rate + the agreed detail,
+not from a table in this file.
