@@ -121,3 +121,38 @@ WHAT THIS FILE DOES NOT DO
 - It does not grow wheat on Boreal ground.
 - It does not run crop HSI on a copper vein.
 - It does not print settlement-level full ledgers.
+
+
+--------------------------------------------------
+FORESTRY AND STONE INTACT UNITS (UPDATE)
+--------------------------------------------------
+Timber and stone now distinguish bulk kg from intact units.
+
+Forestry
+- Species presence: Flora_*.txt
+- Economic output model (DBH bellcurve → intact yields):
+  Economy_Primary_Forestry.txt
+- Processed forms that consume those yields:
+  Economy_Processed_Woodwork.txt
+- Making rows: Economy_Processing_Matrix.txt WOOD FORMS section
+
+When a Local Region or settlement fells timber, apply the species model.
+Intact units (structural log, stave blank, mast/spar, beam blank, haft, etc.)
+are booked separately from the bulk kg remainder.
+Siege, architecture, and ship work that specify structural timber,
+staves, or masts draw from the intact yield, not mixed kg.
+
+Stone
+- Quarry output model (size/quality bands → intact blanks):
+  Economy_Primary_Stone.txt
+- Dressed forms: Economy_Processed_Stone.txt
+- Making rows: Economy_Processing_Matrix.txt STONE FORMS section
+- Bespoke commissions: Economy_Finished_Stone.txt
+
+Quarry take is a mix of intact blanks and bulk/rubble.
+Ordinary build sites that call for ashlar, dressed freestone,
+cut slate, or squared foundation stone use the processed ticket.
+Statues, monuments, and finished millstones are commission pieces.
+
+Instance yield files should note whether the local woods or quarry
+can produce the higher intact grades, or only bulk.

@@ -162,3 +162,27 @@ WHAT THIS FILE DOES NOT DO
 - It does not treat region Human Density as a copper grade.
 - It does not let processing exceed the raw take or the fuel.
 - It does not count a veil-drop fall as annual yield.
+
+
+--------------------------------------------------
+FORESTRY & STONE INTACT (UPDATE)
+--------------------------------------------------
+Timber product spine
+- Apply Economy_Primary_Forestry.txt species model (DBH → intact yields).
+- Book structural logs, stave blanks, masts, beam blanks, and hafts
+  as distinct from bulk kg / firewood.
+- Saw-yard or mason’s yard required for processed forms
+  (see Economy_Processed_Woodwork.txt and Processing Matrix).
+
+Stone / quarry product spine
+- Apply Economy_Primary_Stone.txt intact-unit model.
+- Book freestone/ashlar blanks, slate sheets, millstone blanks
+  separately from rubble.
+- Dressed output requires the processed stone yard
+  (Economy_Processed_Stone.txt).
+- Commission carving and statues are not product-yield rows;
+  they are Economy_Finished_Stone.txt agreements.
+
+Conversion waste
+- Wood: one-third to one-half to slab, bark, sawdust (Matrix).
+- Stone dressing: one-fifth to one-third (Processed_Stone / Matrix).

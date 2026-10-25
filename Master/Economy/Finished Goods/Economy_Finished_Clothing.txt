@@ -1,0 +1,14 @@
+
+
+--------------------------------------------------
+LEATHER GRADES (UPDATE)
+--------------------------------------------------
+Leather garments and components use
+Economy_Processed_Animal_Goods.txt grades.
+
+- Soft clothing, linings, light gloves  → Sheep/Goat, Calfskin, or Oil-tanned
+- Heavy coats, work boots, belts        → Cattle or Horsehide
+- Fine court or presentation pieces     → Calfskin
+
+Generic leather remains 40 bc/kg only when the garment
+does not name a grade.

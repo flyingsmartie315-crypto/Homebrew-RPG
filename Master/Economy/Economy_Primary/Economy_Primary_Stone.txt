@@ -166,3 +166,30 @@ Economy_Primary_Goods.txt.
 Processed stone (cut ashlar, dressed slate, etc.) will live
 in an Economy_Processed_ file when that category is written,
 taking these intact units as input.
+
+
+--------------------------------------------------
+REFINED INPUT → OUTPUT (UPDATE)
+--------------------------------------------------
+Quarry face
+  → Intact blanks (freestone, slate sheet, marble block,
+     granite foundation, millstone blank, obsidian nodule)
+     on the size/quality bands
+  → Remainder as bulk kg / rubble
+
+Bulk kg / rubble
+  → Fill, hardcore, wall-core only
+  → Cannot become ashlar or cut slate
+
+Intact freestone / marble
+  → Input to Processed_Stone ashlar or carving blank
+  → Or direct to Finished_Stone commission
+
+Intact slate
+  → Input to Processed_Stone cut slate sheet
+
+Intact granite / large common
+  → Input to Processed_Stone foundation block or millstone blank
+
+Intact obsidian
+  → Knapping blank → specialist or Finished edge work

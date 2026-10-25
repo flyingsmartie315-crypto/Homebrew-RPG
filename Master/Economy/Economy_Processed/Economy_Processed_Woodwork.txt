@@ -192,3 +192,28 @@ Full per-form Base prices can be calculated once the
 Processing Matrix labour figures are locked.
 Existing species price lines in the old Woodwork file
 remain usable as the ordinary (non-intact) floor.
+
+
+--------------------------------------------------
+REFINED OUTPUTS TO FINISHED (UPDATE)
+--------------------------------------------------
+Hewn beam / long plank stock
+  → Economy_Finished_Architecture (halls, bridges, frames)
+  → Economy_Finished_Siege_Arms (towers, heavy frames, couillard, warwolf)
+
+Spar / pole blank / master-mast
+  → Ships, scaffolding, light siege frames
+  → Siege tower and mantlet uprights where specified
+
+Cooper’s staves
+  → Casks, vats (Household or specialist)
+  → Not a default siege input
+
+Shaft / haft blanks
+  → Economy_Finished_Arms (axe, spear, pollaxe, tool hafts)
+  → Must be true one-stick ash (or named equivalent)
+  → Sawn board is not a substitute
+
+Ordinary planks (from bulk)
+  → Common building skin, chests, low-grade work
+  → Not structural beams or staves

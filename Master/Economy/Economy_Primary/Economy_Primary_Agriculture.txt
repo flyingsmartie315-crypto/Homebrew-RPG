@@ -104,4 +104,19 @@ Agriculture
   Pot (5 kg) → 9 sc 2 bc
   Cart load (800 kg) → 1,466 sc 8 bc
 
+Hay
+Dried grass or meadow cut for winter feed.
+Base: 1 bc per kg
+Bulk: 120 kg/m³
+Packing: loose / bundle
+Bundle (20 kg) → 1 sc 8 bc
+Cart load (300 kg, volume) → 25 sc
+Notes: Primary winter fodder. Pasture is free while it lasts;
+       hay is the bought or stored cost.
+
+Fodder / Oats (feed)
+Grain or pulse allocated to stock rather than people.
+Use the grain ticket (or a named feed grain) at Primary Agriculture rates.
+Notes: Urban and stalled stock pay this. Rural stock on pasture pay mainly hay in winter.
+
 

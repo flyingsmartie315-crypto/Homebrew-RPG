@@ -3,7 +3,8 @@
 
 IMPORTANT NOTE ON WAGES
 The daily wage figures listed below do not necessarily mean the worker receives that amount in actual coin at the end of each day.
-They represent the total economic value derived from the labour.
+They represent the market-facing value of the hired labour: what the work is worth when sold, whether it is paid in coin or in kind.
+For rural households this is a share on top of household production, not the whole income. Part of the household's daily labour goes into its own plot, foraging, and yard, which supplies the rest of its calories, so a rural wage is not expected to feed a family by itself.
 
 For rural commoners (especially farmhands, herdsmen, and village labourers) the majority of this value is typically received in kind — food, produce, board, grazing rights, a share of the harvest, or other household provisions — rather than as brass coins in hand.
 Cash payment, when it occurs at all, is often only a small portion of the total value.

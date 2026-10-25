@@ -163,3 +163,33 @@ once more Flora entries are locked.
 Add new species models only after the plant exists in a Flora_ file.
 Intact Unit line satisfies the distinction locked in
 Economy_Primary_Goods.txt.
+
+
+--------------------------------------------------
+REFINED INPUT → OUTPUT (UPDATE)
+--------------------------------------------------
+Living tree (Flora species + DBH)
+  → Intact yields (structural log, beam blank, stave blank,
+     mast/spar, haft blank, knee) on the bellcurve
+  → Remainder as bulk kg
+
+Bulk kg
+  → Ordinary mixed timber ticket only
+  → Cannot feed structural, stave, mast, or haft forms
+
+Intact structural log / beam blank
+  → Input to Processed_Woodwork hewn beam or long plank
+
+Intact stave blank
+  → Input to Processed_Woodwork cooper’s staves
+
+Intact mast/spar
+  → Input to Processed_Woodwork spar / pole blank
+  → Master-mast premium stays on the Pine/Fir ticket
+
+Intact haft blank
+  → Input to Processed_Woodwork shaft / oar / handle blanks
+  → Also the preferred input for Finished_Arms hafts
+
+Knee
+  → Rare. Direct to ship or specialist work.

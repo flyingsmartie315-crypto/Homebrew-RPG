@@ -455,3 +455,19 @@ Tiller (locked hybrid)
   opening. The spring is still steel.
   High-Poundage / siege: 20-40 gc band above.
   Ship and shore weapon. Not a goat's-foot for the road.
+
+
+--------------------------------------------------
+LEATHER GRADES (UPDATE)
+--------------------------------------------------
+Grips, sheaths, and scabbards draw from
+Economy_Processed_Animal_Goods.txt.
+
+Suggested mapping
+- Ordinary grip or simple sheath     → Common/Mixed or Sheep/Goat
+- Heavy scabbard or reinforced grip  → Cattle or Horsehide
+- Fine or presentation piece         → Calfskin or Oil-tanned
+
+Use the species/process price instead of a flat 40 bc/kg
+when the weapon entry specifies the grade.
+Most ordinary arms can stay on the common ticket.

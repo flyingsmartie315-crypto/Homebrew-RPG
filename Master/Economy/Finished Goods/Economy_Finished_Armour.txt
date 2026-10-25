@@ -561,3 +561,30 @@ WHAT THIS FILE DOES NOT DO
 - It does not let an apprentice dish a breast.
 - It does not apply Iron Grade twice.
 - It does not recost Sea-serpent or troll-hide upgrades. Those are Unveiling goods on top of this floor.
+
+
+--------------------------------------------------
+LEATHER GRADES (UPDATE)
+--------------------------------------------------
+Leather inputs now resolve against Economy_Processed_Animal_Goods.txt.
+Generic “leather” at 40 bc/kg remains the default when the grade is unspecified.
+Named pieces should call the matching grade.
+
+Suggested mapping
+- Light clothing / jerkin / soft coat     → Sheep/Goat or Oil-tanned
+- Heavy jerkin / buff coat / jack         → Cattle or Horsehide, often Heavy Bark-tanned
+- Cuirass / boiled leather armour         → Cattle or Horsehide, Heavy Bark-tanned or boiled
+- Gloves / fine linings                   → Calfskin or Oil-tanned soft
+- Straps, laces, light fittings           → Common/Mixed or Sheep/Goat
+- Soles, heavy harness components         → Cattle, Heavy Bark-tanned
+
+Price effect
+Replace the generic 40 bc/kg with the species/process band
+from Processed_Animal_Goods when the piece names a grade.
+Oil-tanned and Heavy Bark-tanned add their percentage premium
+on top of the species base.
+A boiled cuirass on cattle hide costs more than the same pattern
+on common mixed leather.
+
+Labour stays Basic skilled leatherworker unless the file
+already names a higher grade for fine or hardened work.

@@ -607,3 +607,35 @@ WHAT THIS FILE DOES NOT DO
 - It does not charge full MCI on a roofless nave.
 - It does not create a vein. Product Yield writes the ore.
 - It does not let a deep wet shaft work without a pump.
+
+
+--------------------------------------------------
+WOOD AND STONE INPUTS (UPDATE)
+--------------------------------------------------
+Structural frames, long beams, hall posts
+  Input: Processed_Woodwork hewn beam or long plank stock
+         (from Forestry structural log or beam blank)
+  Do not cost these from mixed bulk kg.
+
+Ordinary wall skin, floors, low-grade timber
+  Input: Processed_Woodwork planks from bulk kg
+  Acceptable for non-structural work.
+
+Masts, spars, scaffold
+  Input: Processed_Woodwork spar / pole blank
+         (from Forestry mast/spar yield)
+
+Ashlar face work, quoins, precise stone walling
+  Input: Processed_Stone ashlar / freestone block
+
+Rough footings, wall-core, fieldstone
+  Input: Processed_Stone rough squared or foundation block
+         or Primary bulk kg where the build allows
+
+Roofing slate
+  Input: Processed_Stone cut slate sheet
+
+Major carved elements (royal statue, tomb, heraldic work)
+  Input: Economy_Finished_Stone commission
+         (may start from Intact Unit or carving blank)
+  Not part of the ordinary Architecture ticket.

@@ -11,28 +11,12 @@ Animal Produce
     Milk
     Fresh milk of cattle, goats, or sheep.
     Spoils fast; rarely a long-haul good.
-    Base: 4 bc per kg
+    Base: 1.5 bc per kg
     Bulk: 1,000 kg/m³
     Packing: pail / cask
     Pail (10 kg) → 3 sc 4 bc
     Cask (50 kg) → 16 sc 8 bc
     Cart load (800 kg) → 266 sc 8 bc
-
-    Butter
-    Base: 12 bc per kg
-    Bulk: 900 kg/m³
-    Packing: cask
-    Small cask (20 kg) → 20 sc
-    Cart load (800 kg) → 800 sc
-    Heavy-cart load (1,500 kg) → 1,500 sc
-
-    Cheese
-    Base: 14 bc per kg
-    Bulk: 700 kg/m³
-    Packing: sack / crate
-    Wheel/sack (15 kg) → 17 sc 6 bc
-    Cart load (800 kg) → 933 sc 4 bc
-    Heavy-cart load (1,500 kg) → 1,750 sc
 
     Wool
     Base: 5 bc per kg
@@ -43,10 +27,10 @@ Animal Produce
     Heavy-cart load (600 kg, volume) → 250 sc
 
     Eggs
-    Base: 1 bc each (≈ 20 eggs per kg)
+    Base: 0.25 bc each (≈ 20 eggs per kg)
     Bulk: 400 kg/m³
     Packing: basket
-    Basket (100 eggs) → 8 sc 4 bc
+    Basket (100 eggs) → 2 sc 1 bc
     Cart load (800 kg) → 1,333 sc 4 bc
 
     Honey

@@ -290,3 +290,32 @@ Labour: ~10–16 man-days
 Base price: 50–90 gc
 Notes: Experimental. Rockets or fire-pots are the payload and
        are not included. High risk of premature ignition.
+
+
+--------------------------------------------------
+WOOD AND STONE INPUTS (UPDATE)
+--------------------------------------------------
+Heavy frames (Couillard, Warwolf, siege tower)
+  Input: Processed_Woodwork hewn beam / structural stock
+         from Forestry structural log or beam blank
+  Bulk kg is not sufficient for main beams.
+
+Light frames, spars, mantlet uprights
+  Input: Processed_Woodwork spar / pole blank
+         or ordinary plank where the engine allows
+
+Oak carriage (Great Tower Crossbow)
+  Input: Processed_Woodwork structural oak
+         (hewn or heavy plank from intact log)
+
+Rampart / stock timber
+  Input: Selected blank or small structural piece
+         (hornbeam, yew, or equivalent)
+
+Stone shot / masonry spheres
+  Input: Primary_Stone bulk or rough blocks
+         cut or selected on site
+  Not dressed ashlar
+
+Foundation pads for heavy engines
+  Input: Processed_Stone foundation block or local rubble

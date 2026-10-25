@@ -1,0 +1,116 @@
+# Economy_Processed_Animal_Goods.txt
+# Processed goods — Dairy and Leather
+# Law: Economy_Processed_Goods.txt
+# Input: Milk and raw hides from Economy_Primary_Animal_Products.txt
+# Status: DRAFT
+
+--------------------------------------------------
+DAIRY — PROCESSED
+--------------------------------------------------
+Butter and cheese are processed goods.
+They must cost at least their milk input plus labour.
+
+Butter
+Made from milk. Roughly 20 kg milk → 1 kg butter.
+At milk 1.5 bc/kg the input is 30 bc before labour and loss.
+Base: 35–40 bc per kg
+Bulk: 900 kg/m³
+Packing: cask
+Labour: churning, working, salting. T0–T1.
+Notes: Clears the input floor. Old 12 bc price is retired.
+
+Cheese
+Made from milk. Roughly 8–10 kg milk → 1 kg cheese.
+At milk 1.5 bc/kg the input is 12–15 bc before labour, rennet, and loss.
+Base: 18–20 bc per kg
+Bulk: 700 kg/m³
+Packing: sack / crate
+Labour: setting, pressing, salting, short cure. T0–T1.
+Notes: Clears the input floor. Old 14 bc price is retired.
+
+Both remain subject to regional ±50%.
+Long-cured or named cheeses may sit higher.
+
+--------------------------------------------------
+LEATHER — PROCESSED
+--------------------------------------------------
+Hides made usable.
+Input is raw hide from Primary Animal Products (or the slaughter line of Livestock).
+Different species and processes produce different properties and prices.
+Generic “leather” at 40 bc/kg remains the ordinary mixed or unspecified ticket.
+Named grades sit above or below it.
+
+Common / Mixed Leather
+Tanned hide, species not distinguished.
+Made from raw hides, tannin, and time.
+Used for shoes, belts, tack, and jacks.
+Base: 40 bc per kg
+Bulk: 400 kg/m³
+Packing: bundle
+Bundle (20 kg) → 66 sc 8 bc
+Larger lot (50 kg) → 166 sc 8 bc
+Cart load (800 kg) → 2,666 sc 8 bc
+Heavy-cart load (1,500 kg) → 5,000 sc
+Notes: Default when the hide is ordinary cattle, horse, or mixed.
+
+Cattle Hide Leather
+Thick, strong, takes heavy use.
+Used for soles, harness, shields, buckets.
+Base: 45–55 bc per kg
+Notes: Higher than mixed. Preferred for structural leather.
+
+Calfskin
+Thinner, finer grain.
+Used for gloves, light shoes, bookbinding, fine tack.
+Base: 70–90 bc per kg
+Notes: Premium. Less yield per hide.
+
+Sheep / Goat Leather
+Softer, more flexible. Goat is tighter.
+Used for clothing linings, light bags, gloves.
+Base: 30–40 bc per kg
+Notes: At or below the mixed ticket. Not for heavy harness.
+
+Pigskin
+Tough but less even. Takes tooling.
+Used for saddles, cheap shoes, work gloves.
+Base: 35–45 bc per kg
+
+Deer / Game Leather
+Soft when brain- or smoke-tanned. Variable.
+Used for clothing, light bags.
+Base: 40–60 bc per kg
+Notes: Depends on process. Bark-tanned is stiffer.
+
+Horsehide
+Dense and durable.
+Used for heavy boots, harness, protective gear.
+Base: 50–65 bc per kg
+
+Rawhide (minimally processed)
+Stretched and dried, not fully tanned.
+Used for lashings, drumheads, temporary bindings.
+Base: 15–25 bc per kg
+Notes: Cheaper. Stiffens when wet, then dries hard.
+
+Oil-tanned / Soft Leather
+Extra labour and oil or fat.
+Used for garments, gloves, supple tack.
+Base: +30–50% over the species base
+Notes: Process premium, not a separate species.
+
+Heavy Bark-tanned
+Long tan, thick result.
+Used for soles, armour components, buckets.
+Base: +20–40% over the species base
+Notes: Process premium.
+
+--------------------------------------------------
+RULES
+--------------------------------------------------
+- Raw hide price is Primary. These tickets are after tannin, labour, and time.
+- Species and process may stack (e.g. oil-tanned calfskin).
+- Finished Arms, Armour, and Clothing that specify a leather grade
+  should name the species or process, not only “leather.”
+- Waste and trim are normal. A finished piece weighs less than the hide bought.
+- Regional ±50% still applies. Scarce game or fine calf raises the top of the band.

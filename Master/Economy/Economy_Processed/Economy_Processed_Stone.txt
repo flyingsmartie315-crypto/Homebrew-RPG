@@ -156,3 +156,29 @@ once Processing Matrix figures for stone-dressing are set.
 Finished_Stone remains the domain of commission and specialist work.
 This file is the dressed product that leaves the mason’s yard
 for a normal building site.
+
+
+--------------------------------------------------
+REFINED OUTPUTS TO FINISHED (UPDATE)
+--------------------------------------------------
+Ashlar / Freestone Block
+  → Economy_Finished_Architecture (face work, quoins, precise walling)
+  → High-status or fortified builds
+
+Rough Squared / Foundation Block
+  → Ordinary footings, wall-core, retaining
+  → Economy_Finished_Architecture default stone ticket
+
+Cut Slate Sheet
+  → Roofing and damp-courses in Architecture
+
+Millstone Blank (dressed)
+  → Input to Finished millstone (or commission in Finished_Stone)
+
+Carving / Facing Blank
+  → Input to Economy_Finished_Stone commission
+     (statue, bust, monument, carved table)
+
+Direct Intact Unit
+  → May skip this file and go straight to Finished_Stone
+     when the craftsman wants the raw block

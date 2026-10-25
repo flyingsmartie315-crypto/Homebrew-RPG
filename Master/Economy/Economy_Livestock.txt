@@ -1,5 +1,56 @@
 # Economy_Livestock.txt
 # Livestock, Beasts of Burden, War Mounts, Game & Sea-Take
+# Status: UPDATED — live prices, slaughter floor, fodder anchor
+
+# Economy_Livestock.txt — PRICE AND UPKEEP UPDATE
+# Apply these floors and upkeep anchors.
+# Slaughter value uses Primary Animal Products meat + parts at current rates.
+# Live price must clear the floor below.
+
+SLAUGHTER FLOOR RULE
+Meat beasts: live price ≥ 0.85× (carcase meat + major parts) value.
+Dairy, work, and war animals: live price ≥ 1.0× carcase-plus-parts,
+and normally well above it because of ongoing yield or labour.
+
+FIRST-PASS LIVE PRICES (healthy adult)
+Sheep          17 sc
+Goat           14 sc
+Pig            42 sc
+Cow (dairy)    5 gc   (97–100 sc)
+Work horse     78 sc or more
+Destrier       well above carcase (war premium; not priced as meat)
+
+These replace the old 1–2 sc band for sheep/goat/pig and the low cattle/horse figures.
+Regional ±50% still applies. A starved or aged beast sells under the floor.
+
+UPKEEP ANCHOR
+Hay and fodder now exist in Economy_Primary_Agriculture.txt (or Earths).
+Rural pasture-fed stock: upkeep is mostly grazing labour + winter hay.
+Urban or stalled stock: full bought-feed cost.
+
+Indicative daily upkeep (bought feed):
+  Sheep / goat     1–2 bc   (can be near zero on good pasture)
+  Pig              2–4 bc
+  Cow              4–8 bc   (milk cow higher if stalled)
+  Work horse       6–12 bc
+Cattle at 3–5 bc/day on bought feed is no longer above a rural wage
+once hay is priced; pasture drops it further.
+
+YEARLY OUTPUT
+Milk and eggs remain live yields.
+Price them at the revised Primary rates (milk ~1.5 bc/kg, eggs ~0.25 bc).
+Butter and cheese are no longer primary; see Economy_Processed_Animal_Goods.txt.
+
+============================================================
+
+# PRICE UPDATE APPLIED
+# Live prices raised to clear slaughter floor.
+# See Economy_Livestock_UPDATE.txt for full rule and fodder anchor.
+# Butter/cheese moved to Economy_Processed_Animal_Goods.txt.
+# Milk 1.5 bc/kg, eggs 0.25 bc. Hay/fodder added to Primary.
+
+# Economy_Livestock.txt
+# Livestock, Beasts of Burden, War Mounts, Game & Sea-Take
 
 HEADER NOTE
 All prices use the universal currency (1 gc = 20 sc = 240 bc).
@@ -63,7 +114,7 @@ Slaughter:
   Down       0.1–0.2 kg
 
 Sheep
-Price: 1 sc – 1 sc 10 bc
+Price: 17 sc
 Upkeep: 1–2 bc per day (grazing + winter feed)
 Space: Pasture
 Uses: Wool, mutton, milk, hides
@@ -80,7 +131,7 @@ Slaughter:
   Horn       0.5–1 kg if a horned breed
 
 Goat
-Price: 1 sc – 1 sc 15 bc
+Price: 14 sc
 Upkeep: 1–2 bc per day
 Space: Pasture or rough ground
 Uses: Milk, goat, hides, brush clearing
@@ -97,7 +148,7 @@ Slaughter:
   Horn       1–2 kg
 
 Pig
-Price: 1 sc 10 bc – 2 sc
+Price: 42 sc
 Upkeep: 2–3 bc per day
 Space: Sty or woodland pannage
 Uses: Pork, fat, hides
@@ -112,7 +163,7 @@ Slaughter:
   Offal      8–10 kg
 
 Cattle (Cow / Ox)
-Price: 4–8 sc (oxen toward the higher end)
+Price: 5 gc (dairy cow; oxen similar or higher)
 Upkeep: 3–5 bc per day
 Space: Significant pasture
 Uses: Milk, beef, hides, labour
@@ -129,7 +180,7 @@ Slaughter:
   Offal      15–25 kg
 
 Donkey
-Price: 3–6 sc
+Price: 78 sc or more (work horse)
 Upkeep: 2–3 bc per day
 Space: Modest
 Uses: Pack transport, light draught

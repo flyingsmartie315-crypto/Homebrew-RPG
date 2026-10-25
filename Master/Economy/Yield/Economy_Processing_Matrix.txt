@@ -843,3 +843,105 @@ WHAT THIS FILE DOES NOT DO
 - It does not let T4 appear because a player wants cheap fine steel.
 - It does not cost a sword. That is Economy_Finished_Arms.txt.
 - It does not replace Local_Region product ledgers.
+
+
+--------------------------------------------------
+WOOD FORMS — INTACT YIELD LINK (UPDATE)
+--------------------------------------------------
+Input authority is now Economy_Primary_Forestry.txt intact yield types.
+The older “From: Forestry log” rows remain valid for bulk or mixed wood.
+When the species model produces a named intact unit, use the matching row below.
+Waste figures (0.35–0.50) still apply unless the form says otherwise.
+
+Structural log → Hewn beam / long plank stock
+From: Forestry structural log (Oak, etc.)
+Input: the intact log
+Labour: as Hewn beam or Planks row
+Note: Cannot be substituted with bulk kg.
+
+Beam blank → Hewn beam or heavy plank
+From: Forestry beam blank
+Input: the blank
+Labour: as Hewn beam
+
+Stave blank → Cooper’s staves
+From: Forestry stave blank (oak / white oak)
+Input: the blank (split preferred)
+Labour: Higher skilled cooper × 0.4 day / 10 kg staves  [T1]
+Facility: cooper’s yard
+Note: Short or checked blanks lose cooperage premium.
+
+Mast / spar → Spar / pole blank
+From: Forestry mast/spar yield (pine / fir)
+Input: the stick
+Labour: as Spar / pole blank row
+Note: Master-mast uses the 1.5× already on the Pine ticket.
+
+Haft blank → Shaft / oar / handle blanks
+From: Forestry haft yield (ash)
+Input: one stick
+Labour: as Shaft row
+
+Knee / compass → Knee blank
+From: Forestry natural-bend oak
+Input: the piece
+Labour: selection only; found more than made
+
+Bulk kg remainder
+From: any species after intact units are taken
+Input: bulk kg
+Use: ordinary planks, shingles, firewood only
+Cannot feed hewn beam, cooper’s staves, or true haft.
+
+--------------------------------------------------
+STONE FORMS (NEW)
+--------------------------------------------------
+Input authority: Economy_Primary_Stone.txt Intact Unit.
+Processed output: Economy_Processed_Stone.txt.
+Bulk kg / rubble cannot become ashlar or cut slate.
+
+Rough Squared Block
+From: Common Stone or Basalt intact
+Input: ~1.2 kg raw / kg dressed
+Labour: rural common + mason × 0.3 day / 100 kg  [T1]
+Facility: quarry yard
+Tech: listed T1 / min T0 / max T2
+Waste: 0.15–0.25
+Floor: holds.
+
+Ashlar / Freestone Block
+From: freestone or marble intact of sufficient size
+Input: ~1.4 kg raw / kg dressed
+Labour: Higher skilled mason × 0.8 day / 50 kg  [T1–T2]
+Facility: mason’s yard
+Tech: listed T2 / min T1 / max T3
+Waste: 0.20–0.33
+Floor: premium over primary kg. Ordinary architectural ticket.
+
+Cut Slate Sheet
+From: Slate intact
+Input: ~1.3 kg raw / kg sheet
+Labour: splitter × 0.4 day / 20 kg  [T1]
+Facility: slate yard
+Tech: listed T1 / min T1 / max T2
+Waste: 0.20–0.30
+Floor: holds per sheet or kg equivalent.
+
+Foundation Block (heavy)
+From: Granite or large Common/Basalt intact
+Input: ~1.25 kg raw / kg
+Labour: mason × 0.5 day / 100 kg  [T1]
+Facility: quarry yard
+Waste: 0.15–0.25
+
+Millstone Blank / Carving Blank
+From: suitable intact (granite or marble)
+Input: the piece
+Labour: Higher skilled mason × 1–2 days to rough and face  [T1–T2]
+Facility: specialist yard
+Note: Further finishing is Economy_Finished_Stone.txt (commission).
+
+Bespoke / commission pieces
+Not processed here.
+See Economy_Finished_Stone.txt.
+Price is commission (stone + craftsman days + detail + erection).
