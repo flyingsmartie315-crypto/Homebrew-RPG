@@ -1,11 +1,16 @@
-# Local_Region_Highmarch
+# Highmarch
 
 Overview
-The elevated middle country of the Ebon Peninsula, between the eastern flanks of Ebon Spire / Svarthorn / Ebonclock and the rising Marchwall Range. A broken highland of ridges, high valleys, and passes. The Värdå is the through-road. Settlement is thinner than Westmark; watch, herd, and river-hub matter more than open fields.
+The elevated middle country of the Ebon Peninsula, between the eastern flanks of Ebon Spire / Svarthorn / Ebonclock and the rising Marchwall Range. A broken highland of ridges, high valleys, and passes. The Värdå is the through-road. Settlement is thinner than Westmark; watch, herd, and river-hub matter more than open fields. The region’s character is Kannavi–Isern fusion, strongest at Karvarn on Holtau.
 
-Biome: Temperate / Highland
-Sub-biomes: Alpine, River, Highland, Forest
+In past centuries Highmarch was nearly as densely forested as Kannavald Deepwood still is. Clearing followed the Värdå, the lake shores, and the high valleys that could be pastured or terraced after the Isern landing and the Kannavi alliance at Caer Varn. Dense forest now survives only where the ground rises hard against the mountain bases. Everywhere else the woodland has been reduced to valley copses, terrace edges, and managed high pasture. Name drifts (Caer Varn → Karvarn, Oltaval Basis → Holtau, Lloerllyn → Lurlin) are ordinary Isern wear on Kannavi stems.
+
+North of the Marchwall the land falls away into the steep, rough face of the Rivenstrand Walls. This northern ground (8,591 square miles) lies outside Highmarch proper. It has little shelter and faces the open northern seas. Access from Highmarch is limited to a couple of rough high passes or the long loop west through the Ardairn Valley.
+
+Biome: Temperate
+Sub-biomes: Alpine, River, Lake, Highland, Forest
 The high ground is cold and steep. The Värdå valleys are milder but still elevated.
+(At least one climate biome present. Seasonal template = Temperate.)
 
 Environmental Scores
 Temperature: 2 | Rainfall: 3 | Human Density: 2 | Flora: 3 | Fauna: 2 | Topography: 4 | Hydrology: 3
@@ -19,6 +24,36 @@ Seasonal modifiers: Temperate (with strong Alpine influence on the higher ground
 Visual Reference
 maps/Map_Local_Region_Highmarch.jpeg
 Tile west / centre / east if labels fail.
+
+--------------------------------------------------
+AREA LOCK
+--------------------------------------------------
+Total land area: 58,000 square miles.
+
+Mountain ranges
+- Marchwall Ranges: 20,560
+- Ebon Spire and its ranges (Svarthorn Massif, Brocken Peak, Die Schulter, borders against Kannavald Deepwood and Ebormark): 8,826
+- Rhennod’s Bow Range (northern tip, south-eastern border reach): 1,125
+Mountain total: 30,511
+
+Woodland (residual dense forest at mountain bases)
+- Rising foothills and temperate/spruce forests, southern faces of the Marchwall / Highmarch ranges: 7,669
+- Rising foothills and temperate/spruce forests, northern faces of Rhennod’s Bow Ranges: 1,545
+- Rising foothills and temperate/spruce forests, northern faces of the Ebon Spire ranges: 3,162
+Woodland total: 12,376
+
+Lakes
+- Holtau (Kannavi original: Oltaval Basis): 187
+- Lurlin (Kannavi original: Lloerllyn): 98 — 83 path-miles up the Avenhir from Holtau
+Lakes total: 285
+
+Excluded northern Rivenstrand face
+- Steep, rough ground north of the Marchwall Ranges, facing the open northern seas, little shelter: 8,591 (subtracted from previous total; not part of Highmarch proper)
+Access from Highmarch only via a couple of rough high passes or the long western loop through the Ardairn Valley.
+Rivenstrand Walls: 1,060 miles of meandering jagged coastline (offshore islands excluded).
+
+Remaining habitable ground: 23,419 square miles
+Cleared highland valleys, terrace ground, pastures, and the Värdå corridor. Suitable for settlement, agriculture, and pasturing.
 
 --------------------------------------------------
 VÄRDÅ (HIGHMARCH REACH)
@@ -55,7 +90,7 @@ Biome: River
 Temperature: 2 | Rainfall: 3 | Human Density: 1–2 | Flora: 2 | Fauna: 2 | Topography: 3–4 | Hydrology: 4
 
 Avenhir
-Syllvani Afon Hir, Isern worn form. Rises on the Appolasian Plateau. Erzau joins it. Enters Holtau on the eastern side.
+Syllvani Afon Hir, Isern worn form. Rises on the Appolasian Plateau. Erzau joins it. Enters Holtau on the eastern side. Lake Lurlin lies 83 path-miles up this river from Holtau.
 Shared with the Plateau. This file scores only the Highmarch reach.
 Biome: River
 Temperature: 2 | Rainfall: 3 | Human Density: 2 | Flora: 3 | Fauna: 2 | Topography: 3 | Hydrology: 4
@@ -79,13 +114,21 @@ Temperature: 2 | Rainfall: 3 | Human Density: 1–2 | Flora: 4 | Fauna: 3 | Topo
 
 Marchwall Range (Highmarch faces)
 Shared wall. Sits on the Rivenstrand Walls. Listed Marchwall water to the Värdå: Rimenau (236) and Dreiau (305). Erzau joins the Plateau river, then Holtau east.
+Area within Highmarch: 20,560 square miles.
 Biome: Alpine
 Temperature: 1 | Rainfall: 3–4 | Human Density: 1 | Flora: 2 | Fauna: 2 | Topography: 5 | Hydrology: 3
 
-Ebon Spire (eastern face)
-Shared. Full write-up: Geographic_Region_Ebon_Peninsula.txt. Highmarch scores the east face and the approaches only.
+Ebon Spire (eastern face) and ranges
+Shared. Includes Svarthorn Massif, Brocken Peak, Die Schulter, and the borders against Kannavald Deepwood and Ebormark. Full write-up of the Spire itself: Geographic_Region_Ebon_Peninsula.txt. Highmarch scores the east face, approaches, and attached ranges that fall here.
+Area within Highmarch: 8,826 square miles.
 Biome: Alpine
 Temperature: 1 | Rainfall: 4 | Human Density: 0–1 | Flora: 2 | Fauna: 1–2 | Topography: 5 | Hydrology: 2
+
+Rhennod’s Bow Range (northern tip)
+Shared / border feature. Northern tip reaches into Highmarch’s south-eastern border.
+Area within Highmarch: 1,125 square miles.
+Biome: Alpine
+Temperature: 1–2 | Rainfall: 3 | Human Density: 1 | Flora: 2 | Fauna: 2 | Topography: 4–5 | Hydrology: 2
 
 Ebonclock (Highmarch / Kannavald attach)
 Working range-name for mountains attached to the Spire, excluding Lowstacks, Westwood Peaks, Westwood Heights, Watchers Peak, and Mistcap Crags.
@@ -95,12 +138,20 @@ Temperature: 1–2 | Rainfall: 3–4 | Human Density: 1 | Flora: 2 | Fauna: 2 | 
 
 Holtau
 187 square miles. The Värdå joins it 377 path-miles from the sea.
-Second hub of the peninsula. Second-largest population centre after the Osricford mouth. Settlement name not locked.
+Second hub of the peninsula. Second-largest population centre after the Osricford mouth. Karvarn sits on the southern bank.
+Kannavi original name: Oltaval Basis.
 Southern / Spire feed: Ostglas — NE face of the Ebon Spire. Fast, clear.
 Eastern feed: Avenhir, joined by Erzau, then into Holtau’s east shore. Avenhir locked.
 
 Biome: Lake
 Temperature: 2 | Rainfall: 3 | Human Density: 3 | Flora: 3 | Fauna: 3 | Topography: 2 | Hydrology: 5
+
+Lurlin
+98 square miles. 83 path-miles up the Avenhir from Holtau.
+Kannavi original name: Lloerllyn.
+Smaller lake of the eastern feed. Settlement and herding thinner than Holtau; more seasonal.
+Biome: Lake
+Temperature: 2 | Rainfall: 3 | Human Density: 2 | Flora: 3 | Fauna: 3 | Topography: 2 | Hydrology: 5
 
 Svarthorn Massif (eastern / north-east approaches)
 Shared. Brocken Peak sits with it; the Glasau has already joined the Värdå in Westmark (175 path-miles from the sea).
@@ -114,25 +165,45 @@ Temperature: 2 | Rainfall: 3 | Human Density: 2–3 | Flora: 3 | Fauna: 2 | Topo
 --------------------------------------------------
 LINKED SETTLEMENTS
 --------------------------------------------------
-- [Holtau hub — second population centre of the peninsula. Town name not locked]
-- [Watch holds and pass settlements — to be defined]
+- Karvarn — Settlement_Karvarn.txt
+  (Holtau southern-bank capital of Highmarch; Kannavi–Isern fusion town on the old hillfort site. Working population 7,500–9,000.)
+
+- [Watch holds, pass settlements, and secondary river/lake hubs — to be defined]
 
 --------------------------------------------------
 LESSER / SCATTERED / SEASONAL
 --------------------------------------------------
 High pastures and seasonal herding camps.
-Watch-posts on the Marchwall approaches.
-Timber and charcoal in the lower valleys.
+Watch-posts on the Marchwall approaches, Spire faces, and the few rough northern passes.
+Timber and charcoal in the lower valley woods and residual base-forest edges.
+Terrace holdings and scattered high-valley hamlets.
 
 --------------------------------------------------
 NOTES
 --------------------------------------------------
 Access
-From Westmark up the Värdå. From the Spire country down the Spireflow and the NE burn. From the Plateau by the unnamed eastern river. From the Marchwall by the listed burns only.
+From Westmark up the Värdå. From the Spire country down the Spireflow and the NE burn. From the Plateau by Avenhir. From the Marchwall by the listed burns only.
+Northern face (outside Highmarch proper): only via a couple of rough high passes through the Marchwall or the long loop west into the Ardairn Valley.
 
-Holtau is the Highmarch hinge. The mouth at Osricford is the Westmark hinge. Do not give this lake Westmark’s 50,000. It is second, not equal.
+Holtau is the Highmarch hinge. The mouth at Osricford is the Westmark hinge. Do not give this lake Westmark’s 50,000. It is second, not equal. Karvarn is the locked name of the Holtau hub.
 
 Ebon Spire and Svarthorn are shared; this file only scores the faces that fall here.
 Marchwall spelling stays Marchwall, not Marchwell.
+Rhennod’s Bow northern tip is shared / border.
 
 When no (bracketed detail) is included, the feature is wholly within this region.
+
+Population
+Land area: 58,000 square miles
+Permanent population: 48,000–60,000 (working figure ~54,000)
+Overall density: ~0.8–1.0 persons per square mile
+Habitable ground density: ~2.1–2.6 persons per square mile on the 23,419 sq mi of cleared valleys, terraces, and pastures.
+
+Working split
+- Karvarn: 7,500–9,000
+- Other named river and lake hubs + watch holds: 8,000–12,000
+- Scattered high-valley hamlets, terrace holdings, and herding households: 25,000–34,000
+- Remainder: seasonal camps, traplines, and summer pasture (not counted in permanent)
+
+[One closing line on distance and travel feel.]
+The Värdå is the spine. From Karvarn the high valleys rise quickly; a day’s ride reaches the first watch or the edge of residual forest. Longnight closes the higher passes. The Spire’s shadow falls across Holtau on clear mornings.
