@@ -1,0 +1,38 @@
+# Käsweid
+
+Type
+Village
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Cattle-pasture village 13 miles west of Rissmarkt by road. Features a castle.
+Road links: 11 miles north-east of Heckenfeld; from Giassrad 3.5 miles south to the crossroads then 12 miles east.
+
+Overview
+A pastoral village of cattle pastures and dairy holdings, known across the south of Rissfeld for the fine cheese that comes off its herds. A modest castle stands on the higher ground above the main pastures, watching the road to Rissmarkt. The place is agricultural first; the castle is the local mark of control and storage rather than a major fortress. Grain and stock move east to the Rissmarkt crossroads; cheese is the named product that leaves the valley.
+
+Control
+Under the Ardairn Zonarch. Local hold sits with the castle household. Not contested.
+
+Population
+Working figure: 450–700
+Herders, dairy households, and the castle retainers. Swells at market seasons when the cheese goes to Rissmarkt.
+
+Economy
+Cattle pasturing and fine cheese. Secondary grain and dairy. Cheese is the reputation that travels; surplus stock and grain move with it to Rissmarkt. The castle holds stores and the local toll on the road.
+
+Defences / Access
+Castle on the rise above the pastures. Village itself is open, with the usual yard walls and stock fences.
+Road 13 miles east to Rissmarkt.
+Road 11 miles south-west to Heckenfeld.
+From Giassrad: 3.5 miles south to the crossroads, then 12 miles east.
+
+Linked Features
+- Rissfeld (southern border / pasture edge)
+- Rissmarkt — Settlement_Rissmarkt.txt
+- Heckenfeld
+- Giassrad — Settlement_Giassrad.txt
+
+Notes
+Name locked: Käsweid (*kasjus + *weidō — “Cheese-pasture”). Castle is local, not a crown appointment. Campaign hooks: cheese monopoly or spoiled batch, castle stores held against the Rissmarkt road, herd driven off toward the ravines, or a Zonarch tax on the named product.
