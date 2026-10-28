@@ -1,0 +1,37 @@
+# Karbēo
+
+Type
+Village (with castle)
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Centre of Jagdsūd. 6 miles north of Alyn by road. Castle and village that supervises the woodland reserve.
+
+Overview
+Unbound village and castle at the centre of Jagdsūd. Local garrison and wardens monitor the woodlands from here. Authority runs on the woodland economy rather than open fields or pits. The place is well known for a local bee that beekeepers cultivate; the honey and the swarms are the reputation that travels. Kannavi custom lingers in speech, household practice, and the older name still used deeper in the wood.
+
+Control
+Unbound. Local seat that supervises Jagdsūd under the Ardairn Zonarch. Not a bound village of Tjarnborg. Garrison and wardens answer here.
+
+Population
+Working figure: 600–900
+Castle household, garrison, wardens, beekeepers, and woodland holdings.
+
+Economy
+Woodland economy. Beekeeping is the named product. Secondary timber, game, and charcoal. Surplus moves south toward Alyn and the road, or stays inside the reserve under local wardens.
+
+Defences / Access
+Castle at the centre of the village. Local garrison. Wardens keep the woodland approaches.
+Road 6 miles south to Alyn crossroads.
+Further roads into Jagdsūd are warden paths more than open lanes.
+
+Linked Features
+- Jagdsūd
+- Alyn — Settlement_Alyn.txt
+- Local bee (cultivated; reputation of the place)
+
+Notes
+Name locked: Karbēo.
+Original Kannavi form: Caerbēo (*caer + bēo). Ordinary Isernvolk speech drift (Caer → Kar). Not a formal renaming. Deeper wood still uses Caerbēo; road and garrison use Karbēo.
+Unbound supervisory seat of Jagdsūd. Kannavi influence lingers in local customs. Campaign hooks: bee monopoly or spoiled hive, warden dispute over woodland rights, or the older name used as a mark of allegiance.

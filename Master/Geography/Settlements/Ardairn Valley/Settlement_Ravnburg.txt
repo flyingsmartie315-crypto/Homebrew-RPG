@@ -1,0 +1,35 @@
+# Ravnburg
+
+Type
+Castle (ruling seat)
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Rissfeld’s ruling seat. 5 miles north of Litflath by road, set among the tiered plateaus and ravines of the Flat Tops (31 square miles). One of the most defensible castles on the continent by virtue of the terrain.
+
+Overview
+Ravnburg stands on the tiered plateaus that rise north of Litflath, cut by dropping ravines on every approach. The ground itself is the defence: successive flats, steep drops, and narrow climbs that turn any assault into a series of isolated fights. It is the ruling seat of Rissfeld. In the early years of the Breaking of the Horns it was a prominent outpost, holding the northern edge of the then-cleared ground. The castle remains the mark of local control; the Zonarch’s authority in Rissfeld is exercised from here.
+
+Control
+Ruling seat of Rissfeld under the Ardairn Zonarch. Direct hold. Not a separate crown appointment.
+
+Population
+Working figure: 800–1,200
+Castle household, retainers, and the small settlement that has grown on the nearest plateau. Seasonal labour from the quarry country and the lower hills.
+
+Economy
+Control of the northern ravine and quarry approaches. Toll and store on the road from Litflath. Secondary stock and timber from the surrounding tiers. The seat’s wealth is positional more than productive.
+
+Defences / Access
+Terrain is the primary defence. Tiered plateaus and surrounding ravines make the position one of the most defensible on the continent. Walls and towers follow the natural shelves.
+Access: road 5 miles south to Litflath (winding descent). Further south the road continues toward Deneshaw and the lower country. No easy approach from the ravine faces.
+
+Linked Features
+- Flat Tops (tiered plateaus and ravines, 31 square miles)
+- Litflath — Settlement_Litflath.txt
+- Rissfeld (northern cliffs and ravines)
+- Deneshaw (via Litflath)
+
+Notes
+Name locked: Ravnburg. Ruling seat of Rissfeld. Prominent outpost in the early years of the Breaking of the Horns. Defensibility is terrain-first. Campaign hooks: siege that must take the tiers one by one, stores held against the lower road, or the seat’s claim on the quarry country to the north.
