@@ -29,7 +29,41 @@ Seasonal modifiers: [climate biome]
 Must be a climate biome named above as Biome or as a Sub-biome.
 If Biome is water, this line is the climate tag listed under Sub-biomes.
 
-Notable Features
+Visual Reference
+maps/Map_Local_Region_[Name].jpeg
+Same stem as this text file.
+Fetch the raw file from this repo.
+Tile west / centre / east (or a 2×2) if labels fail.
+
+The file is one picture of this Local Region.
+Uploads are capped (~4096 on the long edge). Small labels will not survive a Geographic-Region export.
+
+--------------------------------------------------
+AREA LOCK (optional but recommended for large regions)
+--------------------------------------------------
+Land area: [total square miles]
+
+Component breakdown (sum must equal total; note any exclusions):
+- [Major landform / mountain range]: [sq mi]
+- [Residual woodland / specific stands]: [sq mi]
+- [Lakes / major water]: [sq mi]
+- [Open productive floor / habitable valleys]: [sq mi]
+- [Excluded or external faces]: [sq mi] (note why excluded)
+
+[Short note on what the remainder represents and any historical clearing.]
+
+--------------------------------------------------
+ETYMOLOGY & NAME LOCKS (optional)
+--------------------------------------------------
+[Feature or region name]
+Original / older form: [Kannavi / earlier stem]
+Locked modern form: [Isern or current]
+Drift type: ordinary wear / formal / open
+Gloss: [short meaning if known]
+
+--------------------------------------------------
+NOTABLE FEATURES
+--------------------------------------------------
 Each land-cover feature has its own Harvest scores (0–5).
 Point site = pin only (stones, ruin, named summit on ground already scored). Not averaged.
 A biome line is given only when the feature is not the region Biome.
@@ -39,6 +73,37 @@ If present, it must be one of this region’s Biome or Sub-biomes.
   [description]
   Biome: [tag, only if different from the region Biome]
   Temperature: X | Rainfall: X | Human Density: X | Flora: X | Fauna: X | Topography: X | Hydrology: X
+
+FEATURE DETAIL EXTENSIONS
+In addition to the base feature block, large or complex features may include:
+- Area within this region: [sq mi]
+- Path-mile joins or elevations where relevant
+- Exclusions (“Not counted in the [total]”, “Shared; full write-up in [other file]”)
+- Point-site markers for named summits, pits, or ruins that are not averaged
+
+--------------------------------------------------
+NOTABLE FEATURES — NAMING RULE
+--------------------------------------------------
+
+Format:
+Feature Name (portion / face / detail)
+
+Rules:
+1. The base Feature Name must be identical in every Local Region that shares the landform.
+2. The text in brackets specifies which part of the feature is being described and scored in the current region.
+3. Shared features carry a short note: “Shared feature; full write-up lives in [Home Region].”
+4. Only the portion that falls inside the current Local Region is scored here.
+5. Point sites remain marked as point sites and are not averaged.
+6. When no bracketed detail is included, the feature is assumed to lie wholly within the borders of the current Local Region.
+
+Examples:
+- Ebon Spire (eastern face)
+- Ebon Spire (south face)
+- Svarthorn Massif (eastern flanks)
+- Marchwall Range (western faces)
+- Rhennod Mountains (lower western slopes)
+- High Valleys and Pass Country          ← wholly within this region (no brackets needed)
+- Lake Kolvatn                           ← wholly within this region (no brackets needed)
 
 Linked Settlements
 Full detail is recorded in the individual settlement documents.
@@ -70,6 +135,20 @@ Working split
 - [Scattered hamlets / isolated households]: [range]
 - Remainder: [seasonal camps, traplines, and the like]
 
+POPULATION WORKING SPLIT (expanded)
+Permanent population: [figure] (range [low]–[high])
+Overall density: [persons per square mile]
+Habitable-ground density: [if area lock separates habitable from mountain/wood]
+
+Working split
+- [Chief town / mouth complex]: [range]
+- [Secondary towns / large villages]: [range]
+- [Named villages / crossings / watch holds]: [range]
+- [Scattered hamlets / terrace holdings / herding]: [range]
+- Remainder: seasonal camps, traplines, summer pasture
+
+[Note any ground that contributes negligible permanent population.]
+
 [One closing line on distance and travel feel.]
 
 Wildlife
@@ -95,40 +174,3 @@ A border landform may appear in two Local Region files.
 The full write-up lives in one file.
 The other lists the same name, marks it Shared, and scores only its own face.
 Point sites stay unaveraged on both sides.
-
---------------------------------------------------
-MAP LINK
---------------------------------------------------
-Visual Reference
-maps/Map_Local_Region_[Name].jpeg
-Same stem as this text file.
-Fetch the raw file from this repo.
-Tile west / centre / east (or a 2×2) if labels fail.
-
-The file is one picture of this Local Region.
-Uploads are capped (~4096 on the long edge). Small labels will not survive a Geographic-Region export.
-
---------------------------------------------------
-NOTABLE FEATURES — NAMING RULE
---------------------------------------------------
-
-Format:
-Feature Name (portion / face / detail)
-
-Rules:
-1. The base Feature Name must be identical in every Local Region that shares the landform.
-2. The text in brackets specifies which part of the feature is being described and scored in the current region.
-3. Shared features carry a short note: “Shared feature; full write-up lives in [Home Region].”
-4. Only the portion that falls inside the current Local Region is scored here.
-5. Point sites remain marked as point sites and are not averaged.
-
-6. When no bracketed detail is included, the feature is assumed to lie wholly within the borders of the current Local Region.
-
-Examples:
-- Ebon Spire (eastern face)
-- Ebon Spire (south face)
-- Svarthorn Massif (eastern flanks)
-- Marchwall Range (western faces)
-- Rhennod Mountains (lower western slopes)
-- High Valleys and Pass Country          ← wholly within this region (no brackets needed)
-- Lake Kolvatn                           ← wholly within this region (no brackets needed)

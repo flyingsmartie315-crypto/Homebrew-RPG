@@ -214,6 +214,20 @@ Village 1.5 miles south of the castle: Sūdholt. Settlement_Sudholt.txt.
 Biome: Forest
 Temperature: 2–3 | Rainfall: 3 | Human Density: 2 | Flora: 4 | Fauna: 3 | Topography: 3 | Hydrology: 3
 
+Eisenberg
+Official name: Das Isern-Zentralrevier.
+87 square miles. Southern base of the Dalhamar Foothills.
+SE: 16-mile shared border with Rissfeld.
+SW: 15-mile shared border with Hamarholt.
+Vast man-made open pits, stepped quarries, and deep mines cut into the roots of the foothills. The richest high-yield iron ore of the peninsula. Treated as an invaluable state asset under the direct appointment of the Dar Kaiserarch. All iron belongs to the Imperial office; only surplus enters the common market.
+
+Internal features
+- The Dalhamar Sinks (Dalhamar-Senken): massive stepped open-cast quarries cut directly into the southern roots of the foothills.
+- The Slate-Wall Terraces (Schieferwände): sheer, miles-long geological shelf where the hills drop into the industrial basin, carved by centuries of quarrying.
+
+Biome: Highland (industrial face)
+Temperature: 3 | Rainfall: 3 | Human Density: 4 | Flora: 1 | Fauna: 1 | Topography: 3 | Hydrology: 2
+
 Sanftgau
 496 square miles. South bank of the Värdå from 90 path-miles above Osricford to 155 (a 65-mile reach).
 Cultivated gentle hills, pasture, river-bank woodland. Not Heckengau (that sits north, between Herrenau and Värdå).

@@ -186,6 +186,9 @@ Duty: keep the canopy against Unveiling things. Autonomy at the forest border.
 The compact is still honoured. Careless Isern are still shown the line.
 Detail: Peoples_Kannavi.txt.
 
+Isernarch — “The Kaiser’s Iron Fist”
+Common colloquialism used across the peninsula’s largest quarries and pits, especially at Eisenberg / Das Isern-Zentralrevier. Reminds workers that the iron belongs entirely to the Archon. Only surplus reaches the common market.
+
 Osricford is the Kaiserarch’s port. The Waldward does not keep a banner on that quay.
 
 --------------------------------------------------
