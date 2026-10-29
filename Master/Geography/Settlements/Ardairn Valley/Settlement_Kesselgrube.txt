@@ -1,29 +1,29 @@
 # Kesselgrube
 
 Type
-Village
+Village (convict yard)
 
 Location
 Local Region: Ardairn Valley (common: Westmark)
 Geographic Region: Ebon Peninsula
-Position: Dead centre of the Laed-Crags. 5 miles south-east of Laedburg. Deepest cluster. Worst veins.
+Position: Inside the Laed-Crags. Inward-facing cluster on the worst veins. Palisade faces the yard.
 
 Overview
-A “village” whose palisade faces in. The basin-pit. Most of the Crags’ convicts sit here. Egregious sentences. The houses are barracks. The street is a yard. Free miners come as foremen and leave. No one pretends this is Hofstatt.
+Worst veins of the Laed-Crags. Convict labour. Barrack-pits. The palisade faces inward; the rock faces out. This is the bottom tier of the prison-industrial complex. Ore moves to Laedburg; the people do not.
 
 Control
-Warden appointed out of Laedburg / the Zonarch. Free-miner foremen run the vein day to day.
+Convict yard under Laedburg’s smelter rights and the Ardairn Zonarch. Sentence is served here. Not a free town.
 
 Population
-Working convicts: 500–850 (share of the Crags’ 1,200–2,000).
-Warders and free-miner overseers: a few hundred who do not sleep in the yard if they can help it.
+Working figure: 500–850 convicts
+Barrack-pits. Scales with the Crags’ overall 1,200–2,000 standing convicts. War-surge can push the whole Crags toward ~3,000; this yard takes the heaviest share.
 
 Economy
-Worst lead and the work no stall-holder wants. Ore to Laedburg.
+Convict labour on the worst lead and antimony veins. Ore leaves for Laedburg. No free market inside the palisade.
 
 Defences / Access
-Palisade faces inward. Towers look at the yard first, the cliffs second.
-Access: tracks to Laedburg. No market road worth the name.
+Palisade faces the yard. Barrack-pits. Approaches controlled from Laedburg.
+No open road for the sentenced.
 
 Linked Features
 - Laed-Crags
@@ -32,5 +32,4 @@ Linked Features
 - Stallreihe — Settlement_Stallreihe.txt
 
 Notes
-Not a village in the Heckengau sense. Count it as one because men eat and die in one place.
-Campaign hooks: a man who should have gone to Stallreihe; a palisade gate that opens the wrong way in a panic.
+Bottom tier: egregious criminals serving sentence. Worst veins. Campaign hooks: yard break, ore shortfall that forces a surge, or a sentence that was meant for a higher tier and ends here.

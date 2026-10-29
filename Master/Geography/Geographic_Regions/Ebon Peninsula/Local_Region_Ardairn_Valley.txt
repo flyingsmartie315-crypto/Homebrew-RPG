@@ -2,11 +2,11 @@
 # Modern name: the Ardairn Valley. Common offhand: Westmark.
 
 Overview
-The open, productive west of the Ebon Peninsula. Iron, grain, livestock, and the sea. First-landing memory and the Isern crown sit at a two-mile river-mouth: Osricford on the north bank, Vardgaard / Little Oc on the south. Barge only. Most people live on the plough-and-stock floor. Worked woodland feeds the yards. The Isernhorns and the Little Massif are a rim. The Rivenstrand reach is gale-coast — watch-posts, not farms.
+The open, productive west of the Ebon Peninsula. Iron, grain, livestock, and the sea. First-landing memory and the Isern crown sit at a two-mile river-mouth: Osricford on the north bank, Vardgaard / Little Oc on the south. Barge only. Most people live on the plough-and-stock floor. Worked woodland feeds the yards. The Isernhorns and the Rivenstag Alps are a rim. The Rivenstrand reach is gale-coast — watch-posts, not farms.
 
 Biome: Temperate
 Sub-biomes: River, Coast, Highland, Forest
-The floor is temperate mark-country. Forest is the eleven worked stands. Highland is the Horns, the Little Massif, and the cliff-reach.
+The floor is temperate mark-country. Forest is the eleven worked stands. Highland is the Horns, the Rivenstag Alps, and the cliff-reach.
 
 Environmental Scores
 Temperature: 3 | Rainfall: 3 | Human Density: 2 | Flora: 2 | Fauna: 2 | Topography: 3 | Hydrology: 3
@@ -28,7 +28,7 @@ LAND AREA
 Total: 49,626 square miles.
 
 - Isernhorns: 6,603 (includes Arnmont 550 and Dalhamar foothills 2,315; Sætann Wall is drowned teeth, not extra land)
-- Little Massif (placeholder name): 1,996
+- Rivenstag Alps: 2,285
 - Rivenstrand Walls (Westmark reach): 10,362
 - Temperate / boreal woodland: 4,888
   Stands: 204 + 205 + 124 + 146 + 173 + 88 + 245 + 703 + 192 + 1,362 + 494
@@ -40,14 +40,14 @@ Total: 49,626 square miles.
 - Vardfeld: 315
 - Markholt: 311
 - Rissfeld: 301
-- Open productive floor (remainder): 22,768
+- Open productive floor (remainder): 22,479
 
 --------------------------------------------------
 NOTABLE FEATURES
 --------------------------------------------------
 
 Westmark floor
-Open productive country. Fields, stock, roads, iron-pits inland of the strand. 22,768 square miles. The work of the peninsula.
+Open productive country. Fields, stock, roads, iron-pits inland of the strand. 22,479 square miles. The work of the peninsula.
 Temperature: 3 | Rainfall: 3 | Human Density: 3–4 | Flora: 3 | Fauna: 2 | Topography: 2 | Hydrology: 3
 
 Värdå
@@ -182,8 +182,10 @@ No live fire. Glacial melt off this mass is a Värdå diet, not a plume.
 Biome: Highland
 Temperature: 2 | Rainfall: 3 | Human Density: 1 | Flora: 2 | Fauna: 2 | Topography: 4–5 | Hydrology: 3
 
-Little Massif (placeholder)
-1,996 square miles of highland inside Westmark. Working name only.
+Rivenstag Alps
+2,285 square miles. Locked. Replaces the former Little Massif placeholder.
+Tallest peak: Vrispire, in the SW corner of the range. Matches the height of the upper Dalhamar foothills 37 miles to the west.
+Highland rim east of the Isernhorns. Northernmost tip includes the Strandhamar Crags, which creep up to the edges of the Rivenstrand Walls.
 Biome: Highland
 Temperature: 2 | Rainfall: 3 | Human Density: 1 | Flora: 2 | Fauna: 2 | Topography: 4 | Hydrology: 3
 
@@ -233,9 +235,39 @@ Sanftgau
 Cultivated gentle hills, pasture, river-bank woodland. Not Heckengau (that sits north, between Herrenau and Värdå).
 Working name: Sanftgau — the gentle gau. Laedburg sits on the inner lip at path-mile 98. Sundbruck is the far-east corner, west of the Sund mouth.
 
+Galekyst Flats
+3,940 square miles. Locked.
+Rougher weather along the jagged coastline. Small hamlets and villages on the shore eke out a fishing subsistence. Lands quite wild and untamed.
+Northern coastal reach inside the broader Rivenstrand. Little shelter except in the named bay.
+Coast length: approx 1,145 miles of meandering jagged coast of the Rivenstrand Walls.
+Biome: Coast
+Temperature: 2 | Rainfall: 4 | Human Density: 0–1 | Flora: 1 | Fauna: 2 | Topography: 4 | Hydrology: 3
+
+Skjulbucht Bay
+1,683 square miles. Locked.
+Relative shelter inside the Galekyst Flats. Most of the coastal hamlets and villages sit here because the rest of the jagged coastline offers little protection. Fishing subsistence is the economy that holds. The bay is the working anchorage of the northern shore.
+Biome: Shelf
+Temperature: 3 | Rainfall: 4 | Human Density: 2 | Flora: 2 | Fauna: 3 | Topography: 2 | Hydrology: 3
 Jagdsūd
 292 square miles. Hilly woodland reserve. South of Sanftgau.
 Locked. South-hunt.
+
+The Skatobrand
+3,573 square miles. Locked.
+The ragged, cold northern scarp of the Westmark peninsula. Bound by the biting northern sea along 410 miles of highly irregular coast, and the towering, sheer northern walls of the Isernhorns (Westarīs and Īshoubit) to the south. The entire reach sits permanently under the looming mountain-shadow, receiving minimal direct high-sun. Fetch, heavy squalls, and black volcanic shelves.
+Directly west of the Galekyst Flats. 14-mile shared border running from the Westarīs to the Rivenstrand Walls.
+Biome: Coast / Highland
+Temperature: 2 | Rainfall: 4 | Human Density: 0–1 | Flora: 2 | Fauna: 2 | Topography: 4 | Hydrology: 4
+
+Internal Features:
+- The Dark-Tail: The narrow, westernmost peninsula arm stretching into the sea. Barren, windswept, and dominated by ancient, dormant volcanic peaks. The shoreline here fractures into jagged coastal skerries, black-sand inlets, and tide-pools choked with basalt debris. No farm country; sparse watch-posts only.
+- The Iron-Skerries: A long tail of half-drowned granite and volcanic teeth breaking the northern current for nearly 12 miles off the tip of the Dark-Tail. Deadly to navigation without a local pilot.
+- The Horn-Apron: The deep, sheltered eastern basin of the reach. Here, the sheer mountain walls of the Isernhorns curve northward, forming a massive geographic lap that blocks the worst of the arctic sea-gales. Nurtured by glacial meltwater run-off and protected from the shearing winds, the basin shelters dense, primeval stands of mountain spruce and boreal pine. The canopy is thick, damp, and heavy with deep moss turf.
+
+Lesser / Scattered / Seasonal:
+- Cliff-side watch-towers keeping eyes on the northern sea-lanes.
+- Seasonal logging camps on the fringes of the Horn-Apron.
+- Kelp-gathering huts along the black volcanic beaches.
 
 Markholt
 311 square miles. Locked.
@@ -261,30 +293,8 @@ Not Sanftgau (that is the south bank, 90–155). Not villa-glass.
 Temperature: 3 | Rainfall: 3 | Human Density: 3 | Flora: 3 | Fauna: 2 | Topography: 2 | Hydrology: 3
 
 Laed-Crags
-190 square miles. Rugged pocket of steep cliffs and sheer hills. Name from lēad — lead.
-Ore: galena and cerussite (lead). Stibnite (antimony). Vitriol (sulfate salts — the old green and blue vitriols).
-Not villa-country. Not Herrenau. A hard bite of ground that pays in metal and in ruined lungs.
-Wholly inside Ardairn unless later split.
-
-Prison-industrial working figures (not locked)
-Standing convicts in the Crags: 1,200–2,000.
-War-surge: up to ~3,000.
-Do not park 8,000 here.
-
-Three tiers
-1. Convict labour — egregious criminals serving sentence. Barrack-pits inside the Crags. Worst veins.
-2. Indebted labour — tier above, still harsh. Bound years. Not the noose, not freedom.
-3. Free miners — overseers / foremen. Stall-right. They run the work and keep the convicts off the good rock when they can.
-
-Three inward-facing clusters (palisade faces the yard)
-- Kesselgrube — worst veins. Convicts 500–850. Settlement_Kesselgrube.txt
-- Vitriolstatt — vats and bound years. Unfree 400–650 mixed. Settlement_Vitriolstatt.txt
-- Stallreihe — free stalls plus a smaller yard. Convicts 300–500. Settlement_Stallreihe.txt
-Bands scale together inside the Crags’ 1,200–2,000.
-
-Smelter-town: Laedburg, south bank, 98 path-miles up the Värdå, east of the Sund. Immediate west of the Crags. Settlement_Laedburg.txt.
-Ore into Laedburg. Barges of ore and metal down to Osricford.
-Free and half-free pit-folk plus Laedburg streets: 5,000–7,000 outside the chains.
+190 square miles. Locked.
+Rugged pocket of steep cliffs and sheer hills. Name from lēad — lead. Ore: galena and cerussite (lead). Stibnite (antimony). Vitriol (sulfate salts — the old green and blue vitriols). Not villa-country. Not Herrenau. A hard bite of ground that pays in metal and in ruined lungs. Wholly inside Ardairn unless later split.
 Biome: Highland
 Temperature: 2 | Rainfall: 3 | Human Density: 1–2 | Flora: 2 | Fauna: 2 | Topography: 4–5 | Hydrology: 2
 
@@ -335,7 +345,7 @@ Stock hamlets on the open floor.
 Wood-hamlets: charcoal, stave, swine.
 Rivenstrand watch-posts and cliff-holds.
 Seasonal yard-labour on the north-bank slips.
-Pass-watches on the Isernhorns and the Little Massif.
+Pass-watches on the Isernhorns and the Rivenstag Alps.
 
 --------------------------------------------------
 NOTES
@@ -357,7 +367,7 @@ Region working total: ~975,000 (range 850,000–1,100,000). Not locked.
 Working density
 - Open floor 27,071 × ~32 / sq mi → ~870,000 (includes the mouth)
 - Woodland 3,594 × ~22 / sq mi → ~80,000
-- Horns + Little Massif + Rivenstrand → ~25,000
+- Horns + Rivenstag Alps + Rivenstrand → ~25,000
 
 Working split
 - Capital, two banks: 50,000 locked. Own orbit. Not one of the 16–20.
@@ -388,7 +398,7 @@ See Peoples_Isernvolk.txt POLITY.
 War-era rulers of this line are styled Dar Emait.
 
 When no (bracketed detail) is included, the feature is wholly within this region.
-Isernhorns name locked. Little Massif is a placeholder. Marchwall is not the 6,603.
+Isernhorns name locked. Rivenstag Alps name locked (includes Strandhamar Crags at the northern tip). Marchwall is not the 6,603.
 River name locked: Värdå (from Färdå). Íså, the Sund, Spireflow, and the lake are not this name.
 
 

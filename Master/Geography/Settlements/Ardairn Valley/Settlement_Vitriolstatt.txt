@@ -1,30 +1,28 @@
 # Vitriolstatt
 
 Type
-Village
+Village (bound-year yard)
 
 Location
 Local Region: Ardairn Valley (common: Westmark)
 Geographic Region: Ebon Peninsula
-Position: Inside the Laed-Crags. 7 miles east of Laedburg. 2 miles north of the village to the Värdå.
+Position: Inside the Laed-Crags. Inward-facing cluster on the vats and mid-tier veins. Palisade faces the yard.
 
 Overview
-Palisade faces in. The air is the punishment. Indebted labour is thick here — bound years in the acid-yards — with a convict core on the worst vats. Harsher than a street. Better than Kesselgrube if “better” means you might leave when the debt is paid.
+Vats and bound years. The middle tier of the prison-industrial complex. Indebted labour — still harsh, still inside the palisade, but not the noose and not the worst rock. Vitriol (the old green and blue sulfate salts) is worked here alongside the mid-grade lead. Ore and salts move to Laedburg; the bound do not leave until the year is served.
 
 Control
-Warden out of Laedburg. Free-miner foremen on the vats.
+Bound-year yard under Laedburg’s smelter rights and the Ardairn Zonarch. Not free. Not the bottom tier.
 
 Population
-Working unfree: 400–650 (convicts plus indebted).
-Convict share sits in the lower half of that band. Indebted fill the rest.
-Warders and foremen extra.
+Working figure: 400–650 unfree (mixed convict and indebted)
+Scales with the Crags’ overall standing numbers. Bound years are the bulk; a smaller convict share works the harder vats.
 
 Economy
-Vitriol, some antimony. Barrels down to Laedburg. Do not store them in the town if the wind is wrong.
+Vitriol and mid-tier ore. Bound labour. Output leaves for Laedburg. No free stall-right inside this yard.
 
 Defences / Access
-Inward palisade. The smell is a wall of its own.
-Tracks to Laedburg and to the other two clusters.
+Palisade faces the yard. Vat-works and barrack rows. Approaches controlled from Laedburg.
 
 Linked Features
 - Laed-Crags
@@ -33,5 +31,4 @@ Linked Features
 - Stallreihe — Settlement_Stallreihe.txt
 
 Notes
-Indebted tier lives here more than at Kesselgrube. Still not free.
-Working name.
+Middle tier: indebted labour and bound years. Vats. Campaign hooks: a bound year that runs long, a vat spill, or a debt that was meant to end at the gate and does not.
