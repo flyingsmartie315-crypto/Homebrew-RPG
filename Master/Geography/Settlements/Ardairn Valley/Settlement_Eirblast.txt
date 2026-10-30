@@ -1,0 +1,41 @@
+# Eirblast
+
+Type
+Town (walled)
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: On the Rissfeld / Eisenberg border. 9 miles north-east of Ravnburg over the Flat Tops, then 2 miles north over the Little Eirhol (western tributary of the Eirhol). Port on the Eirhol.
+
+Overview
+Walled processing town for the ores of Eisenberg. Powerful water-driven blast furnaces are powered by the burns of the Little Eirhol and a second unnamed burn. Ore comes in from the quarries; ingots and finished products leave by the port on the Eirhol, shipping downstream to the Värdå. The town sits where the Flat Tops meet the border, so the road from Ravnburg and the water of the Eirhol both serve it.
+
+Control
+Under the Ardairn Zonarch, with the iron itself remaining a direct Kaiserarch asset. The furnaces and the port answer the Imperial office for the metal; the walls and the town streets answer the Zonarch. Surplus only enters the common market.
+
+Population
+Working figure: 2,200–3,200
+Furnace hands, port crews, wall garrison, and town households. Seasonal surge when the quarries push ore.
+
+Economy
+Blast-furnace processing of Eisenberg ore. Water power from the Little Eirhol and the second burn. Port on the Eirhol ships ingots and finished products downstream to the Värdå. Secondary trade in the surplus that is allowed onto the common market.
+
+Defences / Access
+Walled town. Port on the Eirhol.
+Road 9 miles south-west over the Flat Tops to Ravnburg, then further into Rissfeld.
+Water access down the Eirhol to the Värdå.
+Approaches from Eisenberg are controlled; the ore road is watched.
+
+Linked Features
+- Eisenberg (Das Isern-Zentralrevier)
+- Rissfeld
+- Little Eirhol (western tributary)
+- Eirhol
+- Ravnburg — Settlement_Ravnburg.txt
+- Flat Tops
+- Värdå (downstream)
+
+Notes
+Name locked: Eirblast (*eir + *blast).
+Walled processing town. Port ships ingots and finished products down the Eirhol to the Värdå. Campaign hooks: furnace failure that backs up the quarries, port hold on the Eirhol, or a surplus shipment that was not supposed to leave the Imperial account.

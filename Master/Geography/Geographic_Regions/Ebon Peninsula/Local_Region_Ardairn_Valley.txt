@@ -66,6 +66,15 @@ Upper course, lake, Spireflow: Local_Region_Highmarch.txt.
 Biome: River
 Temperature: 3 | Rainfall: 3 | Human Density: 4 | Flora: 3 | Fauna: 3 | Topography: 1–2 | Hydrology: 5
 
+Eirhol
+50 miles. Locked.
+Joins the Íså 17 miles up the Íså from where the Íså joins the Värdå.
+Tributaries:
+- Little Eirhol — 33 miles. Western tributary. Powers the blast furnaces at Eirblast.
+- Grotbek — 12 miles. Originates in a vast cave mouth, 50 m in diameter. Second burn that powers the furnaces at Eirblast.
+
+Port at Eirblast ships ingots and finished products downstream on the Eirhol to the Íså, then to the Värdå.
+
 Western Sea-Board
 114 miles north–south along the wriggle of every cove, not a straight ruler.
 Shallow cliffs and beaches. Rolling hills above. Fetch, trade, and raid. Osricford’s yards face the north of this board.
