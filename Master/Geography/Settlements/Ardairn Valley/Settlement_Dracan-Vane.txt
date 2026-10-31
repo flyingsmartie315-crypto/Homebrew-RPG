@@ -1,0 +1,37 @@
+# Dracan-Vane
+
+Type
+Village
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Western fringe of Drakenfeld. Directly east, 10 miles up-slope from Eirblast.
+
+Overview
+Premium smelting-fuel settlement on the western edge of the primeval timber. The village lives under the shadow of the dense canopy. Its people are hereditary charcoal-burners, wood-splitters, and kilnmakers who harvest the ancient growth to produce softwood charcoal for the blast furnaces at Eirblast and the wider iron works. The centre and hall stand raised on a stone revetment earthwork; the central hub stores the produce of the surrounding hamlets before it moves to market.
+
+Control
+Timber and charcoal hub under the Ardairn Zonarch, with the fuel itself tied to the Kaiserarch’s iron. The revetment and the hub answer here. Not a free cut.
+
+Population
+Working figure: 550–850
+Charcoal-burners, wood-splitters, kilnmakers, and the households of the surrounding hamlets whose produce is stored at the hub.
+
+Economy
+Premium softwood charcoal. The ancient dense growth is the raw material. Output moves west down-slope to Eirblast and the Eisenberg furnaces. Secondary timber and the stored surplus of the hamlets leave through the central hub. The village’s wealth is the fuel it makes, not open fields.
+
+Defences / Access
+Village centre and hall raised on a stone revetment earthwork. Central hub for storage.
+Road 10 miles west down-slope to Eirblast.
+Timber tracks run east and north into Drakenfeld; these are burner and warden paths more than open lanes.
+
+Linked Features
+- Drakenfeld
+- Eirblast — Settlement_Eirblast.txt
+- Eisenberg (Das Isern-Zentralrevier)
+- Surrounding charcoal hamlets (lesser)
+
+Notes
+Name locked: Dracan-Vane.
+Premium smelting-fuel village. Charcoal for the furnaces. Campaign hooks: kiln fire that threatens the canopy, fuel shortfall that backs up the blast furnaces, or the hub used to hold charcoal against the Imperial account.

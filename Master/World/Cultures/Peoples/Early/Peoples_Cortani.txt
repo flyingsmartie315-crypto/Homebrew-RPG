@@ -227,3 +227,40 @@ Campaign hooks
 - Plateau envoys who speak stewardship and are answered with a saddle
 - Timber-wrights called to the capital to make an Isern keep look like a hall
 - A blood-fine paid in horses that the quay-law tries to commute to coin
+
+
+--------------------------------------------------
+DATE LOCKS (where relevant)
+--------------------------------------------------
+Founding / Landing / Great Clearing start: 996 B:E
+End of Great Clearing / Breaking of the Horns: 196 A:D
+War of the Ader: 996 A:D
+War of the First Coronation: 1026 A:D
+War of the Whitmark: 1066 A:D
+(Apply only to events this people actually touches. Do not invent involvement.)
+
+
+
+--------------------------------------------------
+PHENOTYPE
+--------------------------------------------------
+### PEOPLES_DATABASE: Cortani ###
+[Cortani_Phenotype]
+Skin_Pigmentation = "Pale, sometimes ruddy or freckled"
+Hair_Texture = "Not locked"
+Hair_Color_Frequency = "Brown (High), Black (Medium), Reddish (Medium)"
+Eye_Pigmentation = "Light, often blue"
+Stature = "Rather tall"
+Skeletal_Proportion = "Mesoskelic, sometimes brachyskelic" (Average to short relative leg length)
+Somatotype = "Ectomorph, slightly mesomorph" (Lean, lightly muscular)
+Arm_Length = "Relatively long"
+Cephalic_Index = "Mesocephalic" (Medium-headed)
+Vertical_Index = "Chamaecranic to orthocranic" (Low to medium skull height)
+Facial_Structure = "Narrow forehead, small mandible, compressed malars"
+Nasal_Index = "Hyperleptorrhine" (Extremely long, narrow; prominent, long-tipped, convex or concave)
+Frontal_Region = "Narrow and sloping"
+
+Notes
+Descriptive range for the living people.
+Not a rigid type. Individuals vary.
+Use for visual consistency in art, description, and NPC generation.

@@ -66,6 +66,25 @@ Upper course, lake, Spireflow: Local_Region_Highmarch.txt.
 Biome: River
 Temperature: 3 | Rainfall: 3 | Human Density: 4 | Flora: 3 | Fauna: 3 | Topography: 1–2 | Hydrology: 5
 
+The Vardamark
+2,016 square miles. Locked.
+Open agricultural and pastoral lowlands. Flat alluvial ground by the river banks, ascending smoothly to elevated interior tablelands. The most open country in the region. Economy is agrarian mass yields, pastoral textiles, and strategic livestock. Bypasses the dense timber constraints of Drakenfeld.
+Borders:
+- West (along the Íså): 20-mile shared border with the Grasgau; 33-mile shared border with Drakenfeld.
+- South (across the Värdå): 15-mile border along the Laed-Crags.
+- East: the Hörnlein.
+- South (river line): the Värdå from path-mile 118 (Íså junction) to path-mile 183 (Hörnlein junction).
+Biome: Temperate
+Temperature: 3 | Rainfall: 3 | Human Density: 3 | Flora: 3 | Fauna: 2 | Topography: 2 | Hydrology: 3
+
+Internal Features:
+- The Hross-Platē: 610 square miles. Embedded centrally. Highland plateau / pastoral reserve. Flat, windswept, high-altitude steppes with clear horizon. Primary military engine of the valley for wide-range animal husbandry. High-altitude atmosphere produces horses with superior lung capacity and vascular stamina. Rocky hard-packed limestone turf hardens hooves, reducing the need for frequent shoeing.
+  Biome: Highland
+  Temperature: 2 | Rainfall: 2–3 | Human Density: 1–2 | Flora: 2 | Fauna: 2 | Topography: 3 | Hydrology: 2Internal Features:
+- The Hross-Platē: 610 square miles. Embedded centrally. Highland plateau / pastoral reserve. Flat, windswept, high-altitude steppes with clear horizon. Primary military engine of the valley for wide-range animal husbandry. High-altitude atmosphere produces horses with superior lung capacity and vascular stamina. Rocky hard-packed limestone turf hardens hooves, reducing the need for frequent shoeing.
+  Biome: Highland
+  Temperature: 2 | Rainfall: 2–3 | Human Density: 1–2 | Flora: 2 | Fauna: 2 | Topography: 3 | Hydrology: 2
+
 Eirhol
 50 miles. Locked.
 Joins the Íså 17 miles up the Íså from where the Íså joins the Värdå.
@@ -88,6 +107,9 @@ Positioned across the Eirhol from the mineral-heavy workshops of Eisenberg and t
 45-mile southern shared border with the Grasgau along the Eirhol.
 Biome: Forest
 Temperature: 2–3 | Rainfall: 3–4 | Human Density: 1 | Flora: 4–5 | Fauna: 3 | Topography: 3 | Hydrology: 3
+
+Internal Features:
+- Draken’s Belt: 306 square miles. Unforested corridor running along the east bank of the Íså and the north bank of the Eirhol. Width ranges between 8 and 1 mile. Open ground inside the otherwise continuous timber. The timber roads and any fortified outposts that watch them sit against or inside this strip.
 
 Sætann Wall / the Shattered Seawall
 Fifteen miles north-west of Osricford. Granite spires rising from coastal water like spikes for nearly 13 miles.

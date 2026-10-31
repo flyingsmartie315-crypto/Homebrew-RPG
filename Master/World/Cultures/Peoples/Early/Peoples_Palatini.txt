@@ -114,3 +114,39 @@ Master/World/Cultures/Peoples/Early/Peoples_Palatini.txt
 
 They claim the valley. They live in the hollows.
 Whether any city-state still pays them a charter-tithe is not written.
+
+
+--------------------------------------------------
+DATE LOCKS (where relevant)
+--------------------------------------------------
+Founding / Landing / Great Clearing start: 996 B:E
+End of Great Clearing / Breaking of the Horns: 196 A:D
+War of the Ader: 996 A:D
+War of the First Coronation: 1026 A:D
+War of the Whitmark: 1066 A:D
+(Apply only to events this people actually touches. Do not invent involvement.)
+
+
+
+--------------------------------------------------
+PHENOTYPE
+--------------------------------------------------
+### PEOPLES_DATABASE: Palatini ###
+[Palatini_Phenotype]
+Skin_Pigmentation = "Fair to light brown; generally pale"
+Hair_Color_Frequency = "Chestnut, medium to dark brown (High), light blonde or red (Low)"
+Eye_Pigmentation = "Brown to dark hazel (High), light-mixed or intermediate (dark green, grey) (Moderate, higher near northern slopes)"
+Stature = "Modest, with a noticeably low center of gravity"
+Skeletal_Proportion = "Brachyskelic" (Shorter, stockier legs and limbs relative to a longer, more substantial torso)
+Somatotype = "Endomorphic-mesomorphic" (Heavily built, thickset, square-shouldered, tendency to retain body fat)
+Arm_Length = "Relatively short with broad hands and short fingers"
+Cephalic_Index = "Brachycephalic" (Highly round-headed and short-headed; high average index often 85–88)
+Vertical_Index = "Tapeinocephalic to chamaecephalic" (Relatively low-skulled relative to the notable breadth of the head)
+Facial_Structure = "Euryprosopic; broad, short, and relatively round face with soft contours, weak cheekbones, and a rounded, unprominent chin"
+Nasal_Index = "Mesorrhine to leptorrhine" (Typically short, small nose with a rather low bridge; occasionally slightly concave or snubbed)
+Frontal_Region = "Broad, steeply rising forehead that is slightly vaulted backwards; weak to absent brow ridges"
+
+Notes
+Descriptive range for the living people.
+Not a rigid type. Individuals vary.
+Use for visual consistency in art, description, and NPC generation.

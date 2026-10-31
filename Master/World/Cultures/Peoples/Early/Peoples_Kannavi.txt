@@ -265,3 +265,30 @@ Campaign hooks
 - An Isern reeve counting houses that do not live in one place
 - Mixed children asked whether this year is pit-road or charcoal-row
 - A peninsula village far from Kannavald that still burns charcoal the Kannavi way and is treated as leftover kin
+
+
+--------------------------------------------------
+PHENOTYPE
+--------------------------------------------------
+### PEOPLES_DATABASE: Kannavi ###
+[Kannavi_Phenotype]
+Skin_Pigmentation = "Fair to darker"
+Hair_Texture = "Curly or wavy, sometimes straight"
+Hair_Color_Frequency = "Brown-black (High), Red (Low), Blonde (Low)"
+Eye_Pigmentation = "Mixed"
+Stature = "Tall"
+Skeletal_Proportion = "Mesoskelic to macroskelic" (Average to long relative leg length)
+Somatotype = "Mesomorph to endomorph" (Muscular to heavier build)
+Arm_Length = "Long"
+Cephalic_Index = "Dolichocephalic to mesocephalic" (Long-headed to medium-headed)
+Vertical_Index = "Chamaecranic to orthocranic" (Low to medium skull height)
+Facial_Structure = "Robust, heavy brow ridges, wider and lower faces"
+Nasal_Index = "Mildly leptorrhine" (Moderately long, narrow; often concave)
+Frontal_Region = "Heavy brow"
+Pilous_Growth = "Strong"
+
+Notes
+Descriptive range for the living people.
+Not a rigid type. Individuals vary.
+Darker pigmentation and strong pilous growth relative to neighbouring Isernvolk.
+Use for visual consistency in art, description, and NPC generation.

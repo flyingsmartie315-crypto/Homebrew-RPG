@@ -179,3 +179,39 @@ Island name locked: Dauðavík.
 Tree name locked: Svart-Viðr / Svartwood. Flora_Polar.txt.
 First loud meeting with the living Isern south: Sindri Vindvari at the Vayrac berths, and the probes on the Ebon shore, second war.
 Until then they were rumour on the west-board. The crown did not treat them as Osric’s lost wing.
+
+
+--------------------------------------------------
+DATE LOCKS (where relevant)
+--------------------------------------------------
+Founding / Landing / Great Clearing start: 996 B:E
+End of Great Clearing / Breaking of the Horns: 196 A:D
+War of the Ader: 996 A:D
+War of the First Coronation: 1026 A:D
+War of the Whitmark: 1066 A:D
+(Apply only to events this people actually touches. Do not invent involvement.)
+
+
+
+--------------------------------------------------
+PHENOTYPE
+--------------------------------------------------
+### PEOPLES_DATABASE: Jarnvolk ###
+[Jarnvolk_Phenotype]
+Skin_Pigmentation = "Extremely fair; pale white, frequently low melanin, high tendency to freckle or sunburn"
+Hair_Color_Frequency = "Blonde, ash blonde, or light brown (High), golden blonde (Medium), dark brown (Low), red (Low)"
+Eye_Pigmentation = "Overwhelmingly light; high frequency of pure blue, gray, or blue-green"
+Stature = "Tall to very tall"
+Skeletal_Proportion = "Macroskelic" (Long limbs, long legs, relatively short lean torso)
+Somatotype = "Ectomorphic-mesomorphic" (Lean, slender, linear build with sharp muscular definition)
+Arm_Length = "Long; long forearms, narrow hands, elongated fingers"
+Cephalic_Index = "Dolichocephalic to sub-dolichocephalic" (Long-headed and narrow-headed; typically averaging indices below 76)
+Vertical_Index = "Hypsicephalic" (High-headed relative to head length, with a highly prominent and projecting occiput)
+Facial_Structure = "Leptoprosopic; elongated, narrow, and angular face with high, chiseled cheekbones, strong jawline, and prominent pointed chin"
+Nasal_Index = "Leptorrhine" (Extremely narrow, straight, and high-bridged; often with a sharply defined nasal tip)
+Frontal_Region = "Narrow to moderately broad, slightly sloping; medium to well-developed brow ridges"
+
+Notes
+Descriptive range for the living people.
+Not a rigid type. Individuals vary.
+Use for visual consistency in art, description, and NPC generation.

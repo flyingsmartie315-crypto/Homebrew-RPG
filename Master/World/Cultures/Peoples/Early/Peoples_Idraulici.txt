@@ -117,3 +117,39 @@ Master/World/Cultures/Peoples/Early/Peoples_Idraulici.txt
 
 Valle Nevale’s swamp-to-vintage story is this people.
 They are not the Palatini with dirt on their hands. They stayed.
+
+
+--------------------------------------------------
+DATE LOCKS (where relevant)
+--------------------------------------------------
+Founding / Landing / Great Clearing start: 996 B:E
+End of Great Clearing / Breaking of the Horns: 196 A:D
+War of the Ader: 996 A:D
+War of the First Coronation: 1026 A:D
+War of the Whitmark: 1066 A:D
+(Apply only to events this people actually touches. Do not invent involvement.)
+
+
+
+--------------------------------------------------
+PHENOTYPE
+--------------------------------------------------
+### PEOPLES_DATABASE: Idraulici ###
+[Idraulici_Phenotype]
+Skin_Pigmentation = "Fair to light-olive; intermediate, tans well, lighter on average than more southern populations"
+Hair_Color_Frequency = "Dark brown to medium brown (High), light brown (Medium), dark blonde (Low), red (Low)"
+Eye_Pigmentation = "Brown or hazel (High), intermediate and light (blue, green, grey) (High frequency)"
+Stature = "Rather tall"
+Skeletal_Proportion = "Mesomorphic to macroskelic" (Well-proportioned trunk-to-limb ratio)
+Somatotype = "Ectomorphic-mesomorphic or balanced mesomorphic" (Lean to muscular)
+Arm_Length = "Medium to moderately long"
+Cephalic_Index = "Brachycephalic to sub-brachycephalic" (Broad-headed to round-headed)
+Vertical_Index = "Hypsicephalic" (High-headed relative to head length)
+Facial_Structure = "Leptoprosopic; relatively narrow, oval, or angular faces with well-defined jawlines and high cheekbones"
+Nasal_Index = "Leptorrhine" (Narrow, straight, and prominent)
+Frontal_Region = "Moderately broad, straight to slightly sloping; weak to medium brow ridges"
+
+Notes
+Descriptive range for the living people.
+Not a rigid type. Individuals vary.
+Use for visual consistency in art, description, and NPC generation.

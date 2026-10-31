@@ -1,6 +1,7 @@
 # Peoples_Format.txt
 # How to write a Peoples file.
 # Locked names, dates, and cross-references win. Do not invent major history that would fight an existing file.
+# Status: UPDATED — phenotype and Architecture tiers added.
 
 File name
 Peoples_[Name].txt
@@ -63,3 +64,129 @@ POLITY — [REGION]
 Keep each block self-contained. Cross-reference other files rather than repeating full detail.
 
 --------------------------------------------------
+LANDMARKS
+--------------------------------------------------
+Named places, monuments, or sites that belong to this people.
+Cross-reference Geography or Architecture files where they exist.
+
+--------------------------------------------------
+PERSONS OF NOTE
+--------------------------------------------------
+Dated headings.
+Lock the person, the date (B:E / A:D), and the one-line claim.
+Do not expand into full biography here.
+
+--------------------------------------------------
+NAMING
+--------------------------------------------------
+Patterns for personal names, house names, and place-names.
+Note what is formal, what is common, and what is slang.
+
+--------------------------------------------------
+CUSTOMS — RESERVE
+--------------------------------------------------
+Short locked customs that do not fit the nine-point structure
+or that must be visible at a glance.
+Empty is allowed.
+
+--------------------------------------------------
+SOCIETAL CUSTOMS
+--------------------------------------------------
+Standalone. Does not replace prior sections.
+Empty lines mean the point is not locked here.
+Nine points:
+
+1. Social Order & Stratification
+   * Social Hierarchy
+   * Power Dynamics
+   * Social Mobility
+
+2. Etiquette, Honor, & Taboos
+   * Public Deference
+   * Hospitality Codes
+   * Conversational Norms
+   * Shame vs. Guilt
+
+3. Dress, Grooming, & Aesthetic Expression
+   * Class Signifiers
+   * Modesty and Exposure
+   * Grooming & Modification
+   * Utility vs. Status
+
+4. Cultural Virtues & Vices
+   * The Supreme Virtues
+   * The Celebrated Vices
+   * The Unpardonable Sins
+
+5. Family Structure & Kinship
+   * Household Units
+   * Lineage & Inheritance
+   * Marriage & Partnership
+   * Childhood & Old Age
+
+6. Religious Expression & Cosmic Worldview
+   * The Pantheon / Belief System
+   * Sacred Spaces & Clergy
+   * Rituals & Holidays
+
+7. Law, Justice, & Conflict Resolution
+   * (as locked per people)
+
+8. Leisure, Art, & Material Culture
+   * Artistic Mediums
+   * Recreation & Sports
+   * Stimulants & Cuisine
+
+   Architecture
+   How the people build, in three tiers.
+
+   Rural
+     Homes, farmsteads, village halls, field walls, mills.
+     Materials, plan, and what is ordinary.
+
+   Urban
+     Town and city fabric: streets, houses, markets, guild halls, ordinary walls.
+     How density and trade change the build.
+
+   Grand
+     Fortifications, citadels, monuments, palaces, great churches or works.
+     What is built to last or to be seen.
+
+   Keep each tier short. Name materials and the characteristic form.
+   Empty is allowed if not yet locked.
+
+9. Economic & Subsistence Foundation
+   * Mode of Production
+   * Attitude Toward Wealth
+
+--------------------------------------------------
+PHENOTYPE
+--------------------------------------------------
+Place after NOTES or before final NOTES.
+Use the database block:
+
+### PEOPLES_DATABASE: [Name] ###
+[Name_Phenotype]
+Skin_Pigmentation = "..."
+Hair_Texture = "..."
+Hair_Color_Frequency = "..."
+Eye_Pigmentation = "..."
+Stature = "..."
+Skeletal_Proportion = "..." (note)
+Somatotype = "..." (note)
+Cephalic_Index = "..." (note)
+Vertical_Index = "..." (note)
+Facial_Structure = "..."
+Nasal_Index = "..." (note)
+Frontal_Region = "..."
+
+Optional Notes line for range and use.
+Terms follow standard anthropological descriptors.
+Not a rigid type. Individuals vary.
+Use for visual consistency in art, description, and NPC generation.
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+Cross-references, open questions, and locks that do not fit above.
+Do not invent major history here.

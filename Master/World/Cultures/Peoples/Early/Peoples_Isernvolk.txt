@@ -186,9 +186,6 @@ Duty: keep the canopy against Unveiling things. Autonomy at the forest border.
 The compact is still honoured. Careless Isern are still shown the line.
 Detail: Peoples_Kannavi.txt.
 
-Isernarch — “The Kaiser’s Iron Fist”
-Common colloquialism used across the peninsula’s largest quarries and pits, especially at Eisenberg / Das Isern-Zentralrevier. Reminds workers that the iron belongs entirely to the Archon. Only surplus reaches the common market.
-
 Osricford is the Kaiserarch’s port. The Waldward does not keep a banner on that quay.
 
 --------------------------------------------------
@@ -310,6 +307,22 @@ Standalone. Does not replace prior sections. Empty lines mean the point is not l
 * Artistic Mediums: Black-and-white cloth and arms. Whitewash and timber-on-stone in the Coritanian offshoot.
 * Recreation & Sports: Hunt, table, Highsun retreat. Not tourney-first; that comes back from Coritania later.
 * Stimulants & Cuisine: Not locked. They drink.
+
+Architecture
+Rural
+  Timber and turf halls, longhouses, whitewashed stone where the mark has quarries.
+  Farmsteads with a yard wall. Mills and drying sheds on the river.
+  Ordinary, repairable, built by the household and the local wright.
+
+Urban
+  Timber-framed houses on stone sills. Whitewash and dark timber.
+  Market squares, guild halls, and the Zonarch’s house as the largest ordinary building.
+  Streets follow the river or the old mark road. Walls are practical, not monumental.
+
+Grand
+  Keeps and curtain walls of the marks. The Arch of Grimwald and the skull-square at Osricford.
+  Citadel work at the capital. Monuments to the Clearing and the compact.
+  Stone and iron where it must last; the rest is timber that can be rebuilt.
 9. Economic & Subsistence Foundation
 * Mode of Production: Iron, grain, livestock, sea-trade, quarry, pit. River as road (Värdå). Prison-labour in the Laed-Crags.
 * Attitude Toward Wealth: Counted, stored, shipped. New pit-money is real and resented. Old watch-right is older.
@@ -320,3 +333,27 @@ NOTES
 --------------------------------------------------
 Jarnvolk is the first offshoot, not a pending seed.
 Vestrings remains the working surface name in conversation and settlement files until a deeper formal name is locked.
+
+
+--------------------------------------------------
+PHENOTYPE
+--------------------------------------------------
+### PEOPLES_DATABASE: Isernvolk ###
+[Isernvolk_Phenotype]
+Skin_Pigmentation = "Pale"
+Hair_Texture = "Straight to curly"
+Hair_Color_Frequency = "Blonde (High), Red (Medium), Brown (Medium)"
+Eye_Pigmentation = "Light to light-mixed"
+Stature = "Tall"
+Skeletal_Proportion = "Mesoskelic" (Average relative leg length)
+Somatotype = "Ectomorph to mesomorph" (Lean to muscular build)
+Cephalic_Index = "Mesocephalic" (Medium-headed)
+Vertical_Index = "Chamaecranic to orthocranic" (Low to medium skull height)
+Facial_Structure = "Narrow face, robust features, prominent cheekbones"
+Nasal_Index = "Hyperleptorrhine" (Extremely long, narrow nose)
+Frontal_Region = "High forehead"
+
+Notes
+Descriptive range for the living people.
+Not a rigid type. Individuals vary.
+Use for visual consistency in art, description, and NPC generation.
