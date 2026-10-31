@@ -81,6 +81,14 @@ Shallow cliffs and beaches. Rolling hills above. Fetch, trade, and raid. Osricfo
 Biome: Coast
 Temperature: 3 | Rainfall: 3 | Human Density: 3 | Flora: 2 | Fauna: 3 | Topography: 1–2 | Hydrology: 4
 
+Drakenfeld
+Approx. 1,170 square miles. Locked. (Nearly four times the scale of Jagdsūd or Kohlholt.)
+Positioned across the Eirhol from the mineral-heavy workshops of Eisenberg and the low fields of the Grasgau. Functions mechanically as a massive primeval timber empire and natural fortification barrier. Because of its colossal scale it cannot be patrolled by mere foresters; it requires fortified outposts to guard its timber roads.
+13-mile western shared border with Eisenberg along the Grotbek.
+45-mile southern shared border with the Grasgau along the Eirhol.
+Biome: Forest
+Temperature: 2–3 | Rainfall: 3–4 | Human Density: 1 | Flora: 4–5 | Fauna: 3 | Topography: 3 | Hydrology: 3
+
 Sætann Wall / the Shattered Seawall
 Fifteen miles north-west of Osricford. Granite spires rising from coastal water like spikes for nearly 13 miles.
 Shelters the city and port from the northern wind. In rough water it shreds any hull that enters the spikes.
@@ -88,6 +96,17 @@ Part of the Isernhorns umbrella: drowned granite teeth of the same range. Not Ta
 Isern name: Sætann Wall (*sæ + *tanþuz). Gloss: the Shattered Seawall. Strand: the Teeth.
 Biome: Coast
 Temperature: 3 | Rainfall: 3 | Human Density: 0 | Flora: 1 | Fauna: 2 | Topography: 4 | Hydrology: 5
+
+The Grasgau (The Great Pasture-District)
+636 square miles. Locked.
+A fertile, agrarian district of the Westmark mid-country. Bound to the south by the Värdå north bank (path-miles 85 to 116), to the east by a 20-mile stretch of the River Íså, and along its east-to-north rim by 39 miles of the River Eirhol. Westward, it transitions into Rissfeld (5.5-mile shared border) and Kohlholt (16-mile shared border).
+
+The southern and central floor consists of flat to gently rolling plains—highly stable, cultivated land and rich pastures divided by ancient tree and hedgerows. The northern rim lining the Eirhol features a lifting topography where the rolling hills and dense tree coverage increase significantly. This high, wooded ridge serves as a critical geographic shield, naturally sheltering the lower pasture-lands from the destructive, seasonal Eirhol flood-swells and northern runoff.
+Biome: Temperate
+Temperature: 3 | Rainfall: 3 | Human Density: 3 | Flora: 3 | Fauna: 2 | Topography: 2 | Hydrology: 3
+
+Internal Features:
+- The Hōllwald / The Crest-Woods: 139 square miles. A prominent, densely wooded ridge along the northern rim of the district. The terrain lifts sharply away from the flat floor into rolling, steep hills choked with heavy timber. This high canopy anchors the local soil, acting as a natural topographical levee that prevents the seasonal flood-swells of the River Eirhol from breaching the lower agricultural basin.
 
 Kappvic
 Misty sheltered bight under the Mistcap Crags. 103 square miles of coastal water. Not land. Not in the 49,626.

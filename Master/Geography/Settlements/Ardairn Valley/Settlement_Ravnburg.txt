@@ -22,7 +22,14 @@ Economy
 Control of the northern ravine and quarry approaches. Toll and store on the road from Litflath. Secondary stock and timber from the surrounding tiers. The seat’s wealth is positional more than productive.
 
 Defences / Access
-Terrain is the primary defence. Tiered plateaus and surrounding ravines make the position one of the most defensible on the continent. Walls and towers follow the natural shelves.
+Layout: Ravnburg (The Continental Tiered Bastion)
+Footprint: 250 × 200 metres (spanning multiple vertical terrain shelves).
+Strategic Intent: Serving as the supreme ruling seat of Rissfeld; engineered to exploit dropping ravines and successive flats to force attackers into isolated, multi-tiered uphill fights.
+Structural Layout:
+- Perimeter (The Lower Revetments & Curtains): A series of heavy, 12-metre-high masonry revetment walls that hug the natural stone shelves. The lower perimeter stretches 250 metres across the southern approach, anchored directly into the vertical cliff faces. Outward-facing walls are 4 metres thick, built from local quarry stone to withstand heavy bombardment.
+- The Great Gatehouse (The Chokepoint Complex): Situated at the entry of the winding road from Litflath. It is not a single gate, but a massive 40-metre-long fortified corridor featuring an outer barbican, two portcullises, a central killing ground overlooked by high murder holes, and an angled ramp that prevents the use of direct-line siege machinery.
+- The Middle Tier (Settlement & Retainer Wards): A sprawling 150 × 100 metre flat plateau nestled safely behind the lower walls. This tier acts as the primary economic hub. It houses the permanent settlement (quarters for 800–1,200 residents, retainers, and garrison), vast timber yards, and vaulted storehouses holding tolls and provisions from the southern road.
+- The Upper Keep (The Zonarch's High Seat): Perched on the highest, most isolated northern rock plateau. Measuring 60 × 50 metres, this ultimate stronghold features its own 15-metre-high curtain wall, a grand three-storey palas hall for executing regional authority, a deep cistern cut down through the bedrock, and a high watch-tower commanding a flawless view over the northern ravine and quarry approaches.
 Access: road 5 miles south to Litflath (winding descent). Further south the road continues toward Deneshaw and the lower country. No easy approach from the ravine faces.
 
 Linked Features

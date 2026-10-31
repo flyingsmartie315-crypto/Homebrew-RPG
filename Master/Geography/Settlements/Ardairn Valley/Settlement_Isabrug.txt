@@ -1,0 +1,40 @@
+# Isabrug
+
+Type
+Town (walled capital)
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Principal market-hub and capital of the Grasgau. Exactly 20 path-miles east upstream from Graswick, at the river-junction where the Íså empties into the Värdå north bank (Värdå path-mile 118). Sits entirely on the western bank of the Íså.
+
+Overview
+Walled capital of the Grasgau. All overland trade between the eastern valley and the inner Grasgau pastures is forced through its checkpoint gates. A massive stone-arched bridge spans the Íså. The southern docks are a high-volume river port that handles the district’s agricultural exports and operates the primary, tightly guarded ferry networks crossing south across the wide Värdå channel directly into the Laed-Crags penal mining concessions.
+
+Control
+Capital seat of the Grasgau under the Ardairn Zonarch. Checkpoint and ferry rights held here. The bridge and the port are the town’s leverage.
+
+Population
+Working figure: 3,500–4,800
+Town households, market, garrison, port crews, ferry staff, and the checkpoint. Seasonal surge at harvest and when the Crags call for labour.
+
+Economy
+Principal market of the Grasgau. Agricultural exports leave by the southern docks. Toll and checkpoint on the bridge and the eastern road. Ferry traffic across the Värdå into the Laed-Crags. The town lives on the pastures it gates and the river it commands.
+
+Defences / Access
+Heavily fortified stone curtain-wall. Massive stone-arched bridge over the Íså. Checkpoint gates on the overland approaches.
+Southern docks and guarded ferry network across the Värdå to the Laed-Crags.
+Road 20 path-miles west downstream to Graswick.
+Sits wholly on the western bank of the Íså.
+
+Linked Features
+- The Grasgau (The Great Pasture-District)
+- Värdå (north bank, path-mile 118)
+- Íså (western bank; junction)
+- Graswick — Settlement_Graswick.txt
+- Laed-Crags (ferry destination)
+- Laedburg — Settlement_Laedburg.txt
+
+Notes
+Name locked: Isabrug.
+Walled capital and market-hub of the Grasgau. Bridge over the Íså. Guarded ferries south into the Laed-Crags. Campaign hooks: bridge toll dispute, ferry hold into the Crags, or the checkpoint used to choke eastern trade.

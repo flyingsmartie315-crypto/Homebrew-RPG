@@ -1,0 +1,42 @@
+# Crestfud
+
+Type
+Village (with modest castle)
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Northern transition zone of the Grasgau, at the base of the Hōllwald ridge.
+
+Overview
+Primary forest economy hub of the Grasgau. Nestled tightly along the northern transition zone where the flat pastures lift into the Hōllwald. Local woodsmen manage the lower slopes of the ridge under strict mandate, ensuring the deep root systems of the dense timber remain intact. This preserves the high wooded ridge that acts as a natural topographical levee, blocking and absorbing the seasonal Eirhol flood-swells and protecting the low pastures. Surrounding hamlets focus on skilled swineherding, driving large sounders through the mast-heavy undergrowth and oak stands of the lower canopy.
+
+Control
+Forest hub under the Grasgau seat (Isabrug) and the Ardairn Zonarch. Ridge mandate is held here. Not a free cut.
+
+Population
+Working figure: 450–700
+Woodsmen households, swineherds, and the lesser tenant clusters attached to the lower canopy.
+
+Economy
+Managed woodland on the lower Hōllwald slopes. Swine on mast. Timber is secondary and controlled; the ridge’s function as flood shield comes first. Surplus swine and limited wood move south into the Grasgau pastures or toward Isabrug.
+
+Defences / Access
+Modest castle on the lower slope of the Hōllwald ridge. Operating as a dedicated observation post and early-warning beacon; designed to monitor the area it presides over.
+Structural Layout:
+- Perimeter (The Revetment Wall): A thick, battered stone revetment wall that snakes along the natural contour of the rising hill-foot. It acts as a massive retaining barrier, holding back the upper earth terrace to prevent erosion while forcing attackers from the valley into a slow, exposed uphill scramble. From inside the castle courtyard the wall is 1m to 2m tall.
+- The Donjon: Built seamlessly into a prominent bend of the revetment wall. Keeping to the scale, it features a wide 20-metre diameter and stands 5 storeys high.
+- Gatehouse Entry: A single, heavily reinforced oak door set directly into the side of the circular tower at the terrace level, accessible from below only via a narrow, zig-zagging goat track that prevents the use of battering rams.
+- The High-Seat Terrace (Courtyard): A small, flattened stone plateau behind the wall. It houses large and sturdy halls, homesteads, granary, a stone beacon hearth for signaling lower fortifications, and a deep well cut into the hill.
+From Skadzig: via road 9 miles north-east.
+Tracks south into the Grasgau floor. Ridge paths are warden or woodsman routes, not open roads.
+
+Linked Features
+- The Grasgau (The Great Pasture-District)
+- The Hōllwald / The Crest-Woods (139 sq mi)
+- Eirhol (northern rim)
+- Isabrug — Settlement_Isabrug.txt
+
+Notes
+Name locked: Crestfud.
+Primary forest hub. Ridge mandate protects the flood shield. Campaign hooks: illegal cut that weakens the levee, swine dispute in the mast, or a flood-swell that tests the ridge.

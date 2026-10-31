@@ -1,0 +1,41 @@
+# Breitfeld
+
+Type
+Village (with modest castle)
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Stable, flat western plains of the Grasgau, nearing the Kohlholt border.
+
+Overview
+Primary grain-basket of the Grasgau interior. Unlike the muddy, vulnerable riverbanks, this zone features deeply stable, elevated, and unflooded topsoil. The landscape is dedicated entirely to hardy winter grains, rye, and livestock forage crops. Functions as the central granary supply node for the district, managing the heavy wagon-trains that haul grain east along the interior tracks bound for the walled gates of Isabrug.
+
+Control
+Grain hub under the Grasgau seat (Isabrug) and the Ardairn Zonarch. Granary and wagon rights held here.
+
+Population
+Working figure: 700–1,000
+Farming households, granary hands, and the wagon crews that run the interior tracks.
+
+Economy
+Winter grains, rye, and forage. Central granary for the Grasgau. Wagon-trains east to Isabrug. The stable western plains are the district’s surest harvest; surplus moves under escort or toll toward the walled capital.
+
+Defences / Access
+Modest castle. Square-shaped layout with corners facing the cardinal points, enclosed by perimeter walls, a rampart, and a water moat.
+Entrance & Defense: The northeastern entrance was accessed via a bridge and a double gate guarded by a main tower. The interior included a single-story palace adjacent to the wall, a smaller secondary tower, and outbuildings.
+From Skadzig: via road 11 miles west.
+From Faldanord: via road, 1.5 miles south to crossroads, 3.5 miles south through the road between Kohlholt (west) and Hōllwald (east), then 8 miles south-east to Breitfeld.
+From Sūdholt: 2 miles north-east across the Nistau, then 9 miles north-east.
+Interior tracks east to Isabrug. Western edge nears the Kohlholt border.
+Elevated and unflooded; the riverbanks are not this ground.
+
+Linked Features
+- The Grasgau (The Great Pasture-District)
+- Kohlholt (near border)
+- Isabrug — Settlement_Isabrug.txt
+- Skadzig — Settlement_Skadzig.txt
+
+Notes
+Name locked: Breitfeld.
+Primary grain-basket. Central granary and wagon node. Campaign hooks: granary shortfall, wagon-train hold on the interior tracks, or a harvest that must move before the eastern gates close.

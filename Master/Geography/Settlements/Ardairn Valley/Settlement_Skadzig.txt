@@ -1,0 +1,42 @@
+# Skadzig
+
+Type
+Village (with modest castle)
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Central plains of the Grasgau.
+
+Overview
+Highly productive dairy and cattle-breeding hub of the Grasgau. Named for the ancient, massive rows of elder oaks and deep hedgerows systematically planted across the open country to shield the district’s prize livestock from seasonal northern storms and gales. Famous across the Westmark floor for its sprawling, complex networks of stone-walled weaning pens and communal milking barns. The hedgerows are both windbreak and boundary; the pens and barns are the working heart.
+
+Control
+Dairy hub under the Grasgau seat (Isabrug) and the Ardairn Zonarch. Stall and milking rights run through the village.
+
+Population
+Working figure: 600–900
+Herding households, dairy hands, and the surrounding holdings that use the communal barns.
+
+Economy
+Dairy and cattle breeding. Prize livestock sheltered by the oak rows and hedgerows. Communal milking barns and stone-walled weaning pens. Surplus cheese, stock, and hides move toward Isabrug or the Värdå bank. Reputation travels farther than the wagons.
+
+Defences / Access
+Modest castle. Administrative seat of a minor regional noble; prioritizes economic management and comfortable residential space alongside reliable static defense.
+Structural Layout:
+- Perimeter: high masonry wall ringed by a shallow, water-fed moat diverted from a nearby creek.
+- Gatehouse: A low, two-storey barbican built into the southern wall with a reinforced double-wooden gate portal.
+- The Palace Wing (Great Hall): A rectangular, two-storey residential block running along the entire northern wall. The ground floor acts as a granary and vaulted cellar, while the upper level hosts the Great Hall and private family chambers.
+- Corner Fortifications: A single round watchtower at the southeastern corner to provide intersecting lines of arrow fire across the southern gate approach.
+- Courtyard Inner Space: Serves as a bustling estate hub. Features an open timber-framed barn, kitchen bakehouses, a chicken coop, and a deep well.
+From Isabrug: via road 7 miles west down the road by the Värdå, then north, then 6 miles north-west to Skadzig.
+From Graswick: via road 16 miles north-east.
+
+Linked Features
+- The Grasgau (The Great Pasture-District)
+- Isabrug — Settlement_Isabrug.txt
+- Breitfeld — Settlement_Breitfeld.txt
+
+Notes
+Name locked: Skadzig.
+Dairy and cattle hub. Ancient oak rows and hedgerows. Campaign hooks: storm that tests the windbreaks, dispute over communal barn rights, or a prize herd that draws outside interest.

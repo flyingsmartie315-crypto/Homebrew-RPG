@@ -1,0 +1,40 @@
+# Graswick
+
+Type
+Village (with castle)
+
+Location
+Local Region: Ardairn Valley (common: Westmark)
+Geographic Region: Ebon Peninsula
+Position: Southern edge of the Grasgau, on the north bank of the Värdå. Across the Värdå to the south lie Sundbruck and Laedburg. 15 miles by road from Sūdholt.
+
+Overview
+Prominent village and surrounding hamlets inside the Grasgau. Sits on the north bank of the Värdå at the southern edge of the Great Pasture-District. A watermill serves the village and the nearby holdings. Castle Vardbucht and its estate stand above the bank; the castle is the local seat. The road from Sūdholt brings traffic from the west; the river brings barges from the south.
+
+Control
+Castle-house under the Ardairn Zonarch. Estate and village answer here. Not a separate crown appointment.
+
+Population
+Working figure: 800–1,200
+Castle household, estate hands, village households, mill, and the surrounding hamlets of the southern Grasgau.
+
+Economy
+Pasture and cultivated land of the Grasgau. Watermill on the Värdå bank. Estate surplus. Road trade from Sūdholt and river traffic across to Sundbruck and Laedburg. The Grasgau’s grain and stock move through here toward the Värdå.
+
+Defences / Access
+Castle Vardbucht on the rise above the bank. Estate walls. Village open toward the mill and the river.
+Road 15 miles from Sūdholt.
+North bank of the Värdå; barges cross or run to Sundbruck and Laedburg on the south bank.
+
+Linked Features
+- The Grasgau (The Great Pasture-District)
+- Värdå (north bank)
+- Castle Vardbucht (internal)
+- Sūdholt — Settlement_Sudholt.txt
+- Sundbruck — Settlement_Sundbruck.txt
+- Laedburg — Settlement_Laedburg.txt
+
+Notes
+Name locked: Graswick.
+Castle locked: Vardbucht.
+Prominent village on the southern edge of the Grasgau. Watermill present. Campaign hooks: mill-right dispute, estate levy from the Grasgau, or the castle used as a mustering point for the southern bank.
