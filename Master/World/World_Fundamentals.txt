@@ -104,5 +104,424 @@ Megastructures and ash-choked works remain. No present people operate them. This
 CULTURAL DEVELOPMENT
 Enough time has passed since the collapse for distinct ethnic groups, languages, religions, and cultures to form and diverge widely. Regional identities are strong. Universal institutions are rare.
 
+Continents
+================================================================================
+GLOBAL CONTINENTAL REGISTRY: HAXONIA (THE WESTERN SECTOR)
+================================================================================
+Original Survey Key : HAZ-BIO_ZONE-06 (Planetary Survey Matrix - Post-Fall-Designation/ Quarantine zone)
+Current Taxonomy    : Haxonia / The Rented Lands / The Maw of the First Men
+Continental Profile : Hyper-devastated space-age techno-wilderness, radioactive
+                      craters, dense megastructure ruins, and acute planar rifts.
+Geopolitical Status : Primeval cradle of the Isernvolk (Emigrated). Currently held
+                      by regressed techno-barbarian blood-cults.
+--------------------------------------------------------------------------------
+PLANETARY ANTIQUITY & PRE-FALL ORIGINS
+--------------------------------------------------------------------------------
+1. THE ANCIENT INFRASTRUCTURE:
+   - During Virath’s golden zenith, Haxonia was the global locus of maximum 
+     technological saturation, housing orbital transit hubs and space-age cities.
+   - Core Architecture: Dominated by massive pre-historic megastructures, sub-
+     crustal bunker matrices, and automated planetary containment networks.
+
+2. THE GREAT FALL & MUTUAL DESTRUCTION:
+   - The continent served as the central arena for the catastrophic civil war 
+     between the original Pionari/Ingenari settler coalition and the incoming 
+     Novari/Ordinari interlopers.
+   - Outcome: Simultaneous total orbital bombardment and atomic deployment 
+     triggered a permanent nuclear winter, leaving the soil completely poisoned.
+   - Modern State: Millennia of severe regression have reduced the remaining 
+     human populations to fragmented techno-barbarian tribes.
+
+3. THE PLANAR TEAR (THE UNVEILING BLEED):
+   - The industrial violence of the Fall was so physically and metaphysically 
+     traumatic that it ruptured the planar barrier (The Unveiling) across the 
+     entire continental interior.
+   - Consequence: High concentration of malevolent, non-material entities 
+     manifest within the radioactive wastes, acting as apex territorial predators.
+================================================================================
+================================================================================
+GLOBAL CONTINENTAL REGISTRY: EREVANIA (THE BASTION EAST)
+================================================================================
+Original Survey Key : TER-VNT_SEC-RESERVE (Terrestrial Vanguard Environmental)
+Current Taxonomy    : Erevania / The Shield-Lands / The Citadel of the First Men
+Total Surface Area  : ~36,890,377 Square Miles
+Western Frontier    : The Ebon Peninsula (Ardairn Valley, Drakenfeld, Vardamark)
+Topographic Profile : Breathtakingly beautiful, hyper-rugged, multi-tiered natural 
+                      fortress. High mountain walls, deep river ravines, vast 
+                      central steppes, and colossal mountain barrier grids.
+--------------------------------------------------------------------------------
+COLONIAL ANTIQUITY & THE STRATEGIC BYPASS
+--------------------------------------------------------------------------------
+1. THE IDYLLIC WILDERNESS:
+   - During the first planetary survey phase, Erevania (Cataloged as TER-VNT) was 
+     noted as the most habitable and biologically pristine landmass on Virath.
+   - The Industrial Bypass: Because the Ingenari heavy manufacturing syndicates 
+     required flat, gentle topography to lay down their space-age factories, they 
+     concentrated 90% of their industry on Haxonia. Erevania was left as a sparse, 
+     low-impact, idyllic frontier settled by agrarian Pionari pioneers.
+
+2. THE CONTINENTAL CITADEL:
+   - When the global civil conflict erupted, the invading Ordinari and Novari 
+     interlopers directed 90% of their offensive payloads against Haxonia to 
+     neutralize the Ingenari power base. 
+   - Erevania's severe, vertical topography offered no clean landing zones or 
+     sweeping armor corridors. The invaders bypassed it during the opening phases, 
+     shielding the continent's ecosystems from total nuclear grid-fire.
+
+3. THE ERA OF THE EXODUS (THE WAR OF ATTRITION):
+   - As Haxonia collapsed, the outgunned Pionari and Ingenari settler coalition 
+     executed a massive fighting retreat across the ocean, falling back into 
+     Erevania to turn the entire landmass into a defensive redoubt.
+   - The First Men used the continent's jagged geography as an interlocking system 
+     of fortress walls, bleeding the high-tech Novari and Ordinari divisions 
+     dry in a grinding war of attrition that lasted generations.
+   - Modern State: The current feudal kingdoms, castle holds (Karbēo), and river 
+     garrisons (Ísá-Mūth) of your active sandbox are built directly upon the 
+     bones of these ancient, isolated trench lines and frontier holdouts.
+================================================================================
+REGIONAL GEOGRAPHY & DEFENSIVE FRICTION SECTORS (AI RUNNER INSTANCE)
+================================================================================
+Because Erevania functions as a planetary fortress, your AI assistant enforces 
+severe defensive terrain modifiers across the unexplored 90%:
+
+1. THE CENTRAL EXPANSE: THE VAST STEPPES (MID & CENTER)
+   - Topography: A boundless, uninterrupted ocean of wind-swept grasslands.
+   - Tactical Role: The great sally-port of the continent. It provides maximum 
+     mobility for wide-range cavalry maneuvers and animal husbandry, allowing the 
+     pastoral defenders to harass invading supply lines across hundreds of miles.
+
+2. THE SOUTHERN ARID FLANK (SOUTH-CENTRAL)
+   - Anatolia/Persia Vibe: High-altitude arid plateaus, steep clay ravines.
+   - Tactical Role: The mineral and chemical redoubt. Its deep, maze-like canyon 
+     systems hide the ancient bunker vaults where early volatile components and 
+     ore foundries were secured during the conflict.
+
+3. THE COLOCOLO SPINE & THE EASTERN MULTI-STEP STAIRCASE (THE FAR EAST)
+   - The Great Spine: The largest and tallest mountain wall on Virath. It acts as 
+     the ultimate inner-keep curtain wall of the continent.
+   - The Staircase Descent: A series of massive, drop-stepping high-altitude 
+     tablelands descending to the eastern coast. Each step functions as a massive, 
+     self-contained defensive terrace that must be scaled or breached sequentially, 
+     making an eastern maritime invasion path a tactical impossibility.
+
+4. THE FROZEN WALL & THE NARROW SEA (THE NORTHERN COAST)
+   - The Coastal Chain: A razor-sharp, unbroken mountain ridge running the full 
+     length of the north coast, serving as a permanent geographical barrier.
+   - The Narrow Frozen Sea: Fully frozen over most of the year. It prevents naval 
+     blockades along the northern front, forcing any approach onto a treacherous 
+     march across a shifting sheet-ice plain under constant high-altitude missile 
+     or ordnance threat from the coastal ridges.
+================================================================================
+================================================================================
+GLOBAL CONTINENTAL REGISTRY: VANDRIA (THE ENGINEERED CRADLE)
+================================================================================
+Original Survey Key : VND-TER_MAR-05 (Vanguard Terrestrial Maritime Margin)
+Current Taxonomy    : Vandria / The Three Sluices / The Basin of Artifice
+Surface Area Size   : ~9,755,189 Square Miles
+Geographic Position : Positioned south-centrally, dividing the Meridian Sea and the 
+                      Calderan Basin from the western coastal rainforests of Solvastia.
+Topographic Profile : Two flanking, jagged mountain ridges containing a vast, 
+                      interior low-plain transformed into a habitable basin by 
+                      three artificial interior oceans.
+================================================================================
+THE ARCHITECTURE OF TERRAFORMING & MOUNTAIN SPINES
+================================================================================
+Vandria represents the supreme achievement of pre-Fall macro-engineering on 
+Virath. Rather than a natural landmass left untouched, it functions as a highly 
+modified, self-contained environmental engine.
+
+1. THE FLANKING RAMPARTS (THE EAST & WEST CHAINS):
+   - The continent is bracketed on its eastern and western borders by two prominent, 
+     jagged mountain spines. These natural rock barriers rise sharply from the sea, 
+     acting as titanic walls that shield the interior basin from open-ocean storms.
+   - Economic Output: High stone-hardness quarry bed-faces (Cross-ref: Economy_Primary_Stone) 
+     and deep mineral veins that provide structural resources for the local channels.
+
+2. THE FLOODED INTERIOR (THE THREE SLUICES):
+   - Left untouched, the central lowlands between the mountain ranges would have 
+     stagnated into a dead, rain-shadowed arid desert. To correct this, the 
+     Ingenari cartels sliced deep into the continental crust, carving out three 
+     miniature interior oceans that run completely through the landmass.
+   - Function: These engineered seas pulled maritime moisture directly into the 
+     heart of the continent, transforming a barren basin into a lush, fertile, 
+     and highly habitable cradle capable of supporting massive populations.
+
+3. THE MODERN REGRESSED ERA:
+   - When the Great Fall shattered the automated terraforming networks, the 
+     systems locked the channel flood-gates open. While the modern interior has 
+     dry-drifted slightly into sun-baked grasslands and scrub-steppes, the 
+     three interior oceans remain perfectly deep, uniform, and navigable.
+   - Population: Inhabited by elite canal-pilots, salvage clans who harvest pre-fall 
+     alloys from the concrete-lined banks, and fortified lock-gate kingdoms.
+================================================================================
+================================================================================
+GLOBAL CONTINENTAL REGISTRY: SOLVASTIA (THE SOUTHERN EXPANSE)
+================================================================================
+Original Survey Key : TRN-VND_LOC-03 (Ternary Vanguard Natural Deposits)
+Current Taxonomy    : Solvastia / The Sunken Labyrinth / The Iron Sietchlands
+Total Surface Area  : ~27,244,851 Square Miles
+Geographic Position : Bounded on its absolute northern edge by the Equator, directly 
+                      facing the southern maritime expanse of the Axian Sea.
+Topographic Profile : Searing equatorial dune seas, high-altitude brutalist canyons, 
+                      sub-surface sietch networks, twin coastal mountain rain-traps, 
+                      and a smooth transition into temperate/polar cold zones.
+================================================================================
+CLIMATIC ZONATION & SOLVASTIAN BIOMES
+================================================================================
+Unlike the rugged, uniform fortress profile of Erevania, Solvastia is a continent 
+of extreme, layered environmental transitions as one travels from North to South.
+
+1. THE EQUATORIAL SCORCH (NORTH & CENTER)
+   - The Dune Seas: Vast, shifting expanses of barren, sun-bleached sand desert 
+     running the full length of the northern coast directly along the Axian Sea.
+   - Economic Output: The premier sourcing ground for high-purity crystalline salts, 
+     sulfur flowers, and natural acids bubbling from exposed geothermal fissures. These 
+     elements are required for elite explosive formulas managed in Siege_Volatiles.txt.
+
+2. THE CANYON BRUTALISM: HIGH EQUATORIAL PLATEAUS
+   - Topography: Sheer, sun-baked rocky plateaus carved by deep, labyrinthine crevices. 
+     This is the primary zone of human survival along the harsh equator.
+   - The Sietch Artifice: Ancient evidence of the Pionari and Ingenari infrastructure 
+     remains locked inside the stone. Civilizations here survive exclusively within 
+     underground and sub-surface Sietches—colossal, cliff-carved bunker-cities and 
+     canyon communities built using heavy, brutalist stone-masonry rules.
+   - Factions: Inhabited by stationary sietch-cartels or highly insular nomadic groups 
+     of hardy, water-hoarding survivalists.
+
+3. THE COALITION CANOPY: THE TWIN RAINFORESTS
+   - The Western Coastal Jungle: Positioned on the Atlantic flank, pinned tightly 
+     beneath a titanic coastal mountain rain-trap. A dense, humid, primeval canopy.
+   - The Eastern Coastal Jungle: Positioned on the Pacific flank, similarly fed by 
+     heavy maritime clouds broken against sheer interior peaks.
+   - Economic Output: High-density exotic hardwood, rubber binders, medicinal saps, 
+     and specialized toxic resins used to manufacture lethal chemical warfare agents.
+
+4. THE SOUTHERN TRANSITION (THE CLIMATIC GRADIENT)
+   - The Humid Belt: South of the deserts and rainforests, the continent transitions 
+     into a dense, swampy, sub-tropical humid plain.
+   - The Temperate Heartlands: Shifting smoothly into rolling, fertile grasslands 
+     and temperate woodlands suitable for large-scale agrarian kingdoms.
+   - The Cold Void: The absolute southern tip of the continent terminates in a 
+     wind-blasted, sub-polar tundra and jagged ice-cliffs, mirroring the extreme 
+     cold variables of the northern Leviathan's Abyss.
+================================================================================
+================================================================================
+GLOBAL MARITIME REGISTRY: THE CALDERAN Basin (THE EQUATORIAL POT)
+================================================================================
+Original Survey Key : CLDR-EQ_SYS-03 (Caldera Geometry Equatorial System)
+Current Taxonomy    : The Calderan Basin / The Glass Basin / The Steaming Vault
+Surface Area Size   : ~13,688,533 Square Miles
+Bathymetry Profile  : Enclosed, bowl-shaped macro-depression; shallow coastal reef 
+                      labyrinths shifting into a central stagnant abyssal floor.
+Geographic Position : Pinned directly on the Equator, nestled in the semi-bowl 
+                      off the southern coast of Haxonia.
+--------------------------------------------------------------------------------
+METEOROLOGICAL HAZARDS & ENVIRONMENTAL LOGISTICS
+================================================================================
+The Calderan Basin functions as a massive, volatile atmospheric heat-trap. Because 
+the basin is partially enclosed by heavy continental landmasses, its weather patterns 
+are defined by extreme, sudden atmospheric shifts.
+
+1. THE STEAMING DOLDRUMS (THE STILL SEA):
+   - The primary operational state of the basin is absolute stillness. The air 
+     grows thick, heavy, and hot, trapping moisture inside the high continental 
+     contours like steam inside a sealed vault.
+   - The surface of the water frequently settles into a mirror-smooth, oily calm 
+     where a ship’s sails sag listlessly against the masts for days or weeks at 
+     a time. Under the unmoving equatorial sun, a heavy, warm sea-fog blankets 
+     the basin, forcing crews to strictly ration water as they sit stranded.
+
+2. THE PRESSURE-POT RUPTURE (SUDDEN CYCLONES):
+   - The intense heat building within this stagnant atmospheric bowl acts as a 
+     natural pressure pot. When the heavy, silent air finally reaches a breaking 
+     point, it ruptures with catastrophic violence.
+   - These sudden cyclones strike with almost no warning, tearing through the 
+     heavy fog with screaming, multi-directional winds. 
+   - Because the storm systems are trapped within the semi-bowl of the basin, 
+     the winds churn violently, kicking up massive, erratic cross-seas that slam 
+     into a vessel from multiple angles at once, threatening to drive stranded 
+     ships blind onto hidden coastal reefs.
+================================================================================
+================================================================================
+GLOBAL OCEANIC REGISTRY: THE MERIDIAN SEA (THE GREAT DIVISION EXPANSE)
+================================================================================
+Original Survey Key : MRDN-NAV_SEC-01 (Primary Meridian Navigational Sector 01)
+Current Taxonomy    : The Meridian Sea / The Grand Baseline Ocean / The Exodus Void
+Surface Area Size   : ~22,651,009 Square Miles
+Bathymetry Profile  : Open deep-water oceanic basin; steep continental shelves 
+                      sloping violently down to massive underwater abyssal plains.
+Geographic Position : The dominant global water expanse separating the western rim 
+                      of Haxonia from the western frontiers of Erevania and the 
+                      equatorial sand-walls of Solvastia.
+--------------------------------------------------------------------------------
+PLANETARY HISTORY & THE NAVIGATION ZERO-MARKER
+--------------------------------------------------------------------------------
+1. THE PRE-FALL BASELINE:
+   - Scanned during the very first orbital survey by the Pionari, this colossal 
+     36-million-square-mile ocean was designated as the literal navigational 
+     zero-marker for the entire hemisphere. It served as the central meridian 
+     dividing the western industrial infrastructure from the eastern reserves.
+   - The Lineage of Drift: The early mass-exodus fleets fleeing the nuclear 
+     destruction of Haxonia preserved the core survey descriptor verbatim, 
+     dropping the tracking numbers to name the endless, terrifying watery void 
+     they had to conquer to reach safety: The Meridian Sea.
+
+2. THE CENTRAL HYDRAULIC BUFFER:
+   - Unlike the frozen, iceberg-choked Kyron Deeps to the far north, The Meridian 
+     Sea remains an open-water expanse. It functions as a massive geographical 
+     moat, isolating the feudal, iron-working kingdoms of Erevania from the 
+     radioactive ziggurats and sacrificial techno-barbarian raiding cartels 
+     inhabiting the ruined west.
+================================================================================
+================================================================================
+GLOBAL OCEANIC REGISTRY: THE KYRON DEEPS (THE SUB-POLAR VOID)
+================================================================================
+Original Survey Key : CRYO-ART_CH-02 (Cryogenic Arterial Channel 02)
+Current Taxonomy    : The Kyron Deeps / The Midnight Abyss / The Great Sash Sea
+Surface Area Size   : ~22,635,996 Square Miles
+Bathymetry Profile  : Absolute abyssal maritime void. Average Depth: ~8,000 metres.
+                      Maximum Depth Terminus: ~15,000 metres (The Pionari Trench).
+Geographic Position : Spans the entire upper sub-polar hemisphere, pinning the 
+                      nuclear wastes of Haxonia directly to the Ebon Peninsula.
+--------------------------------------------------------------------------------
+ABYSSAL GEOLOGY & TWO-TIERED LATITUDINAL CLIMATE
+--------------------------------------------------------------------------------
+1. THE HYDRAULIC TRANSITION (THE 50/50 CLIMATE SPLIT):
+   - The northernmost half (approximately 11.3 million square miles) exists under 
+     a permanent polar freeze. This sector is a solid, shifting sheet-ice plain 
+     choked by massive ice-floes and jagged pressure ridges.
+   - The southernmost half transitions into a brutal, open sub-polar sea. While 
+     free of solid sheet-ice, this open water is filled with colossal wandering 
+     icebergs, freezing spray, and violent gale-force storms.
+
+2. THE PIONARI TRENCH:
+   - During the first planetary survey, the Pionari automated scans logged this 
+     22-million-square-mile oceanic basin as a massive structural crustal drop-
+     fault. Its staggeringly hostile bathymetry represents the deepest water 
+     column on Virath, averaging a crushing 8,000 metres.
+   - Beneath both the northern ice sheets and the southern open sea lies a dark, 
+     freezing, and hyper-pressurized water column dropping down into pitch-black trenches. 
+     At 15,000 metres, the mechanical pressure completely bypasses organic 
+     tolerance indices, leaving it an untamed, silent graveyard.
+================================================================================
+THE DAUÐAVÍK LIFELINE & CHOKEPOINT DYNAMICS
+================================================================================
+Because navigating a 22-million-square-mile abyssal ocean is mathematically lethal 
+for 16th-century naval logistics, the central island function is absolute:
+
+1. THE CENTRAL ANCHOR (DAUÐAVÍK):
+   - Rising directly out of the center of the Deeps, the sheer basalt cliffs 
+     of Dauðavík sit precisely on the climate fault line. It acts as the anchor 
+     point separating the northern ice pack from the southern open sub-polar sea, 
+     functioning as the supreme resupply checkpoint for the northern hemisphere.
+   - Any fleet executing a trans-oceanic crossing between Haxonia and Erevania 
+     is structurally bound to dock at Dauðavík to check for ice-crushed hull 
+     degradation (Durability.txt) and replenish fuel stores.
+
+2. ACUMEN OF LORE: THE SUB-ICE ECOSYSTEM:
+   - Due to its proximity to the active tectonic plates of The Leviathan's Abyss, 
+     low-frequency acoustic tremors and seismic thuds echo continuously through 
+     the 8,000-metre water column. 
+   - Regional Lore: Northern mariners claim that the abyssal trenches of the Kyron 
+     Deeps act as a subterranean migration path for the Leviathans, allowing 
+     colossal entities to drift completely unseen beneath the ice sheet from the far 
+     north down toward the deep equatorial waters.
+================================================================================
+================================================================================
+GLOBAL MARITIME REGISTRY: THE LEVIATHAN'S ABYSS (THE NORTHERN NARROW SEA)
+================================================================================
+Original Survey Key : TRM-LEV_INDX-09 (Tectonic Tremor / Low-Frequency Acoustic)
+Current Taxonomy    : The Leviathan's Abyss / The Suture Sea / The Grinding Void
+Surface Area Size   : ~15,388,933 Square Miles
+Geographic Position : Wedged directly between the northern fragmented fjords of 
+                      Erevania and the radioactive polar wastes of Haxonia.
+Topographic Profile : Permanently frozen ocean-wide ice sheet, violently buckled by 
+                      sub-glacial volcanic pressure ridges and deep crustal rifts.
+--------------------------------------------------------------------------------
+TECTONIC MECHANICS & SUB-GLACIAL GEOLOGY
+--------------------------------------------------------------------------------
+1. THE CONTINENTAL CRUNCH (ACTIVE SUBDUCTION):
+   - The tectonic plates of Haxonia and Erevania are not static; they are actively 
+     grinding into one another along a colossal, 15-million-square-mile fault 
+     line running directly beneath the seabed of the Abyss.
+   - Consequence: The 50-foot-thick surface ice sheet is under non-stop physical 
+     compression. It groans, fractures, and thrusts upward into massive, jagged, 
+     slate-grey pressure ridges that make straight land transport impossible.
+
+2. CRYO-VOLCANIC BLOWOUTS:
+   - Deep magma vents along the subduction zone superheat subterranean pockets of 
+     water. This creates immense, pressurized steam chambers that violently 
+     rupture the ice sheet from below, leaving boiling, black water fissures 
+     that churn with ash before quickly freezing back into warped iron-hued ice.
+================================================================================
+FOLKLORE & SYSTEMIC REALITY: THE THINGS IN THE ICE
+================================================================================
+At a 16th-century technological ceiling, the local cultures interpret the literal 
+seismic friction of the continental collision as the movements of living beasts.
+
+1. THE ACOUSTIC RUMBLES (THE SLEEPING GIANTS):
+   - The deep-crust friction generates constant low-frequency acoustic vibrations 
+     and rhythmic, heavy booming thuds that can be felt through the soles of winter 
+     boots or sledge runners for hundreds of miles.
+   - Regional Myth: Coast-dwellers and polar sled-teams believe these tremors are 
+     the breathing cycles and shifting masses of colossal, ancient marine 
+     Leviathans slumbering in the warm, hydrothermal black abyss beneath the ice.
+
+2. THE "WAKING" FIELDS:
+   - When a major seismic shift creates an unexpected open-water lead, northern 
+     hunters claim a "Leviathan has broken the surface to breathe." These steaming, 
+     unstable water pools are treated with profound religious dread.
+================================================================================
+================================================================================
+GLOBAL MARITIME REGISTRY: THE AXIAN SEA (THE CENTRAL HYDRAULIC CORE)
+================================================================================
+Original Survey Key : AXIAL-NAV_SEC-04 (Axial Navigational Sector 04)
+Current Taxonomy    : The Axian Sea / The Central Arterial / The Lifeline Reach
+Surface Area Size   : ~9,389,884 Square Miles
+Geographic Position : Sliced centrally through the interior body of Erevania, 
+                      stretching from the western maritime gulfs of the Ebon 
+                      Peninsula across to the far eastern oceans.
+Topographic Profile : Deep, stable, non-freezing interior sea basin sheltered by 
+                      flanking mountain grids; contains vital narrow straits.
+--------------------------------------------------------------------------------
+PLANETARY HISTORY & STRATEGIC HYDRAULIC VALUE
+--------------------------------------------------------------------------------
+1. THE PRE-FALL LOGISTICAL DESIGNATION:
+   - During the first planetary survey, the Pionari automated scans locked this 
+     9-million-square-mile body of water as the primary structural axis for 
+     global planet-side deployment, cargo looping, and population movement.
+   - The Shield-Line Pipeline: When the catastrophic civil war erupted, the outgunned 
+     settler coalition used this internal sea lane as the literal supply spine of 
+     their continental fortress, running continuous military cargo barge fleets 
+     to sustain their isolated mountain and forest redoubts.
+
+2. THE MODERN MACRO-ECONOMIC LIFELINE:
+   - Because crossing the massive interior trans-continental steppes or rugged mountain 
+     ravines via land vehicles is logistically exhausting, The Axian Sea functions 
+     as the primary cardiopulmonary engine for modern civilization on Virath.
+   - It acts as an open, friction-free trade highway allowing heavy transport 
+     barges to link diverse regional markets, moving massive volumes of resources 
+     across thousands of miles at unparalleled speed.
+================================================================================
+CHOKEPOINT DYNAMICS & REGIONAL TARIFF RULES (AI HELPER ENGINE MODULE)
+================================================================================
+Because The Axian Sea pinches into narrow, cliff-walled straits as it transitions 
+toward the western rim, it creates critical geopolitical bottlenecks:
+
+1. THE EBON PENINSULA CHECKPOINTS:
+   - The western exits of the sea are heavily bounded by the rugged fingers of 
+     the Ebon Peninsula. Controlling the river inlets and coastal gates bordering 
+     this sector (such as Settlement_Isa_Muth.txt) grants total economic 
+     sovereignty over all incoming trans-continental interior cargo.
+
+2. MARITIME TRANSPORT PROFILES (Cross-ref: Vehicle_Sea_Profile.txt):
+   - Cargo Efficiency: Any resource shipment (Bulk Lumber, Dressed Stone, Grained 
+     Powder Kegs) moved across the Axian Sea zone completely bypasses land-terrain 
+     friction penalties. Heavy barges gain a mandatory 12× weight capacity 
+     multiplier compared to heavy wagons at triple the daily transit speed.
+   - The Trade Drift: Master foundries (Eirblast) and luxury monopolies (Karbēo) 
+     rely on this sea to export finished military hardware and high-value wax 
+     cargo to the deep interior empires, returning with vital raw minerals.
+================================================================================
 GENERAL TONE OF THE WORLD
 Virath is a hard, lived-in world of steel, blood, trade, faith, and weather. The supernatural exists but remains mostly at the edges — rare, feared, and poorly understood. Most days are governed by the same concerns that have always ruled human life: harvest, winter, war, honour, debt, and survival.

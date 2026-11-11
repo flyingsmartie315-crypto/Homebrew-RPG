@@ -211,7 +211,7 @@ PERSONS OF NOTE
 --------------------------------------------------
 Founding 996 B:E -> 196 B:E
 - Osric — High King of the crossing. First Dar Emait of the landing. Holds the Ebon line. First Isernvolk king in peninsula memory. Seat: Osricford / Ocs Landing. Hanged a hundred skinwights. Landing compact with the Kannavi. Counts Jarnvard’s wing dead.
-- Grimwald — Dar Emait. Declared the end of the Great Clearing, the Breaking of the Horns, in 196 A:D. The start of that war is measured from the landing, 996 B:E.
+- Grimwald — Dar Emait. Declared the end of the Great Clearing, the Breaking of the Horns, in 196 A:E. The start of that war is measured from the landing, 996 B:E.
 - Arnulf Vatnhar — first Dar Waldward. Kannavi. The canopy name on that war. Full line: Peoples_Kannavi.txt.
 - Arthos — Kannavi ruler at first contact at Caer Varn and legendary original gryphon rider. Rode the Royal Gryphon Adain Gwyn (“White Wing”). Arthos and his circle of gryphon-riders are remembered as vital to humanity’s survival against the Cloven. Full account: Peoples_Kannavi.txt.
 - Jarnvard — Osric’s younger brother. Rear wing of the crossing. Puts ashore at Dauðavík. Full entry: Peoples_Jarnvolk.txt.
