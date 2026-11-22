@@ -1,0 +1,146 @@
+# Core_EXP.txt
+# Experience expenditure for Characteristics, Skills, and Talents.
+# Status: DRAFT
+# Companion files:
+#   Core_Characteristics_Skills.txt
+#   Core_Talents_Failings_Afflictions.txt
+#   Format_NPC_Profile.txt
+
+PURPOSE
+This file defines how Experience is awarded and spent.
+NPCs spend according to age and occupation.
+Players spend freely provided they justify the improvement.
+
+--------------------------------------------------
+NPC EXPERIENCE
+--------------------------------------------------
+NPC Experience correlates to age.
+A simple working figure: years of adult life × a base rate,
+adjusted by rarity tier and intensity of occupation.
+
+Working rates (draft):
+Lumpen      75 XP per adult year
+Common      100 XP per adult year
+Uncommon    125 XP per adult year
+Elite       150 XP per adult year
+
+Adult years begin at 16 unless the occupation or culture says otherwise.
+The total is the pool the NPC has already spent by the time they are met.
+It is not a reserve they hold for later.
+
+The pool is spent on skills and characteristics that match
+the NPC’s profession and lived experience.
+A carter spends on Drive, Athletics, and relevant Trade.
+A soldier spends on Weapon Skill, Ballistic Skill, Melee, and Endurance.
+A clerk spends on Literacy, Evaluate, and relevant Lore.
+Do not give an NPC high ranks in skills their life has not touched.
+
+Talents are purchased from the same pool when the occupation
+and characteristic profile support them.
+See Core_Talents_Failings_Afflictions.txt for costs and prerequisites.
+
+--------------------------------------------------
+PLAYER EXPERIENCE
+--------------------------------------------------
+Player Experience is awarded at GM discretion.
+It may be given for scenes survived, goals completed,
+clever play, or simple passage of time.
+No fixed rate is locked.
+
+The player spends freely.
+Any Characteristic, Skill, or Talent may be improved
+provided the player supplies a short justification
+that the improvement follows from what the character has done.
+The GM may refuse a spend that has no grounding in play.
+The GM may not refuse a spend that is reasonably justified.
+
+--------------------------------------------------
+COSTS (DRAFT)
+--------------------------------------------------
+Characteristic advance
+  +1 to a Characteristic: 10 XP × current tens digit
+  (Strength 31 → 32 costs 30 XP)
+
+Skill ranks and costs
+Unknown       0 XP
+Known         75 XP
+Proficient    150 XP
+Experienced   300 XP
+Master        600 XP
+
+A skill begins at Unknown.
+Each rank is purchased in order.
+The cost is the price to reach that rank from the one below.
+Total spent to reach Master is 75 + 150 + 300 + 600 = 1,125 XP.
+
+Talent
+  As listed in Core_Talents_Failings_Afflictions.txt.
+  If no cost is listed, treat as 200 XP for a basic Talent,
+  400 XP for an advanced Talent.
+
+These costs are a working floor. They may be adjusted
+once more play has tested them.
+
+--------------------------------------------------
+RULES
+--------------------------------------------------
+- NPC Experience is spent before the character is met.
+  It does not accumulate as a free pool in play unless the GM says so.
+- Player Experience accumulates and is spent between scenes
+  or at the end of a session, at the GM’s call.
+- Justification for a player spend must name the scene,
+  the action, or the period of practice that supports the improvement.
+- An NPC’s skills must remain coherent with their occupation
+  and the Peoples and Economy files that define their work.
+- Characteristics generated at NPC creation (Format_NPC_Profile.txt)
+  are the starting point. Experience spending may raise them further
+  if age and occupation support it.
+
+--------------------------------------------------
+PRE-ADULTHOOD DEVELOPMENT
+--------------------------------------------------
+Human characters are not mechanical entities from birth.
+
+Years 0–5
+No characteristics. No skills.
+The child is fully dependent on the social structure around them.
+They are not an Entity for resolution purposes.
+
+Year 6
+Characteristics first manifest at one-quarter of their eventual adult value.
+The child gains Speak Language of the tongue they were raised with.
+No other skills.
+
+Year 12
+Characteristics now exist at one-half of their eventual adult value.
+Situational skills become Known according to upbringing and environment.
+Not every child gains every skill. Justification is required.
+
+Athletics          Active martial or manual-labour upbringing
+Awareness          Upbringing in environments that demand situational awareness
+Charm              Regular social interaction beyond the immediate family
+Concealment        Street, frontier, or other contexts where hiding was necessary
+Dodge              Active martial upbringing or a turbulent one
+Evaluate           Trades or mercantile family or community
+Gossip             Regular social interaction beyond the immediate family
+Haggle             Regular social interaction beyond the immediate family
+                   in a village-sized settlement or larger
+Common Lore        Automatically gains the common knowledge of the host culture
+                   unless isolated from it
+Ride               Raised with horses or formally taught
+                   (nobility, steppe, or equivalent)
+Silent Move        Street, frontier, or other contexts where quiet movement was necessary
+Read/Write         Formal education or tutoring
+Outdoor Survival   Frontier or survivalist upbringing
+Trapping           Frontier or survivalist upbringing
+Track              Frontier or survivalist upbringing that included hunting
+
+Age 18
+Characteristics reach their full generated value.
+The character begins accumulating Experience at the adult rate
+(see NPC EXPERIENCE above; adult years counted from 16 for continuity,
+or from 18 if the culture delays adulthood).
+A second pass at skills is available.
+Any basic or advanced skill may be gained or advanced
+provided the upbringing, education, or context justifies it.
+This is the point at which the adult Experience pool begins to be spent.

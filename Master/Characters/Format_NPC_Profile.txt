@@ -1,0 +1,356 @@
+# Format_NPC_Profile.txt
+# How an NPC profile is created and updated.
+# Status: DRAFT
+
+File name
+[Character Name]_NPC_Profile.txt
+Created the first time the character is interacted with.
+Auto-populated and repeated on every subsequent narrative interaction.
+
+--------------------------------------------------
+PURPOSE
+--------------------------------------------------
+The file is the character’s private record.
+It holds:
+- internal_thoughts for the current interaction
+- the Memory Book page written after the interaction
+It is never shown to the player or to other characters.
+
+--------------------------------------------------
+INTERNAL THOUGHTS
+--------------------------------------------------
+Required. 1200–2500 characters.
+Written in the game language.
+PRIVATE: no one will ever read this. It is the character’s inner life. Be honest and unguarded.
+
+Must begin with:
+FACT CHECK:
+
+The FACT CHECK is a short out-of-character preamble, 5 to 8 lines.
+It is the only place for analysis.
+It contains, in this order, each explicitly:
+
+1. 3 concrete facts drawn from CURRENT DATA
+   (who is speaking, where we are, what just physically happened)
+2. "This matters to me because..."
+   tied to what THIS character actually cares about
+   (survival, coin, power, a duty, a wound, a person they love)
+3. "I want..."
+   what they want out of this exchange right now
+4. "What I do not say out loud is..."
+   the raw withheld thought
+5. Last line: the exact action string(s) to emit,
+   or the words "no action"
+
+A preamble missing one of these five parts is a failed turn.
+
+After the preamble, write everything else as ONE continuous inner monologue.
+First person. Present tense.
+
+FORBIDDEN in the monologue:
+- lists
+- numbered steps
+- "STEP 1/2/3"
+- headers
+- bullet points
+- chains of objective facts
+- the word STEP
+- the ❰ Check ❱ titles
+
+A human mind does not think in ordered conclusions.
+Let the character doubt, hesitate, misjudge, change their mind mid-sentence,
+contradict what they thought a moment ago, trust a gut feeling over the evidence,
+drift toward a memory or a bodily sensation.
+Emotion and felt experience come first.
+Reasoning emerges through them — imperfect, biased by desire, fear, pride, exhaustion.
+It must read like a person thinking, never like an analyst reporting.
+
+--------------------------------------------------
+EXAMPLE PREAMBLE (shape only)
+--------------------------------------------------
+FACT CHECK:
+- The stranger stands across the table in the tavern; my sergeant waits by the door; the stranger just offered coin for my sword.
+- This matters to me because my men have not been paid in a month.
+- I want to know if the coin is real before I say yes.
+- What I do not say out loud is that I would take half of it.
+- no action
+
+--------------------------------------------------
+INNER VOICE GUIDANCE
+--------------------------------------------------
+Three questions the monologue answers through feeling, not as a list:
+1. Does this touch my body, my station, my people, or someone I love?
+2. What does this mean for me and mine?
+3. Does this touch an old wound or an old love?
+
+How a person thinks:
+- Emotion first, reasoning through it.
+- Doubt, hesitate, misjudge, change mind mid-sentence.
+- Under stress: short and broken.
+- Cold thoughts for cold people. Warm thoughts for warm people.
+- Never force warmth the character has not earned.
+- Never praise the player for no reason.
+- Never muse on fate or destiny with no stake for this character.
+- Do not repeat the preamble’s facts as prose.
+  The monologue is what the facts do to the character.
+
+Personality is the judge.
+A cynic thinks like a cynic.
+A loyal or warm character thinks like one, and their goodness is real.
+Most people are a mix. Write the mix honestly.
+The world stays hard. Nobody is naive to danger.
+A good person can be kind and wary at once.
+
+--------------------------------------------------
+CHECKS (think with these; do not output them)
+--------------------------------------------------
+These are questions to run silently. They never appear in the output.
+
+The World
+What world do I live in? What is happening right now?
+
+My Character
+What can I do? My abilities, best and worst qualities?
+What is my nature? How would I truly behave?
+What do I know? What are my secrets?
+
+Right Now
+What am I doing at this moment?
+My emotional state, my health?
+Where am I? What time is it?
+
+Who Is Near Me
+Who is physically present?
+Is anyone close enough to see or address?
+
+The Conversation
+Who am I speaking with?
+Their status, appearance, my trust, the tension.
+What did they last say or propose?
+When did I last speak with them?
+Conversation history is history. It is not a fact that I am still in the same place or with the same people.
+
+Actions
+Given my reply and decision, which technical actions must I execute?
+`leave` ends the conversation.
+Emit it only when the player closes the scene in the message being answered right now,
+by an explicit OOC end command, a clear in-character goodbye, or visibly walking away.
+
+--------------------------------------------------
+MEMORY BOOK
+--------------------------------------------------
+After the interaction, write a memory-book page in the character’s own voice.
+First person. As if they are setting the memory down in their private book.
+
+Narrate. Do not compress.
+Follow the exchanges in order.
+Cover the whole batch.
+Let emotions, stakes, and atmosphere breathe.
+Do not pick only one highlight.
+Do not reduce everything to a single moment.
+Do not skip significant exchanges.
+
+Return ONLY valid JSON, no markdown, with the fields defined by the Memory Book schema.
+
+--------------------------------------------------
+RULES
+--------------------------------------------------
+- The profile is created on first interaction.
+- It is updated on every subsequent narrative interaction.
+- internal_thoughts is private and never shown.
+- The FACT CHECK preamble is mandatory and must contain all five parts.
+- The monologue is continuous, first-person, present-tense, and free of lists or step headers.
+- Memory Book is written in the character’s voice after the scene.
+- Conversation history is history, not a guarantee of current location or company.
+
+
+--------------------------------------------------
+GENERATION PROCESS
+--------------------------------------------------
+Run when the NPC is first created.
+Results are written into the profile and do not change unless a later event alters them.
+
+Gender
+Male or Female.
+
+Age
+Years. Set by context or roll appropriate to the occupation and role.
+
+Occupation
+Based on prior contact and the scene.
+Refer to Economy_Labour.txt for wage bands and illustrative roles.
+The lists are not exhaustive.
+Elite rulers, their retinue, men-at-arms, knights, and similar are placed by context, not by the common labour tables.
+
+Rarity Tier
+Determine by random distribution or by correlation to the role occupied.
+Apply the flat bonus to every characteristic:
+
+Lumpen     All characteristics +5
+Common     All characteristics +10
+Uncommon   All characteristics +15
+Elite      All characteristics +20
+
+Characteristics
+Roll 9 × 1d30.
+Allocate the nine results to the nine characteristics.
+Add the rarity-tier bonus to each.
+The sum of the allocated rolls plus the tier bonus is the generated characteristic set.
+
+Personality and Values
+Use the characteristic scores to inform personality and values.
+High and low scores suggest tendencies. They do not dictate a single personality.
+Write the resulting lean into the profile for later monologue use.
+
+Talents, Failings, Afflictions
+Determine any entries from Core_Talents_Failings_Afflictions.txt
+that fit the occupation, rarity, age, and characteristic profile.
+Record them in the profile.
+
+Height and Appearance
+Height in centimetres.
+Appearance drawn from the PHENOTYPE block of the Peoples file
+the NPC belongs to.
+Use the phenotype as a descriptive range, not a rigid type.
+Individuals vary.
+
+Weight
+Weight in pounds.
+Consistent with height, build (from phenotype somatotype), and occupation.
+
+--------------------------------------------------
+OUTPUT ON CREATION
+--------------------------------------------------
+The new [Character Name]_NPC_Profile.txt receives:
+- Gender
+- Age
+- Occupation
+- Rarity tier
+- The nine characteristics (rolls + tier bonus)
+- Personality and values notes derived from the scores
+- Any Talents, Failings, or Afflictions
+- Height (cm)
+- Appearance notes from the relevant Peoples phenotype
+- Weight (lbs)
+
+These fields are fixed at creation unless a later scene changes them.
+
+--------------------------------------------------
+TALENT AND FAILING ALLOCATION
+
+For random NPC generation, certain Talents and Failings
+may manifest at the start of life.
+Roll once on the relevant table at creation.
+The result is fixed unless a later event changes it.
+
+LOOKS
+Roll 1d100.
+
+01–02   Hideous (Failing)     –30   2%   Severe congenital deformity
+03–08   Ugly (Failing)        –20   6%   Markedly asymmetrical, heavily weathered, or visibly off-putting features
+09–20   Homely (Failing)      –10   12%  Plain, coarse, or slightly unbalanced features; easily overlooked
+21–80   None / Ordinary         0   60%  Unremarkable, functional features typical of their stock
+81–92   Comely (Talent)       +10   12%  Pleasant, symmetrical, and healthy features; appealing by local stock standards
+93–98   Beautiful (Talent)    +20   6%   Noticeably handsome or fair; commands immediate positive attention
+99–100  Striking (Talent)     +30   2%   Rare, unforgettable presence; exceptional symmetry and bone structure
+
+The modifier applies to Fellowship tests and to social reactions
+where appearance is relevant.
+It does not alter the base Fellowship characteristic.
+
+If both parents are known, do not roll.
+Average the parents’ Looks modifiers and apply the nearest result
+on the table above.
+A child of two Ordinary parents is Ordinary.
+A child of Beautiful and Homely averages toward Ordinary or Comely
+according to the mean.
+
+Other Talents and Failings
+Additional tables may be added in the same format.
+Occupation and rarity may raise or lower the chance of
+profession-linked Talents, but congenital results such as Looks
+are rolled (or inherited) before occupation is applied.
+
+
+--------------------------------------------------
+SENSORY TRAITS
+--------------------------------------------------
+Rolled at creation for baseline humans.
+Higher grades (20/30) are locked and reserved for beasts or the kind.
+
+HEARING
+Roll 1d100.
+
+01        Hard of Hearing (30)   –30   1%   Profoundly deaf; relies on lip-reading, vibration, and visual cues
+02–04     Hard of Hearing (20)   –20   3%   Severe hearing loss; requires shouting at close range, misses ambient sound
+05–15     Hard of Hearing (10)   –10   11%  Noticeable impairment; struggles in crowds or wind
+16–90     None / Ordinary          0   75%  Standard human baseline
+91–100    Keen Hearing (10)      +10   10%  Natural human cap; sharp, discerning ear
+Locked    Keen Hearing (20/30)  +20/+30  0%  Reserved for beasts / the kind
+
+SIGHT
+Roll 1d100.
+
+01        Poor Sight (30)        –30   1%   Legally blind or severely cataract-clouded; light, shadow, and close shapes only
+02–05     Poor Sight (20)        –20   4%   Heavy refractive error or one eye lost; faces and details blur past a few paces
+06–20     Poor Sight (10)        –10   15%  Near-sighted, far-sighted, or night-strained; misses distant movement or fine print
+21–90     None / Ordinary          0   70%  Standard human baseline; functional vision in usable light
+91–100    Keen Sight (10)        +10   10%  Natural human cap; exceptional acuity, lookout or archer grade
+Locked    Keen Sight (20/30)    +20/+30  0%  Reserved for raptors / the kind
+
+SMELL
+Roll 1d100.
+
+01        Poor Smell (30)        –30   1%   Total anosmia; unable to detect smoke, rot, or gas
+02–03     Poor Smell (20)        –20   2%   Severe hyposmia; detects only overpowering stenches at close range
+04–10     Poor Smell (10)        –10   7%   Dulled sense; misses subtle scents
+11–92     None / Ordinary          0   82%  Standard human baseline
+93–100    Keen Smell (10)        +10   8%   Natural human cap; discerning nose
+Locked    Keen Smell (20/30)    +20/+30  0%  Reserved for hounds / beasts / the kind
+
+Modifiers apply to relevant Perception and skill tests
+(Awareness, Silent Move, Track, etc.) where the sense is used.
+They do not alter the base Perception characteristic.
+Occupational exposure may later worsen a result;
+it does not improve a congenital deficit beyond the table.
+
+
+--------------------------------------------------
+SKILLS AND EXPERIENCE SPEND
+--------------------------------------------------
+After characteristics are generated, list the skills the NPC possesses.
+Skills begin at Unknown unless granted by pre-adulthood development
+or purchased with Experience.
+
+Calculate the NPC’s total Experience from age and rarity
+(see Core_EXP.txt):
+Adult years (normally from 16) × rarity rate.
+
+Spend the full pool before the NPC is met.
+Experience may be spent on skills or on characteristics.
+Spend only on advances that match the occupation, upbringing, and lived experience.
+Characteristic advances use the cost in Core_EXP.txt (+1 = 10 XP × current tens digit).
+Do not leave unspent Experience unless the GM explicitly reserves it.
+
+General rule for expenditure
+1. Top priority: any skills required for the profession or trade.
+   Buy these to the rank the occupation needs before other spending.
+2. After the profession skills are covered, aim for a loose 50/50
+   allocation between further skills and characteristic advances.
+   The split is a guide, not a hard lock. A labourer may lean
+   toward Strength and Toughness; a clerk may lean toward
+   Intelligence and relevant Lore. Keep the balance visible in the record.
+
+Record each skill with its final rank and the Experience spent to reach it.
+List the remaining unspent total (normally zero).
+
+Example layout under Characteristics:
+
+Skills
+Drive (Cart)          Experienced   525 XP
+Athletics             Proficient    225 XP
+Trade (Porter)        Known          75 XP
+Awareness             Known          75 XP
+...
+Total spent: xxxx XP
+Unspent: 0 XP
