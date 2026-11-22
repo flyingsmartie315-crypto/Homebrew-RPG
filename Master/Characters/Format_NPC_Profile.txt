@@ -181,8 +181,10 @@ Follow these three steps in order when an NPC is first created.
    Follow the rules below. Record the mechanical block in Entity style.
 
 3. Generate a short bio
+   REQUIRED. Do not omit.
    Written in the NPC’s internal monologue. Maximum 1500 words.
    First person, present or reflective as fits the voice.
+   Place it in the profile under the heading BIO before the scene internal_thoughts.
    Cover, in the character’s own words:
    - Who am I
    - Where was I born
@@ -199,6 +201,7 @@ Follow these three steps in order when an NPC is first created.
 
    The bio is private. It feeds later internal_thoughts.
    It is not read aloud.
+   A profile without the BIO block is incomplete.
 
 --------------------------------------------------
 GENERATION PROCESS
@@ -208,6 +211,9 @@ Results are written into the profile and do not change unless a later event alte
 
 Gender
 Male or Female.
+
+Virath gender rule
+Default to medieval norms. Martial roles, hazardous labour, and many skilled trades are male only unless a Peoples file or settlement entry already states an exception. A personal guard, log driver, miner, smith, or man-at-arms is male by default.
 
 Age
 Years. Set by context or roll appropriate to the occupation and role.
@@ -220,6 +226,40 @@ Elite rulers, their retinue, men-at-arms, knights, and similar are placed by con
 
 Rarity Tier
 Determine by random distribution or by correlation to the role occupied.
+
+--------------------------------------------------
+RARITY BY PROFESSION
+--------------------------------------------------
+When occupation is taken from Economy_Labour.txt,
+roll rarity according to the labour class.
+
+Common Labour
+Lumpen      35%
+Common      60%
+Uncommon     4%
+Elite        1%
+
+Basic Skilled Trades
+Lumpen      25%
+Common      60%
+Uncommon    14%
+Elite        1%
+
+Higher Skilled Trades & Skilled Hazardous Labour
+Lumpen      10%
+Common      60%
+Uncommon    25%
+Elite        5%
+
+Specialists
+Lumpen       5%
+Common      35%
+Uncommon    50%
+Elite       10%
+
+Elite rulers, their retinue, men-at-arms, and knights
+are not rolled on these tables. Place them by context.
+
 Apply the flat bonus to every characteristic:
 
 Lumpen     All characteristics +5
@@ -227,11 +267,25 @@ Common     All characteristics +10
 Uncommon   All characteristics +15
 Elite      All characteristics +20
 
-Characteristics
-Roll 9 × 1d30.
-Allocate the nine results to the nine characteristics.
-Add the rarity-tier bonus to each.
-The sum of the allocated rolls plus the tier bonus is the generated characteristic set.
+--------------------------------------------------
+CHARACTERISTICS & RARITY SET FILTERING
+--------------------------------------------------
+Each set is 3 × 1d10.
+Do not discard lowest sets. Keep every roll.
+Allocate the kept totals to characteristics suited to the NPC's role and occupation.
+Add the rarity-tier bonus after allocation.
+
+Lumpen    : Roll 9 sets   | Add +5 to all characteristics
+Common    : Roll 10 sets  | Add +10 to all characteristics
+Uncommon  : Roll 11 sets  | Add +15 to all characteristics
+Elite     : Roll 12 sets  | Add +20 to all characteristics
+
+Allocation Rule
+Assign the kept totals to characteristics that suit the role.
+A river hand takes Strength and Toughness.
+A counter takes Intelligence.
+A factor takes Fellowship.
+Higher results go to the characteristics the occupation uses.
 
 Personality and Values
 Use the characteristic scores to inform personality and values.
@@ -253,6 +307,30 @@ Individuals vary.
 Weight
 Weight in pounds.
 Consistent with height, build (from phenotype somatotype), and occupation.
+
+--------------------------------------------------
+APPEARANCE DESCRIPTION STYLE
+--------------------------------------------------
+Write appearance notes in 3–4 concrete, observational sentences.
+Blend terse, matter-of-fact campaign prose with sharp attention to lineage,
+phenotype, upbringing, and sumptuary dress.
+Do not use the scientific language of the Peoples phenotype blocks.
+
+1. Lineage & Bone Structure
+   Anchor skin, hair, eye colour, skull/face shape, and build directly to the
+   relevant Peoples_[Name].txt PHENOTYPE block and the generated height/weight values.
+
+2. Material Upbringing & Wear
+   Show Rarity Tier, age, and trade through physical marks—nutrition (gaunt vs. well-fed),
+   sun/wind exposure, soot, calluses, dental wear, or old scars.
+
+3. Dress & Sumptuary Rank
+   Note exact fabrics, dyes, cuts, and legal hardware (weapons, signets, coifs, aprons)
+   dictated by the culture's dress laws.
+
+4. Bearing & Tell
+   Close with one grounded detail of posture, gaze, or physical habit
+   that reveals temperament without poetic metaphors.
 
 --------------------------------------------------
 OUTPUT ON CREATION
