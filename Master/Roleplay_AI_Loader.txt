@@ -1,552 +1,590 @@
 # Roleplay AI Loader File
 # Always read this document first
 # Repo: https://github.com/flyingsmartie315-crypto/Homebrew-RPG
-# Indexed against main (115 blobs). Update this file when the tree changes.
+# Indexed against main (239 blobs). Each entry has a contents summary for auto-inference.
+# Index refreshed: 2026-11-22
 
 This is the mandatory starting point for every session and every query.
-Before loading any other file or generating a response, the AI must consult
-this Loader File to determine which repository documents are required.
-
-=== EXTERNAL STORAGE & AUTO-INFERENCE PROTOCOL ===
-
-All files live on the public GitHub repository:
-https://github.com/flyingsmartie315-crypto/Homebrew-RPG
+Before loading any other file, consult this index.
+Match the query to the summaries. Load only the files the query needs.
 
 Raw URL (spaces as %20):
 https://raw.githubusercontent.com/flyingsmartie315-crypto/Homebrew-RPG/main/[path]
 
-Example:
-https://raw.githubusercontent.com/flyingsmartie315-crypto/Homebrew-RPG/main/Master/Core/Armour.txt
-https://raw.githubusercontent.com/flyingsmartie315-crypto/Homebrew-RPG/main/Master/Economy/Finished%20Goods/Economy_Finished_Armour.txt
-
 Auto-Inference Rule:
-Detect which files are needed from plain-language queries. The user does
-not need to name files. Fetch full exact text with browse_page on the raw
-link. Load only what the current query needs. Chain if the scene widens.
+Read the summary, not just the filename.
+A query about a fight loads Core_Combat, Weaponry, and the injury table named on the sheet.
+A query about a place loads that region and its settlements.
+A query about a beast loads its Bestiary entry and its Entity block.
+A query about coin loads Economy_Rules and the relevant primary, processed, or finished file.
+Do not load the whole repository.
 
-=== CORE RULES REFERENCE PROTOCOL ===
+Hard rules carried in the index:
+- No Melee skill. A melee attack tests Weapon Skill. Parry * is the trained catch. Dodge is ordinary evasion.
+- Virath gender rule: martial roles, hazardous labour, and many skilled trades are male only unless a Peoples or settlement file states an exception.
+- Campaign_Log.txt wins on world state when it fights static lore.
+- Do not invent skills, characteristics, or labour bands.
 
-Mechanics first when the query is rules, dice, characters, combat, injury,
-armour, weapons, shields, size, encumbrance, time, or company play.
+============================================================
+FILE INDEX  (path — contents)
+============================================================
 
-Load order for a swing:
-  Core_Resolution.txt
-  Core_Characteristics_Skills.txt
-  Core_Combat.txt
-  Weaponry.txt and/or Shield_Rules.txt
-  Armour_Rules.txt then Armour.txt
-  Core_Injury.txt then the Entity's Injury Table file
+--- Master/Characters ---
+Characters/Format_NPC_Profile.txt
+  NPC generation protocol. Context, 3d10 rarity sets, BIO, relations, internal thoughts, scene population. Virath gender rule.
 
-The Entity sheet names the injury table:
-  Injury Table: Injury_Tables_X.txt
-Missing line defaults to Bipedal. Do not guess from Size.
+--- Master/Core/Combat ---
+Core/Combat/Armour.txt
+  Armour catalogue. Models, forms, AC, Enc, cost.
+Core/Combat/Armour_Rules.txt
+  How armour works. Layers, slots, coverage, soak, Enc, forms, iron grade.
+Core/Combat/Core_Combat.txt
+  Structured time. Rounds, initiative, actions, movement, called shot, hit procedure.
+Core/Combat/Core_Injury.txt
+  When a hit becomes injury. Wallace then Slot. Bleed, overflow, fate.
+Core/Combat/Durability.txt
+  Structural integrity for objects, gates, hulls, and works.
+Core/Combat/Injury Tables/Injury_Tables_Bipedal.txt
+  Injury table for man-shaped bodies. Head, torso, arms, legs.
+Core/Combat/Injury Tables/Injury_Tables_Equine.txt
+  Injury table for horse-type bodies. One toe. No muscle below knee/hock.
+Core/Combat/Injury Tables/Injury_Tables_Gryphon.txt
+  Injury table for the gryphon body plan.
+Core/Combat/Injury Tables/Injury_Tables_Hoofed.txt
+  Injury table for cloven and pig hoof. Elk, cattle, pig, sheep, goat.
+Core/Combat/Injury Tables/Injury_Tables_Predator.txt
+  Injury table for pawed predators. Wolf, hound, great cat.
+Core/Combat/Injury Tables/Injury_Tables_Spider.txt
+  Injury table for spiders. Eight legs, cephalothorax, abdomen.
+Core/Combat/Shield_Rules.txt
+  Shields. Held not slotted. Defensive, free parry, overflow.
+Core/Combat/Siege_Volatiles.txt
+  Blast, fire, and toxic resolution for black powder and incendiaries.
+Core/Combat/Siege_Weapons.txt
+  Siege engine stats. Tension, torsion, counterweight, black powder. Crew and reload.
+Core/Combat/Weaponry.txt
+  Weapon profiles. Cut/pierce/blunt, reach, range, qualities, ammunition.
 
-RULES FOR FILE ACCESS AND INFERENCE:
-1. You may reference any file in the index without the user naming it.
-2. When the player mentions a person, place, faction, creature, event,
-   or concept, check the matching files.
-3. Infer and cross-reference.
-4. When in doubt, use this index, then pull the fewest files that answer.
-5. Do not contradict loaded lore. Campaign_Log.txt wins on world state.
-6. New content stays grim, grounded, low-to-mid supernatural horror.
+--- Master/Core/Core_Characteristics_Skills.txt ---
+Core/Core_Characteristics_Skills.txt
+  Nine characteristics, bonuses, Size, Movement, Enc, Wounds, NAC, and the skill list. No Melee skill. Parry * is the trained catch.
 
-=== REVISION & CONSISTENCY PROTOCOL ===
+--- Master/Core/Core_EXP.txt ---
+Core/Core_EXP.txt
+  Experience spend. Age × rarity rate. Skill ranks and costs. Characteristic advance. Pre-adulthood stages.
 
-Revising a document: load the original, then supporting files. Merge.
-Preserve tone, names, and lore unless the user asks for a rewrite.
+--- Master/Core/Core_Fatigue.txt ---
+Core/Core_Fatigue.txt
+  Fatigue track. Sleep, short rest, work hours. Penalty per point.
 
-=== FALLBACK & MISSING FILES ===
+--- Master/Core/Core_Fear.txt ---
+Core/Core_Fear.txt
+  Fear and terror tests. When the Unveiling or a beast breaks nerve.
 
-If a file is not in the index or will not fetch:
-- Say it is missing.
-- Use Core_RP_Guidelines.txt, already-loaded files, and tone.
-- Do not invent major lore or rules that would fight a future official file.
-- Offer to draft the missing file.
+--- Master/Core/Core_RP_Guidelines.txt ---
+Core/Core_RP_Guidelines.txt
+  Tone, agency, dice transparency, immersion, scene types. Wins on a dramatic call.
 
-=== PURPOSE ===
+--- Master/Core/Core_Resolution.txt ---
+Core/Core_Resolution.txt
+  d100 resolution. Success, fail, DoS/DoF, opposed tests, bonuses, narrative vs structured time.
 
-Parse the query. Match it to the index. Load what is needed. Do not load
-the whole repository.
+--- Master/Core/Core_Talents_Failings_Afflictions.txt ---
+Core/Core_Talents_Failings_Afflictions.txt
+  Framework for Talents, Failings, and Afflictions. Catalogue lives on the sheet, not here.
 
-==================================================
-REPOSITORY TREE
-==================================================
+--- Master/Core/Core_Traits.txt ---
+Core/Core_Traits.txt
+  Creature and stock traits that modify tests or body. Distinct from Talents.
 
-Master/
-├── Roleplay_AI_Loader.txt
-├── Characters/
-│   ├── Character_Generation_Protocol.txt
-│   ├── Major/Major_Purpose.txt
-│   ├── Minor/Minor_Purpose.txt
-│   └── PCs/PC_Purpose.txt
-├── Core/
-│   ├── Core_RP_Guidelines.txt
-│   ├── Core_Resolution.txt
-│   ├── Core_Characteristics_Skills.txt
-│   ├── Core_Combat.txt
-│   ├── Core_Injury.txt
-│   ├── Injury_Tables_Bipedal.txt
-│   ├── Injury_Tables_Equine.txt
-│   ├── Injury_Tables_Predator.txt
-│   ├── Injury_Tables_Hoofed.txt
-│   ├── Injury_Tables_Spider.txt
-│   ├── Armour_Rules.txt
-│   ├── Armour.txt
-│   ├── Weaponry.txt
-│   ├── Shield_Rules.txt
-│   ├── Core_Talents_Failings_Afflictions.txt
-│   ├── Pathogens_Poisons_Curses.txt
-│   ├── Core_Fatigue.txt
-│   ├── Core_Terrain.txt
-│   └── Hazards.txt
-├── Economy/
-│   ├── Economy_Rules.txt
-│   ├── Economy_Primary_Goods.txt
-│   ├── Economy_Processed_Goods.txt
-│   ├── Economy_Labour.txt
-│   ├── Economy_Livestock.txt
-│   ├── Economy_Agriculture.txt
-│   ├── Economy_Unveiling_Goods.txt
-│   ├── Economy_Unveiling_Beasts.txt
-│   ├── Finished Goods/
-│   │   ├── Economy_Finished_Goods_Index.txt
-│   │   ├── Economy_Finished_Architecture.txt
-│   │   ├── Economy_Finished_Armour.txt
-│   │   ├── Economy_Finished_Arms.txt
-│   │   ├── Economy_Finished_Clothing.txt
-│   │   ├── Economy_Finished_Household.txt
-│   │   ├── Economy_Finished_Tools.txt
-│   │   └── Economy_Finished_Transport.txt
-│   └── Yield/
-│       ├── Economy_Yield.txt
-│       ├── Economy_Agri_Yield.txt
-│       ├── Economy_Product_Yield.txt
-│       └── Economy_Processing_Matrix.txt
-├── Entities/
-│   ├── Entities_Purpose.txt
-│   ├── Man/Man_Purpose.txt
-│   ├── Beast/Beast_Purpose.txt
-│   └── Abominations/Abominations.txt
-├── Geography/
-│   ├── Geography_Purpose.txt
-│   ├── Geography_Rules.txt
-│   ├── Geographic_Region_Format.txt
-│   ├── Local_Region_Format.txt
-│   ├── Settlement_Format.txt
-│   ├── Geographic_Regions/
-│   │   ├── Appolasian Plateau/Geographic_Region_Appolasian_Plateau.txt
-│   │   ├── Coritania/Geographic_Region_Coritanian_Heartlands.txt
-│   │   ├── Valenidia/Geographic_Region_Valenidia.txt
-│   │   └── Ebon Peninsula/
-│   │       ├── Local_Region_Ebormark.txt
-│   │       ├── Local_Region_Highmarch.txt
-│   │       ├── Local_Region_Kannavald_Deepwood.txt
-│   │       ├── Local_Region_Rhennod_Marches.txt
-│   │       └── Local_Region_Westmark.txt
-│   ├── Settlements/
-│   │   ├── Ebormark/Settlement_Eyrenal.txt
-│   │   └── Kannavald Deepwoods/
-│   │       ├── Settlement_Askgruv.txt
-│   │       ├── Settlement_Burnford.txt
-│   │       ├── Settlement_Hornby.txt
-│   │       ├── Settlement_Kolby-on-Vatn.txt
-│   │       ├── Settlement_Oldfort_Kilnstead.txt
-│   │       ├── Settlement_The_Twaford_Twins.txt
-│   │       └── Hazards/Settlement_Kolholm.txt
-│   └── Geography_Maps/
-│       ├── Worldmap.wonderdraft_map
-│       ├── Brett.wonderdraft_map
-│       ├── Ebormark.wonderdraft_map
-│       ├── Map_Local_Region_Kannavald_Deepwoods.jpg
-│       └── wip2.png
-├── Log/
-│   └── Campaign_Log.txt
-└── World/
-    ├── World_Fundamentals.txt
-    ├── World_Calander.txt
-    ├── The_Unveiling.txt
-    ├── Prehistoric_Megastructures.txt
-    ├── Cultures/
-    │   ├── Cultures_Purpose.txt
-    │   ├── Geographic Region/Svar/Kannavald Deepwood/Customs_Kannavald.txt
-    │   └── Peoples/
-    │       ├── World_History_Matrix.txt
-    │       ├── Founders/
-    │       │   ├── Peoples_Pionari.txt
-    │       │   ├── Peoples_Ingenari.txt
-    │       │   ├── Peoples_Novari.txt
-    │       │   ├── Peoples_Ordinari.txt
-    │       │   └── Peoples_Aperti.txt
-    │       └── Early/
-    │           ├── Peoples_Isernvolk.txt
-    │           └── Peoples_Syllvani.txt
-    └── Ecosystem/
-        ├── Bestiary_Rules.txt
-        ├── Bestiary_Format.txt
-        ├── Fauna_Format.txt
-        ├── Fauna_Oceanic_Format.txt
-        ├── Flora_Format.txt
-        ├── Flora_Oceanic_Format.txt
-        ├── Bestiary/Land/          (15 entries)
-        ├── Bestiary/Oceanic/       (Scylla)
-        ├── Fauna/Land/
-        ├── Fauna/Oceanic/
-        └── Flora/
+--- Master/Core/Hazards.txt ---
+Core/Hazards.txt
+  Environmental harm. Suffocation, falls, fire-adjacent rules as written.
 
-==================================================
-MASTER FILE INDEX
-==================================================
+--- Master/Core/Pathogens_Poisons_Curses.txt ---
+Core/Pathogens_Poisons_Curses.txt
+  Agents: pathogen, poison, venom, curse. Origin, transmission, symptoms, recovery.
 
---------------------------------------------------
-CORE  (mechanics — this chat's law)
---------------------------------------------------
+--- Master/Core/Travel ---
+Core/Travel/Core_Terrain.txt
+  Ground bands from geography axes. Fatigue and difficult-ground modifiers.
 
-Core_RP_Guidelines.txt
-  Tone, agency, dice transparency, immersion. Wins on dramatic call.
+--- Master/Core/Vehicle ---
+Core/Vehicle/Vehicle_Land_Profile.txt
+  Land vehicle profile. Wagons, carts, draft, load, movement.
+Core/Vehicle/Vehicle_Sea_Profile.txt
+  Sea vessel profile. Hull, crew, cargo, handling.
 
-Core_Resolution.txt
-  d100, success/fail, DoS/DoF, opposed tests, bonuses, narrative vs
-  structured time, keywords (Entity).
-
-Core_Characteristics_Skills.txt
-  Characteristics, bonuses, skills (known / *advanced), Size, Movement,
-  Enc bands (S×5 unencumbered, S×10 combat load), Wounds, NAC, Initiative,
-  Attacks, IP, FP, lift/press/push.
-
-Core_Combat.txt
-  Rounds (10 seconds), initiative (Ag+1d10, reroll each round),
-  action economy, basic actions, movement yards, Called Shot,
-  opposed Dodge/Parry, hit procedure, prose format.
-
-Core_Injury.txt
-  When injury happens. 2d100: Wallace then Slot. Points at the table
-  file named on the Entity sheet. Bleed, Overflow, Fate.
-
-Injury_Tables_Bipedal.txt
-  Man-shaped. Head, torso (incl. Armpit), arms, legs.
-
-Injury_Tables_Equine.txt
-  Horse-type. One toe. No muscle below knee/hock.
-
-Injury_Tables_Predator.txt
-  Paws: wolf, hound, great cat, gryphon.
-
-Injury_Tables_Hoofed.txt
-  Cloven / pig hoof: elk, bison, cattle, pig, sheep, goat.
-  Not horse.
-
-Injury_Tables_Spider.txt
-  Eight legs. Cephalothorax and abdomen. Pedicel 8 is two pieces.
-
-Armour_Rules.txt
-  Layers, Slots, Coverage, soak cascade, Enc, Forms, Iron Grade,
-  Natural Armour, pairing / bulk / closed helm.
-
-Armour.txt
-  Catalogue. Models, Forms, AC, Enc, Common cost (mid of
-  Economy_Finished_Armour). Iron Grade shared with Weaponry.
-
-Weaponry.txt
-  Profiles Cut/Pierce/Blunt, Reach, Range, qualities, craft,
-  Iron Grade, ammunition, siege as narrative.
-
-Shield_Rules.txt
-  Held, not slotted. Defensive(x), free Parry including shot,
-  overflow through the shield AC onto the wearer.
-
-Core_Talents_Failings_Afflictions.txt
-  Framework only. Talent helps, Failing hurts,
-  Affliction is disease or a lasting wound.
-  No catalogue in that file. Entries live on
-  the Entity sheet.
-
-Pathogens_Poisons_Curses.txt
-  Agents: pathogen, poison, venom, curse.
-  Four blocks: Origin, Transmission,
-  Symptoms, Recovery. Hidden Toughness
-  to contract. Live copy is an Affliction.
-
-Core_Fatigue.txt
-  Track, sleep, short rest, work hours.
-  −5 per point to every Characteristic.
-
-Core_Terrain.txt
-  Geography 0–5 axes → Ground Band
-  (Easy to Extreme) for Fatigue and
-  Combat difficult ground.
-
-Hazards.txt
-  Suffocation. Fall: kit is 0 AC,
-  NAC only, Safe Drop and hanging
-  ledge. Fire not written.
-
---------------------------------------------------
-ECONOMY
---------------------------------------------------
-
-Economy_Rules.txt
-  Currency (1 gc = 20 sc = 240 bc) and the market frame.
-
-Economy_Primary_Goods.txt
-  Ore, grain, timber, stone. 1 kg base.
-
-Economy_Processed_Goods.txt
-  Metals: Crude Iron (feedstock), Wrought Iron, Steel,
-  Fine Steel, Crucible Steel. Wood, cloth, hide.
-
-Economy_Labour.txt
-  Day-wages. Ring-hand 16 bc, Basic 30, Higher armourer 65,
-  Master 155.
-
-Economy_Livestock.txt
-  Live stock, slaughter, household yield.
-
-Economy_Agriculture.txt
+--- Master/Economy/Economy_Agriculture.txt ---
+Economy/Economy_Agriculture.txt
   Crops and farm practice.
 
-Economy_Unveiling_Goods.txt
-  Rare harvested matter. Sits on top of the shop floor.
+--- Master/Economy/Economy_Labour.txt ---
+Economy/Economy_Labour.txt
+  Day-wages and labour classes. Rarity distributions for NPC occupation.
 
-Economy_Unveiling_Beasts.txt
-  Gryphon and other priced living rarities.
+--- Master/Economy/Economy_Livestock.txt ---
+Economy/Economy_Livestock.txt
+  Live stock prices, slaughter value, upkeep, dairy ladder.
 
-Economy_Finished_Goods_Index.txt
-  Pointer into Finished Goods/.
+--- Master/Economy/Economy_Primary ---
+Economy/Economy_Primary/Economy_Primary_Agriculture.txt
+  Raw farm output. Grain, fibre, orchard.
+Economy/Economy_Primary/Economy_Primary_Animal_Products.txt
+  Raw animal products. Milk, eggs, wool, hide before process.
+Economy/Economy_Primary/Economy_Primary_Earths_and_Salts.txt
+  Clay, lime, salt, and earth salts.
+Economy/Economy_Primary/Economy_Primary_Forestry.txt
+  Intact timber yield by species and diameter.
+Economy/Economy_Primary/Economy_Primary_Goods.txt
+  Primary goods baseline and format.
+Economy/Economy_Primary/Economy_Primary_Minerals.txt
+  Ore and mineral primary units.
+Economy/Economy_Primary/Economy_Primary_Stone.txt
+  Quarry stone. Intact blocks before dressing.
+Economy/Economy_Primary/Economy_Primary_Wilderness_Foraging.txt
+  Foraged primary goods off the farm.
 
-Economy_Finished_Architecture.txt
-  Built work.
+--- Master/Economy/Economy_Processed ---
+Economy/Economy_Processed/Economy_Processed_Animal_Goods.txt
+  Leather grades, butter, cheese, worked hide and bone.
+Economy/Economy_Processed/Economy_Processed_Ceramic.txt
+  Fired clay goods.
+Economy/Economy_Processed/Economy_Processed_Cloth.txt
+  Spun and woven cloth.
+Economy/Economy_Processed/Economy_Processed_Drink.txt
+  Ale, wine, and distilled drink.
+Economy/Economy_Processed/Economy_Processed_Goods.txt
+  Processed goods format and index.
+Economy/Economy_Processed/Economy_Processed_Household.txt
+  Processed household stores.
+Economy/Economy_Processed/Economy_Processed_Metal.txt
+  Bloom, bar, wrought, steel grades.
+Economy/Economy_Processed/Economy_Processed_Milled.txt
+  Milled grain and meal.
+Economy/Economy_Processed/Economy_Processed_Preserve.txt
+  Salted, smoked, and stored food.
+Economy/Economy_Processed/Economy_Processed_Stone.txt
+  Dressed stone, brick, and build-ready masonry.
+Economy/Economy_Processed/Economy_Processed_Woodwork.txt
+  Sawn, shaped, and joined timber.
 
-Economy_Finished_Armour.txt
-  Shop bands and three shops (mail sweatshop, segmented bench,
-  plate academy). Core Common column is Armour.txt Base cost.
-  Waste factors. Do not stack AC here.
+--- Master/Economy/Economy_Rules.txt ---
+Economy/Economy_Rules.txt
+  Currency and the market frame. 1 gc = 20 sc = 240 bc.
 
-Economy_Finished_Arms.txt
-  Finished weapons as goods.
+--- Master/Economy/Economy_Unveiling_Beasts.txt ---
+Economy/Economy_Unveiling_Beasts.txt
+  Priced living rarities and slaughter bounties for bestiary beasts.
 
-Economy_Finished_Clothing.txt
-  Dress. Not soak.
+--- Master/Economy/Economy_Unveiling_Goods.txt ---
+Economy/Economy_Unveiling_Goods.txt
+  Harvested Unveiling matter. Hides, bone, ivory, silk, venom. Intact units.
 
-Economy_Finished_Household.txt
-  Domestic goods.
+--- Master/Economy/Finished Goods ---
+Economy/Finished Goods/Economy_Finished_Architecture.txt
+  Built work. Houses, halls, walls, cost.
+Economy/Finished Goods/Economy_Finished_Armour.txt
+  Shop bands for armour. Mail, segmented, plate.
+Economy/Finished Goods/Economy_Finished_Arms.txt
+  Finished weapons and their shop cost.
+Economy/Finished Goods/Economy_Finished_Clothing.txt
+  Finished clothing by cut and cloth.
+Economy/Finished Goods/Economy_Finished_Goods_Index.txt
+  Pointer into the finished-goods files.
+Economy/Finished Goods/Economy_Finished_Household.txt
+  Finished household goods.
+Economy/Finished Goods/Economy_Finished_Siege_Arms.txt
+  Material and labour cost of siege engines.
+Economy/Finished Goods/Economy_Finished_Stone.txt
+  Bespoke stone commissions. Statues, tables, busts.
+Economy/Finished Goods/Economy_Finished_Tools.txt
+  Finished tools.
+Economy/Finished Goods/Economy_Finished_Transport.txt
+  Finished wagons, carts, and fittings.
+Economy/Finished Goods/Economy_Finished_Volatiles.txt
+  Finished black powder, Greek fire, and toxic stores. Storage and cost.
 
-Economy_Finished_Tools.txt
-  Tools.
+--- Master/Economy/Yield ---
+Economy/Yield/Economy_Agri_Yield.txt
+  Agricultural yield bands.
+Economy/Yield/Economy_Processing_Matrix.txt
+  What process turns which primary into which processed good.
+Economy/Yield/Economy_Product_Yield.txt
+  Product yield from process steps.
+Economy/Yield/Economy_Yield.txt
+  Yield rules linking primary to processed to finished.
 
-Economy_Finished_Transport.txt
-  Carts, tack, hulls.
+--- Master/Geography/Geographic_Region_Format.txt ---
+Geography/Geographic_Region_Format.txt
+  Format for a geographic region file.
 
-Economy_Yield.txt
-  Yield law.
+--- Master/Geography/Geographic_Regions ---
+Geography/Geographic_Regions/Appolasian Plateau/Geographic_Region_Appolasian_Plateau.txt
+  Geographic region: Appolasian Plateau.
+Geography/Geographic_Regions/Coritania/Geographic_Region_Coritanian_Heartlands.txt
+  Geographic region: Coritanian Heartlands.
+Geography/Geographic_Regions/Dauðavík/Geographic_Region_Dauðavík.txt
+  Geographic region: Dauðavík.
+Geography/Geographic_Regions/Ebon Peninsula/Geographic_Region_Ebon_Peninsula.txt
+  Geographic region: Ebon Peninsula.
+Geography/Geographic_Regions/Ebon Peninsula/Local_Region_Ardairn_Valley.txt
+  Local region: Ardairn Valley.
+Geography/Geographic_Regions/Ebon Peninsula/Local_Region_Ebormark.txt
+  Local region: Ebormark.
+Geography/Geographic_Regions/Ebon Peninsula/Local_Region_Highmarch.txt
+  Local region: Highmarch.
+Geography/Geographic_Regions/Ebon Peninsula/Local_Region_Kannavald_Deepwood.txt
+  Local region: Kannavald Deepwood.
+Geography/Geographic_Regions/Ebon Peninsula/Local_Region_Rhennod_Marches.txt
+  Local region: Rhennod Marches.
+Geography/Geographic_Regions/Valenidia/Geographic_Region_Valenidia.txt
+  Geographic region: Valenidia.
+Geography/Geographic_Regions/Valenidia/Local_Region_Buscany.txt
+  Local region: Buscany.
+Geography/Geographic_Regions/Valenidia/Local_Region_Holtwald.txt
+  Local region: Holtwald.
 
-Economy_Agri_Yield.txt
-  Field yields.
+--- Master/Geography/Geography_Rules.txt ---
+Geography/Geography_Rules.txt
+  How regions, locals, and settlements are written and used.
 
-Economy_Product_Yield.txt
-  Workshop yields.
+--- Master/Geography/Local_Region_Format.txt ---
+Geography/Local_Region_Format.txt
+  Format for a local region file.
 
-Economy_Processing_Matrix.txt
-  How primary becomes processed becomes finished.
-  Shop inputs for armour sit here and in Finished_Armour.
+--- Master/Geography/Name Protocol.txt ---
+Geography/Name Protocol.txt
+  Naming rules for places and features.
 
---------------------------------------------------
-WORLD
---------------------------------------------------
+--- Master/Geography/Settlement_Format.txt ---
+Geography/Settlement_Format.txt
+  Format for a settlement file.
 
-World_Fundamentals.txt
-  Virath: air, tech, folk, high history.
+--- Master/Geography/Settlements ---
+Geography/Settlements/Ardairn Valley/Settlement_Aumarkt.txt
+  Settlement entry for Aumarkt in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Breitfeld.txt
+  Settlement entry for Breitfeld in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Castle_Kaerpact.txt
+  Settlement entry for Castle Kaerpact in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Crestfud.txt
+  Settlement entry for Crestfud in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Deneshaw.txt
+  Settlement entry for Deneshaw in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Dracan-Vane.txt
+  Settlement entry for Dracan-Vane in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Eirblast.txt
+  Settlement entry for Eirblast in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Faldanord.txt
+  Settlement entry for Faldanord in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Giassrad.txt
+  Settlement entry for Giassrad in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Graswick.txt
+  Settlement entry for Graswick in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Grenstatt.txt
+  Settlement entry for Grenstatt in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Heckenfeld.txt
+  Settlement entry for Heckenfeld in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Herrenbruck.txt
+  Settlement entry for Herrenbruck in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Hofstatt.txt
+  Settlement entry for Hofstatt in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Holtward.txt
+  Settlement entry for Holtward in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Huegelweid.txt
+  Settlement entry for Huegelweid in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Isabrug.txt
+  Settlement entry for Isabrug in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Jahrreih.txt
+  Settlement entry for Jahrreih in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Kappstrand.txt
+  Settlement entry for Kappstrand in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Karbēo.txt
+  Settlement entry for Karbēo in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Kesselgrube.txt
+  Settlement entry for Kesselgrube in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Kornberg.txt
+  Settlement entry for Kornberg in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Kreuzholt.txt
+  Settlement entry for Kreuzholt in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Kuhbruck.txt
+  Settlement entry for Kuhbruck in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Käsweid.txt
+  Settlement entry for Käsweid in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Laedburg.txt
+  Settlement entry for Laedburg in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Litflath.txt
+  Settlement entry for Litflath in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Muehlreih.txt
+  Settlement entry for Muehlreih in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Muehlstatt.txt
+  Settlement entry for Muehlstatt in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Nauufer.txt
+  Settlement entry for Nauufer in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Nistburg.txt
+  Settlement entry for Nistburg in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Nithing_Fort.txt
+  Settlement entry for Nithing Fort in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Osricford.txt
+  Settlement entry for Osricford in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Pomeranzenholt.txt
+  Settlement entry for Pomeranzenholt in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Ravnburg.txt
+  Settlement entry for Ravnburg in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Rissmarkt.txt
+  Settlement entry for Rissmarkt in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Rosshof.txt
+  Settlement entry for Rosshof in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Scirward_Castle.txt
+  Settlement entry for Scirward Castle in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Skadzig.txt
+  Settlement entry for Skadzig in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Speicherstatt.txt
+  Settlement entry for Speicherstatt in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Stallreihe.txt
+  Settlement entry for Stallreihe in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Stígarborg.txt
+  Settlement entry for Stígarborg in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Sudholt.txt
+  Settlement entry for Sudholt in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Sundbruck.txt
+  Settlement entry for Sundbruck in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Tjarnborg.txt
+  Settlement entry for Tjarnborg in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Unterfeld.txt
+  Settlement entry for Unterfeld in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Vardgaard.txt
+  Settlement entry for Vardgaard in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/Settlement_Vitriolstatt.txt
+  Settlement entry for Vitriolstatt in Ardairn Valley.
+Geography/Settlements/Ardairn Valley/War_Nithing.txt
+  Settlement entry for War Nithing in Ardairn Valley.
+Geography/Settlements/Ebormark/Settlement_Eyrenal.txt
+  Settlement entry for Eyrenal in Ebormark.
+Geography/Settlements/Kannavald Deepwoods/Hazards/Settlement_Kolholm.txt
+  Settlement entry for Kolholm in Kannavald Deepwoods.
+Geography/Settlements/Kannavald Deepwoods/Settlement_Askgruv.txt
+  Settlement entry for Askgruv in Kannavald Deepwoods.
+Geography/Settlements/Kannavald Deepwoods/Settlement_Burnford.txt
+  Settlement entry for Burnford in Kannavald Deepwoods.
+Geography/Settlements/Kannavald Deepwoods/Settlement_Hornby.txt
+  Settlement entry for Hornby in Kannavald Deepwoods.
+Geography/Settlements/Kannavald Deepwoods/Settlement_Kolby-on-Vatn.txt
+  Settlement entry for Kolby-on-Vatn in Kannavald Deepwoods.
+Geography/Settlements/Kannavald Deepwoods/Settlement_Oldfort_Kilnstead.txt
+  Settlement entry for Oldfort Kilnstead in Kannavald Deepwoods.
+Geography/Settlements/Kannavald Deepwoods/Settlement_The_Twaford_Twins.txt
+  Settlement entry for The Twaford Twins in Kannavald Deepwoods.
 
-World_Calander.txt
-  Thaw, Highsun, Harvest, Longnight.
+--- Master/Log ---
+Log/Campaign_Log.txt
+  Living world state. Date, place, lasting change. Wins against static lore.
 
-The_Unveiling.txt
-  False Moon, Immaterium, barrier, GM meta on miracles.
-
-Prehistoric_Megastructures.txt
-  Cyclopean stone, grey ash, False Moon wake.
-
-World_History_Matrix.txt
-  Wave chronology against peoples.
-
---------------------------------------------------
-WORLD / CULTURES / PEOPLES
---------------------------------------------------
-
-Peoples_Pionari.txt
-  Wave 1 First Blood. Biosphere stewards. Appulse.
-
-Peoples_Ingenari.txt
-  Wave 2 Raisers. Lift and craft.
-
-Peoples_Novari.txt
-  Wave 3 Multitude. Demographic floor.
-
-Peoples_Ordinari.txt
-  Seal-Blood. Law-myth, thin numbers.
-
-Peoples_Aperti.txt
-  Openers. Myth and rare blood.
-
-Peoples_Isernvolk.txt
-  Ingenari-descended northwest. Iron and western sea.
-
-Peoples_Syllvani.txt
-  Pionari-descended. Appolasian Plateau.
-
-Cultures_Purpose.txt
-  Culture folder note.
-
-Customs_Kannavald.txt
-  Woods-Bells, Skinwight test, Forest Law, Still Stones.
-
---------------------------------------------------
-WORLD / ECOSYSTEM
---------------------------------------------------
-
-Bestiary_Rules.txt
-  HSI against regional scores.
-
-Bestiary_Format.txt
-  How a bestiary entry is written. Injury Table line lives
-  on the Entity sheet, not only here.
-
-Fauna_Format.txt / Fauna_Oceanic_Format.txt
-  Natural fauna templates.
-
-Flora_Format.txt / Flora_Oceanic_Format.txt
-  Flora templates.
-
-Fauna_Boreal.txt / Fauna_Temperate.txt
-  Land fauna.
-
-Fauna_Cold_sea.txt / Fauna_Polar_sea.txt /
-Fauna_Temperate_sea.txt / Fauna_Tropical_sea.txt /
-Fauna_Warm_sea.txt
-  Sea fauna by water.
-
-Flora_Boreal.txt / Flora_Temperate.txt
-  Land flora.
-
-Bestiary Land
-  Bestiary_Crag_Hart.txt
-  Bestiary_Deepwight.txt
-  Bestiary_Earth_Eater.txt
-  Bestiary_Fenwight.txt
-  Bestiary_Ghoul.txt
-  Bestiary_Gryphon.txt
-  Bestiary_Mintrox.txt
-  Bestiary_Orb_Wright.txt
-  Bestiary_Pale_Lurker.txt
-  Bestiary_Royal_Gryphon.txt
-  Bestiary_Skinwight.txt
-  Bestiary_Skitterling.txt
-  Bestiary_Sky_Hornet.txt
-  Bestiary_Vorax.txt
-  Bestiary_Weber_Fisher.txt
-
-Bestiary Oceanic
-  Bestiary_Scylla.txt
-
-Bestiary is lore. Entity is stats and mechanics.
-Entity_X.txt sits beside Bestiary_X.txt in the same Bestiary folder.
-Load Bestiary_Rules + the named Bestiary entry for lore, and the
-matching Entity_X.txt for stats, mechanics and the Injury Table:
-line. If no Entity file exists yet, see FALLBACK & MISSING FILES.
-
---------------------------------------------------
-GEOGRAPHY
---------------------------------------------------
-
-Geography_Rules.txt
-  Seven scores, biomes, height, season.
-
-Geographic_Region_Format.txt
-Local_Region_Format.txt
-Settlement_Format.txt
-Geography_Purpose.txt
-  How those files are written.
-
-Geographic_Region_Appolasian_Plateau.txt
-  Syllvani heartland. Mountain-ringed basin.
-
-Geographic_Region_Coritanian_Heartlands.txt
-  Coritania.
-
-Geographic_Region_Valenidia.txt
-  Valenidia.
-
-Local_Region_Ebormark.txt
-  South under Ebon Spire. Knights Gryphon at Eyrenhorst.
-
-Local_Region_Highmarch.txt
-Local_Region_Kannavald_Deepwood.txt
-Local_Region_Rhennod_Marches.txt
-Local_Region_Westmark.txt
-  Ebon Peninsula locals.
-
-Settlement_Eyrenal.txt
-  Ebormark seat.
-
-Kannavald settlements
-  Settlement_Kolby-on-Vatn.txt
-  Settlement_Askgruv.txt
-  Settlement_Burnford.txt
-  Settlement_Hornby.txt
-  Settlement_Oldfort_Kilnstead.txt
-  Settlement_The_Twaford_Twins.txt
-  Settlement_Kolholm.txt          hazard
-
-Maps (not text law)
-  Worldmap.wonderdraft_map
-  Brett.wonderdraft_map
-  Ebormark.wonderdraft_map
-  Map_Local_Region_Kannavald_Deepwoods.jpg
-  wip2.png
-
---------------------------------------------------
-CHARACTERS / ENTITIES / LOG
---------------------------------------------------
-
-Character_Generation_Protocol.txt
-  How a background face becomes a sheet through play.
-
-Major_Purpose.txt / Minor_Purpose.txt / PC_Purpose.txt
-  Storage notes. Named sheets go here when written.
-
-Entities_Purpose.txt
-  Gameplay stats for PCs and NPCs.
-  Required line: Injury Table: Injury_Tables_X.txt
-
-Man_Purpose.txt / Beast_Purpose.txt / Abominations.txt
-  Category notes. Natural Armour lives on the Entity
-  (Armour_Rules).
-
-Campaign_Log.txt
-  Living world. Date, place, lasting change. Wins vs
-  static lore when they fight.
-
+--- Master ---
 Roleplay_AI_Loader.txt
-  This file.
+  Mandatory first file. Index, routing, and auto-inference rules.
 
-==================================================
-QUERY ROUTING (short)
-==================================================
+--- Master/World/Cultures ---
+World/Cultures/Misc/Karl_Stonn_Notes_Untouchables.txt
+  Notes on untouchables. Karl Stonn.
+World/Cultures/Peoples/Early/Peoples_Adernvolk.txt
+  Living people: Adernvolk. Phenotype, custom, dress, architecture.
+World/Cultures/Peoples/Early/Peoples_Boscan.txt
+  Living people: Boscan. Phenotype, custom, dress, architecture.
+World/Cultures/Peoples/Early/Peoples_Cortani.txt
+  Living people: Cortani. Phenotype, custom, dress, architecture.
+World/Cultures/Peoples/Early/Peoples_Hyrstwoods.txt
+  Living people: Hyrstwoods. Phenotype, custom, dress, architecture.
+World/Cultures/Peoples/Early/Peoples_Idraulici.txt
+  Living people: Idraulici. Phenotype, custom, dress, architecture.
+World/Cultures/Peoples/Early/Peoples_Isernvolk.txt
+  Living people: Isernvolk. Phenotype, custom, dress, architecture.
+World/Cultures/Peoples/Early/Peoples_Jarnvolk.txt
+  Living people: Jarnvolk. Phenotype, custom, dress, architecture.
+World/Cultures/Peoples/Early/Peoples_Kannavi.txt
+  Living people: Kannavi. Phenotype, custom, dress, architecture.
+World/Cultures/Peoples/Early/Peoples_Palatini.txt
+  Living people: Palatini. Phenotype, custom, dress, architecture.
+World/Cultures/Peoples/Early/Peoples_Syllvani.txt
+  Living people: Syllvani. Phenotype, custom, dress, architecture.
+World/Cultures/Peoples/Founders/Peoples_Aperti.txt
+  Founder people: Aperti. Phenotype, origin, custom.
+World/Cultures/Peoples/Founders/Peoples_Ingenari.txt
+  Founder people: Ingenari. Phenotype, origin, custom.
+World/Cultures/Peoples/Founders/Peoples_Novari.txt
+  Founder people: Novari. Phenotype, origin, custom.
+World/Cultures/Peoples/Founders/Peoples_Ordinari.txt
+  Founder people: Ordinari. Phenotype, origin, custom.
+World/Cultures/Peoples/Founders/Peoples_Pionari.txt
+  Founder people: Pionari. Phenotype, origin, custom.
+World/Cultures/Peoples/Peoples_Format.txt
+  Format for a Peoples file. Phenotype, customs, architecture tiers.
+World/Cultures/Peoples/World_History_Matrix.txt
+  Cross-dated history tying peoples and wars.
+World/Cultures/Regional History/Coritanian Heartlands/War_of_the_Ader.txt
+  Regional history: War of the Ader.
+World/Cultures/Regional History/Coritanian Heartlands/War_of_the_First_Coronation.txt
+  Regional history: War of the First Coronation.
+World/Cultures/Regional History/Coritanian Heartlands/Wars_of_the_Whitmarks.txt
+  Regional history: Wars of the Whitmarks.
+World/Cultures/Regional History/Coritanian Heartlands/Wars_of_the_Whitmarks_III.txt
+  Regional history: Wars of the Whitmarks III.
+World/Cultures/Regional History/Ebon Peninsula/Kannavald Deepwood/Customs_Kannavald.txt
+  Kannavald custom. Yard, river, and deepwood practice.
+World/Cultures/Trades/Rock_Collector_Guild.txt
+  The rock-collector guild. Practice and standing.
 
-Dice, tests, time                 Core_Resolution
-Stats, skills, size, Enc, wounds  Core_Characteristics_Skills
-A fight                           Core_Combat + Weaponry + Shield_Rules
-A hit landing                     Armour_Rules + Armour + Core_Injury
-  + the named Injury_Tables_*
-Kit price / who can make it       Economy_Finished_Armour + Labour
-  + Processed_Goods + Processing_Matrix
-A creature on screen              Bestiary_* + Bestiary_Rules
-  + matching Entity_* (stats, mechanics)
-  + matching Injury table
-A place                           Geography_Rules + that region
-  + settlements + Customs if Kannavald
-What year / season it is          World_Calander + Campaign_Log
-Tone fight                        Core_RP_Guidelines
+--- Master/World/Ecosystem ---
+World/Ecosystem/Bestiary/Land/Beastmen/Bestiary_Centaurs.txt
+  Bestiary entry for the Centaurs. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Beastmen/Bestiary_Cloven.txt
+  Bestiary entry for the Cloven. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Beastmen/Bestiary_Ditch_Imps.txt
+  Bestiary entry for the Ditch Imps. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Beastmen/Bestiary_Horned_Ones.txt
+  Bestiary entry for the Horned Ones. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Beastmen/Bestiary_Minotaurs.txt
+  Bestiary entry for the Minotaurs. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Beastmen/Bestiary_Pigmen.txt
+  Bestiary entry for the Pigmen. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Beastmen/Bestiary_Somnagors.txt
+  Bestiary entry for the Somnagors. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Crag Hart/Bestiary_Crag_Hart.txt
+  Bestiary entry for the Crag Hart. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Gryphon/Bestiary_Gryphon.txt
+  Bestiary entry for the Gryphon. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Gryphon/Bestiary_Royal_Gryphon.txt
+  Bestiary entry for the Royal Gryphon. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Gryphon/Entity_Gryphon.txt
+  Entity stat block for the Gryphon.
+World/Ecosystem/Bestiary/Land/Humanoid/Bestiary_Ghoul.txt
+  Bestiary entry for the Ghoul. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Humanoid/Bestiary_Mintrox.txt
+  Bestiary entry for the Mintrox. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Humanoid/Bestiary_Mintrox_Armour.txt
+  Bestiary entry for the Mintrox Armour. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Humanoid/Entities_Unnatural_Ghoul.txt
+  Bestiary entry for the Entities Unnatural Ghoul. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Humanoid/Entity_Ghoul.txt
+  Entity stat block for the Ghoul.
+World/Ecosystem/Bestiary/Land/Humanoid/Entity_Mintrox.txt
+  Entity stat block for the Mintrox.
+World/Ecosystem/Bestiary/Land/Humanoid/Entity_Mintrox_Warrior.txt
+  Entity stat block for the Mintrox Warrior.
+World/Ecosystem/Bestiary/Land/Insectoid/Bestiary_Earth_Eater.txt
+  Bestiary entry for the Earth Eater. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Insectoid/Bestiary_Sky_Hornet.txt
+  Bestiary entry for the Sky Hornet. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Insectoid/Bestiary_Vorax.txt
+  Bestiary entry for the Vorax. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Insectoid/Entity_Earth_Eater.txt
+  Entity stat block for the Earth Eater.
+World/Ecosystem/Bestiary/Land/Insectoid/Entity_Vorax_Queen.txt
+  Entity stat block for the Vorax Queen.
+World/Ecosystem/Bestiary/Land/Insectoid/Entity_Vorax_Soldier.txt
+  Entity stat block for the Vorax Soldier.
+World/Ecosystem/Bestiary/Land/Insectoid/Entity_Vorax_Worker.txt
+  Entity stat block for the Vorax Worker.
+World/Ecosystem/Bestiary/Land/Skinwight/Bestiary_Skinwight.txt
+  Bestiary entry for the Skinwight. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Spider/Bestiary_Orb_Wright.txt
+  Bestiary entry for the Orb Wright. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Spider/Bestiary_Pale_Lurker.txt
+  Bestiary entry for the Pale Lurker. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Spider/Bestiary_Skitterling.txt
+  Bestiary entry for the Skitterling. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Spider/Bestiary_Weber_Fisher.txt
+  Bestiary entry for the Weber Fisher. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Spider/Entity_Orb_Wright.txt
+  Entity stat block for the Orb Wright.
+World/Ecosystem/Bestiary/Land/Spider/Entity_Pale_Lurker.txt
+  Entity stat block for the Pale Lurker.
+World/Ecosystem/Bestiary/Land/Spider/Entity_Skitterling.txt
+  Entity stat block for the Skitterling.
+World/Ecosystem/Bestiary/Land/Troll/Bestiary_River_Troll.txt
+  Bestiary entry for the River Troll. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Troll/Bestiary_Rock_Troll.txt
+  Bestiary entry for the Rock Troll. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Troll/Entity_River_Troll.txt
+  Entity stat block for the River Troll.
+World/Ecosystem/Bestiary/Land/Troll/Entity_Rock_Troll.txt
+  Entity stat block for the Rock Troll.
+World/Ecosystem/Bestiary/Land/Wight/Bestiary_Deepwight.txt
+  Bestiary entry for the Deepwight. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Land/Wight/Bestiary_Fenwight.txt
+  Bestiary entry for the Fenwight. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary/Oceanic/Kraken/Bestiary_Scylla.txt
+  Bestiary entry for the Scylla. Habits, threat, bounty hooks.
+World/Ecosystem/Bestiary_Format.txt
+  Format for a bestiary entry.
+World/Ecosystem/Bestiary_Rules.txt
+  How beasts are stated and used in play.
+World/Ecosystem/Entity_Format.txt
+  Format for an entity stat block.
+World/Ecosystem/Fauna/Land/Fauna_Boreal.txt
+  Ordinary fauna list: Boreal.
+World/Ecosystem/Fauna/Land/Fauna_Temperate.txt
+  Ordinary fauna list: Temperate.
+World/Ecosystem/Fauna/Oceanic/Fauna_Cold_sea.txt
+  Ordinary fauna list: Cold sea.
+World/Ecosystem/Fauna/Oceanic/Fauna_Polar_sea.txt
+  Ordinary fauna list: Polar sea.
+World/Ecosystem/Fauna/Oceanic/Fauna_Temperate_sea.txt
+  Ordinary fauna list: Temperate sea.
+World/Ecosystem/Fauna/Oceanic/Fauna_Tropical_sea.txt
+  Ordinary fauna list: Tropical sea.
+World/Ecosystem/Fauna/Oceanic/Fauna_Warm_sea.txt
+  Ordinary fauna list: Warm sea.
+World/Ecosystem/Fauna_Format.txt
+  Format for ordinary land fauna.
+World/Ecosystem/Fauna_Oceanic_Format.txt
+  Format for ordinary sea fauna.
+World/Ecosystem/Flora/Flora_Boreal.txt
+  Flora list: Boreal.
+World/Ecosystem/Flora/Flora_Polar.txt
+  Flora list: Polar.
+World/Ecosystem/Flora/Flora_Temperate.txt
+  Flora list: Temperate.
+World/Ecosystem/Flora/Svartwood Placeholder Info.txt
+  Flora list: Svartwood Placeholder Info.
+World/Ecosystem/Flora_Format.txt
+  Format for flora entries. Links to forestry yield.
+World/Ecosystem/Flora_Oceanic_Format.txt
+  Format for sea flora.
 
-Do not load Economy when the query is only a swing.
-Do not load every bestiary when the query is one beast.
-}
+--- Master/World/Prehistoric_Megastructures.txt ---
+World/Prehistoric_Megastructures.txt
+  Precursor works. Scale and implication, not a manual.
+
+--- Master/World/The_Unveiling.txt ---
+World/The_Unveiling.txt
+  The Unveiling. Veil, False Moon, what presses through.
+
+--- Master/World/Theology ---
+World/Theology/Early/House_of_the_Spent_Working.txt
+  Historical account of the House of the Spent Working. Origin in Saturnia.
+World/Theology/Early/ImperialCult.txt
+  The imperial cult. Practice and claim.
+World/Theology/Faiths_Founders.txt
+  Foundation myths. Creation, fall, first manifestation.
+World/Theology/Faiths_Overview.txt
+  Survey of living faiths.
+World/Theology/Theology_Purpose.txt
+  What the theology files are for.
+World/Theology/Theology_Rules.txt
+  How faiths are written and used.
+World/Theology/Working_Index.txt
+  Index of theological working files.
+
+--- Master/World/World_Calendar.txt ---
+World/World_Calendar.txt
+  Calendar, seasons, and year count.
+
+--- Master/World/World_Fundamentals.txt ---
+World/World_Fundamentals.txt
+  World frame. Continents, seas, the shape of Virath.
+
+--- ROOT ---
+README.md
+  Repo entry. Points at the loader and the Master tree.
