@@ -165,6 +165,42 @@ RULES
 
 
 --------------------------------------------------
+GENERATION SEQUENCE
+--------------------------------------------------
+Follow these three steps in order when an NPC is first created.
+
+1. Establish context
+   Surroundings, environment, culture, settlement, and the immediate scene.
+   Who would be here, doing what, at this hour.
+   This context decides occupation, Peoples file, and the range of possible lives
+   before any dice are rolled.
+
+2. Generate the stats and mechanics profile
+   Gender, age, occupation, rarity, characteristics, pre-adulthood skills,
+   adult Experience spend, Looks, sensory traits, height, weight, appearance.
+   Follow the rules below. Record the mechanical block in Entity style.
+
+3. Generate a short bio
+   Written in the NPC’s internal monologue. Maximum 1500 words.
+   First person, present or reflective as fits the voice.
+   Cover, in the character’s own words:
+   - Who am I
+   - Where was I born
+   - How were / is my family
+   - Notable memories growing up (pre-18)
+   - Notable memories after 18 (if applicable)
+   - Greatest accomplishment and greatest shame
+     (either may be grand or entirely mundane)
+   - Secrets
+     (either may be grand or entirely mundane / trivial)
+   - How did I get here
+     (the immediate context of the encounter and the rough day-to-week
+     lead-up to this moment; mundane or eventful, good, bad, or average)
+
+   The bio is private. It feeds later internal_thoughts.
+   It is not read aloud.
+
+--------------------------------------------------
 GENERATION PROCESS
 --------------------------------------------------
 Run when the NPC is first created.
@@ -354,3 +390,46 @@ Awareness             Known          75 XP
 ...
 Total spent: xxxx XP
 Unspent: 0 XP
+
+--------------------------------------------------
+RELATIONS
+--------------------------------------------------
+A list of NPCs this character knows.
+Each entry:
+NPC name — link to that NPC_Profile.txt — short summary of the relation.
+
+Example:
+Yard-boss Harl — Harl_Venn_NPC_Profile.txt — Gives the orders for the drive. Respects him. Does not like him.
+Sister Annis — Annis_Holt_NPC_Profile.txt — Younger sister at the stave-camp. Writes when a runner passes.
+
+Update the list when a new NPC is met or when the relation changes.
+Empty is allowed if the character knows no named NPCs yet.
+
+--------------------------------------------------
+SCENE POPULATION
+--------------------------------------------------
+When a scene requires more than one NPC, generate them together
+under the same context.
+
+Procedure
+1. Establish the shared context once
+   (place, time, culture, what is happening, who would reasonably be present).
+2. Decide how many NPCs the scene needs and what roles they fill.
+   Do not generate bystanders who have no function in the scene.
+3. For each NPC:
+   - Run the full generation sequence (context already set, then stats, then bio).
+   - Write one internal_thoughts iteration for this scene only.
+   - Add Relations entries pointing at the other NPCs generated for the same scene.
+4. Mark every profile with the generation note:
+   Generated as if a PC interaction had been triggered in this scene.
+   Only one iteration has been written.
+   Further iterations occur only on subsequent PC interactions.
+
+Named NPCs who are known to the group but not physically present
+(example: a sibling at another camp) may be generated for the Relations list
+but receive no scene iteration.
+
+The system may populate a yard, a road, a hall, or a drive
+with a working team, a household, or a watch
+when the context supports it.
+It does not populate a scene with unnamed extras who will never be addressed.
