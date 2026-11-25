@@ -1,6 +1,6 @@
 # Core_Talents_Failings_Afflictions.txt
 # Virath — standing modifiers on an Entity.
-# Status: DRAFT. Framework only. No catalogue.
+# Status: DRAFT. Framework, worked forms, and the catalogue in section 7.
 # Companion files:
 #   Core_Characteristics_Skills.txt     what the test is
 #   Core_Resolution.txt                 how modifiers hit the TN
@@ -15,8 +15,9 @@ the things that change a test only in named situations.
 
 This file is the law for those things. Worked forms
 and Combat Manoeuvre Talents written here are locked.
-Do not generate extra entries to fill space. Other
-named entries live on Entity sheets.
+The catalogue in section 7 is the written list of
+Talents. Do not generate extra entries to fill space.
+Other named entries live on Entity sheets.
 
 --------------------------------------------------
 0. KEYWORDS
@@ -65,6 +66,8 @@ Affliction
   Do not write (5) or (15) on this band.
   Tens only, unless a later catalogue makes
   an exception for a named entry.
+  Section 7c is that exception: Character Talents
+  carry (5).
   (20) and (30) are innate to the kind.
   A man does not train Keen Hearing from
   (10) to (20). That is a different body.
@@ -76,6 +79,13 @@ Affliction
     (10)  noticed in a room.
     (20)  remembered after the room.
     (30)  the face travels ahead of the name.
+
+  Band for Character Talents
+    (5)   temperament and habit. A man who is
+          steady in a brawl, a woman who reads a
+          room. Smaller than a sense, and often
+          bought with a cost. Section 7c.
+    Never (5) on a sense or on Looks.
 
 Double-edged
   One named entry may list more than one
@@ -94,13 +104,34 @@ Pair
   test. The live state is one or the other, or
   neither.
 
+Prerequisite
+  An optional line on a Talent. What the holder
+  must have before taking it: a Characteristic
+  minimum, a Skill rank, time in a place, or a
+  lived event. Checked once, when the Talent is
+  taken or granted. Later loss (ageing, wounds,
+  an Affliction) does not remove the Talent.
+  A Talent with no Prerequisite line has none.
+
+Tier
+  The XP price of a bought Talent. Written on the entry
+  as Tier: N.
+    Tier 1    50 XP
+    Tier 2    100 XP
+    Tier 3    150 XP
+  An entry with no Tier line is Tier 1 (50 XP) as a
+  placeholder until a Tier is set. A Talent
+  gained at creation or by story is not bought and has no
+  price. Polyglot and Lettered Mind also change the price of
+  Skills (section 7b).
+
 Category
   Every Talent is one of:
     Innate
       Body or kind. Senses, Night Vision, Looks.
     Background
-      Upbringing, culture, environment.
-      Outdoorsman, Alley Cat.
+      Upbringing, culture, environment, trade.
+      Outdoorsman, Alley Cat, Streetwise.
     Combat Manoeuvre
       An Action or modifier that does not
       exist without this Talent.
@@ -134,6 +165,8 @@ This file is not that grant list.
 
 Form
   Name (X)
+  Category:
+  Prerequisite:   (optional)
   Trigger:
   Effect:
 
@@ -151,12 +184,24 @@ Law
   stack only if their triggers are both truly on.
   Do not invent a Talent to cover a rule that
   already exists (Size, Enc band, Iron Grade).
+  A Talent's bonus never opens a closed Skill.
+  An Advanced Skill (*) at Unknown is still no test,
+  unless the entry says so (Outdoorsman does).
+  Opposed tests: the Talent adds to its holder's test
+  only, never to the other side's.
+  The GM may cap Talents stacked on one test at
+  their sense (Resolution §4).
+  Where a Talent names a Skill or specialism, a
+  GM may add one for a named scene if the work is
+  plainly the same. Say so in the declaration.
 
 How it is gained
-  Birth, kind, career, or a later catalogue.
-  Until that catalogue exists, write the line
-  on the Entity that needs it. Do not batch-write
-  a list into this file.
+  Birth, kind, career, upbringing, or story, as the
+  entry says. Section 7 is the catalogue.
+  Entries outside it are written on the Entity that
+  needs them. Do not batch-write a list into this file.
+  Cost in XP is the entry's Tier (§0). With no Tier
+  line, the Core_EXP.txt default applies.
 
 Worked form — Hearing (Talent)
   Names on the sheet, pick one:
@@ -240,14 +285,17 @@ Worked form — Outdoorsman (Biome)
 
 Worked form — Alley Cat
   Category: Background.
+  Tier: 1 (50 XP). Placeholder.
   Talent. (10) fixed. No bracket.
   Name on the sheet: Alley Cat
   At home on the streets.
   Trigger: Concealment and Silent Move,
-  in an urban place — town, city, village
-  streets and alleys, a fort or camp that
-  has lanes. Not the tree line. Not open
-  field. Not a wild cave.
+  in an urban place (7a): the built-up area
+  of a town or city, its streets, lanes, and
+  alleys. A fort, keep, or camp takes the class
+  of the settlement it stands in. Not a village
+  or hamlet. Not the tree line. Not open field.
+  Not a wild cave.
   Rank on those tests:
     Unknown — full Skill Base, not Base ÷ 2.
     No +10 on top.
@@ -445,14 +493,1039 @@ last. Log them at the start of the Round.
 
 Sense, Looks, Outdoorsman, Alley Cat, and
 the Combat Manoeuvre names in §8 are locked.
-Do not generate further entries here.
+Sections 7a to 7c are the catalogue of Talents
+written so far. Do not generate further entries here.
+
+7a  Urban and Rural. The definition Streetwise and
+    Parish Wise use.
+7b  Talents (10). Background and Innate.
+7c  Character Talents (5). Temperament and habit.
+Quirks (flavour only, no mechanics) are not Talents.
+They live in NPC_Generation_Protocol.txt (QUIRKS).
+
+--------------------------------------------------
+7a. URBAN AND RURAL
+--------------------------------------------------
+
+Source: Economy_Agri_Yield.txt settlement classes.
+  Hamlet    fewer than 200 people
+  Village   200 to 1,500
+  Town      1,500 to 8,000
+  City      more than 8,000
+
+Urban   Town and bigger. 1,500 or more people.
+Rural   Village and smaller. Under 1,500 people.
+
+Rules
+  Class by the settlement file's working population.
+  Where a range is given, use the middle. At exactly
+  1,500 the place is urban.
+  Within a town or city, the built-up area is urban.
+  The fields, lanes, and farms outside it are rural.
+  A keep, fort, hall, or camp takes the class of the
+  settlement it stands in. A lone fort or camp with
+  no settlement is rural.
+  Roads between places are rural.
+  Wilderness beyond the settled land is neither. It is
+  Outdoorsman's ground.
+  A person in a place is in one class at a time.
+  Alley Cat uses this definition (town and bigger).
+
+--------------------------------------------------
+7b. TALENTS (10)
+--------------------------------------------------
+
+Each is a fixed (10) unless the entry says otherwise.
+Where the entry names Fellowship or Willpower tests,
+the Talent does not change the Characteristic.
+
+Gallows Humor (10)
+  Category: Background.
+  Tier: 2 (100 XP).
+  Trigger: Fellowship tests made to steady, rally, or
+  share company with others during an ordeal: a siege,
+  a hard march, a hungry winter, a field after a fight,
+  a night near something Frightening or worse.
+  Effect: +10.
+  Not a Fear test. It does not help the holder's own
+  Willpower.
+
+Unflinching (10)
+  Category: Background.
+  Tier: 3 (150 XP).
+  Prerequisite: Willpower 40 or more.
+  Trigger: Willpower tests against Fear (Core_Fear.txt
+  §0), and Willpower tests to snap out of Shock (§2).
+  Effect: +10. One Fear rating step is cancelled.
+  It does not remove Shock rows already rolled and does
+  not reduce IP gained.
+  A character holds Unflinching or Dead-Eyed, not both.
+
+Dead-Eyed (10)
+  Category: Background.
+  Tier: 2 (100 XP).
+  Prerequisite: the character has survived something
+  traumatic. The GM decides if it was enough. Any one of:
+    a Fear test failed by 4 or more Degrees (so they have IP)
+    a Fear 3 (Horrifying) or Fear 4 event lived through
+    kin or comrades lost to violence, famine, or plague,
+    and left to carry on
+    a campaign, a siege, or an atrocity witnessed
+  The event is named in the BIO (NPCs) or the
+  Campaign_Log (PCs). It is a gate, not a trigger.
+  Trigger A: Willpower tests against Fear and to snap out
+  of Shock.
+  Effect A: +10. As Unflinching. They do not stack.
+  Trigger B: Fellowship tests that run on being wanted
+  in the room (Charm, and similar).
+  Effect B: -10.
+  Trigger C: Intimidate tests the holder makes.
+  Effect C: +10. A flat stare that has seen worse than
+  the threat. Does not help an Intimidate test made
+  against the holder.
+  Double-edged, one entry, as Looks is. The flat stare
+  makes people uneasy. Does not affect Gossip, Haggle,
+  or Evaluate.
+
+Axiomatic (10)
+  Category: Background.
+  Tier: 3 (150 XP).
+  Prerequisite: Intelligence 45 or more.
+  Trigger: a test of one of these Skills where the work is
+  counting, weighing, measuring, ciphering, or fitting
+  numbers to a plan:
+    Evaluate (any specialism)
+    Navigation
+    Academic Knowledge (Engineering), (Science)
+    Trade, for building or layout: masonry, carpentry,
+    shipwright, surveying, fortification, mill and works
+    design. Not craft by hand, such as a smith's feel for a heat.
+    Read/Write (any script), only to keep or audit accounts
+  Effect: +10.
+  Not: Haggle, Gossip, Charm, Awareness, Search, Heal,
+  Surgery, or combat tests.
+  The list is closed. A GM may add a Skill for one named
+  test if the work is plainly arithmetic.
+
+Masked Intent (10)
+  Category: Background.
+  Tier: 3 (150 XP).
+  Prerequisite: Fellowship 40 or more.
+  Trigger: a social Fellowship test where the holder's aim is
+  to hide what they think, mean, or hold while someone
+  watches or questions them:
+    Charm, used to lie, bluff, or flatter against a doubt
+    Haggle, to hide a reserve price or a lack of coin
+    Disguise, to hold a false role or cover
+    Performer (Acting), as a cover
+    gambling tests, in any game with an element of
+    bluffing or not giving away your hand (the games
+    note names which). Games with no hidden hand or
+    bluff do not qualify.
+  Effect: +10 to the holder's own test.
+  Not: any Willpower test, Fear or Shock tests,
+  Concealment, Silent Move, Sleight of Hand, Intimidate,
+  or any test to read or catch another person.
+  Does not make a checkable lie believable.
+
+Kindred Spirit (10)
+  Category: Innate.
+  Tier: 1 (50 XP). Placeholder.
+  How gained: rolled at creation, 1d100, a result of 01.
+  The roll is made only for a character whose upbringing
+  was in a wilder or animal-husbandry context (herding,
+  stock and stable work, hunting and trapping, frontier
+  and forest life, hand-rearing beasts). May also be
+  taken later when the story gives the reason, with the
+  GM's agreement, written in the BIO or Campaign_Log.
+  Applies to: beasts of Type Natural or Wonder
+  (Bestiary_Format.txt). Never Type Unveiling.
+  Effect A (test): +10 to Charm, Animal Care, and Animal
+  Training tests aimed at such a beast, and +10 to Ride
+  tests on a mount of that kind. Does not shorten Animal
+  Training. A bonded mount is still long work.
+  Effect B (standing): a Natural or Wonder beast does
+  not start hostile to the holder. A beast that would
+  attack on sight holds back unless provoked. Provoked
+  means struck, cornered, robbed, or its young threatened.
+  Natural beasts that still attack: a beast starving and
+  hunting the holder as food, guarding young or territory
+  against an approach, in rut or maddened, or under orders
+  to attack (a trained war beast or one commanded by a
+  rider or handler).
+  Wonder beasts (the noble creatures, Type Wonder): only
+  provocation breaks the standing effect.
+  A gryphon, earthbound or Royal, that meets the holder
+  does not attack unprovoked. The holder may approach and
+  be heard. The bird still decides what comes next. The
+  bond is not given: a Royal Gryphon chooses, and a
+  hand-reared bird bonds to one rider for life. The
+  Talent adds +10 to the bonding tests only. Taking an egg
+  is provocation. A bonded bird is not turned against its
+  rider.
+  Affects the holder only. Does not make a beast obey.
+  Obedience is a Charm or Animal Training test.
+  Flavour (no mechanic): small animals gather in a
+  settlement. Birds on the shoulders and sills, cats on the
+  lap, strays at the door.
+
+Cold Spine
+  Category: Innate. Special instruction, no (X).
+  Tier: 1 (50 XP). Placeholder.
+  How gained: innate only. 1 in 500. Roll 1d1000 at
+  creation. A result of 001 or 002 gives the Talent.
+  Not bought and not taken by story.
+  Effect A (duty): when a trigger is true, the GM must give
+  the holder a sign. The sign may not be held back to
+  preserve a surprise.
+  Effect B (test): +10 to the holder's Willpower tests
+  against unnatural phenomena. That covers Fear tests from
+  a Type Unveiling beast, a ghost, a veil-drop, or a False
+  Moon storm (Core_Fear.txt), and Willpower tests against
+  whispers, lures, and veil influence. Not ordinary fear,
+  pain, or a social Willpower test.
+  Stacks with Unflinching on the same test (+20).
+  The holder's tells. Three personal sensations, set at
+  creation and written on the sheet, one for each kind of
+  wrongness. Physical, specific, and the same each time:
+    Watched      something unseen has its attention on them
+    Wrong place  the place, or something in it, is unnatural
+    Don't        an act they are about to do is a very bad idea
+  Examples: palms itch, the old break in the left foot
+  aches, cold at the base of the spine, a metal taste, ringing
+  in the ears, hair standing on the arms, a stitch under the
+  ribs, the dog-tooth throbbing. No two the same.
+  Triggers (closed list):
+    1. An Unveiling presence is near: a Type Unveiling
+       beast or wight, a ghost, a veil-drop, or an Unveiling
+       effect at work.
+    2. Something with harmful intent has its attention on
+       the holder, and the holder does not know it (Watched).
+    3. The place is unnatural: a veil-thin site, a False Moon
+       night, a ruin that is not empty (Wrong place).
+    4. The holder is about to do something that will very
+       probably bring death or lasting ruin on them or on
+       those they love, and they do not know it (Don't).
+       The sign is a strong hint or an ominous description:
+       the scene leans in. The air thickens, the light turns,
+       the tell burns. It reads as dread, not as an
+       instruction. The GM does not say what the danger is.
+    The GM may add a trigger for one named scene if it
+    plainly fits.
+  Not: an ordinary ambush, a trap, a pickpocket, or a
+  mundane lie. Awareness, Search, and Perception answer those.
+  Strength of the sign:
+    Faint      Fear 1 (Disturbing). A hint, easy to put down
+               to nerves.
+    Clear      Fear 2 (Frightening). Taken seriously.
+    Insistent  Fear 3 (Horrifying) or worse, or a Don't with
+               death behind it. Impossible to ignore. The GM
+               may say outright that something is very wrong.
+    Strength follows nearness and danger. It is not a roll.
+  Limits:
+    One sign per trigger per scene. It repeats only if the
+    situation changes.
+    A warning only. No names, no numbers, no direction.
+    The holder may ignore it. It never forces or forbids.
+    No other test bonus, and it does not replace Awareness.
+    It cannot be switched off.
+  NPCs: the sensation enters the monologue and the FACT CHECK.
+
+Streetwise (10)
+  Category: Background.
+  Tier: 2 (100 XP).
+  Prerequisite: at least 5 years living or working in an
+  urban place (7a), counted from birth. Childhood counts.
+  The years need not be consecutive. The time is named in
+  the BIO (NPCs) or the Campaign_Log (PCs).
+  Trigger: Charm, Gossip, Haggle, Intimidate, Disguise,
+  and Performer, in an urban place (7a), inside the built-up
+  area.
+  Effect: +10.
+  Not: Secret Signs, Common Lore, or a test against another
+  person's social test. Disguise and Performer are Advanced
+  and are still no test at Unknown.
+  Does not fire in a rural place. Held with Parish Wise,
+  the character takes the one that matches the place.
+
+Parish Wise (10)
+  Category: Background.
+  Tier: 2 (100 XP).
+  Prerequisite: at least 5 years living or working in a
+  rural place (7a), counted from birth. Childhood counts.
+  The years need not be consecutive.
+  Trigger: Charm, Gossip, Haggle, Intimidate, Disguise,
+  and Performer, in a rural place (7a): a village or hamlet,
+  a farmstead or manor farm, a green, a field, a lane, or the
+  road between them, inside the settled and worked land.
+  The fields and lanes outside a town are rural.
+  Effect: +10.
+  Not: the wild country past the pales (Outdoorsman).
+  Does not fire in an urban place.
+
+Polyglot
+  Category: Background. Special instruction, no (X).
+  Tier: 1 (50 XP). Placeholder.
+  Trigger: spending Experience on Speak Language.
+  Effect: the cost of a language follows the order the
+  character first buys it with Experience:
+    1st additional language    25% of the normal price
+    2nd additional language    50%
+    3rd additional language    75%
+    4th and later              100% (normal price)
+  Round up to the next 5. The percentage applies to every
+  rank of that language, Known to Master.
+  Price per rank step (Core_EXP.txt Known 75, Proficient
+  150, Experienced 300, Master 600):
+    Order   Known  Proficient  Experienced  Master
+    1st       20       40          75         150
+    2nd       40       75         150         300
+    3rd       60      115         225         450
+    4th+      75      150         300         600
+  The language a character was raised with does not
+  count. Languages gained free in childhood, up to age 18
+  (the mother tongue at 6, or a second tongue granted by
+  upbringing or a Peoples file), do not count and do not
+  move the order. Only languages bought with Experience
+  count.
+  Does not touch Talent, characteristic, or other Skill
+  prices. NPCs: record the order languages were bought.
+  The Core_EXP.txt cost table points here.
+
+Lettered Mind
+  Category: Background. Special instruction, no (X).
+  Tier: 1 (50 XP). Placeholder.
+  Trigger: spending Experience on Read/Write.
+  Effect: the same ladder as Polyglot, by script. The first
+  additional script costs 25%, the second 50%, the third
+  75%, later ones the normal price, in the order each was
+  first bought with Experience. Scripts gained free in
+  childhood (up to age 18) do not count.
+  Prices as the Polyglot table. The two ladders are separate.
+  A character may hold both.
+  Read/Write is a per-script Skill, Read/Write (script),
+  each script its own Rank (Core_Characteristics_Skills.txt).
+  The ladder counts scripts, not tongues.
+
+--------------------------------------------------
+7c. CHARACTER TALENTS (5)
+--------------------------------------------------
+
+Temperament and habit. A (5) value, a situational +5,
+sometimes with a -5 in another context. The exception to
+the tens rule in §0.
+
+Form
+  Name (5)
+  Category: Background or Innate
+  Tier: 1 (50 XP)
+  Gain:   trigger, +5
+  Cost:   trigger, -5 (optional)
+  Note:
+
+Law
+  The Cost is a different situation from the Gain.
+  A Character Talent never cancels its own Gain.
+  Some entries have no Cost.
+  Do not pay the same fact twice (Core_Combat.txt §11).
+  Where a Character Talent and a weapon quality or another
+  Talent cover the same test, both apply only if both
+  triggers are true. The GM may cap the stack.
+  A Character Talent never opens a closed Skill.
+  No Prerequisite unless the entry names one.
+
+Opposed groups (a character holds one of each)
+  Salt of the Earth and Blue-Blooded Bearing
+  Plain-Spoken, and the three smooth ones: Silver-Tongued,
+    Gilded Liar, Double-Dealer
+  Soft Touch and Sceptic
+  Short Fuse and Stoic
+  Reckless Spirit and Meticulous
+  Feral Instinct and Cold Logic
+  Lone Wolf and Shield-Brother
+  Bleeding Heart and Merciless
+  One cold Talent only: Cold-Blooded, Cold Logic, Stoic,
+    Dead-Eyed (7b). They all carry a warmth cost.
+  Pairs (the higher +5 applies on the shared test):
+    Cat-Footed and Sea-Legged (balance)
+    Knuckle-Scarred and Dirty Brawler (unarmed WS)
+    Face in the Crowd and Unassuming (Disguise, Concealment)
+    Fey-Touched and Kindred Spirit (Charm with animals)
+  Iron Will and Mule-Stubborn carry the same cost. Holding
+  both takes -10.
+
+Combat, Grit and Physicality
+----------------------------
+
+Iron-Bellied (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain:  +5 Toughness tests against foul rations, rot, spoiled water, and food-borne
+        agents (Pathogens_Poisons_Curses.txt).
+  Cost:  -5 Evaluate tests that judge food or drink by taste or smell. A numb palate.
+  Note:  Does not help against poison or a deliberate toxin. That is Toughness as normal.
+
+Heavy-Handed (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain:  +5 WS on melee attacks with a weapon that has Pummelling (x) or is two-handed.
+        Also +5 WS on Strike to Stun and on the opposed test to Disarm a shield.
+  Cost:  -5 WS with a weapon that has Fast (x). Weight, not finesse.
+  Note:  Weaponry.txt gives Pummelling (x) as +x Strength on a blow. Pummelling is the
+        weapon's effect. This is the wielder's habit. They stack when both are true.
+
+Cat-Footed (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain:  +5 Agility and Athletics tests to keep balance on narrow, slick, or unsteady
+        ground: a ledge, wet cobbles, a roof, a plank (Hazards.txt, the ledge entries).
+  Cost:  -5 on opposed Strength tests to resist being shoved or pinned. A light frame.
+  Note:  Does not stack with Sea-Legged on the same test. Take the higher or let the GM
+        choose which footing is the character's own.
+
+Rat-Cornered (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain:  +5 WS and +5 Dodge while the character cannot retreat, is outnumbered 2 to 1 or
+        worse, or is at half Wounds or less.
+  Cost:  -5 Willpower tests to break off, accept surrender, or stay their hand once the
+        fight is on. Ferocity is not easily put down.
+  Note:  Unpredictable is a GM colour, not a mechanic. One trigger is enough.
+
+Shield-Brother (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain:  +5 WS and +5 Parry while an ally is adjacent and fighting the same foe or
+        holding the line beside them.
+  Cost:  -5 WS and Parry when the character has no ally within 2 yards.
+  Note:  Shield_Rules.txt (Defensive (x)) adds to Parry as before. The Talent is on top.
+
+Dirty Brawler (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain:  +5 WS with unarmed attacks and with improvised weapons (Weaponry.txt, Improvised),
+        and +5 WS on a Called Shot to a soft spot (eye, knee, groin).
+  Cost:  -5 Fellowship tests with those who prize honour (a knight, a magistrate, a guild
+        warden) once the style is known.
+  Note:  Does not grant any Combat Manoeuvre. That needs a Combat Manoeuvre Talent (§8).
+
+Second Wind (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain:  +5 Toughness on the Tired test and on tests to avoid gaining Fatigue
+        (Core_Fatigue.txt, Tired Hours; forced march).
+  Cost:  none.
+  Note:  Does not remove Fatigue already gained and does not shorten a rest.
+
+Cold-Blooded (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 BS when firing from or into a melee, and +5 BS or WS on the first Round of a
+        fight when the character has not been surprised.
+  Cost: -5 Charm tests to comfort, reassure, or befriend. A cold manner.
+  Note: Not Dead-Eyed, which is about Fear. This is aim and nerve in a fight.
+        Different triggers. They may be held together.
+
+Thick-Skinned (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Toughness tests against weather and exposure (cold, heat, rain, wind) and
+        against the pain of minor harm (scrapes, bruises).
+  Cost: -5 Perception tests to notice their own minor injury or illness before it worsens.
+  Note: Does not reduce damage and does not change Toughness Bonus or armour.
+
+Hair-Trigger (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Initiative (Agility + 1d10) on the first Round of a fight, and +5 Dodge against
+        the first attack of a fight that starts by surprise.
+  Cost: -5 Willpower tests to hold back or not react when provoked or startled.
+  Note: Initiative is rerolled every Round (Core_Combat.txt §1). The +5 is on Round 1 only.
+
+Bull-Necked (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Strength tests in a Clinch, against being shoved or tackled, and to power
+        through a tackle or carry a heavy load.
+  Cost: -5 Athletics tests for jumps, leaps, and anything needing a quick, light body.
+  Note: Clinch Actions are in Core_Combat.txt §4. Opposed Strength is already the test.
+
+Grim-Jawed (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Willpower tests against the effects of pain and Shock from wounds, and to stay
+        on their feet when badly hurt.
+  Cost: -5 Heal tests made on them. They hide how hurt they are, so a healer is slower to
+        find it.
+  Note: Not for Fear. Fear Shock from Core_Fear.txt is Unflinching or Cold Spine.
+        Wounds and pain are this Talent. Do not pay the same fact twice.
+
+Wolf-Paced (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 Toughness and Athletics tests on a long steady run or jog over rough country,
+        for hours (travel, pursuit, a message-run).
+  Cost: -5 Athletics for a short sprint or a burst of speed. Steady, not quick.
+  Note: Core_Combat.txt §7 covers combat movement. This is the travel scale only.
+
+Knuckle-Scarred (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 WS with unarmed attacks, and +5 Toughness tests against harm to the hands
+        (a hot handle, a rope burn, a bite on the fist).
+  Cost: -5 Sleight of Hand and other fine-handwork tests. Thick, stiff fingers.
+  Note: Overlaps Dirty Brawler (unarmed WS). They stack only if both triggers are true.
+        Suggest the GM treat them as a Pair for unarmed WS: the higher +5 applies.
+
+Mule-Stubborn (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Toughness and Willpower tests against hunger, thirst, lack of sleep, and
+        long deprivation.
+  Cost: -5 Charm tests to concede, compromise, or patch a quarrel. They will not give way,
+        even to sense.
+  Note: The "or sense" in the brief is read as the Cost: stubborn against good sense.
+        Say if it was meant differently.
+
+Saddle-Born (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 Ride tests, and +5 WS and BS while mounted.
+  Cost: -5 Athletics tests and -5 WS on foot. More at home on a horse.
+  Note: Ride is a different test from Kindred Spirit (+10 Ride on a beast of that kind).
+        Both apply when both are true, +15 Ride. Worth watching.
+
+Sea-Legged (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 Agility and Athletics tests on a pitching deck, a slick gangplank, or rigging,
+        and +5 Toughness tests against seasickness.
+  Cost: none.
+  Note: Does not stack with Cat-Footed on the same test. See Cat-Footed.
+
+Close-Quarters (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 WS in a cramped space (a corridor, a door, an alley under 2 yards wide, a
+        stair) with a short weapon (Reach 0.5 or less) or unarmed, and +5 on Clinch tests.
+  Cost: -5 WS in the open with a weapon of Reach 2 or more.
+  Note: Weaponry.txt §3 already has rules for corridors and a +10 WS for a shortened
+        Versatile grip. The Talent stacks with them when the triggers are true.
+
+Merciless (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 WS and BS against a foe who is Prone, Stunned, helpless, or beginning to
+        yield, and +5 Willpower tests to press on and not hesitate.
+  Cost: -5 Fellowship tests with those who value mercy once the habit is known.
+  Note: A Character Talent, not a Failing. Choosing to finish a foe is not a flaw by
+        itself. It costs reputation, not skill.
+
+Hard-Bitten (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Toughness tests to stay conscious, to resist being Stunned or knocked down,
+        and to resist the lasting harm of an injury (Core_Injury.txt).
+  Cost: -5 Agility tests in cold or wet weather. Old breaks that ache.
+  Note: Does not change Wounds or Toughness Bonus.
+  Overlaps flagged
+  - Close-Quarters and Heavy-Handed lean on Weaponry.txt rules (Reach, Versatile, Pummelling,
+  Fast). Check the numbers when those entries are locked.
+  - Saddle-Born stacks with Kindred Spirit (+15 Ride on a beast of that kind).
+  - Cat-Footed and Sea-Legged cover the same balance tests. Take one +5.
+  - Knuckle-Scarred and Dirty Brawler both give +5 unarmed WS. Treat as a Pair on that test.
+  - Grim-Jawed vs Unflinching and Cold Spine: pain and wounds vs fear. Different tests.
+  - Cold-Blooded vs Dead-Eyed: names and ideas are close but the triggers differ.
+
+Mind, Lore and Perception
+-------------------------
+
+Room Reader (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Awareness and Gossip tests to read a gathering: who stands with whom, where the
+        tension lies, who really ranks.
+  Cost: none.
+  Note: Reading, not hiding. It helps the watcher. It does not touch Masked Intent (+10 on
+        the holder's own lie). Where a Room Reader opposes a Masked Intent liar, both apply
+        to their own sides.
+
+Sceptic (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 on tests to see through, or resist, a lie, a scam, a tall tale, or a false
+        promise (the test opposed to the deceiver's Charm, Haggle, or Disguise).
+  Cost: -5 on the first Fear test of a scene against a genuinely unnatural sight.
+        Denial: the sceptic is slow to believe their own eyes.
+  Note: Cost is for Unveiling or Wonder phenomena that are real. It is not for hoaxes.
+        Cold Spine's +10 against the unnatural offsets it.
+
+Magpie Memory (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Gossip and Common Lore tests, and Intelligence tests to recall a rumour, a name,
+        or a fact heard before.
+  Cost: -5 Academic Knowledge tests. A wide, shallow store.
+  Note: Recall of what was heard, not new learning. Does not raise any stored Rank.
+
+Well-Read (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 Academic Knowledge and Common Lore (History, Religion, Regions) tests, and
+        Read/Write tests to find or follow a source.
+  Cost: -5 Outdoor Survival and Track tests. Book learning, not field learning.
+  Prerequisite: Read/Write at Known or better in at least one script.
+  Note: Stacks with Axiomatic on an Academic Knowledge (Engineering or Science) test.
+        A skill-rank prerequisite is a new kind (Talent prerequisites).
+
+Light Sleeper (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Awareness and Perception tests to wake to, or notice, a noise or movement
+        while asleep or resting.
+  Cost: -5 on the Tired test after a rest broken by noise or in a shared or noisy place.
+  Note: The rules have no wake test. Core_Fatigue.txt covers rests and wake windows and
+        Core_Resolution.txt does not say how a sleeper notices. Proposed gap-filler: a sleeper
+        takes an Awareness test at half Base (the Unknown rule) when something happens, and
+        the Talent adds +5. A GM call until locked.
+
+Navigator's Instinct (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Navigation and Outdoor Survival tests to keep direction, including underground,
+        at sea, in fog, or at night.
+  Cost: -5 Navigation tests that must follow a map or another's directions.
+  Note: Navigation is Advanced and cannot be attempted at Unknown. Not changed here.
+        The Talent is a bonus on a test the character already makes.
+
+Incorrigible Pedant (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Awareness, Search, and Evaluate tests to catch errors: a misspoken word, a flawed
+        clause, a false weight, a forged mark. Also +5 Academic Knowledge (Law) to find a
+        technicality.
+  Cost: -5 Charm tests with anyone whose mistake the character has just corrected.
+        They rarely resist saying so.
+  Note: The cost is a trigger the GM can see. It happens when the character speaks up.
+
+Cold Logic (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 on Intelligence skill tests (Heal, Surgery, Navigation, Evaluate, Trapping, and
+        similar) made under stress, time pressure, or in a crisis.
+  Cost: -5 Charm tests to console, share feeling, or win a person over with warmth.
+  Note: Close to Cold-Blooded and Dead-Eyed
+  . All carry a Charm cost. A character holding two
+        takes both costs. Suggest one cold Talent per character.
+
+Superstitious (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 Common Lore (Unveiling, Religion, Monsters) tests about omens, charms, salt-lines,
+        wards, and the old rules. +5 Willpower tests against the unnatural while a ward or
+        charm the character trusts is in place.
+  Cost: -5 Willpower tests after a bad omen or a broken ward. They cannot shake it.
+  Note: The Talent does not make a ward real. What wards do in the world is a GM matter.
+        If a ward has no effect, the bonus is on the character's belief, which is the point.
+        Stacks with Cold Spine on an unnatural Willpower test while a ward is up.
+
+Tinker's Touch (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 Trade tests to repair, patch, or improvise from scrap (wire, leather, wax, wood).
+  Cost: -5 Trade tests to make a new piece to a high standard (fine or original work).
+  Note: Trade is Advanced and cannot be attempted at Unknown. Open: should the Talent
+        allow a crude repair at Unknown, like Outdoorsman does for Outdoor Survival?
+
+Grave-Wise (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 Heal, Search, and Common Lore (Religion) tests at a corpse or burial: cause of
+        death, signs of an unnatural death, funerary rites. +5 Toughness against corpse-
+        borne disease (Pathogens_Poisons_Curses.txt).
+  Cost: -5 Fellowship tests with those who fear death-work, such as a village or a
+        superstitious crowd, once the character's work is known.
+  Note: Unveiling deaths are for the GM to mark. The Talent says what the body shows.
+
+Weather-Wise (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 Outdoor Survival and Navigation tests to forecast weather, frost, and wind
+        from cloud, animals, and joint-ache. On a success the GM gives the next day's
+        weather in a line. 3 or more Degrees of Success: the next two days.
+  Cost: none.
+  Note: World_Calendar.txt sets season. Weather is a GM call. This is the forecast. It does
+        not change the weather.
+
+Social, Intrigue and Reputation
+-------------------------------
+
+Silver-Tongued (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Charm tests to smooth over an insult, give a plausible excuse, or flatter an ego.
+  Cost: -5 Intimidate tests. A smooth voice is not a threatening one.
+
+Cut with a Smile (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Charm and Intimidate tests to give a barbed insult or a veiled threat politely, in
+        company. The target cannot answer without looking foolish.
+  Cost: -5 Charm tests to win over anyone the character has cut before.
+  Note: The target's reply is a GM call. No opposed test is needed for the social cost.
+
+Face in the Crowd (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 Concealment and Disguise tests to pass as nobody in a tavern, market, or street
+        crowd. Observers take -5 on Awareness and Gossip tests to recall the face later.
+  Cost: -5 Charm and Performer tests to stand out in a room or to be noticed on purpose.
+  Note: Not Alley Cat (a town's lanes, Concealment and Silent Move). They stack when both
+        are true. Not Looks (being seen and kept). Different triggers.
+
+I Know a Guy (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 Gossip and Charm tests to find or call on a contact in a settlement of village size
+        or larger. On a success the GM names a contact: an old acquaintance, a creditor, a
+        shady friend.
+  Cost: the contact is a person with wants. Once per settlement the GM may call in a
+        favour, and refusing it is -5 Fellowship with that circle.
+  Note: Contacts are a GM hook. There is no contact rule in the files. This is the first.
+
+Blue-Blooded Bearing (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 Charm and Intimidate tests against servants, guards, and clerks who can see the
+        character's rank (dress and bearing, per the Peoples file).
+  Cost: -5 Charm tests with labourers and common folk who resent the manner.
+  Note: Opposed to Salt of the Earth. The trigger needs visible rank. A noble in rags is
+        not helped.
+
+Salt of the Earth (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 Charm and Gossip tests with labourers, farmers, and common soldiers.
+  Cost: -5 Charm tests with nobles, officials, and clerks, who find them rough.
+  Note: Opposed to Blue-Blooded Bearing.
+
+Voice of Authority (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Leadership and Warfare tests, and +5 Intimidate and Charm
+        tests to give an order to people with no strong reason to refuse: guards, hands, a
+        crowd, a household.
+  Cost: -5 Charm tests to ask a favour or persuade an equal. It reads as an order.
+  Note: Leadership and Warfare are the Command skills. The bonus
+        applies to both. The Talent is not an order the target must obey. Intimidate and
+        Charm are kept for a single order given to a single person or a small group.
+
+Haggler's Instinct (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Haggle tests, and +5 Evaluate tests to spot a rigged scale, a false weight, or a
+        counterfeit coin.
+  Cost: -5 Charm tests to be gracious in a deal the character thinks is a poor one.
+  Note: Evaluate feeds Haggle (Core_Characteristics_Skills.txt §6a). A +5 on both counts
+        twice on one sale. Suggest the Talent's +5 applies to the Haggle roll, or to the
+        Evaluate roll, not to both in one deal.
+
+Cardsharp (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 Sleight of Hand tests to palm, switch, or mark cards and dice, and +5 on gambling
+        tests where the game is open to such play (the games note).
+  Cost: -5 Charm tests with anyone who has caught them cheating.
+  Note: Sleight of Hand is Advanced and cannot be attempted at Unknown. Masked Intent (+10)
+        adds on the bluff.
+
+Whisper-Collector (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Gossip and Charm tests to coax secrets and confidences over a shared drink.
+  Cost: -5 Willpower tests to keep their own secrets with a drink in hand.
+  Note: The drink is the trigger, not an ale rule. It applies in a shared and relaxed
+        setting.
+
+Looming Presence (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Intimidate tests using height, silence, and a long stare.
+  Cost: -5 Charm tests to put a stranger, a child, or a nervous person at ease.
+  Note: No Stature prerequisite. The GM may rule it does not work on someone taller.
+
+Chameleon (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 Disguise and Charm tests to pass as another class: speech, posture, manners.
+  Cost: none.
+  Note: Disguise is Advanced. The Talent is a bonus on a test the character already makes.
+
+Soft Touch (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Charm and Fellowship tests to win the trust of the desperate: beggars,
+        refugees, the sick, the hungry.
+  Cost: -5 Awareness and Willpower tests against a hard-luck story. They are easy to use.
+  Note: Opposed to Sceptic. The Cost is a GM trigger more than a roll.
+
+Well-Connected (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 Charm, Haggle, and Gossip tests when showing a letter of introduction, a guild
+        token, or calling in a favour with people who honour it (a guild, a house, a
+        region).
+  Cost: -5 Fellowship tests with the rivals of the patron whose name they carry.
+  Note: Letters and tokens are items on the sheet. Faction standing is in the
+        Campaign_Log faction tracker. The Talent does not create a patron. It gives
+        the bonus to one the character already has.
+
+Tavern Troubadour (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 Performer tests, and +5 Charm tests to read a hall's mood and steer it toward
+        laughter, tears, or a riot.
+  Cost: -5 Charm tests in quiet, formal settings (a court, a chapel, a council).
+  Prerequisite: Performer at Known or better (skill-rank prerequisite).
+  Note: Steering a crowd into a riot is a GM matter. There are no crowd rules in the files.
+
+Double-Dealer (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 Charm, Haggle, and Gossip tests to keep two conflicting loyalties from
+        discovery, when both sides are present or being compared.
+  Cost: -5 Fellowship tests with a party that finds the deception, from then on.
+  Note: Masked Intent (+10) gives the poker face. Double-Dealer gives the juggling.
+        Opposed to Plain-Spoken.
+
+Plain-Spoken (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Charm and Haggle tests against bureaucrats and courtiers who speak in jargon,
+        and +5 Awareness tests to see through double-talk.
+  Cost: -5 Charm tests in a setting that needs tact: a court, a negotiation, a funeral.
+  Note: Opposed to Silver-Tongued, Gilded Liar and Double-Dealer.
+
+Notorious (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 Intimidate and Charm tests with criminals and timid officials who know the name.
+  Cost: -5 Charm and Haggle tests with honest folk, magistrates, and the watch who know it.
+  Prerequisite: a notorious deed, named in the BIO (NPCs) or the Campaign_Log (PCs).
+  Note: The Campaign_Log faction tracker is the place for reputation. This Talent does not
+        change the faction bands. The GM may.
+
+Good Listener (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Charm and Gossip tests to draw out a confession or confidence without direct
+        questions.
+  Cost: none.
+  Note: Not Whisper-Collector (a drink and a stranger). This is a patient friend. They may
+        be held together.
+
+Gilded Liar (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Charm tests to tell an outrageous lie, on the holder's own test.
+  Cost: -5 Charm tests to be believed when telling a plain truth to anyone who knows the
+        character as a liar.
+  Note: Masked Intent (+10) adds on a bluff. +15 on a lie in a town with Streetwise is a
+        lot. See the stacking rule. At 3 or more Degrees of Success the listener may doubt
+        their own memory. That line is colour for the GM, not a mechanic.
+
+Friend of the Watch (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 Charm, Haggle, and Gossip tests with guards, watchmen, and jailers: bribes,
+        passwords, talking out of the cells.
+  Cost: -5 Charm tests with thieves and criminals who know the connection.
+  Note: Bribes are Haggle. Passwords are Gossip. Not a licence to ignore the law.
+
+Rabble-Rouser (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 Charm and Performer tests to stoke a crowd's grievances and turn them to anger.
+  Cost: -5 Charm tests to calm a crowd, and -5 Fellowship with authorities who know the
+        name.
+  Note: No crowd or mob rules exist. What a roused crowd does is a GM call.
+
+Unassuming (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Concealment and Disguise tests to be overlooked in plain sight: harmless, tired,
+        insignificant. Observers take -5 on Awareness tests to see the character as a threat.
+  Cost: -5 Intimidate and -5 Charm tests to be taken seriously or given respect.
+  Note: Pair with Face in the Crowd on Disguise and Concealment: take the higher +5.
+
+Temperament, Instinct and Nature
+--------------------------------
+
+Short Fuse (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Intimidate tests while the character is visibly angry (a shouted threat).
+  Cost: -5 Willpower tests to hold their temper against a slight, a delay, or disrespect.
+  Note: Opposed to Stoic. Hair-Trigger is a body reflex. This is a mood.
+
+Born Pessimist (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Awareness tests to notice an ambush, a trap, or a betrayal, and +5 Dodge on the
+        first attack of an ambush.
+  Cost: -5 Charm tests to give or win trust. They expect the worst of everyone.
+  Note: Not a warning duty. Cold Spine is. This is a test bonus. The two may be held together.
+
+Live for Tonight (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Charm, Performer, and Gossip tests at a revel: a tavern, a feast, a fair.
+  Cost: -5 Willpower tests to resist a pleasure or a wager on offer: wine, song, a bet.
+  Note: Not a Failing. The cost is a trigger the GM can see.
+
+Pack Rat (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: a closed list of trifles is always to hand. Twine, chalk, a bent nail, a rag, a
+        scrap of wax or leather. Once per scene the character may produce one at no
+        cost and without a purchase test.
+  Cost: -5 Concealment and Silent Move tests. They rattle and bulge.
+  Note: This is a special instruction, as Night Vision is. No test bonus. The trifles
+        count as 1 Enc in all. They are never a weapon, a tool above a handful, or coin.
+        Tinker's Touch uses them well. They may be held together.
+
+Iron Will (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Willpower tests to resist torture (the subject's roll, Core_Characteristics_Skills
+        Torture), bribery, intimidation, and supernatural compulsion, once decided.
+  Cost: -5 Charm tests to compromise, concede, or be talked round.
+  Note: Torture is the subject's Willpower test and this adds to it. It also adds on a
+        compulsion test, where it stacks with Cold Spine (+10 against the unnatural).
+        Not a Fear test. Fear is Unflinching and Cold Spine.
+
+Feral Instinct (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Awareness tests that rely on smell, hearing, or the gut, and +5 Dodge against an
+        attack the character did not see coming.
+  Cost: -5 on Intelligence skill tests that need careful planning or long reckoning
+        (Navigation, Evaluate, Trapping, and the like).
+  Note: Opposed to Cold Logic.
+
+Bleeding Heart (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Heal and Charm tests made to aid someone who is suffering.
+  Cost: -5 Willpower tests to walk past suffering, and -5 Awareness against a hard-luck
+        tale.
+  Note: Heal is Advanced and cannot be attempted at Unknown. Opposed to Merciless
+  . Close to Soft Touch. Hold one.
+
+Lone Wolf (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Concealment, Silent Move, Outdoor Survival, Track, Awareness, WS, and BS tests
+        while no ally is within 10 yards.
+  Cost: -5 Fellowship tests to coordinate, share, or act as one of a group.
+  Note: Opposed to Shield-Brother, which is +5 WS and Parry beside an ally.
+        Here the bonus is for being alone.
+
+Stoic (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Willpower tests to endure grief, humiliation, loss, and discomfort without
+        showing it, and +5 Toughness tests against hunger and cold.
+  Cost: -5 Fellowship tests to show warmth, console, or rally others.
+  Note: Not Grim-Jawed (pain and wounds). Not Thick-Skinned (weather and minor harm).
+        Toughness against cold overlaps Thick-Skinned and Mule-Stubborn, and stacks only if
+        the triggers are the same. Opposed to Short Fuse.
+
+Thrill-Seeker (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Athletics and Willpower tests when the stakes are risk of serious harm: a drop,
+        long odds, a dare.
+  Cost: -5 on tests where there is no risk and no stakes (a dull watch, a long wait).
+  Note: Boredom is the cost. The GM names it when it is plainly true.
+
+Vengeful (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 WS, Track, Gossip, and Intimidate tests against a named wrongdoer who owes the
+        character a debt of blood, coin, or honour.
+  Cost: -5 Willpower tests to let a grievance go or accept a settlement.
+  Prerequisite: a named grievance, written in the BIO (NPCs) or the Campaign_Log (PCs).
+  Note: The grievance is a named person. The Talent does not apply to a general hatred.
+
+Restless Feet (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Toughness tests against Tired and Fatigue while travelling, and +5 Outdoor
+        Survival tests on the road.
+  Cost: -5 Charm and Willpower tests after more than 7 days in one town or safe house,
+        until they move on.
+  Note: Overlaps Wolf-Paced on the Tired test. They stack only if both apply.
+
+Fey-Touched (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Charm and Animal Care tests with animals, and +5 Common Lore (Unveiling) tests.
+  Cost: -5 Fellowship tests with superstitious people, who cross themselves.
+  Note: The Pair note applies with Kindred Spirit. The higher bonus on animals applies.
+        Not a Wonder beast reading (Type Wonder). Not a veil sense (Cold Spine).
+
+Guarded Soul (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Willpower tests to resist being read, probed, or befriended into confidences
+        (the test opposed to another's Gossip or Charm used to pry).
+  Cost: -5 Charm tests to form close bonds, rally allies, or take comfort.
+  Note: Masked Intent (+10 Fellowship, hiding intent) is a lie told. This is a wall. Different
+        triggers. May be held together.
+
+Meticulous (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 Trade tests to maintain or inspect kit, +5 Search tests to check for flaws, and
+        +5 Navigation tests made to plan a route with a fallback.
+  Cost: -5 Initiative on the first Round of a fight and -5 on tests made in haste or by
+        improvising.
+  Note: Opposed to Reckless Spirit. The contingency plans are colour for the GM.
+
+Reckless Spirit (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Athletics tests for a leap or sudden dash, and +5 WS on a Charge Attack
+        (Core_Combat.txt §3).
+  Cost: -5 Awareness and Search tests to look before leaping, and -5 on tests that need
+        caution or preparation.
+  Note: Opposed to Meticulous. Close to Thrill-Seeker. Hold one of them.
+
+Light-Fingered (5)
+  Category: Background.
+  Tier: 1 (50 XP).
+  Gain: +5 Sleight of Hand tests to take keys, coins, and small trinkets, and +5 Concealment
+        to hide a small item on the person.
+  Cost: -5 Willpower tests to resist taking a small thing in reach. A habit.
+  Note: Sleight of Hand is Advanced and cannot be attempted at Unknown. Cardsharp
+  is cards and dice. Light-Fingered is small items. Different triggers.
+
+Shadow-Lover (5)
+  Category: Innate.
+  Tier: 1 (50 XP).
+  Gain: +5 Awareness, Concealment, and Silent Move tests in dim light: dim alleys, dense woods,
+        and the quiet hours before dawn.
+  Cost: -5 Awareness and Search tests in bright sun and open glare.
+  Note: Night Vision cancels the darkness penalty. This adds on top when both are true.
+        Stacks with Alley Cat on Concealment and Silent Move in a town. See the stacking rule.
 
 --------------------------------------------------
 8. COMBAT MANOEUVRE TALENTS
 --------------------------------------------------
 
-Prerequisite only. Cost, tests, and conditions
-are Combat §4a. Without the Talent the Action
+Prerequisite only. Every Combat Manoeuvre Talent is
+Tier 2 (100 XP). Tests and conditions are Combat §4a. Without the Talent the Action
 is not available. No Unknown attempt.
 
 Write on the sheet as Category: Combat Manoeuvre.

@@ -5,6 +5,7 @@
 #   Core_Characteristics_Skills.txt
 #   Core_Talents_Failings_Afflictions.txt
 #   Format_NPC_Profile.txt
+#   NPC_Generation_Protocol.txt
 
 PURPOSE
 This file defines how Experience is awarded and spent.
@@ -74,9 +75,18 @@ The cost is the price to reach that rank from the one below.
 Total spent to reach Master is 75 + 150 + 300 + 600 = 1,125 XP.
 
 Talent
-  As listed in Core_Talents_Failings_Afflictions.txt.
-  If no cost is listed, treat as 200 XP for a basic Talent,
-  400 XP for an advanced Talent.
+  By Tier, written on the entry in
+  Core_Talents_Failings_Afflictions.txt (§0).
+    Tier 1    50 XP
+    Tier 2    100 XP
+    Tier 3    150 XP
+  Combat Manoeuvre Talents are Tier 2. Character Talents
+  are Tier 1.
+  An entry with no Tier is Tier 1 (50 XP) as a placeholder
+  until one is set.
+  Polyglot and Lettered Mind change the price of Speak
+  Language and Read/Write. The ladder is in
+  Core_Talents_Failings_Afflictions.txt §7b.
 
 These costs are a working floor. They may be adjusted
 once more play has tested them.
@@ -92,9 +102,10 @@ RULES
   the action, or the period of practice that supports the improvement.
 - An NPC’s skills must remain coherent with their occupation
   and the Peoples and Economy files that define their work.
-- Characteristics generated at NPC creation (Format_NPC_Profile.txt)
+- Characteristics generated at NPC creation (NPC_Generation_Protocol.txt)
   are the starting point. Experience spending may raise them further
   if age and occupation support it.
+- Ageing (see AGEING below) is applied after Experience is spent.
 
 --------------------------------------------------
 PRE-ADULTHOOD DEVELOPMENT
@@ -144,3 +155,56 @@ A second pass at skills is available.
 Any basic or advanced skill may be gained or advanced
 provided the upbringing, education, or context justifies it.
 This is the point at which the adult Experience pool begins to be spent.
+
+--------------------------------------------------
+AGEING
+--------------------------------------------------
+Bodies and minds wear. Characteristics decline with age.
+Ageing is applied after Experience has been spent.
+The spend sets the peak. Ageing takes the toll.
+
+Two groups
+Physical     Strength (S), Toughness (T), Agility (Ag),
+             Weapon Skill (WS), Ballistic Skill (BS)
+             Decline begins after age 40.
+Mental       Intelligence (Int), Willpower (WP), Perception (Per),
+             Fellowship (Fel)
+             Decline begins after age 60.
+
+Ageing roll
+Made once for each five-year mark a character has passed
+beyond the starting age of their group.
+Physical marks:  45, 50, 55, 60, 65 ...
+Mental marks:    65, 70, 75, 80, 85 ...
+At each mark, roll 1d100 separately for each characteristic in the group.
+The chance of loss is (Age − 10)%, where Age is the age at that mark.
+If the roll is equal to or below (Age − 10), the characteristic suffers −1.
+A character who has not yet reached a mark has not made that roll.
+
+Chance of loss at each mark
+Age at mark    45   50   55   60   65   70   75   80   85   90
+Chance (%)     35   40   45   50   55   60   65   70   75   80
+
+Average loss per characteristic (points)
+Age              50    60    70    80    90
+Physical group   0.75  1.7   2.85  4.2   5.75
+Mental group     —     —     1.15  2.5   4.05
+
+Limits
+- A characteristic never falls below 10 through ageing.
+- Each characteristic loses at most 1 point per mark.
+- Ageing losses are permanent. Experience spent afterwards
+  may raise a characteristic again at the normal cost.
+- Only the characteristic is changed. Skill ranks and Talents are kept.
+- Looks and the Hearing, Sight, and Smell results set at NPC creation
+  are not rolled again. Ageing changes the Perception characteristic only.
+
+NPCs
+Make the ageing rolls once at creation, after the Experience spend,
+and record the final characteristics. See NPC_Generation_Protocol.txt.
+The XP pool counts adult years as before. Ageing does not refund or reduce it.
+
+Player characters
+The same rolls are made when the character passes a mark in the game calendar
+(World_Calendar.txt), at the GM's call between scenes.
+Record each loss with the date it was taken.

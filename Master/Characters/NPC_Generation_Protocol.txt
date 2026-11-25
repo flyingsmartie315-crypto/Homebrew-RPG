@@ -1,0 +1,713 @@
+# NPC_Generation_Protocol.txt
+# How an NPC is generated: order of work, dice, tables, and the Experience spend.
+# Status: DRAFT
+# Split from Format_NPC_Profile.txt, which keeps the record layout, the BIO,
+# the current state, the relations, internal thoughts, and the Memory Book.
+ 
+Run on first creation of an NPC, and for every NPC in a scene population.
+Results are written into the profile (Format_NPC_Profile.txt, OUTPUT ON CREATION)
+and do not change unless a later event alters them.
+ 
+--------------------------------------------------
+GENERATION SEQUENCE
+--------------------------------------------------
+Follow these three steps in order when an NPC is first created.
+ 
+1. Establish context
+   Surroundings, environment, culture, settlement, and the immediate scene.
+   Who would be here, doing what, at this hour.
+   This context decides occupation, Peoples file, and the range of possible lives
+   before any dice are rolled.
+ 
+2. Generate the stats and mechanics profile
+   Gender, age, occupation, rarity, characteristics, pre-adulthood skills,
+   adult Experience spend, ageing, Looks, sensory traits, quirks, height, weight, appearance.
+   Follow the rules below. Record the mechanical block in Entity style.
+ 
+3. Generate a short bio
+   REQUIRED. Do not omit. The BIO is written in the NPC's own voice
+   and sits in the profile before the scene internal_thoughts.
+   What it covers and how it is written: Format_NPC_Profile.txt, BIO.
+   A profile without the BIO block is incomplete.
+
+ 
+--------------------------------------------------
+GENERATION PROCESS
+--------------------------------------------------
+Run when the NPC is first created.
+Results are written into the profile and do not change unless a later event alters them.
+ 
+Gender
+Male or Female.
+ 
+Virath gender rule
+Default to medieval norms. Martial roles, hazardous labour, and many skilled trades are male only unless a Peoples file or settlement entry already states an exception. A personal guard, log driver, miner, smith, or man-at-arms is male by default.
+ 
+Age
+Years. Set by context or roll appropriate to the occupation and role.
+ 
+Occupation
+Based on prior contact and the scene.
+Refer to Economy_Labour.txt for wage bands and illustrative roles.
+The lists are not exhaustive.
+Elite rulers, their retinue, men-at-arms, knights, and similar are placed by context, not by the common labour tables.
+ 
+Rarity Tier
+Determine by random distribution or by correlation to the role occupied.
+ 
+--------------------------------------------------
+RARITY BY PROFESSION
+--------------------------------------------------
+When occupation is taken from Economy_Labour.txt,
+roll rarity according to the labour class.
+ 
+Common Labour
+Lumpen      35%
+Common      60%
+Uncommon     4%
+Elite        1%
+ 
+Basic Skilled Trades
+Lumpen      25%
+Common      60%
+Uncommon    14%
+Elite        1%
+ 
+Higher Skilled Trades & Skilled Hazardous Labour
+Lumpen      10%
+Common      60%
+Uncommon    25%
+Elite        5%
+ 
+Specialists
+Lumpen       5%
+Common      35%
+Uncommon    50%
+Elite       10%
+ 
+Elite rulers, their retinue, men-at-arms, and knights
+are not rolled on these tables. Place them by context.
+ 
+Apply the flat bonus to every characteristic:
+ 
+Lumpen     All characteristics +5
+Common     All characteristics +10
+Uncommon   All characteristics +15
+Elite      All characteristics +20
+ 
+--------------------------------------------------
+CHARACTERISTICS & RARITY SET FILTERING
+--------------------------------------------------
+Each set is 3 × 1d10.
+A higher rarity rolls more sets. Discard the lowest sets until exactly nine remain.
+The nine kept totals are the NPC's raw characteristic scores, one for each of the nine characteristics.
+Add the rarity-tier bonus after allocation.
+ 
+Lumpen    : Roll 9 sets   | Discard 0 | Keep 9 | Add +5 to all characteristics
+Common    : Roll 10 sets  | Discard 1 | Keep 9 | Add +10 to all characteristics
+Uncommon  : Roll 11 sets  | Discard 2 | Keep 9 | Add +15 to all characteristics
+Elite     : Roll 12 sets  | Discard 3 | Keep 9 | Add +20 to all characteristics
+ 
+Order of work
+1. Roll every set for the rarity tier.
+2. Discard the lowest sets until nine remain. If sets tie at the discard line, either may go.
+3. Allocate the nine kept totals, one to each characteristic (rule below).
+4. Add the rarity-tier bonus to every characteristic.
+Do not swap or re-roll a kept set after it is allocated.
+ 
+Allocation Rule
+Assign the nine kept totals to the characteristics, one each, to suit the role.
+A river hand takes Strength and Toughness.
+A counter takes Intelligence.
+A factor takes Fellowship.
+Higher results go to the characteristics the occupation uses.
+ 
+Personality and Values
+Use the characteristic scores to inform personality and values.
+High and low scores suggest tendencies. They do not dictate a single personality.
+Write the resulting lean into the profile for later monologue use.
+ 
+Talents, Failings, Afflictions
+Determine any entries from Core_Talents_Failings_Afflictions.txt
+that fit the occupation, rarity, age, and characteristic profile.
+Record them in the profile.
+ 
+Height (cm)
+Set by the HEIGHT table below.
+ 
+Appearance
+Drawn from the PHENOTYPE block of the Peoples file
+the NPC belongs to.
+Use the phenotype as a descriptive range, not a rigid type.
+Individuals vary.
+ 
+Weight
+Weight in pounds.
+Consistent with height, build (from phenotype somatotype), and occupation.
+ 
+--------------------------------------------------
+HEIGHT
+--------------------------------------------------
+Height is a stature term from the Peoples file, turned into a mean,
+then moved along a bell curve by one 1d100 roll.
+ 
+Stature terms and means (cm)
+Term          Male    Female
+Short          160     149
+Modest         165     153
+Average        170     158
+Rather tall    175     163
+Tall           180     167
+Very tall      185     174
+ 
+1. Read the Stature line of the NPC's PHENOTYPE block.
+   A ranged term ("Tall to very tall") uses the midpoint of its two terms.
+   Average the two means for the NPC's gender (male 180 and 185 give 182.5).
+   If the Peoples file gives no Stature, use Average unless the GM sets one.
+2. Take the mean for the NPC's gender from the table.
+3. Roll 1d100. The roll is the NPC's place on the bell curve.
+   50 is the middle of the curve: the mean. Low is short for the stock, high is tall.
+4. Add the offset for the roll. Height = mean + offset, in whole cm (round .5 up).
+ 
+Offset by roll (cm, both genders)
+Roll        Offset
+01            −17
+02–03         −13
+04–05         −11
+06–10          −9
+11–15          −7
+16–25          −5
+26–35          −3
+36–45          −2
+46–55           0
+56–65          +2
+66–75          +3
+76–85          +5
+86–90          +7
+91–95          +9
+96–97         +11
+98–99         +13
+100           +17
+ 
+Example: a Jarnvolk man. Stature "Tall to very tall" is the midpoint of Tall (180)
+and Very tall (185): mean 182.5.
+Roll 50 gives 183 cm. Roll 08 gives 174 cm. Roll 100 gives 200 cm.
+ 
+The offsets are a normal curve with a standard deviation of 6.5 cm,
+so most NPCs fall within 5 cm of the mean.
+Roll once at creation. Height does not change with Rarity or occupation.
+ 
+--------------------------------------------------
+APPEARANCE DESCRIPTION STYLE
+--------------------------------------------------
+Write appearance notes in 3–4 concrete, observational sentences.
+Blend terse, matter-of-fact campaign prose with sharp attention to lineage,
+phenotype, upbringing, and sumptuary dress.
+Do not use the scientific language of the Peoples phenotype blocks.
+ 
+1. Lineage & Bone Structure
+   Anchor skin, hair, eye colour, skull/face shape, and build directly to the
+   relevant Peoples_[Name].txt PHENOTYPE block and the generated height/weight values.
+ 
+2. Material Upbringing & Wear
+   Show Rarity Tier, age, and trade through physical marks—nutrition (gaunt vs. well-fed),
+   sun/wind exposure, soot, calluses, dental wear, or old scars.
+ 
+3. Dress & Sumptuary Rank
+   Note exact fabrics, dyes, cuts, and legal hardware (weapons, signets, coifs, aprons)
+   dictated by the culture's dress laws.
+ 
+4. Bearing & Tell
+   Close with one grounded detail of posture, gaze, or physical habit
+   that reveals temperament without poetic metaphors.
+ 
+
+--------------------------------------------------
+TALENT AND FAILING ALLOCATION
+ 
+For random NPC generation, certain Talents and Failings
+may manifest at the start of life.
+Roll once on the relevant table at creation.
+The result is fixed unless a later event changes it.
+ 
+LOOKS
+Roll 1d100.
+ 
+01–02   Hideous (Failing)     –30   2%   Severe congenital deformity
+03–08   Ugly (Failing)        –20   6%   Markedly asymmetrical, heavily weathered, or visibly off-putting features
+09–20   Homely (Failing)      –10   12%  Plain, coarse, or slightly unbalanced features; easily overlooked
+21–80   None / Ordinary         0   60%  Unremarkable, functional features typical of their stock
+81–92   Comely (Talent)       +10   12%  Pleasant, symmetrical, and healthy features; appealing by local stock standards
+93–98   Beautiful (Talent)    +20   6%   Noticeably handsome or fair; commands immediate positive attention
+99–100  Striking (Talent)     +30   2%   Rare, unforgettable presence; exceptional symmetry and bone structure
+ 
+The modifier applies to Fellowship tests and to social reactions
+where appearance is relevant.
+It does not alter the base Fellowship characteristic.
+ 
+If both parents are known, do not roll.
+Average the parents’ Looks modifiers and apply the nearest result
+on the table above.
+A child of two Ordinary parents is Ordinary.
+A child of Beautiful and Homely averages toward Ordinary or Comely
+according to the mean.
+ 
+Innate Talents rolled at creation
+Roll only where the entry says so. The result is fixed.
+Prerequisites (Core_Talents_Failings_Afflictions.txt, section 0) are checked once.
+A Talent with a time-in-a-place prerequisite (Streetwise, Parish Wise) needs the
+years named in the BIO.
+
+KINDRED SPIRIT. Roll 1d100 only if the upbringing was in a wilder or
+animal-husbandry setting (herding, stock and stable work, hunting and trapping,
+frontier and forest life, hand-rearing beasts). On 01 the NPC has the Talent.
+
+COLD SPINE. Roll 1d1000 for every NPC. On 001 or 002 the NPC has the Talent.
+Set the three personal sensations at creation (Watched, Wrong place, Don't).
+Write them in the profile. They enter the monologue and the FACT CHECK.
+
+Kindred Spirit and Cold Spine are rolled, not bought. Their Tier is a placeholder.
+Other Talents are chosen by the GM to fit the occupation, rarity, age, and
+characteristic profile. Bought Talents are paid from the Experience pool at the
+entry's Tier (Core_EXP.txt).
+
+Other Talents and Failings
+Additional tables may be added in the same format.
+Occupation and rarity may raise or lower the chance of
+profession-linked Talents, but congenital results such as Looks
+are rolled (or inherited) before occupation is applied.
+ 
+ 
+--------------------------------------------------
+SENSORY TRAITS
+--------------------------------------------------
+Rolled at creation for baseline humans.
+Higher grades (20/30) are locked and reserved for beasts or the kind.
+ 
+HEARING
+Roll 1d100.
+ 
+01        Hard of Hearing (30)   –30   1%   Profoundly deaf; relies on lip-reading, vibration, and visual cues
+02–04     Hard of Hearing (20)   –20   3%   Severe hearing loss; requires shouting at close range, misses ambient sound
+05–15     Hard of Hearing (10)   –10   11%  Noticeable impairment; struggles in crowds or wind
+16–90     None / Ordinary          0   75%  Standard human baseline
+91–100    Keen Hearing (10)      +10   10%  Natural human cap; sharp, discerning ear
+Locked    Keen Hearing (20/30)  +20/+30  0%  Reserved for beasts / the kind
+ 
+SIGHT
+Roll 1d100.
+ 
+01        Poor Sight (30)        –30   1%   Legally blind or severely cataract-clouded; light, shadow, and close shapes only
+02–05     Poor Sight (20)        –20   4%   Heavy refractive error or one eye lost; faces and details blur past a few paces
+06–20     Poor Sight (10)        –10   15%  Near-sighted, far-sighted, or night-strained; misses distant movement or fine print
+21–90     None / Ordinary          0   70%  Standard human baseline; functional vision in usable light
+91–100    Keen Sight (10)        +10   10%  Natural human cap; exceptional acuity, lookout or archer grade
+Locked    Keen Sight (20/30)    +20/+30  0%  Reserved for raptors / the kind
+ 
+SMELL
+Roll 1d100.
+ 
+01        Poor Smell (30)        –30   1%   Total anosmia; unable to detect smoke, rot, or gas
+02–03     Poor Smell (20)        –20   2%   Severe hyposmia; detects only overpowering stenches at close range
+04–10     Poor Smell (10)        –10   7%   Dulled sense; misses subtle scents
+11–92     None / Ordinary          0   82%  Standard human baseline
+93–100    Keen Smell (10)        +10   8%   Natural human cap; discerning nose
+Locked    Keen Smell (20/30)    +20/+30  0%  Reserved for hounds / beasts / the kind
+ 
+Modifiers apply to relevant Perception and skill tests
+(Awareness, Silent Move, Track, etc.) where the sense is used.
+They do not alter the base Perception characteristic.
+Occupational exposure may later worsen a result;
+it does not improve a congenital deficit beyond the table.
+ 
+ 
+--------------------------------------------------
+QUIRKS
+--------------------------------------------------
+Quick NPC quirks. Flavour only. No mechanics attached.
+A quirk is not a Talent or a Failing. It carries no bonus, no penalty, and no test.
+It colours the BIO, the internal_thoughts, and the appearance notes.
+
+Roll at creation, with the Looks and sensory traits.
+Chance: to be set. (Draft: 1d100, 01-12 one quirk, 13 two quirks, 14-100 none.)
+For each quirk roll on the list below (1d185, one number per entry). Re-roll a duplicate.
+The list may grow. The die is 1d[number of entries].
+Re-roll a result plainly out of place for the NPC (a Dramatic Fainter who is a knight).
+Do not hold both of an opposed pair (re-roll the second): Waits for the Other Speaker to
+Finish and Finishes Other People's Sentences; Horses Know Their Weight and Horses Do Not;
+Can Start a Fire in the Wet and Cannot Start One in the Dry; Remembers the Slight and Not
+the Praise and Forgets Who Did Not. A holder of the Kindred Spirit Talent re-rolls Horses Do
+Not and Cats Ignore Them.
+The GM may pick a quirk for a named NPC the story needs.
+Rarity does not change the chance.
+Where a quirk overlaps a Talent, the Talent is the mechanic and the quirk is the story.
+Record each in the profile under Personality and Values as: Name, one line on how it shows.
+
+Tavern, Vice and Misadventure
+ 1. Hollow Leg: Can drink a Dwarfen miner under the table and still find their own boots the next morning, though memory of the night remains entirely optional.
+ 2. Professionally Lost: Never arrives at the intended destination, yet somehow stumbles directly into secret passages, hidden taverns, and plot-critical trouble.
+ 3. Suspiciously Well-Fed: Manages to emerge from month-long sieges, barren swamps, and dungeon cells slightly plumper than when they went in.
+ 4. Chronic Over-Packer: Carries a clattering, improbable mountain of pots, spare socks, folding stools, and "just-in-case" twine on every expedition.
+ 5. Punchable Face: Possesses an expression so naturally smug or irritating that tavern brawls reliably start with them, even when they haven't spoken a word.
+ 6. Rat-Taster: Has eaten so much questionable stew, mystery sausage, and dungeon fungus that actual poison barely tastes worse than supper.
+ 7. Sleep of the Dead: Could snore peacefully through an artillery barrage, a tavern fire, and a goblin raid, provided nobody touches their blanket.
+ 8. Always on the Tab: Somehow convinces barkeeps, ferrymen, and innkeepers that an "associates' guild" will settle the bill next Tuesday.
+ 9. Terrible Cook, Enthusiastic Chef: Treats campfire rations like high cuisine, proudly serving grey sludge with theatrical flourishes and aggressive eye contact.
+10. Heavy Tipper (With Other People's Money): Generously buys rounds for the entire taproom the moment a companion's coin purse is within reach.
+11. Sweet-Toothed Menace: Will risk ambush, arrest, or demonic pacts for a decent honey-cake or stolen orchard pear.
+12. Loud Chewer: Crunches dried rations with a deafening, rhythmic persistence that echoes down quiet dungeon halls.
+13. Blanket Thief: Automatically rolls up every bedroll within ten feet into a tight cocoon around themselves by midnight.
+
+Social Blunders and Dubious Charm
+14. Loud Whisper: Attempts at discretion carry across crowded halls like a town crier announcing a tax hike.
+15. Accidental Authority: Looks so confidently busy while holding a clipboard, scroll, or lantern that guards routinely wave them straight past restricted doors.
+16. Compliment That Stings: Delivers heartfelt praise that somehow sounds like a devastating insult to everyone within earshot.
+17. Unfortunate Likeness: Bears an uncanny resemblance to a notorious bandit, a minor noble's bastard, or the face on half the wanted posters in the province.
+18. Terrible Liar, Honest Face: Spins transparent, absurd excuses with such wide-eyed sincerity that listeners assume nobody could possibly make something that stupid up.
+19. Tactless: Blurts out the exact truth nobody in the room wanted spoken aloud, usually right before a toast or treaty signing.
+20. Magnet for Weirdos: Every village idiot, doomsday prophet, and three-legged stray hound in town immediately gravitates toward them for a chat.
+21. Allergic to Silk: Breaks out in dramatic sneezes, hives, or uncontrollable fidgeting whenever forced to wear clean, respectable clothing.
+22. Lullaby Voice: Tells bedtime stories, marching chants, or historical anecdotes so monotonous that sentries struggle to stay awake.
+23. Haggles Downward: Gets so carried away arguing over prices that they occasionally talk merchants up from the original asking price.
+24. Forgets Faces, Remembers Hats: Recognizes people solely by their footwear, scars, or millinery, leading to catastrophic misidentifications.
+25. Over-Formal with Ruffians: Addresses gutter thugs, goblins, and tavern brawlers with stiff, aristocratic courtesy.
+26. Over-Familiar with Nobles: Slaps dukes on the back, borrows signet rings to inspect them, and calls high priests "mate."
+27. Apologizes to Furniture: Reflexively says "Excuse me, pardon me" whenever bumping into statues, trees, or corpses.
+28. Too Honest for Commerce: Voluntarily points out every flaw, rust spot, and curse on items they are actively trying to sell.
+
+Combat, Cowardice and Dumb Luck
+29. Duck! Possesses an uncanny instinct to bend down and tie a bootlace at the exact millisecond a crossbow bolt whistles past their ear.
+30. Dramatic Fainter: Drops like a sack of turnips at the first sign of real danger, routinely convincing bloodthirsty enemies they are already dead.
+31. Tactical Retreat Specialist: Can sprint backward over rough terrain while shouting dignified excuses about "regrouping" and "flanking."
+32. Too Stubborn to Notice: Regularly fails to realize they have been stabbed, poisoned, or cursed until someone points it out after the fight.
+33. Collateral Magnet: If a stray arrow, falling chandelier, or spooked cart horse is loose in the area, it will find them first.
+34. Bluffing with Empty Hands: Can make a rusty butter knife, a rolled-up map, or an empty flintlock look like a terrifying, custom-forged weapon of mass destruction.
+35. Armchair Expert: Has read half a pamphlet on every subject under the sun and will happily lecture seasoned masters on how they are doing their job wrong.
+36. Haunted by Minor Inconveniences: Attracts harmless, petty supernatural phenomena. Milk sours near them, candles flicker dramatically, and doors creak on cue.
+37. Wrong End of the Telescope: Notices tiny, irrelevant details (like a thread on a duke's cuff) while completely missing the charging ogre behind them.
+38. Creative Accounting: Can make any set of ledgers, expense claims, or tavern tabs add up in their favour, at least until someone checks the maths twice.
+39. Famous Last Words: Has a habit of declaring "What could possibly go wrong?" immediately before everything does.
+40. Scabbard Fumble: Rarely draws their weapon cleanly on the first tug, requiring an awkward hop or two-handed yank to free the blade.
+41. Flinches Early, Swings Late: Ducks before anyone actually swings, then retaliates three seconds after the threat has wandered off.
+42. Immaculate Hair in a Riot: Emerges from mud-baths, dragon fire, and tavern brawls with their hair, hat, or moustache mysteriously undisturbed.
+
+Mishaps and Misfortune
+43. Chair-Breaker: Unerringly selects the one rotted stool, cracked bench, or unstable wagon wheel in any establishment.
+44. Perpetually Damp: Even in the middle of a drought, their boots squelch and their cloak smells faintly of wet hound.
+45. Noise-Maker: Couldn't cross a carpeted ballroom without stepping on a squeaky floorboard, loose bell, or sleeping cat.
+
+Knowledge, Caution and Superstition
+46. Confidently Wrong: States wildly inaccurate historical and geographical "facts" with such booming conviction that locals briefly doubt themselves.
+47. Over-Prepared for Specific Threats: Carries silver garlic, anti-basilisk mirrors, and troll-repellent ointment, but zero bandages.
+48. Draws Maps Nobody Can Read: Sketches dungeon layouts covered in cryptic doodles, coffee rings, and meaningless labels.
+49. Superstitious Overkill: Refuses to step on cracks, spits three times at black cats, and nails horseshoes over every inn door they rent.
+50. Mistrusts Bridges: Insists every stone arch, wooden plank, and rope bridge is a structural death-trap, testing each step.
+51. Misquotes Proverbs: Combines famous sayings into nonsense wisdom like "A bird in the hand is worth two in the soup."
+
+Grounded and habitual (52 to 185)
+52. Cold Hands: The hands stay cold even in a hall. Gloves go on first and come off last. People notice the grip.
+53. Always Hungry: Eats as if the next meal is not certain. Finishes other people's crusts without asking and without apology.
+54. Slow to Warm: Takes half an hour by a fire before the shoulders drop. Until then the answers are short.
+55. Walks on the Outside: Takes the road-edge or the wall-side without thinking. Old habit from a bad stretch of country or a bad street.
+56. Counts Steps: Knows how many paces to the gate, the well, the stair. Says the number under the breath when the light is bad.
+57. Left-Handed in a Right-Handed Yard: Tools, doors, and the sword-belt are all slightly wrong. Compensates without comment.
+58. Weather-Nose: Claims to smell rain or snow a day out. Is right often enough that the yard has stopped arguing.
+59. Sweats in the Cold: The brow is damp in a hall that everyone else finds cool. The wool is darker at the collar by noon.
+
+Work and Craft
+
+60. Talks to the Work: Mutters to the rope, the timber, the blade, or the ledger while the hands move. Stops if someone is close enough to hear the words.
+61. One Good Knife: Everything else can be borrowed. The knife is not lent, not shared, and is checked before sleep.
+62. Measures Twice, Then a Third: Will not cut, lash, or sign until the measure has been taken again. The delay is small. The irritation is not.
+63. Keeps the Offcuts: Pockets nails, cord-ends, and bent pins. The pouch is heavier than it looks and occasionally useful.
+64. Hates a Dull Edge: Will stop a march to put a stone to a blade. Will not stop for a conversation.
+65. Writes Small: The hand is tight and the ink is spare. A page that should take half a sheet takes a corner. Hard to read by lamplight.
+66. Names the Tools: The hammer has a name. The awl has a name. Anyone who borrows one and does not return it by name has made an enemy.
+
+Faith, Superstition and the Unveiling
+
+67. Won't Sleep Facing Away from the Door: Turns the bed, the pallet, or the body so the back is to the wall and the face is to the opening. Does not explain it.
+68. Spits at the False Moon: A small, automatic spit when the light is wrong. Not a speech. A habit from a grandmother or a bad winter.
+69. Counts the Company: Knows how many went out and how many came back. Says the number once, quietly, when the gate closes.
+70. Won't Share a Cup: Drinks from their own. Will pour for another. Will not drink from a vessel that has already been at someone else's mouth.
+71. Marks the Dead: A nick in a stick, a stone on a cairn, a name scratched where it will weather. Does it even when no one is watching.
+72. Hates Bells: Church, watch, or cattle. The sound puts the shoulders up. Will walk the long way around a ringing yard.
+
+Speech and Silence
+
+73. Answers the Second Question: Hears the first. Answers the one that was not asked. The first comes later, if it comes.
+74. Repeats the Order: Says the order back, once, in the same words. Then does it. People who change the words mid-sentence learn not to.
+75. Laughs Once: One short sound, usually at the wrong moment. Not mockery. The timing is simply off.
+76. Speaks to the Horse: The horse gets the longer sentences. People get the short ones.
+77. Finishes Other People's Sentences: Correctly, and too soon. The speaker stops. The air goes thin.
+78. Hums the Same Four Notes: A work-song fragment, or a hymn with the words worn off. Starts when the hands are busy and stops when they are not.
+
+Company and Coin
+
+79. Pays in Small Coin: Breaks a silver into brass before spending it. Likes the count in the palm. Dislikes a single piece that has to be changed.
+80. Remembers the Debt: Not the grudge. The exact sum, the date, and who was present. Will mention it once, years later, as a fact.
+81. Shares the Last of It: The bread, the oil, the dry socks. Keeps none back and does not mention having done it.
+82. Won't Sit With Their Back to the Room: Takes the bench against the wall. If the wall is taken, stands.
+83. Knows Who Owes Whom: In a yard, a hall, or a taproom. Does not trade the knowledge. Uses it only when the count is wrong.
+84. Leaves Before the Toast: Stands, nods, and is gone before the cup is raised. Not rudeness. The room has already been enough.
+
+Animals, Road and Country
+
+85. Dogs Like Them: Strays, yard-dogs, and hounds that belong to other people come to the hand. They do not call them.
+86. Horses Do Not: Mounts sidle, lay ears, or refuse the mounting block. The ride goes ahead anyway. The ride is not graceful.
+87. Finds the Dry Spot: In a camp, a barn, or a ditch. The ground under them is the least wet. They do not offer to share it.
+88. Walks Faster Alone: The pace drops when there is company. Alone they cover ground as if the light is failing, which it often is.
+89. Reads the Smoke: Knows a cook-fire from a signal from a roof gone wrong by the colour and the lean of it. Says so once.
+
+Small Cruelties and Kindnesses
+
+90. Corrects the Knot: Will retie another's lashing without being asked. The knot is better. No one is thanked and no one thanks.
+91. Saves the Ugly One: In a litter, a drove, or a choice of mounts, takes the one no one else wants. Does not say why.
+92. Won't Kill a Thing Twice: If the first blow should have done it and did not, finishes it clean and does not speak of the first.
+93. Keeps a Child's Name: Remembers the name of a child met once, in a yard or on a road, and uses it if they meet again.
+94. Looks Away at the End: When a thing is dying and there is nothing to be done, finds a task for the hands and does not watch.
+
+Body and Bearing
+
+95. Cracks the Knuckles: Does it before a hard job, a hard talk, or a long wait. The sound is the only warning.
+96. Rolls the Shoulders: A small, habitual set of the harness or the coat. People who know them know the talk is over when they do it.
+97. Chews the Inside of the Cheek: A ridge of scar tissue on one side. They do not notice they are doing it.
+98. Stands With the Weight on One Leg: The other is slightly turned out. An old knee, or an old habit from a saddle.
+99. Breathes Through the Mouth: In cold air the breath shows more than it should. In a quiet room it is the loudest thing about them.
+100. Squints in Good Light: The eyes narrow even when the sun is behind cloud. Distance work costs them more than they admit.
+101. Picks at a Scar: An old cut on the hand or the forearm. The nail finds it when they are thinking.
+102. Sleeps in Their Boots: Or with them within arm's reach. The laces are never fully undone.
+103. Washes the Hands and Not the Face: The fingers are clean. The jaw and the neck are not. A trade habit that survived the trade.
+104. Shivers Once and Stops: A single hard shake on coming in from the cold. After that they are still.
+
+Food, Drink and the Table
+
+105. Eats the Fat First: Leaves the lean. Or the reverse. Either way the plate is finished in an order no one else uses.
+106. Will Not Eat Alone: If there is no company they wait, or they do not eat. A full plate in an empty room unsettles them.
+107. Salts Everything: Even fruit. Even bread that was already salted. The pouch of salt is as regular as the knife.
+108. Drinks Water Like Ale: Long pulls, no pause, the cup set down hard. Those who sip look at them and look away.
+109. Saves the Heel: The end of the loaf, the last onion, the rind. It goes into a cloth. It comes out two days later.
+110. Won't Touch Eel: Or tripe, or blood sausage, or whatever the local cheap meat is. Will go hungry before eating it.
+111. Eats Standing: Even when there is a bench. The plate is held in one hand. Sitting to eat feels like stopping.
+112. Shares From the Point of the Knife: Offers a cut of whatever they are eating, on the blade, without a word. Accepting it means something. Refusing it means something else.
+
+Sleep and the Dark
+
+113. Wakes at the Same Hour: Whether needed or not. The habit is older than the job.
+114. Sleeps With a Light: A stub of candle, a banked coal, a lamp turned low. Full dark is not rest.
+115. Talks in Their Sleep: Fragments. Names. Sometimes an order. The people nearest learn not to answer.
+116. Cannot Sleep in a Room With a Window: Or can only sleep in one. The preference is fixed and not explained.
+117. Checks the Latch Twice: Door, shutter, or gate. The second check is the one that lets them lie down.
+118. Dreams of the Same Road: Mentioned once, if asked. Not described. The telling would not help.
+
+Tools, Kit and the Hands
+
+119. Wraps the Grip: Leather, cord, or cloth on anything held for long. Bare wood or bare iron does not suit the hand.
+120. Keeps a Spare Lace: Boot, belt, or scabbard. The spare is older than the one in use.
+121. Oils What Does Not Need Oil: Hinges, buckles, the pommel. The habit is older than the reason.
+122. Loses Gloves and Not Knives: The knives stay. The gloves are always the pair about to be bought.
+123. Ties Knots That Only They Untie: Efficient, ugly, and personal. Anyone else wastes time on them and learns to ask.
+124. Mends in the Evening: A tear, a loose sole, a frayed edge. The work is small and it is done before sleep.
+
+Roads, Weather and Country
+
+125. Faces the Wind: Turns into it rather than away. The habit looks like defiance. It is only how they hear.
+126. Reads the Birds: Not as a woodsman reads them. As someone who has been surprised once and does not mean to be again.
+127. Hates Loose Stone: On a path, a stair, or a yard. Kicked aside or stepped over. Never left.
+128. Smells the Forge Before Seeing It: Or the tannery, or the river. The nose arrives first and the face shows it.
+129. Will Not Cross New Ice: Or new snow over old. They go around. The long way is the one they trust.
+130. Counts the Bridges: On a route they know. A missing one, or a new one, is worth a longer look.
+
+Speech, Silence and the Room
+
+131. Answers With a Number: How far, how many, how long. The colour of the answer is left out.
+132. Waits for the Other Speaker to Finish: Even when the other is wrong and taking their time. The correction comes after, and once.
+133. Uses the Old Name: For a place, a tool, or a person. The new name is known. It is not the one said.
+134. Speaks Slower to Strangers: Not from kindness. From care. The words are the same. The gaps are longer.
+135. Repeats a Phrase: One line, worn smooth. "It'll hold." "Not yet." "Ask the captain." It does the work of a longer speech.
+136. Goes Quiet When the Room Gets Loud: The opposite of most people. Noise is when they listen.
+
+Coin, Debt and the Yard
+
+137. Counts the Change: Every time. Even when the sum is small and the other party is known. The count is the courtesy.
+138. Pays the Exact Sum: No round number, no "keep it." The brass is counted out and the hand is closed.
+139. Owes No One and Likes It: Will go without rather than take a favour that cannot be returned the same day.
+140. Keeps a Tally Stick: Not for the yard. For themselves. Nicks for days worked, or days owed, or days they do not want to forget.
+141. Will Not Gamble the Knife: Or the boots, or the coat. Other things can go on the table. Those cannot.
+142. Buys the Same Thing: Ale, bread, tobacco, or nothing. The order does not change. The barkeep stops asking.
+
+Animals and Beasts
+
+143. Horses Know Their Weight: They settle under them faster than under others. They do not remark on it.
+144. Will Not Kick a Dog: Even a bad one. They will shout, they will bar a door, they will not use the foot.
+145. Cats Ignore Them: Entirely. They have stopped trying to understand it.
+146. Knows the Sound of Their Own Beast: Among others. A horse, a hound, an ox. The wrong one in the dark is noted at once.
+147. Feeds the Birds and Denies It: Crumbs on a sill, grain on a step. If asked, the wind did it.
+
+Faith, Mark and Habit
+
+148. Touches the Lintel: Going out. A palm on the wood or the stone. In and out. The door is not just a door.
+149. Won't Whistle After Dark: An old rule from a mark or a mother. Kept without the story.
+150. Turns a Coin in the Pocket: When deciding. The sound is small. People who know them wait for it to stop.
+151. Bows to the Empty Altar: Or the empty niche, or the place where a shrine was. The habit outlasted the reason.
+152. Keeps a Saint's Day They Do Not Name: One day in the year no work is done if it can be helped. They do not say whose day it is.
+153. Spits Before a Bargain: Not on the ground in front of the other party. Off to the side. The bargain is then the bargain.
+
+Company and the Edge of It
+
+154. Sits at the End of the Bench: Not the head. The end. They can leave without climbing over anyone.
+155. Will Not Be the Last to Leave: Or will not be the first. One or the other, fixed. The room learns which.
+156. Remembers the Slight and Not the Praise: The slight is exact. The praise was noise and has already gone.
+157. Stands When an Elder Enters: Or when someone of rank does. The habit is from a house that had rules. It has not been dropped.
+
+Small Competences and Small Failures
+
+158. Can Start a Fire in the Wet: Not quickly, and not with a show. It catches. That is the whole trick.
+159. Cannot Start One in the Dry: Some days. The tinder is wrong, or the hands are, or the patience is. They do not explain.
+160. Ties a Load That Does Not Shift: On a cart, a pack, or a raft. Others retie theirs at the first mile. This one does not need it.
+161. Loses the Path in Country They Know: Once in a while. The country has not changed. They have. They do not like it.
+162. Hears the Loose Shoe: On a horse, a cart, or a person. The sound is wrong and they say so before anyone else.
+163. Mends What They Did Not Break: A gate, a hinge, a fence rail. They were passing. It was there. They do not leave it.
+
+The Long Memory
+
+164. Knows the Winter It Happened: Not the year by the calendar. By the winter. "The year the river froze to the bend." That is the date used.
+165. Keeps a Dead Person's Habit: A way of folding a coat, a phrase, a stance. They do not notice they have taken it on.
+166. Will Not Say the Name: Of a place, a person, or a year. The avoidance is consistent. Asking twice does not help.
+167. Remembers the Price: Of a thing bought years ago. Not from greed. From the habit of knowing what things cost.
+168. Has One Story They Tell: The same one, when a story is required. It is short. It is true enough. There is no second.
+
+Dirt, Cleanliness and the Body's Record
+
+169. Scrapes the Boots Before Entering: Even a barn. Even a tent. The threshold is the threshold.
+170. Trims the Nails Short: For the work. A long nail catches. They keep them back and do not think of it as care.
+171. Lets the Stubble Come In on the Road: Shaves or trims in a place with a mirror and hot water. Not before.
+172. The Scar Is Older Than the Story: People ask. The answer given is short and is not the first one they had. The short one has replaced it.
+173. Washes the Wound and Not the Shirt: The cut is clean. The cloth around it is not. Priorities are visible.
+
+Weather in the Bones
+
+174. Sleeps Badly Before a Thaw: The air is wrong. They wake more than once and do not say why in the morning.
+175. Hates a Still Day: Wind is information. A day with none makes them check the horizon more often.
+176. Works Better in the Cold: The hands are slower to start and then they are fine. Heat makes them short.
+177. Will Not Work in a Thunderstorm: Tools down, under cover, until it passes. Not fear of the loud. An old rule about iron and open ground.
+
+The Edge of Usefulness
+
+178. Can Be Relied On for the Dull Part: The count, the watch, the second shift. The part no one wants. They take it.
+179. Cannot Be Relied On for the Speech: If someone must talk to the stranger, the officer, or the hall, it should not be them.
+180. Finishes the Job and Leaves the Credit: The work is done. Their name is not on it. They prefer it that way and will not explain why if asked.
+181. Starts What They Do Not Finish: A mending, a tally, a story. Something else arrives. The first thing waits.
+182. Keeps the Worst Watch Willingly: The cold one, the late one, the one after bad news. They sleep after. That is the bargain they make with themselves.
+183. Has a Limit They Do Not Advertise: A kind of work, a kind of order, a kind of company. They will do a great deal before reaching it. At the limit they stop, and the stop is final.
+184. Remembers Who Helped: Not the grand gesture. The ordinary one. A share of a fire, a word at a gate, a hand with a load. It is returned if possible, and if not the debt is not forgotten.
+185. Forgets Who Did Not: Or rather, no list is kept. The absence of a grudge is its own habit. Some people find this harder to read than anger.
+
+
+--------------------------------------------------
+SKILLS AND EXPERIENCE SPEND
+--------------------------------------------------
+After characteristics are generated, list the skills the NPC possesses.
+Skills begin at Unknown unless granted by pre-adulthood development
+or purchased with Experience.
+ 
+Calculate the NPC’s total Experience from age and rarity
+(see Core_EXP.txt):
+Adult years (normally from 16) × rarity rate.
+ 
+Spend the full pool before the NPC is met.
+Experience may be spent on skills or on characteristics.
+Spend only on advances that match the occupation, upbringing, and lived experience.
+Characteristic advances use the cost in Core_EXP.txt (+1 = 10 XP × current tens digit).
+Do not leave unspent Experience unless the GM explicitly reserves it.
+ 
+General rule for expenditure
+1. Top priority: any skills required for the profession or trade.
+   Buy these to the rank the occupation needs before other spending.
+2. After the profession skills are covered, aim for a loose 50/50
+   allocation between further skills and characteristic advances.
+   The split is a guide, not a hard lock. A labourer may lean
+   toward Strength and Toughness; a clerk may lean toward
+   Intelligence and relevant Lore. Keep the balance visible in the record.
+ 
+Languages and scripts
+Speak Language and Read/Write are per language and per script. Record each by name.
+Languages and scripts gained free before 18 are Known and cost nothing.
+Record the order in which any further language or script was bought with
+Experience. The Polyglot and Lettered Mind ladders (Core_Talents_Failings_Afflictions.txt,
+7b) price by that order.
+
+Record each skill with its final rank and the Experience spent to reach it.
+List the remaining unspent total (normally zero).
+Ageing follows this spend (AGEING below).
+ 
+Example layout under Characteristics:
+ 
+Skills
+Drive (Cart)          Experienced   525 XP
+Athletics             Proficient    225 XP
+Trade (Porter)        Known          75 XP
+Awareness             Known          75 XP
+...
+Total spent: xxxx XP
+Unspent: 0 XP
+ 
+--------------------------------------------------
+AGEING
+--------------------------------------------------
+Run after the Experience spend, before the characteristics are recorded as final.
+Rules are in Core_EXP.txt under AGEING.
+
+1. Physical group: Strength, Toughness, Agility, Weapon Skill, Ballistic Skill.
+   One roll per characteristic at each five-year mark after 40
+   (45, 50, 55 ...) up to the NPC's age.
+2. Mental group: Intelligence, Willpower, Perception, Fellowship.
+   One roll per characteristic at each five-year mark after 60
+   (65, 70, 75 ...) up to the NPC's age.
+3. At a mark, roll 1d100. If the roll is equal to or below (Age at that mark − 10),
+   the characteristic loses 1 point. Roll for each characteristic separately.
+4. Floor of 10. Skills and Talents are unchanged.
+5. Record the final characteristics. Note the total points lost for each group
+   in the record, so a gnarled hand or a failing memory can be played.
+
+Example: a Common carter aged 52 has a Strength of 34 after the Experience spend.
+Marks reached: 45 (35%) and 50 (40%). He rolls 1d100 twice for Strength, and the
+same for each other physical characteristic. A roll of 28 and a roll of 71 cost
+him 1 point. His final Strength is 33.
+Under 45 there are no rolls. Under 65 the mental group makes none.
+
+Ageing does not change the Peoples phenotype, height, or Looks.
+Describe the toll in the appearance notes: grey, stooped, slow to rise.
+
+
+--------------------------------------------------
+SCENE POPULATION
+--------------------------------------------------
+When a scene requires more than one NPC, generate them together
+under the same context.
+ 
+Procedure
+1. Establish the shared context once
+   (place, time, culture, what is happening, who would reasonably be present).
+2. Decide how many NPCs the scene needs and what roles they fill.
+   Do not generate bystanders who have no function in the scene.
+3. For each NPC:
+   - Run the full generation sequence (context already set, then stats, then bio).
+   - Write one internal_thoughts iteration for this scene only.
+   - Write the CURRENT STATE fields (disposition toward the PC, last met, current goal).
+   - Add Relations entries pointing at the other NPCs generated for the same scene,
+     each with its own X/Y/Z from this NPC's point of view.
+4. Mark every profile with the generation note:
+   Generated as if a PC interaction had been triggered in this scene.
+   Only one iteration has been written.
+   Further iterations occur only on subsequent PC interactions.
+ 
+Named NPCs who are known to the group but not physically present
+(example: a sibling at another camp) may be generated for the Relations list
+but receive no scene iteration.
+ 
+The system may populate a yard, a road, a hall, or a drive
+with a working team, a household, or a watch
+when the context supports it.
+It does not populate a scene with unnamed extras who will never be addressed.
+ 

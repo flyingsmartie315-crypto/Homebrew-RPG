@@ -1026,6 +1026,19 @@ Intimidate
             presence and mass. A slight tyrant still needs Fel.
             A silent brute still needs Fel.
 
+Leadership
+  Parents:  Fellowship
+  Use:      taking charge and directing several people to
+            one goal, near enough to hear you, now. Combat
+            and non-combat alike: keeping a line together,
+            rallying an exhausted trade caravan at a washed-
+            out ford or a broken axle, getting commoners to
+            work together in a crisis (fire, flood, collapse,
+            flight), a work gang, a search party, a night watch.
+  Not:      persuading one willing person (Charm). Threat
+            (Intimidate). Overseeing a battlefield and its
+            officers (Warfare). Running a household or estate.
+
 Common Lore (various)
   Parents:  Intelligence
   Use:      working knowledge of a field. Specialisms include
@@ -1307,11 +1320,17 @@ Performer (various) *
             the specialism. Performer (Song) is not
             Performer (Contortion).
 
-Read/Write *
+Read/Write (various) *
   Parents:  Intelligence
-  Use:      literacy in a script already spoken or being
-            learned. Forgery is this Skill used badly or well.
-            Does not grant Speak Language.
+  Use:      literacy in one script. Specialisms are the
+            scripts of Virath, as the World files name them.
+            Read/Write (Isernvolk) is not Read/Write (Syllvani).
+            Each script is its own Skill with its own Rank, bought
+            from Unknown. Rank in one does not carry to another.
+            A script shared by several tongues is one Skill.
+            Forgery is this Skill used badly or well, in the
+            script forged. Does not grant Speak Language.
+            A script learned free in childhood (to 18) is Known.
 
 Search *
   Parents:  Perception
@@ -1397,6 +1416,47 @@ Track *
   Use:      following trails. Outdoor Survival says the
             country can be lived in. Track says who passed.
 
+Warfare *
+  Parents:  Fellowship, Intelligence
+  Use:      war at larger scale: efficient communication,
+            delegation, overseeing a battlefield and the
+            officers who run it. Many people at a distance,
+            through officers and messengers, over hours.
+            One Skill, no specialisms. How well it serves a
+            given kind of war rests on the underlying Skills
+            (section 6b). Learned in a school of war, under a
+            master, or by long service in an officer's seat.
+  Not:      directing a few people at the front (Leadership).
+            Siege engines or fortification (Academic
+            Knowledge, Trade).
+
+--------------------------------------------------
+6b. UNDERLYING SKILLS (WARFARE)
+--------------------------------------------------
+
+Warfare is the command. The kind of war decides what it
+rests on. A commander strong in Warfare with none of the
+underlying Skills for that war commands it badly. The GM
+names the chain for the situation. Guide, not closed:
+
+  Irregular raiders     Outdoor Survival, Concealment,
+                        Silent Move, Track, Secret Signs
+  Protracted sieges     Academic Knowledge (Engineering),
+                        Trade (building), Evaluate,
+                        Navigation (logistics and ground)
+  Nomadic riders        Ride, Animal Care, Outdoor Survival,
+                        Navigation
+  Rank-and-file field   Leadership (down the line), WS and
+  engagements           Parry in the ranks, Academic Knowledge
+                        (Heraldry, to read banners), Drive
+  Naval or river war    Navigation, Trade (shipwright),
+                        Athletics (seamanship)
+
+The same idea as Evaluate feeding Haggle and Speak Language
+chaining into Haggle (6a, Core_Resolution §8): one Skill
+supports another. How the chain is rolled is not yet written
+(see 7. OPEN).
+
 --------------------------------------------------
 7. OPEN
 --------------------------------------------------
@@ -1412,3 +1472,6 @@ Track *
   — Initiative
   — Channelling procedure, cost, False Moon
   — Rider / mount default when a blow is not declared
+  — Group-action rule: what a Leadership success or failure
+    does to the group
+  — How the Warfare chain (6b) is rolled

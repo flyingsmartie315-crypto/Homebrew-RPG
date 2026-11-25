@@ -16,14 +16,13 @@ Read the summary, not just the filename.
 A query about a fight loads Core_Combat, Weaponry, and the injury table named on the sheet.
 A query about a place loads that region and its settlements.
 A query about a beast loads its Bestiary entry and its Entity block.
+A query about a person, or an NPC interaction or generation, loads Format_NPC_Profile and, to generate an NPC,
+NPC_Generation_Protocol, Core_Characteristics_Skills, Core_EXP, Core_Talents_Failings_Afflictions, Economy_Labour
+(occupation and wage band), the Peoples file for the NPC's culture, the settlement or
+Local Region where the scene sits, World_Calendar and Campaign_Log (date and season),
+and the NPC's own _NPC_Profile.txt if one exists.
 A query about coin loads Economy_Rules and the relevant primary, processed, or finished file.
 Do not load the whole repository.
-
-Hard rules carried in the index:
-- No Melee skill. A melee attack tests Weapon Skill. Parry * is the trained catch. Dodge is ordinary evasion.
-- Virath gender rule: martial roles, hazardous labour, and many skilled trades are male only unless a Peoples or settlement file states an exception.
-- Campaign_Log.txt wins on world state when it fights static lore.
-- Do not invent skills, characteristics, or labour bands.
 
 ============================================================
 FILE INDEX  (path — contents)
@@ -31,7 +30,9 @@ FILE INDEX  (path — contents)
 
 --- Master/Characters ---
 Characters/Format_NPC_Profile.txt
-  NPC generation protocol. Context, 3d10 rarity sets, BIO, relations, internal thoughts, scene population. Virath gender rule.
+  NPC profile record. BIO, current state (disposition X/Y/Z, last met, current goal), relations, internal thoughts, Memory Book. Generation lives in NPC_Generation_Protocol.txt.
+Characters/NPC_Generation_Protocol.txt
+  NPC generation. Context, occupation, rarity by labour class, 3d10 sets (roll 9-12, discard 0-3), height, Looks and senses, innate Talents, quirks, Experience spend, ageing, scene population. Virath gender rule.
 
 --- Master/Core/Combat ---
 Core/Combat/Armour.txt
@@ -71,7 +72,7 @@ Core/Core_Characteristics_Skills.txt
 
 --- Master/Core/Core_EXP.txt ---
 Core/Core_EXP.txt
-  Experience spend. Age × rarity rate. Skill ranks and costs. Characteristic advance. Pre-adulthood stages.
+  Experience spend. Age × rarity rate. Skill ranks and costs. Characteristic advance. Pre-adulthood stages. Ageing: physical decline after 40, mental after 60.
 
 --- Master/Core/Core_Fatigue.txt ---
 Core/Core_Fatigue.txt
@@ -121,7 +122,7 @@ Economy/Economy_Agriculture.txt
 
 --- Master/Economy/Economy_Labour.txt ---
 Economy/Economy_Labour.txt
-  Day-wages and labour classes. Rarity distributions for NPC occupation.
+  Day-wages, labour classes, and illustrative roles for NPC occupation. Rarity rolls by class live in NPC_Generation_Protocol.
 
 --- Master/Economy/Economy_Livestock.txt ---
 Economy/Economy_Livestock.txt

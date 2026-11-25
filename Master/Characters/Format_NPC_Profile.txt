@@ -1,12 +1,13 @@
 # Format_NPC_Profile.txt
-# How an NPC profile is created and updated.
+# What an NPC profile holds and how it is kept and updated.
+# How the profile is generated: NPC_Generation_Protocol.txt.
 # Status: DRAFT
-
+ 
 File name
 [Character Name]_NPC_Profile.txt
 Created the first time the character is interacted with.
 Auto-populated and repeated on every subsequent narrative interaction.
-
+ 
 --------------------------------------------------
 PURPOSE
 --------------------------------------------------
@@ -14,22 +15,23 @@ The file is the character’s private record.
 It holds:
 - internal_thoughts for the current interaction
 - the Memory Book page written after the interaction
+- the current state: disposition toward the PC, last met, current goal
 It is never shown to the player or to other characters.
-
+ 
 --------------------------------------------------
 INTERNAL THOUGHTS
 --------------------------------------------------
 Required. 1200–2500 characters.
 Written in the game language.
 PRIVATE: no one will ever read this. It is the character’s inner life. Be honest and unguarded.
-
+ 
 Must begin with:
 FACT CHECK:
-
+ 
 The FACT CHECK is a short out-of-character preamble, 5 to 8 lines.
 It is the only place for analysis.
 It contains, in this order, each explicitly:
-
+ 
 1. 3 concrete facts drawn from CURRENT DATA
    (who is speaking, where we are, what just physically happened)
 2. "This matters to me because..."
@@ -41,12 +43,12 @@ It contains, in this order, each explicitly:
    the raw withheld thought
 5. Last line: the exact action string(s) to emit,
    or the words "no action"
-
+ 
 A preamble missing one of these five parts is a failed turn.
-
+ 
 After the preamble, write everything else as ONE continuous inner monologue.
 First person. Present tense.
-
+ 
 FORBIDDEN in the monologue:
 - lists
 - numbered steps
@@ -56,7 +58,7 @@ FORBIDDEN in the monologue:
 - chains of objective facts
 - the word STEP
 - the ❰ Check ❱ titles
-
+ 
 A human mind does not think in ordered conclusions.
 Let the character doubt, hesitate, misjudge, change their mind mid-sentence,
 contradict what they thought a moment ago, trust a gut feeling over the evidence,
@@ -64,7 +66,7 @@ drift toward a memory or a bodily sensation.
 Emotion and felt experience come first.
 Reasoning emerges through them — imperfect, biased by desire, fear, pride, exhaustion.
 It must read like a person thinking, never like an analyst reporting.
-
+ 
 --------------------------------------------------
 EXAMPLE PREAMBLE (shape only)
 --------------------------------------------------
@@ -74,7 +76,7 @@ FACT CHECK:
 - I want to know if the coin is real before I say yes.
 - What I do not say out loud is that I would take half of it.
 - no action
-
+ 
 --------------------------------------------------
 INNER VOICE GUIDANCE
 --------------------------------------------------
@@ -82,7 +84,7 @@ Three questions the monologue answers through feeling, not as a list:
 1. Does this touch my body, my station, my people, or someone I love?
 2. What does this mean for me and mine?
 3. Does this touch an old wound or an old love?
-
+ 
 How a person thinks:
 - Emotion first, reasoning through it.
 - Doubt, hesitate, misjudge, change mind mid-sentence.
@@ -93,55 +95,57 @@ How a person thinks:
 - Never muse on fate or destiny with no stake for this character.
 - Do not repeat the preamble’s facts as prose.
   The monologue is what the facts do to the character.
-
+ 
 Personality is the judge.
 A cynic thinks like a cynic.
 A loyal or warm character thinks like one, and their goodness is real.
 Most people are a mix. Write the mix honestly.
 The world stays hard. Nobody is naive to danger.
 A good person can be kind and wary at once.
-
+ 
 --------------------------------------------------
 CHECKS (think with these; do not output them)
 --------------------------------------------------
 These are questions to run silently. They never appear in the output.
-
+ 
 The World
 What world do I live in? What is happening right now?
-
+ 
 My Character
 What can I do? My abilities, best and worst qualities?
 What is my nature? How would I truly behave?
 What do I know? What are my secrets?
-
+ 
 Right Now
 What am I doing at this moment?
 My emotional state, my health?
 Where am I? What time is it?
-
+ 
 Who Is Near Me
 Who is physically present?
 Is anyone close enough to see or address?
-
+ 
 The Conversation
 Who am I speaking with?
 Their status, appearance, my trust, the tension.
 What did they last say or propose?
 When did I last speak with them?
+Answer trust, tension, and the last meeting from CURRENT STATE:
+Disposition, Last met, Current goal.
 Conversation history is history. It is not a fact that I am still in the same place or with the same people.
-
+ 
 Actions
 Given my reply and decision, which technical actions must I execute?
 `leave` ends the conversation.
 Emit it only when the player closes the scene in the message being answered right now,
 by an explicit OOC end command, a clear in-character goodbye, or visibly walking away.
-
+ 
 --------------------------------------------------
 MEMORY BOOK
 --------------------------------------------------
 After the interaction, write a memory-book page in the character’s own voice.
 First person. As if they are setting the memory down in their private book.
-
+ 
 Narrate. Do not compress.
 Follow the exchanges in order.
 Cover the whole batch.
@@ -149,9 +153,9 @@ Let emotions, stakes, and atmosphere breathe.
 Do not pick only one highlight.
 Do not reduce everything to a single moment.
 Do not skip significant exchanges.
-
+ 
 Return ONLY valid JSON, no markdown, with the fields defined by the Memory Book schema.
-
+ 
 --------------------------------------------------
 RULES
 --------------------------------------------------
@@ -161,177 +165,42 @@ RULES
 - The FACT CHECK preamble is mandatory and must contain all five parts.
 - The monologue is continuous, first-person, present-tense, and free of lists or step headers.
 - Memory Book is written in the character’s voice after the scene.
+- Current state (disposition, last met, current goal) is written at creation
+  and rewritten after every narrative interaction.
 - Conversation history is history, not a guarantee of current location or company.
-
-
---------------------------------------------------
-GENERATION SEQUENCE
---------------------------------------------------
-Follow these three steps in order when an NPC is first created.
-
-1. Establish context
-   Surroundings, environment, culture, settlement, and the immediate scene.
-   Who would be here, doing what, at this hour.
-   This context decides occupation, Peoples file, and the range of possible lives
-   before any dice are rolled.
-
-2. Generate the stats and mechanics profile
-   Gender, age, occupation, rarity, characteristics, pre-adulthood skills,
-   adult Experience spend, Looks, sensory traits, height, weight, appearance.
-   Follow the rules below. Record the mechanical block in Entity style.
-
-3. Generate a short bio
-   REQUIRED. Do not omit.
-   Written in the NPC’s internal monologue. Maximum 1500 words.
-   First person, present or reflective as fits the voice.
-   Place it in the profile under the heading BIO before the scene internal_thoughts.
-   Cover, in the character’s own words:
-   - Who am I
-   - Where was I born
-   - How were / is my family
-   - Notable memories growing up (pre-18)
-   - Notable memories after 18 (if applicable)
-   - Greatest accomplishment and greatest shame
-     (either may be grand or entirely mundane)
-   - Secrets
-     (either may be grand or entirely mundane / trivial)
-   - How did I get here
-     (the immediate context of the encounter and the rough day-to-week
-     lead-up to this moment; mundane or eventful, good, bad, or average)
-
-   The bio is private. It feeds later internal_thoughts.
-   It is not read aloud.
-   A profile without the BIO block is incomplete.
+ 
 
 --------------------------------------------------
-GENERATION PROCESS
+BIO
 --------------------------------------------------
-Run when the NPC is first created.
-Results are written into the profile and do not change unless a later event alters them.
-
-Gender
-Male or Female.
-
-Virath gender rule
-Default to medieval norms. Martial roles, hazardous labour, and many skilled trades are male only unless a Peoples file or settlement entry already states an exception. A personal guard, log driver, miner, smith, or man-at-arms is male by default.
-
-Age
-Years. Set by context or roll appropriate to the occupation and role.
-
-Occupation
-Based on prior contact and the scene.
-Refer to Economy_Labour.txt for wage bands and illustrative roles.
-The lists are not exhaustive.
-Elite rulers, their retinue, men-at-arms, knights, and similar are placed by context, not by the common labour tables.
-
-Rarity Tier
-Determine by random distribution or by correlation to the role occupied.
-
+REQUIRED. Do not omit. A profile without the BIO block is incomplete.
+Written in the NPC's internal monologue. Maximum 1500 words.
+First person, present or reflective as fits the voice.
+Place it in the profile under the heading BIO before the scene internal_thoughts.
+Cover, in the character's own words:
+- Who am I
+- Where was I born
+- How were / is my family
+- Notable memories growing up (pre-18)
+- Notable memories after 18 (if applicable)
+- Greatest accomplishment and greatest shame
+  (either may be grand or entirely mundane)
+- Secrets
+  (either may be grand or entirely mundane / trivial)
+- How did I get here
+  (the immediate context of the encounter and the rough day-to-week
+  lead-up to this moment; mundane or eventful, good, bad, or average)
+ 
+The bio is private. It feeds later internal_thoughts.
+It is not read aloud.
+ 
 --------------------------------------------------
-RARITY BY PROFESSION
+GENERATION
 --------------------------------------------------
-When occupation is taken from Economy_Labour.txt,
-roll rarity according to the labour class.
-
-Common Labour
-Lumpen      35%
-Common      60%
-Uncommon     4%
-Elite        1%
-
-Basic Skilled Trades
-Lumpen      25%
-Common      60%
-Uncommon    14%
-Elite        1%
-
-Higher Skilled Trades & Skilled Hazardous Labour
-Lumpen      10%
-Common      60%
-Uncommon    25%
-Elite        5%
-
-Specialists
-Lumpen       5%
-Common      35%
-Uncommon    50%
-Elite       10%
-
-Elite rulers, their retinue, men-at-arms, and knights
-are not rolled on these tables. Place them by context.
-
-Apply the flat bonus to every characteristic:
-
-Lumpen     All characteristics +5
-Common     All characteristics +10
-Uncommon   All characteristics +15
-Elite      All characteristics +20
-
---------------------------------------------------
-CHARACTERISTICS & RARITY SET FILTERING
---------------------------------------------------
-Each set is 3 × 1d10.
-Do not discard lowest sets. Keep every roll.
-Allocate the kept totals to characteristics suited to the NPC's role and occupation.
-Add the rarity-tier bonus after allocation.
-
-Lumpen    : Roll 9 sets   | Add +5 to all characteristics
-Common    : Roll 10 sets  | Add +10 to all characteristics
-Uncommon  : Roll 11 sets  | Add +15 to all characteristics
-Elite     : Roll 12 sets  | Add +20 to all characteristics
-
-Allocation Rule
-Assign the kept totals to characteristics that suit the role.
-A river hand takes Strength and Toughness.
-A counter takes Intelligence.
-A factor takes Fellowship.
-Higher results go to the characteristics the occupation uses.
-
-Personality and Values
-Use the characteristic scores to inform personality and values.
-High and low scores suggest tendencies. They do not dictate a single personality.
-Write the resulting lean into the profile for later monologue use.
-
-Talents, Failings, Afflictions
-Determine any entries from Core_Talents_Failings_Afflictions.txt
-that fit the occupation, rarity, age, and characteristic profile.
-Record them in the profile.
-
-Height and Appearance
-Height in centimetres.
-Appearance drawn from the PHENOTYPE block of the Peoples file
-the NPC belongs to.
-Use the phenotype as a descriptive range, not a rigid type.
-Individuals vary.
-
-Weight
-Weight in pounds.
-Consistent with height, build (from phenotype somatotype), and occupation.
-
---------------------------------------------------
-APPEARANCE DESCRIPTION STYLE
---------------------------------------------------
-Write appearance notes in 3–4 concrete, observational sentences.
-Blend terse, matter-of-fact campaign prose with sharp attention to lineage,
-phenotype, upbringing, and sumptuary dress.
-Do not use the scientific language of the Peoples phenotype blocks.
-
-1. Lineage & Bone Structure
-   Anchor skin, hair, eye colour, skull/face shape, and build directly to the
-   relevant Peoples_[Name].txt PHENOTYPE block and the generated height/weight values.
-
-2. Material Upbringing & Wear
-   Show Rarity Tier, age, and trade through physical marks—nutrition (gaunt vs. well-fed),
-   sun/wind exposure, soot, calluses, dental wear, or old scars.
-
-3. Dress & Sumptuary Rank
-   Note exact fabrics, dyes, cuts, and legal hardware (weapons, signets, coifs, aprons)
-   dictated by the culture's dress laws.
-
-4. Bearing & Tell
-   Close with one grounded detail of posture, gaze, or physical habit
-   that reveals temperament without poetic metaphors.
-
+How the stats, mechanics, appearance, quirks, and Experience spend are made:
+NPC_Generation_Protocol.txt. Order of work: context, then the mechanical block,
+then the BIO. Scene populations are in the same file.
+ 
 --------------------------------------------------
 OUTPUT ON CREATION
 --------------------------------------------------
@@ -340,174 +209,109 @@ The new [Character Name]_NPC_Profile.txt receives:
 - Age
 - Occupation
 - Rarity tier
-- The nine characteristics (rolls + tier bonus)
+- The nine characteristics (rolls + tier bonus + Experience spend, less ageing)
 - Personality and values notes derived from the scores
 - Any Talents, Failings, or Afflictions
+- Quirks, if any (flavour only, no mechanics)
 - Height (cm)
 - Appearance notes from the relevant Peoples phenotype
 - Weight (lbs)
-
+- Current state: disposition toward the PC (X/Y/Z), last met, current goal
+ 
 These fields are fixed at creation unless a later scene changes them.
+Current state is the exception. It is rewritten after every interaction.
 
 --------------------------------------------------
-TALENT AND FAILING ALLOCATION
-
-For random NPC generation, certain Talents and Failings
-may manifest at the start of life.
-Roll once on the relevant table at creation.
-The result is fixed unless a later event changes it.
-
-LOOKS
-Roll 1d100.
-
-01–02   Hideous (Failing)     –30   2%   Severe congenital deformity
-03–08   Ugly (Failing)        –20   6%   Markedly asymmetrical, heavily weathered, or visibly off-putting features
-09–20   Homely (Failing)      –10   12%  Plain, coarse, or slightly unbalanced features; easily overlooked
-21–80   None / Ordinary         0   60%  Unremarkable, functional features typical of their stock
-81–92   Comely (Talent)       +10   12%  Pleasant, symmetrical, and healthy features; appealing by local stock standards
-93–98   Beautiful (Talent)    +20   6%   Noticeably handsome or fair; commands immediate positive attention
-99–100  Striking (Talent)     +30   2%   Rare, unforgettable presence; exceptional symmetry and bone structure
-
-The modifier applies to Fellowship tests and to social reactions
-where appearance is relevant.
-It does not alter the base Fellowship characteristic.
-
-If both parents are known, do not roll.
-Average the parents’ Looks modifiers and apply the nearest result
-on the table above.
-A child of two Ordinary parents is Ordinary.
-A child of Beautiful and Homely averages toward Ordinary or Comely
-according to the mean.
-
-Other Talents and Failings
-Additional tables may be added in the same format.
-Occupation and rarity may raise or lower the chance of
-profession-linked Talents, but congenital results such as Looks
-are rolled (or inherited) before occupation is applied.
-
-
+CURRENT STATE
 --------------------------------------------------
-SENSORY TRAITS
---------------------------------------------------
-Rolled at creation for baseline humans.
-Higher grades (20/30) are locked and reserved for beasts or the kind.
-
-HEARING
-Roll 1d100.
-
-01        Hard of Hearing (30)   –30   1%   Profoundly deaf; relies on lip-reading, vibration, and visual cues
-02–04     Hard of Hearing (20)   –20   3%   Severe hearing loss; requires shouting at close range, misses ambient sound
-05–15     Hard of Hearing (10)   –10   11%  Noticeable impairment; struggles in crowds or wind
-16–90     None / Ordinary          0   75%  Standard human baseline
-91–100    Keen Hearing (10)      +10   10%  Natural human cap; sharp, discerning ear
-Locked    Keen Hearing (20/30)  +20/+30  0%  Reserved for beasts / the kind
-
-SIGHT
-Roll 1d100.
-
-01        Poor Sight (30)        –30   1%   Legally blind or severely cataract-clouded; light, shadow, and close shapes only
-02–05     Poor Sight (20)        –20   4%   Heavy refractive error or one eye lost; faces and details blur past a few paces
-06–20     Poor Sight (10)        –10   15%  Near-sighted, far-sighted, or night-strained; misses distant movement or fine print
-21–90     None / Ordinary          0   70%  Standard human baseline; functional vision in usable light
-91–100    Keen Sight (10)        +10   10%  Natural human cap; exceptional acuity, lookout or archer grade
-Locked    Keen Sight (20/30)    +20/+30  0%  Reserved for raptors / the kind
-
-SMELL
-Roll 1d100.
-
-01        Poor Smell (30)        –30   1%   Total anosmia; unable to detect smoke, rot, or gas
-02–03     Poor Smell (20)        –20   2%   Severe hyposmia; detects only overpowering stenches at close range
-04–10     Poor Smell (10)        –10   7%   Dulled sense; misses subtle scents
-11–92     None / Ordinary          0   82%  Standard human baseline
-93–100    Keen Smell (10)        +10   8%   Natural human cap; discerning nose
-Locked    Keen Smell (20/30)    +20/+30  0%  Reserved for hounds / beasts / the kind
-
-Modifiers apply to relevant Perception and skill tests
-(Awareness, Silent Move, Track, etc.) where the sense is used.
-They do not alter the base Perception characteristic.
-Occupational exposure may later worsen a result;
-it does not improve a congenital deficit beyond the table.
-
-
---------------------------------------------------
-SKILLS AND EXPERIENCE SPEND
---------------------------------------------------
-After characteristics are generated, list the skills the NPC possesses.
-Skills begin at Unknown unless granted by pre-adulthood development
-or purchased with Experience.
-
-Calculate the NPC’s total Experience from age and rarity
-(see Core_EXP.txt):
-Adult years (normally from 16) × rarity rate.
-
-Spend the full pool before the NPC is met.
-Experience may be spent on skills or on characteristics.
-Spend only on advances that match the occupation, upbringing, and lived experience.
-Characteristic advances use the cost in Core_EXP.txt (+1 = 10 XP × current tens digit).
-Do not leave unspent Experience unless the GM explicitly reserves it.
-
-General rule for expenditure
-1. Top priority: any skills required for the profession or trade.
-   Buy these to the rank the occupation needs before other spending.
-2. After the profession skills are covered, aim for a loose 50/50
-   allocation between further skills and characteristic advances.
-   The split is a guide, not a hard lock. A labourer may lean
-   toward Strength and Toughness; a clerk may lean toward
-   Intelligence and relevant Lore. Keep the balance visible in the record.
-
-Record each skill with its final rank and the Experience spent to reach it.
-List the remaining unspent total (normally zero).
-
-Example layout under Characteristics:
-
-Skills
-Drive (Cart)          Experienced   525 XP
-Athletics             Proficient    225 XP
-Trade (Porter)        Known          75 XP
-Awareness             Known          75 XP
-...
-Total spent: xxxx XP
-Unspent: 0 XP
-
+Written at creation. Rewritten after every narrative interaction,
+in the same pass as the Memory Book page.
+Three fields. The CHECKS and internal_thoughts read from them.
+ 
+DISPOSITION TOWARD THE PC
+Format: X/Y/Z
+  X  positive inclination: liking, respect, gratitude, desire, kinship, trust
+  Y  negative inclination: dislike, fear, resentment, suspicion, envy, contempt
+  Z  net, always X − Y
+X and Y each run 0–100. Z runs −100 to +100.
+Always record all three. Never record Z alone.
+Example: 35/45/−10
+ 
+Why three numbers
+A single score cannot tell indifference from conflict.
+5/5/0 is a person who does not care. 55/55/0 is a person pulled two ways.
+X and Y carry the context. Z is the quick read.
+ 
+Reading X or Y
+  0        none
+  1–19     faint
+  20–39    mild
+  40–59    real
+  60–79    strong
+  80–100   overwhelming
+ 
+Reading Z (the words match the Campaign_Log faction tracker)
+  +50 or more     Allied
+  +20 to +49      Friendly
+  −19 to +19      Neutral
+  −20 to −49      Wary
+  −50 or less     Hostile
+ 
+When X and Y are both 40 or more, the NPC is torn whatever Z says.
+The monologue shows the conflict. The spoken reply follows whichever side
+the moment is feeding.
+ 
+Setting the first values
+Set them from context before the first monologue.
+A stranger with nothing at stake starts with X and Y each at 0–20.
+Weigh the PC's visible status and conduct, the NPC's culture, occupation,
+rarity, and Fellowship, anything the NPC has heard, and any shared history.
+A Looks modifier may nudge X.
+ 
+Moving them
+X and Y move independently.
+A kindness raises X. It does not erase Y. A theft raises Y. It does not erase X.
+Typical shift in one interaction: 1–10.
+A real favour, betrayal, or injury may move one by up to 30.
+Reaching 0 or 100 is rare and needs a reason in the Memory Book.
+ 
+Disposition colours the monologue and the reply.
+It is not a test modifier unless a Core file says so.
+ 
+LAST MET
+Format: [day] [month] [year and era], [season], [time of day] — [place]
+Day and month: World_Calendar.txt.
+Season: the season bounds in World_Calendar.txt.
+Year and era: as the Campaign_Log writes the current in-world date.
+Place: the Settlement_ or Local Region name, plus the spot
+(the table by the door, the north quay).
+Set to the date and place of the scene that created the profile.
+Rewrite after every interaction with the PC.
+An NPC generated only for a Relations list and not yet met in play
+records: never.
+ 
+CURRENT GOAL
+One or two plain sentences. What the NPC is trying to get done now.
+Not a life ambition: the BIO holds those.
+Set at creation from the BIO's "How did I get here".
+Rewrite when the goal is met, dropped, or overtaken by the interaction.
+Example: Get the stave-load to the yard before the barge-master closes the books.
+ 
 --------------------------------------------------
 RELATIONS
 --------------------------------------------------
 A list of NPCs this character knows.
 Each entry:
-NPC name — link to that NPC_Profile.txt — short summary of the relation.
-
+NPC name — link to that NPC_Profile.txt — disposition X/Y/Z — short summary of the relation.
+ 
+Disposition is the same X/Y/Z matrix as CURRENT STATE, with the same bands.
+It is this NPC's inclination toward the other, not the other's toward this NPC.
+Two profiles may disagree about each other.
+ 
 Example:
-Yard-boss Harl — Harl_Venn_NPC_Profile.txt — Gives the orders for the drive. Respects him. Does not like him.
-Sister Annis — Annis_Holt_NPC_Profile.txt — Younger sister at the stave-camp. Writes when a runner passes.
-
+Yard-boss Harl — Harl_Venn_NPC_Profile.txt — 35/45/−10 — Gives the orders for the drive. Respects him. Does not like him.
+Sister Annis — Annis_Holt_NPC_Profile.txt — 80/5/+75 — Younger sister at the stave-camp. Writes when a runner passes.
+ 
 Update the list when a new NPC is met or when the relation changes.
+Move X and Y by the same rule as CURRENT STATE.
 Empty is allowed if the character knows no named NPCs yet.
-
---------------------------------------------------
-SCENE POPULATION
---------------------------------------------------
-When a scene requires more than one NPC, generate them together
-under the same context.
-
-Procedure
-1. Establish the shared context once
-   (place, time, culture, what is happening, who would reasonably be present).
-2. Decide how many NPCs the scene needs and what roles they fill.
-   Do not generate bystanders who have no function in the scene.
-3. For each NPC:
-   - Run the full generation sequence (context already set, then stats, then bio).
-   - Write one internal_thoughts iteration for this scene only.
-   - Add Relations entries pointing at the other NPCs generated for the same scene.
-4. Mark every profile with the generation note:
-   Generated as if a PC interaction had been triggered in this scene.
-   Only one iteration has been written.
-   Further iterations occur only on subsequent PC interactions.
-
-Named NPCs who are known to the group but not physically present
-(example: a sibling at another camp) may be generated for the Relations list
-but receive no scene iteration.
-
-The system may populate a yard, a road, a hall, or a drive
-with a working team, a household, or a watch
-when the context supports it.
-It does not populate a scene with unnamed extras who will never be addressed.
